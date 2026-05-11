@@ -1,0 +1,22 @@
+# Canonical publication list for awesome-trustworthy-agentic-systems.
+# Schema: see papers/README.md
+# Editorial bar: see CONTRIBUTING.md
+#
+# This file starts intentionally light. Contributions welcome via PR.
+# Each entry should have verified authors, venue, and URL. No fabrication.
+
+papers: []
+
+# Example entry (uncomment and replace when adding the first real paper):
+#
+# papers:
+#   - title: "Example: A Formal Model for Plan-Aware Authorization in LLM Agents"
+#     authors: ["Lastname, Firstname", "Lastname, Firstname"]
+#     year: 2026
+#     venue: "USENIX Security"
+#     layer:
+#       - "permissions"
+#       - "intent"
+#     url: "https://arxiv.org/abs/..."
+#     code: "https://github.com/..."
+#     summary: "Defines a contextual permission model that gates tool calls on extracted-intent constraints; demonstrated on three production agent harnesses."

@@ -1,0 +1,28 @@
+name: Propose a taxonomy change
+description: Suggest a new section, sub-section, or refinement to the layer structure.
+title: "[taxonomy] <Proposed change>"
+labels: ["taxonomy", "discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Taxonomy changes are high-impact — they affect how everything else is organized. These get more discussion than individual entries. Please motivate the change clearly.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What section/sub-section should be added, renamed, merged, or split?
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is the current structure inadequate? What entries (existing or planned) would fit better under the new structure?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other taxonomic shapes you considered and why you rejected them.

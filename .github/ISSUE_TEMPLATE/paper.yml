@@ -1,0 +1,87 @@
+name: Add a paper
+description: Propose a paper for the curated publication list.
+title: "[paper] <Paper title>"
+labels: ["paper", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a paper. Please ensure it meets the editorial bar in [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md): peer-reviewed venue or reputable preprint with clear methodology, primary-source URL, and substantive contribution to one of the harness layers.
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+    validations:
+      required: true
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      description: Comma-separated, "Last, First" format.
+      placeholder: "Smith, Jane, Doe, John"
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Year
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue
+      description: Conference / journal short name, or "arXiv".
+      placeholder: "NeurIPS, USENIX Security, arXiv, ..."
+    validations:
+      required: true
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Primary harness layer
+      description: Which section best fits? (You can list secondary layers in the summary.)
+      options:
+        - foundations
+        - execution-shell
+        - coordination
+        - tool-interface
+        - memory
+        - observation-eval
+        - permissions
+        - intent
+        - transactional-agency
+        - supply-chain
+        - red-team
+        - oversight
+        - architectures
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Primary URL
+      description: arXiv, DOI, or conference proceedings link. Not an aggregator.
+    validations:
+      required: true
+  - type: input
+    id: code
+    attributes:
+      label: Code URL (optional)
+  - type: textarea
+    id: summary
+    attributes:
+      label: One-sentence summary
+      description: What is the contribution and why does it matter for this layer?
+    validations:
+      required: true
+  - type: checkboxes
+    id: editorial
+    attributes:
+      label: Editorial checks
+      options:
+        - label: I have verified the authors, venue, year, and URL.
+          required: true
+        - label: The summary describes the actual contribution, not marketing.
+          required: true
+        - label: I have read [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md).
+          required: true

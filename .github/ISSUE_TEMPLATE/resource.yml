@@ -1,0 +1,72 @@
+name: Add a resource (tool, repo, talk, write-up)
+description: Propose a non-paper resource — tool, repo, recorded talk, blog post, or standard.
+title: "[resource] <Name>"
+labels: ["resource", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for tools, repos, talks, write-ups, or standards. For papers, use the **paper** template. For incidents, use the **incident** template.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource type
+      options:
+        - tool
+        - repo
+        - talk
+        - write-up
+        - standard
+        - dataset
+    validations:
+      required: true
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Primary harness layer
+      options:
+        - foundations
+        - execution-shell
+        - coordination
+        - tool-interface
+        - memory
+        - observation-eval
+        - permissions
+        - intent
+        - transactional-agency
+        - supply-chain
+        - red-team
+        - oversight
+        - architectures
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: One-sentence summary
+      description: What does it do, and why does it matter for this layer?
+    validations:
+      required: true
+  - type: checkboxes
+    id: editorial
+    attributes:
+      label: Editorial checks
+      options:
+        - label: The resource is actively maintained or has documented production use (for tools/repos).
+          required: false
+        - label: The summary describes the actual contribution, not marketing.
+          required: true
+        - label: I have read [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md).
+          required: true

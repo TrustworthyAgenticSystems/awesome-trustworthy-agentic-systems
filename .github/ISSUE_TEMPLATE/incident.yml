@@ -1,0 +1,84 @@
+name: Document an incident
+description: Propose an entry for INCIDENTS.md (a documented agentic-system failure).
+title: "[incident] YYYY-MM-DD — <short title>"
+labels: ["incident", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing an incident. **Primary sources are required.** Unverified social-media reports will not be accepted. See [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md#incident) for the editorial bar.
+  - type: input
+    id: date
+    attributes:
+      label: Date of incident (YYYY-MM-DD)
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: System
+      description: Product / project / pipeline affected.
+    validations:
+      required: true
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Harness layer affected
+      options:
+        - execution-shell
+        - coordination
+        - tool-interface
+        - memory
+        - observation-eval
+        - permissions
+        - intent
+        - transactional-agency
+        - supply-chain
+        - red-team
+        - oversight
+    validations:
+      required: true
+  - type: input
+    id: failure_class
+    attributes:
+      label: Failure class
+      description: Brief category (e.g., "misconfigured release artifact", "prompt injection", "tool over-permission").
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened
+      description: 2-4 sentences, technical detail.
+    validations:
+      required: true
+  - type: textarea
+    id: why_it_matters
+    attributes:
+      label: Why it matters
+      description: 1-2 sentences on the generalizable lesson.
+    validations:
+      required: true
+  - type: input
+    id: primary_source
+    attributes:
+      label: Primary source URL
+      description: Vendor advisory, postmortem, or peer-reviewed analysis. Required.
+    validations:
+      required: true
+  - type: input
+    id: further_reading
+    attributes:
+      label: Further reading (optional)
+      description: Additional analysis links.
+  - type: checkboxes
+    id: editorial
+    attributes:
+      label: Editorial checks
+      options:
+        - label: I have linked a primary source (not social media or news aggregation).
+          required: true
+        - label: All facts in the entry are verifiable from the primary source.
+          required: true
+        - label: I have read [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md).
+          required: true

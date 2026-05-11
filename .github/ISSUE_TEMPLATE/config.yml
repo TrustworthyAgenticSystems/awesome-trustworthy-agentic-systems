@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contributing guide
+    url: https://github.com/TrustworthyAgenticSystems/awesome-trustworthy-agentic-systems/blob/main/CONTRIBUTING.md
+    about: Editorial standards and entry templates. Please read before opening an issue.
