@@ -1,0 +1,38 @@
+# Seed researchers for the bootstrap sweep.
+#
+# The agent looks up each researcher on Semantic Scholar, then pulls their
+# publications from the last N years (default 3 — tune via `python sweep.py
+# bootstrap --years 5`). Found publications are deduped, then classified by
+# Claude against the harness-layer taxonomy.
+#
+# Curation matters: don't add a name unless the researcher's work
+# genuinely fits the trustworthy-agentic-systems-engineering frame.
+# Adding off-topic researchers will produce a lot of skipped classifications
+# (wasted API spend) and risks producing low-quality drafts that need to be
+# culled later. The classifier is conservative, but tight seed input is better.
+#
+# This list ships empty in v1. Populate it before running bootstrap mode.
+#
+# Entry format:
+#
+#   - name: "Full Name"          # required; used for Semantic Scholar lookup
+#     affiliation: "..."          # optional; for your reference only
+#     focus: "..."                # optional; brief note on which layer(s) they work on
+#
+# Tips:
+# - Use the exact name as it appears on their primary publications.
+# - If a name disambiguates poorly (common name, multiple matches), consider
+#   adding an arXiv link to a representative paper as a comment.
+
+researchers: []
+
+# Examples (commented out — replace with real entries before running):
+#
+# researchers:
+#   - name: "Lastname, Firstname"
+#     affiliation: "University / Lab"
+#     focus: "Plan-aware authorization, tool permissions"
+#
+#   - name: "Otherperson, Name"
+#     affiliation: "Security research group"
+#     focus: "Agent supply chain, AI-generated code provenance"

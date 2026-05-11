@@ -1,0 +1,5 @@
+# research-agent writes drafted candidate entries to this directory.
+# Each draft is reviewed via PR and either merged into ../papers.yml
+# (with the draft file deleted) or dropped.
+#
+# See ../../research-agent/README.md for the full workflow.

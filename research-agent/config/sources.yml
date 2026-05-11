@@ -1,0 +1,14 @@
+# Toggle data sources and configure API keys.
+#
+# Secrets (API keys) should be set via environment variables in the GitHub
+# Actions workflow, not committed here. The `api_key` fields below are
+# placeholders that the agent reads — leave them null and set the env vars.
+
+arxiv:
+  enabled: true
+
+semantic_scholar:
+  enabled: true
+  # Optional API key for higher rate limits on the free tier.
+  # Set via the S2_API_KEY env var, not in this file.
+  api_key: null

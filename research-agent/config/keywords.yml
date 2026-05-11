@@ -1,0 +1,95 @@
+# Keyword sets per harness layer.
+#
+# Used to query arXiv. All terms across all layers are OR'd together at the
+# abstract level, then AND'd with the category filter (cs.AI, cs.CR, cs.LG,
+# cs.SE, cs.DC, cs.OS).
+#
+# Keep terms specific. "agent" alone is too noisy; "agent harness" or
+# "agentic system" is much tighter. The classifier will still filter out
+# off-topic hits, but tighter queries mean fewer wasted Claude API calls.
+#
+# Tune as the field's terminology shifts.
+
+layers:
+  foundations:
+    - "agentic system"
+    - "agent harness"
+    - "LLM agent system"
+    - "trustworthy AI agent"
+
+  execution-shell:
+    - "agent sandbox"
+    - "LLM sandbox"
+    - "agent runtime"
+    - "agent execution environment"
+
+  coordination:
+    - "multi-agent coordination"
+    - "agent orchestration"
+    - "agent workflow"
+    - "planner executor agent"
+
+  tool-interface:
+    - "tool use security"
+    - "MCP server"
+    - "tool injection"
+    - "indirect prompt injection"
+    - "agent tool calling"
+
+  memory:
+    - "RAG poisoning"
+    - "agent memory"
+    - "retrieval poisoning"
+    - "context poisoning LLM"
+
+  observation-eval:
+    - "agent evaluation"
+    - "agent tracing"
+    - "LLM agent benchmark"
+    - "agent observability"
+
+  permissions:
+    - "agent permission"
+    - "agent least privilege"
+    - "agent authorization"
+    - "capability-based agent"
+    - "plan-aware authorization"
+
+  intent:
+    - "intent compilation"
+    - "agent constraint"
+    - "policy-aware planning"
+    - "goal verification LLM"
+
+  transactional-agency:
+    - "agent rollback"
+    - "agent checkpoint"
+    - "agent recovery"
+    - "idempotent agent"
+    - "agent compensation"
+
+  supply-chain:
+    - "AI generated code security"
+    - "Copilot security"
+    - "AI code provenance"
+    - "agent supply chain"
+    - "AI generated dependency"
+
+  red-team:
+    - "prompt injection"
+    - "agent jailbreak"
+    - "agent adversarial"
+    - "exploit chain LLM"
+    - "multi-turn attack LLM"
+
+  oversight:
+    - "human oversight LLM"
+    - "AI code review"
+    - "agent governance"
+    - "human-in-the-loop agent"
+
+  architectures:
+    - "agent deployment"
+    - "agent reference architecture"
+    - "agent postmortem"
+    - "production LLM agent"
