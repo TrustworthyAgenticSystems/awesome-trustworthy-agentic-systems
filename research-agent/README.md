@@ -6,7 +6,7 @@ A deep-research agent that bootstraps the publications list from seed researcher
 
 | Mode | What it does | Triggered by |
 |---|---|---|
-| **`bootstrap`** | One-shot. For each researcher in `config/seed_researchers.yml`, fetch their Semantic Scholar publications from the last N years (default 3). Also fetch arXiv submissions matching `config/keywords.yml` over the same window. Dedupe, classify, draft. Expect a few hundred candidates and ~$1–3 in Claude API cost. | Manual via workflow_dispatch |
+| **`bootstrap`** | One-shot. For each researcher in `config/seed_researchers.yml`, fetch their Semantic Scholar publications from the last N years (default 3). Also fetch arXiv submissions matching `config/keywords.yml` over the same window. Dedupe, classify, draft. Expect a few hundred candidates and well under $1 in Gemini API cost. | Manual via workflow_dispatch |
 | **`daily`** | Incremental. Fetch arXiv submissions from the last 24 hours matching the keyword set. Dedupe, classify, draft. Expect 10–50 candidates per day. | Daily cron + manual |
 
 ## How it runs
@@ -20,7 +20,7 @@ GitHub Actions, defined in [`.github/workflows/research-sweep.yml`](../.github/w
 
 | Secret | Purpose | Required? |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | Claude API key for classification | **Required** |
+| `GEMINI_API_KEY` | Google AI Studio API key for classification | **Required** |
 | `S2_API_KEY` | Semantic Scholar API key for higher rate limits | Optional (only for bootstrap on large seed lists) |
 
 Set these in **Settings → Secrets and variables → Actions**.
@@ -50,27 +50,27 @@ Per-source enable toggles. Secrets are passed via env vars (above), not committe
 |---|---|
 | Which sources to query | Config (you) |
 | Which researchers to include | `seed_researchers.yml` (you) |
-| Which fetched papers match the topic | Claude (classification) |
+| Which fetched papers match the topic | Gemini (classification) |
 | Which classified papers end up in `papers.yml` | Human reviewer of the PR (you) |
 
 The agent never writes to `papers/papers.yml` directly. It writes to `papers/drafts/<mode>-<date>.yml` and opens a PR. You review, prune, and migrate accepted entries into `papers.yml` (plus a BibTeX entry in `papers.bib`), then delete the draft file when merging.
 
 ## Costs
 
-Default model is `claude-haiku-4-5` (override via `CLASSIFIER_MODEL` env var; `claude-sonnet-4-6` gives higher classification quality at ~3× the cost). The classifier system prompt is intentionally long enough to cross Haiku 4.5's minimum cacheable prefix, so after the first call per run you pay only the cache-read rate.
+Default model is `gemini-2.5-flash` (override via `CLASSIFIER_MODEL` env var — e.g. `gemini-2.5-flash-lite` for cheapest, `gemini-2.5-pro` for highest quality). Gemini does implicit prefix caching automatically; the classifier system prompt is large and stable across calls, so after the first call per run the cached portion is billed at ~25% of base input rate — no explicit cache markers needed.
 
-Rough estimates (Haiku 4.5, prompt caching active):
+Rough estimates (Gemini 2.5 Flash, paid tier, implicit caching active):
 
 | Mode | Calls | Approx cost |
 |---|---|---|
-| Bootstrap (~500 papers, 3-year backfill) | ~500 | ~$0.50–$1.00 |
-| Daily | ~10–50 | ~$0.02–$0.10 |
+| Bootstrap (~500 papers, 3-year backfill) | ~500 | ~$0.20–$0.40 |
+| Daily | ~10–50 | ~$0.01–$0.05 |
 
 ## First-run checklist
 
 Before the cron starts producing useful PRs:
 
-1. **Set the `ANTHROPIC_API_KEY` secret** (above).
+1. **Set the `GEMINI_API_KEY` secret** (above). Get one at [aistudio.google.com](https://aistudio.google.com/) → API keys.
 2. **Enable PR-creation permissions** (above).
 3. **Populate `config/seed_researchers.yml`** with ~5–15 researchers whose work fits.
 4. **Manually trigger a `bootstrap` run** to validate end-to-end before the cron picks up:
@@ -85,7 +85,7 @@ If classification quality is too aggressive (lots of low-quality drafts) or too 
 ```bash
 cd research-agent
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY=sk-ant-...
+export GEMINI_API_KEY=...
 python sweep.py daily         # incremental sweep, writes to ../papers/drafts/
 python sweep.py bootstrap --years 3
 ```
@@ -104,13 +104,15 @@ research-agent/
 │   ├── fetchers/
 │   │   ├── arxiv.py          # arXiv API client (deterministic, no LLM)
 │   │   └── semantic_scholar.py
-│   ├── classify.py           # Claude API: keep/skip + layer + summary
+│   ├── classify.py           # Gemini API: keep/skip + layer + summary
 │   ├── dedup.py              # match against existing papers.yml
 │   └── render.py             # write to papers/drafts/
 └── sweep.py                  # CLI entry point
 ```
 
-Fetch / dedupe / render are deterministic and free. Only `classify.py` calls Claude, exactly once per candidate paper.
+Fetch / dedupe / render are deterministic and free. Only `classify.py` calls Gemini, exactly once per candidate paper.
+
+To swap providers (e.g. back to Anthropic or to another model): only `classify.py` and `requirements.txt` need to change, plus the secret name in the workflow. The fetchers, dedupe, render, and CLI are provider-agnostic.
 
 ## Adding a new source
 

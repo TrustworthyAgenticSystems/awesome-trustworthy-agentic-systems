@@ -1,13 +1,17 @@
-"""Paper classifier — the only module that calls the Claude API.
+"""Paper classifier — the only module that calls a model provider API.
 
 Uses:
-- claude-haiku-4-5 by default (cheapest model that supports structured outputs)
-  Override via the CLASSIFIER_MODEL env var, e.g. claude-sonnet-4-6 for higher
-  classification quality at ~3x the cost.
-- Prompt caching on the system block. The system prompt is intentionally
-  written long enough (>4096 tokens) to cross Haiku 4.5's minimum cacheable
-  prefix, so per-call cost drops to cache-read pricing after the first call.
-- Structured output via `client.messages.parse()` with a Pydantic model.
+- gemini-2.5-flash by default (cheap, fast, capable for classification).
+  Override via the CLASSIFIER_MODEL env var (e.g. gemini-2.5-flash-lite,
+  gemini-2.5-pro).
+- Implicit prefix caching. Gemini automatically caches stable input prefixes
+  ≥1024 tokens — our system prompt is ~4500 tokens and identical across all
+  calls in a run, so per-call cost drops to cached-token pricing (~25% of
+  base input rate) after the first call.
+- Structured output via response_schema with a Pydantic model.
+
+Reads the API key from the GEMINI_API_KEY env var (set as a GitHub Actions
+secret on the workflow).
 """
 
 from __future__ import annotations
@@ -15,11 +19,12 @@ from __future__ import annotations
 import os
 from typing import List, Literal, Optional
 
-import anthropic
+from google import genai
+from google.genai import types
 from pydantic import BaseModel, Field
 
 
-MODEL = os.environ.get("CLASSIFIER_MODEL", "claude-haiku-4-5")
+MODEL = os.environ.get("CLASSIFIER_MODEL", "gemini-2.5-flash")
 
 
 LayerTag = Literal[
@@ -291,10 +296,12 @@ def classify(
 ) -> Classification:
     """Classify one paper. Returns a validated Classification.
 
-    The system prompt is cached (5-minute ephemeral TTL), so the second and
-    subsequent calls within a sweep run pay only the cache-read price.
+    The system prompt is large and stable across all calls in a sweep run,
+    so Gemini's implicit prefix caching kicks in automatically — per-call
+    cost drops to cached-token pricing after the first call. No explicit
+    cache markers required.
     """
-    client = anthropic.Anthropic()
+    client = genai.Client()  # reads GEMINI_API_KEY from environment
 
     venue_line = f"\nVenue: {venue}" if venue else ""
     if authors:
@@ -311,24 +318,22 @@ def classify(
         f"Abstract:\n{abstract}"
     )
 
-    response = client.messages.parse(
+    response = client.models.generate_content(
         model=MODEL,
-        max_tokens=600,
-        system=[
-            {
-                "type": "text",
-                "text": SYSTEM_PROMPT,
-                "cache_control": {"type": "ephemeral"},
-            }
-        ],
-        messages=[{"role": "user", "content": user_content}],
-        output_format=Classification,
+        contents=user_content,
+        config=types.GenerateContentConfig(
+            system_instruction=SYSTEM_PROMPT,
+            response_mime_type="application/json",
+            response_schema=Classification,
+            temperature=0.0,
+            max_output_tokens=600,
+        ),
     )
 
-    parsed = response.parsed_output
+    parsed = response.parsed
     if parsed is None:
         raise RuntimeError(
             f"Classification parsing failed for paper: {title[:80]!r}; "
-            f"stop_reason={response.stop_reason}"
+            f"response_text={response.text!r}"
         )
     return parsed
