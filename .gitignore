@@ -23,3 +23,6 @@ env/
 
 # Agent run artifacts
 /tmp/
+
+# Generated site data (built from data/ by scripts/build_site.py)
+site/entries.json

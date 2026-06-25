@@ -52,3 +52,6 @@ jobs:
 
       - name: Check README + bib are generated from data/
         run: python scripts/generate.py --check
+
+      - name: Smoke-build the site data
+        run: python scripts/build_site.py
