@@ -77,7 +77,10 @@ The conceptual ground under everything else: the four eras of AI engineering (pr
 - What shared mental models do we need across communities?
 
 ### Resources
-- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+
+<!-- AUTOGEN:START layer=foundations -->
+- **Concrete Problems in AI Safety** (Dario Amodei et al., 2016) — Frames AI safety as a set of concrete engineering problems arising from accidents, defined as unintended and harmful behavior from poorly specified objectives or unsafe exploration. [[paper]](https://arxiv.org/abs/1606.06565) `[arXiv 2016]` `[classic]`
+<!-- AUTOGEN:END layer=foundations -->
 
 ---
 
@@ -96,7 +99,10 @@ The runtime that turns model calls into an agent: message passing, tool invocati
 - Retry loops amplifying transient errors into systemic ones
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=execution-shell -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=execution-shell -->
 
 ---
 
@@ -115,7 +121,10 @@ How multiple agents (or multiple roles within one agent) compose: planner / exec
 - Bypass of human checkpoints via workflow logic
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=coordination -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=coordination -->
 
 ---
 
@@ -134,7 +143,10 @@ The boundary between the agent and the world: tools, APIs, browsers, filesystems
 - Environment coupling & unintended side effects
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=tool-interface -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=tool-interface -->
 
 ---
 
@@ -154,7 +166,10 @@ What the agent reads and remembers: RAG, vector stores, episodic memory, long-te
 - Trust confusion: system vs. external input
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=memory -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=memory -->
 
 ---
 
@@ -173,7 +188,10 @@ How we see what the agent did and decide whether it was good: logging, replay, t
 - Logging gaps that prevent root-cause analysis
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=observation-eval -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=observation-eval -->
 
 ---
 
@@ -192,7 +210,10 @@ Classical least privilege governs what code is **allowed to do**. For agents, we
 - Coarse sandboxing that conflates capabilities
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=permissions -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=permissions -->
 
 ---
 
@@ -211,7 +232,10 @@ Translating natural-language goals into machine-checkable constraints **before**
 - Policy-aware planning bypassed by emergent reasoning
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=intent -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=intent -->
 
 ---
 
@@ -230,7 +254,10 @@ Containing, checkpointing, and rolling back probabilistic side effects. ML asks 
 - Recovery that re-triggers the original failure
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=transactional-agency -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=transactional-agency -->
 
 ---
 
@@ -249,7 +276,10 @@ Build pipelines, CI/CD, packaging, release automation, environment boundaries. M
 - Provenance gaps in AI-generated code
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=supply-chain -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=supply-chain -->
 
 ---
 
@@ -268,7 +298,10 @@ Adversarial testing of the *system*, not just the model. Prompt injection, explo
 - Defenses that pass eval but fail in deployment
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=red-team -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=red-team -->
 
 ---
 
@@ -287,7 +320,10 @@ Review, checkpoints, cognitive load. When coding agents produce code at 42,000×
 - Review interfaces that hide the relevant signal
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=oversight -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=oversight -->
 
 ---
 
@@ -296,7 +332,10 @@ Review, checkpoints, cognitive load. When coding agents produce code at 42,000×
 End-to-end designs and detailed write-ups of real deployments. The published examples are still scarce — this section is high-value-to-fill.
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=architectures -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=architectures -->
 
 ---
 

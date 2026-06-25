@@ -10,8 +10,9 @@ on:
       - 'data/**'
       - 'taxonomy.yml'
       - 'schema/**'
-      - 'scripts/validate.py'
-      - 'scripts/requirements.txt'
+      - 'scripts/**'
+      - 'README.md'
+      - 'papers/papers.bib'
       - '.github/workflows/validate.yml'
   push:
     branches: [main]
@@ -19,7 +20,9 @@ on:
       - 'data/**'
       - 'taxonomy.yml'
       - 'schema/**'
-      - 'scripts/validate.py'
+      - 'scripts/**'
+      - 'README.md'
+      - 'papers/papers.bib'
 
 permissions:
   contents: read
@@ -46,3 +49,6 @@ jobs:
 
       - name: Validate (schema, taxonomy, dedup, links)
         run: python scripts/validate.py
+
+      - name: Check README + bib are generated from data/
+        run: python scripts/generate.py --check

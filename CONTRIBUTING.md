@@ -24,24 +24,43 @@ For maintainers and frequent contributors. Follow the entry templates below.
 
 ## Entry templates
 
-### Paper
-Add to the relevant section in `README.md` **and** to [`papers/papers.yml`](papers/papers.yml). README format:
+> **The README is generated, not hand-edited.** The single source of truth is one
+> YAML file per entry under [`data/<type>/`](data/). The `### Resources` lists in
+> `README.md` and the BibTeX in `papers/papers.bib` are produced from `data/` by
+> `python scripts/generate.py`. Do not edit the content between the `AUTOGEN`
+> markers in `README.md` by hand — it will be overwritten. See
+> [`data/README.md`](data/README.md) for the data model.
 
-```markdown
-- **Title** (Authors et al., Year) — one-line summary of contribution and why it matters for this section. [[paper]](url) [[code]](url) `[venue: VENUE-YEAR]`
-```
+### Add an entry (papers, classics, courses, oss)
+1. Copy [`templates/entry.template.yml`](templates/entry.template.yml) to
+   `data/<type>/<id>.yml`.
+2. Tag it against [`taxonomy.yml`](taxonomy.yml). Both facets are required:
+   `harness_layer` (>=1) and `sprs` (>=1).
+3. Run `python scripts/validate.py` (schema, taxonomy, dead links, dedup), then
+   `python scripts/generate.py` to refresh `README.md` and `papers/papers.bib`.
+4. Commit the entry **and** the regenerated `README.md` / `papers.bib`. CI fails if
+   they are out of sync (`scripts/generate.py --check`).
 
-YAML format in `papers/papers.yml`:
+Example entry shape (`data/papers/2026-example.yml`):
 
 ```yaml
-- title: "Paper Title"
-  authors: ["Last, First", "Last, First"]
-  year: 2026
-  venue: "NeurIPS"
-  layer: "execution-shell"  # one of the 13 thematic sections, kebab-case
-  url: "https://arxiv.org/abs/..."
-  code: "https://github.com/..."  # optional
-  summary: "One sentence on contribution and relevance."
+id: 2026-example
+type: papers
+title: "Paper Title"
+url: "https://arxiv.org/abs/..."
+code: "https://github.com/..."   # optional
+authors: ["Firstname Lastname", "Firstname Lastname"]
+venue: "USENIX Security"
+year: 2026
+summary: >
+  One to four sentences, in your own words, on the contribution and why it
+  matters here. Never paste the abstract.
+harness_layer: ["execution-shell"]   # one or more of the 13 sections
+sprs: ["security"]                    # one or more of: security, privacy, reliability, safety
+provenance:
+  added_by: human
+  drafted_by: your-handle
+status: draft
 ```
 
 ### Incident
