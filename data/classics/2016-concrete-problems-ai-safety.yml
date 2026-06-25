@@ -1,0 +1,46 @@
+id: 2016-concrete-problems-ai-safety
+type: classics
+title: Concrete Problems in AI Safety
+url: https://arxiv.org/abs/1606.06565
+authors:
+  - Dario Amodei
+  - Chris Olah
+  - Jacob Steinhardt
+  - Paul Christiano
+  - John Schulman
+  - Dan Mané
+venue: arXiv
+year: 2016
+
+summary: >
+  Frames AI safety as a set of concrete engineering problems arising from
+  accidents, defined as unintended and harmful behavior from poorly specified
+  objectives or unsafe exploration. Introduces failure categories that map
+  cleanly onto agentic systems, including avoiding negative side effects,
+  safe exploration, and scalable oversight.
+
+harness_layer:
+  - foundations
+sprs:
+  - safety
+  - reliability
+open_problems:
+  - long-horizon-eval
+architecture:
+  - controlled-exploration
+disciplines:
+  - ml
+tags:
+  - foundational
+  - safe-exploration
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Foundational reference for the safety and reliability guarantees. The safe
+    exploration framing is a direct ancestor of the controlled exploration
+    paradigm in the white paper.
+
+status: published

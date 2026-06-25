@@ -1,0 +1,41 @@
+id: 2023-autogen-multi-agent-conversation
+type: papers
+title: "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation"
+url: https://arxiv.org/abs/2308.08155
+code: https://github.com/microsoft/autogen
+authors:
+  - Qingyun Wu
+  - Gagan Bansal
+  - Jieyu Zhang
+  - Yiran Wu
+  - Beibin Li
+  - Erkang Zhu
+venue: arXiv
+year: 2023
+
+summary: >
+  Frames LLM applications as conversations among configurable, role-specialized
+  agents that exchange natural-language messages to solve a task together. The
+  framework standardizes how planner, executor, and reviewer roles compose, and
+  it became a widely used reference implementation for multi-agent coordination.
+
+harness_layer:
+  - coordination
+sprs:
+  - reliability
+disciplines:
+  - ml
+  - systems
+tags:
+  - multi-agent
+  - orchestration
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Reference design for the coordination layer; planner/executor/reviewer
+    composition is exactly the policy-drift surface this section maps.
+
+status: published

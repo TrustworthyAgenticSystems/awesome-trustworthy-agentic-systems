@@ -1,0 +1,41 @@
+id: 2023-toolformer
+type: papers
+title: "Toolformer: Language Models Can Teach Themselves to Use Tools"
+url: https://arxiv.org/abs/2302.04761
+authors:
+  - Timo Schick
+  - Jane Dwivedi-Yu
+  - Roberto Dessì
+  - Roberta Raileanu
+  - Maria Lomeli
+  - Luke Zettlemoyer
+  - Nicola Cancedda
+  - Thomas Scialom
+venue: arXiv
+year: 2023
+
+summary: >
+  Trains a model to decide which API to call, when, and with what arguments
+  using self-supervised annotation that keeps only calls which reduce
+  perplexity. It established that tool use can be learned from the model's own
+  signal rather than hand-built routing, shaping how later harnesses expose
+  tools.
+
+harness_layer:
+  - tool-interface
+sprs:
+  - reliability
+disciplines:
+  - ml
+tags:
+  - tool-use
+  - api-calling
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Canonical reference for learned tool invocation at the tool-interface layer.
+
+status: published

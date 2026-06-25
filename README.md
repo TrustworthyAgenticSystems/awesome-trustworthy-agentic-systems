@@ -77,7 +77,15 @@ The conceptual ground under everything else: the four eras of AI engineering (pr
 - What shared mental models do we need across communities?
 
 ### Resources
-- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+
+<!-- AUTOGEN:START layer=foundations -->
+- **Building Effective Agents** (Erik Schluntz et al., 2024) — A practical engineering guide that separates predictable workflows from open-ended agents and catalogs composable patterns such as prompt chaining, routing, orchestrator-workers, and evaluator-optimizer. [[paper]](https://www.anthropic.com/engineering/building-effective-agents) `[Anthropic 2024]` `[paper]`
+- **Large Language Model Agents (Berkeley MOOC)** (Dawn Song et al., 2024) — A public course on language-model agents covering reasoning, planning, tool use, code generation, multi-agent collaboration, and safety, with lectures from researchers across leading labs. [[course]](https://llmagents-learning.org/f24) `[course]`
+- **Harms from Increasingly Agentic Algorithmic Systems** (Alan Chan et al., 2023) — Characterizes how harms change as algorithmic systems gain autonomy, underspecification, directness of impact, and goal-directedness. [[paper]](https://arxiv.org/abs/2302.10329) `[FAccT 2023]` `[paper]`
+- **Practices for Governing Agentic AI Systems** (Yonadav Shavit et al., 2023) — Proposes baseline operational practices for keeping agentic systems accountable across their lifecycle, including suitability evaluation, constraining the action space, human approval for high-stakes actions, interruptibility, and attributability of actions to a responsible party. [[paper]](https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf) `[OpenAI 2023]` `[paper]`
+- **ReAct: Synergizing Reasoning and Acting in Language Models** (Shunyu Yao et al., 2023) — Interleaves chain-of-thought reasoning with task actions so a language model alternates between thinking and calling external tools or environments. [[paper]](https://arxiv.org/abs/2210.03629) [[code]](https://github.com/ysymyth/ReAct) `[ICLR 2023]` `[paper]`
+- **Concrete Problems in AI Safety** (Dario Amodei et al., 2016) — Frames AI safety as a set of concrete engineering problems arising from accidents, defined as unintended and harmful behavior from poorly specified objectives or unsafe exploration. [[paper]](https://arxiv.org/abs/1606.06565) `[arXiv 2016]` `[classic]`
+<!-- AUTOGEN:END layer=foundations -->
 
 ---
 
@@ -96,7 +104,10 @@ The runtime that turns model calls into an agent: message passing, tool invocati
 - Retry loops amplifying transient errors into systemic ones
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=execution-shell -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=execution-shell -->
 
 ---
 
@@ -115,7 +126,13 @@ How multiple agents (or multiple roles within one agent) compose: planner / exec
 - Bypass of human checkpoints via workflow logic
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=coordination -->
+- **LangGraph** (LangChain, 2024) — A low-level orchestration library for building stateful, multi-actor agent applications with explicit graphs, durable execution, checkpointing, cycles, and human-in-the-loop pauses. [[repo]](https://github.com/langchain-ai/langgraph) `[tool]`
+- **AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation** (Qingyun Wu et al., 2023) — Frames LLM applications as conversations among configurable, role-specialized agents that exchange natural-language messages to solve a task together. [[paper]](https://arxiv.org/abs/2308.08155) [[code]](https://github.com/microsoft/autogen) `[arXiv 2023]` `[paper]`
+- **Generative Agents: Interactive Simulacra of Human Behavior** (Joon Sung Park et al., 2023) — Gives language-model agents a memory stream, periodic reflection, and planning so they produce believable individual and emergent group behavior in a sandbox world. [[paper]](https://arxiv.org/abs/2304.03442) `[UIST 2023]` `[paper]`
+- **ReAct: Synergizing Reasoning and Acting in Language Models** (Shunyu Yao et al., 2023) — Interleaves chain-of-thought reasoning with task actions so a language model alternates between thinking and calling external tools or environments. [[paper]](https://arxiv.org/abs/2210.03629) [[code]](https://github.com/ysymyth/ReAct) `[ICLR 2023]` `[paper]`
+<!-- AUTOGEN:END layer=coordination -->
 
 ---
 
@@ -134,7 +151,12 @@ The boundary between the agent and the world: tools, APIs, browsers, filesystems
 - Environment coupling & unintended side effects
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=tool-interface -->
+- **Model Context Protocol (MCP)** (Anthropic, 2024) — An open standard that gives agents a uniform interface to external tools, data sources, and workflows, so a capability is described once and reused across hosts. [[repo]](https://modelcontextprotocol.io) [[code]](https://github.com/modelcontextprotocol/modelcontextprotocol) `[tool]`
+- **Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection** (Kai Greshake et al., 2023) — Defines indirect prompt injection, where adversarial instructions hidden in external content that an application retrieves are later executed by the model as if they were trusted input. [[paper]](https://arxiv.org/abs/2302.12173) [[code]](https://github.com/greshake/llm-security) `[AISec 2023]` `[paper]`
+- **Toolformer: Language Models Can Teach Themselves to Use Tools** (Timo Schick et al., 2023) — Trains a model to decide which API to call, when, and with what arguments using self-supervised annotation that keeps only calls which reduce perplexity. [[paper]](https://arxiv.org/abs/2302.04761) `[arXiv 2023]` `[paper]`
+<!-- AUTOGEN:END layer=tool-interface -->
 
 ---
 
@@ -154,7 +176,13 @@ What the agent reads and remembers: RAG, vector stores, episodic memory, long-te
 - Trust confusion: system vs. external input
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=memory -->
+- **Generative Agents: Interactive Simulacra of Human Behavior** (Joon Sung Park et al., 2023) — Gives language-model agents a memory stream, periodic reflection, and planning so they produce believable individual and emergent group behavior in a sandbox world. [[paper]](https://arxiv.org/abs/2304.03442) `[UIST 2023]` `[paper]`
+- **MemGPT: Towards LLMs as Operating Systems** (Charles Packer et al., 2023) — Borrows virtual-memory paging from operating systems to manage a tiered context hierarchy, letting the agent move information between a small active context and larger external stores. [[paper]](https://arxiv.org/abs/2310.08560) [[code]](https://github.com/letta-ai/letta) `[arXiv 2023]` `[paper]`
+- **Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection** (Kai Greshake et al., 2023) — Defines indirect prompt injection, where adversarial instructions hidden in external content that an application retrieves are later executed by the model as if they were trusted input. [[paper]](https://arxiv.org/abs/2302.12173) [[code]](https://github.com/greshake/llm-security) `[AISec 2023]` `[paper]`
+- **Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks** (Patrick Lewis et al., 2020) — Combines a parametric generator with a non-parametric dense retriever so a model conditions its output on documents fetched at inference time. [[paper]](https://arxiv.org/abs/2005.11401) `[NeurIPS 2020]` `[classic]`
+<!-- AUTOGEN:END layer=memory -->
 
 ---
 
@@ -173,7 +201,12 @@ How we see what the agent did and decide whether it was good: logging, replay, t
 - Logging gaps that prevent root-cause analysis
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=observation-eval -->
+- **AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents** (Edoardo Debenedetti et al., 2024) — Provides a dynamic benchmark of realistic tool-using agent tasks paired with security test cases, so attacks and defenses are measured on end-to-end agent behavior rather than isolated prompts. [[paper]](https://arxiv.org/abs/2406.13352) [[code]](https://github.com/ethz-spylab/agentdojo) `[NeurIPS Datasets and Benchmarks 2024]` `[paper]`
+- **SWE-bench: Can Language Models Resolve Real-World GitHub Issues?** (Carlos E. Jimenez et al., 2024) — Tasks agents with producing patches that resolve real GitHub issues across many Python repositories, validated by the projects' own test suites. [[paper]](https://arxiv.org/abs/2310.06770) [[code]](https://github.com/princeton-nlp/SWE-bench) `[ICLR 2024]` `[paper]`
+- **tau-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains** (Shunyu Yao et al., 2024) — Evaluates agents on multi-turn tool use while talking to an LLM-simulated user under domain policies, scoring whether the final world state is correct. [[paper]](https://arxiv.org/abs/2406.12045) [[code]](https://github.com/sierra-research/tau-bench) `[arXiv 2024]` `[paper]`
+<!-- AUTOGEN:END layer=observation-eval -->
 
 ---
 
@@ -192,7 +225,10 @@ Classical least privilege governs what code is **allowed to do**. For agents, we
 - Coarse sandboxing that conflates capabilities
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=permissions -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=permissions -->
 
 ---
 
@@ -211,7 +247,10 @@ Translating natural-language goals into machine-checkable constraints **before**
 - Policy-aware planning bypassed by emergent reasoning
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=intent -->
+- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+<!-- AUTOGEN:END layer=intent -->
 
 ---
 
@@ -230,7 +269,11 @@ Containing, checkpointing, and rolling back probabilistic side effects. ML asks 
 - Recovery that re-triggers the original failure
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=transactional-agency -->
+- **LangGraph** (LangChain, 2024) — A low-level orchestration library for building stateful, multi-actor agent applications with explicit graphs, durable execution, checkpointing, cycles, and human-in-the-loop pauses. [[repo]](https://github.com/langchain-ai/langgraph) `[tool]`
+- **Sagas** (Hector Garcia-Molina et al., 1987) — Defines the saga, a long-lived transaction split into a sequence of sub-transactions, each paired with a compensating action that semantically undoes it, so the system either completes or compensates back to consistency. [[paper]](https://www.cs.cornell.edu/andru/cs711/2002fa/reading/sagas.pdf) `[SIGMOD 1987]` `[classic]`
+<!-- AUTOGEN:END layer=transactional-agency -->
 
 ---
 
@@ -249,7 +292,10 @@ Build pipelines, CI/CD, packaging, release automation, environment boundaries. M
 - Provenance gaps in AI-generated code
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=supply-chain -->
+- **OWASP Top 10 for Large Language Model Applications** (OWASP Foundation, 2025) — A community-built awareness standard enumerating the most critical security risks in LLM applications, including prompt injection, insecure output handling, training-data poisoning, and excessive agency. [[paper]](https://owasp.org/www-project-top-10-for-large-language-model-applications/) `[OWASP 2025]` `[classic]`
+<!-- AUTOGEN:END layer=supply-chain -->
 
 ---
 
@@ -268,7 +314,14 @@ Adversarial testing of the *system*, not just the model. Prompt injection, explo
 - Defenses that pass eval but fail in deployment
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=red-team -->
+- **OWASP Top 10 for Large Language Model Applications** (OWASP Foundation, 2025) — A community-built awareness standard enumerating the most critical security risks in LLM applications, including prompt injection, insecure output handling, training-data poisoning, and excessive agency. [[paper]](https://owasp.org/www-project-top-10-for-large-language-model-applications/) `[OWASP 2025]` `[classic]`
+- **AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents** (Edoardo Debenedetti et al., 2024) — Provides a dynamic benchmark of realistic tool-using agent tasks paired with security test cases, so attacks and defenses are measured on end-to-end agent behavior rather than isolated prompts. [[paper]](https://arxiv.org/abs/2406.13352) [[code]](https://github.com/ethz-spylab/agentdojo) `[NeurIPS Datasets and Benchmarks 2024]` `[paper]`
+- **garak: LLM vulnerability scanner** (NVIDIA, 2024) — An open-source scanner that probes language models for failure modes such as prompt injection, jailbreaks, toxic generation, and data leakage, combining static, dynamic, and adaptive probes. [[repo]](https://github.com/NVIDIA/garak) `[tool]`
+- **Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection** (Kai Greshake et al., 2023) — Defines indirect prompt injection, where adversarial instructions hidden in external content that an application retrieves are later executed by the model as if they were trusted input. [[paper]](https://arxiv.org/abs/2302.12173) [[code]](https://github.com/greshake/llm-security) `[AISec 2023]` `[paper]`
+- **Universal and Transferable Adversarial Attacks on Aligned Language Models** (Andy Zou et al., 2023) — Introduces Greedy Coordinate Gradient, an automated method that finds adversarial suffixes which bypass alignment safeguards and transfer across both open and closed models. [[paper]](https://arxiv.org/abs/2307.15043) [[code]](https://github.com/llm-attacks/llm-attacks) `[arXiv 2023]` `[paper]`
+<!-- AUTOGEN:END layer=red-team -->
 
 ---
 
@@ -287,7 +340,10 @@ Review, checkpoints, cognitive load. When coding agents produce code at 42,000×
 - Review interfaces that hide the relevant signal
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=oversight -->
+- **Practices for Governing Agentic AI Systems** (Yonadav Shavit et al., 2023) — Proposes baseline operational practices for keeping agentic systems accountable across their lifecycle, including suitability evaluation, constraining the action space, human approval for high-stakes actions, interruptibility, and attributability of actions to a responsible party. [[paper]](https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf) `[OpenAI 2023]` `[paper]`
+<!-- AUTOGEN:END layer=oversight -->
 
 ---
 
@@ -296,7 +352,10 @@ Review, checkpoints, cognitive load. When coding agents produce code at 42,000×
 End-to-end designs and detailed write-ups of real deployments. The published examples are still scarce — this section is high-value-to-fill.
 
 ### Resources
-- *Contributions welcome.*
+
+<!-- AUTOGEN:START layer=architectures -->
+- **Building Effective Agents** (Erik Schluntz et al., 2024) — A practical engineering guide that separates predictable workflows from open-ended agents and catalogs composable patterns such as prompt chaining, routing, orchestrator-workers, and evaluator-optimizer. [[paper]](https://www.anthropic.com/engineering/building-effective-agents) `[Anthropic 2024]` `[paper]`
+<!-- AUTOGEN:END layer=architectures -->
 
 ---
 

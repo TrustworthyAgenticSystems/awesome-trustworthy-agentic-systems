@@ -1,0 +1,38 @@
+id: 2024-building-effective-agents
+type: papers
+title: Building Effective Agents
+url: https://www.anthropic.com/engineering/building-effective-agents
+authors:
+  - Erik Schluntz
+  - Barry Zhang
+org: Anthropic
+venue: Anthropic
+year: 2024
+
+summary: >
+  A practical engineering guide that separates predictable workflows from
+  open-ended agents and catalogs composable patterns such as prompt chaining,
+  routing, orchestrator-workers, and evaluator-optimizer. It argues for the
+  simplest structure that solves the task, which is a useful counterweight to
+  unnecessary multi-agent complexity.
+
+harness_layer:
+  - architectures
+  - foundations
+sprs:
+  - reliability
+disciplines:
+  - systems
+  - ml
+tags:
+  - design-patterns
+  - reference
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Widely cited practitioner reference for agent architecture decisions.
+
+status: published

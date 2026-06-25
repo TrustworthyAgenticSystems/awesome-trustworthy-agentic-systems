@@ -1,0 +1,42 @@
+id: 2023-react-reasoning-and-acting
+type: papers
+title: "ReAct: Synergizing Reasoning and Acting in Language Models"
+url: https://arxiv.org/abs/2210.03629
+code: https://github.com/ysymyth/ReAct
+authors:
+  - Shunyu Yao
+  - Jeffrey Zhao
+  - Dian Yu
+  - Nan Du
+  - Izhak Shafran
+  - Karthik Narasimhan
+  - Yuan Cao
+venue: ICLR
+year: 2023
+
+summary: >
+  Interleaves chain-of-thought reasoning with task actions so a language model
+  alternates between thinking and calling external tools or environments. The
+  pattern reduces hallucination and error propagation on question answering and
+  interactive decision making, and it became a foundational control loop for
+  later tool-using agents.
+
+harness_layer:
+  - coordination
+  - foundations
+sprs:
+  - reliability
+disciplines:
+  - ml
+tags:
+  - reasoning
+  - tool-use
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Canonical reason-act loop underpinning most tool-using agent harnesses.
+
+status: published

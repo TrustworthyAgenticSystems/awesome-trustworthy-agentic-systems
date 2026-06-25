@@ -1,0 +1,41 @@
+id: model-context-protocol
+type: oss
+title: Model Context Protocol (MCP)
+url: https://modelcontextprotocol.io
+code: https://github.com/modelcontextprotocol/modelcontextprotocol
+org: Anthropic
+year: 2024
+
+summary: >
+  An open standard that gives agents a uniform interface to external tools,
+  data sources, and workflows, so a capability is described once and reused
+  across hosts. Standardizing the tool boundary makes scopes and trust
+  boundaries explicit, which is a prerequisite for least-privilege and
+  plan-aware authorization over tools.
+
+harness_layer:
+  - tool-interface
+sprs:
+  - security
+  - reliability
+open_problems:
+  - least-privilege-reasoning
+risk_phase:
+  - tool
+architecture:
+  - contextual-permission
+disciplines:
+  - systems
+tags:
+  - protocol
+  - tool-interface
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    The de facto tool-interface standard; the place where tool scopes and trust
+    boundaries are declared.
+
+status: published

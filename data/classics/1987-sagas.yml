@@ -1,0 +1,42 @@
+id: 1987-sagas
+type: classics
+title: Sagas
+url: https://www.cs.cornell.edu/andru/cs711/2002fa/reading/sagas.pdf
+authors:
+  - Hector Garcia-Molina
+  - Kenneth Salem
+venue: SIGMOD
+year: 1987
+
+summary: >
+  Defines the saga, a long-lived transaction split into a sequence of
+  sub-transactions, each paired with a compensating action that semantically
+  undoes it, so the system either completes or compensates back to consistency.
+  The pattern is the classical systems answer to partial failure across
+  multi-step side effects, which is exactly the transactional-agency problem for
+  agents.
+
+harness_layer:
+  - transactional-agency
+sprs:
+  - reliability
+open_problems:
+  - transactional-agency
+architecture:
+  - tcib
+disciplines:
+  - systems
+tags:
+  - foundational
+  - compensation
+  - rollback
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    The foundational compensation/rollback pattern that the transactional-agency
+    problem reaches back to.
+
+status: published

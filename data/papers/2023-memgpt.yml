@@ -1,0 +1,43 @@
+id: 2023-memgpt
+type: papers
+title: "MemGPT: Towards LLMs as Operating Systems"
+url: https://arxiv.org/abs/2310.08560
+code: https://github.com/letta-ai/letta
+authors:
+  - Charles Packer
+  - Sarah Wooders
+  - Kevin Lin
+  - Vivian Fang
+  - Shishir G. Patil
+  - Ion Stoica
+  - Joseph E. Gonzalez
+venue: arXiv
+year: 2023
+
+summary: >
+  Borrows virtual-memory paging from operating systems to manage a tiered
+  context hierarchy, letting the agent move information between a small active
+  context and larger external stores. The design treats memory management as a
+  first-class harness concern and gives long-running agents effectively
+  unbounded context.
+
+harness_layer:
+  - memory
+sprs:
+  - reliability
+disciplines:
+  - ml
+  - systems
+tags:
+  - memory
+  - context-management
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Systems-style treatment of agent memory; central to the memory-integrity
+    layer.
+
+status: published
