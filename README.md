@@ -13,8 +13,6 @@
 
 Most existing lists on AI agents index *how to build them*. This list indexes *how to engineer them so they deserve trust*.
 
-The thesis, drawn from the keynote *["From Models to Systems: Engineering Trustworthy AI Agents"](#talks--keynotes)* (CERIAS Annual Cybersecurity Symposium, April 2026):
-
 > Trustworthiness is not a property of model outputs alone. Failures in agentic systems happen in the **full operational stack** — orchestration logic, tool interfaces, memory, permissions, workflows, and human oversight. Engineering trustworthy agents is therefore a *systems* problem, not just a *model* problem.
 
 This list is organized around that reframe. Sections mirror the **harness layers** and **open engineering problems** the field needs to make progress on.
@@ -394,7 +392,7 @@ If this list informs your research or practice, please cite:
 ```bibtex
 @misc{awesome-trustworthy-agentic-systems,
   title  = {awesome-trustworthy-agentic-systems: A curated map of trustworthy agentic systems engineering},
-  author = {Xue, Yuan and contributors},
+  author = {The Trustworthy Agentic Systems contributors},
   year   = {2026},
   url    = {https://github.com/TrustworthyAgenticSystems/awesome-trustworthy-agentic-systems}
 }
@@ -402,4 +400,4 @@ If this list informs your research or practice, please cite:
 
 ## Acknowledgments
 
-Framed by the keynote *"From Models to Systems: Engineering Trustworthy AI Agents"* delivered at the Purdue CERIAS Annual Cybersecurity Symposium, April 2026. Thanks to the cross-community researchers and engineers whose work this list maps.
+Thanks to the cross-community researchers and engineers whose work this list maps.
