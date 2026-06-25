@@ -1,0 +1,42 @@
+id: 2026-03-claude-code-source-map-exposure
+type: incidents
+title: Claude Code source code exposed via npm source map
+url: https://www.infoworld.com/article/4152856/anthropic-employee-error-exposes-claude-code-source.html
+org: Anthropic
+date: "2026-03-31"
+
+summary: >
+  On 31 March 2026 the @anthropic-ai/claude-code npm package shipped version
+  2.1.88 with a JavaScript source map file that referenced the agent's full,
+  unobfuscated TypeScript source, making roughly 512,000 lines across about
+  1,900 files reconstructible by anyone who downloaded the package. The Bun
+  bundler generates source maps by default and they were not excluded from the
+  published artifact. Anthropic pulled the release within hours and described it
+  as a packaging error rather than a breach, with no customer data or
+  credentials exposed. The failure lived in release packaging and build hygiene
+  rather than the model, which is the supply-chain surface this resource tracks.
+
+harness_layer:
+  - supply-chain
+sprs:
+  - security
+disciplines:
+  - systems
+  - security
+tags:
+  - packaging
+  - release-hygiene
+  - source-map
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: yuanxue
+  rationale: >
+    Supply-chain layer, security guarantee. The exposed surface was the harness
+    (tool integrations, control logic, packaging defaults), not model weights,
+    which is the resource's central thesis. Discovered by Chaofan Shou; no formal
+    vendor advisory exists, so a reputable trade-press report is the primary
+    source.
+
+status: published
