@@ -4,9 +4,11 @@ Modes:
   bootstrap  — one-shot sweep across seed researchers + last N years of arXiv
   daily      — incremental sweep of last 24 hours on arXiv
 
-Output: papers/drafts/<mode>-<date>.yml + a final JSON status line on stdout
+Output: one schema-valid draft file per kept entry under
+data/papers/drafts/<id>.yml, plus a final JSON status line on stdout
 ("{"mode": ..., "entries": N}") so the GitHub Actions workflow can decide
-whether to open a PR.
+whether to open a PR. The agent never writes published entries; a human
+reviewer promotes drafts.
 """
 
 from __future__ import annotations
@@ -27,10 +29,15 @@ import yaml
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from agent.classify import classify  # noqa: E402
-from agent.dedup import candidate_keys, is_duplicate, load_existing_keys  # noqa: E402
+from agent.dedup import (  # noqa: E402
+    candidate_keys,
+    is_duplicate,
+    load_existing_ids,
+    load_existing_keys,
+)
 from agent.fetchers import arxiv as arxiv_fetch  # noqa: E402
 from agent.fetchers import semantic_scholar as s2_fetch  # noqa: E402
-from agent.render import render_draft  # noqa: E402
+from agent.render import render_drafts  # noqa: E402
 
 
 logging.basicConfig(
@@ -43,8 +50,8 @@ log = logging.getLogger("research-agent")
 ROOT = Path(__file__).resolve().parent
 REPO_ROOT = ROOT.parent
 CONFIG = ROOT / "config"
-DRAFTS = REPO_ROOT / "papers" / "drafts"
-EXISTING_PAPERS = REPO_ROOT / "papers" / "papers.yml"
+DATA_DIR = REPO_ROOT / "data"
+DRAFTS = DATA_DIR / "papers" / "drafts"
 
 
 # ----- config loading ----------------------------------------------------------
@@ -169,9 +176,13 @@ def _classify_and_filter(
                 "authors": entry.get("authors") or [],
                 "year": entry.get("year"),
                 "venue": entry.get("venue") or "arXiv",
-                "layer": [result.layer],
                 "url": entry.get("url"),
+                "harness_layer": [result.harness_layer],
+                "sprs": list(result.sprs),
+                "open_problems": list(result.open_problems),
+                "confidence": result.confidence,
                 "summary": result.summary,
+                "rationale": result.reason,
             }
         )
 
@@ -182,8 +193,9 @@ def _classify_and_filter(
 
 def run_bootstrap(years: int) -> int:
     researchers, keywords, sources = load_config()
-    existing_keys = load_existing_keys(EXISTING_PAPERS)
-    log.info("loaded %d existing dedup keys", len(existing_keys))
+    existing_keys = load_existing_keys(DATA_DIR)
+    existing_ids = load_existing_ids(DATA_DIR)
+    log.info("loaded %d existing dedup keys, %d ids", len(existing_keys), len(existing_ids))
 
     s2_key = _s2_api_key(sources)
 
@@ -233,16 +245,16 @@ def run_bootstrap(years: int) -> int:
     kept = _classify_and_filter(raw, existing_keys)
     log.info("classifier kept %d entries", len(kept))
 
-    out = DRAFTS / f"bootstrap-{datetime.now(timezone.utc).date().isoformat()}.yml"
-    n = render_draft(kept, out, mode="bootstrap")
-    log.info("wrote %d entries to %s", n, out)
+    n = render_drafts(kept, DRAFTS, existing_ids)
+    log.info("wrote %d draft entries to %s", n, DRAFTS)
     return n
 
 
 def run_daily() -> int:
     _, keywords, sources = load_config()
-    existing_keys = load_existing_keys(EXISTING_PAPERS)
-    log.info("loaded %d existing dedup keys", len(existing_keys))
+    existing_keys = load_existing_keys(DATA_DIR)
+    existing_ids = load_existing_ids(DATA_DIR)
+    log.info("loaded %d existing dedup keys, %d ids", len(existing_keys), len(existing_ids))
 
     if not (sources.get("arxiv") or {}).get("enabled", True):
         log.info("arXiv disabled — nothing to sweep in daily mode")
@@ -264,13 +276,11 @@ def run_daily() -> int:
     kept = _classify_and_filter(raw, existing_keys)
     log.info("classifier kept %d entries", len(kept))
 
-    if not kept:
-        log.info("no qualifying candidates today — no draft written")
-        return 0
-
-    out = DRAFTS / f"daily-{datetime.now(timezone.utc).date().isoformat()}.yml"
-    n = render_draft(kept, out, mode="daily")
-    log.info("wrote %d entries to %s", n, out)
+    n = render_drafts(kept, DRAFTS, existing_ids)
+    if n:
+        log.info("wrote %d draft entries to %s", n, DRAFTS)
+    else:
+        log.info("no qualifying candidates — no drafts written")
     return n
 
 

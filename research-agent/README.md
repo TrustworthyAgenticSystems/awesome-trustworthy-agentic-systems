@@ -1,6 +1,8 @@
 # Research agent
 
-A deep-research agent that bootstraps the publications list from seed researchers + arXiv, then runs daily incremental scans. The agent **drafts**; humans **curate**. Every run produces a PR against `papers/drafts/`; nothing is auto-merged into `papers/papers.yml`.
+A deep-research agent that bootstraps the publications list from seed researchers + arXiv, then runs daily incremental scans. The agent **drafts**; humans **curate**. Every run writes one schema-valid file per candidate to `data/papers/drafts/<id>.yml` at `status: draft` and opens a PR labeled `agent-draft`. Nothing is auto-published — a human promotes accepted drafts into `data/papers/`.
+
+Each draft validates against [`schema/entry.schema.json`](../schema/entry.schema.json) and carries both required facets: a primary `harness_layer` and one or two `sprs` guarantees. The validator gates drafts in CI, so the agent cannot land a malformed or duplicate entry; the human still owns the editorial and publish decision.
 
 ## Modes
 
@@ -50,10 +52,10 @@ Per-source enable toggles. Secrets are passed via env vars (above), not committe
 |---|---|
 | Which sources to query | Config (you) |
 | Which researchers to include | `seed_researchers.yml` (you) |
-| Which fetched papers match the topic | Gemini (classification) |
-| Which classified papers end up in `papers.yml` | Human reviewer of the PR (you) |
+| Which fetched papers match the topic, and their `harness_layer` / `sprs` tags | Gemini (classification) |
+| Which drafts get published, and the final tags | Human reviewer of the PR (you) |
 
-The agent never writes to `papers/papers.yml` directly. It writes to `papers/drafts/<mode>-<date>.yml` and opens a PR. You review, prune, and migrate accepted entries into `papers.yml` (plus a BibTeX entry in `papers.bib`), then delete the draft file when merging.
+The agent never writes to `data/papers/` directly. It writes one file per candidate to `data/papers/drafts/<id>.yml` at `status: draft, provenance.added_by: agent` and opens a PR. To accept a draft, move the file to `data/papers/<id>.yml`, set `status: published`, and record `provenance.reviewed_by`. To reject, delete the file. The README and `papers.bib` regenerate from `data/` automatically (`scripts/generate.py`) — no manual list edits.
 
 ## Costs
 
@@ -86,7 +88,7 @@ If classification quality is too aggressive (lots of low-quality drafts) or too 
 cd research-agent
 pip install -r requirements.txt
 export GEMINI_API_KEY=...
-python sweep.py daily         # incremental sweep, writes to ../papers/drafts/
+python sweep.py daily         # incremental sweep, writes to ../data/papers/drafts/
 python sweep.py bootstrap --years 3
 ```
 
@@ -104,9 +106,9 @@ research-agent/
 │   ├── fetchers/
 │   │   ├── arxiv.py          # arXiv API client (deterministic, no LLM)
 │   │   └── semantic_scholar.py
-│   ├── classify.py           # Gemini API: keep/skip + layer + summary
-│   ├── dedup.py              # match against existing papers.yml
-│   └── render.py             # write to papers/drafts/
+│   ├── classify.py           # Gemini API: keep/skip + harness_layer + sprs + confidence
+│   ├── dedup.py              # match against existing entries in data/
+│   └── render.py             # write schema-valid files to data/papers/drafts/
 └── sweep.py                  # CLI entry point
 ```
 

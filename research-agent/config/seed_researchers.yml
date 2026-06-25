@@ -3,7 +3,7 @@
 # The agent looks up each researcher on Semantic Scholar, then pulls their
 # publications from the last N years (default 3 — tune via `python sweep.py
 # bootstrap --years 5`). Found publications are deduped, then classified by
-# Claude against the harness-layer taxonomy.
+# the model in agent/classify.py against the harness-layer and SPRS taxonomy.
 #
 # Curation matters: don't add a name unless the researcher's work
 # genuinely fits the trustworthy-agentic-systems-engineering frame.
