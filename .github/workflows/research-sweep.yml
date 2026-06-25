@@ -70,28 +70,32 @@ jobs:
           entries=$(python -c "import json,sys; print(json.load(open('/tmp/sweep_result.json'))['entries'])")
           echo "entries=$entries" >> "$GITHUB_OUTPUT"
 
+      - name: Validate drafts (schema + taxonomy + dedup)
+        if: steps.sweep.outputs.entries != '0'
+        run: pip install -r scripts/requirements.txt && python scripts/validate.py --skip-urls
+
       - name: Open PR with drafts
         if: steps.sweep.outputs.entries != '0'
         uses: peter-evans/create-pull-request@v6
         with:
           branch: research-sweep/${{ steps.mode.outputs.mode }}-${{ github.run_number }}
+          labels: agent-draft
           commit-message: "research-agent: drafted candidates from ${{ steps.mode.outputs.mode }} sweep"
           title: "research-agent: ${{ steps.sweep.outputs.entries }} candidate(s) from ${{ steps.mode.outputs.mode }} sweep"
           body: |
             Drafted by the research agent in **${{ steps.mode.outputs.mode }}** mode (run #${{ github.run_number }}).
 
-            **${{ steps.sweep.outputs.entries }} candidate(s)** in `papers/drafts/`.
+            **${{ steps.sweep.outputs.entries }} candidate(s)** in `data/papers/drafts/`, one schema-valid file per entry at `status: draft`. The validator has already passed (schema, taxonomy, dedup); the **Validate entries** check re-runs with live link checking on this PR.
 
             Review each entry against the editorial bar in [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md):
 
-            - [ ] Verify each URL resolves and points to the canonical paper
+            - [ ] Verify the `url` resolves and points to the canonical paper
             - [ ] Verify authors, venue, and year are correct
-            - [ ] Verify the assigned `layer` matches the paper's primary contribution
-            - [ ] Verify the one-line `summary` describes the actual contribution (no marketing language)
-            - [ ] Move kept entries into `papers/papers.yml`
-            - [ ] Add corresponding BibTeX entries to `papers/papers.bib`
-            - [ ] Delete the draft file once merging is complete
+            - [ ] Verify `harness_layer` and `sprs` fit the paper's primary contribution (the agent proposes; you decide)
+            - [ ] Verify the `summary` describes the actual contribution, in our words (no marketing language)
+            - [ ] **Promote kept entries:** move the file to `data/papers/<id>.yml`, set `status: published`, add `provenance.reviewed_by`
+            - [ ] **Reject** the rest by deleting the draft file
 
-            ⚠️ Do not merge entries directly from the draft — `papers/papers.yml` is the canonical source.
+            The README and `papers.bib` regenerate from `data/` automatically — no manual list edits. Triage low `provenance.confidence` first.
           add-paths: |
-            papers/drafts/**
+            data/papers/drafts/**

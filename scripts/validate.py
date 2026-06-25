@@ -154,11 +154,15 @@ def url_resolves(url: str, timeout: float = 10.0) -> tuple[bool, str]:
 
 
 def iter_entry_files():
+    # rglob (recursive) so staging subfolders like data/papers/drafts/ are
+    # validated too: the research agent's drafts must be schema-valid and
+    # non-duplicate before review. The generator and site stay non-recursive
+    # and published-only, so drafts never reach a public artifact.
     for etype in ENTRY_TYPES:
         folder = DATA / etype
         if not folder.is_dir():
             continue
-        for path in sorted(folder.glob("*.yml")):
+        for path in sorted(folder.rglob("*.yml")):
             yield etype, path
 
 

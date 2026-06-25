@@ -6,7 +6,7 @@
 #
 # Keep terms specific. "agent" alone is too noisy; "agent harness" or
 # "agentic system" is much tighter. The classifier will still filter out
-# off-topic hits, but tighter queries mean fewer wasted Claude API calls.
+# off-topic hits, but tighter queries mean fewer wasted classifier API calls.
 #
 # Tune as the field's terminology shifts.
 
