@@ -8,16 +8,17 @@ A curated, primary-source-verified log of documented failures in agentic systems
 
 ---
 
-## 2025
+## 2026
 
-### 2025-03 — Claude Code source map exposure
-- **System:** Anthropic Claude Code (npm package distribution)
+### 2026-03-31 — Claude Code source code exposed via npm source map
+- **System:** Anthropic Claude Code (`@anthropic-ai/claude-code` npm package, v2.1.88)
 - **Layer affected:** `supply-chain`
 - **Failure class:** Misconfigured release artifact (build/CI configuration)
-- **What happened:** The Claude Code npm package was published with JavaScript `.map` (source map) files included by default. Source maps in modern web development bridge compiled/obfuscated code back to original sources. By shipping them, the build effectively made the proprietary agent logic — internal functions, comments, and non-public control flow — fully reconstructible by anyone who downloaded the package.
-- **Why it matters:** The model didn't fail. The harness around it did. What was exposed was not weights but **tool integrations, control logic, permission assumptions, and operational scaffolding** — the very layer this list is about. The fix wasn't retraining; it was updating `.npmignore` and CI scripts. As coding agents accelerate release velocity (Claude Code reached ~4% of all public GitHub commits within 13 months of preview), familiar software-engineering surfaces — packaging defaults, build hygiene, release automation — become the highest-leverage failure points.
-- **Primary source:** Anthropic Security Advisory, March 2025.
-- **Generalizable lesson:** *If agents are software systems, then AI security must include software systems security.* Human review cannot keep pace with AI-generated release velocity; the cognitive load of reviewing AI output at 42,000× growth rates breaks traditional assurance processes.
+- **What happened:** Version 2.1.88 of the Claude Code npm package shipped with a JavaScript source map (`.map`) file that referenced the agent's full, unobfuscated TypeScript source — roughly 512,000 lines across about 1,900 files. The Bun bundler the project uses generates source maps by default, and the artifact was not excluded from the published package, so anyone who downloaded it could reconstruct internal functions, comments, and non-public control flow. Security researcher Chaofan Shou disclosed it publicly, and Anthropic pulled the release within hours.
+- **Why it matters:** The model didn't fail. The harness around it did. What was exposed was not weights but **tool integrations, control logic, permission assumptions, and operational scaffolding** — the very layer this list is about. The fix wasn't retraining; it was packaging hygiene (excluding `.map` files, auditing `npm pack` output, disabling production source maps). As coding agents accelerate release velocity, familiar software-engineering surfaces — packaging defaults, build hygiene, release automation — become the highest-leverage failure points.
+- **Primary source:** [InfoWorld — "Anthropic employee error exposes Claude Code source"](https://www.infoworld.com/article/4152856/anthropic-employee-error-exposes-claude-code-source.html) (April 2026). Anthropic issued no formal advisory; it characterized the event as "a release packaging issue caused by human error, not a security breach."
+- **Further reading:** [InfoQ — "Anthropic Accidentally Exposes Claude Code Source via npm Source Map File"](https://www.infoq.com/news/2026/04/claude-code-source-leak/).
+- **Generalizable lesson:** *If agents are software systems, then AI security must include software systems security.* Human review cannot keep pace with AI-generated release velocity; packaging defaults and build automation deserve the same scrutiny as model behavior.
 
 ---
 

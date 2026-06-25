@@ -78,7 +78,9 @@ def build() -> str:
         "entries": load_published(),
     }
     payload["count"] = len(payload["entries"])
-    return json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    # default=str coerces any stray YAML date/datetime to ISO text (the schema
+    # wants date as a quoted string; this is defense in depth if one slips by).
+    return json.dumps(payload, ensure_ascii=False, indent=2, default=str) + "\n"
 
 
 def main() -> int:

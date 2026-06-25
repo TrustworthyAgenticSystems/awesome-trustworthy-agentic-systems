@@ -287,7 +287,7 @@ Build pipelines, CI/CD, packaging, release automation, environment boundaries. M
 - What does SBOM mean when components are model + prompts + tools + memory?
 
 ### Failure modes
-- Misconfigured build artifacts (see [INCIDENTS.md](INCIDENTS.md): Claude Code source map exposure, 2025)
+- Misconfigured build artifacts (see [INCIDENTS.md](INCIDENTS.md): Claude Code source map exposure, 2026)
 - Compromised dependency suggestions from coding agents
 - Provenance gaps in AI-generated code
 

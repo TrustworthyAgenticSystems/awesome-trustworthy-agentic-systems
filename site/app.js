@@ -94,6 +94,7 @@
     else if (e.org) metaBits.push(e.org);
     if (e.venue) metaBits.push(e.venue);
     if (e.year) metaBits.push(String(e.year));
+    else if (e.date) metaBits.push(e.date);  // incidents carry a date, not a year
     const meta = el("p", { className: "card-meta", textContent: metaBits.join("  ·  ") });
 
     const summary = el("p", { className: "card-summary" }, highlight(e.summary || ""));
