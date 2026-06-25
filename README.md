@@ -400,4 +400,4 @@ If this list informs your research or practice, please cite:
 
 ## Acknowledgments
 
-Framed by the keynote *"From Models to Systems: Engineering Trustworthy AI Agents"* delivered at the Purdue CERIAS Annual Cybersecurity Symposium, April 2026. Thanks to the cross-community researchers and engineers whose work this list maps.
+Thanks to the cross-community researchers and engineers whose work this list maps.
