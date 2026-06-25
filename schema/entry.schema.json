@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://trustworthy-agentic-systems/schema/entry.schema.json",
+  "title": "Resource entry",
+  "type": "object",
+  "required": ["id", "type", "title", "url", "summary", "harness_layer", "sprs", "provenance", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Stable slug, unique across the repo. e.g. 2016-concrete-problems-ai-safety"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["papers", "classics", "courses", "oss", "incidents"]
+    },
+    "title": { "type": "string", "minLength": 3 },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Primary source. Must resolve. Verified by validator and reviewer."
+    },
+    "code": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional code/repo link (papers, oss)."
+    },
+    "authors": { "type": "array", "items": { "type": "string" } },
+    "org": { "type": "string" },
+    "venue": { "type": "string", "description": "Conference / journal / 'arXiv' (papers)." },
+    "year": { "type": "integer", "minimum": 1950, "maximum": 2100 },
+    "date": { "type": "string", "format": "date", "description": "For incidents and news." },
+    "summary": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 700,
+      "description": "2-4 sentences, our own words. Never source text verbatim."
+    },
+    "harness_layer": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Structural facet: where in the agent's operational stack this sits.",
+      "items": {
+        "enum": [
+          "foundations",
+          "execution-shell",
+          "coordination",
+          "tool-interface",
+          "memory",
+          "observation-eval",
+          "permissions",
+          "intent",
+          "transactional-agency",
+          "supply-chain",
+          "red-team",
+          "oversight",
+          "architectures"
+        ]
+      }
+    },
+    "sprs": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Guarantee facet: which system guarantee this serves.",
+      "items": { "enum": ["security", "privacy", "reliability", "safety"] }
+    },
+    "open_problems": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "transactional-agency",
+          "least-privilege-reasoning",
+          "intent-to-constraints",
+          "observability-attribution",
+          "long-horizon-eval"
+        ]
+      }
+    },
+    "architecture": {
+      "type": "array",
+      "items": {
+        "enum": ["tcib", "controlled-exploration", "contextual-permission", "plan-aware-authorization"]
+      }
+    },
+    "risk_phase": {
+      "type": "array",
+      "items": { "enum": ["prompt", "context", "tool", "agent"] }
+    },
+    "disciplines": {
+      "type": "array",
+      "items": { "enum": ["ml", "systems", "security", "hci-governance"] }
+    },
+    "related": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "ids of related entries. Auto-suggested by agent, confirmed by reviewer."
+    },
+    "external_refs": {
+      "type": "object",
+      "description": "For incidents: ids in upstream databases we ingest from.",
+      "additionalProperties": false,
+      "properties": {
+        "aiid": { "type": "string" },
+        "aiaaic": { "type": "string" },
+        "oecd": { "type": "string" },
+        "mitre_atlas": { "type": "string" }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "provenance": {
+      "type": "object",
+      "required": ["added_by"],
+      "additionalProperties": false,
+      "properties": {
+        "added_by": { "enum": ["agent", "human"] },
+        "drafted_by": { "type": "string" },
+        "reviewed_by": { "type": "string", "description": "Required before status can be published." },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "rationale": { "type": "string", "description": "Why these tags. Agent fills this in." }
+      }
+    },
+    "status": { "type": "string", "enum": ["draft", "in-review", "published"] }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "published" } } },
+      "then": {
+        "properties": {
+          "provenance": { "required": ["reviewed_by"] }
+        }
+      }
+    }
+  ]
+}

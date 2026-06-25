@@ -1,0 +1,46 @@
+# Copy this file into data/<type>/<id>.yml and fill it in.
+# Values for tagged fields must exist in taxonomy.yml. The validator enforces this.
+
+id:            # stable slug, e.g. 2016-concrete-problems-ai-safety
+type:          # papers | classics | courses | oss | incidents
+title:
+url:           # primary source, must resolve
+code:          # optional code/repo link (papers, oss)
+authors: []    # optional
+org:           # optional
+venue:         # optional (papers): conference / journal / arXiv
+year:          # optional integer
+date:          # optional, YYYY-MM-DD (incidents/news)
+
+summary: >     # 2-4 sentences, our own words, never source text verbatim
+
+# Two required facets:
+harness_layer: []  # >=1 of: foundations, execution-shell, coordination, tool-interface,
+                   #         memory, observation-eval, permissions, intent,
+                   #         transactional-agency, supply-chain, red-team, oversight, architectures
+sprs: []           # >=1 of: security, privacy, reliability, safety
+
+# Optional facets:
+open_problems: []  # transactional-agency, least-privilege-reasoning, intent-to-constraints,
+                   # observability-attribution, long-horizon-eval
+architecture: []   # tcib, controlled-exploration, contextual-permission, plan-aware-authorization
+risk_phase: []     # prompt, context, tool, agent
+disciplines: []    # ml, systems, security, hci-governance
+related: []        # ids of related entries
+tags: []           # free-text
+
+# Incidents only:
+# external_refs:
+#   aiid:
+#   aiaaic:
+#   oecd:
+#   mitre_atlas:
+
+provenance:
+  added_by: human       # human | agent
+  drafted_by:           # name or agent id
+  reviewed_by:          # required before status: published
+  confidence:           # optional 0..1 (agent-set)
+  rationale:            # why these tags (agent fills this in)
+
+status: draft           # draft | in-review | published

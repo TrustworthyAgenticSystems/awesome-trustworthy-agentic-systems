@@ -1,0 +1,48 @@
+name: Validate entries
+
+# The automated half of the review gate: every PR touching data/, taxonomy,
+# or the schema must pass schema + taxonomy + dedup + link checks before a
+# human reviews. Pushes to main run it too, as a backstop.
+
+on:
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'taxonomy.yml'
+      - 'schema/**'
+      - 'scripts/validate.py'
+      - 'scripts/requirements.txt'
+      - '.github/workflows/validate.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'taxonomy.yml'
+      - 'schema/**'
+      - 'scripts/validate.py'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Validate (schema, taxonomy, dedup, links)
+        run: python scripts/validate.py

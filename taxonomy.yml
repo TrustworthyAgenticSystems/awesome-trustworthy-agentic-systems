@@ -1,0 +1,130 @@
+# Controlled vocabulary for entry tagging. Single source of truth.
+# Entries may only use values defined here. To add a value, edit this file under review.
+#
+# Two facets are required on every entry (see schema/entry.schema.json):
+#   - harness_layer : WHERE in the agent's operational stack the work sits (structural).
+#                     This is how the README and website are organized.
+#   - sprs          : WHICH system guarantee it serves (Security/Privacy/Reliability/Safety).
+#                     This is the white-paper framework, carried so the resource maps the
+#                     field rather than only listing links.
+# The remaining axes (open_problems, architecture, risk_phase, disciplines) are optional.
+
+# --- Facet 1: harness layers (structural). The 13 thematic sections of the README. ---
+harness_layer:
+  - id: foundations
+    label: Foundations & Mental Models
+    note: Eras of AI engineering, cross-community translation, model-safety to system-engineering shift.
+  - id: execution-shell
+    label: Execution Shell
+    note: Sandboxing, state, turn control, retries. The runtime that turns model calls into an agent.
+  - id: coordination
+    label: Coordination Layer
+    note: Planner/executor separation, specialist agents, reviewer roles, routing, multi-agent composition.
+  - id: tool-interface
+    label: Environment & Tool Interfaces
+    note: How the agent touches the outside world; tool invocation and its risks.
+  - id: memory
+    label: Memory & Context Integrity
+    note: Retrieval, memory, context poisoning.
+  - id: observation-eval
+    label: Observation, Tracing & Evaluation
+    note: Instrumentation, tracing, trajectory- and workflow-level evaluation.
+  - id: permissions
+    label: Permissions & Least Privilege for Reasoning Systems
+    note: Context- and intent-dependent access, including to internal knowledge.
+  - id: intent
+    label: Intent Compilation
+    note: Translating natural-language intent into enforceable, validatable constraints.
+  - id: transactional-agency
+    label: Transactional Agency
+    note: Checkpointing, rollback, compensation, recovery for multi-step side effects.
+  - id: supply-chain
+    label: Agent Supply Chain Security
+    note: Packaging, build hygiene, dependency and release-automation risk.
+  - id: red-team
+    label: Red Teaming for Agentic Systems
+    note: Adversarial evaluation, exploit chaining, attack discovery.
+  - id: oversight
+    label: Human Oversight at Scale
+    note: Review checkpoints, escalation, governance under AI-generated velocity.
+  - id: architectures
+    label: Reference Architectures & Case Studies
+    note: End-to-end designs and deployed-system writeups.
+
+# --- Facet 2: SPRS (guarantee). The four system guarantees from the white paper. ---
+sprs:
+  - id: security
+    label: Security
+    note: Constraining agent behavior within authorized boundaries.
+  - id: privacy
+    label: Privacy
+    note: Protecting sensitive information as agents retrieve, process, and generate data.
+  - id: reliability
+    label: Reliability
+    note: Stability and consistency of long-running workflows under failure or uncertainty.
+  - id: safety
+    label: Safety
+    note: Preventing harmful real-world outcomes from agent actions.
+
+# --- Optional: the five open research problems from the white paper. ---
+open_problems:
+  - id: transactional-agency
+    label: Transactional Agency
+    note: Checkpointing, rollback, compensation, recovery for multi-step side effects.
+  - id: least-privilege-reasoning
+    label: Least Privilege for Reasoning
+    note: Context- and intent-dependent access, including to internal knowledge.
+  - id: intent-to-constraints
+    label: From Intent to Constraints
+    note: Translating natural-language intent into enforceable, validatable constraints.
+  - id: observability-attribution
+    label: Observability, Auditing, and Attribution
+    note: Instrumentation of actions and reasoning states for debugging and governance.
+  - id: long-horizon-eval
+    label: Evaluating Long-Horizon Behavior
+    note: Trajectory- and workflow-level evaluation beyond static benchmarks.
+
+# --- Optional: architectural ideas the entry contributes to. ---
+architecture:
+  - id: tcib
+    label: Trusted Computing and Intelligence Base
+  - id: controlled-exploration
+    label: Controlled Exploration
+  - id: contextual-permission
+    label: Contextual Permission
+  - id: plan-aware-authorization
+    label: Plan-Aware Authorization
+
+# --- Optional: risk surface phase (Evolution of Risk Surfaces). Mainly incidents/systems. ---
+risk_phase:
+  - id: prompt
+    label: Prompt systems
+    note: Input/output manipulation.
+  - id: context
+    label: Context systems
+    note: Retrieval and memory, data poisoning.
+  - id: tool
+    label: Tool systems
+    note: Multi-step workflows, exploit chaining.
+  - id: agent
+    label: Agent systems
+    note: Autonomous planning, system-level failure.
+
+# --- Optional: contributing discipline. ---
+disciplines:
+  - id: ml
+    label: Machine Learning
+  - id: systems
+    label: Computer Systems and Networks
+  - id: security
+    label: Security and Privacy
+  - id: hci-governance
+    label: HCI and Governance
+
+# --- Entry types. ---
+entry_types:
+  - papers      # current research, trend signal
+  - classics    # canonical / foundational works
+  - courses     # courses, lectures, syllabi
+  - oss         # open-source projects
+  - incidents   # security/safety incidents
