@@ -394,7 +394,7 @@ If this list informs your research or practice, please cite:
 ```bibtex
 @misc{awesome-trustworthy-agentic-systems,
   title  = {awesome-trustworthy-agentic-systems: A curated map of trustworthy agentic systems engineering},
-  author = {Xue, Yuan and contributors},
+  author = {The Trustworthy Agentic Systems contributors},
   year   = {2026},
   url    = {https://github.com/TrustworthyAgenticSystems/awesome-trustworthy-agentic-systems}
 }
