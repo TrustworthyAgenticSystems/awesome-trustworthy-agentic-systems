@@ -114,8 +114,12 @@ def render_bullet(entry: dict) -> str:
 
 
 def render_layer(entries: list[dict], layer: str) -> str:
+    # Only published entries reach the public README. Draft / in-review entries
+    # live in data/ and pass validation, but stay out of the rendered artifact
+    # until a human flips them to published (the review gate).
     matching = [e for e in entries if layer in (e.get("harness_layer") or [])
-                and e.get("type") != "incidents"]
+                and e.get("type") != "incidents"
+                and e.get("status") == "published"]
     # Most recent first, then alphabetical by title.
     matching.sort(key=lambda e: (-(e.get("year") or 0), e.get("title", "")))
     if not matching:
@@ -172,7 +176,8 @@ def build_bib(entries: list[dict]) -> str:
         "% GENERATED from data/ by scripts/generate.py. Do not edit by hand.\n"
         "% Run: python scripts/generate.py\n"
     )
-    pubs = [e for e in entries if e.get("type") in ("papers", "classics")]
+    pubs = [e for e in entries if e.get("type") in ("papers", "classics")
+            and e.get("status") == "published"]
     pubs.sort(key=lambda e: (-(e.get("year") or 0), e.get("id", "")))
     blocks = [header]
     for e in pubs:

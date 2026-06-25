@@ -1,0 +1,45 @@
+id: 2023-universal-transferable-adversarial-attacks
+type: papers
+title: Universal and Transferable Adversarial Attacks on Aligned Language Models
+url: https://arxiv.org/abs/2307.15043
+code: https://github.com/llm-attacks/llm-attacks
+authors:
+  - Andy Zou
+  - Zifan Wang
+  - Nicholas Carlini
+  - Milad Nasr
+  - J. Zico Kolter
+  - Matt Fredrikson
+venue: arXiv
+year: 2023
+
+summary: >
+  Introduces Greedy Coordinate Gradient, an automated method that finds
+  adversarial suffixes which bypass alignment safeguards and transfer across
+  both open and closed models. It showed that jailbreaks can be discovered
+  programmatically rather than hand-crafted, which raises the bar for any
+  prompt-level defense.
+
+harness_layer:
+  - red-team
+sprs:
+  - security
+  - safety
+risk_phase:
+  - prompt
+disciplines:
+  - security
+  - ml
+tags:
+  - jailbreak
+  - adversarial-attack
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Landmark automated-jailbreak result; core red-teaming reference at the
+    prompt risk phase.
+
+status: published

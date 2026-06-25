@@ -1,0 +1,46 @@
+id: 2023-governing-agentic-ai-systems
+type: papers
+title: Practices for Governing Agentic AI Systems
+url: https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf
+authors:
+  - Yonadav Shavit
+  - Sandhini Agarwal
+  - Miles Brundage
+  - Steven Adler
+  - Cullen O'Keefe
+  - Rosie Campbell
+org: OpenAI
+venue: OpenAI
+year: 2023
+
+summary: >
+  Proposes baseline operational practices for keeping agentic systems
+  accountable across their lifecycle, including suitability evaluation,
+  constraining the action space, human approval for high-stakes actions,
+  interruptibility, and attributability of actions to a responsible party.
+  It is one of the clearest early statements of governance primitives for
+  deployed agents.
+
+harness_layer:
+  - oversight
+  - foundations
+sprs:
+  - safety
+  - security
+open_problems:
+  - observability-attribution
+disciplines:
+  - hci-governance
+tags:
+  - governance
+  - human-oversight
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Direct source on the oversight layer; attributability and interruptibility
+    map onto the observability and human-oversight problems.
+
+status: published

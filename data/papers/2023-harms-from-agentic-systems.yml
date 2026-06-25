@@ -1,0 +1,41 @@
+id: 2023-harms-from-agentic-systems
+type: papers
+title: Harms from Increasingly Agentic Algorithmic Systems
+url: https://arxiv.org/abs/2302.10329
+authors:
+  - Alan Chan
+  - Rebecca Salganik
+  - Alva Markelius
+  - Chris Pang
+  - Nitarshan Rajkumar
+  - Dmitrii Krasheninnikov
+venue: FAccT
+year: 2023
+
+summary: >
+  Characterizes how harms change as algorithmic systems gain autonomy,
+  underspecification, directness of impact, and goal-directedness. It connects
+  prior fairness and safety scholarship to the agentic setting and argues that
+  increasing agency reshapes accountability rather than only amplifying existing
+  risks.
+
+harness_layer:
+  - foundations
+sprs:
+  - safety
+disciplines:
+  - hci-governance
+  - ml
+tags:
+  - governance
+  - taxonomy-of-harms
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Foundational framing of why agency itself is the risk multiplier, anchoring
+    the foundations section.
+
+status: published

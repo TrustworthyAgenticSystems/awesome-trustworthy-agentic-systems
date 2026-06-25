@@ -1,0 +1,42 @@
+id: 2020-retrieval-augmented-generation
+type: classics
+title: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
+url: https://arxiv.org/abs/2005.11401
+authors:
+  - Patrick Lewis
+  - Ethan Perez
+  - Aleksandra Piktus
+  - Fabio Petroni
+  - Vladimir Karpukhin
+  - Naman Goyal
+venue: NeurIPS
+year: 2020
+
+summary: >
+  Combines a parametric generator with a non-parametric dense retriever so a
+  model conditions its output on documents fetched at inference time. The
+  retrieve-then-generate pattern is the basis of most context systems in
+  agents, and it is also where retrieval poisoning and trust-confusion risks
+  enter.
+
+harness_layer:
+  - memory
+sprs:
+  - reliability
+risk_phase:
+  - context
+disciplines:
+  - ml
+tags:
+  - retrieval
+  - foundational
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Foundational retrieval pattern underlying the memory and context-integrity
+    layer, and the entry point for context-poisoning risk.
+
+status: published

@@ -1,0 +1,44 @@
+id: 2024-swe-bench
+type: papers
+title: "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
+url: https://arxiv.org/abs/2310.06770
+code: https://github.com/princeton-nlp/SWE-bench
+authors:
+  - Carlos E. Jimenez
+  - John Yang
+  - Alexander Wettig
+  - Shunyu Yao
+  - Kexin Pei
+  - Ofir Press
+  - Karthik Narasimhan
+venue: ICLR
+year: 2024
+
+summary: >
+  Tasks agents with producing patches that resolve real GitHub issues across
+  many Python repositories, validated by the projects' own test suites. Grounding
+  evaluation in executable repository state and real maintenance work made it a
+  standard yardstick for coding agents and their reliability.
+
+harness_layer:
+  - observation-eval
+sprs:
+  - reliability
+open_problems:
+  - long-horizon-eval
+disciplines:
+  - ml
+  - systems
+tags:
+  - benchmark
+  - coding-agents
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Execution-grounded, workflow-level benchmark central to evaluating coding
+    agents.
+
+status: published

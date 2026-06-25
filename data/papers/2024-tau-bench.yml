@@ -1,0 +1,42 @@
+id: 2024-tau-bench
+type: papers
+title: "tau-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains"
+url: https://arxiv.org/abs/2406.12045
+code: https://github.com/sierra-research/tau-bench
+authors:
+  - Shunyu Yao
+  - Noah Shinn
+  - Pedram Razavi
+  - Karthik Narasimhan
+org: Sierra
+venue: arXiv
+year: 2024
+
+summary: >
+  Evaluates agents on multi-turn tool use while talking to an LLM-simulated user
+  under domain policies, scoring whether the final world state is correct. It
+  exposes that leading agents complete under half of tasks and behave
+  inconsistently across repeated runs, making reliability and policy adherence
+  measurable.
+
+harness_layer:
+  - observation-eval
+sprs:
+  - reliability
+open_problems:
+  - long-horizon-eval
+disciplines:
+  - ml
+tags:
+  - benchmark
+  - reliability
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Trajectory-level reliability benchmark; a direct instance of evaluating
+    long-horizon behavior.
+
+status: published

@@ -1,0 +1,47 @@
+id: 2024-agentdojo
+type: papers
+title: "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents"
+url: https://arxiv.org/abs/2406.13352
+code: https://github.com/ethz-spylab/agentdojo
+authors:
+  - Edoardo Debenedetti
+  - Jie Zhang
+  - Mislav Balunović
+  - Luca Beurer-Kellner
+  - Marc Fischer
+  - Florian Tramèr
+venue: NeurIPS Datasets and Benchmarks
+year: 2024
+
+summary: >
+  Provides a dynamic benchmark of realistic tool-using agent tasks paired with
+  security test cases, so attacks and defenses are measured on end-to-end agent
+  behavior rather than isolated prompts. It moves prompt-injection evaluation
+  from static strings to executable, workflow-level adversarial testing.
+
+harness_layer:
+  - red-team
+  - observation-eval
+sprs:
+  - security
+open_problems:
+  - long-horizon-eval
+risk_phase:
+  - tool
+  - agent
+disciplines:
+  - security
+  - ml
+tags:
+  - benchmark
+  - prompt-injection
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Bridges red-teaming and evaluation; workflow-level injection testing fits
+    the long-horizon-eval problem.
+
+status: published

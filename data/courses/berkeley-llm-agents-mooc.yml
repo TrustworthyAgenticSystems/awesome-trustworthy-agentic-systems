@@ -1,0 +1,35 @@
+id: berkeley-llm-agents-mooc
+type: courses
+title: Large Language Model Agents (Berkeley MOOC)
+url: https://llmagents-learning.org/f24
+authors:
+  - Dawn Song
+  - Xinyun Chen
+org: UC Berkeley
+year: 2024
+
+summary: >
+  A public course on language-model agents covering reasoning, planning, tool
+  use, code generation, multi-agent collaboration, and safety, with lectures
+  from researchers across leading labs. It is one of the few structured, openly
+  available curricula that treats agent trustworthiness as a core topic.
+
+harness_layer:
+  - foundations
+sprs:
+  - safety
+  - reliability
+disciplines:
+  - ml
+tags:
+  - course
+  - curriculum
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Leading open curriculum on agents; foundational teaching resource.
+
+status: published

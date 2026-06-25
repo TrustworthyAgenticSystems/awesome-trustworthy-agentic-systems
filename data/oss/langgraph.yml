@@ -1,0 +1,37 @@
+id: langgraph
+type: oss
+title: LangGraph
+url: https://github.com/langchain-ai/langgraph
+org: LangChain
+year: 2024
+
+summary: >
+  A low-level orchestration library for building stateful, multi-actor agent
+  applications with explicit graphs, durable execution, checkpointing, cycles,
+  and human-in-the-loop pauses. The checkpointing and resumable-state model is a
+  concrete step toward transactional control over multi-step agent actions.
+
+harness_layer:
+  - coordination
+  - transactional-agency
+sprs:
+  - reliability
+open_problems:
+  - transactional-agency
+architecture:
+  - controlled-exploration
+disciplines:
+  - systems
+tags:
+  - orchestration
+  - checkpointing
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Durable, checkpointed agent execution; relevant to coordination and the
+    transactional-agency problem.
+
+status: published

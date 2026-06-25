@@ -1,0 +1,41 @@
+id: 2023-generative-agents
+type: papers
+title: "Generative Agents: Interactive Simulacra of Human Behavior"
+url: https://arxiv.org/abs/2304.03442
+authors:
+  - Joon Sung Park
+  - Joseph C. O'Brien
+  - Carrie J. Cai
+  - Meredith Ringel Morris
+  - Percy Liang
+  - Michael S. Bernstein
+venue: UIST
+year: 2023
+
+summary: >
+  Gives language-model agents a memory stream, periodic reflection, and planning
+  so they produce believable individual and emergent group behavior in a sandbox
+  world. The memory-retrieval-reflection architecture is an early concrete design
+  for long-lived agent memory and its integrity over many steps.
+
+harness_layer:
+  - coordination
+  - memory
+sprs:
+  - reliability
+disciplines:
+  - ml
+  - hci-governance
+tags:
+  - memory
+  - simulation
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Influential memory-and-reflection architecture relevant to both the
+    coordination and memory-integrity layers.
+
+status: published

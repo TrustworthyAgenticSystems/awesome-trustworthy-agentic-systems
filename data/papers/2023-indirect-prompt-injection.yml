@@ -1,0 +1,46 @@
+id: 2023-indirect-prompt-injection
+type: papers
+title: "Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection"
+url: https://arxiv.org/abs/2302.12173
+code: https://github.com/greshake/llm-security
+authors:
+  - Kai Greshake
+  - Sahar Abdelnabi
+  - Shailesh Mishra
+  - Christoph Endres
+  - Thorsten Holz
+  - Mario Fritz
+venue: AISec
+year: 2023
+
+summary: >
+  Defines indirect prompt injection, where adversarial instructions hidden in
+  external content that an application retrieves are later executed by the model
+  as if they were trusted input. It demonstrates working attacks against
+  deployed LLM-integrated applications and establishes retrieved data as a
+  first-class attack surface.
+
+harness_layer:
+  - red-team
+  - tool-interface
+  - memory
+sprs:
+  - security
+risk_phase:
+  - context
+  - tool
+disciplines:
+  - security
+tags:
+  - prompt-injection
+  - indirect-injection
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    The canonical indirect prompt injection paper; spans red-teaming, tool, and
+    memory layers.
+
+status: published

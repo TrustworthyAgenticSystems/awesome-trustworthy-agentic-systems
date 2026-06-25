@@ -1,0 +1,34 @@
+id: garak
+type: oss
+title: "garak: LLM vulnerability scanner"
+url: https://github.com/NVIDIA/garak
+org: NVIDIA
+year: 2024
+
+summary: >
+  An open-source scanner that probes language models for failure modes such as
+  prompt injection, jailbreaks, toxic generation, and data leakage, combining
+  static, dynamic, and adaptive probes. It brings repeatable, tool-driven
+  red-teaming to model and agent assessment.
+
+harness_layer:
+  - red-team
+sprs:
+  - security
+risk_phase:
+  - prompt
+disciplines:
+  - security
+tags:
+  - red-teaming
+  - scanner
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: scaffold
+  rationale: >
+    Practical red-teaming tool; the OSS counterpart to the attack literature in
+    this layer.
+
+status: published
