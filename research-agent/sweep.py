@@ -131,10 +131,15 @@ def _entry_from_s2(p: "s2_fetch.S2Paper") -> dict:
 def _classify_and_filter(
     candidates: Iterable[dict],
     existing_keys: set,
-) -> List[dict]:
-    """Dedupe candidates, classify each survivor, and return kept entries."""
+) -> tuple[List[dict], List[dict]]:
+    """Dedupe candidates, classify each survivor, log every decision.
+
+    Returns (kept_entries, decisions). `decisions` has one record per paper that
+    reached the classifier (kept or skipped), for the run summary and audit log.
+    """
     seen_in_run: set = set()
     kept: List[dict] = []
+    decisions: List[dict] = []
 
     for entry in candidates:
         abstract = entry.get("_abstract") or ""
@@ -156,6 +161,7 @@ def _classify_and_filter(
         seen_in_run.update(keys)
 
         title = entry.get("title") or ""
+        arxiv_id = entry.get("_arxiv_id") or "?"
         try:
             result = classify(
                 title=title,
@@ -166,6 +172,25 @@ def _classify_and_filter(
         except Exception as e:
             log.warning("classify failed for %r: %s", title[:80], e)
             continue
+
+        sprs_str = "/".join(result.sprs) or "—"
+        if result.keep:
+            log.info("KEEP %s  %s  → %s / %s  conf=%.2f",
+                     arxiv_id, title[:60], result.harness_layer, sprs_str, result.confidence)
+        else:
+            log.info("SKIP %s  %s  → %s  (%s)",
+                     arxiv_id, title[:60], result.harness_layer, (result.reason or "")[:80])
+
+        decisions.append({
+            "arxiv_id": arxiv_id,
+            "title": title,
+            "url": entry.get("url") or "",
+            "keep": result.keep,
+            "harness_layer": result.harness_layer,
+            "sprs": list(result.sprs),
+            "confidence": result.confidence,
+            "reason": result.reason,
+        })
 
         if not result.keep:
             continue
@@ -186,7 +211,56 @@ def _classify_and_filter(
             }
         )
 
-    return kept
+    return kept, decisions
+
+
+def write_step_summary(mode: str, collected: int, decisions: List[dict], written: int) -> None:
+    """Render a per-run markdown summary to GitHub's Step Summary (no-op locally).
+
+    Shows the scan counts, a table of kept papers, and a collapsible list of
+    skips with reasons, so the Actions run page is a readable audit trail.
+    """
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not path:
+        return
+
+    kept = [d for d in decisions if d["keep"]]
+    skipped = [d for d in decisions if not d["keep"]]
+
+    def esc(s: str) -> str:
+        return str(s).replace("|", "\\|").replace("\n", " ")
+
+    lines = [
+        f"## Research sweep — {mode}",
+        "",
+        f"**Collected** {collected} &middot; **classified** {len(decisions)} "
+        f"&middot; **kept** {len(kept)} &middot; **written as drafts** {written}",
+        "",
+    ]
+    if kept:
+        lines += ["### Kept", "", "| Paper | Layer | SPRS | Conf |", "|---|---|---|---|"]
+        for d in kept:
+            title = esc(d["title"])
+            link = f"[{title}]({d['url']})" if d["url"] else title
+            lines.append(
+                f"| {link} | `{d['harness_layer']}` | {esc('/'.join(d['sprs']) or '—')} "
+                f"| {d['confidence']:.2f} |"
+            )
+        lines.append("")
+    if skipped:
+        cap = 50
+        lines += [f"<details><summary>Skipped ({len(skipped)})</summary>", ""]
+        for d in skipped[:cap]:
+            lines.append(f"- `{d['harness_layer']}` — {esc(d['title'][:90])} ({esc((d['reason'] or '')[:80])})")
+        if len(skipped) > cap:
+            lines.append(f"- …and {len(skipped) - cap} more")
+        lines += ["", "</details>", ""]
+
+    try:
+        with open(path, "a", encoding="utf-8") as fh:
+            fh.write("\n".join(lines) + "\n")
+    except OSError as e:
+        log.warning("could not write step summary: %s", e)
 
 
 # ----- mode runners ------------------------------------------------------------
@@ -242,11 +316,12 @@ def run_bootstrap(years: int) -> int:
 
     log.info("collected %d raw candidates", len(raw))
 
-    kept = _classify_and_filter(raw, existing_keys)
+    kept, decisions = _classify_and_filter(raw, existing_keys)
     log.info("classifier kept %d entries", len(kept))
 
     n = render_drafts(kept, DRAFTS, existing_ids)
     log.info("wrote %d draft entries to %s", n, DRAFTS)
+    write_step_summary("bootstrap", len(raw), decisions, n)
     return n
 
 
@@ -273,7 +348,7 @@ def run_daily() -> int:
 
     log.info("collected %d raw candidates", len(raw))
 
-    kept = _classify_and_filter(raw, existing_keys)
+    kept, decisions = _classify_and_filter(raw, existing_keys)
     log.info("classifier kept %d entries", len(kept))
 
     n = render_drafts(kept, DRAFTS, existing_ids)
@@ -281,6 +356,7 @@ def run_daily() -> int:
         log.info("wrote %d draft entries to %s", n, DRAFTS)
     else:
         log.info("no qualifying candidates — no drafts written")
+    write_step_summary("daily", len(raw), decisions, n)
     return n
 
 
