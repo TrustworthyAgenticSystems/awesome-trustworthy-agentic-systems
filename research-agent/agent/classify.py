@@ -353,7 +353,13 @@ def classify(
             response_mime_type="application/json",
             response_schema=Classification,
             temperature=0.0,
-            max_output_tokens=700,
+            # gemini-2.5-flash is a thinking model: its reasoning tokens count
+            # against max_output_tokens and were truncating the JSON (parse
+            # failures). Disable thinking for this classification task and give
+            # the structured output ample room. (gemini-2.5-pro cannot fully
+            # disable thinking — raise the budget to >=128 there instead.)
+            thinking_config=types.ThinkingConfig(thinking_budget=0),
+            max_output_tokens=1500,
         ),
     )
 
