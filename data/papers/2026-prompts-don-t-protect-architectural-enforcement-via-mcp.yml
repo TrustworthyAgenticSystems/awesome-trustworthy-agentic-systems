@@ -1,0 +1,26 @@
+id: 2026-prompts-don-t-protect-architectural-enforcement-via-mcp
+type: papers
+title: 'Prompts Don''t Protect: Architectural Enforcement via MCP Proxy for LLM Tool Access Control'
+url: https://arxiv.org/abs/2605.18414v1
+authors:
+- Rohith Uppala
+venue: arXiv
+year: 2026
+summary: A governed MCP proxy enforces attribute-based access control for LLM tool access by filtering
+  tool discovery and blocking unauthorized invocations, demonstrating architectural enforcement is necessary
+  for reliable tool access control.
+harness_layer:
+- permissions
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: This paper directly addresses a critical systems-level security problem in agentic systems
+    (tool access control) with a concrete architectural solution and empirical validation.
+status: published

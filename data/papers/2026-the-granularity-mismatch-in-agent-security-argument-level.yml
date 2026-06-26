@@ -1,0 +1,31 @@
+id: 2026-the-granularity-mismatch-in-agent-security-argument-level
+type: papers
+title: 'The Granularity Mismatch in Agent Security: Argument-Level Provenance Solves Enforcement and Isolates
+  the LLM Reasoning Bottleneck'
+url: https://arxiv.org/abs/2605.11039v1
+authors:
+- Linfeng Fan
+- Ziwei Li
+- Yuan Tian
+- Yichen Wang
+- Rongsheng Li
+- Xiong Wang
+venue: arXiv
+year: 2026
+summary: Introduces Provenance-Aware Capability Contracts (PACT), a runtime monitor that assigns semantic
+  roles to tool arguments and tracks value provenance to enforce trust contracts, addressing the granularity
+  mismatch in agent security.
+harness_layer:
+- permissions
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: Directly addresses fine-grained authorization and trust boundaries for agent tool use, a
+    core systems-engineering problem for trustworthy agents.
+status: published

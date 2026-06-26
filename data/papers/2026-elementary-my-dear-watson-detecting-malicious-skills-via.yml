@@ -1,0 +1,31 @@
+id: 2026-elementary-my-dear-watson-detecting-malicious-skills-via
+type: papers
+title: '"Elementary, My Dear Watson." Detecting Malicious Skills via Neuro-Symbolic Reasoning across Heterogeneous
+  Artifacts'
+url: https://arxiv.org/abs/2603.27204v1
+authors:
+- Shenao Wang
+- Junjie He
+- Yanjie Zhao
+- Yayi Wang
+- Kan Yu
+- Haoyu Wang
+venue: arXiv
+year: 2026
+summary: MalSkills is a neuro-symbolic framework that detects malicious skills by extracting security-sensitive
+  operations from heterogeneous artifacts, constructing a skill dependency graph, and performing reasoning
+  to identify malicious patterns or suspicious workflows.
+harness_layer:
+- supply-chain
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: This paper directly addresses supply-chain security for agentic systems by detecting malicious
+    components (skills) through a novel neuro-symbolic reasoning framework.
+status: published

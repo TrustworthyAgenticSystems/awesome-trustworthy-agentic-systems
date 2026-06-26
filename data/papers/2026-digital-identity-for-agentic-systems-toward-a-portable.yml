@@ -1,0 +1,28 @@
+id: 2026-digital-identity-for-agentic-systems-toward-a-portable
+type: papers
+title: 'Digital Identity for Agentic Systems: Toward a Portable Authorization Standard for Autonomous
+  Agents'
+url: https://arxiv.org/abs/2605.11487v1
+authors:
+- Partha Madhira
+venue: arXiv
+year: 2026
+summary: Proposes a portable authorization model for autonomous agents that addresses structural gaps
+  in existing identity and access models for cross-organizational workflows, focusing on explicit, constrained,
+  auditable, and revocable authority.
+harness_layer:
+- permissions
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.92
+  rationale: 'Directly addresses a core open problem in agentic systems: portable, constrained authorization
+    for autonomous agents operating across trust boundaries.'
+status: published

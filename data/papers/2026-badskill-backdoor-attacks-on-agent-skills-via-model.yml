@@ -1,0 +1,26 @@
+id: 2026-badskill-backdoor-attacks-on-agent-skills-via-model
+type: papers
+title: 'BadSkill: Backdoor Attacks on Agent Skills via Model-in-Skill Poisoning'
+url: https://arxiv.org/abs/2604.09378v1
+authors:
+- Guiyao Tie
+- Jiawen Shi
+- Pan Zhou
+- Lichao Sun
+venue: arXiv
+year: 2026
+summary: Introduces BadSkill, a backdoor attack targeting model-in-skill supply-chain risk where malicious
+  behavior is concealed within a skill's bundled model, and evaluates its effectiveness across various
+  model architectures and perturbation types.
+harness_layer:
+- supply-chain
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: Directly addresses a novel supply-chain security risk in agent ecosystems related to third-party
+    skills bundling malicious models.
+status: published

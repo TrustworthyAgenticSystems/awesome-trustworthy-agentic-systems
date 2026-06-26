@@ -1,0 +1,34 @@
+id: 2026-deltabox-scaling-stateful-ai-agents-with-millisecond-level
+type: papers
+title: 'DeltaBox: Scaling Stateful AI Agents with Millisecond-Level Sandbox Checkpoint/Rollback'
+url: https://arxiv.org/abs/2605.22781v2
+authors:
+- Yunpeng Dong
+- Jingkai He
+- Shiqi Liu
+- Yuze Hou
+- Dong Du
+- Zhonghu Xu
+- Si Yu
+- Baochuan Yang
+- Yubin Xia
+- Haibo Chen
+venue: arXiv
+year: 2026
+summary: DeltaBox proposes OS-level abstractions, DeltaFS and DeltaCR, to enable millisecond-level, change-based
+  checkpoint and rollback of complete sandbox states for AI agents, addressing the performance bottleneck
+  in state exploration.
+harness_layer:
+- transactional-agency
+sprs:
+- reliability
+open_problems:
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: This paper directly addresses the transactional-agency problem by providing a novel, low-latency
+    checkpoint and rollback mechanism for agent sandboxes, which is critical for reliable agent execution.
+status: published

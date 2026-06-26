@@ -1,0 +1,27 @@
+id: 2026-agent-audit-a-security-analysis-system-for-llm
+type: papers
+title: 'Agent Audit: A Security Analysis System for LLM Agent Applications'
+url: https://arxiv.org/abs/2603.22853v1
+authors:
+- Haiyue Zhang
+- Yi Nian
+- Yue Zhao
+venue: arXiv
+year: 2026
+summary: Agent Audit is a security analysis system that combines dataflow analysis, credential detection,
+  and privilege-risk checks to identify vulnerabilities in LLM agent code and deployment artifacts, integrating
+  with development and CI/CD workflows.
+harness_layer:
+- supply-chain
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: This paper directly addresses supply-chain security for agent applications by providing a
+    static analysis system to audit agent code and deployment configurations for vulnerabilities.
+status: published

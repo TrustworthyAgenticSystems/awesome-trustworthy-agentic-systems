@@ -1,0 +1,31 @@
+id: 2026-grimlock-guarding-high-agency-systems-with-ebpf-and
+type: papers
+title: 'Grimlock: Guarding High-Agency Systems with eBPF and Attested Channels'
+url: https://arxiv.org/abs/2605.27488v2
+authors:
+- Qiancheng Wu
+- Wenhui Zhang
+- Gan Fang
+- Sheng Mao
+- Biao Gao
+- David Levitsky
+- Shawna Murphy Butterworth
+- Rob Cameron
+venue: arXiv
+year: 2026
+summary: Grimlock is an Agent Guard that uses eBPF and attested TLS channels to enforce identity, authorization,
+  provenance, and least-privilege delegation for agent-to-agent communication across multi-cloud environments.
+harness_layer:
+- permissions
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: This paper directly addresses security and least-privilege authorization for agentic systems
+    at the communication and execution-shell layers, using concrete systems-level mechanisms.
+status: published

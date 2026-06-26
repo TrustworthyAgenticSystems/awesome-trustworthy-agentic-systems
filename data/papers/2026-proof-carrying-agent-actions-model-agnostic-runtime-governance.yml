@@ -1,0 +1,27 @@
+id: 2026-proof-carrying-agent-actions-model-agnostic-runtime-governance
+type: papers
+title: 'Proof-Carrying Agent Actions: Model-Agnostic Runtime Governance for Heterogeneous Agent Systems'
+url: https://arxiv.org/abs/2606.04104v1
+authors:
+- Zexun Wang
+venue: arXiv
+year: 2026
+summary: Introduces Proof-Carrying Agent Actions (PCAA), a runtime-neutral governance model using action
+  certificates to consistently track authorization, approval, and evidence for high-risk actions across
+  heterogeneous agent systems.
+harness_layer:
+- permissions
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: Directly addresses runtime governance and authorization for agent actions across diverse
+    execution environments, a core systems problem for trustworthy agents.
+status: published

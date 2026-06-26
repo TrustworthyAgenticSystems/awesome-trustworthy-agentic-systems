@@ -1,0 +1,26 @@
+id: 2026-session-risk-memory-srm-temporal-authorization-for-deterministic
+type: papers
+title: 'Session Risk Memory (SRM): Temporal Authorization for Deterministic Pre-Execution Safety Gates'
+url: https://arxiv.org/abs/2603.22350v1
+authors:
+- Florin Adrian Chitan
+venue: arXiv
+year: 2026
+summary: Session Risk Memory (SRM) extends stateless pre-execution safety gates with trajectory-level
+  authorization by maintaining a semantic centroid of agent behavior to detect distributed attacks across
+  multiple steps.
+harness_layer:
+- permissions
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.92
+  rationale: Directly addresses a critical systems-engineering problem in agent authorization by introducing
+    a temporal authorization mechanism for multi-step agent workflows.
+status: published

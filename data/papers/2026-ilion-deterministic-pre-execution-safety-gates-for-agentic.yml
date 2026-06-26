@@ -1,0 +1,27 @@
+id: 2026-ilion-deterministic-pre-execution-safety-gates-for-agentic
+type: papers
+title: 'ILION: Deterministic Pre-Execution Safety Gates for Agentic AI Systems'
+url: https://arxiv.org/abs/2603.13247v1
+authors:
+- Florin Adrian Chitan
+venue: arXiv
+year: 2026
+summary: ILION is a deterministic, cascade-architecture execution gate that classifies proposed agent
+  actions as BLOCK or ALLOW, addressing the architectural mismatch of text-safety systems for agent action
+  safety.
+harness_layer:
+- permissions
+sprs:
+- safety
+- security
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: The paper directly addresses a critical systems-engineering problem of agent action safety
+    and authorization, proposing a novel, deterministic execution gate architecture and evaluating it
+    on a purpose-built benchmark.
+status: published

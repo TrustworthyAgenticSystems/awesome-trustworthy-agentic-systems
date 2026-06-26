@@ -1,0 +1,28 @@
+id: 2026-clawless-a-security-model-of-ai-agents
+type: papers
+title: 'ClawLess: A Security Model of AI Agents'
+url: https://arxiv.org/abs/2604.06284v1
+authors:
+- Hongyi Lu
+- Nian Liu
+- Shuai Wang
+- Fengwei Zhang
+venue: arXiv
+year: 2026
+summary: ClawLess is a security framework that enforces formally verified, dynamic policies on AI agents
+  by translating them into BPF-based syscall interception rules, providing fundamental security guarantees
+  against adversarial agents.
+harness_layer:
+- permissions
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: This paper directly addresses agent permissions and security enforcement at the system call
+    level, providing a strong contribution to trustworthy agentic systems.
+status: published

@@ -1,0 +1,32 @@
+id: 2026-tracking-capabilities-for-safer-agents
+type: papers
+title: Tracking Capabilities for Safer Agents
+url: https://arxiv.org/abs/2603.00991v2
+authors:
+- Martin Odersky
+- Yaoyu Zhao
+- Yichen Xu
+- Oliver Bračevac
+- Cao Nguyen Pham
+venue: arXiv
+year: 2026
+summary: Proposes a programming-language-based safety harness using Scala 3's capture checking to enforce
+  capability-based access control for agent tool calls, preventing information leakage and unintended
+  side effects.
+harness_layer:
+- permissions
+sprs:
+- security
+- privacy
+- safety
+open_problems:
+- least-privilege-reasoning
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.92
+  rationale: Directly addresses agent permissions and safety through a novel programming language and
+    type system approach, with experimental validation of its effectiveness.
+status: published

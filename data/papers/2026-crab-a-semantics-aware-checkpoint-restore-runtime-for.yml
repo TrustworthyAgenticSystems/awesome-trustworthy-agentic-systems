@@ -1,0 +1,30 @@
+id: 2026-crab-a-semantics-aware-checkpoint-restore-runtime-for
+type: papers
+title: 'Crab: A Semantics-Aware Checkpoint/Restore Runtime for Agent Sandboxes'
+url: https://arxiv.org/abs/2604.28138v1
+authors:
+- Tianyuan Wu
+- Chaokun Chang
+- Lunxi Cao
+- Wei Gao
+- Wei Wang
+venue: arXiv
+year: 2026
+summary: Crab is a host-side runtime that bridges the agent-OS semantic gap to enable semantics-aware
+  checkpointing and restoration of agent sandbox state, improving recovery correctness and efficiency
+  for fault tolerance and safe rollback.
+harness_layer:
+- transactional-agency
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: This paper directly addresses transactional agency by providing a system-level solution for
+    checkpointing and restoring agent state, which is crucial for reliability and safety in agentic systems.
+status: published
