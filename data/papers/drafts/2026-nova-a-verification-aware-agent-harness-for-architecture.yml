@@ -1,0 +1,50 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-nova-a-verification-aware-agent-harness-for-architecture
+type: papers
+title: 'NOVA: A Verification-Aware Agent Harness for Architecture Evolution in Industrial Recommender
+  Systems'
+url: https://arxiv.org/abs/2606.27243v1
+authors:
+- Shaohua Liu
+- Liang Fang
+- Yilong Sun
+- Shudong Huang
+- Qingsong Luo
+- Xiaoyang Chen
+- Dongqiang Liu
+- Chuangang Ma
+- Zhenzhen Chai
+- Henghuan Wang
+- Shijie Quan
+- Changyuan Cui
+- Zhangbin Zhu
+- Peng Chen
+- Wei Xu
+- Lei Xiao
+- Haijie Gu
+- Jie Jiang
+venue: arXiv
+year: 2026
+summary: NOVA is a verification-aware agent harness that guides architecture evolution in industrial recommender
+  systems using an architecture gradient and a multi-level verification cascade to prevent silent failures
+  and improve reliability.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper describes an end-to-end reference architecture for agent-driven system evolution,
+    including verification, feedback loops, and human oversight, directly addressing reliability and safety
+    in a complex industrial setting.
+status: draft

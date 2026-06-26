@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-to-run-or-not-to-run-analyzing-the
+type: papers
+title: 'To Run or Not to Run: Analyzing the Cost-Effectiveness of Code Execution in LLM-Based Program
+  Repair'
+url: https://arxiv.org/abs/2606.26978v1
+authors:
+- Zhihao Lin
+- Junhua Zhu
+- Mingyi Zhou
+- Xin Wang
+- Zhensu Sun
+- Renyu Yang
+- David Lo
+- Li Li
+venue: arXiv
+year: 2026
+summary: Empirical study of code execution behavior in LLM-based program repair agents, analyzing cost-effectiveness
+  and impact on repair success across various execution paradigms and models.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper empirically analyzes the cost-effectiveness and impact of code execution in LLM-based
+    program repair agents, directly addressing a systems-level concern in agent execution and resource
+    management.
+status: draft

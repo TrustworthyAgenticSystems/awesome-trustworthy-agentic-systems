@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hilsva-design-and-evaluation-of-a-human-in
+type: papers
+title: 'HiLSVA: Design and Evaluation of a Human-in-the-Loop Agentic System for Scientific Visualization'
+url: https://arxiv.org/abs/2606.26614v1
+authors:
+- Kuangshi Ai
+- Patrick Phuoc Do
+- Chaoli Wang
+venue: arXiv
+year: 2026
+summary: HiLSVA is a human-in-the-loop agentic system for scientific visualization that integrates a plan-first
+  multi-agent architecture with explicit human oversight, stepwise provenance tracking, and learn-at-test-time
+  adaptation to improve transparency and control.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses human oversight and transparency in agentic systems through
+    a concrete architecture and user study, which is a core concern for trustworthy agents.
+status: draft
