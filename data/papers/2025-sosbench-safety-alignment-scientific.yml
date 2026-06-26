@@ -1,0 +1,44 @@
+id: 2025-sosbench-safety-alignment-scientific
+type: papers
+title: "SoSBench: Benchmarking Safety Alignment on Scientific Domains"
+url: https://arxiv.org/abs/2505.21605
+code: https://sosbench.github.io/
+authors:
+  - Fengqing Jiang
+  - Fengbo Ma
+  - Zhangchen Xu
+  - Yuetai Li
+  - Zixin Rao
+  - Luyao Niu
+  - Bo Li
+  - Zhen Xiang
+  - Radha Poovendran
+venue: arXiv
+year: 2025
+
+summary: >
+  Introduces a regulation-grounded, hazard-focused safety benchmark of thousands
+  of prompts across six high-risk scientific domains including chemistry,
+  biology, medicine, and physics. Evaluating many frontier models reveals high
+  policy-violation rates, giving safety alignment a domain-specific, hazard-aware
+  yardstick rather than a generic one.
+
+harness_layer:
+  - observation-eval
+sprs:
+  - safety
+disciplines:
+  - ml
+tags:
+  - benchmark
+  - safety-alignment
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: yuanxue
+  rationale: >
+    Hazard-grounded safety benchmark for high-risk domains; evaluation of safety
+    beyond generic refusal tests.
+
+status: published

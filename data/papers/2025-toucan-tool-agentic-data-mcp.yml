@@ -1,0 +1,47 @@
+id: 2025-toucan-tool-agentic-data-mcp
+type: papers
+title: "TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments"
+url: https://arxiv.org/abs/2510.01179
+code: https://github.com/TheAgentArk/Toucan
+authors:
+  - Zhangchen Xu
+  - Adriana Meza Soria
+  - Shawn Tan
+  - Anurag Roy
+  - Ashish Sunil Agrawal
+  - Radha Poovendran
+  - Rameswar Panda
+org: MIT-IBM Watson AI Lab
+venue: arXiv
+year: 2025
+
+summary: >
+  Releases the largest open tool-agentic dataset, roughly 1.5 million trajectories
+  synthesized from hundreds of real Model Context Protocol servers spanning
+  thousands of tools, with real tool execution and verified calls. Models trained
+  on it surpass much larger closed-source baselines on tool-use benchmarks, giving
+  the open community realistic multi-tool, multi-step training data for the
+  tool-interface layer.
+
+harness_layer:
+  - tool-interface
+  - observation-eval
+sprs:
+  - reliability
+disciplines:
+  - ml
+  - systems
+tags:
+  - tool-use
+  - dataset
+  - mcp
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: yuanxue
+  rationale: >
+    Large MCP-grounded tool-calling dataset; foundational data for studying and
+    hardening the tool-interface layer.
+
+status: published

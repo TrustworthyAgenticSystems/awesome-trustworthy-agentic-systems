@@ -1,0 +1,45 @@
+id: 2025-purpcode-safer-code-generation
+type: papers
+title: "PurpCode: Reasoning for Safer Code Generation"
+url: https://arxiv.org/abs/2507.19060
+code: https://github.com/purpcode-uiuc/purpcode
+authors:
+  - Jiawei Liu
+  - Nirav Diwan
+  - Zhe Wang
+  - Haoyu Zhai
+  - Xiaona Zhou
+  - Ismini Lourentzou
+  - Gang Wang
+venue: arXiv
+year: 2025
+
+summary: >
+  Aligns coding models to generate secure code and refuse attack-assistance
+  requests while preserving utility, using a two-stage method that first teaches
+  concrete vulnerability rules and then generalizes the safety reasoning with
+  reinforcement learning. An internal red-teaming pipeline supplies hard
+  adversarial and multi-turn cases. It won the defender track of the Amazon Nova
+  AI Challenge 2025.
+
+harness_layer:
+  - supply-chain
+sprs:
+  - safety
+  - security
+disciplines:
+  - ml
+  - security
+tags:
+  - secure-code-generation
+  - alignment
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: yuanxue
+  rationale: >
+    Safety alignment for coding agents that produce AI-authored code; supply-chain
+    layer at the model-output boundary.
+
+status: published

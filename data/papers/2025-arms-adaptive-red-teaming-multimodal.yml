@@ -1,0 +1,46 @@
+id: 2025-arms-adaptive-red-teaming-multimodal
+type: papers
+title: "ARMs: Adaptive Red-Teaming Agent against Multimodal Models with Plug-and-Play Attacks"
+url: https://arxiv.org/abs/2510.02677
+authors:
+  - Zhaorun Chen
+  - Xun Liu
+  - Mintong Kang
+  - Jiawei Zhang
+  - Minzhou Pan
+  - Shuang Yang
+  - Bo Li
+venue: arXiv
+year: 2025
+
+summary: >
+  Builds an adaptive red-teaming agent that orchestrates many multimodal attack
+  strategies exposed as plug-and-play tools through the Model Context Protocol,
+  using layered memory and multi-step reasoning to balance attack diversity and
+  effectiveness. It releases ARMs-Bench, a large multimodal red-teaming dataset
+  spanning dozens of risk categories.
+
+harness_layer:
+  - red-team
+sprs:
+  - security
+  - safety
+risk_phase:
+  - prompt
+disciplines:
+  - security
+  - ml
+tags:
+  - red-teaming
+  - multimodal
+  - mcp
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: yuanxue
+  rationale: >
+    Agentic, tool-composed red-teaming of multimodal models; extends the
+    red-team layer to vision-language agents.
+
+status: published

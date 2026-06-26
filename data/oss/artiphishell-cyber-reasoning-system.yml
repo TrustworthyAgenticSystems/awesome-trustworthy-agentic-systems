@@ -1,0 +1,37 @@
+id: artiphishell-cyber-reasoning-system
+type: oss
+title: "ARTIPHISHELL: Shellphish's autonomous Cyber Reasoning System"
+url: https://shellphish.net/aixcc/
+org: Shellphish
+year: 2025
+
+summary: >
+  An end-to-end autonomous cyber reasoning system that combines fuzzing, program
+  analysis, and dozens of collaborating LLM agents to discover vulnerabilities,
+  analyze root causes, and generate validated patches without human intervention.
+  Built for the DARPA AI Cyber Challenge, where it was a finalist recognized for
+  patch reliability, it is a large real-world reference for multi-agent
+  orchestration on a security workflow.
+
+harness_layer:
+  - architectures
+  - supply-chain
+sprs:
+  - security
+disciplines:
+  - security
+  - systems
+tags:
+  - cyber-reasoning-system
+  - multi-agent
+  - aixcc
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: yuanxue
+  rationale: >
+    Deployed multi-agent CRS; a reference architecture and case study for
+    autonomous vulnerability operations.
+
+status: published

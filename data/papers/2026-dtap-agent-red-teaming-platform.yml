@@ -1,0 +1,51 @@
+id: 2026-dtap-agent-red-teaming-platform
+type: papers
+title: "DecodingTrust-Agent: A Controllable and Interactive Red-Teaming Platform for AI Agents"
+url: https://arxiv.org/abs/2605.04808
+authors:
+  - Zhaorun Chen
+  - Xun Liu
+  - Haibo Tong
+  - Chengquan Guo
+  - Yuzhou Nie
+  - Jiawei Zhang
+  - Percy Liang
+  - Dawn Song
+  - Bo Li
+venue: arXiv
+year: 2026
+
+summary: >
+  Extends the DecodingTrust trustworthiness benchmark to agents with a
+  controllable, fully simulated red-teaming platform spanning many domains and
+  dozens of reproducible environments. It supports prompt, tool, skill,
+  environment, and compositional injections and ships an autonomous red-teaming
+  agent with verifiable judges, giving evaluation of agent security a realistic
+  and repeatable harness rather than static prompts.
+
+harness_layer:
+  - red-team
+  - observation-eval
+sprs:
+  - security
+open_problems:
+  - long-horizon-eval
+risk_phase:
+  - tool
+  - agent
+disciplines:
+  - security
+  - ml
+tags:
+  - benchmark
+  - red-teaming
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: yuanxue
+  rationale: >
+    Reproducible, workflow-level agent red-teaming platform; bridges red-team and
+    evaluation.
+
+status: published

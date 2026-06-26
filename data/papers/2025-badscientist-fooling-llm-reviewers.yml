@@ -1,0 +1,44 @@
+id: 2025-badscientist-fooling-llm-reviewers
+type: papers
+title: "BadScientist: Can a Research Agent Write Convincing but Unsound Papers that Fool LLM Reviewers?"
+url: https://arxiv.org/abs/2510.18003
+code: https://bad-scientist.github.io/
+authors:
+  - Fengqing Jiang
+  - Yichen Feng
+  - Yuetai Li
+  - Luyao Niu
+  - Basel Alomair
+  - Radha Poovendran
+venue: arXiv
+year: 2025
+
+summary: >
+  Tests whether a paper-generation agent using only presentation-manipulation
+  tactics, with no real experiments, can get accepted by multi-model LLM review
+  systems. It finds high acceptance rates and a concern-acceptance conflict where
+  reviewers flag issues yet still accept, exposing a governance risk as automated
+  review enters the research pipeline. It received a best paper award at
+  Agents4Science 2025.
+
+harness_layer:
+  - red-team
+  - oversight
+sprs:
+  - safety
+disciplines:
+  - ml
+  - hci-governance
+tags:
+  - agentic-deception
+  - llm-as-judge
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: yuanxue
+  rationale: >
+    Shows automated review can be gamed by generation agents; a concrete
+    human-oversight-at-scale failure.
+
+status: published
