@@ -2,6 +2,9 @@
 
 This directory is the canonical source of truth for the resource, per the
 architecture diagram: **structured data + taxonomy → human review gate → website**.
+
+![Architecture diagram: inputs flow through the agent and community PRs into a human review gate, then into this GitHub source of truth and the website.](../docs/architecture.png)
+
 Each entry is one YAML file:
 
 ```
