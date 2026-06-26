@@ -184,6 +184,11 @@ identical fetch → dedup → classify → render → PR pipeline.
 - **Attributable.** Every draft records `added_by: agent`, the drafting agent id,
   a confidence, and a rationale, so a reviewer can see what the agent thought and
   why.
+- **Observable.** Every paper that reaches the classifier is logged with its
+  keep/skip verdict, tags, and confidence (`KEEP …` / `SKIP …` lines in the run
+  log), and each run writes a markdown summary to the Actions run page
+  (`write_step_summary`): scan counts, a table of kept papers, and a collapsible
+  list of skips with reasons. The run is a readable audit trail, not just a count.
 
 ## Failure modes and how they are handled
 
