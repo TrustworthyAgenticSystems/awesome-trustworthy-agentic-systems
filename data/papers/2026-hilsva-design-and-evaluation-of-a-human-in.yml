@@ -1,8 +1,3 @@
-# Drafted by research-agent. Review before promoting.
-# To accept: move this file to data/papers/<id>.yml, set
-# status: published, and record provenance.reviewed_by.
-# To reject: delete this file.
-
 id: 2026-hilsva-design-and-evaluation-of-a-human-in
 type: papers
 title: 'HiLSVA: Design and Evaluation of a Human-in-the-Loop Agentic System for Scientific Visualization'
@@ -26,7 +21,8 @@ open_problems:
 provenance:
   added_by: agent
   drafted_by: research-agent
+  reviewed_by: yuanxue
   confidence: 0.9
   rationale: The paper directly addresses human oversight and transparency in agentic systems through
     a concrete architecture and user study, which is a core concern for trustworthy agents.
-status: draft
+status: published

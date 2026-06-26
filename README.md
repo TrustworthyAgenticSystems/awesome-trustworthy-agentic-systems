@@ -77,6 +77,7 @@ The conceptual ground under everything else: the four eras of AI engineering (pr
 ### Resources
 
 <!-- AUTOGEN:START layer=foundations -->
+- **Agents That Know Too Much: A Data-Centric Survey of Privacy in LLM Agents** (Nada Lahjouji et al., 2026) — A data-centric survey taxonomizing privacy risks in LLM agents across various data sources, identifying governance mechanisms, and highlighting gaps in information-flow control and comprehensive benchmarking. [[paper]](https://arxiv.org/abs/2606.26627v1) `[arXiv 2026]` `[paper]`
 - **Building Effective Agents** (Erik Schluntz et al., 2024) — A practical engineering guide that separates predictable workflows from open-ended agents and catalogs composable patterns such as prompt chaining, routing, orchestrator-workers, and evaluator-optimizer. [[paper]](https://www.anthropic.com/engineering/building-effective-agents) `[Anthropic 2024]` `[paper]`
 - **Large Language Model Agents (Berkeley MOOC)** (Dawn Song et al., 2024) — A public course on language-model agents covering reasoning, planning, tool use, code generation, multi-agent collaboration, and safety, with lectures from researchers across leading labs. [[course]](https://llmagents-learning.org/f24) `[course]`
 - **Harms from Increasingly Agentic Algorithmic Systems** (Alan Chan et al., 2023) — Characterizes how harms change as algorithmic systems gain autonomy, underspecification, directness of impact, and goal-directedness. [[paper]](https://arxiv.org/abs/2302.10329) `[FAccT 2023]` `[paper]`
@@ -104,7 +105,7 @@ The runtime that turns model calls into an agent: message passing, tool invocati
 ### Resources
 
 <!-- AUTOGEN:START layer=execution-shell -->
-- *Contributions welcome.* See [CONTRIBUTING.md](CONTRIBUTING.md) for entry templates.
+- **To Run or Not to Run: Analyzing the Cost-Effectiveness of Code Execution in LLM-Based Program Repair** (Zhihao Lin et al., 2026) — Empirical study of code execution behavior in LLM-based program repair agents, analyzing cost-effectiveness and impact on repair success across various execution paradigms and models. [[paper]](https://arxiv.org/abs/2606.26978v1) `[arXiv 2026]` `[paper]`
 <!-- AUTOGEN:END layer=execution-shell -->
 
 ---
@@ -314,6 +315,8 @@ Adversarial testing of the *system*, not just the model. Prompt injection, explo
 ### Resources
 
 <!-- AUTOGEN:START layer=red-team -->
+- **MIRROR: Novelty-Constrained Memory-Guided MCTS Red-Teaming for Agentic RAG** (Inderjeet Singh et al., 2026) — MIRROR is a unified, cross-surface red-teaming framework for multimodal agentic RAG systems that uses novelty-constrained, memory-guided Monte Carlo tree search to discover novel attacks across various surfaces, including text poisoning, image injection, and orchestrator-level tool manipulation. [[paper]](https://arxiv.org/abs/2606.26793v1) `[arXiv 2026]` `[paper]`
+- **Prompt Injection in Automated Résumé Screening with Large Language Models: Single and Multi-Injection Settings** (Preet Baxi et al., 2026) — Characterizes prompt injection as a strategic manipulation tactic in LLM-based résumé screening, demonstrating its effectiveness under varying conditions and highlighting fairness concerns. [[paper]](https://arxiv.org/abs/2606.27287v1) `[arXiv 2026]` `[paper]`
 - **OWASP Top 10 for Large Language Model Applications** (OWASP Foundation, 2025) — A community-built awareness standard enumerating the most critical security risks in LLM applications, including prompt injection, insecure output handling, training-data poisoning, and excessive agency. [[paper]](https://owasp.org/www-project-top-10-for-large-language-model-applications/) `[OWASP 2025]` `[classic]`
 - **AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents** (Edoardo Debenedetti et al., 2024) — Provides a dynamic benchmark of realistic tool-using agent tasks paired with security test cases, so attacks and defenses are measured on end-to-end agent behavior rather than isolated prompts. [[paper]](https://arxiv.org/abs/2406.13352) [[code]](https://github.com/ethz-spylab/agentdojo) `[NeurIPS Datasets and Benchmarks 2024]` `[paper]`
 - **garak: LLM vulnerability scanner** (NVIDIA, 2024) — An open-source scanner that probes language models for failure modes such as prompt injection, jailbreaks, toxic generation, and data leakage, combining static, dynamic, and adaptive probes. [[repo]](https://github.com/NVIDIA/garak) `[tool]`
@@ -340,6 +343,7 @@ Review, checkpoints, cognitive load. When coding agents produce code at 42,000×
 ### Resources
 
 <!-- AUTOGEN:START layer=oversight -->
+- **HiLSVA: Design and Evaluation of a Human-in-the-Loop Agentic System for Scientific Visualization** (Kuangshi Ai et al., 2026) — HiLSVA is a human-in-the-loop agentic system for scientific visualization that integrates a plan-first multi-agent architecture with explicit human oversight, stepwise provenance tracking, and learn-at-test-time adaptation to improve transparency and control. [[paper]](https://arxiv.org/abs/2606.26614v1) `[arXiv 2026]` `[paper]`
 - **Practices for Governing Agentic AI Systems** (Yonadav Shavit et al., 2023) — Proposes baseline operational practices for keeping agentic systems accountable across their lifecycle, including suitability evaluation, constraining the action space, human approval for high-stakes actions, interruptibility, and attributability of actions to a responsible party. [[paper]](https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf) `[OpenAI 2023]` `[paper]`
 <!-- AUTOGEN:END layer=oversight -->
 
@@ -352,6 +356,8 @@ End-to-end designs and detailed write-ups of real deployments. The published exa
 ### Resources
 
 <!-- AUTOGEN:START layer=architectures -->
+- **AgentX: Towards Agent-Driven Self-Iteration of Industrial Recommender Systems** (Changxin Lao et al., 2026) — AgentX is a production-deployed multi-agent system that automates the entire recommender system iteration cycle, from hypothesis generation and code implementation to A/B testing and self-improvement, fundamentally restructuring the development workflow. [[paper]](https://arxiv.org/abs/2606.26859v1) `[arXiv 2026]` `[paper]`
+- **NOVA: A Verification-Aware Agent Harness for Architecture Evolution in Industrial Recommender Systems** (Shaohua Liu et al., 2026) — NOVA is a verification-aware agent harness that guides architecture evolution in industrial recommender systems using an architecture gradient and a multi-level verification cascade to prevent silent failures and improve reliability. [[paper]](https://arxiv.org/abs/2606.27243v1) `[arXiv 2026]` `[paper]`
 - **Building Effective Agents** (Erik Schluntz et al., 2024) — A practical engineering guide that separates predictable workflows from open-ended agents and catalogs composable patterns such as prompt chaining, routing, orchestrator-workers, and evaluator-optimizer. [[paper]](https://www.anthropic.com/engineering/building-effective-agents) `[Anthropic 2024]` `[paper]`
 <!-- AUTOGEN:END layer=architectures -->
 
