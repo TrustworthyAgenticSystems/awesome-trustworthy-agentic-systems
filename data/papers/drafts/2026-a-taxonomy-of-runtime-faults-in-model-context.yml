@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-taxonomy-of-runtime-faults-in-model-context
+type: papers
+title: A Taxonomy of Runtime Faults in Model Context Protocol Servers
+url: https://arxiv.org/abs/2606.05339v1
+authors:
+- Joshua Owotogbe
+- Indika Kumara
+- Willem-Jan van den Heuvel
+- Damian Andrew Tamburri
+- Antonio Ken Iannillo
+- Roberto Natella
+venue: arXiv
+year: 2026
+summary: Empirical taxonomy of 837 runtime faults in Model Context Protocol (MCP) servers, covering failures
+  across protocol interactions, tool invocations, and security validation, validated by a survey of 55
+  developers.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses reliability and security challenges in the tool-interface layer of agentic
+    systems through an empirical study and taxonomy of runtime faults.
+status: draft

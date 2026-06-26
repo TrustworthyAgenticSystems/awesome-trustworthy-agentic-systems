@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-formal-semantics-for-agentic-tool-protocols-a-process
+type: papers
+title: 'Formal Semantics for Agentic Tool Protocols: A Process Calculus Approach'
+url: https://arxiv.org/abs/2603.24747v2
+authors:
+- Andreas Schlapbach
+venue: arXiv
+year: 2026
+summary: Formalizes the structural and behavioral equivalence of Schema-Guided Dialogue and Model Context
+  Protocol using process calculus, identifying principles for provable safety properties in agent-tool
+  interfaces.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Provides a formal foundation for verifying agent-tool protocols, directly addressing trustworthiness
+    in the tool-interface layer.
+status: draft

@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-an-agentic-retrieval-framework-for-autonomous-context-aware
+type: papers
+title: An Agentic Retrieval Framework for Autonomous Context-Aware Data Quality Assessment
+url: https://arxiv.org/abs/2606.13692v1
+authors:
+- Hadi Fadlallah
+- Ibrahim Dhaini
+- Fatima Mubarak
+- Rima Kilany
+venue: arXiv
+year: 2026
+summary: A multi-agent framework for autonomous data quality assessment that interprets natural-language
+  usage, derives context-aware strategies, and includes a feasibility validation stage to ensure operational
+  reliability and safe execution of generated validation logic.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-agent system with a focus on ensuring operational reliability
+    and safe execution through a feasibility validation stage, directly addressing trustworthiness in
+    agentic workflows.
+status: draft

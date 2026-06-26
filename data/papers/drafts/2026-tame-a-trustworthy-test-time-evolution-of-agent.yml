@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-tame-a-trustworthy-test-time-evolution-of-agent
+type: papers
+title: 'TAME: A Trustworthy Test-Time Evolution of Agent Memory with Systematic Benchmarking'
+url: https://arxiv.org/abs/2602.03224v2
+authors:
+- Yu Cheng
+- Yongkang Hu
+- Jiuan Zhou
+- Yushuo Zhang
+- Yihang Chen
+- Huichi Zhou
+- Mingang Chen
+- Zhizhong Zhang
+- Kun Shao
+- Yuan Xie
+- Zhaoxia Yin
+venue: arXiv
+year: 2026
+summary: Introduces TAME, a trust-aware memory evolution framework with an Executor-Evaluator loop to
+  mitigate "Agent Memory Misevolution" by selectively reinforcing and reusing memory based on trust-aware
+  feedback, evaluated on the Trust-Memevo benchmark.
+harness_layer:
+- memory
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses a specific systems-level trustworthiness problem (memory misevolution) in agent
+    memory management with a concrete architectural solution and empirical evaluation.
+status: draft

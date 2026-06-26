@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-engiagent-fully-connected-coordination-of-llm-agents-for
+type: papers
+title: 'EngiAgent: Fully Connected Coordination of LLM Agents for Solving Open-ended Engineering Problems
+  with Feasible Solutions'
+url: https://arxiv.org/abs/2605.02289v1
+authors:
+- Xiyuan Zhou
+- Ruixi Zou
+- Xinlei Wang
+- Yuheng Cheng
+- Yan Xu
+- Junhua Zhao
+- Jinjin Gu
+venue: arXiv
+year: 2026
+summary: EngiAgent is a multi-agent system with a fully connected coordinator that enables flexible feedback
+  routing among specialized agents to ensure feasibility in open-ended engineering problem solving.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-agent coordination system designed to improve reliability and
+    safety by ensuring feasibility and robustness in engineering problem-solving workflows.
+status: draft

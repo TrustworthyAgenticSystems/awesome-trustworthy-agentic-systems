@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-headless-firm-how-ai-reshapes-enterprise-boundaries
+type: papers
+title: 'The Headless Firm: How AI Reshapes Enterprise Boundaries'
+url: https://arxiv.org/abs/2602.21401v1
+authors:
+- Tassilo Klein
+- Sebastian Wieczorek
+venue: arXiv
+year: 2026
+summary: Proposes a coordination cost model for agentic systems, predicting a 'Headless Firm' organizational
+  structure with O(n) integration costs and O(task throughput) verification costs, and derives empirical
+  predictions for ecosystem stability.
+harness_layer:
+- foundations
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Provides a foundational economic model for the coordination and scaling of agentic systems,
+    which is relevant to understanding their trustworthiness at an architectural level.
+status: draft

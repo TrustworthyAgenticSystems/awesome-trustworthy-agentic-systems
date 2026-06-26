@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-detecting-multi-agent-collusion-through-multi-agent-interpretability
+type: papers
+title: Detecting Multi-Agent Collusion Through Multi-Agent Interpretability
+url: https://arxiv.org/abs/2604.01151v2
+authors:
+- Aaron Rose
+- Carissa Cullen
+- Sahar Abdelnabi
+- Philip Torr
+- Brandon Gary Kaplowitz
+- Christian Schroeder de Witt
+venue: arXiv
+year: 2026
+summary: Introduces NARCBench, a benchmark for detecting multi-agent collusion, and proposes five probing
+  techniques that aggregate per-agent deception scores to classify group-level collusion, extending white-box
+  inspection to multi-agent contexts.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: Addresses the critical systems problem of detecting covert coordination and collusion in
+    multi-agent systems using internal model representations, providing a new benchmark and detection
+    techniques.
+status: draft

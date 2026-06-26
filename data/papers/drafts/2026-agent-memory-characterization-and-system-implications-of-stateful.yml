@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agent-memory-characterization-and-system-implications-of-stateful
+type: papers
+title: 'Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads'
+url: https://arxiv.org/abs/2606.06448v1
+authors:
+- Yasmine Omri
+- Ziyu Gan
+- Zachary Broveak
+- Robin Geens
+- Zexue He
+- Alex Pentland
+- Marian Verhelst
+- Tsachy Weissman
+- Thierry Tambe
+venue: arXiv
+year: 2026
+summary: A systems characterization of agent memory, including a taxonomy, profiling harness, and empirical
+  analysis of ten systems, leading to ten system recommendations for managing stateful long-horizon agent
+  workloads.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a systems-level characterization and recommendations for agent memory,
+    directly addressing the engineering challenges of stateful long-horizon agent workloads.
+status: draft

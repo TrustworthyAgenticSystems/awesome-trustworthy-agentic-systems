@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-peam-parametric-embodied-agent-memory-through-contrastive-internalization
+type: papers
+title: 'PEAM: Parametric Embodied Agent Memory through Contrastive Internalization of Experience in Minecraft'
+url: https://arxiv.org/abs/2605.27762v2
+authors:
+- Yuchen Guo
+- Junli Gong
+- Weicheng Wang
+- Hongmin Cai
+- Yiu-ming Cheung
+- Weifeng Su
+venue: arXiv
+year: 2026
+summary: PEAM introduces a parametric embodied agent memory framework that internalizes experience into
+  parameter-resident skills, using a multimodal Mixture-of-Experts LoRA architecture with physically isolated
+  adapters for continual learning and a self-triggered consolidation mechanism.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to agent memory management by proposing a novel parametric memory system
+    that internalizes experience and handles continual learning, addressing reliability in long-running
+    agents.
+status: draft

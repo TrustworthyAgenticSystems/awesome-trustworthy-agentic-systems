@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-causal-past-logic-for-runtime-verification-of-distributed
+type: papers
+title: Causal Past Logic for Runtime Verification of Distributed LLM Agent Workflows
+url: https://arxiv.org/abs/2605.20923v1
+authors:
+- Benedikt Bollig
+venue: arXiv
+year: 2026
+summary: Extends an agent-workflow framework with Causal Past Logic (CPL) to enable runtime verification
+  of distributed LLM agent workflows, ensuring decisions are based only on causally visible events.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses runtime verification and coordination logic for distributed agent systems,
+    ensuring reliable execution based on causal consistency.
+status: draft

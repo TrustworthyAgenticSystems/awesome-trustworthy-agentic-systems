@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-decoupled-human-in-the-loop-system-for
+type: papers
+title: A Decoupled Human-in-the-Loop System for Controlled Autonomy in Agentic Workflows
+url: https://arxiv.org/abs/2604.23049v1
+authors:
+- Edward Cheng
+- Jeshua Cheng
+venue: arXiv
+year: 2026
+summary: A decoupled Human-in-the-Loop system architecture that externalizes human oversight as an independent
+  system component with explicit interfaces and a structured execution model, enabling scalable governance
+  and progressive autonomy.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses human oversight at scale and governance for agentic workflows by proposing
+    a decoupled system architecture for HITL.
+status: draft

@@ -1,0 +1,94 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-workflow-gym-towards-long-horizon-evaluation-of-computer
+type: papers
+title: 'Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional
+  Fields'
+url: https://arxiv.org/abs/2606.11042v3
+authors:
+- Liya Zhu
+- Jingzhe Ding
+- Jian Zhang
+- Jianbo Xue
+- Shihao Liang
+- Ge Zhang
+- Yi Zhu
+- Duju Zeng
+- Xiang Gao
+- Qingshui Gu
+- Mailun Gao
+- Huimin Che
+- Yan Zhao
+- Peiheng Zhou
+- Haojun Wang
+- Chaobo Xian
+- Lili Le
+- Chi Wu
+- Yiwei Liu
+- Shengda Long
+- Jiale Yang
+- Fangzhi Xu
+- Sijin Wu
+- Haodong Duan
+- Chao He
+- Zhaojian Li
+- Minchao Wang
+- Huan Zhou
+- Jiani Hou
+- Chuqian Yu
+- Weiran Shi
+- Hongwan Gao
+- Jiamin Chen
+- Guanhong Chen
+- Tingqin Luo
+- Kaiyuan Zhang
+- Zhixin Yao
+- Qing Hua
+- Yuhao Jiang
+- Jin Chen
+- Pu Chen
+- Zhenyu Hu
+- Xingyu Li
+- Zhengxuan Jiang
+- Meng Cao
+- Tianfeng Long
+- Haozhe Wang
+- Mingzhang Wang
+- Yichen Zhang
+- Yiming Dai
+- Chenchen Zhang
+- Jiaying Wang
+- Xinying Liu
+- Xingzu Liu
+- Lingling Zhang
+- Xinjie Chen
+- Yujia Qin
+- Wangchunshu Zhou
+- Zhiyong Wu
+- Yang Liu
+- Jiaheng Liu
+- Lei Zhang
+- Shen Yan
+- Wenhao Huang
+- Zaiyuan Wang
+- Xiaolong Chang
+venue: arXiv
+year: 2026
+summary: Introduces Workflow-GYM, a benchmark for long-horizon GUI tasks in professional domains, revealing
+  challenges in workflow consistency, error propagation, and objective drift for current agents.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses long-horizon evaluation of agentic systems, identifying specific
+    failure modes in complex real-world workflows.
+status: draft

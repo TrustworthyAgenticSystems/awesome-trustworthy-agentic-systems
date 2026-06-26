@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-multi-paradigm-agent-interaction-in-practice-a-systematic
+type: papers
+title: Multi-Paradigm Agent Interaction in Practice:A Systematic Analysis of Generator-Evaluator, ReAct
+  Loop,and Adversarial Evaluation in the buddyMe Framework
+url: https://arxiv.org/abs/2605.16821v1
+authors:
+- Xiaohua Wang
+- Chao Han
+- Kai Yu
+- XiaoLiang Xu
+- Liang Wang
+venue: arXiv
+year: 2026
+summary: Systematic analysis of multi-paradigm agent interaction (Generator-Evaluator, ReAct, Memory-Augmented)
+  within the buddyMe framework, formalizing a five-stage pipeline and evaluating it through real-world
+  case studies to provide design guidelines for stable and reliable multi-paradigm agent systems.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a systematic analysis of integrating multiple agent interaction paradigms
+    within a unified architecture, offering practical design guidelines for constructing stable and reliable
+    multi-paradigm agent systems, which is a contribution to agent architectures.
+status: draft

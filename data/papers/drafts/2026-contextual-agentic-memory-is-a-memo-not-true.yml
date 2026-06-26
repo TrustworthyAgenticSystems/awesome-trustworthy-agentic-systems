@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-contextual-agentic-memory-is-a-memo-not-true
+type: papers
+title: Contextual Agentic Memory is a Memo, Not True Memory
+url: https://arxiv.org/abs/2604.27707v1
+authors:
+- Binyan Xu
+- Xilin Dai
+- Kehuan Zhang
+venue: arXiv
+year: 2026
+summary: This paper argues that current agentic memory systems are merely lookup mechanisms, leading to
+  vulnerabilities like memory poisoning and limitations in long-term learning, and proposes a neuroscientific-inspired
+  solution for true memory.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses fundamental limitations and security vulnerabilities in current
+    agentic memory systems, proposing a conceptual and architectural shift for trustworthiness.
+status: draft

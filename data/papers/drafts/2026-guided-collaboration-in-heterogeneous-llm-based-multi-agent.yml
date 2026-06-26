@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-guided-collaboration-in-heterogeneous-llm-based-multi-agent
+type: papers
+title: Guided Collaboration in Heterogeneous LLM-Based Multi-Agent Systems via Entropy-Based Understanding
+  Assessment and Experience Retrieval
+url: https://arxiv.org/abs/2602.13639v1
+authors:
+- Linlin Wang
+- Tianqing Zhu
+- Laiqiao Qin
+- Longxiang Gao
+- Wanlei Zhou
+venue: arXiv
+year: 2026
+summary: Proposes an Entropy-Based Adaptive Guidance Framework to dynamically align guidance with the
+  cognitive state of agents in heterogeneous multi-agent systems, using multi-dimensional entropy metrics
+  and RAG for experience retrieval to improve collaboration effectiveness and stability.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses a systems-level problem in multi-agent coordination by proposing a framework for
+    adaptive guidance and experience retrieval to improve reliability in heterogeneous agent collaborations.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-first-drop-of-ink-nonlinear-impact-of
+type: papers
+title: 'The First Drop of Ink: Nonlinear Impact of Misleading Information in Long-Context Reasoning'
+url: https://arxiv.org/abs/2605.10828v1
+authors:
+- Muhan Gao
+- Zih-Ching Chen
+- Kuan-Hao Huang
+venue: arXiv
+year: 2026
+summary: Characterizes the "First Drop of Ink" effect, a nonlinear performance degradation in long-context
+  reasoning due to even small proportions of misleading information, and attributes it to disproportionate
+  attention capture by hard distractors.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses a critical reliability issue in agent memory (RAG) by analyzing
+    how misleading information impacts long-context reasoning, highlighting the importance of upstream
+    retrieval precision.
+status: draft

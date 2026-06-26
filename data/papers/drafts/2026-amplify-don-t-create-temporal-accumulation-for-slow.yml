@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-amplify-don-t-create-temporal-accumulation-for-slow
+type: papers
+title: 'Amplify, Don''t Create: Temporal Accumulation for Slow-Burn Prompt Injection'
+url: https://arxiv.org/abs/2606.20746v1
+authors:
+- J Alex Corll
+venue: arXiv
+year: 2026
+summary: Investigates 'slow-burn' prompt injection attacks that distribute weak directives across an agent's
+  trajectory, and proposes temporal accumulation of sub-threshold signals as a detection method, demonstrating
+  its effectiveness as a margin amplifier.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: Addresses a novel, system-level adversarial attack (slow-burn prompt injection) and proposes
+    a detection mechanism that operates on agent trajectories, contributing to red-teaming and long-horizon
+    evaluation.
+status: draft

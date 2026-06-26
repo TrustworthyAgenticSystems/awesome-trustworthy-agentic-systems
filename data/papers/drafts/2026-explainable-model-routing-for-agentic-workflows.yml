@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-explainable-model-routing-for-agentic-workflows
+type: papers
+title: Explainable Model Routing for Agentic Workflows
+url: https://arxiv.org/abs/2604.03527v1
+authors:
+- Mika Okamoto
+- Ansel Kaplan Erol
+- Mark Riedl
+venue: arXiv
+year: 2026
+summary: Topaz introduces an explainable model router for agentic workflows that provides traceable routing
+  algorithms and developer-facing explanations to audit cost-quality trade-offs and understand model selection
+  rationale.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the observability and trustworthiness of model routing decisions
+    within agentic systems, which is a core coordination and reliability concern.
+status: draft

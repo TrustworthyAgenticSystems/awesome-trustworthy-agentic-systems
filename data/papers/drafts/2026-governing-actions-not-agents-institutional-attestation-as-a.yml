@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governing-actions-not-agents-institutional-attestation-as-a
+type: papers
+title: 'Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous
+  AI Systems'
+url: https://arxiv.org/abs/2606.26298v1
+authors:
+- Jakob Salfeld-Nebgen
+venue: arXiv
+year: 2026
+summary: Proposes a computational governance model for autonomous AI systems where high-risk actions require
+  independent attestation from authoritative sources, cryptographically bound to intent, and evaluated
+  by a deterministic policy, with decisions recorded in a tamper-evident log.
+harness_layer:
+- oversight
+sprs:
+- safety
+- security
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses human oversight and governance for consequential agent actions by introducing
+    an institutional attestation model at the point of execution.
+status: draft

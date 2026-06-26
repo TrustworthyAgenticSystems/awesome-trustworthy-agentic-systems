@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-alignment-isn-t-enough-response-path-attacks
+type: papers
+title: 'When Alignment Isn''t Enough: Response-Path Attacks on LLM Agents'
+url: https://arxiv.org/abs/2605.02187v1
+authors:
+- Mingyu Luo
+- Zihan Zhang
+- Zesen Liu
+- Yuchong Xie
+- Zhixiang Zhang
+- Dung Hiu Hilton Yeung
+- Wai Ip Lai
+- Ping Chen
+- Ming Wen
+- Dongdong She
+venue: arXiv
+year: 2026
+summary: Formalizes and demonstrates 'Response-Path Attacks' where a malicious relay tampers with LLM
+  responses post-generation but pre-execution, bypassing model alignment, and proposes a time-based detection
+  defense.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a novel system-level attack vector on agent integrity, demonstrating its
+    effectiveness and proposing a defense.
+status: draft

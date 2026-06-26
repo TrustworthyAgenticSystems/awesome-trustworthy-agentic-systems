@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-prism-recovering-instruction-sets-from-language-model-activations
+type: papers
+title: 'PRISM: Recovering Instruction Sets from Language Model Activations'
+url: https://arxiv.org/abs/2606.09563v1
+authors:
+- Gilad Gressel
+- Rahul Pankajakshan
+- Julia Diament
+- Efim Hudis
+- Krishnashree Achuthan
+- Yisroel Mirsky
+venue: arXiv
+year: 2026
+summary: PRISM is an activation-conditioned interpreter that decodes hidden states from a frozen LLM into
+  a bullet list of active instructions, enabling reliable monitoring of agent behavior, especially in
+  security-relevant scenarios.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the observability of agent instructions and hidden objectives
+    from model activations, which is crucial for monitoring and understanding agent trustworthiness.
+status: draft

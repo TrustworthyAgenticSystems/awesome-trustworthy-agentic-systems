@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentsentry-mitigating-indirect-prompt-injection-in-llm-agents
+type: papers
+title: 'AgentSentry: Mitigating Indirect Prompt Injection in LLM Agents via Temporal Causal Diagnostics
+  and Context Purification'
+url: https://arxiv.org/abs/2602.22724v1
+authors:
+- Tian Zhang
+- Yiwei Xu
+- Juan Wang
+- Keyan Guo
+- Xiaoyang Xu
+- Bowen Xiao
+- Quanlong Guan
+- Jinlin Fan
+- Jiawei Liu
+- Zhiquan Liu
+- Hongxin Hu
+venue: arXiv
+year: 2026
+summary: AgentSentry is an inference-time defense framework that models multi-turn indirect prompt injection
+  as a temporal causal takeover, localizing attack points via counterfactual re-executions and purifying
+  context to mitigate IPI in tool-augmented LLM agents.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses a critical security vulnerability (indirect prompt injection)
+    in agentic systems by proposing a novel, systems-level defense mechanism that operates at inference
+    time across multi-turn interactions.
+status: draft

@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ramem-contextual-reinstatement-for-long-term-agentic-memory
+type: papers
+title: 'RaMem: Contextual Reinstatement for Long-term Agentic Memory'
+url: https://arxiv.org/abs/2606.22844v1
+authors:
+- Wei Yang
+- Bryce Kan
+- Shixuan Li
+- Li Li
+- Yuehan Qin
+- Jiate Li
+- Paul Bogdan
+- Jesse Thomason
+venue: arXiv
+year: 2026
+summary: RaMem is a framework that addresses context collapse in long-term agentic memory by anchoring
+  memories in their original episodic conditions and using validity-aware retrieval to ensure context-compatible
+  evidence for queries.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses a systems-level reliability problem in agent memory (context
+    collapse) and proposes a structured framework for mitigation.
+status: draft

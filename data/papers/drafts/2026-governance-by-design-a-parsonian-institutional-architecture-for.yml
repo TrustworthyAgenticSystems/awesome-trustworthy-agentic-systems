@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governance-by-design-a-parsonian-institutional-architecture-for
+type: papers
+title: 'Governance by Design: A Parsonian Institutional Architecture for Internet-Wide Agent Societies'
+url: https://arxiv.org/abs/2604.11337v1
+authors:
+- Anbang Ruan
+venue: arXiv
+year: 2026
+summary: Proposes a prescriptive institutional architecture for governing internet-wide agent societies
+  based on Parsons' AGIL framework, diagnosing significant governance gaps in existing agent ecosystems
+  and protocols.
+harness_layer:
+- foundations
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides a foundational, cross-community framing of governance for internet-wide agent systems,
+    identifying a critical gap in current market-driven development.
+status: draft

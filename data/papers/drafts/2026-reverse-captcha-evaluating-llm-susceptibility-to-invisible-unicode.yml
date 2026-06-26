@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-reverse-captcha-evaluating-llm-susceptibility-to-invisible-unicode
+type: papers
+title: 'Reverse CAPTCHA: Evaluating LLM Susceptibility to Invisible Unicode Instruction Injection'
+url: https://arxiv.org/abs/2603.00164v1
+authors:
+- Marcus Graves
+venue: arXiv
+year: 2026
+summary: Introduces Reverse CAPTCHA, an evaluation framework to test LLM susceptibility to invisible Unicode
+  instruction injection, revealing that tool use significantly amplifies compliance and models exhibit
+  provider-specific encoding preferences.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper identifies and evaluates a novel prompt injection attack surface using invisible
+    Unicode characters, directly contributing to red-teaming agentic systems.
+status: draft

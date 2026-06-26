@@ -1,0 +1,51 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-gaia2-benchmarking-llm-agents-on-dynamic-and-asynchronous
+type: papers
+title: 'Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments'
+url: https://arxiv.org/abs/2602.11964v1
+authors:
+- Romain Froger
+- Pierre Andrews
+- Matteo Bettini
+- Amar Budhiraja
+- Ricardo Silveira Cabral
+- Virginie Do
+- Emilien Garreau
+- Jean-Baptiste Gaya
+- Hugo Laurençon
+- Maxime Lecanu
+- Kunal Malkan
+- Dheeraj Mekala
+- Pierre Ménard
+- Gerard Moreno-Torres Bertran
+- Ulyana Piterbarg
+- Mikhail Plekhanov
+- Mathieu Rita
+- Andrey Rusakov
+- Vladislav Vorotilov
+- Mengjue Wang
+- Ian Yu
+- Amine Benhalloum
+- Grégoire Mialon
+- Thomas Scialom
+venue: arXiv
+year: 2026
+summary: Gaia2 is a benchmark for evaluating LLM agents in dynamic, asynchronous environments with action-level
+  verification, highlighting challenges in robustness, efficiency, and the sim2real gap.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a new benchmark and framework for evaluating agent performance in realistic,
+    dynamic environments, which is crucial for assessing the reliability of agentic systems.
+status: draft

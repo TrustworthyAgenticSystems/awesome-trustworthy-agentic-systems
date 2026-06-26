@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-context-sharing-a-unified-agent-communication-protocol
+type: papers
+title: 'Beyond Context Sharing: A Unified Agent Communication Protocol (ACP) for Secure, Federated, and
+  Autonomous Agent-to-Agent (A2A) Orchestration'
+url: https://arxiv.org/abs/2602.15055v1
+authors:
+- Naveen Kumar Krishnan
+venue: arXiv
+year: 2026
+summary: Proposes a standardized Agent Communication Protocol (ACP) for secure, federated, and autonomous
+  agent-to-agent orchestration, including decentralized identity verification and semantic intent mapping.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses secure and interoperable multi-agent coordination, a core systems challenge for
+    trustworthy agentic systems.
+status: draft

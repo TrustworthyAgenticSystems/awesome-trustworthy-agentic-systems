@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-local-llm-agents-as-vulnerable-runtimes-a-source
+type: papers
+title: Local LLM Agents as Vulnerable Runtimes:A Source-Code Audit of the Agent Runtime Layer
+url: https://arxiv.org/abs/2606.21071v1
+authors:
+- Zhengsong Zhang
+- Zongze Li
+- Jiawei Guo
+- Haipeng Cai
+venue: arXiv
+year: 2026
+summary: Presents CLAWAUDIT, a static auditing framework with a five-category vulnerability taxonomy and
+  custom static-analysis rules to identify implementation-level security weaknesses in local LLM agent
+  runtimes.
+harness_layer:
+- execution-shell
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the security of the agent's execution shell by auditing its
+    source code for implementation-level vulnerabilities, a critical systems-engineering concern.
+status: draft

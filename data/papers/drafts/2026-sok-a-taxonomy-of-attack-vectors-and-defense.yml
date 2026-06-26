@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-sok-a-taxonomy-of-attack-vectors-and-defense
+type: papers
+title: 'SOK: A Taxonomy of Attack Vectors and Defense Strategies for Agentic Supply Chain Runtime'
+url: https://arxiv.org/abs/2602.19555v2
+authors:
+- Xiaochong Jiang
+- Shiqi Yang
+- Wenting Yang
+- Yichen Liu
+- Cheng Ji
+venue: arXiv
+year: 2026
+summary: A systematization of knowledge (SOK) paper that taxonomizes runtime attack vectors and defense
+  strategies for agentic systems, focusing on data and tool supply chain attacks and introducing the concept
+  of a Viral Agent Loop.
+harness_layer:
+- foundations
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a foundational taxonomy of runtime security risks for agentic systems,
+    directly addressing the systems-level attack surface beyond model-level vulnerabilities.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-an-agentic-evaluation-architecture-for-historical-bias-detection
+type: papers
+title: An Agentic Evaluation Architecture for Historical Bias Detection in Educational Textbooks
+url: https://arxiv.org/abs/2604.07883v1
+authors:
+- Gabriel Stefan
+- Adrian-Marius Dumitran
+venue: arXiv
+year: 2026
+summary: Proposes an agentic evaluation architecture with a multimodal screening agent, a jury of evaluative
+  agents, and a meta-agent for detecting historical bias in textbooks, including a Source Attribution
+  Protocol to prevent misattribution.
+harness_layer:
+- coordination
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper describes a multi-agent coordination architecture for a specific evaluation task,
+    including a novel protocol for source attribution that addresses a systems-level challenge in agentic
+    evaluation.
+status: draft

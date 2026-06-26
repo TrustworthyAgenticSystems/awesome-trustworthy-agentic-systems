@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cordon-mas-defending-rag-against-knowledge-poisoning-via
+type: papers
+title: 'Cordon-MAS: Defending RAG against Knowledge Poisoning via Information-Flow Control'
+url: https://arxiv.org/abs/2605.26754v1
+authors:
+- Zhe Yu
+- Wenpeng Xing
+- Gaolei Li
+- Shuguang Xiong
+- Hongzhi Wang
+- Xuyang Teng
+- Meng Han
+venue: arXiv
+year: 2026
+summary: Introduces the Cordon Principle and CORDON-MAS, an information-flow control framework that architecturally
+  separates evidence processing and synthesis to defend RAG against knowledge poisoning by preventing
+  agents capable of synthesis from accessing untrusted natural-language evidence.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses memory poisoning in RAG-based agents through a systems-level information-flow
+    control architecture, reframing the problem from detection to architectural enforcement.
+status: draft

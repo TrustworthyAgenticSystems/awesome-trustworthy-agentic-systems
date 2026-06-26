@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ai-observability-for-developer-productivity-tools-bridging-cost
+type: papers
+title: 'AI Observability for Developer Productivity Tools: Bridging Cost Awareness and Code Quality'
+url: https://arxiv.org/abs/2604.17092v1
+authors:
+- Happy Bhati
+- Twinkll Sisodia
+venue: arXiv
+year: 2026
+summary: A unified AI observability system for developer productivity tools that tracks real-time token
+  costs, validates responses, and provides cost analytics, evaluated on a six-month development workflow.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper describes a concrete system for observing and evaluating AI interactions in developer
+    workflows, addressing cost and quality, which is directly relevant to agentic system reliability and
+    observability.
+status: draft

@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-illusion-of-intervention-your-llm-simulated-experiment
+type: papers
+title: 'The Illusion of Intervention: Your LLM-Simulated Experiment is an Observational Study'
+url: https://arxiv.org/abs/2605.20767v1
+authors:
+- Victoria Lin
+- Taedong Yun
+- Maja Matarić
+- John Canny
+- Arthur Gretton
+- Alexander D'Amour
+venue: arXiv
+year: 2026
+summary: Identifies and formalizes 'user drift' in LLM-simulated experiments, where interventions cause
+  unintended shifts in latent user attributes, and proposes negative control outcomes and persona adjustments
+  to mitigate this confounding.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses a critical reliability issue in evaluating agentic systems that rely on LLM-simulated
+    users, providing diagnostic and mitigation strategies.
+status: draft

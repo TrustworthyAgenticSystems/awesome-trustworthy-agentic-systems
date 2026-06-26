@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-syll-open-source-personal-automation-with-cross-surface
+type: papers
+title: 'Syll: Open-Source Personal Automation with Cross-Surface Execution'
+url: https://arxiv.org/abs/2606.07594v1
+authors:
+- Bo Zhang
+- Borui Zhang
+- Chenghao Jiang
+- Minglei Shi
+- Xiaofeng Wang
+- Zheng Zhu
+- Jie Zhou
+- Jiwen Lu
+venue: arXiv
+year: 2026
+summary: Syll is an open-source, self-hosted multimodal agent harness that unifies diverse execution surfaces
+  (APIs, CLI, GUI) and provides bidirectional user-agent interaction for teaching, auditability, and externalized
+  governance.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Syll presents a comprehensive architectural contribution to trustworthy agentic systems by
+    addressing cross-surface execution, user teaching, and auditability through a modular runtime and
+    externalized governance.
+status: draft

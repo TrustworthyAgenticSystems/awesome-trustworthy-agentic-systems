@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-disentangling-adversarial-prompts-a-semantic-graph-defense-for
+type: papers
+title: 'Disentangling Adversarial Prompts: A Semantic-Graph Defense for Robust LLM Security'
+url: https://arxiv.org/abs/2605.27823v1
+authors:
+- Xiang Fang
+- Wanlong Fang
+venue: arXiv
+year: 2026
+summary: The Adversarial Prompt Disentanglement (APD) framework uses semantic decomposition and graph-based
+  intent classification to identify and neutralize malicious components in adversarial prompts before
+  LLM processing.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a defense mechanism against adversarial prompts, which is a direct contribution
+    to red-teaming and security of LLM systems.
+status: draft

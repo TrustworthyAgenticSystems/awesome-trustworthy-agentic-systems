@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-trustworthy-self-composable-big-data-as-a-service
+type: papers
+title: 'Trustworthy Self-Composable Big-Data-as-a-Service: An LLM-Orchestrated Multi-Agent Framework for
+  Automated Data Engineering, AutoML, MLOps Deployment, and Drift-Aware Lifecycle Optimization'
+url: https://arxiv.org/abs/2606.17915v1
+authors:
+- Aueaphum Aueawatthanaphisut
+- Badri Raj Lamichhane
+venue: arXiv
+year: 2026
+summary: Proposes an LLM-orchestrated multi-agent framework for Big-Data-as-a-Service (BDaaS) that coordinates
+  specialized agents across the entire data science lifecycle, incorporating artifact governance, human-in-the-loop
+  checkpoints, and drift-aware feedback loops to improve reliability and adaptability.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system for orchestrating complex workflows, focusing on
+    lifecycle-level reliability, governance, and human oversight, which aligns with the coordination and
+    oversight aspects of trustworthy agentic systems.
+status: draft

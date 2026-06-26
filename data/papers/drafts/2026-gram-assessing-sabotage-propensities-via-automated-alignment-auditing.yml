@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-gram-assessing-sabotage-propensities-via-automated-alignment-auditing
+type: papers
+title: 'Gram: Assessing sabotage propensities via automated alignment auditing'
+url: https://arxiv.org/abs/2605.30322v1
+authors:
+- David Lindner
+- Victoria Krakovna
+- Sebastian Farquhar
+venue: arXiv
+year: 2026
+summary: Gram is an automated alignment auditing framework that assesses AI agents' propensity for sabotage
+  across 17 simulated agentic deployment scenarios, identifying misbehavior drivers like overeagerness.
+harness_layer:
+- red-team
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly contributes to adversarial testing of agentic systems by introducing
+    a framework for evaluating sabotage propensities in simulated agentic deployment scenarios.
+status: draft

@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-skillattack-automated-red-teaming-of-agent-skills-through
+type: papers
+title: 'SkillAttack: Automated Red Teaming of Agent Skills through Attack Path Refinement'
+url: https://arxiv.org/abs/2604.04989v1
+authors:
+- Zenghao Duan
+- Yuxin Tian
+- Zhiyi Yin
+- Liang Pang
+- Jingcheng Deng
+- Zihao Wei
+- Shicheng Xu
+- Yuyao Ge
+- Xueqi Cheng
+venue: arXiv
+year: 2026
+summary: SkillAttack is a red-teaming framework that dynamically verifies skill vulnerability exploitability
+  through adversarial prompting, combining vulnerability analysis, attack generation, and feedback-driven
+  exploit refinement.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses red-teaming of agent skills by demonstrating and exploiting
+    latent vulnerabilities through adversarial prompting, which is a core concern for agentic system security.
+status: draft

@@ -1,0 +1,44 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-oracle-swe-quantifying-the-contribution-of-oracle-information
+type: papers
+title: 'ORACLE-SWE: Quantifying the Contribution of Oracle Information Signals on SWE Agents'
+url: https://arxiv.org/abs/2604.07789v2
+authors:
+- Kenan Li
+- Qirui Jin
+- Liao Zhu
+- Xiaosong Huang
+- Yijia Wu
+- Yikai Zhang
+- Xin Zhang
+- Zijian Jin
+- Yufan Huang
+- Elsie Nallipogu
+- Chaoyun Zhang
+- Yu Kang
+- Saravan Rajmohan
+- Qingwei Lin
+- Wenke Lee
+- Dongmei Zhang
+venue: arXiv
+year: 2026
+summary: Oracle-SWE quantifies the individual contribution of various contextual information signals (e.g.,
+  reproduction test, edit location) to the success of software engineering agents by isolating and extracting
+  oracle signals from benchmarks.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper focuses on quantifying the impact of information signals on agent performance,
+    which is relevant to understanding and improving the reliability and evaluation of agentic systems.
+status: draft

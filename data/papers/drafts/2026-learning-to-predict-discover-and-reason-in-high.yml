@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-learning-to-predict-discover-and-reason-in-high
+type: papers
+title: Learning to Predict, Discover, and Reason in High-Dimensional Event Sequences
+url: https://arxiv.org/abs/2603.16313v2
+authors:
+- Hugo Math
+venue: arXiv
+year: 2026
+summary: Introduces a multi-agent system to automate the synthesis of Boolean error pattern rules from
+  high-dimensional diagnostic event sequences, addressing the scalability and error-proneness of manual
+  rule creation for vehicle fault diagnostics.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a multi-agent system for automating the synthesis of diagnostic rules,
+    which directly contributes to the reliability and safety of complex systems by improving the coordination
+    and reasoning capabilities of agents in a high-dimensional event space.
+status: draft

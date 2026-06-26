@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-inference-time-backdoors-via-chat-templates-from-llm
+type: papers
+title: 'Inference-Time Backdoors via Chat Templates: From LLM Supply Chains to Agentic System Compromise'
+url: https://arxiv.org/abs/2602.04653v4
+authors:
+- Ariel Fogel
+- Omer Hofman
+- Eilon Cohen
+- Roman Vainshtein
+venue: arXiv
+year: 2026
+summary: Identifies chat templates as a novel and undefended attack surface for inference-time backdoors,
+  demonstrating compromise across LLM, agent, and multi-agent system levels, and showing evasion of existing
+  defenses.
+harness_layer:
+- supply-chain
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a critical supply-chain security vulnerability in agentic systems
+    by identifying and demonstrating a novel attack vector (chat templates) that bypasses existing defenses.
+status: draft

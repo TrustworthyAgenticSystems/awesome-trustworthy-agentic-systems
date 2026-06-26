@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentscope-evaluating-contextual-privacy-across-agentic-workflows
+type: papers
+title: 'AgentSCOPE: Evaluating Contextual Privacy Across Agentic Workflows'
+url: https://arxiv.org/abs/2603.04902v1
+authors:
+- Ivoline C. Ngong
+- Keerthiram Murugesan
+- Swanand Kadhe
+- Justin D. Weisz
+- Amit Dhurandhar
+- Karthikeyan Natesan Ramamurthy
+venue: arXiv
+year: 2026
+summary: Introduces the Privacy Flow Graph, a Contextual Integrity-grounded framework for evaluating privacy
+  violations across intermediate information flows in agentic workflows, and AgentSCOPE, a benchmark for
+  multi-tool scenarios with ground truth at every pipeline stage.
+harness_layer:
+- observation-eval
+sprs:
+- privacy
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses privacy evaluation for agentic systems by proposing a novel framework
+    and benchmark for tracing privacy violations across the entire workflow, not just inputs/outputs.
+status: draft

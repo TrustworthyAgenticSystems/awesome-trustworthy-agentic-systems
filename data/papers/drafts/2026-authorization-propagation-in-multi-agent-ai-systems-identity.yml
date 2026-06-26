@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-authorization-propagation-in-multi-agent-ai-systems-identity
+type: papers
+title: 'Authorization Propagation in Multi-Agent AI Systems: Identity Governance as Infrastructure'
+url: https://arxiv.org/abs/2605.05440v1
+authors:
+- Krti Tallam
+venue: arXiv
+year: 2026
+summary: Formalizes authorization propagation as a workflow-level property in multi-agent systems, identifying
+  sub-problems and deriving architectural requirements for identity governance as infrastructure.
+harness_layer:
+- permissions
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a core systems-level problem of authorization and identity governance
+    in multi-agent AI, distinct from model-level concerns.
+status: draft

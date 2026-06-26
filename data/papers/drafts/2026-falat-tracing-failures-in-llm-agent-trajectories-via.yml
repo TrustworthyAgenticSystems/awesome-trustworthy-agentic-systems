@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-falat-tracing-failures-in-llm-agent-trajectories-via
+type: papers
+title: 'FALAT: Tracing Failures in LLM Agent Trajectories via Dependency-Guided Search'
+url: https://arxiv.org/abs/2606.00765v1
+authors:
+- Md Nakhla Rafi
+- Md Ahasanuzzaman
+- Dong Jae Kim
+- Zhijie Wang
+- Tse-Hsun Chen
+venue: arXiv
+year: 2026
+summary: FALAT is a diagnostic framework that uses dependency-guided search to attribute failures in LLM
+  agent trajectories by distinguishing error-introducing steps from those that propagate prior mistakes.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the systems-level problem of failure attribution and diagnosis
+    in multi-step agent workflows, which is crucial for reliability and observability.
+status: draft

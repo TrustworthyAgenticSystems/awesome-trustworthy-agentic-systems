@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-modality-native-routing-in-agent-to-agent-networks
+type: papers
+title: 'Modality-Native Routing in Agent-to-Agent Networks: A Multimodal A2A Protocol Extension'
+url: https://arxiv.org/abs/2604.12213v1
+authors:
+- Vasundra Srinivasan
+venue: arXiv
+year: 2026
+summary: Introduces MMA2A, an architecture layer for multi-agent systems that routes multimodal signals
+  in their native format based on Agent Card capability declarations, improving task accuracy on cross-modal
+  reasoning tasks.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the coordination layer of agentic systems by proposing a novel routing
+    protocol for multimodal information, directly impacting the reliability of multi-agent workflows.
+status: draft

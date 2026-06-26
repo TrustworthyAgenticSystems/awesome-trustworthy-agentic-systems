@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-clawvm-harness-managed-virtual-memory-for-stateful-tool
+type: papers
+title: 'ClawVM: Harness-Managed Virtual Memory for Stateful Tool-Using LLM Agents'
+url: https://arxiv.org/abs/2604.10352v1
+authors:
+- Mofasshara Rafique
+- Laurent Bindschaedler
+venue: arXiv
+year: 2026
+summary: ClawVM introduces a virtual memory layer for LLM agents that manages state as typed pages with
+  minimum-fidelity invariants and validated writeback, making residency and durability deterministic and
+  auditable within the agent harness.
+harness_layer:
+- memory
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses memory management, state integrity, and durability for trustworthy agentic
+    systems with a concrete systems-level solution and empirical validation.
+status: draft

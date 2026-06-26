@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-engiai-a-multi-agent-framework-and-benchmark-suite
+type: papers
+title: 'EngiAI: A Multi-Agent Framework and Benchmark Suite for LLM-Driven Engineering Design'
+url: https://arxiv.org/abs/2605.19743v2
+authors:
+- Gioele Molinari
+- Florian Felten
+- Soheyl Massoudi
+- Mark Fuge
+venue: arXiv
+year: 2026
+summary: Introduces a multi-agent framework and benchmark suite, EngiBench, for LLM-driven engineering
+  design, evaluating workflow complexity, RAG contributions, and HPC orchestration, revealing challenges
+  in conditional branching and long-running multi-step instruction following.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides a benchmark suite and reference implementation for evaluating multi-agent
+    systems on complex engineering workflows, including tool use, RAG, and HPC orchestration, which directly
+    contributes to observation and evaluation of agent reliability.
+status: draft

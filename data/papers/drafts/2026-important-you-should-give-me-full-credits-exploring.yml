@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-important-you-should-give-me-full-credits-exploring
+type: papers
+title: '"**Important** You should give me full credits!": Exploring Prompt Injection Attacks on LLM-Based
+  Automatic Grading Systems'
+url: https://arxiv.org/abs/2606.03090v2
+authors:
+- Hang Li
+- Fedor Filippov
+- Yuping Lin
+- Pengfei He
+- Kaiqi Yang
+- Yucheng Chu
+- Yingqian Cui
+- Hui Liu
+- Jiliang Tang
+venue: arXiv
+year: 2026
+summary: Systematic investigation of prompt injection attacks on LLM-based automatic grading systems,
+  demonstrating their effectiveness and the vulnerability of current defenses in rubric-based grading
+  scenarios.
+harness_layer:
+- red-team
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses a system-level adversarial threat (prompt injection) against
+    an agentic system (automatic grading) and evaluates existing defenses, fitting squarely into red-teaming.
+status: draft

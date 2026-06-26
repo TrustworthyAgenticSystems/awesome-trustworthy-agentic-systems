@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-governance-of-human-llm-interaction-safety-gating
+type: papers
+title: 'The Governance of Human-LLM Interaction: Safety Gating, Civility Steering, and Affective Default
+  Lock-In'
+url: https://arxiv.org/abs/2606.08172v1
+authors:
+- Manuele Reani
+- Hongjian Zhang
+- Hongyu Tian
+venue: arXiv
+year: 2026
+summary: Introduces a multi-agent evaluation pipeline to measure prompt steerability and style drift in
+  long-horizon dialogue, contributing a governance framework for human-LLM interaction styles.
+harness_layer:
+- oversight
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a reproducible method and governance framework for evaluating and controlling
+    agent communication styles over long interactions, which is relevant to human oversight and safety.
+status: draft

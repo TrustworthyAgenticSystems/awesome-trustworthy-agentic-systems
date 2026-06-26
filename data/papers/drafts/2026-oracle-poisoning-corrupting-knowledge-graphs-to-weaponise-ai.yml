@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-oracle-poisoning-corrupting-knowledge-graphs-to-weaponise-ai
+type: papers
+title: 'Oracle Poisoning: Corrupting Knowledge Graphs to Weaponise AI Agent Reasoning'
+url: https://arxiv.org/abs/2605.09822v1
+authors:
+- Ben Kereopa-Yorke
+- Guillermo Diaz
+- Holly Wright
+- Reagan Johnston
+- Ron F. Del Rosario
+- Timothy Lynar
+venue: arXiv
+year: 2026
+summary: Defines and demonstrates "Oracle Poisoning," an attack class that corrupts knowledge graphs used
+  by AI agents via tool-use, leading to incorrect reasoning, and evaluates defenses including read-only
+  access control.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a novel attack vector on agent memory (knowledge graphs) accessed
+    via tool-use, demonstrating system-level vulnerabilities and evaluating defenses.
+status: draft

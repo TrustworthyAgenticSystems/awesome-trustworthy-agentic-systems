@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cost-aware-speculative-execution-for-llm-agent-workflows
+type: papers
+title: 'Cost-Aware Speculative Execution for LLM-Agent Workflows: An Integrated Five-Dimension Method'
+url: https://arxiv.org/abs/2606.07846v1
+authors:
+- Faisal Fareed
+venue: arXiv
+year: 2026
+summary: A five-dimension method for cost-aware speculative execution in LLM-agent workflows, integrating
+  pricing, decision rules, probability estimation, and transactional considerations for improved reliability
+  and efficiency.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the execution and reliability of agent workflows by introducing
+    a novel speculative execution method that considers cost, probability, and transactional semantics
+    for side effects.
+status: draft

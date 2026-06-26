@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-fuzzagent-multi-agent-system-for-evolutionary-library-fuzzing
+type: papers
+title: 'FuzzAgent: Multi-Agent System for Evolutionary Library Fuzzing'
+url: https://arxiv.org/abs/2605.14431v1
+authors:
+- Yunlong Lyu
+- Peng Chen
+- Fengyi Wu
+- Junzhe Yu
+- Kit Long Hon
+- Hao Chen
+venue: arXiv
+year: 2026
+summary: FuzzAgent is a multi-agent system that automates and evolves library fuzzing campaigns by having
+  specialized agents collaborate over the full fuzzing lifecycle, grounding decisions in runtime evidence
+  to refine harness suites for deeper coverage and higher-fidelity crash analysis.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper describes a multi-agent system for an iterative, feedback-driven process (fuzzing)
+    that directly contributes to software supply chain security and reliability by finding bugs in libraries.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-chromaflow-a-negative-ablation-study-of-orchestration-overhead
+type: papers
+title: 'ChromaFlow: A Negative Ablation Study of Orchestration Overhead in Tool-Augmented Agent Evaluation'
+url: https://arxiv.org/abs/2605.14102v2
+authors:
+- Tarun Mittal
+venue: arXiv
+year: 2026
+summary: Presents ChromaFlow, a tool-augmented autonomous reasoning framework, and conducts a negative
+  ablation study on GAIA 2023 tasks, showing that increased orchestration complexity can degrade performance
+  and increase operational noise, highlighting the need for robust evaluation controls.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the operational failure modes and evaluation challenges of complex
+    agentic systems, focusing on the impact of orchestration on reliability and observability.
+status: draft

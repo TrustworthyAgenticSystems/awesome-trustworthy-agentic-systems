@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-context-fractured-decomposition-attacks-on-tool-using-llm
+type: papers
+title: 'Context-Fractured Decomposition Attacks on Tool-Using LLM Agents: Exploiting Artifact Provenance
+  Gaps'
+url: https://arxiv.org/abs/2606.09084v1
+authors:
+- Xiaofeng Lin
+- Yukai Yang
+- Daniel Guo
+- Sahil Arun Nale
+- Charles Fleming
+- Guang Cheng
+venue: arXiv
+year: 2026
+summary: Introduces Context-Fractured Decomposition (CFD) attacks that exploit provenance gaps in agent
+  workflows to achieve multi-step jailbreaks via artifact-mediated composition, and proposes provenance
+  lineage tagging as a mitigation.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a novel system-level attack vector (provenance gaps) in multi-step agent
+    workflows and proposes a verifiable defense, squarely in red-teaming and observation-eval.
+status: draft

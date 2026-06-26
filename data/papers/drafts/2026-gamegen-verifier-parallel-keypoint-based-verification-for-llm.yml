@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-gamegen-verifier-parallel-keypoint-based-verification-for-llm
+type: papers
+title: 'GameGen-Verifier: Parallel Keypoint-Based Verification for LLM-Generated Games via Runtime State
+  Injection'
+url: https://arxiv.org/abs/2605.07442v1
+authors:
+- Chaobo Jia
+- Ruipeng Wan
+- Ting Sun
+- Weihao Tan
+- Borui Wan
+- Yuxuan Tong
+- Guangming Sheng
+- Hong Xu
+venue: arXiv
+year: 2026
+summary: GameGen-Verifier is an automated verification paradigm for LLM-generated games that decomposes
+  specifications into verifiable keypoints, patches the game runtime to target states, and executes bounded
+  interactions to judge outcomes, improving accuracy and reducing verification time.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the challenge of long-horizon evaluation and verification for
+    LLM-generated agentic systems, providing a concrete methodology and a scalable harness for runtime
+    state injection and concurrent testing.
+status: draft

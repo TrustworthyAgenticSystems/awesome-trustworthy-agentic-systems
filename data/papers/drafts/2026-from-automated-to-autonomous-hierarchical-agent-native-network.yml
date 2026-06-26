@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-automated-to-autonomous-hierarchical-agent-native-network
+type: papers
+title: 'From Automated to Autonomous: Hierarchical Agent-native Network Architecture (HANA)'
+url: https://arxiv.org/abs/2605.20608v1
+authors:
+- Binghan Wu
+- Shoufeng Wang
+- Yunxin Liu
+- Ya-Qin Zhang
+- Joseph Sifakis
+- Ye Ouyang
+venue: arXiv
+year: 2026
+summary: Proposes a hierarchical multi-agent reference architecture for autonomous networks, featuring
+  a dual-driven orchestrator, specialized executive agents, and shared memory, validated in a 5G Core
+  environment for improved throughput and MTTR.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper proposes a concrete, hierarchical multi-agent architecture for autonomous networks,
+    addressing operational resilience and strategic governance, which is a direct contribution to trustworthy
+    agentic systems.
+status: draft

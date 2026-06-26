@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-don-t-believe-everything-you-read-understanding-and
+type: papers
+title: 'Don''t believe everything you read: Understanding and Measuring MCP Behavior under Misleading
+  Tool Descriptions'
+url: https://arxiv.org/abs/2602.03580v1
+authors:
+- Zhihao Li
+- Boyang Ma
+- Xuelong Dai
+- Minghui Xu
+- Yue Zhang
+- Biwei Yan
+- Kun Li
+venue: arXiv
+year: 2026
+summary: Large-scale study of description-code inconsistency in Model Context Protocol (MCP) servers,
+  revealing a prevalent attack surface where misleading tool descriptions can enable unauthorized or privileged
+  agent actions.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a critical security vulnerability in the tool-interface layer of agentic
+    systems through a large-scale empirical study and static analysis.
+status: draft

@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mimosa-framework-toward-evolving-multi-agent-systems-for
+type: papers
+title: 'Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research'
+url: https://arxiv.org/abs/2603.28986v1
+authors:
+- Martin Legrand
+- Tao Jiang
+- Matthieu Feraud
+- Benjamin Navet
+- Yousouf Taghzouti
+- Fabien Gandon
+- Elise Dumont
+- Louis-Félix Nothias
+venue: arXiv
+year: 2026
+summary: Mimosa is an evolving multi-agent framework for scientific research that dynamically synthesizes
+  and refines workflows through experimental feedback, leveraging dynamic tool discovery and providing
+  fully logged execution traces for auditability.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes an end-to-end agent architecture with features for dynamic workflow generation,
+    iterative refinement, and auditability, which are relevant to trustworthy agentic systems.
+status: draft

@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-prompt-optimization-enables-stable-algorithmic-collusion-in-llm
+type: papers
+title: Prompt Optimization Enables Stable Algorithmic Collusion in LLM Agents
+url: https://arxiv.org/abs/2604.17774v1
+authors:
+- Yingtao Tian
+venue: arXiv
+year: 2026
+summary: Investigates how prompt optimization in a meta-learning loop enables LLM agents to discover stable
+  tacit collusion strategies in market simulations, demonstrating emergent coordination mechanisms.
+harness_layer:
+- coordination
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper explores emergent, undesirable coordination behaviors in multi-agent systems through
+    prompt optimization, directly addressing a safety concern in agentic system coordination.
+status: draft

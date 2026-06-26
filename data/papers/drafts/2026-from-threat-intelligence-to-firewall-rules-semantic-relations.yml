@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-threat-intelligence-to-firewall-rules-semantic-relations
+type: papers
+title: 'From Threat Intelligence to Firewall Rules: Semantic Relations in Hybrid AI Agent and Expert System
+  Architectures'
+url: https://arxiv.org/abs/2603.03911v1
+authors:
+- Chiara Bonfanti
+- Davide Colaiacomo
+- Luca Cagliero
+- Cataldo Basile
+venue: arXiv
+year: 2026
+summary: A neuro-symbolic multi-agent system that leverages hypernym-hyponym semantic relations to extract
+  threat intelligence and automatically generate CLIPS code for firewall rules.
+harness_layer:
+- coordination
+sprs:
+- security
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system that automates the generation of security controls
+    (firewall rules) from threat intelligence, addressing a critical security and coordination problem
+    in agentic systems.
+status: draft

@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-fire-bench-evaluating-agents-on-the-rediscovery-of
+type: papers
+title: 'FIRE-Bench: Evaluating Agents on the Rediscovery of Scientific Insights'
+url: https://arxiv.org/abs/2602.02905v1
+authors:
+- Zhen Wang
+- Fan Bai
+- Zhongyan Luo
+- Jinyan Su
+- Kaiser Sun
+- Xinle Yu
+- Jieyuan Liu
+- Kun Zhou
+- Claire Cardie
+- Mark Dredze
+- Eric P. Xing
+- Zhiting Hu
+venue: arXiv
+year: 2026
+summary: FIRE-Bench is a benchmark for evaluating autonomous agents on the full-cycle rediscovery of scientific
+  insights, focusing on verifiable discovery and identifying recurring failure modes in experimental design
+  and execution.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper introduces a rigorous, full-cycle evaluation benchmark for agentic systems, directly
+    addressing the challenge of long-horizon evaluation and reliability in scientific discovery workflows.
+status: draft

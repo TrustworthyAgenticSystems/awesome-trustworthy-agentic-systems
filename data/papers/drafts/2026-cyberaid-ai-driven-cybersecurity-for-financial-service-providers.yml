@@ -1,0 +1,51 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cyberaid-ai-driven-cybersecurity-for-financial-service-providers
+type: papers
+title: 'CyberAId: AI-Driven Cybersecurity for Financial Service Providers'
+url: https://arxiv.org/abs/2605.01892v1
+authors:
+- George Fatouros
+- Georgios Makridis
+- John Soldatos
+- Dimosthenis Kyriazis
+- Pedro Malo
+- George Kousiouris
+- Giannis Ledakis
+- Louiza Kachrimani
+- Panagiotis Rizomiliotis
+- Bruno Almeida
+- Despina Tomkou
+- Kostas Metaxas
+- Konstantinos Ilias
+- Christos Gkizelis
+- Ernstjan de Gooyert
+- Amin Babazadeh
+- Kostis Mavrogiorgos
+- Pepi Paraskevoulakou
+- Christos Xenakis
+- Giannis Chouchoulis
+- Konstantina Tripodi
+venue: arXiv
+year: 2026
+summary: Proposes CyberAId, a hybrid multi-agent system architecture for cybersecurity in financial institutions,
+  integrating LLM agents with classical SIEM/XDR telemetry, shared state, and human-in-the-loop oversight,
+  validated across four financial use cases.
+harness_layer:
+- architectures
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.8
+  rationale: This paper proposes a reference architecture for a trustworthy multi-agent system in a critical
+    domain, addressing system-level concerns like coordination, state persistence, and human oversight.
+status: draft

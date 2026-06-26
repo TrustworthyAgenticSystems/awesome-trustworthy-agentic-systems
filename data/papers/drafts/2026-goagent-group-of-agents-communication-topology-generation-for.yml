@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-goagent-group-of-agents-communication-topology-generation-for
+type: papers
+title: 'GoAgent: Group-of-Agents Communication Topology Generation for LLM-based Multi-Agent Systems'
+url: https://arxiv.org/abs/2603.19677v1
+authors:
+- Hongjiang Chen
+- Xin Zheng
+- Yixin Liu
+- Pengfei Jiao
+- Shiyuan Li
+- Huan Liu
+- Zhidong Zhao
+- Ziqi Xu
+- Ibrahim Khalil
+- Shirui Pan
+venue: arXiv
+year: 2026
+summary: GoAgent proposes a communication topology generation method for multi-agent systems that explicitly
+  models collaborative groups as atomic units, aiming to improve coordination and reduce communication
+  overhead.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses multi-agent coordination and communication efficiency, which
+    are systems-level concerns for trustworthy agentic systems.
+status: draft

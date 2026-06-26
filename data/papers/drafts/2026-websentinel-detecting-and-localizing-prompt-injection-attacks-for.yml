@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-websentinel-detecting-and-localizing-prompt-injection-attacks-for
+type: papers
+title: 'WebSentinel: Detecting and Localizing Prompt Injection Attacks for Web Agents'
+url: https://arxiv.org/abs/2602.03792v1
+authors:
+- Xilong Wang
+- Yinuo Liu
+- Zhun Wang
+- Dawn Song
+- Neil Gong
+venue: arXiv
+year: 2026
+summary: WebSentinel is a two-step approach that detects and localizes prompt injection attacks in webpages
+  by extracting segments of interest and checking their consistency with the webpage content.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses prompt injection attacks in web agents, which is a critical
+    security concern for agentic systems, and proposes a concrete detection and localization method.
+status: draft

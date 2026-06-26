@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-it-takes-two-complementary-self-distillation-for-contextual
+type: papers
+title: 'It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs'
+url: https://arxiv.org/abs/2605.20258v1
+authors:
+- Sangwoo Park
+- Woongyeong Yeo
+- Seanie Lee
+- Yumin Choi
+- Hyomin Lee
+- Kangsan Kim
+- Jinheon Baek
+- Seong Joon Oh
+- Sung Ju Hwang
+venue: arXiv
+year: 2026
+summary: SELFCI is a self-distillation framework that decouples information suppression from task resolution
+  to improve contextual integrity in LLMs, particularly for agentic workflows and accumulated private
+  context.
+harness_layer:
+- memory
+sprs:
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses privacy in agentic systems by governing information flows and
+    disclosure decisions within the agent's memory and context, which is a core systems problem.
+status: draft

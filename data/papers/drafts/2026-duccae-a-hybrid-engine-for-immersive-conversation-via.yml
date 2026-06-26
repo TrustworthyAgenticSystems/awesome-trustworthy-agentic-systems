@@ -1,0 +1,45 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-duccae-a-hybrid-engine-for-immersive-conversation-via
+type: papers
+title: 'DuCCAE: A Hybrid Engine for Immersive Conversation via Collaboration, Augmentation, and Evolution'
+url: https://arxiv.org/abs/2603.19248v1
+authors:
+- Xin Shen
+- Zhishu Jiang
+- Jiaye Yang
+- Haibo Liu
+- Yichen Wan
+- Jiarui Zhang
+- Tingzhi Dai
+- Luodong Xu
+- Shuchen Wu
+- Guanqiang QI
+- Chenxi Miao
+- Jiahui Liang
+- Yang Li
+- Weikang Li
+- Deguo Xia
+- Jizhou Huang
+venue: arXiv
+year: 2026
+summary: DuCCAE is a hybrid engine that decouples real-time response generation from asynchronous agentic
+  execution to maintain conversational continuity and improve reliability for long-horizon tasks in production,
+  validated by large-scale deployment metrics.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper describes a reference architecture for deploying scalable and reliable agentic
+    systems in industrial settings, with concrete deployment metrics and systems-level details.
+status: draft

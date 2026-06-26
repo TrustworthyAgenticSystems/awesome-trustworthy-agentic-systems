@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-project-prometheus-bridging-the-intent-gap-in-agentic
+type: papers
+title: 'Project Prometheus: Bridging the Intent Gap in Agentic Program Repair via Reverse-Engineered Executable
+  Specifications'
+url: https://arxiv.org/abs/2604.17464v1
+authors:
+- Yongchao Wang
+- Zhiqiu Huang
+venue: arXiv
+year: 2026
+summary: A framework that bridges the "Intent Gap" in agentic program repair by reverse-engineering executable
+  Gherkin specifications from runtime failure reports and validating them with a Requirement Quality Assurance
+  (RQA) Loop.
+harness_layer:
+- intent
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the open problem of translating natural-language intent into machine-checkable
+    constraints for agent actions, with a concrete methodology and strong empirical results.
+status: draft

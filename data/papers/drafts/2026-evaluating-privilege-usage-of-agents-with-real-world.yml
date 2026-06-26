@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-evaluating-privilege-usage-of-agents-with-real-world
+type: papers
+title: Evaluating Privilege Usage of Agents with Real-World Tools
+url: https://arxiv.org/abs/2603.28166v2
+authors:
+- Quan Zhang
+- Lianhang Fu
+- Lvsi Lian
+- Gwihwan Go
+- Yujue Wang
+- Chijin Zhou
+- Yu Jiang
+- Geguang Pu
+venue: arXiv
+year: 2026
+summary: GrantBox is a security evaluation sandbox that integrates real-world tools to assess LLM agents'
+  privilege usage under prompt injection attacks, revealing vulnerabilities in sophisticated scenarios.
+harness_layer:
+- permissions
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper directly addresses the critical issue of privilege control and usage for LLM agents
+    interacting with real-world tools, providing an evaluation sandbox and empirical findings on attack
+    success rates.
+status: draft

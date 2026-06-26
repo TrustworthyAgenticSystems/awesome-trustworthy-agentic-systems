@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-sok-agentic-skills-beyond-tool-use-in-llm
+type: papers
+title: 'SoK: Agentic Skills -- Beyond Tool Use in LLM Agents'
+url: https://arxiv.org/abs/2602.20867v1
+authors:
+- Yanna Jiang
+- Delong Li
+- Haiyu Deng
+- Baihe Ma
+- Xu Wang
+- Qin Wang
+- Guangsheng Yu
+venue: arXiv
+year: 2026
+summary: A Systematization of Knowledge (SoK) on agentic skills, mapping their lifecycle, design patterns,
+  and representation, with a focus on security and governance implications including supply-chain risks
+  and prompt injection.
+harness_layer:
+- foundations
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a foundational SoK on agentic skills, directly addressing system-level
+    design patterns, security implications, and governance for trustworthy agentic systems.
+status: draft

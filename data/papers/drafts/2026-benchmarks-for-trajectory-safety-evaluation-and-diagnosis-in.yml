@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-benchmarks-for-trajectory-safety-evaluation-and-diagnosis-in
+type: papers
+title: 'Benchmarks for Trajectory Safety Evaluation and Diagnosis in OpenClaw and Codex: ATBench-Claw
+  and ATBench-Codex'
+url: https://arxiv.org/abs/2604.14858v2
+authors:
+- Zhonghao Yang
+- Yu Li
+- Yanxu Zhu
+- Tianyi Zhou
+- Yuejin Xie
+- Haoyu Luo
+- Jing Shao
+- Xia Hu
+- Dongrui Liu
+venue: arXiv
+year: 2026
+summary: Introduces ATBench-Claw and ATBench-Codex, domain-customized benchmarks for trajectory-level
+  safety evaluation and diagnosis in OpenClaw and OpenAI Codex/Codex-runtime settings, emphasizing taxonomy
+  customization and risk coverage.
+harness_layer:
+- observation-eval
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to adversarial evaluation and diagnosis of agent trajectories in specific
+    execution settings, which is a core aspect of trustworthy agentic systems.
+status: draft

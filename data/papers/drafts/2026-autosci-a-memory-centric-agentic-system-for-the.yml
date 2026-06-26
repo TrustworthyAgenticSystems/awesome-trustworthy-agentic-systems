@@ -1,0 +1,48 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-autosci-a-memory-centric-agentic-system-for-the
+type: papers
+title: 'AutoSci: A Memory-Centric Agentic System for the Full Scientific Research Lifecycle'
+url: https://arxiv.org/abs/2605.31468v1
+authors:
+- Weitong Qian
+- Beicheng Xu
+- Zhongao Xie
+- Bowen Fan
+- Guozheng Tang
+- Jiale Chen
+- Xinzhe Wu
+- Mingtian Yang
+- Chenyang Di
+- Jiajun Li
+- Lingching Tung
+- Peichao Lai
+- Yifei Xia
+- Ziyi Guo
+- Yanwei Xu
+- Yanzhao Qin
+- Shaoduo Gan
+- Xupeng Miao
+- Bin Cui
+venue: arXiv
+year: 2026
+summary: AutoSci is a memory-centric agentic system designed to automate the full scientific research
+  lifecycle, featuring structured memory management, a five-stage execution flow, multi-agent skill augmentation,
+  and an evolutionary feedback mechanism.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper presents an end-to-end reference architecture for a complex agentic system, detailing
+    its memory, execution, and evolution components, which is relevant to trustworthy agentic systems.
+status: draft

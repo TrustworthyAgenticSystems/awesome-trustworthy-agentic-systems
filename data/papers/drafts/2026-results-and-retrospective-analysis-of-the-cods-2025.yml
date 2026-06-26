@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-results-and-retrospective-analysis-of-the-cods-2025
+type: papers
+title: Results and Retrospective Analysis of the CODS 2025 AssetOpsBench Challenge
+url: https://arxiv.org/abs/2605.08518v1
+authors:
+- Dhaval Patel
+- Chathurangi Shyalika
+- Suryanarayana Reddy Yarrabothula
+- Ling Yue
+- Shuxin Lin
+- Nianjun Zhou
+- James Rayfield
+venue: arXiv
+year: 2026
+summary: Retrospective analysis of a multi-agent orchestration challenge, identifying discrepancies between
+  public and hidden evaluation, the impact of scoring metrics, and successful design patterns for guardrails
+  in agent execution.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a retrospective analysis of an agentic system competition, offering insights
+    into evaluation methodologies and successful system-level engineering patterns for trustworthiness.
+status: draft

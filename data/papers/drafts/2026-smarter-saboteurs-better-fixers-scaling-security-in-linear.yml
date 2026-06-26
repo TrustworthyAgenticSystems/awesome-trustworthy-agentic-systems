@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-smarter-saboteurs-better-fixers-scaling-security-in-linear
+type: papers
+title: 'Smarter Saboteurs, Better Fixers: Scaling & Security in Linear Multi-Agent Workflows'
+url: https://arxiv.org/abs/2606.12709v1
+authors:
+- Timothy McAllister
+- Sina Abdidizaji
+- Ivan Garibay
+- Ozlem Ozmen Garibay
+venue: arXiv
+year: 2026
+summary: Investigates how model scale impacts the security of linear multi-agent workflows against prompt
+  injection and jailbreaking, demonstrating that a terminal 'Fixer' stage can restore resilience even
+  with larger, more compliant models.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses adversarial compromise and resilience in multi-agent workflows,
+    proposing a system-level mitigation (Fixer stage) for security and safety.
+status: draft

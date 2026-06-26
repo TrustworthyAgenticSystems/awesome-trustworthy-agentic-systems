@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ai-agents-may-always-fall-for-prompt-injections
+type: papers
+title: AI Agents May Always Fall for Prompt Injections
+url: https://arxiv.org/abs/2605.17634v1
+authors:
+- Sahar Abdelnabi
+- Eugene Bagdasarian
+venue: arXiv
+year: 2026
+summary: Recasts prompt injection through the lens of Contextual Integrity (CI) to explain and predict
+  advanced attacks that exploit contextual manipulation, suggesting an impossibility result for current
+  defense paradigms.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a foundational reframing of prompt injection attacks, identifying new
+    attack vectors and suggesting limitations of current defenses, which is critical for red-teaming agentic
+    systems.
+status: draft

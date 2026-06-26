@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-spin-structural-llm-planning-via-iterative-navigation-for
+type: papers
+title: 'SPIN: Structural LLM Planning via Iterative Navigation for Industrial Tasks'
+url: https://arxiv.org/abs/2605.14051v1
+authors:
+- Yusuke Ozaki
+- Dhaval Patel
+venue: arXiv
+year: 2026
+summary: SPIN is a planning wrapper that enforces structural validity and incremental execution control
+  for LLM-generated workflows, reducing execution costs and improving task accomplishment in industrial
+  settings.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the reliability of agentic system coordination by ensuring valid
+    and efficient planning through structural validation and incremental execution.
+status: draft

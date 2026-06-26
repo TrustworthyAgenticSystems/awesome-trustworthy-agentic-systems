@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-forced-deferral-manipulating-routing-decisions-in-multimodal-llm
+type: papers
+title: 'Forced Deferral: Manipulating Routing Decisions in Multimodal LLM Cascades'
+url: https://arxiv.org/abs/2606.15308v1
+authors:
+- Zhongye Liu
+- Yaopei Zeng
+- Yurui Chang
+- Lu Lin
+venue: arXiv
+year: 2026
+summary: Introduces the Forced Deferral Attack (FDA), an adversarial image attack that manipulates a weak
+  MLLM's confidence to force queries to be routed to a more expensive strong model, exposing a new attack
+  surface in MLLM cascades.
+harness_layer:
+- coordination
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper identifies and demonstrates a novel adversarial attack on the routing logic of
+    multi-model agentic systems, directly impacting resource allocation and system security.
+status: draft

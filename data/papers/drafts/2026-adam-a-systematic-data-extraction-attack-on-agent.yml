@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-adam-a-systematic-data-extraction-attack-on-agent
+type: papers
+title: 'ADAM: A Systematic Data Extraction Attack on Agent Memory via Adaptive Querying'
+url: https://arxiv.org/abs/2604.09747v1
+authors:
+- Xingyu Lyu
+- Jianfeng He
+- Ning Wang
+- Yidan Hu
+- Tao Li
+- Danjue Chen
+- Shixiong Li
+- Yimin Chen
+venue: arXiv
+year: 2026
+summary: ADAM is a data extraction attack on LLM agent memory that uses data distribution estimation and
+  an entropy-guided query strategy to maximize privacy leakage, achieving high attack success rates.
+harness_layer:
+- memory
+sprs:
+- privacy
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses a critical privacy vulnerability in agent memory (RAG) by proposing
+    a systematic data extraction attack, highlighting the need for robust privacy-preserving methods in
+    agentic systems.
+status: draft

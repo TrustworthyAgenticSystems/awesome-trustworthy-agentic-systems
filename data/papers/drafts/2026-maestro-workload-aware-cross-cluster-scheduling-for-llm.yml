@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-maestro-workload-aware-cross-cluster-scheduling-for-llm
+type: papers
+title: 'Maestro: Workload-Aware Cross-Cluster Scheduling for LLM-Based Multi-Agent Systems'
+url: https://arxiv.org/abs/2606.12950v1
+authors:
+- Jinghao Wang
+- Xiao Zhou
+- Xiaoyang Sun
+- Yihui Zhang
+- Yilong Li
+- Tianyu Wo
+- Xu Wang
+- Chunming Hu
+- Renyu Yang
+venue: arXiv
+year: 2026
+summary: Maestro is a workload-aware scheduling system for LLM-based multi-agent systems that optimizes
+  resource utilization and latency across clusters by leveraging agent semantics and hierarchical scheduling.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses system-level challenges in deploying multi-agent workloads at scale,
+    focusing on resource management and scheduling, which is a core architectural concern for trustworthy
+    agentic systems.
+status: draft

@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-deepsurvey-enhancing-analytical-depth-and-citation-reliability-in
+type: papers
+title: 'DeepSurvey: Enhancing Analytical Depth and Citation Reliability in Automated Survey Generation'
+url: https://arxiv.org/abs/2605.29522v1
+authors:
+- Ziyue Yang
+- Da Ma
+- Hanqi Li
+- Zijian Wang
+- Tiancheng Huang
+- Zijian Hu
+- Chenrun Wang
+- Yunzhe Zhang
+- Xiaobao Wu
+- Kai Yu
+- Lu Chen
+venue: arXiv
+year: 2026
+summary: DeepSurvey is an agentic system for automated survey generation that enhances analytical depth
+  by modeling cross-paper relationships and improves citation reliability through citation-graph expansion
+  and multi-granularity agentic refinement.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes an agentic system that addresses reliability and depth in automated survey
+    generation, focusing on multi-agent coordination and refinement for trustworthy output.
+status: draft

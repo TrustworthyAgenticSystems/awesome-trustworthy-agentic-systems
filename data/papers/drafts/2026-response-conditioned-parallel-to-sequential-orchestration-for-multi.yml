@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-response-conditioned-parallel-to-sequential-orchestration-for-multi
+type: papers
+title: Response-Conditioned Parallel-to-Sequential Orchestration for Multi-Agent Systems
+url: https://arxiv.org/abs/2605.15573v1
+authors:
+- Nurbek Tastan
+- Alex Iacob
+- Lorenzo Sani
+- Meghdad Kurmanji
+- Nicholas D. Lane
+- Samuel Horvath
+- Karthik Nandakumar
+venue: arXiv
+year: 2026
+summary: Introduces Nexa, a trainable response-conditioned policy that dynamically switches between parallel
+  and sequential multi-agent execution to optimize communication, latency, and accuracy.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper contributes to the orchestration logic of multi-agent systems by proposing a dynamic,
+    trainable policy for communication flow, directly impacting reliability and efficiency.
+status: draft

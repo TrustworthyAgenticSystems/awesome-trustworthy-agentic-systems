@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-latent-adversarial-detection-adaptive-probing-of-llm-activations
+type: papers
+title: 'Latent Adversarial Detection: Adaptive Probing of LLM Activations for Multi-Turn Attack Detection'
+url: https://arxiv.org/abs/2604.28129v1
+authors:
+- Prashant Kulkarni
+venue: arXiv
+year: 2026
+summary: Proposes 'adversarial restlessness' as an activation-level signature in LLM residual streams
+  to detect multi-turn prompt injection attacks, improving conversation-level detection by analyzing scalar
+  trajectory features.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper contributes to the detection of multi-turn adversarial attacks, which is a key
+    aspect of red-teaming for agentic systems, by analyzing internal model states.
+status: draft

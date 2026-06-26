@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ccce-a-continuous-code-calibration-engine-for-autonomous
+type: papers
+title: 'CCCE: A Continuous Code Calibration Engine for Autonomous Enterprise Codebase Maintenance via
+  Knowledge Graph Traversal and Adaptive Decision Gating'
+url: https://arxiv.org/abs/2604.13102v1
+authors:
+- Santhosh Kusuma Kumar Parimi
+venue: arXiv
+year: 2026
+summary: CCCE is an event-driven, AI-agentic system for autonomous enterprise codebase maintenance, featuring
+  a dynamic knowledge graph for impact analysis, an adaptive multi-stage risk gating framework, and a
+  continuous learning architecture for refining calibration strategies.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- security
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper describes an end-to-end agentic system architecture for a complex enterprise problem,
+    including specific systems-engineering innovations for reliability and security.
+status: draft

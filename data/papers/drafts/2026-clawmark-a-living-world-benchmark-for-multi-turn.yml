@@ -1,0 +1,77 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-clawmark-a-living-world-benchmark-for-multi-turn
+type: papers
+title: 'ClawMark: A Living-World Benchmark for Multi-Turn, Multi-Day, Multimodal Coworker Agents'
+url: https://arxiv.org/abs/2604.23781v2
+authors:
+- Fanqing Meng
+- Lingxiao Du
+- Zijian Wu
+- Guanzheng Chen
+- Xiangyan Liu
+- Jiaqi Liao
+- Chonghe Jiang
+- Zhenglin Wan
+- Jiawei Gu
+- Pengfei Zhou
+- Rui Huang
+- Ziqi Zhao
+- Shengyuan Ding
+- Ailing Yu
+- Bo Peng
+- Bowei Xia
+- Hao Sun
+- Haotian Liang
+- Ji Xie
+- Jiajun Chen
+- Jiajun Song
+- Liu Yang
+- Ming Xu
+- Qionglin Qiu
+- Runhao Fu
+- Shengfang Zhai
+- Shijian Wang
+- Tengfei Ma
+- Tianyi Wu
+- Weiyang Jin
+- Yan Wang
+- Yang Dai
+- Yao Lai
+- Youwei Shu
+- Yue Liu
+- Yunzhuo Hao
+- Yuwei Niu
+- Jinkai Huang
+- Jiayuan Zhuo
+- Zhennan Shen
+- Linyu Wu
+- Hannah Yao
+- Charles Chen
+- Cihang Xie
+- Yuyin Zhou
+- Jiaheng Zhang
+- Zeyu Zheng
+- Mengkang Hu
+- Michael Qizhe Shieh
+venue: arXiv
+year: 2026
+summary: Introduces ClawMark, a living-world benchmark for multi-turn, multi-day, multimodal coworker
+  agents that evaluates adaptation to changing environmental state using a stateful sandboxed service
+  environment and deterministic Python checkers.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a novel benchmark and evaluation harness for long-running, stateful agent
+    workflows, directly addressing a critical need for trustworthy agent evaluation.
+status: draft

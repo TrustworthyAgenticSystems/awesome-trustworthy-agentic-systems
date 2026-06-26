@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-multi-agent-llm-governance-for-safe-two-timescale
+type: papers
+title: Multi-Agent LLM Governance for Safe Two-Timescale Reinforcement Learning in SDN-IoT Defense
+url: https://arxiv.org/abs/2604.01127v2
+authors:
+- Saeid Jamshidi
+- Negar Shahabi
+- Foutse Khomh
+- Carol Fung
+- Mohammad Hamdaqa
+venue: arXiv
+year: 2026
+summary: A two-timescale SDN-IoT defense system that uses a multi-agent LLM governance engine to generate
+  auditable, machine-parsable updates to a global policy constitution, ensuring safe and reliable policy
+  evolution without retraining RL agents.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+open_problems:
+- intent-to-constraints
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: This paper presents a multi-agent LLM system for governance and policy evolution in a critical
+    infrastructure setting, directly addressing human oversight and safety guarantees for agentic systems.
+status: draft

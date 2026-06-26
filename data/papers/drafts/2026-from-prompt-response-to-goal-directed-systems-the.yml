@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-prompt-response-to-goal-directed-systems-the
+type: papers
+title: 'From Prompt-Response to Goal-Directed Systems: The Evolution of Agentic AI Software Architecture'
+url: https://arxiv.org/abs/2602.10479v1
+authors:
+- Mamdouh Alenezi
+venue: arXiv
+year: 2026
+summary: This paper proposes a reference architecture for production-grade LLM agents, a taxonomy of multi-agent
+  topologies with failure modes, and an enterprise hardening checklist, connecting foundational agent
+  theories with contemporary LLM-centric approaches.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper provides a reference architecture and hardening checklist for production-grade
+    agentic systems, directly addressing architectural and operational trustworthiness.
+status: draft

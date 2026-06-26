@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-superlocalmemory-v3-3-the-living-brain-biologically-inspired
+type: papers
+title: 'SuperLocalMemory V3.3: The Living Brain -- Biologically-Inspired Forgetting, Cognitive Quantization,
+  and Multi-Channel Retrieval for Zero-LLM Agent Memory Systems'
+url: https://arxiv.org/abs/2604.04514v1
+authors:
+- Varun Pratap Bhardwaj
+venue: arXiv
+year: 2026
+summary: A local-first agent memory system that implements biologically-inspired forgetting, cognitive
+  quantization, and multi-channel retrieval to improve memory effectiveness and reliability in zero-LLM
+  agent architectures.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper directly addresses the engineering of agent memory systems, focusing on reliability
+    and efficiency through novel architectural and algorithmic contributions.
+status: draft

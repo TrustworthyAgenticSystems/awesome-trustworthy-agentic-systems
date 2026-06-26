@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-sim-to-real-gap-of-foundation-model
+type: papers
+title: 'The Sim-to-Real Gap of Foundation Model Agents: A Unified MDP Perspective'
+url: https://arxiv.org/abs/2606.07017v1
+authors:
+- Xiaoou Liu
+- Tiejin Chen
+- Weibo Li
+- Xiyang Hu
+- Hua Wei
+venue: arXiv
+year: 2026
+summary: Proposes a unified Markov Decision Process framework to formalize the sim-to-real gap in foundation
+  model agents, translating classical discrepancies into the foundation model domain to improve agent
+  robustness and reliability.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a foundational framework for understanding and addressing the sim-to-real
+    gap in agentic systems, which is crucial for their trustworthiness in real-world deployments.
+status: draft

@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-leanmarathon-toward-reliable-ai-co-mathematicians-through-long
+type: papers
+title: 'LeanMarathon: Toward Reliable AI Co-Mathematicians through Long-Horizon Lean Autoformalization'
+url: https://arxiv.org/abs/2606.05400v1
+authors:
+- Yuanhe Zhang
+- Yuekai Sun
+- Taiji Suzuki
+- Jason D. Lee
+- Fanghui Liu
+venue: arXiv
+year: 2026
+summary: LeanMarathon is a multi-agent harness that uses an evolving blueprint and a two-stage orchestrator
+  to achieve reliable, long-horizon autoformalization of research mathematics in Lean, by breaking down
+  brittle multi-hour runs into recoverable, parallel transactions.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- transactional-agency
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper describes a multi-agent system and orchestration logic designed to improve the
+    reliability and recoverability of long-horizon agentic workflows, directly addressing systems-level
+    challenges.
+status: draft

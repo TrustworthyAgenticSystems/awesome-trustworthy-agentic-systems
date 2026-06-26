@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-alignment-flywheel-a-governance-centric-hybrid-mas
+type: papers
+title: 'The Alignment Flywheel: A Governance-Centric Hybrid MAS for Architecture-Agnostic Safety'
+url: https://arxiv.org/abs/2603.02259v2
+authors:
+- Elias Malomgré
+- Pieter Simoens
+venue: arXiv
+year: 2026
+summary: Proposes the Alignment Flywheel, a governance-centric hybrid multi-agent system architecture
+  that decouples decision generation from safety governance, enabling patch locality for safety updates
+  and auditable oversight.
+harness_layer:
+- architectures
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Presents a reference architecture for integrating fallible autonomous systems with explicit,
+    version-controlled, and auditable oversight, directly addressing trustworthy agentic systems engineering.
+status: draft

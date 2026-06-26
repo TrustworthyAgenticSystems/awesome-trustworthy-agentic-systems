@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-harnessing-agent-skills-architectural-patterns-and-a-reference
+type: papers
+title: 'Harnessing Agent Skills: Architectural Patterns and a Reference Architecture for Skill-Mediated
+  LLM Agents'
+url: https://arxiv.org/abs/2606.20631v1
+authors:
+- Boming Xia
+- Liming Zhu
+- Zhenchang Xing
+- Qinghua Lu
+- Dino Sejdinovic
+- Xiwei Xu
+venue: arXiv
+year: 2026
+summary: This paper proposes a reference architecture and architectural patterns for agent skill harnessing,
+  focusing on the transition from static skill artifacts to dynamic 'skill-in-use' with associated responsibilities
+  for context, authority, execution, and evidence capture.
+harness_layer:
+- architectures
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper provides a reference architecture and architectural patterns for managing agent
+    skills, addressing systems-level concerns like supply chain, mediation, execution control, and evidence
+    for trustworthy agent operation.
+status: draft

@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-workstream-a-local-first-developer-command-center-for
+type: papers
+title: 'Workstream: A Local-First Developer Command Center for the AI-Augmented Engineering Workflow'
+url: https://arxiv.org/abs/2604.17055v1
+authors:
+- Happy Bhati
+venue: arXiv
+year: 2026
+summary: Workstream is an open-source, local-first developer command center that integrates various engineering
+  tools, including AI-powered code review and agent observability, into a single interface to reduce cognitive
+  overhead.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a system architecture for integrating AI agents into developer workflows,
+    including an agent observability layer, which is relevant to trustworthy agentic systems.
+status: draft

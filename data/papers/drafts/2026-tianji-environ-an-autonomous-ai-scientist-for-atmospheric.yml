@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-tianji-environ-an-autonomous-ai-scientist-for-atmospheric
+type: papers
+title: 'TianJi-Environ: An Autonomous AI Scientist for Atmospheric Environmental Research'
+url: https://arxiv.org/abs/2606.07697v1
+authors:
+- Haoluo Zhao
+- Hongchun Zhang
+- Nan Li
+- Jing-Jia Luo
+- Kaikai Zhang
+- Mengyang Yu
+- Nan Chen
+- Tao Song
+- Fan Meng
+venue: arXiv
+year: 2026
+summary: TianJi-Environ is an auditable multi-agent framework that autonomously drives complex atmospheric-chemistry
+  simulations for mechanism validation, converting hypotheses into executable experiments and traceable
+  evidence.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper presents an end-to-end reference architecture for an auditable AI scientist, demonstrating
+    a structured and reproducible paradigm for complex scientific workflows.
+status: draft

@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-it-s-not-the-capability-harness-sensitivity-is
+type: papers
+title: 'It''s Not the Capability: Harness Sensitivity Is Non-Monotone Across LLM Agent Tiers'
+url: https://arxiv.org/abs/2605.26731v1
+authors:
+- Yong-eun Cho
+venue: arXiv
+year: 2026
+summary: Empirical study demonstrating non-monotone relationship between LLM agent capability and optimal
+  harness complexity, identifying that increased harness verbosity can paradoxically decrease reliability
+  for frontier chat models, and proposing a failure taxonomy for agentic systems.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: Directly investigates the impact of harness structure on agent reliability across different
+    model capabilities, contributing to the engineering of robust agent execution shells.
+status: draft

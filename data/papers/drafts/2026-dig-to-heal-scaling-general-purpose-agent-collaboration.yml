@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-dig-to-heal-scaling-general-purpose-agent-collaboration
+type: papers
+title: 'DIG to Heal: Scaling General-purpose Agent Collaboration via Explainable Dynamic Decision Paths'
+url: https://arxiv.org/abs/2603.00309v2
+authors:
+- Hanqing Yang
+- Hyungwoo Lee
+- Yuhang Yao
+- Zhiwei Liu
+- Kay Liu
+- Jingdi Chen
+- Carlee Joe-Wong
+venue: arXiv
+year: 2026
+summary: Introduces the Dynamic Interaction Graph (DIG) to capture and visualize emergent collaboration
+  in multi-agent systems as a time-evolving causal network, enabling real-time identification and correction
+  of collaboration-induced error patterns.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a novel observation and explanation mechanism for emergent multi-agent collaboration,
+    directly addressing the challenge of interpreting and correcting failures in complex agentic systems.
+status: draft

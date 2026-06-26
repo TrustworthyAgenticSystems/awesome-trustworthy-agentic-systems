@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-can-multi-agent-llms-identify-their-peers-stylometric
+type: papers
+title: Can Multi-Agent LLMs Identify Their Peers? Stylometric Fingerprinting in Role-Constrained Political
+  Analysis
+url: https://arxiv.org/abs/2606.09854v1
+authors:
+- Juergen Dietrich
+venue: arXiv
+year: 2026
+summary: Investigates whether LLMs can identify the model family of political analysis texts even after
+  prompt-level anonymization, demonstrating that stylometric fingerprints persist and can be accurately
+  attributed by classifiers, which has implications for multi-agent system trustworthiness.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: Addresses a specific vulnerability (peer-preservation bias) in multi-agent LLM pipelines
+    by demonstrating the persistence of model identity signals despite anonymization, impacting coordination
+    and reliability.
+status: draft

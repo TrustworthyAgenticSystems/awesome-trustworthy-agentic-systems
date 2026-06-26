@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-clag-adaptive-memory-organization-via-agent-driven-clustering
+type: papers
+title: 'CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents'
+url: https://arxiv.org/abs/2603.15421v2
+authors:
+- Taeyun Roh
+- Wonjune Jang
+- Junha Jung
+- Jaewoo Kang
+venue: arXiv
+year: 2026
+summary: CLAG is a clustering-based agentic memory framework that allows small language model agents to
+  actively organize memory into semantically coherent clusters, reducing cross-topic interference and
+  improving retrieval robustness.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses memory organization and integrity for agentic systems, particularly
+    for SLMs, contributing to the reliability of knowledge reuse.
+status: draft

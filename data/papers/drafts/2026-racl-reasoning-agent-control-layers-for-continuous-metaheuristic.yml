@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-racl-reasoning-agent-control-layers-for-continuous-metaheuristic
+type: papers
+title: 'RACL: Reasoning-Agent Control Layers for Continuous Metaheuristic Learning'
+url: https://arxiv.org/abs/2606.20142v1
+authors:
+- Antón Asla Manzárraga
+venue: arXiv
+year: 2026
+summary: RACL introduces a reasoning-agent control layer that observes, reasons over, and intervenes in
+  the internal search behavior of an existing metaheuristic optimizer to improve its performance and explain
+  its decisions.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a system-level approach for an agent to control and improve an existing
+    optimizer's behavior, focusing on observation, reasoning, and intervention, which aligns with agentic
+    systems engineering.
+status: draft

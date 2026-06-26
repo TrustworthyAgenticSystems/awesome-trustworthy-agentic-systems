@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-process-supervised-multi-agent-reinforcement-learning-for-reliable
+type: papers
+title: Process-Supervised Multi-Agent Reinforcement Learning for Reliable Clinical Reasoning
+url: https://arxiv.org/abs/2602.14160v1
+authors:
+- Chaeeun Lee
+- T. Michael Yates
+- Pasquale Minervini
+- T. Ian Simpson
+venue: arXiv
+year: 2026
+summary: A hierarchical multi-agent system for clinical reasoning that uses process-level supervision
+  to ensure reasoning follows valid clinical pathways, improving both outcome accuracy and process fidelity.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to multi-agent coordination and process-level supervision for reliable
+    and safe clinical reasoning, which is a systems-engineering problem for trustworthy agents.
+status: draft

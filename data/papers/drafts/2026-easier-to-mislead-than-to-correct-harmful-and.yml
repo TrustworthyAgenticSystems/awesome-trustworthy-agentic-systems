@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-easier-to-mislead-than-to-correct-harmful-and
+type: papers
+title: 'Easier to Mislead Than to Correct: Harmful and Beneficial Revision in LLM Conformity'
+url: https://arxiv.org/abs/2606.01637v2
+authors:
+- Jiaming Qu
+- Lucheng Fu
+- Yibo Hu
+venue: arXiv
+year: 2026
+summary: Controlled study on LLM conformity in multi-agent settings, demonstrating that peer agreement
+  and authority cues more easily induce harmful revisions than beneficial ones, and suggesting the need
+  for peer answer verification.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses a reliability and safety risk in multi-agent coordination by
+    studying how LLMs revise answers based on peer responses, with implications for system design.
+status: draft

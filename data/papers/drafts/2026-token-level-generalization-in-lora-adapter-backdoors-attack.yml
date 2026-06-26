@@ -1,0 +1,26 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-token-level-generalization-in-lora-adapter-backdoors-attack
+type: papers
+title: 'Token-Level Generalization in LoRA Adapter Backdoors: Attack Characterization and Behavioral Detection'
+url: https://arxiv.org/abs/2605.30189v1
+authors:
+- Travis Lelle
+venue: arXiv
+year: 2026
+summary: Characterizes token-level generalization of LoRA adapter backdoors via training data poisoning
+  and proposes behavioral and weight-level detection methods for supply chain scanning.
+harness_layer:
+- supply-chain
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses supply-chain security for fine-tuned LLM components (LoRA adapters) with
+    a detailed attack characterization and deployable detection methods.
+status: draft

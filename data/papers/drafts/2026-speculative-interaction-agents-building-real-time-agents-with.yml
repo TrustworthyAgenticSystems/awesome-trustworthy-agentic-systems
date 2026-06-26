@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-speculative-interaction-agents-building-real-time-agents-with
+type: papers
+title: 'Speculative Interaction Agents: Building Real-Time Agents with Asynchronous I/O and Speculative
+  Tool Calling'
+url: https://arxiv.org/abs/2605.13360v2
+authors:
+- Coleman Hooper
+- Minwoo Kang
+- Suhong Moon
+- Nicholas Lee
+- Eric Wen
+- John Wawrzynek
+- Michael W. Mahoney
+- Yakun Sophia Shao
+- Amir Gholami
+- Kurt Keutzer
+venue: arXiv
+year: 2026
+summary: Proposes Speculative Interaction Agents using asynchronous I/O and speculative tool calling to
+  reduce latency in real-time agentic workflows, enabling seamless human interaction.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses a core reliability challenge in agent execution (latency) through systems-level
+    techniques like asynchronous I/O and speculative execution.
+status: draft

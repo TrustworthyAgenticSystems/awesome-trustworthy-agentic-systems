@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-clawkeeper-comprehensive-safety-protection-for-openclaw-agents-through
+type: papers
+title: 'ClawKeeper: Comprehensive Safety Protection for OpenClaw Agents Through Skills, Plugins, and Watchers'
+url: https://arxiv.org/abs/2603.24414v1
+authors:
+- Songyang Liu
+- Chaozhuo Li
+- Chenxu Wang
+- Jinyu Hou
+- Zejian Chen
+- Litian Zhang
+- Zheng Liu
+- Qiwei Ye
+- Yiming Hei
+- Xi Zhang
+- Zhongyuan Wang
+venue: arXiv
+year: 2026
+summary: ClawKeeper is a real-time security framework for OpenClaw agents that integrates multi-dimensional
+  protection mechanisms across skill-based, plugin-based, and watcher-based architectural layers to mitigate
+  system-level threats.
+harness_layer:
+- architectures
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper presents a comprehensive, multi-layered security architecture for an open-source
+    agent runtime, directly addressing system-level trustworthiness concerns.
+status: draft

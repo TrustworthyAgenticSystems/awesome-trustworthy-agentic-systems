@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-static-snapshots-a-grounded-evaluation-framework-for
+type: papers
+title: 'Beyond Static Snapshots: A Grounded Evaluation Framework for Language Models at the Agentic Frontier'
+url: https://arxiv.org/abs/2604.17573v2
+authors:
+- Jazmia Henry
+venue: arXiv
+year: 2026
+summary: Proposes the Grounded Continuous Evaluation (GCE) framework and ISOPro reference implementation,
+  which uses a deterministic verifier instead of a learned reward model to eliminate reward hacking and
+  improve evaluation reproducibility for agentic systems.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses systematic failures in current LLM evaluation for agentic systems and proposes
+    a concrete, reproducible evaluation framework with a deterministic verifier.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-ai-codebase-maturity-model-from-assisted-coding
+type: papers
+title: 'The AI Codebase Maturity Model: From Assisted Coding to Fully Autonomous Systems'
+url: https://arxiv.org/abs/2604.09388v2
+authors:
+- Andy Anderson
+venue: arXiv
+year: 2026
+summary: Presents a 6-level maturity model for AI-driven codebases, validated by an experience report
+  on a Kubernetes dashboard and the production deployment of a multi-agent orchestration system, emphasizing
+  the importance of feedback loops and testing infrastructure for achieving autonomous development.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides a reference architecture and operational postmortem for evolving AI-driven development
+    systems, focusing on the systems-level infrastructure required for trustworthiness and autonomy.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-protecting-context-and-prompts-deterministic-security-for-non
+type: papers
+title: 'Protecting Context and Prompts: Deterministic Security for Non-Deterministic AI'
+url: https://arxiv.org/abs/2602.10481v1
+authors:
+- Mohan Rajagopalan
+- Vinay Rao
+venue: arXiv
+year: 2026
+summary: Introduces cryptographically verifiable authenticated prompts and tamper-evident hash chains
+  for context to provide provenance and integrity guarantees against prompt injection and context manipulation
+  attacks.
+harness_layer:
+- memory
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses memory integrity and trust boundaries in agent context with a novel cryptographic
+    approach and formal security guarantees.
+status: draft

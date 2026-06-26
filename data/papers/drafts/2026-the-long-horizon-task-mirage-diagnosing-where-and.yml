@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-long-horizon-task-mirage-diagnosing-where-and
+type: papers
+title: The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break
+url: https://arxiv.org/abs/2604.11978v1
+authors:
+- Xinyu Jessica Wang
+- Haoyue Bai
+- Yiyou Sun
+- Haorui Wang
+- Shuibai Zhang
+- Wenjie Hu
+- Mya Schroder
+- Bilge Mutlu
+- Dawn Song
+- Robert D Nowak
+venue: arXiv
+year: 2026
+summary: Introduces HORIZON, a cross-domain diagnostic benchmark and a trajectory-grounded LLM-as-a-Judge
+  pipeline for systematically analyzing and attributing long-horizon failures in LLM agents.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides a systematic methodology and benchmark for diagnosing and attributing failures in
+    long-horizon agent workflows, directly addressing a key challenge in agent reliability and evaluation.
+status: draft

@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-insights-generator-systematic-corpus-level-trace-diagnostics-for
+type: papers
+title: 'Insights Generator: Systematic Corpus-Level Trace Diagnostics for LLM Agents'
+url: https://arxiv.org/abs/2605.21347v3
+authors:
+- Akshay Manglik
+- Apaar Shanker
+- Kaustubh Deshpande
+- Jason Qin
+- Yash Maurya
+- Veronica Chatrath
+- Vijay S. Kalmath
+- Levi Lentz
+- Yuan Xue
+venue: arXiv
+year: 2026
+summary: A multi-agent system for corpus-level trace diagnostics that generates evidence-backed natural-language
+  insights to characterize systematic behavioral patterns across LLM agent execution traces.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the challenge of diagnosing and improving the reliability of LLM agents
+    by providing a systematic, scalable approach to analyzing execution traces at a corpus level.
+status: draft

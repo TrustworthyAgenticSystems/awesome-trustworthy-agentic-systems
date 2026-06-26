@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-textsc-masfact-continual-multi-agent-topology-learning-via
+type: papers
+title: '\textsc{MasFACT}: Continual Multi-Agent Topology Learning via Geometry-Aware Posterior Transfer'
+url: https://arxiv.org/abs/2605.17361v1
+authors:
+- Xuefei Wang
+- Jialu Wang
+- Fengbo Zhang
+- Yihan Hu
+- Di Zhang
+- Yutong Ye
+- Yikun Ban
+- Jun Han
+- Ruijie Wang
+venue: arXiv
+year: 2026
+summary: Addresses 'topology forgetting' in multi-agent systems by proposing a geometry-aware posterior
+  transfer framework to preserve and reuse historical collaboration patterns as transferable topology
+  priors, improving reliability in continual task settings.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses a systems-level reliability problem ('topology forgetting') in multi-agent
+    coordination, with a concrete technical solution for preserving and reusing collaboration knowledge
+    across evolving tasks.
+status: draft

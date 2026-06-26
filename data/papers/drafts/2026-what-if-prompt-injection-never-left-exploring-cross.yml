@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-what-if-prompt-injection-never-left-exploring-cross
+type: papers
+title: What If Prompt Injection Never Left? Exploring Cross-Session Stored Prompt Injection in Agentic
+  Systems
+url: https://arxiv.org/abs/2606.04425v1
+authors:
+- Yuanbo Xie
+- Tianyun Liu
+- Yingjie Zhang
+- Suchen Liu
+- Yulin Li
+- Liya Su
+- Tingwen Liu
+venue: arXiv
+year: 2026
+summary: Introduces and formalizes cross-session stored prompt injection, where adversarial content persists
+  in agentic system state (memory, filesystems) to influence future executions, and provides a taxonomy
+  and benchmark for this system-level threat.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a novel, system-level adversarial threat (stored prompt injection) that
+    leverages persistent agent state, with formalization and a benchmark.
+status: draft

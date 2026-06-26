@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-deterministic-agentic-workflow-for-hs-tariff-classification
+type: papers
+title: 'A Deterministic Agentic Workflow for HS Tariff Classification: Multi-Dimensional Rule Reasoning
+  with Interpretable Decisions'
+url: https://arxiv.org/abs/2605.14857v1
+authors:
+- Yu Zhang
+- Dongjiang Zhuang
+- Qu Zhou
+- Zheng Huang
+- Junhe Wu
+- Jing Cao
+- Kai Chen
+venue: arXiv
+year: 2026
+summary: Proposes a deterministic, multi-stage agentic workflow for HS tariff classification that enforces
+  multi-dimensional rule reasoning and provides interpretable, verifiable decisions by design, contrasting
+  with self-planning agents.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper describes a specific, engineered agentic workflow with a fixed control flow and
+    confined LLM calls to achieve reliable, interpretable, and verifiable outcomes in a high-stakes task,
+    directly addressing systems-level trustworthiness.
+status: draft

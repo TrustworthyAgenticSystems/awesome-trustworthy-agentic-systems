@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-on-protecting-agentic-systems-intellectual-property-via-watermarking
+type: papers
+title: On Protecting Agentic Systems' Intellectual Property via Watermarking
+url: https://arxiv.org/abs/2602.08401v1
+authors:
+- Liwen Wang
+- Zongjie Li
+- Yuchong Xie
+- Shuai Wang
+- Dongdong She
+- Wei Wang
+- Juergen Rahmel
+venue: arXiv
+year: 2026
+summary: AGENTWM is a watermarking framework for agentic systems that embeds verifiable signals into visible
+  action trajectories by biasing functionally identical tool execution paths, protecting intellectual
+  property from imitation attacks.
+harness_layer:
+- execution-shell
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper addresses intellectual property protection for agentic systems by proposing a novel
+    watermarking technique that operates on the agent's action sequences, a systems-level concern.
+status: draft

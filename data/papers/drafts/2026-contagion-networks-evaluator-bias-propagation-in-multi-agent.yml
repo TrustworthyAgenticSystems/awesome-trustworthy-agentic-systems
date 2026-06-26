@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-contagion-networks-evaluator-bias-propagation-in-multi-agent
+type: papers
+title: 'Contagion Networks: Evaluator Bias Propagation in Multi-Agent LLM Systems'
+url: https://arxiv.org/abs/2606.20493v1
+authors:
+- Zewen Liu
+venue: arXiv
+year: 2026
+summary: Introduces Contagion Networks, a formal framework to measure and mitigate evaluator bias propagation
+  in multi-agent LLM systems, demonstrating that increasing evaluator committee size reduces contagion.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a systems-level reliability concern in multi-agent coordination by formalizing
+    bias propagation and proposing a mitigation strategy.
+status: draft

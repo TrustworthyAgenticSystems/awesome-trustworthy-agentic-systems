@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cognitively-diverse-multiple-choice-question-generation-a-hybrid
+type: papers
+title: 'Cognitively Diverse Multiple-Choice Question Generation: A Hybrid Multi-Agent Framework with Large
+  Language Models'
+url: https://arxiv.org/abs/2602.03704v1
+authors:
+- Yu Tian
+- Linh Huynh
+- Katerina Christhilf
+- Shubham Chakraborty
+- Micah Watanabe
+- Tracy Arner
+- Danielle McNamara
+venue: arXiv
+year: 2026
+summary: ReQUESTA is a hybrid multi-agent framework that decomposes MCQ authoring into specialized subtasks
+  and coordinates LLM agents with rule-based components to improve the reliability and controllability
+  of cognitively diverse MCQ generation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent framework that uses coordination and workflow design to
+    improve the reliability and controllability of LLM-based generation, which is a systems-engineering
+    contribution.
+status: draft

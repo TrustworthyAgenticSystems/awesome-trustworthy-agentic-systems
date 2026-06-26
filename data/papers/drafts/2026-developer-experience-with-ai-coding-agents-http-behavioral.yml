@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-developer-experience-with-ai-coding-agents-http-behavioral
+type: papers
+title: 'Developer Experience with AI Coding Agents: HTTP Behavioral Signatures in Documentation Portals'
+url: https://arxiv.org/abs/2604.02544v1
+authors:
+- Oleksii Borysenko
+venue: arXiv
+year: 2026
+summary: Empirical study of HTTP behavioral signatures of AI coding agents and assistants accessing developer
+  documentation, revealing how AI access impacts traditional engagement metrics and proposing adaptations
+  for documentation portals.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper provides an empirical study of AI agent behavior at the system interaction layer
+    (HTTP requests) and discusses practical adaptations for developer portals, contributing to the understanding
+    of agentic system architectures and their impact on external systems.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mpib-a-benchmark-for-medical-prompt-injection-attacks
+type: papers
+title: 'MPIB: A Benchmark for Medical Prompt Injection Attacks and Clinical Safety in LLMs'
+url: https://arxiv.org/abs/2602.06268v1
+authors:
+- Junhyeok Lee
+- Han Jang
+- Kyu Sung Choi
+venue: arXiv
+year: 2026
+summary: Introduces the Medical Prompt Injection Benchmark (MPIB) to evaluate clinical safety of LLMs
+  and RAG systems under direct and RAG-mediated prompt injection, measuring both attack success rate and
+  clinical harm event rate.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses adversarial testing of agentic systems (LLMs and RAG in clinical workflows)
+    with a focus on safety and security, providing a concrete benchmark and methodology.
+status: draft

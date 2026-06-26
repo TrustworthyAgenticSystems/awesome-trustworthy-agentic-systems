@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-city-editing-hierarchical-agentic-execution-for-dependency-aware
+type: papers
+title: 'City Editing: Hierarchical Agentic Execution for Dependency-Aware Urban Geospatial Modification'
+url: https://arxiv.org/abs/2602.19326v2
+authors:
+- Rui Liu
+- Steven Jige Quan
+- Zhong-Ren Peng
+- Zijun Yao
+- Han Wang
+- Zhengzhang Chen
+- Kunpeng Liu
+- Yanjie Fu
+- Dongjie Wang
+venue: arXiv
+year: 2026
+summary: A hierarchical agentic framework for urban geospatial modification that decomposes natural-language
+  instructions into geometric intents, coordinates interdependent edits across spatial elements, and uses
+  an iterative execution-validation mechanism to enforce global spatial consistency.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a hierarchical agentic framework for coordinating complex, interdependent
+    actions and includes mechanisms for validation and consistency, directly addressing reliability and
+    safety in agentic systems.
+status: draft

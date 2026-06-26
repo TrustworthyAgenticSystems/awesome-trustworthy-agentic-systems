@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-muse-autoskill-self-evolving-agents-via-skill-creation
+type: papers
+title: 'MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation'
+url: https://arxiv.org/abs/2605.27366v1
+authors:
+- Huawei Lin
+- Peng Li
+- Jie Song
+- Fuxin Jiang
+- Tieying Zhang
+venue: arXiv
+year: 2026
+summary: MUSE-Autoskill proposes a skill-centric agent framework that manages the lifecycle of skills
+  (creation, memory, management, evaluation, refinement) to improve reusability and long-term task-solving
+  capability, including skill-level memory for accumulating experience.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the systems engineering of agent memory and skill management, focusing
+    on reliability and long-term improvement through a structured lifecycle.
+status: draft

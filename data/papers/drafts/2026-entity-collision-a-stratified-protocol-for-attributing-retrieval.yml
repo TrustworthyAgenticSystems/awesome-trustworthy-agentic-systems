@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-entity-collision-a-stratified-protocol-for-attributing-retrieval
+type: papers
+title: 'Entity-Collision: A Stratified Protocol for Attributing Retrieval Lift in Agent Memory'
+url: https://arxiv.org/abs/2605.29630v1
+authors:
+- Youwang Deng
+venue: arXiv
+year: 2026
+summary: A system-agnostic protocol for attributing retrieval lift in agent memory by controlling for
+  lexical leakage and stratifying queries, revealing nuanced performance patterns across different embedders
+  and query types.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a rigorous, reproducible evaluation protocol for agent memory systems,
+    directly addressing the reliability of retrieval-augmented generation in agents.
+status: draft

@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-first-do-no-harm-with-llms-mitigating-racial
+type: papers
+title: 'First, Do No Harm (With LLMs): Mitigating Racial Bias via Agentic Workflows'
+url: https://arxiv.org/abs/2604.18038v1
+authors:
+- Sihao Xing
+- Zaur Gouliev
+venue: arXiv
+year: 2026
+summary: Evaluates racial bias in LLMs for clinical settings using EU AI Act guidelines and demonstrates
+  that retrieval-based agentic workflows can mitigate some explicit bias in differential diagnosis tasks.
+harness_layer:
+- coordination
+sprs:
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper investigates bias mitigation through agentic workflows, specifically using retrieval,
+    which is a systems-level approach to improving trustworthiness.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-conflict-resilient-multi-agent-reasoning-via-signed-graph
+type: papers
+title: Conflict-Resilient Multi-Agent Reasoning via Signed Graph Modeling
+url: https://arxiv.org/abs/2605.19418v1
+authors:
+- Longgang He
+- Longzhu He
+- Daojing He
+- Chaozhuo Li
+venue: arXiv
+year: 2026
+summary: SIGMA is a multi-agent reasoning framework that models inter-agent trust and conflict using a
+  signed graph, enabling conflict-aware message passing and aggregation to improve reliability in multi-agent
+  systems.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses a systems-level problem in multi-agent coordination by explicitly modeling
+    and managing conflicting signals to improve reliability, rather than just a model-level improvement.
+status: draft

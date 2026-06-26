@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-saiguard-communication-state-simulation-for-proactive-defense-of
+type: papers
+title: 'SAIGuard: Communication-State Simulation for Proactive Defense of LLM Multi-Agent Systems'
+url: https://arxiv.org/abs/2606.12474v1
+authors:
+- Ruxue Shi
+- Yili Wang
+- Mengnan Du
+- Qinggang Zhang
+- Rui Miao
+- Yixin Liu
+- Xin Wang
+venue: arXiv
+year: 2026
+summary: SAIGuard is a proactive defense framework that uses communication-state simulation over multi-agent
+  interaction graphs to detect and sanitize risky messages before they propagate, preventing system-wide
+  security failures.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses security and reliability in multi-agent coordination by proposing
+    a proactive defense mechanism that operates on the communication layer of agentic systems.
+status: draft

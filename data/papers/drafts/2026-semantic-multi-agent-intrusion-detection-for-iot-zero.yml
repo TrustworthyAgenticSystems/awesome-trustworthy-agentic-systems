@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-semantic-multi-agent-intrusion-detection-for-iot-zero
+type: papers
+title: Semantic Multi-Agent Intrusion Detection for IoT:Zero-Day and Adversarial Threats with Risk-Aware
+  Reasoning
+url: https://arxiv.org/abs/2606.10323v1
+authors:
+- Saeid Jamshidi
+venue: arXiv
+year: 2026
+summary: A semantic multi-agent intrusion detection system for IoT that integrates specialized agents
+  (Scout, Mutator, Auditor, Arbiter) using semantic embeddings and probabilistic decision fusion to detect
+  zero-day and adversarial threats.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a multi-agent system for intrusion detection, focusing on the coordination
+    and interaction of specialized agents to enhance security and reliability in a systems context.
+status: draft

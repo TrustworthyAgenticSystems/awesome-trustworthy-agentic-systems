@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-adaptive-theory-of-mind-for-llm-based-multi
+type: papers
+title: Adaptive Theory of Mind for LLM-based Multi-Agent Coordination
+url: https://arxiv.org/abs/2603.16264v1
+authors:
+- Chunjiang Mu
+- Ya Zeng
+- Qiaosheng Zhang
+- Kun Shao
+- Chen Chu
+- Hao Guo
+- Danyang Jia
+- Zhen Wang
+- Shuyue Hu
+venue: arXiv
+year: 2026
+summary: Proposes an adaptive Theory of Mind (A-ToM) agent that dynamically aligns its ToM order with
+  partners to improve coordination in multi-agent tasks, addressing issues of insufficient or excessive
+  reasoning.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses a specific coordination problem in multi-agent systems by dynamically adapting
+    agent reasoning depth, contributing to the reliability of multi-agent workflows.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-embedding-based-defenses-fail-rethinking-safety-in
+type: papers
+title: 'When Embedding-Based Defenses Fail: Rethinking Safety in LLM-Based Multi-Agent Systems'
+url: https://arxiv.org/abs/2605.01133v2
+authors:
+- Lingxi Zhang
+- Guangtao Zheng
+- Hanjie Chen
+venue: arXiv
+year: 2026
+summary: Analyzes the failure modes of embedding-based defenses in multi-agent systems under misinformation
+  attacks, demonstrating three new attack vectors and proposing confidence-score-based pruning as a more
+  robust defense mechanism.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses adversarial attacks and defenses in multi-agent communication,
+    focusing on system-level vulnerabilities beyond individual model outputs.
+status: draft

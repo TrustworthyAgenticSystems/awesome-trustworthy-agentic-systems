@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-decentralized-ranking-aggregation-via-gossip-convergence-and-robustness
+type: papers
+title: 'Decentralized Ranking Aggregation via Gossip: Convergence and Robustness'
+url: https://arxiv.org/abs/2602.22847v2
+authors:
+- Kerrian Le Caillec
+- Anna Van Elst
+- Igor Colin
+- Stephan Clémençon
+venue: arXiv
+year: 2026
+summary: Proposes a decentralized ranking aggregation method using gossip algorithms for multi-agent systems,
+  focusing on convergence and robustness to corrupted nodes in a distributed setting.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses decentralized consensus and robustness in multi-agent systems, which is a core
+    coordination and reliability problem for trustworthy agents.
+status: draft

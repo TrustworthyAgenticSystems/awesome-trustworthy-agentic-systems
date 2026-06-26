@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mcpshield-a-security-cognition-layer-for-adaptive-trust
+type: papers
+title: 'MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in Model Context Protocol
+  Agents'
+url: https://arxiv.org/abs/2602.14281v3
+authors:
+- Zhenhong Zhou
+- Yuanhe Zhang
+- Hongwei Cai
+- Moayad Aloqaily
+- Ouns Bouachir
+- Linsey Pang
+- Prakhar Mehrotra
+- Kun Wang
+- Qingsong Wen
+venue: arXiv
+year: 2026
+summary: MCPShield is a plug-in security cognition layer that mitigates security misalignment between
+  agents and potentially untrusted Model Context Protocol (MCP) servers by performing metadata-guided
+  probing before tool invocation, constraining execution, and updating security cognition based on historical
+  traces.
+harness_layer:
+- tool-interface
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper directly addresses security vulnerabilities in agent tool interfaces, specifically
+    for the MCP standard, with a concrete defense mechanism and experimental validation.
+status: draft

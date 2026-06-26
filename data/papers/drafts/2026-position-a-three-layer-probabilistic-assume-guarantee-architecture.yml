@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-position-a-three-layer-probabilistic-assume-guarantee-architecture
+type: papers
+title: 'Position: A Three-Layer Probabilistic Assume-Guarantee Architecture Is Structurally Required for
+  Safe LLM Agent Deployment'
+url: https://arxiv.org/abs/2605.18672v1
+authors:
+- S. Bensalem
+- Y. Dong
+- M. Franzle
+- X. Huang
+- J. Kroger
+- D. Nickovic
+- A. Nouri
+- R. Roy
+- C. Wu
+venue: arXiv
+year: 2026
+summary: Proposes a three-layer probabilistic assume-guarantee architecture for LLM agent safety, arguing
+  that single-layer enforcement is structurally insufficient due to distinct information requirements
+  at different execution stages.
+harness_layer:
+- foundations
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This position paper provides a foundational architectural argument for agent safety, directly
+    addressing the structural requirements for trustworthy agent deployment.
+status: draft

@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-don-t-click-that-teaching-web-agents-to
+type: papers
+title: 'Don''t Click That: Teaching Web Agents to Resist Deceptive Interfaces'
+url: https://arxiv.org/abs/2605.09497v1
+authors:
+- Yilin Zhang
+- Yingkai Hua
+- Chunyu Wei
+- Xin Wang
+- Yueguo Chen
+venue: arXiv
+year: 2026
+summary: DUDE is a two-stage framework that uses hybrid-reward learning and experience summarization to
+  teach web agents to resist deceptive UI elements, reducing susceptibility by 53.8% on a new benchmark.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the security and safety of web agents interacting with untrusted
+    interfaces, a critical aspect of tool-use trustworthiness.
+status: draft

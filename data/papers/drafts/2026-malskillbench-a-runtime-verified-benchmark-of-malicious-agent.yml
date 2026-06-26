@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-malskillbench-a-runtime-verified-benchmark-of-malicious-agent
+type: papers
+title: 'MalSkillBench: A Runtime-Verified Benchmark of Malicious Agent Skills'
+url: https://arxiv.org/abs/2606.07131v3
+authors:
+- Wenbo Guo
+- Wei Zeng
+- Chengwei Liu
+- Xiaojun Jia
+- Yijia Xu
+- Lei Tang
+- Yong Fang
+- Yang Liu
+venue: arXiv
+year: 2026
+summary: Introduces MalSkillBench, a runtime-verified benchmark of malicious agent skills, to evaluate
+  the effectiveness of detection tools against hybrid code and prompt-based supply chain risks in third-party
+  agent skills.
+harness_layer:
+- supply-chain
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses supply-chain security for agentic systems by creating a benchmark
+    for malicious third-party skills, which are a hybrid of code and agent-facing instructions.
+status: draft

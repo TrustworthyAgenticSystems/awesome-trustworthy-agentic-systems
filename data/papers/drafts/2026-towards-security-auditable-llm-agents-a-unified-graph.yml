@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-security-auditable-llm-agents-a-unified-graph
+type: papers
+title: 'Towards Security-Auditable LLM Agents: A Unified Graph Representation'
+url: https://arxiv.org/abs/2605.06812v1
+authors:
+- Chaofan Li
+- Lyuye Zhang
+- Jintao Zhai
+- Siyue Feng
+- Xichun Yang
+- Huahao Wang
+- Shihan Dou
+- Yu Ji
+- Yutao Hu
+- Yueming Wu
+- Yang Liu
+- Deqing Zou
+venue: arXiv
+year: 2026
+summary: Proposes Agent-BOM, a unified hierarchical graph representation for agentic systems that models
+  static capabilities and dynamic runtime states to enable security auditing and root-cause analysis of
+  complex attack chains.
+harness_layer:
+- observation-eval
+sprs:
+- security
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses the challenge of security auditing and observability for agentic systems
+    by providing a structured representation for execution traces and attack paths.
+status: draft

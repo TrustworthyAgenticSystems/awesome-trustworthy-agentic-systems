@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-selection-as-power-constrained-reinforcement-for-bounded-decision
+type: papers
+title: 'Selection as Power: Constrained Reinforcement for Bounded Decision Authority'
+url: https://arxiv.org/abs/2603.02019v1
+authors:
+- Jose Manuel de la Chica Rodriguez
+- Juan Manuel Vera Díaz
+venue: arXiv
+year: 2026
+summary: Extends the 'Selection as Power' framework to dynamic settings by formalizing selection as a
+  constrained reinforcement process where parameter updates are projected onto governance-defined feasible
+  sets, preventing concentration of decision authority beyond prescribed bounds.
+harness_layer:
+- oversight
+sprs:
+- safety
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses the critical problem of maintaining bounded decision authority in high-stakes agentic
+    systems through a novel constrained reinforcement learning approach, directly contributing to oversight
+    and governance.
+status: draft

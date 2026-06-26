@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-industrializing-prediction-powered-inference-the-glide-library-for
+type: papers
+title: 'Industrializing Prediction-Powered Inference: The GLIDE Library for Reliable GenAI and Agentic
+  Systems Evaluation'
+url: https://arxiv.org/abs/2605.31278v2
+authors:
+- Grégoire Martinon
+- Ibrahim Merad
+- Mohammed Raki
+venue: arXiv
+year: 2026
+summary: GLIDE is an open-source Python library that unifies state-of-the-art prediction-powered inference
+  (PPI) methods for reliable and cost-effective evaluation of GenAI and agentic systems, demonstrating
+  annotation savings.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a concrete library for reliable evaluation of agentic systems, addressing
+    the challenge of unbiased estimates and valid uncertainty in a production context.
+status: draft

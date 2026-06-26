@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-repeated-deceptive-path-planning-against-learnable-observer
+type: papers
+title: Repeated Deceptive Path Planning against Learnable Observer
+url: https://arxiv.org/abs/2605.07174v1
+authors:
+- Shiyue Cao
+- Pei Xu
+- Likun Yang
+- Lei Cui
+- Shizhao Yu
+- Shiyu Zhang
+- Yongjian Ren
+- Xiaotang Chen
+- Kaiqi Huang
+venue: arXiv
+year: 2026
+summary: Introduces Repeated Deceptive Path Planning (RDPP) to model learnable observers and proposes
+  Deceptive Meta Planning (DeMP), a two-level optimization framework for sustained deception against adaptive
+  adversaries in multi-agent systems.
+harness_layer:
+- coordination
+sprs:
+- security
+- privacy
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses a systems-level problem of multi-agent coordination and deception against
+    adaptive observers, which is relevant to security and privacy in agentic systems.
+status: draft

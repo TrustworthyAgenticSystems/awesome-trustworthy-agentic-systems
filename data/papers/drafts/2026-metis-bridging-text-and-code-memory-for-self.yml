@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-metis-bridging-text-and-code-memory-for-self
+type: papers
+title: 'Metis: Bridging Text and Code Memory for Self-Evolving Agents'
+url: https://arxiv.org/abs/2606.24151v1
+authors:
+- Zijie Dai
+- Siuhin He
+- Hui Li
+- Qihui Zhou
+- Jiajun Li
+- Mingcong Song
+- Guoping Long
+- Hongjie Si
+- Xin Yao
+- Lin Zhang
+- James Cheng
+- Xiao Yan
+venue: arXiv
+year: 2026
+summary: Metis is a self-evolving agent system that uses a hierarchical dual-representation memory, combining
+  text and code memory to balance accuracy, execution efficiency, and memory-construction cost by selectively
+  crystallizing recurring plans into validated callable tools.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to agent memory management by studying and proposing a dual-representation
+    memory system that optimizes for efficiency and accuracy, addressing a systems-level concern in agent
+    evolution.
+status: draft

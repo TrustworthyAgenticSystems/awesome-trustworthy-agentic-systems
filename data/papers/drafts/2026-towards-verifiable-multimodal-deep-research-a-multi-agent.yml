@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-verifiable-multimodal-deep-research-a-multi-agent
+type: papers
+title: 'Towards Verifiable Multimodal Deep Research: A Multi-Agent Harness for Interleaved Report Generation'
+url: https://arxiv.org/abs/2605.29861v2
+authors:
+- Chenghao Zhang
+- Guanting Dong
+- Yufan Liu
+- Tong Zhao
+- Xiaoxi Li
+- Zhicheng Dou
+venue: arXiv
+year: 2026
+summary: Ptah is a multi-agent harness that orchestrates planning, research, and writing stages for verifiable
+  multimodal report generation, using a verifier agent to enforce factual grounding and cross-modal consistency.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-agent system with a specific focus on verifiability and consistency,
+    addressing a systems-level challenge in agent coordination and evaluation.
+status: draft

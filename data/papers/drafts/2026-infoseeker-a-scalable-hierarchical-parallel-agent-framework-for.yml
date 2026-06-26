@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-infoseeker-a-scalable-hierarchical-parallel-agent-framework-for
+type: papers
+title: 'InfoSeeker: A Scalable Hierarchical Parallel Agent Framework for Web Information Seeking'
+url: https://arxiv.org/abs/2604.02971v1
+authors:
+- Ka Yiu Lee
+- Yuxuan Huang
+- Zhiyuan He
+- Huichi Zhou
+- Weilin Luo
+- Kun Shao
+- Meng Fang
+- Jun Wang
+venue: arXiv
+year: 2026
+summary: InfoSeeker is a hierarchical parallel agent framework that uses context isolation and aggregation
+  at the Manager layer to prevent context saturation and error propagation in wide-scale information synthesis
+  tasks.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses system-level challenges like context saturation and error propagation
+    in multi-agent coordination for information seeking, contributing to agent reliability.
+status: draft

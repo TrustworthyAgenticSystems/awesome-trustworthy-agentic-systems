@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-bohm-zero-cost-hierarchical-attribution-for-compound-ai
+type: papers
+title: 'BOHM: Zero-Cost Hierarchical Attribution for Compound AI Systems'
+url: https://arxiv.org/abs/2605.22866v1
+authors:
+- Joss Armstrong
+venue: arXiv
+year: 2026
+summary: BOHM is a zero-cost hierarchical attribution method that extracts an attribution tree directly
+  from routing weights in compound AI systems, providing multi-resolution insights without requiring access
+  to component internals or arbitrary subset evaluations.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a novel, practical method for attributing contributions within hierarchical
+    agentic systems, directly addressing observability and attribution challenges.
+status: draft

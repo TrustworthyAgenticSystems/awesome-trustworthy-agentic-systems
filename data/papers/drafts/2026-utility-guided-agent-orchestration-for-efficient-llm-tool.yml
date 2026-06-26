@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-utility-guided-agent-orchestration-for-efficient-llm-tool
+type: papers
+title: Utility-Guided Agent Orchestration for Efficient LLM Tool Use
+url: https://arxiv.org/abs/2603.19896v1
+authors:
+- Boyan Liu
+- Gongming Zhao
+- Hongli Xu
+venue: arXiv
+year: 2026
+summary: Proposes a utility-guided orchestration policy for LLM agents that explicitly balances estimated
+  gain, step cost, uncertainty, and redundancy when selecting actions, providing a controllable framework
+  for quality-cost trade-offs.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses agent orchestration as an explicit decision problem to manage cost and quality,
+    contributing to the reliability of agent workflows.
+status: draft

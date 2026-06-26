@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-formal-policy-enforcement-for-real-world-agentic-systems
+type: papers
+title: Formal Policy Enforcement for Real-World Agentic Systems
+url: https://arxiv.org/abs/2602.16708v3
+authors:
+- Nils Palumbo
+- Sarthak Choudhary
+- Jihye Choi
+- Guy Amir
+- Prasad Chalasani
+- Somesh Jha
+venue: arXiv
+year: 2026
+summary: A framework for formal policy enforcement in agentic systems using aspect-oriented programming
+  and Datalog, enabling policies to be specified independently of agent reasoning and enforced at every
+  policy-relevant decision.
+harness_layer:
+- permissions
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses formal policy enforcement and permissions for agentic systems,
+    a core trustworthiness concern, with a concrete technical framework and evaluation.
+status: draft

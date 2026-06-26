@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-waaa-web-adversaries-against-agentic-browsers
+type: papers
+title: WAAA! Web Adversaries Against Agentic Browsers
+url: https://arxiv.org/abs/2605.05509v1
+authors:
+- Sohom Datta
+- Alex Nahapetyan
+- William Enck
+- Alexandros Kapravelos
+venue: arXiv
+year: 2026
+summary: Proposes a web-focused threat model for agentic browsers, deriving and implementing a taxonomy
+  of 18 web and LLM attacks that exploit the agent as a confused deputy, and demonstrating their generalizability
+  across multiple LLMs.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses adversarial testing of agentic systems, specifically web-based agents,
+    by identifying and demonstrating new attack vectors and failure modes.
+status: draft

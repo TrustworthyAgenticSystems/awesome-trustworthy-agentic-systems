@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-safeagent-a-runtime-protection-architecture-for-agentic-systems
+type: papers
+title: 'SafeAgent: A Runtime Protection Architecture for Agentic Systems'
+url: https://arxiv.org/abs/2604.17562v1
+authors:
+- Hailin Liu
+- Eugene Ilyushin
+- Jie Ni
+- Min Zhu
+venue: arXiv
+year: 2026
+summary: SafeAgent is a runtime security architecture that separates execution governance from semantic
+  risk reasoning to protect agentic systems against prompt-injection attacks across multi-step workflows
+  and tool interactions.
+harness_layer:
+- execution-shell
+sprs:
+- security
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper proposes a runtime protection architecture for agentic systems, addressing stateful
+    security and governance beyond simple input-output filtering, which is a core systems-engineering
+    problem for trustworthy agents.
+status: draft

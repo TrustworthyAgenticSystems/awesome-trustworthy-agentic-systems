@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-routeguard-internal-signal-detection-of-skill-poisoning-in
+type: papers
+title: 'RouteGuard: Internal-Signal Detection of Skill Poisoning in LLM Agents'
+url: https://arxiv.org/abs/2604.22888v1
+authors:
+- Wenjie Xiao
+- Xuehai Tang
+- Biyu Zhou
+- Songlin Hu
+- Jizhong Han
+venue: arXiv
+year: 2026
+summary: Proposes RouteGuard, an internal-signal detector that uses attention hijacking and hidden-state
+  alignment to detect skill poisoning in LLM agents, outperforming lexical screening.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Addresses a novel form of indirect injection (skill poisoning) in agentic systems with a
+    concrete, internal-signal detection mechanism.
+status: draft

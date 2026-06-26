@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-stored-evidence-stops-being-usable-scale-conditioned
+type: papers
+title: 'When Stored Evidence Stops Being Usable: Scale-Conditioned Evaluation of Agent Memory'
+url: https://arxiv.org/abs/2605.07313v1
+authors:
+- Jiaqi Shao
+- Yiyi Lu
+- Yunzhen Zhang
+- Bing Luo
+venue: arXiv
+year: 2026
+summary: Introduces a scale-conditioned evaluation protocol for agent memory that assesses evidence usability
+  and reliability as irrelevant sessions accumulate, providing diagnostics like budget-compliant reliability
+  and usable-scale boundary.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper proposes a novel evaluation protocol for agent memory, directly addressing the
+    reliability and usability of memory systems under scale, which is a core systems-engineering concern.
+status: draft

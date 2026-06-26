@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-you-don-t-need-public-tests-to-generate
+type: papers
+title: You Don't Need Public Tests to Generate Correct Code
+url: https://arxiv.org/abs/2604.21598v2
+authors:
+- Kaushitha Silva
+- Srinath Perera
+venue: arXiv
+year: 2026
+summary: DryRUN is a multi-agent framework that enables autonomous code generation and self-correction
+  by having the LLM synthesize its own test inputs and simulate executions, removing the reliance on human-authored
+  public tests.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system that improves the reliability of code generation
+    by autonomously generating test cases and simulating execution, addressing a systems-level challenge
+    in agentic workflows.
+status: draft

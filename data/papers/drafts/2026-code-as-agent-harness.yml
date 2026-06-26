@@ -1,0 +1,72 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-code-as-agent-harness
+type: papers
+title: Code as Agent Harness
+url: https://arxiv.org/abs/2605.18747v1
+authors:
+- Xuying Ning
+- Katherine Tieu
+- Dongqi Fu
+- Tianxin Wei
+- Zihao Li
+- Yuanchen Bei
+- Jiaru Zou
+- Mengting Ai
+- Zhining Liu
+- Ting-Wei Li
+- Lingjie Chen
+- Yanjun Zhao
+- Ke Yang
+- Bingxuan Li
+- Cheng Qian
+- Gaotang Li
+- Xiao Lin
+- Zhichen Zeng
+- Ruizhong Qiu
+- Sirui Chen
+- Yifan Sun
+- Xiyuan Yang
+- Ruida Wang
+- Rui Pan
+- Chenyuan Yang
+- Dylan Zhang
+- Liri Fang
+- Zikun Cui
+- Yang Cao
+- Pan Chen
+- Dorothy Sun
+- Ren Chen
+- Mahesh Srinivasan
+- Nipun Mathur
+- Yinglong Xia
+- Hong Li
+- Hong Yan
+- Pan Lu
+- Lingming Zhang
+- Tong Zhang
+- Hanghang Tong
+- Jingrui He
+venue: arXiv
+year: 2026
+summary: A survey that frames code as the operational substrate for agent reasoning, acting, environment
+  modeling, and execution-based verification, organizing the discussion around harness interfaces, mechanisms,
+  and scaling to multi-agent systems.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a foundational survey and taxonomy for 'code as agent harness,' directly
+    addressing the systems-engineering aspects of trustworthy agents.
+status: draft

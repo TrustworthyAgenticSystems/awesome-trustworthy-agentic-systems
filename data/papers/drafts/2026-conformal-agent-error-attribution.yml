@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-conformal-agent-error-attribution
+type: papers
+title: Conformal Agent Error Attribution
+url: https://arxiv.org/abs/2605.06788v1
+authors:
+- Naihe Feng
+- Yi Sui
+- Shiyi Hou
+- Ga Wu
+- Jesse C. Cresswell
+venue: arXiv
+year: 2026
+summary: A conformal prediction-based framework for attributing errors in multi-agent system trajectories,
+  providing contiguous prediction sets for efficient recovery and debugging.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the challenge of error attribution and recovery in multi-agent systems,
+    contributing to observability and transactional reliability.
+status: draft

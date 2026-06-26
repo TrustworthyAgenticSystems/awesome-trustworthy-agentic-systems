@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-adaptive-evaluation-of-out-of-band-defenses-against
+type: papers
+title: Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents
+url: https://arxiv.org/abs/2606.26479v1
+authors:
+- Praneeth Narisetty
+- Shiva Nagendra Babu Kore
+- Uday Kumar Reddy Kattamanchi
+- Jayaram Kumarapu
+venue: arXiv
+year: 2026
+summary: Analyzes existing out-of-band defenses against prompt injection through the lens of classical
+  security principles and proposes an adaptive evaluation protocol, then applies it to Progent, finding
+  it robust against a specific adaptive attack.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: The paper provides a structured comparison of out-of-band defenses and proposes an adaptive
+    evaluation methodology, directly contributing to red-teaming and evaluation of agentic system security.
+status: draft

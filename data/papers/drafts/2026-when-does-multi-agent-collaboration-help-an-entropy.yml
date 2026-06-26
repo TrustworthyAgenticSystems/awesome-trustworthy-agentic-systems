@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-does-multi-agent-collaboration-help-an-entropy
+type: papers
+title: When Does Multi-Agent Collaboration Help? An Entropy Perspective
+url: https://arxiv.org/abs/2602.04234v6
+authors:
+- Yuxuan Zhao
+- Sijia Chen
+- Ningxin Su
+venue: arXiv
+year: 2026
+summary: Analyzes entropy dynamics in multi-agent systems to understand success and failure modes, identifying
+  factors like certainty preference and base entropy that influence MAS correctness, and proposes an Entropy
+  Judger algorithm to improve solution selection.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper investigates the underlying mechanisms of multi-agent system effectiveness and
+    proposes a method to improve reliability, directly contributing to the coordination layer of trustworthy
+    agentic systems.
+status: draft

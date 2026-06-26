@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-confidence-laundering-in-agent-systems-why-uncertainty-needs
+type: papers
+title: 'Confidence Laundering in Agent Systems: Why Uncertainty Needs a Latent Carrier'
+url: https://arxiv.org/abs/2606.20662v1
+authors:
+- Kaiwen Shi
+- Zheyuan Zhang
+- Han Bao
+- Colby Nelson
+- Yanfang Ye
+venue: arXiv
+year: 2026
+summary: This paper defines "confidence laundering" as a failure mode where uncertainty is lost during
+  decision handoffs between agent components, leading to system-level error amplification, and proposes
+  latent uncertainty as a mechanism for uncertainty-preserving interface design.
+harness_layer:
+- foundations
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper identifies a fundamental systems-level problem in agent uncertainty propagation
+    and proposes an interface design solution, contributing to the foundations of trustworthy agent systems.
+status: draft

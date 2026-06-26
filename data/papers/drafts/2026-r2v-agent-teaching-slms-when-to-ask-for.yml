@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-r2v-agent-teaching-slms-when-to-ask-for
+type: papers
+title: 'R2V Agent: Teaching SLMs When to Ask for Help'
+url: https://arxiv.org/abs/2605.16604v1
+authors:
+- Raghu Vamshi Hemadri
+- Humaira Firdowse Mohammed
+- Rishabh Maheshwary
+- Srivatsava Daruru
+- Sagar Davasam
+- Vikas Yadav
+- Srinivas Sunkara
+- Sai Rajeswar
+venue: arXiv
+year: 2026
+summary: A risk-calibrated SLM-LLM routing framework for interactive agents that estimates residual failure
+  risk at each step and escalates to a stronger teacher LLM only when warranted, improving reliability
+  and cost-efficiency.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: The paper introduces a system-level routing framework for multi-model agent coordination,
+    directly addressing reliability and cost-efficiency in agent execution.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ss-zkr-spatial-semantic-zero-knowledge-routing-for
+type: papers
+title: 'SS-ZKR: Spatial-Semantic Zero-Knowledge Routing for Privacy-Preserving Multi-Agent Collaboration'
+url: https://arxiv.org/abs/2606.00962v1
+authors:
+- Hassan Touheed
+venue: arXiv
+year: 2026
+summary: SS-ZKR is a privacy-preserving routing protocol for multi-agent collaboration that enables content-based
+  semantic routing across organizational trust boundaries without decrypting payloads, using blind routing,
+  adaptive payload sanitization, and a spatial-to-cryptographic policy compiler.
+harness_layer:
+- coordination
+sprs:
+- privacy
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses privacy-preserving multi-agent coordination and routing across
+    trust boundaries, a core systems-engineering problem for trustworthy agents.
+status: draft

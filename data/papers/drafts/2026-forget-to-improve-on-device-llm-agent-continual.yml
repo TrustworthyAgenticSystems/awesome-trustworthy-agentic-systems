@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-forget-to-improve-on-device-llm-agent-continual
+type: papers
+title: 'Forget to Improve: On-Device LLM-Agent Continual Learning via Budget-Curated Memory'
+url: https://arxiv.org/abs/2606.25115v1
+authors:
+- Beining Wu
+- Zihao Ding
+- Jun Huang
+- Yanxiao Zhao
+venue: arXiv
+year: 2026
+summary: Proposes a net-value-per-byte scoring mechanism to govern an agent's experience-memory lifecycle,
+  enabling budget-aware eviction, selective sharing, and provenance-based trust for on-device LLM agents.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses memory management, security (poisoning), and reliability for on-device
+    agentic systems with a concrete, evaluated mechanism.
+status: draft

@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-openrath-session-centered-runtime-state-for-agent-systems
+type: papers
+title: 'OpenRath: Session-Centered Runtime State for Agent Systems'
+url: https://arxiv.org/abs/2606.19409v1
+authors:
+- Fukang Wen
+- Zhijie Wang
+- Ruilin Xu
+venue: arXiv
+year: 2026
+summary: OpenRath introduces a session-centered runtime state abstraction for multi-agent systems, enabling
+  branchable, inspectable, and replayable execution by unifying various runtime artifacts into a first-class
+  value.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the systems-engineering problem of fragmented runtime state
+    in agent systems, proposing a core abstraction for auditable composition and replay.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-invisible-orchestrators-suppress-protective-behavior-and-dissociate-power
+type: papers
+title: 'Invisible Orchestrators Suppress Protective Behavior and Dissociate Power-Holders: Safety Risks
+  in Multi-Agent LLM Systems'
+url: https://arxiv.org/abs/2605.13851v1
+authors:
+- Hiroki Fukui
+venue: arXiv
+year: 2026
+summary: Empirical study of safety risks in multi-agent orchestration, showing that invisible orchestrators
+  increase collective dissociation and internal-state distortion, which are not detectable by output-based
+  evaluation.
+harness_layer:
+- coordination
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses safety implications of multi-agent coordination architectures and the
+    limitations of current evaluation methods for internal agent states.
+status: draft

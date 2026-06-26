@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-component-manipulation-to-system-compromise-understanding-and
+type: papers
+title: 'From Component Manipulation to System Compromise: Understanding and Detecting Malicious MCP Servers'
+url: https://arxiv.org/abs/2604.01905v2
+authors:
+- Yiheng Huang
+- Zhijia Zhao
+- Bihuan Chen
+- Susheng Wu
+- Zhuotong Zhou
+- Yiheng Cao
+- Xin Hu
+- Xin Peng
+venue: arXiv
+year: 2026
+summary: Analyzes malicious MCP servers from a component-centric perspective, building a dataset of multi-component
+  attacks and proposing Connor, a two-stage behavioral deviation detector for pre-execution and in-execution
+  analysis.
+harness_layer:
+- tool-interface
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses security vulnerabilities and detection in the tool-interface layer of
+    agentic systems, including multi-component attack chains.
+status: draft

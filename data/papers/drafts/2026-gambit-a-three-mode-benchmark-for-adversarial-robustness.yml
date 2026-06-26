@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-gambit-a-three-mode-benchmark-for-adversarial-robustness
+type: papers
+title: 'GAMBIT: A Three-Mode Benchmark for Adversarial Robustness in Multi-Agent LLM Collectives'
+url: https://arxiv.org/abs/2605.09027v2
+authors:
+- Alexandre Le Mercier
+- Chris Develder
+- Thomas Demeester
+venue: arXiv
+year: 2026
+summary: Introduces GAMBIT, a three-mode benchmark for evaluating imposter detectors in multi-agent LLM
+  collectives against co-evolved, adaptive adversarial strategies, highlighting the importance of few-shot
+  adaptation over zero-shot performance.
+harness_layer:
+- red-team
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses adversarial robustness and evaluation in multi-agent systems,
+    focusing on adaptive adversaries and the limitations of current detection methods, which is a core
+    red-teaming concern.
+status: draft

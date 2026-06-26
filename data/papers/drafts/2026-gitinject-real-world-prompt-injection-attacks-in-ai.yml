@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-gitinject-real-world-prompt-injection-attacks-in-ai
+type: papers
+title: 'GitInject: Real-World Prompt Injection Attacks in AI-Powered CI/CD Pipelines'
+url: https://arxiv.org/abs/2606.09935v1
+authors:
+- Jafar Isbarov
+- Umid Suleymanov
+- Ilia Shumailov
+- Murat Kantarcioglu
+venue: arXiv
+year: 2026
+summary: GitInject is an open-source framework for evaluating prompt injection vulnerabilities in real
+  GitHub CI/CD workflows, demonstrating eleven attack classes and identifying structural vulnerabilities
+  and workflow-level countermeasures.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses prompt injection attacks in a real-world agentic system (CI/CD
+    pipelines) with a concrete evaluation framework and identified system-level vulnerabilities and countermeasures.
+status: draft

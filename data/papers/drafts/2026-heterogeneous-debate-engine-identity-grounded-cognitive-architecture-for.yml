@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-heterogeneous-debate-engine-identity-grounded-cognitive-architecture-for
+type: papers
+title: 'Heterogeneous Debate Engine: Identity-Grounded Cognitive Architecture for Resilient LLM-Based
+  Ethical Tutoring'
+url: https://arxiv.org/abs/2603.27404v1
+authors:
+- Jakub Masłowski
+- Jarosław A. Chudziak
+venue: arXiv
+year: 2026
+summary: A cognitive architecture, Heterogeneous Debate Engine (HDE), combines Identity-Grounded Retrieval-Augmented
+  Generation (ID-RAG) and Heuristic Theory of Mind to maintain doctrinal fidelity and prevent semantic
+  drift in multi-agent ethical tutoring systems.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses the reliability and safety of multi-agent systems by proposing an architectural
+    solution to prevent semantic drift and logical deterioration in dialectical interactions, which is
+    a systems-level concern for agent coordination.
+status: draft

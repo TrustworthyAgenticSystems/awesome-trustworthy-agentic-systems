@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-pattern-matching-seven-cross-domain-techniques-for
+type: papers
+title: 'Beyond Pattern Matching: Seven Cross-Domain Techniques for Prompt Injection Detection'
+url: https://arxiv.org/abs/2604.18248v2
+authors:
+- Thamilvendhan Munirathinam
+venue: arXiv
+year: 2026
+summary: Proposes and evaluates seven cross-domain techniques for prompt injection detection, porting
+  mechanisms from diverse fields like forensic linguistics and compiler theory, with three implemented
+  and validated against multiple datasets.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses prompt injection detection, a core red-teaming concern for agentic systems,
+    with novel, implemented techniques and empirical evaluation.
+status: draft

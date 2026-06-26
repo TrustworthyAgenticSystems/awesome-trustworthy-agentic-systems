@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-factorsmith-agentic-simulation-generation-via-markov-decision-process
+type: papers
+title: 'FactorSmith: Agentic Simulation Generation via Markov Decision Process Decomposition with Planner-Designer-Critic
+  Refinement'
+url: https://arxiv.org/abs/2603.20270v1
+authors:
+- Ali Shamsaddinlou
+- Morteza NourelahiAlamdari
+venue: arXiv
+year: 2026
+summary: FactorSmith is a framework that synthesizes playable game simulations by decomposing specifications
+  into modular steps using factored POMDPs and employing a hierarchical planner-designer-critic agentic
+  workflow for iterative code refinement with checkpoint rollback.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to agentic system reliability through a hierarchical multi-agent coordination
+    strategy with iterative refinement and checkpoint rollback, addressing a core open problem.
+status: draft

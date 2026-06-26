@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-silent-egress-when-implicit-prompt-injection-makes-llm
+type: papers
+title: 'Silent Egress: When Implicit Prompt Injection Makes LLM Agents Leak Without a Trace'
+url: https://arxiv.org/abs/2602.22450v1
+authors:
+- Qianlong Lan
+- Anuj Kaul
+- Shaun Jones
+- Stephanie Westrum
+venue: arXiv
+year: 2026
+summary: Demonstrates 'silent egress' via implicit prompt injection embedded in URL previews, leading
+  to sensitive context exfiltration from LLM agents, and proposes system and network-layer defenses.
+harness_layer:
+- red-team
+sprs:
+- security
+- privacy
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper identifies a novel system-level attack vector (implicit prompt injection via URL
+    previews) and proposes architectural defenses, directly contributing to agentic system security and
+    privacy.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agenttrust-runtime-safety-evaluation-and-interception-for-ai
+type: papers
+title: 'AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use'
+url: https://arxiv.org/abs/2605.04785v1
+authors:
+- Chenglin Yang
+venue: arXiv
+year: 2026
+summary: AgentTrust is a runtime safety layer that intercepts agent tool calls, normalizes shell commands,
+  detects multi-step attack chains, and provides verdicts (allow, warn, block, review) before execution,
+  evaluated on extensive benchmarks.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses runtime safety and security for agent tool use, including multi-step attack
+    detection and a deployable interception layer.
+status: draft

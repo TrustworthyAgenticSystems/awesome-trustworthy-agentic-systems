@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-research-on-security-enhancement-methods-for-adversarial-robust
+type: papers
+title: Research on Security Enhancement Methods for Adversarial Robust Large Language Model Intelligent
+  Agents for Medical Decision-Making Tasks
+url: https://arxiv.org/abs/2605.08257v1
+authors:
+- Saisai Hu
+venue: arXiv
+year: 2026
+summary: A full-link security enhancement framework for medical decision-making agents, ARSM-Agent, integrates
+  input risk perception, evidence constraints, knowledge consistency verification, decision confidence
+  reweighting, and security output control to improve adversarial robustness and safety.
+harness_layer:
+- architectures
+sprs:
+- security
+- safety
+- reliability
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a comprehensive architectural framework for enhancing the security and
+    trustworthiness of medical decision-making agents, addressing multiple systems-level concerns.
+status: draft

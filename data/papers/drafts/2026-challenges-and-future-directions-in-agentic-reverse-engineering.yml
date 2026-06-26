@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-challenges-and-future-directions-in-agentic-reverse-engineering
+type: papers
+title: Challenges and Future Directions in Agentic Reverse Engineering Systems
+url: https://arxiv.org/abs/2604.14317v1
+authors:
+- Salem Radey
+- Jack West
+- Kassem Fawaz
+venue: arXiv
+year: 2026
+summary: An analysis of existing agentic reverse engineering systems, identifying limitations in token
+  constraints, obfuscation handling, and program guardrails, and outlining future directions for system
+  designers from a security perspective.
+harness_layer:
+- foundations
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a foundational analysis of challenges in agentic systems for a security-critical
+    task, directly informing future trustworthy system design.
+status: draft

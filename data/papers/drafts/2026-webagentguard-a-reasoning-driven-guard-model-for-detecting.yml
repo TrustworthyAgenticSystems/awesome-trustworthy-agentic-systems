@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-webagentguard-a-reasoning-driven-guard-model-for-detecting
+type: papers
+title: 'WebAgentGuard: A Reasoning-Driven Guard Model for Detecting Prompt Injection Attacks in Web Agents'
+url: https://arxiv.org/abs/2604.12284v1
+authors:
+- Yulin Chen
+- Tri Cao
+- Haoran Li
+- Yue Liu
+- Yibo Li
+- Yufei He
+- Le Minh Khoi
+- Yangqiu Song
+- Shuicheng Yan
+- Bryan Hooi
+venue: arXiv
+year: 2026
+summary: WebAgentGuard is a reasoning-driven, multimodal guard model that operates in parallel with a
+  web agent to detect prompt injection attacks embedded in HTML or rendered screenshots, preventing malicious
+  manipulation of agent behavior.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses prompt injection attacks in web agents, a critical security
+    concern, and proposes a system-level defense framework with a dedicated guard agent.
+status: draft

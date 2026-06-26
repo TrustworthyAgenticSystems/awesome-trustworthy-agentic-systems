@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-rift-bench-dynamic-red-teaming-for-agentic-ai
+type: papers
+title: 'RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems'
+url: https://arxiv.org/abs/2606.23927v1
+authors:
+- Yarin Yerushalmi Levi
+- Roy Betser
+- Amit Giloni
+- Lidor Erez
+- Itay Gershon
+- Oren Rachmil
+- Sindhu Padakandla
+- Roman Vainshtein
+venue: arXiv
+year: 2026
+summary: RIFT-Bench introduces a graph representation-driven methodology for dynamic red-teaming that
+  enables unified security evaluations across diverse agentic architectures by extracting system structure
+  and deploying adaptive adversarial attacks.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses adversarial testing of agentic systems with a novel, generalizable
+    red-teaming methodology and evaluation across diverse architectures.
+status: draft

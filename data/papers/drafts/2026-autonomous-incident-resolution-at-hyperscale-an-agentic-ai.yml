@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-autonomous-incident-resolution-at-hyperscale-an-agentic-ai
+type: papers
+title: 'Autonomous Incident Resolution at Hyperscale: An Agentic AI Architecture for Network Operations'
+url: https://arxiv.org/abs/2606.09122v1
+authors:
+- Arun Malik
+venue: arXiv
+year: 2026
+summary: Presents an agentic AI architecture for autonomous incident resolution in hyperscale network
+  operations, detailing multi-agent orchestration, tool invocation, knowledge encoding, safety boundaries,
+  and closed-loop verification, deployed in production.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper describes a production-deployed agentic AI architecture for autonomous incident
+    resolution, focusing on systems-level concerns like safety, authorization, and rollback mechanisms.
+status: draft

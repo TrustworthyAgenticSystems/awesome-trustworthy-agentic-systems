@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-toward-evaluation-frameworks-for-multi-agent-scientific-ai
+type: papers
+title: Toward Evaluation Frameworks for Multi-Agent Scientific AI Systems
+url: https://arxiv.org/abs/2603.26718v2
+authors:
+- Marcin Abram
+venue: arXiv
+year: 2026
+summary: Analyzes challenges in benchmarking multi-agent scientific AI systems, focusing on issues like
+  data contamination, lack of ground truth, tool use, and replication, and proposes strategies for contamination-resistant
+  and multi-turn evaluation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses the systems-level challenges of evaluating complex multi-agent workflows, which
+    is crucial for reliability and long-horizon evaluation.
+status: draft

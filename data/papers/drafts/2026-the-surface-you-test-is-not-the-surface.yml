@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-surface-you-test-is-not-the-surface
+type: papers
+title: The Surface You Test Is Not the Surface That Breaks
+url: https://arxiv.org/abs/2605.30454v1
+authors:
+- Shifat E Arman
+- Syed Nazmus Sakib
+- Nafiul Haque
+- Shahrear Bin Amin
+venue: arXiv
+year: 2026
+summary: Empirical study demonstrating that prompt injection vulnerability is highly dependent on the
+  specific injection surface (tool output vs. tool description) and the LLM model, rather than the injection
+  payload alone, highlighting a critical blindspot in current attack and defense evaluations.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a systematic adversarial study of prompt injection across different surfaces
+    in tool-augmented agents, directly contributing to red-teaming and evaluation of agentic systems.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governance-aware-agent-telemetry-for-closed-loop-enforcement
+type: papers
+title: Governance-Aware Agent Telemetry for Closed-Loop Enforcement in Multi-Agent AI Systems
+url: https://arxiv.org/abs/2604.05119v1
+authors:
+- Anshul Pathak
+- Nishant Jain
+venue: arXiv
+year: 2026
+summary: A reference architecture for real-time governance and policy enforcement in multi-agent systems,
+  extending OpenTelemetry with governance attributes and providing a detection engine and enforcement
+  bus.
+harness_layer:
+- oversight
+sprs:
+- security
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses real-time governance and policy enforcement for multi-agent systems, closing
+    the loop between observation and action.
+status: draft

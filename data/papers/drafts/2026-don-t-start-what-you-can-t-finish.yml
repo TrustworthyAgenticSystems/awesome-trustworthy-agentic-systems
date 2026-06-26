@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-don-t-start-what-you-can-t-finish
+type: papers
+title: 'Don''t Start What You Can''t Finish: A Counterfactual Audit of Support-State Triage in LLM Agents'
+url: https://arxiv.org/abs/2604.16752v1
+authors:
+- Eren Unlu
+venue: arXiv
+year: 2026
+summary: Introduces a counterfactual audit framework (SSTA-32) to evaluate an agent's ability to diagnose
+  task support states (complete, clarifiable, support-blocked, unsupported) before acting, finding that
+  explicit categorical decision paths activate latent triage capabilities.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: This paper directly addresses the problem of agent overcommitment and safe deferral, which
+    is critical for human oversight and reliable agent operation, by proposing a diagnostic framework
+    and evaluating prompting strategies.
+status: draft

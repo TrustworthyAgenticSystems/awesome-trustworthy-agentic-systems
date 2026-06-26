@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-history-anchors-how-prior-behavior-steers-llm-decisions
+type: papers
+title: 'History Anchors: How Prior Behavior Steers LLM Decisions Toward Unsafe Actions'
+url: https://arxiv.org/abs/2605.13825v1
+authors:
+- Alberto G. Rodríguez Salgado
+venue: arXiv
+year: 2026
+summary: Demonstrates that prior harmful actions in an agent's history can steer LLMs towards unsafe actions,
+  even in aligned models, and proposes this as a red flag for agentic deployments where trajectories are
+  replayed or injected.
+harness_layer:
+- red-team
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses a system-level vulnerability in agent behavior related to historical
+    context and proposes a red-teaming methodology to expose it.
+status: draft

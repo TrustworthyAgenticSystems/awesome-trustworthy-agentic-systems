@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-multi-agent-autonomous-reasoning-in-hydrodynamics
+type: papers
+title: Towards Multi-Agent Autonomous Reasoning in Hydrodynamics
+url: https://arxiv.org/abs/2605.01102v1
+authors:
+- Jinpai Zhao
+- Albert Cerrone
+- Joannes Westerink
+- Clint Dawson
+venue: arXiv
+year: 2026
+summary: A multi-agent system prototype for hydrodynamics uses a Layer Execution Graph (LEG) for planner-guided
+  orchestration, specialized agents with tool allowlists, and consolidator agents to manage context, with
+  provenance logging for auditability.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: This paper describes a multi-agent coordination architecture that addresses context-saturation
+    bottlenecks and improves reliability through structured orchestration and provenance logging.
+status: draft

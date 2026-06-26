@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-skillsmith-compiling-agent-skills-into-boundary-guided-runtime
+type: papers
+title: 'SkillSmith: Compiling Agent Skills into Boundary-Guided Runtime Interfaces'
+url: https://arxiv.org/abs/2605.15215v1
+authors:
+- Duling Xu
+- Zheng Chen
+- Zaifeng Pan
+- Jiawei Guan
+- Dong Dong
+- Jialin Li
+- Bangzheng Pu
+venue: arXiv
+year: 2026
+summary: SkillSmith is a compiler-runtime framework that optimizes agent execution by compiling skills
+  into minimal, boundary-guided interfaces, reducing token usage, reasoning iterations, and execution
+  time.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a systems-level optimization for agent execution, addressing efficiency
+    and reliability in the operational stack.
+status: draft

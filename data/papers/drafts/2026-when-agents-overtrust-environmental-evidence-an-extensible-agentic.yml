@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-agents-overtrust-environmental-evidence-an-extensible-agentic
+type: papers
+title: 'When Agents Overtrust Environmental Evidence: An Extensible Agentic Framework for Benchmarking
+  Evidence-Grounding Defects in LLM Agents'
+url: https://arxiv.org/abs/2605.08828v2
+authors:
+- Strick Sheng
+- Ziyue Wang
+- Liyi Zhou
+venue: arXiv
+year: 2026
+summary: Introduces EnvTrustBench, a framework for benchmarking evidence-grounding defects in LLM agents,
+  where agents overtrust environmental observations that are stale, incorrect, or malicious, leading to
+  task failures.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper introduces a novel benchmarking framework to evaluate a systems-level reliability
+    and security problem in agentic systems related to environmental evidence grounding.
+status: draft

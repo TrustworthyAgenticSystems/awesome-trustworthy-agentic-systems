@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-securing-multi-agent-gis-systems-risk-evaluation-and
+type: papers
+title: 'Securing Multi-Agent GIS Systems: Risk Evaluation and Prompt Hardening Optimization'
+url: https://arxiv.org/abs/2606.17092v1
+authors:
+- Kyle Gao
+- Pranavi Kotta
+- Linlin Xu
+- Jonathan Li
+- David A. Clausi
+venue: arXiv
+year: 2026
+summary: Presents a security-oriented framework for risk identification, evaluation, and mitigation in
+  multi-agent GIS systems, using a state-machine-based orchestration and an adaptive attacker LLM for
+  red-teaming multi-turn attacks.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses security risks in multi-agent systems through a red-teaming framework
+    and prompt hardening, focusing on system-level vulnerabilities.
+status: draft

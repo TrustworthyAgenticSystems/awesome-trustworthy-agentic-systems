@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentstop-terminating-local-ai-agents-early-to-save
+type: papers
+title: 'AgentStop: Terminating Local AI Agents Early to Save Energy in Consumer Devices'
+url: https://arxiv.org/abs/2605.15206v1
+authors:
+- Dzung Pham
+- Kleomenis Katevas
+- Ali Shahin Shamsabadi
+- Hamed Haddadi
+venue: arXiv
+year: 2026
+summary: AgentStop is a lightweight efficiency supervisor that predicts and preemptively terminates agent
+  trajectories unlikely to succeed, reducing wasted energy on local consumer devices.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper addresses the reliability and resource efficiency of local agent execution by introducing
+    a system-level supervisor for early termination.
+status: draft

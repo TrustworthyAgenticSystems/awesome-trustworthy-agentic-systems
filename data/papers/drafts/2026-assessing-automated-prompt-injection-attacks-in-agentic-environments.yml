@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-assessing-automated-prompt-injection-attacks-in-agentic-environments
+type: papers
+title: Assessing Automated Prompt Injection Attacks in Agentic Environments
+url: https://arxiv.org/abs/2606.10525v1
+authors:
+- David Hofer
+- Edoardo Debenedetti
+- Florian Tramèr
+venue: arXiv
+year: 2026
+summary: Empirical evaluation of automated prompt injection attacks against LLM agents using white-box
+  (GCG) and black-box (TAP) methods, highlighting the effectiveness of black-box optimization and the
+  impact of attacker model capabilities.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to red-teaming agentic systems by evaluating automated prompt
+    injection attacks in realistic agentic environments.
+status: draft

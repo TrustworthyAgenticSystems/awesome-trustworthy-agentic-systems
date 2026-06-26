@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-resilient-write-a-six-layer-durable-write-surface
+type: papers
+title: 'Resilient Write: A Six-Layer Durable Write Surface for LLM Coding Agents'
+url: https://arxiv.org/abs/2604.10842v3
+authors:
+- Justice Owusu Agyemang
+- Jerry John Kponyo
+- Elliot Amponsah
+- Godfred Manu Addo Boakye
+- Kwame Opuni-Boachie Obour Agyekum
+venue: arXiv
+year: 2026
+summary: Resilient Write is an MCP server that provides a six-layer durable write surface for LLM coding
+  agents, addressing common write failures through features like transactional atomic writes, resume-safe
+  chunking, and structured error handling.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses reliability and safety concerns in agent tool-use, specifically
+    for file writing, by introducing a robust, multi-layered system for handling failures and providing
+    structured feedback to the agent.
+status: draft

@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-usable-agent-discovery-for-decentralized-ai-systems
+type: papers
+title: Usable Agent Discovery for Decentralized AI Systems
+url: https://arxiv.org/abs/2604.23080v1
+authors:
+- Patrizio Dazzi
+- Emanuele Carlini
+- Matteo Mordacchini
+- Saul Urso
+venue: arXiv
+year: 2026
+summary: This paper studies decentralized agent discovery mechanisms under two-level churn (node and agent
+  level) to evaluate routing efficiency, resilience, and service readiness for large-scale agentic systems.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses a systems-level problem of agent discovery and coordination in decentralized,
+    large-scale agentic systems, focusing on reliability under churn.
+status: draft

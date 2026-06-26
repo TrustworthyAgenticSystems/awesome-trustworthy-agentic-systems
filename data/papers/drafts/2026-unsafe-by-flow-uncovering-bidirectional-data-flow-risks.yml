@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-unsafe-by-flow-uncovering-bidirectional-data-flow-risks
+type: papers
+title: 'Unsafe by Flow: Uncovering Bidirectional Data-Flow Risks in MCP Ecosystem'
+url: https://arxiv.org/abs/2605.07836v1
+authors:
+- Xinyi Hou
+- Yanjie Zhao
+- Haoyu Wang
+venue: arXiv
+year: 2026
+summary: MCP-BiFlow is a bidirectional static analysis framework that uncovers unsafe data flows in Model
+  Context Protocol (MCP) ecosystems by modeling protocol-specific taint semantics and interprocedural
+  propagation, identifying vulnerabilities in both requester-controlled arguments and untrusted external
+  data surfacing through MCP outputs.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- privacy
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses security and privacy risks at the tool-interface layer by proposing
+    a novel static analysis framework for MCP ecosystems, which is a critical component of agentic systems.
+status: draft

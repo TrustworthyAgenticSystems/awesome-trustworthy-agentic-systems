@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-storage-to-steering-memory-control-flow-attacks
+type: papers
+title: 'From Storage to Steering: Memory Control Flow Attacks on LLM Agents'
+url: https://arxiv.org/abs/2603.15125v3
+authors:
+- Zhenlin Xu
+- Xiaogang Zhu
+- Yu Yao
+- Minhui Xue
+- Yiliao Song
+venue: arXiv
+year: 2026
+summary: Identifies and quantifies Memory Control Flow Attacks (MCFA) where persistent memory entries
+  can force unintended tool usage and behavioral deviations in LLM agents, and proposes MEMFLOW, an automated
+  evaluation framework to assess this vulnerability.
+harness_layer:
+- memory
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a novel security vulnerability in agent memory that impacts
+    control flow and tool usage, providing an evaluation framework and empirical results on real-world
+    agent systems.
+status: draft

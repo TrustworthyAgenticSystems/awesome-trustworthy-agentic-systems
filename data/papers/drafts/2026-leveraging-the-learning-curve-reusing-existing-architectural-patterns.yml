@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-leveraging-the-learning-curve-reusing-existing-architectural-patterns
+type: papers
+title: 'Leveraging the Learning Curve: Reusing Existing Architectural Patterns to Design and Implement
+  MAS'
+url: https://arxiv.org/abs/2606.00287v1
+authors:
+- Arthur Casals
+- Anarosa A. F. Brandão
+venue: arXiv
+year: 2026
+summary: Proposes a unified engineering approach for multi-agent systems by integrating agent concepts
+  into distributed systems architectural patterns, enabling MAS design and implementation using established
+  DS techniques.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.75
+  rationale: The paper contributes to the architectural foundations of multi-agent systems by bridging
+    distributed systems engineering with agent theory, which is relevant for building reliable agentic
+    systems.
+status: draft

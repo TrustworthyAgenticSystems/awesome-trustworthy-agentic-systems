@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-nautilus-compass-black-box-persona-drift-detection-for
+type: papers
+title: 'Nautilus Compass: Black-box Persona Drift Detection for Production LLM Agents'
+url: https://arxiv.org/abs/2605.09863v1
+authors:
+- Chunxiao Wang
+venue: arXiv
+year: 2026
+summary: Nautilus Compass is a black-box persona drift detector and agent memory layer that uses prompt-text
+  cosine similarity to identify when a coding agent deviates from user-specified constraints, operating
+  without LLM calls at index time.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses agent memory integrity and drift detection in a black-box setting,
+    providing a concrete system and evaluation for production agents.
+status: draft

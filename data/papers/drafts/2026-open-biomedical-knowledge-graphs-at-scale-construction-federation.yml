@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-open-biomedical-knowledge-graphs-at-scale-construction-federation
+type: papers
+title: 'Open Biomedical Knowledge Graphs at Scale: Construction, Federation, and AI Agent Access with
+  Samyama Graph Database'
+url: https://arxiv.org/abs/2603.15080v3
+authors:
+- Madhulatha Mandarapu
+- Sandeep Kunkunuru
+venue: arXiv
+year: 2026
+summary: Presents a method for generating schema-driven MCP servers for LLM agent access to federated
+  biomedical knowledge graphs, evaluated on a new domain-specific QA benchmark.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the engineering of trustworthy agentic systems by providing a structured
+    approach for LLM agents to reliably access and query complex, federated knowledge graphs via schema-driven
+    tool interfaces.
+status: draft

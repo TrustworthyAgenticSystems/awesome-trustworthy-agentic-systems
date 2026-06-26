@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-learning-to-construct-practical-agentic-systems
+type: papers
+title: Learning to Construct Practical Agentic Systems
+url: https://arxiv.org/abs/2606.00189v1
+authors:
+- Aditya Kumar
+- Zhihan Lei
+- Jerry Yan
+- Joshua W. Momo
+- Lauhitya Reddy
+- Rafael Enrique Cabrera Jimenez
+- Cassandra A. Cohen
+- Arthur Kajiyama
+- William W. Cohen
+venue: arXiv
+year: 2026
+summary: Proposes a modular agent framework using recursive pseudo-tools and fixed workflows to improve
+  simplicity, controllability, and predictability of inference costs in practical agentic systems, outperforming
+  dynamic planning and hand-engineered agents.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses practical systems engineering concerns like cost, control, and predictability in
+    agent design, offering a structured architectural approach and optimization methods.
+status: draft

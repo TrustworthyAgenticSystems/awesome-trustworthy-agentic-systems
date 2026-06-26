@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-openclaw-meets-hospital-toward-an-agentic-operating
+type: papers
+title: 'When OpenClaw Meets Hospital: Toward an Agentic Operating System for Dynamic Clinical Workflows'
+url: https://arxiv.org/abs/2603.11721v2
+authors:
+- Wenxian Yang
+- Hanzheng Qiu
+- Bangqun Zhang
+- Chengquan Li
+- Zhiyong Huang
+- Xiaobin Feng
+- Rongshan Yu
+- Jiahong Dong
+venue: arXiv
+year: 2026
+summary: Proposes an agentic operating system architecture for hospitals, featuring a restricted execution
+  environment, document-centric interaction, page-indexed memory, and composable medical skills, with
+  an evaluation of its memory component for longitudinal clinical context.
+harness_layer:
+- architectures
+sprs:
+- safety
+- reliability
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Presents a comprehensive architectural design for trustworthy agent deployment in a high-stakes
+    domain, addressing multiple systems-level concerns like safety, transparency, and auditability.
+status: draft

@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-nous-a-predictive-world-model-for-long-term
+type: papers
+title: 'Nous: A Predictive World Model for Long-Term Agent Memory'
+url: https://arxiv.org/abs/2606.22030v1
+authors:
+- Pranav Singh
+venue: arXiv
+year: 2026
+summary: Nous is a novel agent memory architecture that maintains a predictive world model using categorical
+  probability distributions, updating beliefs based on information-theoretic surprise, and storing deltas
+  rather than facts.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a new agent memory architecture that directly addresses how agents store
+    and retrieve information, which is a core systems-engineering concern for trustworthy agents.
+status: draft

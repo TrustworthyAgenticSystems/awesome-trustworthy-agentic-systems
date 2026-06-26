@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-compass-the-explainable-agentic-framework-for-sovereignty-sustainability
+type: papers
+title: 'COMPASS: The explainable agentic framework for Sovereignty, Sustainability, Compliance, and Ethics'
+url: https://arxiv.org/abs/2603.11277v2
+authors:
+- Jean-Sébastien Dessureault
+- Alain-Thierry Iliho Manzi
+- Soukaina Alaoui Ismaili
+- Khadim Lo
+- Mireille Lalancette
+- Éric Bélanger
+venue: arXiv
+year: 2026
+summary: COMPASS is a multi-agent orchestration framework that integrates specialized sub-agents for sovereignty,
+  sustainability, compliance, and ethics, using RAG and LLM-as-a-judge to enforce value-aligned AI and
+  provide explainable justifications.
+harness_layer:
+- coordination
+sprs:
+- safety
+- reliability
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a multi-agent orchestration system with explicit governance mechanisms
+    for critical trustworthiness properties, addressing a systems-level problem.
+status: draft

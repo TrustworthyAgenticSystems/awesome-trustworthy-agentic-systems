@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-notarized-agents-receiver-attested-confidential-receipts-for-ai
+type: papers
+title: 'Notarized Agents: Receiver-Attested Confidential Receipts for AI Agent Actions'
+url: https://arxiv.org/abs/2606.04193v1
+authors:
+- Juan Figuera
+venue: arXiv
+year: 2026
+summary: Proposes a class of protocols for receiver-attested confidential receipts for AI agent actions,
+  enabling tamper-evident activity logs without trusting the agent or its operator.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a fundamental problem in agent observability and attribution with a novel
+    cryptographic protocol and security analysis.
+status: draft

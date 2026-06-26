@@ -1,0 +1,49 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-business-process-management-a-research-manifesto
+type: papers
+title: 'Agentic Business Process Management: A Research Manifesto'
+url: https://arxiv.org/abs/2603.18916v3
+authors:
+- Diego Calvanese
+- Angelo Casciani
+- Giuseppe De Giacomo
+- Marlon Dumas
+- Fabiana Fournier
+- Timotheus Kampik
+- Emanuele La Malfa
+- Lior Limonad
+- Andrea Marrella
+- Andreas Metzger
+- Marco Montali
+- Daniel Amyot
+- Peter Fettke
+- Artem Polyvyanyy
+- Stefanie Rinderle-Ma
+- Sebastian Sardiña
+- Niek Tax
+- Barbara Weber
+venue: arXiv
+year: 2026
+summary: This manifesto outlines Agentic Business Process Management (APM) as a framework for governing
+  autonomous agents in organizational processes, focusing on core abstractions and architectural elements
+  for framed autonomy, explainability, conversational actionability, and self-modification.
+harness_layer:
+- foundations
+sprs:
+- safety
+- reliability
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides foundational concepts and architectural elements for governing autonomous
+    agents within organizational processes, directly addressing the systems-level challenges of trustworthy
+    agent deployment.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-g2cp-a-graph-grounded-communication-protocol-for-verifiable
+type: papers
+title: 'G2CP: A Graph-Grounded Communication Protocol for Verifiable and Efficient Multi-Agent Reasoning'
+url: https://arxiv.org/abs/2602.13370v1
+authors:
+- Karim Ben Khaled
+- Davy Monticolo
+venue: arXiv
+year: 2026
+summary: G2CP is a graph-grounded communication protocol that replaces free-text inter-agent communication
+  with structured graph operations, leading to verifiable reasoning, reduced token consumption, and improved
+  accuracy in multi-agent coordination.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper introduces a novel, structured communication protocol for multi-agent systems
+    that directly addresses issues of semantic drift, hallucination, and verifiability in agent coordination,
+    with clear systems-level benefits.
+status: draft

@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-rethinking-failure-attribution-in-multi-agent-systems-a
+type: papers
+title: 'Rethinking Failure Attribution in Multi-Agent Systems: A Multi-Perspective Benchmark and Evaluation'
+url: https://arxiv.org/abs/2603.25001v1
+authors:
+- Yeonjun In
+- Mehrab Tanjim
+- Jayakumar Subramanian
+- Sungchul Kim
+- Uttaran Bhattacharya
+- Wonjoong Kim
+- Sangwu Park
+- Somdeb Sarkhel
+- Chanyoung Park
+venue: arXiv
+year: 2026
+summary: Proposes a multi-perspective failure attribution paradigm and benchmark (MP-Bench) for multi-agent
+  systems, acknowledging complex inter-agent dependencies and ambiguous execution trajectories for more
+  realistic MAS debugging.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses a core problem in observing and evaluating multi-agent system failures by proposing
+    a new benchmark and evaluation protocol that accounts for attribution ambiguity.
+status: draft

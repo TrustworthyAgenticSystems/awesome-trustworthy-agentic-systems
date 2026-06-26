@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-flowsteer-prompt-only-workflow-steering-exposes-planning-time
+type: papers
+title: 'FlowSteer: Prompt-Only Workflow Steering Exposes Planning-Time Vulnerabilities in Multi-Agent
+  LLM Systems'
+url: https://arxiv.org/abs/2605.11514v1
+authors:
+- Fanxiao Li
+- Jiaying Wu
+- Tingchao Fu
+- Natasha Jaques
+- Wei Zhou
+- Min-Yen Kan
+venue: arXiv
+year: 2026
+summary: Identifies and exploits planning-time vulnerabilities in multi-agent LLM systems through prompt-only
+  workflow steering, demonstrating how malicious signals can be amplified or suppressed based on workflow
+  position and sycophantic framing, and proposes an input-side defense.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses a novel red-teaming attack surface in multi-agent systems by
+    manipulating workflow planning, and proposes a defense.
+status: draft

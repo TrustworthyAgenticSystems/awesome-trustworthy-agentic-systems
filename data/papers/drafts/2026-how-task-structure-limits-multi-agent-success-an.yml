@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-how-task-structure-limits-multi-agent-success-an
+type: papers
+title: 'How Task Structure Limits Multi-Agent Success: An Information-Theoretic Analysis'
+url: https://arxiv.org/abs/2606.13733v1
+authors:
+- Shi Pan
+- Ming Luo
+venue: arXiv
+year: 2026
+summary: Information-theoretic analysis showing that multi-agent system success probability is exponentially
+  limited by the information bottleneck arising from task constraint graph partitioning, validated on
+  synthetic and real-world data.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Provides a foundational understanding of the inherent limitations in multi-agent coordination
+    based on task structure, which is critical for designing reliable agentic systems.
+status: draft

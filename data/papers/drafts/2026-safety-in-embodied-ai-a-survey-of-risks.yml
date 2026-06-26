@@ -1,0 +1,66 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-safety-in-embodied-ai-a-survey-of-risks
+type: papers
+title: 'Safety in Embodied AI: A Survey of Risks, Attacks, and Defenses'
+url: https://arxiv.org/abs/2605.02900v2
+authors:
+- Xiao Li
+- Xiang Zheng
+- Yifeng Gao
+- Xinyu Xia
+- Yixu Wang
+- Xin Wang
+- Ye Sun
+- Yunhan Zhao
+- Ming Wen
+- Jiayu Li
+- Zixing Chen
+- Xun Gong
+- Yi Liu
+- Yige Li
+- Yutao Wu
+- Cong Wang
+- Jun Sun
+- Yixin Cao
+- Zhineng Chen
+- Jingjing Chen
+- Tao Gui
+- Qi Zhang
+- Zuxuan Wu
+- Xipeng Qiu
+- Xuanjing Huang
+- Tiehua Zhang
+- Zhipeng Wei
+- Kun Wang
+- Xinfeng Li
+- Hanxun Huang
+- Sarah Erfani
+- James Bailey
+- Jianping Wang
+- Chaowei Xiao
+- Ran He
+- Bo Li
+- Xingjun Ma
+- Yu-Gang Jiang
+venue: arXiv
+year: 2026
+summary: A comprehensive survey of safety research in embodied AI, providing a multi-level taxonomy of
+  risks, attacks, and defenses across the full embodied pipeline, including agentic system aspects.
+harness_layer:
+- foundations
+sprs:
+- safety
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a foundational survey and taxonomy of safety risks and defenses for embodied
+    AI, explicitly covering agentic systems and their operational stack.
+status: draft

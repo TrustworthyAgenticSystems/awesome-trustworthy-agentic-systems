@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-assistance-to-autonomy-a-systematic-literature-review-of
+type: papers
+title: 'Assistance to Autonomy: A Systematic Literature Review of Agentic AI across the Software Development
+  Life Cycle'
+url: https://arxiv.org/abs/2605.15245v2
+authors:
+- Spyridon Alvanakis Apostolou
+- Jan Bosch
+- Helena Holmström Olsson
+venue: arXiv
+year: 2026
+summary: A systematic literature review of agentic AI in software development, identifying dominant architectural
+  patterns, adoption maturity, and industrial coping mechanisms, with a methodological contribution of
+  an AI-assisted screening pipeline.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a foundational systematic review of agentic systems in a critical domain,
+    identifying architectural patterns and limitations relevant to trustworthiness.
+status: draft

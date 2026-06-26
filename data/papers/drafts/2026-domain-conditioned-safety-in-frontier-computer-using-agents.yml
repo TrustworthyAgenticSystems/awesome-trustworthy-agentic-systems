@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-domain-conditioned-safety-in-frontier-computer-using-agents
+type: papers
+title: 'Domain-Conditioned Safety in Frontier Computer-Using Agents: A 793-Episode Browser Benchmark,
+  a Coding-Domain Cross-Reference, and a Reproducibility Audit of Recent Red-Teaming'
+url: https://arxiv.org/abs/2606.05233v1
+authors:
+- Nicholas Saban
+venue: arXiv
+year: 2026
+summary: A reproducibility audit of red-teaming techniques against frontier computer-using agents, revealing
+  domain-conditioned safety hardening and the importance of optimized attack strings for high attack success
+  rates.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a critical, empirical red-teaming study of agentic systems, focusing
+    on the reproducibility and domain-specificity of attack success rates against frontier models.
+status: draft

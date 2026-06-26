@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-collaborative-ai-agents-and-critics-for-fault-detection
+type: papers
+title: Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry
+url: https://arxiv.org/abs/2604.00319v1
+authors:
+- Syed Eqbal Alam
+- Zhan Shu
+venue: arXiv
+year: 2026
+summary: Develops algorithms for collaborative control of AI agents and critics in a federated multi-agent
+  system to improve task completion and minimize cost, with convergence guarantees and low communication
+  overhead.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.8
+  rationale: The paper focuses on the coordination and collaboration mechanisms between agents and critics,
+    which is a core aspect of trustworthy multi-agent systems.
+status: draft

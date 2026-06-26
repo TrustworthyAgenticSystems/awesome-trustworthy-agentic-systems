@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-view-oriented-conversation-compiler-for-agent-trace-analysis
+type: papers
+title: View-oriented Conversation Compiler for Agent Trace Analysis
+url: https://arxiv.org/abs/2603.29678v2
+authors:
+- Lvmin Zhang
+- Maneesh Agrawala
+venue: arXiv
+year: 2026
+summary: VCC (View-oriented Conversation Compiler) transforms complex agent JSONL logs into structured
+  views (full, UI, adaptive) to improve agent trace analysis and context engineering, reducing token consumption
+  and improving pass rates.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the systems-engineering problem of structured observation and
+    analysis of complex agent traces, demonstrating improved reliability and efficiency.
+status: draft

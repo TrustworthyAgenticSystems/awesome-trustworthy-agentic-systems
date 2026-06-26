@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-red-mirror-agentic-llm-based-autonomous-penetration-testing
+type: papers
+title: 'Red-MIRROR: Agentic LLM-based Autonomous Penetration Testing with Reflective Verification and
+  Knowledge-augmented Interaction'
+url: https://arxiv.org/abs/2603.27127v1
+authors:
+- Tran Vy Khang
+- Nguyen Dang Nguyen Khang
+- Nghi Hoang Khoa
+- Do Thi Thu Hien
+- Van-Hau Pham
+- Phan The Duy
+venue: arXiv
+year: 2026
+summary: Red-MIRROR is a multi-agent autonomous penetration testing system that uses a memory-reflection
+  backbone, RAG, and shared recurrent memory to improve complex web exploitation, validated on XBOW and
+  Vulhub CVEs.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to red-teaming agentic systems by proposing an autonomous
+    penetration testing system with specific architectural components for improved attack generation and
+    validation.
+status: draft

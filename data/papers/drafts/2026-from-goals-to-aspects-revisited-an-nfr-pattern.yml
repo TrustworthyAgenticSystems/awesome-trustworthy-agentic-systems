@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-goals-to-aspects-revisited-an-nfr-pattern
+type: papers
+title: 'From Goals to Aspects, Revisited: An NFR Pattern Language for Agentic AI Systems'
+url: https://arxiv.org/abs/2603.00472v1
+authors:
+- Yijun Yu
+venue: arXiv
+year: 2026
+summary: Revisits and extends the goals-to-aspects methodology to the agentic AI domain, presenting a
+  pattern language of 12 reusable patterns for non-functional requirements like security, reliability,
+  observability, and cost management, with concrete aspect implementations in Rust.
+harness_layer:
+- foundations
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides a foundational methodology and pattern language for systematically addressing crosscutting
+    non-functional requirements in agentic AI systems, including agent-specific concerns.
+status: draft

@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-your-ai-travel-agent-would-book-you-a
+type: papers
+title: 'Your AI Travel Agent Would Book You a Bullfight: An Agentic Benchmark for Implicit Animal Welfare
+  in Frontier AI Models'
+url: https://arxiv.org/abs/2606.18142v2
+authors:
+- Jasmine Brazilek
+- Joel Christoph
+- Miles Tidmarsh
+- Carol Kline
+- Oliver Tullio
+- Arturs Kanepajs
+venue: arXiv
+year: 2026
+summary: Introduces TAC, the first agentic benchmark to measure whether AI agents avoid animal exploitation
+  when performing multi-step actions with tools, revealing that frontier models perform below chance without
+  explicit system prompt guidance.
+harness_layer:
+- observation-eval
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a novel agentic benchmark for evaluating the safety of agent actions
+    in real-world scenarios, directly addressing a gap in existing model-level evaluations.
+status: draft

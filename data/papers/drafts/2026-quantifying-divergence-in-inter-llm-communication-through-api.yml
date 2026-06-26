@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-quantifying-divergence-in-inter-llm-communication-through-api
+type: papers
+title: Quantifying Divergence in Inter-LLM Communication Through API Retrieval and Ranking
+url: https://arxiv.org/abs/2604.22760v1
+authors:
+- Eyhab Al-Masri
+venue: arXiv
+year: 2026
+summary: A benchmarking framework to quantify inter-LLM divergence in API discovery and ranking, revealing
+  systematic failure modes in multi-agent coordination and informing reliability-aware orchestration.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses reliability and safety risks in multi-agent coordination by
+    quantifying divergence in API discovery and ranking, which is a systems-level concern.
+status: draft

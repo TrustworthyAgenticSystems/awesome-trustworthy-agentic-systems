@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-multi-agent-ai-system-for-automated-high
+type: papers
+title: 'A Multi-Agent AI System for Automated High School Transcript Processing: Collaborative Document
+  Analysis at Scale'
+url: https://arxiv.org/abs/2606.13916v1
+authors:
+- Ben Torkian
+- Jun Zhou
+venue: arXiv
+year: 2026
+summary: A multi-agent system for automated high school transcript processing that uses specialized agents
+  and an orchestration agent with GPA extraction as a quality control coordination signal to ensure reliable
+  collaboration.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system with an orchestration layer and a specific coordination
+    mechanism (GPA extraction for quality control) to ensure reliability in a complex document processing
+    task.
+status: draft

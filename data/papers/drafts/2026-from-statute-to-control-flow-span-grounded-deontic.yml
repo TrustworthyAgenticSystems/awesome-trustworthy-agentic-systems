@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-statute-to-control-flow-span-grounded-deontic
+type: papers
+title: 'From Statute to Control Flow: Span-Grounded Deontic Trees for Defeasible Scope Parsing'
+url: https://arxiv.org/abs/2606.08932v1
+authors:
+- Jian Chen
+- Siyuan Li
+- Chucheng Wan
+- Zixuan Yuan
+venue: arXiv
+year: 2026
+summary: Introduces NormBench, a benchmark and Span-Grounded Deontic Trees (SG-DT) intermediate representation
+  for parsing legal statutes into machine-checkable control flow, addressing silent scope omission in
+  rule-following agents.
+harness_layer:
+- intent
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a core problem of translating natural language intent (statutes) into machine-checkable
+    constraints for agent reliability and safety, with a concrete intermediate representation and benchmark.
+status: draft

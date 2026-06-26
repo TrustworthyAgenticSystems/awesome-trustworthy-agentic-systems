@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-security-considerations-for-artificial-intelligence-agents
+type: papers
+title: Security Considerations for Artificial Intelligence Agents
+url: https://arxiv.org/abs/2603.12230v2
+authors:
+- Ninghui Li
+- Kaiyuan Zhang
+- Kyle Polley
+- Jerry Ma
+venue: arXiv
+year: 2026
+summary: A comprehensive analysis of security considerations for AI agents, mapping attack surfaces across
+  tools, connectors, hosting, and multi-agent coordination, and assessing current defenses as a layered
+  stack.
+harness_layer:
+- foundations
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a foundational overview of security risks and defenses in agentic systems,
+    directly addressing the 'foundations' layer and identifying key open problems.
+status: draft

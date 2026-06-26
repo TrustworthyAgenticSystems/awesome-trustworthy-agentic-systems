@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-amv-l-lifecycle-managed-agent-memory-for-tail
+type: papers
+title: 'AMV-L: Lifecycle-Managed Agent Memory for Tail-Latency Control in Long-Running LLM Systems'
+url: https://arxiv.org/abs/2603.04443v1
+authors:
+- Emmanuel Bamidele
+venue: arXiv
+year: 2026
+summary: AMV-L is a memory-management framework that uses value-driven lifecycle tiers and bounded retrieval
+  sets to control the computational footprint of agent memory, improving throughput and reducing tail
+  latency in long-running LLM systems.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a systems-engineering problem in agent memory management (performance
+    and reliability of long-running agents) with a concrete, evaluated solution.
+status: draft

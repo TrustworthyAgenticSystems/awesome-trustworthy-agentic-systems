@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-toward-a-modular-architecture-for-embedded-ai-agent
+type: papers
+title: Toward a Modular Architecture for Embedded AI Agent Systems at the Edge
+url: https://arxiv.org/abs/2606.02862v1
+authors:
+- Marcus Rüb
+- Michael Gerhards
+venue: arXiv
+year: 2026
+summary: Proposes a modular reference architecture for embedded AI agent systems at the edge, featuring
+  a tiered design for on-device and cloud-augmented agents, and a cross-cutting governance layer for observability,
+  policy enforcement, and safety in resource-constrained environments.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+- privacy
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper proposes a reference architecture for trustworthy agentic systems in a challenging
+    deployment environment, directly addressing systems-level concerns like reliability, safety, and privacy
+    through architectural design.
+status: draft

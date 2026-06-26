@@ -1,0 +1,43 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-impact-cycle-a-contract-based-multi-agent-system
+type: papers
+title: 'IMPACT-CYCLE: A Contract-Based Multi-Agent System for Claim-Level Supervisory Correction of Long-Video
+  Semantic Memory'
+url: https://arxiv.org/abs/2604.20136v1
+authors:
+- Weitong Kong
+- Di Wen
+- Kunyu Peng
+- David Schneider
+- Zeyun Zhong
+- Alexander Jaus
+- Zdravko Marinov
+- Jiale Wei
+- Ruiping Liu
+- Junwei Zheng
+- Yufan Chen
+- Lei Qi
+- Rainer Stiefelhagen
+venue: arXiv
+year: 2026
+summary: IMPACT-CYCLE is a multi-agent system that enables claim-level supervisory correction of long-video
+  semantic memory, reducing human arbitration cost by localizing corrections to structurally dependent
+  claims.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses human oversight and error correction in complex agentic workflows,
+    focusing on the system design for proportional human effort and reliability.
+status: draft

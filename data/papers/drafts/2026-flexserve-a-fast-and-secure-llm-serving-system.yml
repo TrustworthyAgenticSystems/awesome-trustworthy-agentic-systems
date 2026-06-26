@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-flexserve-a-fast-and-secure-llm-serving-system
+type: papers
+title: 'FlexServe: A Fast and Secure LLM Serving System for Mobile Devices with Flexible Resource Isolation'
+url: https://arxiv.org/abs/2603.09046v2
+authors:
+- Yinpeng Wu
+- Yitong Chen
+- Lixiang Wang
+- Jinyu Gu
+- Zhichao Hua
+- Yubin Xia
+venue: arXiv
+year: 2026
+summary: FlexServe is a secure LLM serving system for mobile devices that uses ARM TrustZone with flexible
+  resource isolation (Flex-Mem, Flex-NPU) to protect model weights and user data during inference, accelerating
+  multi-model agent workflows.
+harness_layer:
+- execution-shell
+sprs:
+- security
+- privacy
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses device-side LLM serving security and privacy, focusing on hardware-based
+    isolation for the execution shell of LLM inference, which is relevant for trustworthy agentic systems.
+status: draft

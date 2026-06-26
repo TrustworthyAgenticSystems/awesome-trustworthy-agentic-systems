@@ -1,0 +1,62 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-how-vulnerable-are-ai-agents-to-indirect-prompt
+type: papers
+title: How Vulnerable Are AI Agents to Indirect Prompt Injections? Insights from a Large-Scale Public
+  Competition
+url: https://arxiv.org/abs/2603.15714v1
+authors:
+- Mateusz Dziemian
+- Maxwell Lin
+- Xiaohan Fu
+- Micha Nowak
+- Nick Winter
+- Eliot Jones
+- Andy Zou
+- Lama Ahmad
+- Kamalika Chaudhuri
+- Sahana Chennabasappa
+- Xander Davies
+- Lauren Deason
+- Benjamin L. Edelman
+- Tanner Emek
+- Ivan Evtimov
+- Jim Gust
+- Maia Hamin
+- Kat He
+- Klaudia Krawiecka
+- Riccardo Patana
+- Neil Perry
+- Troy Peterson
+- Xiangyu Qi
+- Javier Rando
+- Zifan Wang
+- Zihan Wang
+- Spencer Whitman
+- Eric Winsor
+- Arman Zharmagambetov
+- Matt Fredrikson
+- Zico Kolter
+venue: arXiv
+year: 2026
+summary: Large-scale red teaming competition evaluating indirect prompt injection attacks against LLM
+  agents across tool calling, coding, and computer use, focusing on concealed attacks that manipulate
+  agent behavior without user awareness.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a critical security and safety concern for agentic systems
+    through a large-scale red-teaming effort, identifying universal attack strategies and providing a
+    competition environment for further evaluation.
+status: draft

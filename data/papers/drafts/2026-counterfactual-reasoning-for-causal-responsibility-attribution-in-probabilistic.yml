@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-counterfactual-reasoning-for-causal-responsibility-attribution-in-probabilistic
+type: papers
+title: Counterfactual Reasoning for Causal Responsibility Attribution in Probabilistic Multi-Agent Systems
+url: https://arxiv.org/abs/2605.13077v1
+authors:
+- Chunyan Mu
+- Muhammad Najib
+venue: arXiv
+year: 2026
+summary: Introduces a formal framework for retrospective counterfactual responsibility attribution in
+  probabilistic multi-agent systems, using Shapley values to quantify agent accountability for outcomes
+  in concurrent stochastic games.
+harness_layer:
+- coordination
+sprs:
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses responsibility allocation in multi-agent systems, which is relevant to human oversight
+    and governance of agent actions, and provides a formal method for attribution.
+status: draft

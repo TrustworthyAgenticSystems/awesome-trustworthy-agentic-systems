@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-opal-private-memory-for-personal-ai
+type: papers
+title: 'Opal: Private Memory for Personal AI'
+url: https://arxiv.org/abs/2604.02522v1
+authors:
+- Darya Kaviani
+- Alp Eren Ozdarendeli
+- Jinhao Zhu
+- Yu Ding
+- Raluca Ada Popa
+venue: arXiv
+year: 2026
+summary: Opal is a private memory system for personal AI that uses trusted enclaves to decouple data-dependent
+  reasoning from bulk storage, hiding retrieval access patterns and improving accuracy over semantic search.
+harness_layer:
+- memory
+sprs:
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper directly addresses privacy in agent memory systems by proposing a novel architecture
+    that hides access patterns and manages continuous data ingestion, a core systems-engineering problem
+    for trustworthy agents.
+status: draft

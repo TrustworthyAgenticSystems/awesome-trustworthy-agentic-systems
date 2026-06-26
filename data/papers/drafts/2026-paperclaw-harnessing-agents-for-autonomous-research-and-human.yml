@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-paperclaw-harnessing-agents-for-autonomous-research-and-human
+type: papers
+title: 'PaperClaw: Harnessing Agents for Autonomous Research and Human-in-the-Loop Refinement'
+url: https://arxiv.org/abs/2606.22610v1
+authors:
+- Weiwei Ye
+- Hangchen Liu
+- Dongyuan Li
+- Renhe Jiang
+venue: arXiv
+year: 2026
+summary: PAPERCLAW is a multi-agent system designed for autonomous research, featuring a full-lifecycle
+  memory, a stoppable hypothesis map, and human-in-the-loop refinement, ensuring grounded and checkable
+  outputs.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper presents an end-to-end reference architecture for an autonomous research agent,
+    including memory management, iterative refinement, and human oversight, which directly contributes
+    to trustworthy agentic systems.
+status: draft

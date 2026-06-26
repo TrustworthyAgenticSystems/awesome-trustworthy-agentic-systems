@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-code-centric-to-intent-centric-software-engineering
+type: papers
+title: 'From Code-Centric to Intent-Centric Software Engineering: A Reflexive Thematic Analysis of Generative
+  AI, Agentic Systems, and Engineering Accountability'
+url: https://arxiv.org/abs/2605.11027v1
+authors:
+- Elyson De La Cruz
+venue: arXiv
+year: 2026
+summary: A reflexive thematic analysis of public discourse and literature on generative AI and agentic
+  systems, framing the shift in software engineering from code-centric to intent-centric work and highlighting
+  the increased importance of intent specification, governance, and accountability.
+harness_layer:
+- foundations
+sprs:
+- security
+- safety
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a foundational analysis of the shift to intent-centric software engineering
+    with agentic systems, directly addressing the framing of trustworthiness and accountability as systems
+    problems.
+status: draft

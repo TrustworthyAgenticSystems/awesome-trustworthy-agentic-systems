@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-parallax-why-ai-agents-that-think-must-never
+type: papers
+title: 'Parallax: Why AI Agents That Think Must Never Act'
+url: https://arxiv.org/abs/2604.12986v1
+authors:
+- Joel Fokou
+venue: arXiv
+year: 2026
+summary: Parallax is an architectural paradigm for safe autonomous AI execution, based on Cognitive-Executive
+  Separation, Adversarial Validation, Information Flow Control, and Reversible Execution, with an open-source
+  reference implementation and evaluation against adversarial test cases.
+harness_layer:
+- architectures
+sprs:
+- security
+- safety
+- reliability
+open_problems:
+- transactional-agency
+- least-privilege-reasoning
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper proposes a novel architectural paradigm for trustworthy agent execution, addressing
+    fundamental security and safety gaps with concrete principles and an open-source implementation.
+status: draft

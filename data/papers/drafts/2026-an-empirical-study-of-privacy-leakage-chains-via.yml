@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-an-empirical-study-of-privacy-leakage-chains-via
+type: papers
+title: An Empirical Study of Privacy Leakage Chains via Prompt Injection in Black-Box Chatbot Environments
+url: https://arxiv.org/abs/2605.18133v1
+authors:
+- Hongjang Yang
+- Hyunsik Na
+- Daeseon Choi
+venue: arXiv
+year: 2026
+summary: Empirical study of privacy-leakage attack chains via indirect prompt injection in black-box chatbot
+  environments, demonstrating how untrusted external content can hijack agent tasks and exfiltrate data.
+harness_layer:
+- red-team
+sprs:
+- security
+- privacy
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses adversarial testing of agentic systems and privacy leakage through multi-step
+    exploit chains in deployed agents.
+status: draft

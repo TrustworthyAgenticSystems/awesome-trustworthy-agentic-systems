@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-defending-llm-based-multi-agent-systems-against-cooperative
+type: papers
+title: Defending LLM-based Multi-Agent Systems Against Cooperative Attacks with Sentence-Level Rectification
+url: https://arxiv.org/abs/2605.28104v1
+authors:
+- Yaoyang Luo
+- Zhi Zheng
+- Ziwei Zhao
+- Tong Xu
+- Zhao Jielun
+- Wenjun Xue
+- Yong Chen
+- Enhong Chen
+venue: arXiv
+year: 2026
+summary: Proposes a cooperative attack framework for multi-agent systems where malicious agents coordinate
+  to inject misinformation, and introduces STAR, a defense that rectifies misleading information at the
+  sentence level in agent communications.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: Addresses a system-level security threat (cooperative attacks) in multi-agent coordination
+    and provides a concrete defense mechanism.
+status: draft

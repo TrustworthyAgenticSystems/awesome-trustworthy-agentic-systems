@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-assistance-to-agency-rethinking-autonomy-and-control
+type: papers
+title: 'From Assistance to Agency: Rethinking Autonomy and Control in CI/CD Pipelines'
+url: https://arxiv.org/abs/2605.07062v1
+authors:
+- Marcus Emmanuel Barnes
+- Taher A. Ghaleb
+- Safwat Hassan
+venue: arXiv
+year: 2026
+summary: This paper proposes a framework for understanding and designing authority transfer in agentic
+  CI/CD pipelines, distinguishing between data-plane and control-plane authority and identifying key research
+  challenges in control-plane safety and governance.
+harness_layer:
+- foundations
+sprs:
+- safety
+- reliability
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper provides a foundational framework and research agenda for understanding autonomy
+    and control in agentic CI/CD, directly addressing systems-level trustworthiness concerns.
+status: draft

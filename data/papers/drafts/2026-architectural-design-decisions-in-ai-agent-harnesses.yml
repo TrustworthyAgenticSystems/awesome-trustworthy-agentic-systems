@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-architectural-design-decisions-in-ai-agent-harnesses
+type: papers
+title: Architectural Design Decisions in AI Agent Harnesses
+url: https://arxiv.org/abs/2604.18071v1
+authors:
+- Hu Wei
+venue: arXiv
+year: 2026
+summary: Empirical study of architectural design decisions across 70 public AI agent systems, identifying
+  recurring dimensions, co-occurrence patterns, and five architectural archetypes to guide framework design
+  and selection.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a foundational, empirical study of architectural patterns and design
+    decisions in agentic systems, directly contributing to understanding the engineering stack.
+status: draft

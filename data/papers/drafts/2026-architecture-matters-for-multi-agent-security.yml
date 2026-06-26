@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-architecture-matters-for-multi-agent-security
+type: papers
+title: Architecture Matters for Multi-Agent Security
+url: https://arxiv.org/abs/2604.23459v1
+authors:
+- Ben Hagag
+- William L. Anderson
+- Christian Schroeder de Witt
+- Sarah Scheffler
+venue: arXiv
+year: 2026
+summary: Empirical study of how multi-agent system architectural decisions, including agent roles, communication
+  topology, and memory, impact the tradeoff between task performance and attack resistance across three
+  agentic environments.
+harness_layer:
+- architectures
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses security risks arising from architectural decisions in multi-agent
+    systems, providing an empirical study of attack surfaces and design choices.
+status: draft

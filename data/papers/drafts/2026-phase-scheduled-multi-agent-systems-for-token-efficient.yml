@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-phase-scheduled-multi-agent-systems-for-token-efficient
+type: papers
+title: Phase-Scheduled Multi-Agent Systems for Token-Efficient Coordination
+url: https://arxiv.org/abs/2604.17400v1
+authors:
+- Mohit Dubey
+venue: arXiv
+year: 2026
+summary: Phase-Scheduled Multi-Agent Systems (PSMAS) framework optimizes token efficiency in multi-agent
+  coordination by scheduling agent activation based on task dependency and providing compressed context
+  to idle agents.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a novel coordination mechanism for multi-agent systems that directly
+    addresses token efficiency and performance, a systems-level concern for agent reliability.
+status: draft

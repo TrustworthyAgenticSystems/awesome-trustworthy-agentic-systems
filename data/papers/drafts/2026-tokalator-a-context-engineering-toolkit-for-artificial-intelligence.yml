@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-tokalator-a-context-engineering-toolkit-for-artificial-intelligence
+type: papers
+title: 'Tokalator: A Context Engineering Toolkit for Artificial Intelligence Coding Assistants'
+url: https://arxiv.org/abs/2604.08290v1
+authors:
+- Vahid Farajijobehdar
+- İlknur Köseoğlu Sarı
+- Nazım Kemal Üre
+- Engin Zeydan
+venue: arXiv
+year: 2026
+summary: Tokalator is a context-engineering toolkit that provides real-time token budget monitoring, optimization
+  tools, and usage tracking for AI coding assistants, addressing the challenge of managing finite context
+  windows and API costs.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses the systems-level problem of context window management and token
+    consumption optimization for AI coding assistants, which impacts agent memory and reliability.
+status: draft

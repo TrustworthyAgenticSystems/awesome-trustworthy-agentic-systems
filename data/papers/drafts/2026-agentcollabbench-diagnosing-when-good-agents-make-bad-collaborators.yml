@@ -1,0 +1,44 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentcollabbench-diagnosing-when-good-agents-make-bad-collaborators
+type: papers
+title: 'AgentCollabBench: Diagnosing When Good Agents Make Bad Collaborators'
+url: https://arxiv.org/abs/2605.08647v1
+authors:
+- Aritra Mazumder
+- Shubhashis Roy Dipta
+- Nusrat Jahan Lia
+- Tanzila Khan
+- Kainat Raisa Hossain
+- Nehaa Shri
+- Shubhrangshu Debsarkar
+- Humayra Tasnim
+- Gour Gupal Talukder Shawon
+- Debjoty Mitra
+- Sumaiya Ahmed Rani
+- Al Jami Islam Anik
+- Al Nafeu Khan
+venue: arXiv
+year: 2026
+summary: Introduces AgentCollabBench, a diagnostic benchmark to measure multi-hop process failures in
+  multi-agent systems, focusing on instruction decay, false-belief contagion, context leakage, and tracer
+  durability, and identifies communication topology as a primary risk factor.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- security
+- privacy
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses reliability and security in multi-agent coordination by diagnosing structural
+    vulnerabilities and their impact on information integrity across agent workflows.
+status: draft

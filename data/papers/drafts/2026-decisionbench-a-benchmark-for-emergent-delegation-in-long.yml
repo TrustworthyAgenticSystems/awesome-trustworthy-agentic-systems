@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-decisionbench-a-benchmark-for-emergent-delegation-in-long
+type: papers
+title: 'DecisionBench: A Benchmark for Emergent Delegation in Long-Horizon Agentic Workflows'
+url: https://arxiv.org/abs/2605.19099v1
+authors:
+- Yuxuan Gao
+- Megan Wang
+- Yi Ling Yu
+- Zijian Carl Ma
+- Ao Qu
+venue: arXiv
+year: 2026
+summary: Introduces DecisionBench, a benchmark substrate for evaluating emergent delegation in long-horizon
+  multi-agent workflows, focusing on quality, cost, latency, and routing fidelity, and providing a reference
+  sweep to characterize performance and identify headroom for orchestration methods.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a concrete benchmark and evaluation methodology for multi-agent coordination and
+    delegation, addressing long-horizon evaluation challenges.
+status: draft

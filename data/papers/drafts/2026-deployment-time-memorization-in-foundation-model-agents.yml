@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-deployment-time-memorization-in-foundation-model-agents
+type: papers
+title: Deployment-Time Memorization in Foundation-Model Agents
+url: https://arxiv.org/abs/2606.10062v1
+authors:
+- Lei
+- Chen
+- Guilin Zhang
+- Kai Zhao
+- Dalmo Cirne
+- Andy Olsen
+- Xu Chu
+- Zeke Miller
+- Alet Blanken
+- Amine Anoun
+- Jerry Ting
+venue: arXiv
+year: 2026
+summary: Characterizes deployment-time memorization in long-lived agents by studying how memory-design
+  choices (summarization, retrieval breadth, deletion mode) impact personalization utility, extraction
+  risk, and deletion fidelity, introducing metrics like Personalization Recall, Adversarial Extraction
+  Rate, and Forgetting Residue Score.
+harness_layer:
+- memory
+sprs:
+- privacy
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses privacy and security concerns in agent memory systems by analyzing the
+    trade-offs of memory design choices and deletion fidelity.
+status: draft

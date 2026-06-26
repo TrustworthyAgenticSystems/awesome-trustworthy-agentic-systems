@@ -1,0 +1,43 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-holistic-evaluation-and-failure-diagnosis-of-ai-agents
+type: papers
+title: Holistic Evaluation and Failure Diagnosis of AI Agents
+url: https://arxiv.org/abs/2605.14865v1
+authors:
+- Netta Madvil
+- Gilad Dym
+- Alon Mecilati
+- Edo Dekel
+- Jonatan Liberman
+- Rotem Brazilay
+- Liron Schliesser
+- Max Svidlo
+- Shai Nir
+- Orel Shalom
+- Yaron Friedman
+- David Connack
+- Amos Rimon
+- Philip Tannor
+- Shir Chorev
+venue: arXiv
+year: 2026
+summary: A holistic agent evaluation framework that combines top-down agent-level diagnosis with bottom-up
+  span-level evaluation to pinpoint failure locations and types within long execution traces.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the systems-level problem of evaluating and diagnosing failures
+    in multi-step agent workflows, which is crucial for reliability and observability.
+status: draft

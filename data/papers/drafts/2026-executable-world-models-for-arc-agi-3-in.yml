@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-executable-world-models-for-arc-agi-3-in
+type: papers
+title: Executable World Models for ARC-AGI-3 in the Era of Coding Agents
+url: https://arxiv.org/abs/2605.05138v2
+authors:
+- Sergey Rodionov
+venue: arXiv
+year: 2026
+summary: An agent system for ARC-AGI-3 that uses an executable Python world model, verifies it against
+  observations, and plans through it, with an audit of information channels and mitigation of leakage
+  in the harness.
+harness_layer:
+- architectures
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes an agent architecture with a focus on the system's design, including
+    an audit of information channels and mitigation of leakage, which is relevant to trustworthy agentic
+    systems.
+status: draft

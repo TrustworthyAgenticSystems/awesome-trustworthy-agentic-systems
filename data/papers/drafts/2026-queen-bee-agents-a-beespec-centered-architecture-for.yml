@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-queen-bee-agents-a-beespec-centered-architecture-for
+type: papers
+title: 'Queen-Bee Agents: A BeeSpec-Centered Architecture for Governed Enterprise MCP Orchestration'
+url: https://arxiv.org/abs/2606.06545v1
+authors:
+- Dutao Zhang
+- Liaotian
+venue: arXiv
+year: 2026
+summary: Queen-Bee is a governed multi-agent architecture for enterprise settings that uses a control
+  plane to plan task-scoped execution and compile a structured BeeSpec for specialized agents with constrained
+  tool access, focusing on policy enforcement, tenant-scoped isolation, and operational boundaries.
+harness_layer:
+- architectures
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper presents a reference architecture for governed enterprise multi-agent systems,
+    addressing security and safety concerns through structured execution and policy enforcement.
+status: draft

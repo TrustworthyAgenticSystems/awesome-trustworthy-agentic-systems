@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-fragfuse-bypassing-access-control-of-large-language-model
+type: papers
+title: 'FragFuse: Bypassing Access Control of Large Language Model Agents via Memory-Based Query Fragmentation
+  and Fusion'
+url: https://arxiv.org/abs/2606.15609v1
+authors:
+- Zixin Rao
+- Wentian Zhu
+- Chan Aristella Lu
+- Zhaorun Chen
+- Wei Niu
+- Le Guan
+- Bo Li
+- Zhen Xiang
+venue: arXiv
+year: 2026
+summary: FragFuse demonstrates a novel memory-based attack that fragments prohibited content across interactions,
+  stores it in long-term memory, and reconstructs it to bypass agent access control, evaluated across
+  four agent settings and three access-control mechanisms.
+harness_layer:
+- memory
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper identifies and exploits a critical vulnerability in agent memory operations to
+    bypass access control, directly contributing to the security of agentic systems.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-redact-redacting-agent-capability-traces-for-procedural-skill
+type: papers
+title: 'RedAct: Redacting Agent Capability Traces for Procedural Skill Protection'
+url: https://arxiv.org/abs/2606.10813v3
+authors:
+- Shuwen Xu
+- Zhitao He
+- Yi R. Fung
+venue: arXiv
+year: 2026
+summary: RedAct is a protected trace release framework that redacts private procedural skills from agent
+  execution traces while preserving audit evidence and embedding behavioral watermarks for provenance.
+harness_layer:
+- observation-eval
+sprs:
+- privacy
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper addresses the privacy and security implications of releasing agent execution traces,
+    proposing a system-level solution for redaction and provenance that impacts observability and attribution.
+status: draft

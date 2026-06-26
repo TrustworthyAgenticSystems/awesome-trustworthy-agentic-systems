@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-moc-multi-order-communication-in-llm-based-multi
+type: papers
+title: 'MOC: Multi-Order Communication in LLM-based Multi-Agent Systems'
+url: https://arxiv.org/abs/2606.02359v1
+authors:
+- Yao Guan
+- Lin Wang
+- Zhihu Lu
+- Ziyi Wang
+- Wenzhu Yan
+- Qiang Duan
+venue: arXiv
+year: 2026
+summary: Proposes a Multi-Order Communication (MOC) scheme for multi-agent systems that captures multi-hop
+  dependencies and consolidates messages to improve task performance and reduce communication costs.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses a core systems-engineering problem in multi-agent coordination by optimizing inter-agent
+    communication and message transmission efficiency.
+status: draft

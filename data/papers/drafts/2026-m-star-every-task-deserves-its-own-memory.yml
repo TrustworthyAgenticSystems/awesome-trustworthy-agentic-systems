@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-m-star-every-task-deserves-its-own-memory
+type: papers
+title: 'M$^\star$: Every Task Deserves Its Own Memory Harness'
+url: https://arxiv.org/abs/2604.11811v2
+authors:
+- Wenbo Pan
+- Shujie Liu
+- Xiangyang Zhou
+- Shiwei Zhang
+- Wanlu Shi
+- Mirror Xu
+- Xiaohua Jia
+venue: arXiv
+year: 2026
+summary: M$^\star$ automatically discovers task-optimized memory harnesses by modeling agent memory as
+  an evolvable Python program, jointly optimizing schema, storage logic, and workflow instructions through
+  reflective code evolution.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the engineering of agent memory systems by proposing an automated
+    method for optimizing memory harnesses for specific tasks, which directly impacts the reliability
+    of long-running agents.
+status: draft

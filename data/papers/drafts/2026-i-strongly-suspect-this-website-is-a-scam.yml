@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-i-strongly-suspect-this-website-is-a-scam
+type: papers
+title: '"I Strongly Suspect This Website Is a Scam": Benchmarking PII Leakage and Detection without Defense
+  in Autonomous Web Agents'
+url: https://arxiv.org/abs/2606.00497v1
+authors:
+- Soham Roy
+- Sarthakbrata Halder
+- Arya Bharaty
+- Vaibhav Bhaskar
+- Yash Sinha
+- Dhruv Kumar
+- Srikant Panda
+- Murari Mandal
+venue: arXiv
+year: 2026
+summary: Introduces Scammer4U, a benchmark of 91 attacker-controlled web environments to quantify PII
+  leakage from autonomous web agents under social-engineering attacks, revealing a detection-action gap
+  where agents submit PII despite recognizing suspicious activity.
+harness_layer:
+- red-team
+sprs:
+- privacy
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses adversarial testing of agentic systems for PII leakage, identifying
+    a critical systems-level vulnerability and motivating output-level interception as a defense.
+status: draft

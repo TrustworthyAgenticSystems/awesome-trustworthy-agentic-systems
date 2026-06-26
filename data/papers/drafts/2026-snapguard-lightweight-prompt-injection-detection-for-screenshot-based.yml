@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-snapguard-lightweight-prompt-injection-detection-for-screenshot-based
+type: papers
+title: 'SnapGuard: Lightweight Prompt Injection Detection for Screenshot-Based Web Agents'
+url: https://arxiv.org/abs/2604.25562v1
+authors:
+- Mengyao Du
+- Han Fang
+- Haokai Ma
+- Jiahao Chen
+- Kai Xu
+- Quanjun Yin
+- Ee-Chien Chang
+venue: arXiv
+year: 2026
+summary: SnapGuard proposes a lightweight multimodal detection method for prompt injection attacks in
+  screenshot-based web agents, leveraging visual stability and action-oriented textual signals to identify
+  malicious content efficiently.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses prompt injection attacks on web agents, a critical red-teaming
+    concern, and proposes a lightweight detection mechanism for a specific agent type.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-admission-to-invariants-measuring-deviation-in-delegated
+type: papers
+title: 'From Admission to Invariants: Measuring Deviation in Delegated Agent Systems'
+url: https://arxiv.org/abs/2604.17517v2
+authors:
+- Marcelo Fernandez
+venue: arXiv
+year: 2026
+summary: Identifies a structural limitation in enforcement-based agent governance where local action-level
+  checks fail to detect global behavioral drift from admission-time expectations, and proposes an Invariant
+  Measurement Layer (IML) to restore observability of such drift.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper makes a foundational contribution to agent observation and evaluation by identifying
+    a systemic blind spot in current enforcement mechanisms and proposing a novel solution with theoretical
+    and empirical validation.
+status: draft

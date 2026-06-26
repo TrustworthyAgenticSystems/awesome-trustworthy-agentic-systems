@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-rubricem-meta-rl-with-rubric-guided-policy-decomposition
+type: papers
+title: 'RubricEM: Meta-RL with Rubric-guided Policy Decomposition beyond Verifiable Rewards'
+url: https://arxiv.org/abs/2605.10899v1
+authors:
+- Gaotang Li
+- Bhavana Dalvi Mishra
+- Zifeng Wang
+- Jun Yan
+- Yanfei Chen
+- Chun-Liang Li
+- Long T. Le
+- Rujun Han
+- George Lee
+- Hanghang Tong
+- Chen-Yu Lee
+- Tomas Pfister
+venue: arXiv
+year: 2026
+summary: RubricEM is a rubric-guided reinforcement learning framework that uses stagewise policy decomposition
+  and reflection-based meta-policy evolution to structure agent execution, feedback, and memory for long-form
+  research tasks.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to multi-agent coordination and long-horizon evaluation by using rubrics
+    to structure policy execution and provide denser feedback for complex agentic workflows.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-octopus-protocol-one-shot-hardware-discovery-and-control
+type: papers
+title: 'Octopus Protocol: One-Shot Hardware Discovery and Control for AI Agents via Infrastructure-as-Prompts'
+url: https://arxiv.org/abs/2605.09055v1
+authors:
+- Quilee Simeon
+- Justin M. Wei
+- Yile Fan
+venue: arXiv
+year: 2026
+summary: Octopus Protocol enables AI agents to autonomously discover, interface with, and control new
+  hardware by generating typed tool interfaces (MCP servers) and deploying them as live HTTP endpoints,
+  reducing the engineering cost of hardware onboarding.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the systems engineering challenge of dynamically generating
+    and managing tool interfaces for AI agents to interact with novel hardware, which is critical for
+    reliability and safety in agentic robotics.
+status: draft

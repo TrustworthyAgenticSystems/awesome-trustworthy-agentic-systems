@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-reliable-self-harm-risk-screening-via-adaptive-multi
+type: papers
+title: Reliable Self-Harm Risk Screening via Adaptive Multi-Agent LLM Systems
+url: https://arxiv.org/abs/2604.22154v1
+authors:
+- Meghana Karnam
+- Ananya Joshi
+venue: arXiv
+year: 2026
+summary: A statistical framework for multi-agent LLM pipelines structured as DAGs that provides adaptive
+  decision-making with tighter agent-level performance confidence bounds, a bandit-based adaptive sampling
+  strategy, and regret guarantees for safety-critical applications like self-harm risk screening.
+harness_layer:
+- coordination
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: The paper introduces a statistical framework for multi-agent coordination to improve reliability
+    and safety in critical applications, directly addressing how errors accumulate across multiple LLM
+    judgments in a system.
+status: draft

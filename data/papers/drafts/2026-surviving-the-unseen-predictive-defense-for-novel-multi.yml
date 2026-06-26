@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-surviving-the-unseen-predictive-defense-for-novel-multi
+type: papers
+title: 'Surviving the Unseen: Predictive Defense for Novel Multi-Turn Multimodal Attacks'
+url: https://arxiv.org/abs/2605.18988v1
+authors:
+- Doohee You
+venue: arXiv
+year: 2026
+summary: Proposes the TRIAD framework, a predictive defense mechanism that models multi-turn multimodal
+  conversational flow as a continuous trajectory to detect cumulative structural poisoning and malicious
+  drift in agentic systems.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a critical red-teaming problem of multi-turn, cross-modal attacks on agentic systems
+    with a novel, predictive defense framework.
+status: draft

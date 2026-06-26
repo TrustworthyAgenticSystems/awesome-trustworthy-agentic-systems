@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-planning-fails-despite-correct-execution-on-epistemic
+type: papers
+title: 'When Planning Fails Despite Correct Execution: On Epistemic Calibration for LLM-Based Multi-Agent
+  Systems'
+url: https://arxiv.org/abs/2605.23414v1
+authors:
+- Zehao Wang
+- Shilong Jin
+- Zhao Cao
+- Lanjun Wang
+venue: arXiv
+year: 2026
+summary: Addresses epistemic miscalibration in multi-agent planning by proposing a workflow that assesses
+  plan support under varying information conditions and refines epistemic states based on past discrepancies.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses a systems-level failure mode in multi-agent coordination (epistemic miscalibration
+    in planning) and proposes a workflow-based solution to improve reliability.
+status: draft

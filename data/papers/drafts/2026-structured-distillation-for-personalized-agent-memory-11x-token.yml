@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-structured-distillation-for-personalized-agent-memory-11x-token
+type: papers
+title: 'Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation'
+url: https://arxiv.org/abs/2603.13017v1
+authors:
+- Sydney Lewis
+venue: arXiv
+year: 2026
+summary: Structured distillation method for compressing personalized agent conversation history into a
+  compact retrieval layer, achieving 11x token reduction while preserving retrieval quality for later
+  search.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: Directly addresses the engineering problem of managing and optimizing agent memory for long-running
+    interactions, with a focus on retrieval reliability.
+status: draft

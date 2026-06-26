@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-tool-orchestration-to-code-execution-a-study
+type: papers
+title: 'From Tool Orchestration to Code Execution: A Study of MCP Design Choices'
+url: https://arxiv.org/abs/2602.15945v1
+authors:
+- Yuval Felendler
+- Parth A. Gandhi
+- Idan Habler
+- Yuval Elovici
+- Asaf Shabtai
+venue: arXiv
+year: 2026
+summary: Formalizes and empirically evaluates Code Execution Model Context Protocols (CE-MCPs) for agent
+  tool orchestration, identifying scalability benefits and a vastly expanded attack surface, then proposes
+  a layered defense architecture.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses the design choices, scalability, and security implications of tool interfaces
+    and execution environments for agentic systems, including specific attack classes and defense mechanisms.
+status: draft

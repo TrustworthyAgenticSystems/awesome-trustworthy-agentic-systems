@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-agents-control-robots-a-zero-trust-policy
+type: papers
+title: 'When Agents Control Robots: A Zero Trust Policy Model for Agentic Cyber-Physical Systems'
+url: https://arxiv.org/abs/2605.25653v1
+authors:
+- Tharindu Ranathunga
+- Kavishka Fernando
+- Susan Rea
+venue: arXiv
+year: 2026
+summary: Proposes a Zero Trust Policy Model (ZTPM) with 25 typed primitives and physical impact tiers
+  for runtime policy enforcement in agentic cyber-physical systems, motivated by non-deterministic actuation
+  parameter selection.
+harness_layer:
+- permissions
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses security and safety for agentic systems controlling physical robots, focusing
+    on policy enforcement at the actuation boundary.
+status: draft

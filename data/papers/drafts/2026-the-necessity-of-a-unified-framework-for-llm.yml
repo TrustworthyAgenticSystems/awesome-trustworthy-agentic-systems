@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-necessity-of-a-unified-framework-for-llm
+type: papers
+title: The Necessity of a Unified Framework for LLM-Based Agent Evaluation
+url: https://arxiv.org/abs/2602.03238v2
+authors:
+- Pengyu Zhu
+- Li Sun
+- Philip S. Yu
+- Sen Su
+venue: arXiv
+year: 2026
+summary: Proposes a unified evaluation framework to standardize agent evaluation by addressing confounding
+  factors like system prompts, toolset configurations, and environmental dynamics, which currently hinder
+  reproducible and fair assessment.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses the systems-level problem of standardized and reproducible evaluation for agentic
+    systems, which is crucial for reliability.
+status: draft

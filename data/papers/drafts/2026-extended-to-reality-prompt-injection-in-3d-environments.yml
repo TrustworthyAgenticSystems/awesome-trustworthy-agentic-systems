@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-extended-to-reality-prompt-injection-in-3d-environments
+type: papers
+title: 'Extended to Reality: Prompt Injection in 3D Environments'
+url: https://arxiv.org/abs/2602.07104v1
+authors:
+- Zhuoheng Li
+- Ying Chen
+venue: arXiv
+year: 2026
+summary: Introduces PI3D, a prompt injection attack against MLLMs in 3D environments using physically
+  placed text-bearing objects, demonstrating its effectiveness and the insufficiency of existing defenses.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses a novel red-teaming vector for agentic systems operating in
+    physical environments, extending prompt injection to the real world.
+status: draft

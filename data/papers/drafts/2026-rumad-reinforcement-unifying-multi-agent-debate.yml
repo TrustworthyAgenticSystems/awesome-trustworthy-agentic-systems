@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-rumad-reinforcement-unifying-multi-agent-debate
+type: papers
+title: 'RUMAD: Reinforcement-Unifying Multi-Agent Debate'
+url: https://arxiv.org/abs/2602.23864v1
+authors:
+- Chao Wang
+- Han Lin
+- Huaze Tang
+- Huijing Lin
+- Wenbo Ding
+venue: arXiv
+year: 2026
+summary: RUMAD formulates dynamic communication topology control in multi-agent debate as a reinforcement
+  learning problem, using a content-agnostic observation scheme and multi-objective reward to optimize
+  accuracy, consensus, and efficiency.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the coordination layer by proposing a novel RL-based approach for
+    dynamic communication topology in multi-agent systems, improving efficiency and accuracy.
+status: draft

@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-openaaas-an-open-agent-as-a-service-framework
+type: papers
+title: 'OpenAaaS: An Open Agent-as-a-Service Framework for Distributed Materials-Informatics Research'
+url: https://arxiv.org/abs/2605.13618v1
+authors:
+- Peng Kang
+- Bixuan Li
+- Xiaoya Huang
+- Shuo Shi
+- Weiqiao Zhou
+- Zhen Li
+- Yu Liu
+- Lei Zheng
+venue: arXiv
+year: 2026
+summary: OpenAaaS is an open-source, hierarchical, and distributed Agent-as-a-Service framework for materials
+  research that enables secure multi-agent collaboration while ensuring data sovereignty through near-data
+  execution.
+harness_layer:
+- architectures
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper proposes a reference architecture for distributed agentic systems that explicitly
+    addresses security and privacy concerns, particularly data sovereignty and cross-institutional collaboration.
+status: draft

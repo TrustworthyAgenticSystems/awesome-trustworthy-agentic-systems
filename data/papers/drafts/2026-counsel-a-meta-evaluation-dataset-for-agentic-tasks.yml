@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-counsel-a-meta-evaluation-dataset-for-agentic-tasks
+type: papers
+title: 'Counsel: A Meta-Evaluation Dataset for Agentic Tasks'
+url: https://arxiv.org/abs/2606.21627v1
+authors:
+- Sashank Pisupati
+- Henry Broomfield
+- Eujeong Choi
+- Antonia Calvi
+- Charlie Wang
+- Roman Engeler
+- Max Bartolo
+- Patrick Lewis
+venue: arXiv
+year: 2026
+summary: Introduces Counsel, a meta-evaluation dataset for agentic tasks that provides human meta-evaluations
+  of LLM-as-a-judge critiques, enabling calibration and improvement of automated agent evaluators.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the critical systems-engineering problem of evaluating multi-step
+    agent trajectories at scale by providing a dataset to improve automated evaluation methods.
+status: draft

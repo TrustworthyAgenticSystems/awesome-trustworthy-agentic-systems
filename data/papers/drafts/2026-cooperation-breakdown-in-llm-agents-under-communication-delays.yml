@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cooperation-breakdown-in-llm-agents-under-communication-delays
+type: papers
+title: Cooperation Breakdown in LLM Agents Under Communication Delays
+url: https://arxiv.org/abs/2602.11754v1
+authors:
+- Keita Nishimoto
+- Kimitaka Asatani
+- Ichiro Sakata
+venue: arXiv
+year: 2026
+summary: Investigates the impact of communication delays on cooperation breakdown in LLM-based multi-agent
+  systems using a Continuous Prisoner's Dilemma simulation, revealing a U-shaped relationship between
+  delay and mutual cooperation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses a systems-level factor (communication delay) affecting coordination
+    and cooperation in multi-agent systems, which is relevant to their reliability.
+status: draft

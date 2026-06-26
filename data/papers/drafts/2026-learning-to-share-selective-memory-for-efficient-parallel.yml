@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-learning-to-share-selective-memory-for-efficient-parallel
+type: papers
+title: 'Learning to Share: Selective Memory for Efficient Parallel Agentic Systems'
+url: https://arxiv.org/abs/2602.05965v2
+authors:
+- Joseph Fioresi
+- Parth Parag Kulkarni
+- Ashmal Vayani
+- Song Wang
+- Mubarak Shah
+venue: arXiv
+year: 2026
+summary: A learned shared-memory mechanism for parallel agentic systems that selectively reuses information
+  across teams to reduce redundant computation and control context growth, improving efficiency.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a system-level memory management mechanism for parallel agents, directly
+    addressing efficiency and context growth in the agentic stack.
+status: draft

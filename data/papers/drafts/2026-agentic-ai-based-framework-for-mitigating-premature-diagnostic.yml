@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-ai-based-framework-for-mitigating-premature-diagnostic
+type: papers
+title: Agentic AI-based Framework for Mitigating Premature Diagnostic Handoff and Silent Hallucination
+  in Healthcare Applications
+url: https://arxiv.org/abs/2606.18068v1
+authors:
+- Divyansh Srivastava
+- Shreya Ghosh
+- Anshul Verma
+- Rajkumar Buyya
+venue: arXiv
+year: 2026
+summary: A multi-agent framework for healthcare that uses deterministic orchestration constraints and
+  neuro-symbolic state-tracking to enforce clinical protocol completeness and an epistemic uncertainty
+  quantification gate to intercept divergent diagnostic outputs.
+harness_layer:
+- coordination
+sprs:
+- safety
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: The paper proposes a multi-agent framework with specific orchestration logic and safety mechanisms
+    to mitigate critical failure modes in agentic healthcare applications, directly addressing trustworthiness
+    at the coordination layer.
+status: draft

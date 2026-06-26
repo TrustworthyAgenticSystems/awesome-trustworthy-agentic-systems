@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-diagramnet-an-end-to-end-recognition-framework-and
+type: papers
+title: 'DiagramNet: An End-to-End Recognition Framework and Dataset for Non-Standard System-Level Diagrams'
+url: https://arxiv.org/abs/2605.01338v1
+authors:
+- Jincheng Lou
+- Ruohan Xu
+- Jiapeng Li
+- Junyin Pi
+- Runzhe Tao
+- Weijian Fan
+- Xiao Tan
+- Guojie Luo
+- Yibo Lin
+venue: arXiv
+year: 2026
+summary: A multi-agent workflow for decomposing complex visual reasoning tasks on system-level diagrams
+  into Perception, Reasoning, and Knowledge stages, demonstrating improved performance and generalization
+  for MLLMs.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a decoupled multi-agent workflow for complex visual reasoning, which is
+    a contribution to agent coordination and reliability, with a focus on system-level diagrams.
+status: draft

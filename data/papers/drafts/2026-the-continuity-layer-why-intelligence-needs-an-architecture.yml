@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-continuity-layer-why-intelligence-needs-an-architecture
+type: papers
+title: 'The Continuity Layer: Why Intelligence Needs an Architecture for What It Carries Forward'
+url: https://arxiv.org/abs/2604.17273v1
+authors:
+- Samuel Sameer Tanguturi
+venue: arXiv
+year: 2026
+summary: This position paper argues for a 'continuity layer' as a critical piece of infrastructure for
+  AI, defining it as a system property distinct from memory and retrieval, and proposing a storage primitive
+  (Decomposed Trace Convergence Memory) to achieve it.
+harness_layer:
+- memory
+sprs:
+- reliability
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.8
+  rationale: The paper proposes a new architectural layer for agent memory, addressing the problem of
+    intelligence continuity across sessions, which is a foundational systems problem for trustworthy agents.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agenticrag-agentic-retrieval-for-enterprise-knowledge-bases
+type: papers
+title: 'AgenticRAG: Agentic Retrieval for Enterprise Knowledge Bases'
+url: https://arxiv.org/abs/2605.05538v1
+authors:
+- Susheel Suresh
+- Hazel Mak
+- Shangpo Chou
+- Fred Kroon
+- Sahil Bhatnagar
+venue: arXiv
+year: 2026
+summary: AgenticRAG introduces an agentic harness that layers reasoning LLMs with iterative search, navigation,
+  and analysis tools on top of existing enterprise search infrastructure to improve retrieval and factuality.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a practical agentic harness for retrieval and analysis, focusing on how
+    the agent's iterative tool use improves RAG reliability in enterprise settings.
+status: draft

@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-post-deterministic-distributed-systems-a-new-foundation-for
+type: papers
+title: 'Post-Deterministic Distributed Systems: A New Foundation for Trustworthy Autonomous Infrastructure'
+url: https://arxiv.org/abs/2606.01722v1
+authors:
+- Jun He
+- Deying Yu
+venue: arXiv
+year: 2026
+summary: Introduces Post-Deterministic Distributed Systems (PDDS) as a foundational model for coordinating
+  heterogeneous environments where deterministic code, stochastic models, and autonomous agents coexist,
+  outlining architectural pillars for trustworthy autonomous infrastructure.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper proposes a new foundational model for distributed systems that explicitly accounts
+    for the non-deterministic nature of AI agents, directly addressing the systems-level challenges of
+    trustworthiness.
+status: draft

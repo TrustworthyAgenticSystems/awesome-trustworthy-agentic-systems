@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mage-safeguarding-llm-agents-against-long-horizon-threats
+type: papers
+title: 'MAGE: Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory'
+url: https://arxiv.org/abs/2605.03228v1
+authors:
+- Yuhui Wang
+- Tanqiu Jiang
+- Jiacheng Liang
+- Charles Fleming
+- Ting Wang
+venue: arXiv
+year: 2026
+summary: MAGE introduces a safety-focused "shadow memory" to distill and retain critical context across
+  an agent's execution trajectory, enabling proactive risk assessment of pending actions against long-horizon
+  threats.
+harness_layer:
+- memory
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses a systems-level security and safety problem for agents (long-horizon
+    threats) using a novel memory-based defense mechanism.
+status: draft

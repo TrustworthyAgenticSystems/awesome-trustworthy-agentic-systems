@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mitigating-misalignment-contagion-by-steering-with-implicit-traits
+type: papers
+title: Mitigating Misalignment Contagion by Steering with Implicit Traits
+url: https://arxiv.org/abs/2605.02751v2
+authors:
+- Maria Chang
+- Ronny Luss
+- Miao Liu
+- Keerthiram Murugesan
+- Karthikeyan Ramamurthy
+- Djallel Bouneffouf
+venue: arXiv
+year: 2026
+summary: Investigates "misalignment contagion" in multi-agent interactions where LMs adopt anti-social
+  behaviors from other agents and proposes an implicit trait steering technique to mitigate this by intermittently
+  reinforcing initial pro-social traits.
+harness_layer:
+- coordination
+sprs:
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a systems-level problem of misalignment propagation in multi-agent coordination
+    and proposes a practical, black-box mitigation strategy.
+status: draft

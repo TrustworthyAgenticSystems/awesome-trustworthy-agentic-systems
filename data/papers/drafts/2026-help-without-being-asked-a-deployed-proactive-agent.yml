@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-help-without-being-asked-a-deployed-proactive-agent
+type: papers
+title: 'Help Without Being Asked: A Deployed Proactive Agent System for On-Call Support with Continuous
+  Self-Improvement'
+url: https://arxiv.org/abs/2604.09579v1
+authors:
+- Fengrui Liu
+- Xiao He
+- Tieying Zhang
+venue: arXiv
+year: 2026
+summary: Vigil is a proactive agent system that assists human support analysts in on-call dialogues by
+  continuously learning from human-resolved cases to improve its capabilities, deployed on a large-scale
+  cloud platform.
+harness_layer:
+- oversight
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes a deployed agent system that directly addresses human oversight and
+    continuous improvement in a real-world operational context.
+status: draft

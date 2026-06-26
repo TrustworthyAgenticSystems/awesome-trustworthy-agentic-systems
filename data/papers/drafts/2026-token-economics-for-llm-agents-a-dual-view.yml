@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-token-economics-for-llm-agents-a-dual-view
+type: papers
+title: 'Token Economics for LLM Agents: A Dual-View Study from Computing and Economics'
+url: https://arxiv.org/abs/2605.09104v1
+authors:
+- Yuxi Chen
+- Junming Chen
+- Chenyu He
+- Yiwei Li
+- Yicheng Ji
+- Yifan Wu
+- Dingyu Yang
+- Lansong Diao
+- Lidan Shou
+- Hongliang Zhang
+- Huan Li
+- Gang Chen
+venue: arXiv
+year: 2026
+summary: A comprehensive survey that unifies computer science and economics to analyze token consumption
+  in LLM agents, framing tokens as economic primitives and identifying computational, collaborative, and
+  security bottlenecks across micro, meso, and macro levels.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a foundational, cross-disciplinary framework for understanding and optimizing
+    token economics in agentic systems, addressing core systems-level concerns like cost, collaboration,
+    and security.
+status: draft

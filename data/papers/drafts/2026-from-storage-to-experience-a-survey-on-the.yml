@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-storage-to-experience-a-survey-on-the
+type: papers
+title: 'From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms'
+url: https://arxiv.org/abs/2605.06716v1
+authors:
+- Jinghao Luo
+- Yuchen Tian
+- Chuxue Cao
+- Ziyang Luo
+- Hongzhan Lin
+- Kaixin Li
+- Chuyi Kong
+- Ruichao Yang
+- Jing Ma
+venue: arXiv
+year: 2026
+summary: This survey proposes an evolutionary framework for LLM agent memory mechanisms, formalizing development
+  into Storage, Reflection, and Experience stages, and exploring proactive exploration and cross-trajectory
+  abstraction for long-range consistency and continual learning.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides a foundational survey and framework for agent memory mechanisms, directly
+    addressing a core component of trustworthy agentic systems.
+status: draft

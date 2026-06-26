@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-weak-link-optimization-for-multi-agent-reasoning-and
+type: papers
+title: Weak-Link Optimization for Multi-Agent Reasoning and Collaboration
+url: https://arxiv.org/abs/2604.15972v1
+authors:
+- Haoyu Bian
+- Chaoning Zhang
+- Jiaquan Zhang
+- Xingyao Li
+- Yuanfang Guo
+- Wei Dong
+- Yang Yang
+venue: arXiv
+year: 2026
+summary: WORC is a weak-link optimization framework that identifies performance-limiting agents in multi-agent
+  systems using meta-learning and allocates additional reasoning budgets to them to improve overall reasoning
+  stability and robustness.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses reasoning instability in multi-agent systems by identifying and reinforcing
+    'weak-link' agents, contributing to the reliability of agent coordination and workflow execution.
+status: draft

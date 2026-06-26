@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-heterohub-an-applicable-data-management-framework-for-heterogeneous
+type: papers
+title: 'HeteroHub: An Applicable Data Management Framework for Heterogeneous Multi-Embodied Agent System'
+url: https://arxiv.org/abs/2603.28010v1
+authors:
+- Xujia Li
+- Xin Li
+- Junquan Huang
+- Beirong Cui
+- Zibin Wu
+- Lei Chen
+venue: arXiv
+year: 2026
+summary: HeteroHub is a data-centric framework for heterogeneous multi-embodied agent systems that integrates
+  static metadata, training corpora, and real-time data streams to support scalable and maintainable deployments.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.8
+  rationale: The paper proposes a data management framework for multi-embodied agent systems, addressing
+    a systems-level challenge in real-world deployment and maintainability.
+status: draft

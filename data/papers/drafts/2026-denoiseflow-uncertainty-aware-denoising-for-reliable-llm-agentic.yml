@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-denoiseflow-uncertainty-aware-denoising-for-reliable-llm-agentic
+type: papers
+title: 'DenoiseFlow: Uncertainty-Aware Denoising for Reliable LLM Agentic Workflows'
+url: https://arxiv.org/abs/2603.00532v1
+authors:
+- Yandong Yan
+- Junwei Peng
+- Shijie Li
+- Chenxi Li
+- Yifei Shang
+- Can Deng
+- Ruiting Dai
+- Yongqiang Zhao
+- Jiaqi Zhu
+- Yu Huang
+venue: arXiv
+year: 2026
+summary: DenoiseFlow is a closed-loop framework that formalizes multi-step reasoning as a Noisy MDP, performing
+  progressive denoising through uncertainty sensing, adaptive computation allocation, and targeted recovery
+  to improve reliability and reduce cost in long-horizon agentic workflows.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses the reliability of long-horizon agentic workflows by proposing a runtime-adaptive
+    framework for managing and correcting accumulated semantic ambiguity, which is a core systems-engineering
+    problem for trustworthy agents.
+status: draft

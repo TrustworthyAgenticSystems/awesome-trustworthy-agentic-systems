@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentforge-execution-grounded-multi-agent-llm-framework-for
+type: papers
+title: 'AgentForge: Execution-Grounded Multi-Agent LLM Framework for Autonomous Software Engineering'
+url: https://arxiv.org/abs/2604.13120v1
+authors:
+- Rajesh Kumar
+- Waqar Ali
+- Junaid Ahmed
+- Najma Imtiaz Ali
+- Shaban Usman
+venue: arXiv
+year: 2026
+summary: AgentForge introduces execution-grounded verification as a mandatory principle for multi-agent
+  software engineering, ensuring every code change passes sandboxed execution before propagation to improve
+  reliability.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes a systems-level principle and framework for execution-grounded verification
+    in agentic systems, directly addressing reliability through a mandatory sandbox.
+status: draft

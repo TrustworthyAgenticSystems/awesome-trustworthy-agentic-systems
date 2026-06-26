@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-business-events-to-auditable-decisions-ontology-governed
+type: papers
+title: 'From Business Events to Auditable Decisions: Ontology-Governed Graph Simulation for Enterprise
+  AI'
+url: https://arxiv.org/abs/2604.08603v1
+authors:
+- Hongyin Zhu
+- Jinming Liang
+- Mengjun Hou
+- Ruifan Tang
+- Xianbin Zhu
+- Jingyuan Yang
+- Yuanman Mao
+- Feng Wu
+venue: arXiv
+year: 2026
+summary: LOM-action is an enterprise AI architecture that uses event-driven ontology simulation to ground
+  LLM decisions in scenario-valid knowledge graphs, producing fully traceable audit logs and improving
+  decision reliability and safety.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper proposes a novel architectural pattern for enterprise AI agents that directly
+    addresses grounding, auditability, and decision trustworthiness through a systems-level approach.
+status: draft

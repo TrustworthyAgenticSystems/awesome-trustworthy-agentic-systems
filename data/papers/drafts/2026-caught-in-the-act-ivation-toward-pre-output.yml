@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-caught-in-the-act-ivation-toward-pre-output
+type: papers
+title: 'Caught in the Act(ivation): Toward Pre-Output and Multi-Turn Detection of Credential Exfiltration
+  by LLM Agents'
+url: https://arxiv.org/abs/2606.04141v1
+authors:
+- Kargi Chauhan
+- Pratibha Revankar
+venue: arXiv
+year: 2026
+summary: Investigates credential exfiltration from LLM agents via indirect prompt injection, proposing
+  pre-output activation monitoring, calibrated honeytoken detection, and multi-turn information leakage
+  accounting as defenses.
+harness_layer:
+- memory
+sprs:
+- security
+- privacy
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses a critical security and privacy vulnerability in agent memory and context management
+    with concrete, multi-faceted defense mechanisms.
+status: draft

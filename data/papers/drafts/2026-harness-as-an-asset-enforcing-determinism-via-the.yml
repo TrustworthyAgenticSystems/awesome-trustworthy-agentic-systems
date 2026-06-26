@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-harness-as-an-asset-enforcing-determinism-via-the
+type: papers
+title: 'Harness as an Asset: Enforcing Determinism via the Convergent AI Agent Framework (CAAF)'
+url: https://arxiv.org/abs/2604.17025v3
+authors:
+- Tianbao Zhang
+venue: arXiv
+year: 2026
+summary: Introduces the Convergent AI Agent Framework (CAAF) to enforce deterministic, fail-safe agentic
+  workflows by formalizing domain invariants into an executable harness and using recursive atomic decomposition
+  and state locking to prevent constraint violations.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Directly addresses the problem of enforcing deterministic and reliable behavior in agentic
+    systems through a novel framework that formalizes and enforces domain invariants at the execution
+    layer.
+status: draft

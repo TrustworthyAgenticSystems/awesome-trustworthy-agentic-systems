@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-web-agents-should-adopt-the-plan-then-execute
+type: papers
+title: Web Agents Should Adopt the Plan-Then-Execute Paradigm
+url: https://arxiv.org/abs/2605.14290v1
+authors:
+- Julien Piet
+- Annabella Chow
+- Yiwei Hou
+- Muxi Lyu
+- Sylvie Venuto
+- Jinhao Zhu
+- Raluca Ada Popa
+- David Wagner
+venue: arXiv
+year: 2026
+summary: Advocates for a plan-then-execute paradigm for web agents to mitigate prompt injection by committing
+  to a task-specific program before observing runtime web content, thereby preventing untrusted data from
+  redefining the user task.
+harness_layer:
+- intent
+sprs:
+- security
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Proposes a fundamental architectural shift for web agents to enhance security against prompt
+    injection by enforcing a plan-then-execute model, addressing a core systems-level trust boundary problem.
+status: draft

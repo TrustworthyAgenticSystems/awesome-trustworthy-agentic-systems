@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agents-in-the-wild-safety-society-and-the
+type: papers
+title: 'Agents in the Wild: Safety, Society, and the Illusion of Sociality on Moltbook'
+url: https://arxiv.org/abs/2602.13284v1
+authors:
+- Yunbei Zhang
+- Kai Mei
+- Ming Liu
+- Janet Wang
+- Dimitris N. Metaxas
+- Xiao Wang
+- Jihun Hamm
+- Yingqiang Ge
+venue: arXiv
+year: 2026
+summary: Large-scale empirical study of an AI-only social platform, revealing emergent social structures,
+  safety challenges like social engineering attacks, and the 'illusion of sociality' in agent interactions.
+harness_layer:
+- foundations
+sprs:
+- safety
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Provides foundational empirical insights into emergent behaviors, safety challenges, and
+    attack vectors in large-scale agentic systems, framing the problem of trustworthiness in a novel context.
+status: draft

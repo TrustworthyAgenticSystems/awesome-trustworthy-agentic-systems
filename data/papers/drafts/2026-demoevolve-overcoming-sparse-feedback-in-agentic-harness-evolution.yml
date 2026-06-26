@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-demoevolve-overcoming-sparse-feedback-in-agentic-harness-evolution
+type: papers
+title: 'DemoEvolve: Overcoming Sparse Feedback in Agentic Harness Evolution with Demonstrations'
+url: https://arxiv.org/abs/2605.24539v1
+authors:
+- Lirong Che
+- Yuzhe yang
+- Peiwen lin
+- Chuang wang
+- Xueqian wang
+- Jian su
+venue: arXiv
+year: 2026
+summary: DemoEvolve improves agent harness evolution in long-horizon stochastic environments by using
+  human demonstrations to guide harness-level diagnosis and editing, making the process more stable and
+  auditable.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses the reliability of agent harness evolution in complex environments by
+    improving the process of modifying executable structures around frozen language models, which is a
+    systems-level contribution.
+status: draft

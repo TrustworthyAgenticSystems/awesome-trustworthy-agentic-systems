@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-physicsagentabm-physics-guided-generative-agent-based-modeling
+type: papers
+title: 'PhysicsAgentABM: Physics-Guided Generative Agent-Based Modeling'
+url: https://arxiv.org/abs/2602.06030v2
+authors:
+- Kavana Venkatesh
+- Yinhan He
+- Jundong Li
+- Jiaming Cui
+venue: arXiv
+year: 2026
+summary: PhysicsAgentABM re-architects generative agent-based modeling by shifting inference to behaviorally
+  coherent agent clusters, using neuro-symbolic fusion for calibrated transition distributions and an
+  LLM-driven clustering strategy to reduce LLM calls.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the coordination and execution of multi-agent systems by proposing
+    a novel architecture for scalable and calibrated simulation, addressing reliability in complex agent
+    interactions.
+status: draft

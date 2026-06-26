@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-guide-resolving-domain-bias-in-gui-agents-through
+type: papers
+title: 'GUIDE: Resolving Domain Bias in GUI Agents through Real-Time Web Video Retrieval and Plug-and-Play
+  Annotation'
+url: https://arxiv.org/abs/2603.26266v2
+authors:
+- Rui Xie
+- Zhi Gao
+- Chenrui Shi
+- Zirui Shang
+- Lu Chen
+- Qing Li
+venue: arXiv
+year: 2026
+summary: GUIDE is a training-free, plug-and-play framework that resolves GUI agent domain bias by autonomously
+  acquiring domain-specific expertise from web tutorial videos through a retrieval-augmented automated
+  annotation pipeline, enhancing agent planning and grounding knowledge.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses a specific reliability issue (domain bias) in GUI agents by enhancing
+    their memory and knowledge acquisition pipeline, which is a systems-level contribution to agent trustworthiness.
+status: draft

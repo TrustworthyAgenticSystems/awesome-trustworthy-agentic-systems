@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-autonomous-event-driven-multi-agent-orchestration-for-enterprise
+type: papers
+title: Autonomous Event-Driven Multi-Agent Orchestration for Enterprise AI at Scale
+url: https://arxiv.org/abs/2606.20058v1
+authors:
+- Harsh Rao Dhanyamraju
+- Leonidas Raghav
+- Aaron Lee
+venue: arXiv
+year: 2026
+summary: Evaluates multi-agent orchestration architectures (DAG Plan and Execute, ReAct) across varying
+  enterprise scales and introduces a Task Manager for continuous operation, focusing on performance degradation
+  at scale due to agent discovery noise.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses multi-agent coordination and orchestration challenges at enterprise scale, including
+    performance and reliability under continuous operation, which is a systems-engineering concern.
+status: draft

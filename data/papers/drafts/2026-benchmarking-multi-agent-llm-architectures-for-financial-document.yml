@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-benchmarking-multi-agent-llm-architectures-for-financial-document
+type: papers
+title: 'Benchmarking Multi-Agent LLM Architectures for Financial Document Processing: A Comparative Study
+  of Orchestration Patterns, Cost-Accuracy Tradeoffs and Production Scaling Strategies'
+url: https://arxiv.org/abs/2603.22651v1
+authors:
+- Siddhant Kulkarni
+- Yukta Kulkarni
+venue: arXiv
+year: 2026
+summary: Systematic benchmark comparing four multi-agent orchestration architectures for financial document
+  processing, evaluating cost-accuracy tradeoffs and production scaling strategies on 10,000 SEC filings.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides actionable guidance for deploying multi-agent LLM systems in production, focusing
+    on architectural decisions, cost-accuracy tradeoffs, and scaling strategies, which are core to trustworthy
+    agentic systems.
+status: draft

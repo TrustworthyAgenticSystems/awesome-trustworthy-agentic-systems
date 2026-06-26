@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-control-plane-placement-shapes-forgetting-an-architectural-study
+type: papers
+title: 'Control-Plane Placement Shapes Forgetting: An Architectural Study of Agent Memory Across Thirteen
+  System Configurations'
+url: https://arxiv.org/abs/2606.15903v2
+authors:
+- Dongxu Yang
+venue: arXiv
+year: 2026
+summary: An architectural study of LLM placement within agent memory pipelines, comparing thirteen configurations
+  on a 385-case adversarial forgetting surface to identify optimal strategies for different forgetting
+  failure modes.
+harness_layer:
+- memory
+sprs:
+- privacy
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: 'This paper directly addresses a core systems-engineering problem in agent memory: how the
+    architectural placement of LLMs in the memory control plane impacts forgetting and privacy, with a
+    new evaluation suite and empirical findings.'
+status: draft

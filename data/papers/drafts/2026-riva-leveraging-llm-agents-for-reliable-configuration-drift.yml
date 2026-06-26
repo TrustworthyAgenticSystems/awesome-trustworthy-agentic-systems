@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-riva-leveraging-llm-agents-for-reliable-configuration-drift
+type: papers
+title: 'RIVA: Leveraging LLM Agents for Reliable Configuration Drift Detection'
+url: https://arxiv.org/abs/2603.02345v1
+authors:
+- Sami Abuzakuk
+- Lucas Crijns
+- Anne-Marie Kermarrec
+- Rafael Pires
+- Martijn de Vos
+venue: arXiv
+year: 2026
+summary: RIVA is a multi-agent system that uses a verifier agent and a tool generation agent to perform
+  robust Infrastructure as Code (IaC) verification, even when tools produce incorrect outputs, by employing
+  iterative cross-validation and multi-perspective verification.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: The paper addresses the reliability of agentic systems in a real-world application (configuration
+    drift detection) by designing a multi-agent coordination strategy to handle unreliable tool outputs.
+status: draft

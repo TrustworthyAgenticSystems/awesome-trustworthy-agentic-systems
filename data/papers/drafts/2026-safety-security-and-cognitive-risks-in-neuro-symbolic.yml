@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-safety-security-and-cognitive-risks-in-neuro-symbolic
+type: papers
+title: Safety, Security, and Cognitive Risks in Neuro-Symbolic AI
+url: https://arxiv.org/abs/2606.17223v1
+authors:
+- Manoj Parmar
+venue: arXiv
+year: 2026
+summary: Formalizes the attack surface and threat model for neuro-symbolic AI systems, including symbolic
+  integrity violations, cross-layer amplification, and cognitive risks, with empirical benchmarks on knowledge
+  graph poisoning and neural-symbolic pipeline attacks.
+harness_layer:
+- foundations
+sprs:
+- security
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Provides a foundational taxonomy and threat model for security and safety risks in neuro-symbolic
+    agentic systems, including empirical validation of attacks across layers.
+status: draft

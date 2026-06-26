@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-triage-evaluating-prospective-metacognitive-control-in-llms-under
+type: papers
+title: 'TRIAGE: Evaluating Prospective Metacognitive Control in LLMs under Resource Constraints'
+url: https://arxiv.org/abs/2605.13414v1
+authors:
+- Zabir Al Nazi
+- Shubhashis Roy Dipta
+venue: arXiv
+year: 2026
+summary: Introduces TRIAGE, an evaluation framework for prospective metacognitive control in LLMs, measuring
+  their ability to plan task selection, sequencing, and resource allocation under token constraints, which
+  is critical for resource-efficient agent deployment.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces an evaluation framework for a critical aspect of agent coordination
+    and resource management, directly impacting the reliability and efficiency of agentic systems.
+status: draft

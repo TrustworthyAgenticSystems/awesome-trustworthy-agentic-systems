@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cordyceps-covert-control-attacks-on-llms-via-data
+type: papers
+title: 'Cordyceps: Covert Control Attacks on LLMs via Data Poisoning'
+url: https://arxiv.org/abs/2605.26595v2
+authors:
+- Zedian Shao
+- Charles Fleming
+- Teodora Baluta
+venue: arXiv
+year: 2026
+summary: Introduces a data poisoning method that teaches LLMs an information hiding scheme through semantic
+  associations, enabling covert control attacks that bypass existing defenses.
+harness_layer:
+- memory
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a data poisoning attack that affects the integrity of an LLM's learned
+    knowledge, which is relevant to the memory layer of agentic systems, and demonstrates its ability
+    to bypass defenses.
+status: draft

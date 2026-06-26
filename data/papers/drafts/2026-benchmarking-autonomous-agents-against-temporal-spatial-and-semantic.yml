@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-benchmarking-autonomous-agents-against-temporal-spatial-and-semantic
+type: papers
+title: Benchmarking Autonomous Agents against Temporal, Spatial, and Semantic Evasions
+url: https://arxiv.org/abs/2605.22321v1
+authors:
+- Jianan Ma
+- Xiaohu Du
+- Ruixiao Lin
+- Yaoxiang Bian
+- Jialuo Chen
+- Jingyi Wang
+- Xiaofang Yang
+- Shiwen Cui
+- Changhua Meng
+- Xinhao Deng
+- Zhen Wang
+venue: arXiv
+year: 2026
+summary: Proposes a multi-dimensional evasion framework (temporal, spatial, semantic) to benchmark autonomous
+  agents against stateful, multi-turn attacks, revealing systemic architecture-level vulnerabilities.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses adversarial testing of multi-step agent workflows and system-level threats,
+    identifying architectural vulnerabilities.
+status: draft

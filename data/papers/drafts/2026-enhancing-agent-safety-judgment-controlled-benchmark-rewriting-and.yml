@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-enhancing-agent-safety-judgment-controlled-benchmark-rewriting-and
+type: papers
+title: 'Enhancing Agent Safety Judgment: Controlled Benchmark Rewriting and Analogical Reasoning for Deceptive
+  Out-of-Distribution Scenarios'
+url: https://arxiv.org/abs/2605.03242v1
+authors:
+- Zuoyu Zhang
+- Yancheng Zhu
+venue: arXiv
+year: 2026
+summary: Introduces ROME, a controlled benchmark-construction pipeline that rewrites unsafe agent trajectories
+  into more deceptive evaluation instances to stress-test safety judgment, and ARISE, a retrieval-guided
+  inference-time enhancement for improving judgment quality.
+harness_layer:
+- red-team
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses adversarial testing of agentic systems by creating deceptive out-of-distribution
+    scenarios and proposing an inference-time enhancement for safety judgment.
+status: draft

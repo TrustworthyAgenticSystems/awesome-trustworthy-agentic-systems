@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-quality-and-security-signals-in-ai-generated-python
+type: papers
+title: Quality and Security Signals in AI-Generated Python Refactoring Pull Requests
+url: https://arxiv.org/abs/2605.21453v1
+authors:
+- Mohamed Almukhtar
+- Anwar Ghammam
+- Hua Ming
+venue: arXiv
+year: 2026
+summary: Empirical study of quality and security characteristics of AI-generated Python refactoring pull
+  requests, identifying new lint and security issues introduced by agents and high developer acceptance
+  rates.
+harness_layer:
+- supply-chain
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the quality and security of AI-generated code in a supply-chain context,
+    with empirical analysis and implications for development workflows.
+status: draft

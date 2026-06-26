@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-wink-recovering-from-misbehaviors-in-coding-agents
+type: papers
+title: 'Wink: Recovering from Misbehaviors in Coding Agents'
+url: https://arxiv.org/abs/2602.17037v2
+authors:
+- Rahul Nanda
+- Chandra Maddila
+- Smriti Jha
+- Euna Mehnaz Khan
+- Matteo Paltenghi
+- Satish Chandra
+venue: arXiv
+year: 2026
+summary: Wink is a lightweight, asynchronous self-intervention system that observes agent trajectories
+  and provides targeted course-correction guidance to recover from misbehaviors like specification drift,
+  reasoning problems, and tool call failures.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper presents a system for automatically recovering from agentic misbehaviors at scale,
+    directly addressing reliability and safety in the agent's execution shell.
+status: draft

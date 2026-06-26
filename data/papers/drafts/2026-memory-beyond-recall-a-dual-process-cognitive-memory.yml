@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memory-beyond-recall-a-dual-process-cognitive-memory
+type: papers
+title: 'Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents'
+url: https://arxiv.org/abs/2606.09483v1
+authors:
+- Tianxiang Fei
+- Mingyang Song
+- Mao Zheng
+- Xiang Yu
+venue: arXiv
+year: 2026
+summary: DCPM reorganizes agent memory into a cognitive capability hierarchy with dual processes for synchronous
+  belief revision and asynchronous schema induction, improving performance on benchmarks requiring implicit
+  cross-session inference.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a novel memory system architecture for LLM agents that addresses the limitations
+    of current retrieval-based memory, focusing on belief revision and schema induction for long-term
+    reliability.
+status: draft

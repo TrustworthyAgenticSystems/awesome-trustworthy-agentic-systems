@@ -1,0 +1,48 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-longcli-bench-a-preliminary-benchmark-and-study-for
+type: papers
+title: 'LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line
+  Interfaces'
+url: https://arxiv.org/abs/2602.14337v2
+authors:
+- Yukang Feng
+- Jianwen Sun
+- Zelai Yang
+- Jiaxin Ai
+- Chuanhao Li
+- Zizhen Li
+- Fanrui Zhang
+- Kang He
+- Rui Ma
+- Jifan Lin
+- Jie Sun
+- Yang Xiao
+- Sizhuo Zhou
+- Wenxiao Wu
+- Yiming Liu
+- Pengfei Liu
+- Yu Qiao
+- Shenglin Zhang
+- Kaipeng Zhang
+venue: arXiv
+year: 2026
+summary: Introduces LongCLI-Bench, a benchmark for long-horizon agentic programming in command-line interfaces,
+  featuring dual-set testing and step-level scoring to evaluate requirement fulfillment and regression
+  avoidance.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a new benchmark and evaluation methodology for long-horizon agentic system reliability,
+    addressing a key open problem in agent evaluation.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ldp-an-identity-aware-protocol-for-multi-agent
+type: papers
+title: 'LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems'
+url: https://arxiv.org/abs/2603.08852v1
+authors:
+- Sunil Prakash
+venue: arXiv
+year: 2026
+summary: Introduces the LLM Delegate Protocol (LDP), an AI-native communication protocol for multi-agent
+  systems that incorporates delegate identity, progressive payload modes, governed sessions, and structured
+  provenance tracking to enable more efficient and governable delegation.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: This paper directly addresses the coordination layer of multi-agent systems by proposing
+    a new communication protocol with mechanisms for identity, provenance, and trust domains, contributing
+    to both security and reliability.
+status: draft

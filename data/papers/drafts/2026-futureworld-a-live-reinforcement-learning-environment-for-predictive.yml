@@ -1,0 +1,43 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-futureworld-a-live-reinforcement-learning-environment-for-predictive
+type: papers
+title: 'FutureWorld: A Live Reinforcement Learning Environment for Predictive Agents with Real-World Outcome
+  Rewards'
+url: https://arxiv.org/abs/2604.26733v4
+authors:
+- Zhixin Han
+- Yanzhi Zhang
+- Chuyang Wei
+- Maohang Gao
+- Xiawei Yue
+- Kefei Chen
+- Yu Zhuang
+- Haoxiang Guan
+- Jiyan He
+- Jian Li
+- Yitong Duan
+- Yu Shi
+- Mengting Hu
+- Shuxin Zheng
+venue: arXiv
+year: 2026
+summary: FutureWorld is a live reinforcement learning environment that enables agents to learn from delayed
+  real-world outcomes by storing prediction-time rollouts and backfilling rewards for policy updates,
+  demonstrating improved prediction accuracy and calibration.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper contributes to the evaluation and continuous learning of agentic systems using
+    real-world outcomes, addressing the challenge of delayed feedback in long-horizon tasks.
+status: draft

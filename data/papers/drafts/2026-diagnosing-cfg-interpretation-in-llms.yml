@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-diagnosing-cfg-interpretation-in-llms
+type: papers
+title: Diagnosing CFG Interpretation in LLMs
+url: https://arxiv.org/abs/2604.20811v1
+authors:
+- Hanqi Li
+- Lu Chen
+- Kai Yu
+venue: arXiv
+year: 2026
+summary: A framework for evaluating LLMs' ability to interpret context-free grammars in agentic systems,
+  revealing hierarchical degradation in semantic understanding under structural complexity.
+harness_layer:
+- foundations
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides foundational insights into LLM limitations as in-context interpreters
+    for agentic systems, directly impacting the reliability of dynamically defined interfaces.
+status: draft

@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-shadowmerge-a-novel-poisoning-attack-on-graph-based
+type: papers
+title: 'ShadowMerge: A Novel Poisoning Attack on Graph-Based Agent Memory via Relation-Channel Conflicts'
+url: https://arxiv.org/abs/2605.09033v3
+authors:
+- Yang Luo
+- Zifeng Kang
+- Tiantian Ji
+- Xinran Liu
+- Yong Liu
+- Shuyu Li
+- Lingyun Peng
+venue: arXiv
+year: 2026
+summary: Presents SHADOWMERGE, a novel poisoning attack against graph-based agent memory that injects
+  conflicting relations into the same query-activated anchor and canonicalized relation channel, achieving
+  a high success rate on real-world datasets.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses a novel memory poisoning attack surface in graph-based agent memory, a
+    critical component of trustworthy agent systems, with a concrete attack methodology and evaluation.
+status: draft

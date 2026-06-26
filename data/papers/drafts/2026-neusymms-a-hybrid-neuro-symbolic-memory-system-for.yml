@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-neusymms-a-hybrid-neuro-symbolic-memory-system-for
+type: papers
+title: 'NeuSymMS: A Hybrid Neuro-Symbolic Memory System for Persistent, Self-Curating LLM Agents'
+url: https://arxiv.org/abs/2605.17596v2
+authors:
+- Mujahid Sultan
+- Sri Thuraisamy
+- Daya Rajaratnam
+venue: arXiv
+year: 2026
+summary: NeuSymMS is a hybrid neuro-symbolic memory system that uses neural fact extraction and a CLIPS-based
+  expert system to manage, classify, deduplicate, and reconcile facts for persistent LLM agents, addressing
+  context-window bloat and cross-entity contamination.
+harness_layer:
+- memory
+sprs:
+- reliability
+- privacy
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly contributes to agent memory systems by proposing a hybrid neuro-symbolic
+    architecture for persistent, self-curating memory, which is crucial for trustworthy agentic systems.
+status: draft

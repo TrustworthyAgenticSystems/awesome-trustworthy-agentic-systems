@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-single-agent-alignment-preventing-context-fragmented-violations
+type: papers
+title: 'Beyond Single-Agent Alignment: Preventing Context-Fragmented Violations in Multi-Agent Systems'
+url: https://arxiv.org/abs/2604.22879v1
+authors:
+- Jie Wu
+- Ming Gong
+venue: arXiv
+year: 2026
+summary: Identifies and formalizes Context-Fragmented Violations (CFVs) in multi-agent systems where local
+  actions are safe but global policies are violated due to siloed context, proposing Distributed Sentinel,
+  a distributed zero-trust enforcement architecture using Semantic Taint Tokens for cross-domain policy
+  verification.
+harness_layer:
+- coordination
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a novel security risk in multi-agent coordination by proposing a distributed
+    enforcement architecture and validating it with a comprehensive benchmark.
+status: draft

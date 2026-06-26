@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-small-model-as-master-orchestrator-learning-unified-agent
+type: papers
+title: 'Small Model as Master Orchestrator: Learning Unified Agent-Tool Orchestration with Parallel Subtask
+  Decomposition'
+url: https://arxiv.org/abs/2604.17009v1
+authors:
+- Wenzhen Yuan
+- Wutao Xiong
+- Fanchen Yu
+- Shengji Tang
+- Ting Liu
+- Tao Chen
+- Peng Ye
+- Yuzhuo Fu
+- Wanli Ouyang
+- Lei Bai
+venue: arXiv
+year: 2026
+summary: Proposes Agent-as-Tool, a unified parallel orchestration paradigm that abstracts agents and tools
+  into a standardized action space with protocol normalization and state feedback, and trains a lightweight
+  orchestrator, ParaManager, for state-aware parallel subtask decomposition and asynchronous execution.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses multi-agent coordination and orchestration complexity with a novel, learnable,
+    and unified paradigm for improved reliability and extensibility.
+status: draft

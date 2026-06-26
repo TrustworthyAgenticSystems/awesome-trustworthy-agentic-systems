@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-clawed-and-dangerous-can-we-trust-open-agentic
+type: papers
+title: 'Clawed and Dangerous: Can We Trust Open Agentic Systems?'
+url: https://arxiv.org/abs/2603.26221v1
+authors:
+- Shiping Chen
+- Qin Wang
+- Guangsheng Yu
+- Xu Wang
+- Liming Zhu
+venue: arXiv
+year: 2026
+summary: Systematizes the security challenges of open agentic systems through a software engineering lens,
+  introducing a six-dimensional taxonomy and synthesizing 50 papers to derive a reference doctrine for
+  secure-by-construction agent platforms.
+harness_layer:
+- foundations
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Provides a foundational taxonomy and synthesis of security challenges in agentic systems,
+    identifying key engineering gaps for trustworthy deployments.
+status: draft

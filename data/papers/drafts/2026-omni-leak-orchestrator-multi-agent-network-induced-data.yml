@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-omni-leak-orchestrator-multi-agent-network-induced-data
+type: papers
+title: 'OMNI-LEAK: Orchestrator Multi-Agent Network Induced Data Leakage'
+url: https://arxiv.org/abs/2602.13477v2
+authors:
+- Akshat Naik
+- Jay Culligan
+- Yarin Gal
+- Philip Torr
+- Rahaf Aljundi
+- Alasdair Paren
+- Adel Bibi
+venue: arXiv
+year: 2026
+summary: Identifies and demonstrates OMNI-LEAK, a novel multi-agent data leakage attack vector in orchestrator
+  setups, which compromises multiple agents via a single indirect prompt injection despite access controls.
+harness_layer:
+- red-team
+sprs:
+- security
+- privacy
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a system-level security vulnerability in multi-agent orchestration,
+    demonstrating a novel attack and highlighting the need for multi-agent safety research.
+status: draft

@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-sober-look-at-agentic-misalignment-in-automated
+type: papers
+title: A Sober Look at Agentic Misalignment in Automated Workflows
+url: https://arxiv.org/abs/2605.24197v2
+authors:
+- Wenqian Ye
+- Bo Yuan
+- Zhichao Xu
+- Yijun Tian
+- Yawei Wang
+- Henry Kautz
+- Aidong Zhang
+venue: arXiv
+year: 2026
+summary: Formalizes and analyzes agentic misalignment in multi-agent automated workflows, proposing Agentic
+  Evidence Attribution (AEA) to correct misaligned behavior by providing context-specific evidence and
+  orthogonal failure attribution.
+harness_layer:
+- coordination
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses emergent misalignment in multi-agent systems and proposes a systems-level solution
+    for improving agent collaboration and reliability through evidence-based attribution.
+status: draft

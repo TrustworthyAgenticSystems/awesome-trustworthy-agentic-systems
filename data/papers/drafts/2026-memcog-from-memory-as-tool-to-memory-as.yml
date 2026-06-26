@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memcog-from-memory-as-tool-to-memory-as
+type: papers
+title: 'MemCog: From Memory-as-Tool to Memory-as-Cognition in Conversational Agents'
+url: https://arxiv.org/abs/2605.28046v1
+authors:
+- Zihan Li
+- Xingyu Fan
+- Feifei Li
+- Wenhui Que
+venue: arXiv
+year: 2026
+summary: MemCog introduces a "Memory-as-Cognition" system that integrates memory access into the agent's
+  reasoning process through a navigable memory store and proactive reasoning protocol, addressing limitations
+  of traditional one-shot retrieval.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a novel memory system architecture that directly impacts how agents access
+    and reason with information, addressing a core systems-engineering aspect of agent memory.
+status: draft

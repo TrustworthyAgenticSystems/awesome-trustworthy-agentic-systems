@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-position-multi-agent-algorithmic-care-systems-demand-contestability
+type: papers
+title: 'Position: Multi-Agent Algorithmic Care Systems Demand Contestability for Trustworthy AI'
+url: https://arxiv.org/abs/2603.20595v1
+authors:
+- Truong Thanh Hung Nguyen
+- Hélène Fournier
+- Piper Jackson
+- Makoto Itoh
+- Shannon Freeman
+- Rene Richard
+- Hung Cao
+venue: arXiv
+year: 2026
+summary: This position paper argues for contestability as a necessary design requirement for trustworthy
+  multi-agent algorithmic care systems, proposing a human-in-the-loop framework that integrates structured
+  argumentation and role-based contestation.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses human oversight and accountability in high-stakes multi-agent
+    systems, proposing a systems-level design requirement (contestability) beyond mere explainability.
+status: draft

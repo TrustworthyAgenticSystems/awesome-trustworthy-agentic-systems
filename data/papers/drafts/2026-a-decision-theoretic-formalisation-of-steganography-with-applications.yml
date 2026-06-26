@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-decision-theoretic-formalisation-of-steganography-with-applications
+type: papers
+title: A Decision-Theoretic Formalisation of Steganography With Applications to LLM Monitoring
+url: https://arxiv.org/abs/2602.23163v3
+authors:
+- Usman Anwar
+- Julianna Piskorz
+- David D. Baek
+- David Africa
+- Jim Weatherall
+- Max Tegmark
+- Christian Schroeder de Witt
+- Mihaela van der Schaar
+- David Krueger
+venue: arXiv
+year: 2026
+summary: Proposes a decision-theoretic framework and a "steganographic gap" metric to detect and quantify
+  steganographic reasoning in LLMs by observing the asymmetry in usable information between agents with
+  and without decoding capabilities.
+harness_layer:
+- observation-eval
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a novel threat of covert communication in LLMs and provides a principled, observable
+    method for detection and mitigation, which is relevant to agent monitoring.
+status: draft

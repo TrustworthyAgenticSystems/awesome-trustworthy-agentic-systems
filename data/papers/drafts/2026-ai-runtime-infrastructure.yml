@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ai-runtime-infrastructure
+type: papers
+title: AI Runtime Infrastructure
+url: https://arxiv.org/abs/2603.00495v2
+authors:
+- Christopher Cruz
+venue: arXiv
+year: 2026
+summary: Introduces AI Runtime Infrastructure as an execution-time layer that actively observes, reasons
+  over, and intervenes in agent behavior to optimize task success, latency, token efficiency, reliability,
+  and safety.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper proposes a distinct execution-time layer for agents, focusing on active observation,
+    reasoning, and intervention for reliability and safety, which is a direct contribution to agentic
+    systems engineering.
+status: draft

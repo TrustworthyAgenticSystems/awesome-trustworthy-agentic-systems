@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-qualixar-os-a-universal-operating-system-for-ai
+type: papers
+title: 'Qualixar OS: A Universal Operating System for AI Agent Orchestration'
+url: https://arxiv.org/abs/2604.06392v1
+authors:
+- Varun Pratap Bhardwaj
+venue: arXiv
+year: 2026
+summary: Qualixar OS is an application-layer operating system for heterogeneous multi-agent orchestration,
+  providing execution semantics for various topologies, an LLM-driven team design engine, dynamic model
+  routing, a consensus-based judge pipeline, content attribution, universal protocol compatibility, and
+  a production dashboard.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.8
+  rationale: This paper describes a comprehensive architecture for orchestrating diverse AI agents, addressing
+    multiple systems-level concerns like execution, routing, and monitoring, which is directly relevant
+    to trustworthy agentic systems.
+status: draft

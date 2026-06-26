@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-regimes-an-auditable-held-out-gated-improvement-loop
+type: papers
+title: 'Regimes: An Auditable, Held-Out-Gated Improvement Loop Demonstrated on LongMemEval with ActiveGraph'
+url: https://arxiv.org/abs/2606.10241v1
+authors:
+- Yohei Nakajima
+venue: arXiv
+year: 2026
+summary: Presents Regimes, an auditable, event-sourced agent runtime that enables controlled improvement
+  loops by logging failures, replaying diagnoses, and gating candidate patches through static checks and
+  held-out validation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the systems-engineering problem of trustworthy agent improvement loops
+    through an auditable runtime and a gated evaluation process.
+status: draft

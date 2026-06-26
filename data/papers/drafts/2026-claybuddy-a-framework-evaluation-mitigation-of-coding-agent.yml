@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-claybuddy-a-framework-evaluation-mitigation-of-coding-agent
+type: papers
+title: 'ClayBuddy: A Framework, Evaluation, & Mitigation of Coding Agent Failures'
+url: https://arxiv.org/abs/2606.19380v3
+authors:
+- Kenneth Ge
+- Andre Assis
+venue: arXiv
+year: 2026
+summary: Analyzes three failure mechanisms in AI coding agents (underspecification, capability errors,
+  harness errors) through 8 evaluations and proposes ClayBuddy, a harness modification with self-editing
+  context, extended system prompts, and guardrails to mitigate these failures.
+harness_layer:
+- execution-shell
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses agentic system failures stemming from the execution harness
+    and proposes concrete mitigations for trustworthy coding agents.
+status: draft

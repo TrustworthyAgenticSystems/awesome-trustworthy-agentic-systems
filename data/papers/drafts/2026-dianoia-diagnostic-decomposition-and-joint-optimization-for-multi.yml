@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-dianoia-diagnostic-decomposition-and-joint-optimization-for-multi
+type: papers
+title: 'DIANOIA: Diagnostic Decomposition and Joint Optimization for Multi-Agent Reasoning'
+url: https://arxiv.org/abs/2602.08586v3
+authors:
+- Yiming Yang
+- Zhuoyuan Li
+- Fanxiang Zeng
+- Hao Fu
+- Yue Liu
+venue: arXiv
+year: 2026
+summary: Introduces DIANOIA, a diagnostic framework that decomposes multi-agent reasoning gain into coverage,
+  fidelity, and synthesis, providing a protocol to identify bottlenecks and guide resource allocation
+  in multi-agent system design.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a diagnostic framework and methodology for understanding and improving the reliability
+    of multi-agent system coordination, addressing a systems-level challenge.
+status: draft

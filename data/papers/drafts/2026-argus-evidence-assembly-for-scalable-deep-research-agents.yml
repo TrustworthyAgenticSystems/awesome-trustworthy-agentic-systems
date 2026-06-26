@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-argus-evidence-assembly-for-scalable-deep-research-agents
+type: papers
+title: 'Argus: Evidence Assembly for Scalable Deep Research Agents'
+url: https://arxiv.org/abs/2605.16217v3
+authors:
+- Zhen Zhang
+- Liangcai Su
+- Zhuo Chen
+- Xiang Lin
+- Haotian Xu
+- Simon Shaolei Du
+- Kaiyu Yang
+- Bo An
+- Lidong Bing
+- Xinyu Wang
+venue: arXiv
+year: 2026
+summary: Argus is an agentic system that coordinates a Searcher and a Navigator to assemble complementary
+  evidence pieces for deep research, using a shared evidence graph to manage missing pieces and synthesize
+  a source-traced answer.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-agent coordination system for evidence assembly, which is a core
+    aspect of engineering trustworthy agentic systems for complex tasks.
+status: draft

@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memaudit-post-hoc-auditing-of-poisoned-agent-memory
+type: papers
+title: 'MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly
+  Detection'
+url: https://arxiv.org/abs/2605.23723v1
+authors:
+- Zhewen Tan
+- Yilun Yao
+- Huiyan Jin
+- Wenhan Yu
+- Guoan Wang
+- Mengyuan Fan
+- liang lu
+- Feng Liu
+- Xiangzheng Zhang
+- Duohe Ma
+- Tong Yang
+- Lin Sun
+venue: arXiv
+year: 2026
+summary: MemAudit is a post-hoc causal memory auditing framework that uses counterfactual influence scores
+  and memory consistency graphs to identify and attribute malicious records in an agent's memory after
+  harmful behavior has occurred.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: The paper directly addresses a critical security vulnerability in agent memory (poisoning)
+    and provides a systems-level solution for post-hoc auditing and attribution.
+status: draft

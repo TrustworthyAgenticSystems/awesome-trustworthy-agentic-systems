@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-infini-memory-maintainable-topic-documents-for-long-term
+type: papers
+title: 'Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory'
+url: https://arxiv.org/abs/2606.10677v1
+authors:
+- Suozhao Ji
+- Baodong Wu
+- Zehao Wang
+- Lei Xia
+- Qingping Li
+- Ruisong Wang
+- Wenbo Ding
+- Zhenhua Zhu
+- Boxun Li
+- Guohao Dai
+- Yu Wang
+venue: arXiv
+year: 2026
+summary: Infini Memory proposes a topic-structured document architecture for persistent agent memory,
+  enabling maintainable evidence aggregation and fact revision over long-term interactions, with an iterative
+  retrieval mechanism.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the systems engineering challenge of maintaining and retrieving
+    information from long-term agent memory, which is a core component of trustworthy agentic systems.
+status: draft

@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-moss-self-evolution-through-source-level-rewriting-in
+type: papers
+title: 'MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems'
+url: https://arxiv.org/abs/2605.22794v2
+authors:
+- Qianshu Cai
+- Yonggang Zhang
+- Xianzhang Jia
+- Huajiang Zheng
+- Wei Xue
+- Jun Song
+- Xinmei Tian
+- Yike Guo
+venue: arXiv
+year: 2026
+summary: MOSS enables self-evolution of autonomous agents through source-level rewriting of the agent
+  harness, addressing structural failures unreachable by text-mutable artifacts, with changes verified
+  by replaying production failures and deployed with rollback capabilities.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses the reliability and safety of autonomous agents by enabling
+    self-evolution through source-level code changes, a systems-level contribution to the agent's execution
+    shell with transactional deployment semantics.
+status: draft

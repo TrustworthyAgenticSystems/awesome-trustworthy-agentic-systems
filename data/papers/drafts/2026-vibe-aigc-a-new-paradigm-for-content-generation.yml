@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-vibe-aigc-a-new-paradigm-for-content-generation
+type: papers
+title: 'Vibe AIGC: A New Paradigm for Content Generation via Agentic Orchestration'
+url: https://arxiv.org/abs/2602.04575v2
+authors:
+- Jiaheng Liu
+- Yuanxing Zhang
+- Shihao Li
+- Xinping Lei
+venue: arXiv
+year: 2026
+summary: Introduces Vibe AIGC, a paradigm for content generation using hierarchical multi-agent orchestration
+  where a Meta-Planner translates high-level user intent (Vibe) into executable agentic pipelines, aiming
+  to bridge the intent-execution gap.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.8
+  rationale: The paper proposes a system-level approach to content generation through multi-agent orchestration
+    and a meta-planner, directly addressing the translation of intent into executable workflows.
+status: draft

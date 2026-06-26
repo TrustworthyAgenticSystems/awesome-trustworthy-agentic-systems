@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-examining-agents-bias-amplification-versus-suppression-in-multi
+type: papers
+title: Examining Agents' Bias Amplification versus Suppression in Multi-Agent Systems
+url: https://arxiv.org/abs/2605.28098v1
+authors:
+- Zejian Eric Wu
+- Zhongyi Jiang
+- Yuan Zhuang
+- Paul Jen-Hwa Hu
+venue: arXiv
+year: 2026
+summary: This paper empirically examines how individual agent biases, when exposed uniformly, can amplify
+  system-wide fairness issues in multi-agent systems, proposing a metric to quantify this shift.
+harness_layer:
+- coordination
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper investigates bias amplification in multi-agent systems, which is a system-level
+    safety concern related to agent coordination and interaction.
+status: draft

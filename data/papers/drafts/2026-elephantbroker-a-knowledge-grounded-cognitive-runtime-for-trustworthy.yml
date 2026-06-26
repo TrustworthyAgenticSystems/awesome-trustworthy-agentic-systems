@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-elephantbroker-a-knowledge-grounded-cognitive-runtime-for-trustworthy
+type: papers
+title: 'ElephantBroker: A Knowledge-Grounded Cognitive Runtime for Trustworthy AI Agents'
+url: https://arxiv.org/abs/2603.25097v1
+authors:
+- Cristian Lupascu
+- Alexandru Lupascu
+venue: arXiv
+year: 2026
+summary: ElephantBroker is an open-source cognitive runtime that integrates a knowledge graph and vector
+  store to provide durable, verifiable agent memory with provenance tracking, context lifecycle management,
+  and a multi-tier safety and access control system.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper describes a comprehensive systems-level contribution to agent memory, focusing
+    on trustworthiness through provenance, verification, and access control, which is directly in scope.
+status: draft

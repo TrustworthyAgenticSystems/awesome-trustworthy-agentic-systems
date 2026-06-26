@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governance-constrained-agentic-ai-blockchain-enforced-human-oversight
+type: papers
+title: 'Governance-Constrained Agentic AI: Blockchain-Enforced Human Oversight for Safety-Critical Wildfire
+  Monitoring'
+url: https://arxiv.org/abs/2604.04265v1
+authors:
+- Ali Akarma
+- Toqeer Ali Syed
+- Salman Jan
+- Hammad Muneer
+- Abdul Khadar Jilani
+venue: arXiv
+year: 2026
+summary: A blockchain-based architecture for wildfire monitoring agents that enforces human authorization
+  as a smart contract invariant for safety-critical alerts, providing verifiable responsibility and resistance
+  to alert tampering.
+harness_layer:
+- oversight
+sprs:
+- safety
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper proposes a concrete systems architecture for human oversight and verifiable governance
+    in safety-critical agentic systems, addressing accountability and security concerns.
+status: draft

@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-clawforge-generating-executable-interactive-benchmarks-for-command-line
+type: papers
+title: 'ClawForge: Generating Executable Interactive Benchmarks for Command-Line Agents'
+url: https://arxiv.org/abs/2605.14133v2
+authors:
+- Yuxiang Lai
+- Peng Xia
+- Haonian Ji
+- Kaiwen Xiong
+- Kaide Zeng
+- Jiaqi Liu
+- Fang Wu
+- Jike Zhong
+- Zeyu Zheng
+- Cihang Xie
+- Huaxiu Yao
+venue: arXiv
+year: 2026
+summary: ClawForge is a generator-backed benchmark framework for evaluating command-line agents on executable
+  workflows under state conflict, using normalized end state and observable side effects for step-by-step
+  evaluation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to adversarial evaluation of agent behavior, specifically
+    focusing on state-conflict scenarios in interactive command-line environments, which is a systems-level
+    problem.
+status: draft

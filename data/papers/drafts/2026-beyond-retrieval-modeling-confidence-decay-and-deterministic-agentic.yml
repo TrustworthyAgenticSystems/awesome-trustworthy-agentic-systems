@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-retrieval-modeling-confidence-decay-and-deterministic-agentic
+type: papers
+title: 'Beyond Retrieval: Modeling Confidence Decay and Deterministic Agentic Platforms in Generative
+  Engine Optimization'
+url: https://arxiv.org/abs/2604.03656v1
+authors:
+- XinYu Zhao
+- ChengYou Li
+- XiangBao Meng
+- Kai Zhang
+- XiaoDong Liu
+venue: arXiv
+year: 2026
+summary: Proposes a deterministic multi-agent intent routing paradigm to mitigate probabilistic hallucinations
+  in RAG-based Generative Engine Optimization, using a Deterministic Agent Handoff (DAH) protocol to route
+  specific intents to specialized agents.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses the reliability and safety of agentic systems by proposing a multi-agent coordination
+    mechanism for deterministic intent routing, moving beyond probabilistic RAG.
+status: draft

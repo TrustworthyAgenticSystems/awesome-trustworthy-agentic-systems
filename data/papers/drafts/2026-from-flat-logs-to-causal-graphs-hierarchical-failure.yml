@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-flat-logs-to-causal-graphs-hierarchical-failure
+type: papers
+title: 'From Flat Logs to Causal Graphs: Hierarchical Failure Attribution for LLM-based Multi-Agent Systems'
+url: https://arxiv.org/abs/2602.23701v1
+authors:
+- Yawen Wang
+- Wenjie Wu
+- Junjie Wang
+- Qing Wang
+venue: arXiv
+year: 2026
+summary: CHIEF transforms flat execution logs of multi-agent systems into hierarchical causal graphs to
+  enable efficient and accurate failure attribution through oracle-guided backtracking and counterfactual
+  analysis.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses observability and failure attribution in multi-agent systems
+    by proposing a novel framework for structured causal analysis of execution logs.
+status: draft

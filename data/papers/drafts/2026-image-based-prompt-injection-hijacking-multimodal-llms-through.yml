@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-image-based-prompt-injection-hijacking-multimodal-llms-through
+type: papers
+title: 'Image-based Prompt Injection: Hijacking Multimodal LLMs through Visually Embedded Adversarial
+  Instructions'
+url: https://arxiv.org/abs/2603.03637v1
+authors:
+- Neha Nagaraja
+- Lan Zhang
+- Zhilong Wang
+- Bo Zhang
+- Pawan Patil
+venue: arXiv
+year: 2026
+summary: Characterizes Image-based Prompt Injection (IPI) as a black-box attack on Multimodal LLMs, demonstrating
+  how adversarial instructions embedded in images can manipulate model output while remaining imperceptible
+  to humans.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses a novel adversarial attack vector (multimodal prompt injection)
+    on agentic systems, which falls under red-teaming.
+status: draft

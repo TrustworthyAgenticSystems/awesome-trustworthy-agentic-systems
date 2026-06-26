@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-strengthening-polymorphic-prompt-assembling-dynamic-separator-generation-against
+type: papers
+title: 'Strengthening Polymorphic Prompt Assembling: Dynamic Separator Generation Against Emerging Prompt
+  Injection Attacks'
+url: https://arxiv.org/abs/2605.30534v1
+authors:
+- Nima Dorzhiev
+- Peng Liu
+venue: arXiv
+year: 2026
+summary: Proposes dynamic, per-request separator generation using cryptographic digests to defend against
+  prompt injection attacks by eliminating static separator leakage and reducing attack success rates.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses prompt injection attacks on LLM agents with a concrete, deployable defense
+    mechanism and empirical evaluation.
+status: draft

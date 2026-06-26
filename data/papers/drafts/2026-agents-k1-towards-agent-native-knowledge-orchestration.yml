@@ -1,0 +1,51 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agents-k1-towards-agent-native-knowledge-orchestration
+type: papers
+title: 'Agents-K1: Towards Agent-native Knowledge Orchestration'
+url: https://arxiv.org/abs/2606.13669v1
+authors:
+- Zongsheng Cao
+- Bihao Zhan
+- Jinxin Shi
+- Jiong Wang
+- Fangchen Yu
+- Zhijie Zhong
+- Zijie Guo
+- Tianshuo Peng
+- Zhuo Liu
+- Yi Xie
+- Xiang Zhuang
+- Yue Fan
+- Runmin Ma
+- Shiyang Feng
+- Xiangchao Yan
+- Anran Liu
+- Peng Ye
+- Wenlong Zhang
+- Shufei Zhang
+- Chunfeng Song
+- Fenghua Ling
+- Jie Zhou
+- Liang He
+- Bo Zhang
+- Lei Bai
+venue: arXiv
+year: 2026
+summary: Agents-K1 is an end-to-end knowledge orchestration pipeline that converts raw scientific documents
+  into agent-native knowledge graphs, improving information extraction and multi-hop reasoning for agents
+  by providing structured, comprehensive memory.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to agent memory by providing a structured knowledge orchestration pipeline
+    for scientific documents, which directly impacts the reliability of agent reasoning over complex information.
+status: draft

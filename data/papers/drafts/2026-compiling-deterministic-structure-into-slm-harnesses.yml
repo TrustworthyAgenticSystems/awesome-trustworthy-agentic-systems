@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-compiling-deterministic-structure-into-slm-harnesses
+type: papers
+title: Compiling Deterministic Structure into SLM Harnesses
+url: https://arxiv.org/abs/2604.17450v3
+authors:
+- Zan Kai Chong
+- Hiroyuki Ohsaki
+- Bryan Ng
+venue: arXiv
+year: 2026
+summary: A teacher-student framework that compiles agentic workflows into discrete execution plans, including
+  DAG topologies and deterministic code, to improve the reliability of SLM harnesses by leveraging a frontier
+  teacher for iterative refinement.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to engineering trustworthy agentic systems by introducing a method
+    to compile deterministic structure into SLM harnesses, addressing reliability and coordination in
+    agent workflows.
+status: draft

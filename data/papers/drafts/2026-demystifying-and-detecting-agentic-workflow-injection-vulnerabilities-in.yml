@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-demystifying-and-detecting-agentic-workflow-injection-vulnerabilities-in
+type: papers
+title: Demystifying and Detecting Agentic Workflow Injection Vulnerabilities in GitHub Actions
+url: https://arxiv.org/abs/2605.07135v1
+authors:
+- Shenao Wang
+- Xinyi Hou
+- Zhao Liu
+- Yanjie Zhao
+- Xiao Cheng
+- Quanchen Zou
+- Xiangzheng Zhang
+- Haoyu Wang
+venue: arXiv
+year: 2026
+summary: Introduces Agentic Workflow Injection (AWI) vulnerabilities in GitHub Actions, categorizes two
+  core patterns (P2A, P2S), and develops TaintAWI, a taint-analysis tool to detect these workflow-level
+  injection flaws in real-world agentic workflows.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a novel, system-level injection vulnerability in agentic workflows,
+    providing a systematic study and a practical detection tool.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-chainfuzzer-greybox-fuzzing-for-workflow-level-multi-tool
+type: papers
+title: 'ChainFuzzer: Greybox Fuzzing for Workflow-Level Multi-Tool Vulnerabilities in LLM Agents'
+url: https://arxiv.org/abs/2603.12614v1
+authors:
+- Jiangrong Wu
+- Zitong Yao
+- Yuhong Nan
+- Zibin Zheng
+venue: arXiv
+year: 2026
+summary: ChainFuzzer is a greybox fuzzing framework that discovers and reproduces multi-tool vulnerabilities
+  in LLM agents by identifying source-to-sink dataflows across tool compositions and synthesizing prompts
+  to reliably trigger these long-horizon exploits.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the red-teaming of agentic systems by identifying and reproducing
+    multi-tool, workflow-level vulnerabilities, which is a core systems-level security concern.
+status: draft

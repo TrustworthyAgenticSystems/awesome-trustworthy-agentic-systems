@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hage-harnessing-agentic-memory-via-rl-driven-weighted
+type: papers
+title: 'HAGE: Harnessing Agentic Memory via RL-Driven Weighted Graph Evolution'
+url: https://arxiv.org/abs/2605.09942v1
+authors:
+- Dongming Jiang
+- Yi Li
+- Guanpeng Li
+- Qiannan Li
+- Bingzhe Li
+venue: arXiv
+year: 2026
+summary: HAGE proposes a weighted multi-relational memory framework that uses an RL-driven graph evolution
+  to improve query-conditioned memory traversal, enhancing long-horizon reasoning accuracy.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to agent memory systems by introducing a dynamic, learned approach
+    to memory retrieval, addressing reliability in long-horizon reasoning.
+status: draft

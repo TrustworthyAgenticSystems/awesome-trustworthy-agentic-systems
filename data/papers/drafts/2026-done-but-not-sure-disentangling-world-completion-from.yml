@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-done-but-not-sure-disentangling-world-completion-from
+type: papers
+title: 'Done, But Not Sure: Disentangling World Completion from Self-Termination in Embodied Agents'
+url: https://arxiv.org/abs/2605.08747v4
+authors:
+- Ying Chen
+- Lihuang Fang
+- Rui Jiang
+- Mingxu Wang
+- Zhifeng Gu
+- Lei Yi
+- Jie Chen
+venue: arXiv
+year: 2026
+summary: VIGIL is an evaluation framework that disentangles task completion from self-termination in embodied
+  agents, allowing for independent scoring of world-state completion and terminal commitment.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a novel evaluation framework for agent behavior, specifically addressing
+    the reliability of task completion and self-termination, which is a systems-level concern for long-running
+    agents.
+status: draft

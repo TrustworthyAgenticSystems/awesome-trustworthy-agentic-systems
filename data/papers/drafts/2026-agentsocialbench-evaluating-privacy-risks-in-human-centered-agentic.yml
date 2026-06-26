@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentsocialbench-evaluating-privacy-risks-in-human-centered-agentic
+type: papers
+title: 'AgentSocialBench: Evaluating Privacy Risks in Human-Centered Agentic Social Networks'
+url: https://arxiv.org/abs/2604.01487v2
+authors:
+- Prince Zizhuang Wang
+- Shuli Jiang
+venue: arXiv
+year: 2026
+summary: Introduces AgentSocialBench, a benchmark for evaluating privacy risks in human-centered agentic
+  social networks, revealing persistent leakage pressure and an "abstraction paradox" in cross-domain
+  and cross-user coordination.
+harness_layer:
+- red-team
+sprs:
+- privacy
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses privacy risks in complex multi-agent systems through a systematic
+    adversarial evaluation benchmark, identifying novel failure modes beyond prompt engineering.
+status: draft

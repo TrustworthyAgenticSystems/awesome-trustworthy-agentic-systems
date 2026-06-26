@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-spore-efficient-and-training-free-privacy-extraction-attack
+type: papers
+title: 'Spore: Efficient and Training-Free Privacy Extraction Attack on LLMs via Inference-Time Hybrid
+  Probing'
+url: https://arxiv.org/abs/2604.23711v1
+authors:
+- Yu Cui
+- Ruiqing Yue
+- Hang Fu
+- Sicheng Pan
+- Zhuoyu Sun
+- Baohan Huang
+- Haibin Zhang
+- Cong Zuo
+- Licheng Wang
+venue: arXiv
+year: 2026
+summary: Proposes Spore, a training-free, inference-time privacy extraction attack on LLM agent memory
+  that works in black-box and gray-box settings, demonstrating high query efficiency and robustness against
+  existing defenses.
+harness_layer:
+- memory
+sprs:
+- privacy
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses privacy leakage from agent memory at inference time, a critical systems-level
+    concern for trustworthy agents, with a concrete attack methodology and evaluation against defenses.
+status: draft

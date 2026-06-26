@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-trojan-hippo-weaponizing-agent-memory-for-data-exfiltration
+type: papers
+title: 'Trojan Hippo: Weaponizing Agent Memory for Data Exfiltration'
+url: https://arxiv.org/abs/2605.01970v3
+authors:
+- Debeshee Das
+- Julien Piet
+- Darya Kaviani
+- Luca Beurer-Kellner
+- Florian Tramèr
+- David Wagner
+venue: arXiv
+year: 2026
+summary: Characterizes the 'Trojan Hippo' attack, a persistent memory attack that exfiltrates sensitive
+  data by planting dormant payloads in an agent's long-term memory via untrusted tool calls, and evaluates
+  it across various memory architectures and defenses.
+harness_layer:
+- memory
+sprs:
+- security
+- privacy
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a critical security and privacy vulnerability in agent memory
+    systems, proposing a systematic evaluation framework and analyzing defenses.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-how-much-heavy-lifting-can-an-agent-harness
+type: papers
+title: 'How Much Heavy Lifting Can an Agent Harness Do?: Measuring the LLM''s Residual Role in a Planning
+  Agent'
+url: https://arxiv.org/abs/2604.07236v4
+authors:
+- Sungwoo Jung
+- Seonil Son
+venue: arXiv
+year: 2026
+summary: A methodological contribution that quantifies the competence carried by different layers of an
+  agent harness (belief tracking, declarative planning, symbolic reflection, LLM-backed revision) by externalizing
+  them and measuring their marginal impact on win rate.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: The paper directly investigates the role and contribution of different components within
+    the agent harness, which is a core systems-engineering concern for trustworthy agents.
+status: draft

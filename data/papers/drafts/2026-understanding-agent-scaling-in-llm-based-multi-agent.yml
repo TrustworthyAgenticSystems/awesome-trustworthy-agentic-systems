@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-understanding-agent-scaling-in-llm-based-multi-agent
+type: papers
+title: Understanding Agent Scaling in LLM-Based Multi-Agent Systems via Diversity
+url: https://arxiv.org/abs/2602.03794v1
+authors:
+- Yingxuan Yang
+- Chengrui Qu
+- Muning Wen
+- Laixi Shi
+- Ying Wen
+- Weinan Zhang
+- Adam Wierman
+- Shangding Gu
+venue: arXiv
+year: 2026
+summary: An information-theoretic framework for understanding performance scaling in multi-agent systems,
+  demonstrating that diversity in agents (models, prompts, tools) is more critical than sheer agent count
+  for improving reliability and efficiency.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides a principled framework for designing more reliable and efficient multi-agent
+    systems by focusing on diversity in coordination, rather than just scaling agent count.
+status: draft

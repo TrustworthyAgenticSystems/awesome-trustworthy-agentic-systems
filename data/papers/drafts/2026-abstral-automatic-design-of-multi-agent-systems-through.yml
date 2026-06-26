@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-abstral-automatic-design-of-multi-agent-systems-through
+type: papers
+title: 'ABSTRAL: Automatic Design of Multi-Agent Systems Through Iterative Refinement and Topology Optimization'
+url: https://arxiv.org/abs/2603.22791v1
+authors:
+- Weijia Song
+- Jiashu Yue
+- Zhe Pang
+venue: arXiv
+year: 2026
+summary: ABSTRAL is a framework for automatically designing multi-agent system architectures by iteratively
+  refining natural-language design documents through contrastive trace analysis, leading to improved task
+  decomposition and specialist role discovery.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the design and optimization of multi-agent coordination, addressing
+    the efficiency and discovery of effective agent topologies and roles.
+status: draft

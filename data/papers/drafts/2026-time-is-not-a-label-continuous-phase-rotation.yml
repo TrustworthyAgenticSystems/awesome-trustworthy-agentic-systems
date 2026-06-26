@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-time-is-not-a-label-continuous-phase-rotation
+type: papers
+title: 'Time is Not a Label: Continuous Phase Rotation for Temporal Knowledge Graphs and Agentic Memory'
+url: https://arxiv.org/abs/2604.11544v1
+authors:
+- Weixian Waylon Li
+- Jiaxin Zhang
+- Xianan Jim Yang
+- Tiejun Ma
+- Yiwen Guo
+venue: arXiv
+year: 2026
+summary: RoMem is a temporal knowledge graph module that uses continuous phase rotation and a semantic
+  speed gate to manage the volatility of facts in agentic memory, allowing persistent facts to outrank
+  obsolete ones without explicit deletion.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses the reliability and integrity of long-term agent memory by
+    proposing a novel mechanism for managing temporal knowledge, which is a core systems problem for trustworthy
+    agents.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-epistemic-blinding-an-inference-time-protocol-for-auditing
+type: papers
+title: 'Epistemic Blinding: An Inference-Time Protocol for Auditing Prior Contamination in LLM-Assisted
+  Analysis'
+url: https://arxiv.org/abs/2604.06013v1
+authors:
+- Michael Cuccarese
+venue: arXiv
+year: 2026
+summary: Introduces 'epistemic blinding,' an inference-time protocol that anonymizes entity identifiers
+  before prompting to audit and measure the influence of an LLM's memorized priors versus supplied data
+  in agentic reasoning workflows.
+harness_layer:
+- memory
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Addresses a critical memory integrity and attribution problem in agentic systems by providing
+    a concrete, deployable protocol to audit the source of agent knowledge.
+status: draft

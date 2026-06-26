@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-open-source-economic-index-of-ai-adoption
+type: papers
+title: The Open Source Economic Index of AI Adoption and Capability
+url: https://arxiv.org/abs/2606.26118v1
+authors:
+- Seamus Somerstep
+- Aritra Guha
+- Divesh Srivastava
+- Yuekai Sun
+venue: arXiv
+year: 2026
+summary: Develops an open-source economic index for AI adoption and a system for generating benchmark
+  scenarios grounded in O*NET occupations and model-context-protocol (MCP) servers to measure AI capabilities
+  in executing discrete labor tasks.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the evaluation of AI agent capabilities in real-world tasks, specifically
+    focusing on workflow execution and granular tool calls, which is relevant to observation and evaluation
+    of agentic systems.
+status: draft

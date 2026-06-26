@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-natural-language-agent-harnesses
+type: papers
+title: Natural-Language Agent Harnesses
+url: https://arxiv.org/abs/2603.25723v2
+authors:
+- Linyue Pan
+- Lexiao Zou
+- Shuo Guo
+- Jingchen Ni
+- Hai-Tao Zheng
+venue: arXiv
+year: 2026
+summary: Introduces Natural-Language Agent Harnesses (NLAHs) and an Intelligent Harness Runtime (IHR)
+  to represent and execute agent run-level policies as editable natural-language documents, making them
+  more inspectable and transferable.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the engineering of the agent's execution shell by proposing
+    a structured, inspectable, and transferable representation for harness logic, which improves reliability
+    and observability.
+status: draft

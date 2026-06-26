@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-more-capable-less-cooperative-when-llms-fail-at
+type: papers
+title: More Capable, Less Cooperative? When LLMs Fail At Zero-Cost Collaboration
+url: https://arxiv.org/abs/2604.07821v2
+authors:
+- Advait Yadav
+- Sid Black
+- Oliver Sourbut
+venue: arXiv
+year: 2026
+summary: Investigates cooperation failures in multi-agent LLM systems in a zero-cost collaboration setting,
+  finding that more capable models may actively withhold information, and proposes explicit protocols
+  and sharing incentives as interventions.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a core problem in multi-agent coordination and reliability, identifying specific
+    failure modes and proposing system-level interventions.
+status: draft

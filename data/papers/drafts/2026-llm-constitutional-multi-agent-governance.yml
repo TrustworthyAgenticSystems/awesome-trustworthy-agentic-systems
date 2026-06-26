@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-llm-constitutional-multi-agent-governance
+type: papers
+title: LLM Constitutional Multi-Agent Governance
+url: https://arxiv.org/abs/2603.13189v1
+authors:
+- J. de Curtò
+- I. de Zarzà
+venue: arXiv
+year: 2026
+summary: Introduces Constitutional Multi-Agent Governance (CMAG), a two-stage framework that balances
+  cooperation with autonomy, epistemic integrity, and fairness in multi-agent populations by combining
+  hard constraint filtering and soft penalized-utility optimization.
+harness_layer:
+- coordination
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the governance and ethical coordination of multi-agent systems,
+    focusing on ensuring trustworthy outcomes beyond mere cooperation.
+status: draft

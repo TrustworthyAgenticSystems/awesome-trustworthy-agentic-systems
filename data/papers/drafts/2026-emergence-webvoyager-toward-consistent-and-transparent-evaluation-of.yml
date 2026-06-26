@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-emergence-webvoyager-toward-consistent-and-transparent-evaluation-of
+type: papers
+title: 'Emergence WebVoyager: Toward Consistent and Transparent Evaluation of (Web) Agents in The Wild'
+url: https://arxiv.org/abs/2603.29020v1
+authors:
+- Deepak Akkil
+- Mowafak Allaham
+- Amal Raj
+- Tamer Abuelsaad
+- Ravi Kokku
+venue: arXiv
+year: 2026
+summary: Introduces Emergence WebVoyager, an enhanced benchmark with standardized evaluation methodology
+  for web agents, addressing task-framing ambiguity and operational variability to enable more consistent
+  and transparent performance comparisons.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly contributes to the reliable evaluation of agentic systems by improving
+    benchmarking methodologies for web agents, which is a core aspect of observation and evaluation.
+status: draft

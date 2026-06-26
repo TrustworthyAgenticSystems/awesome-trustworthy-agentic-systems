@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memforest-an-efficient-agent-memory-system-with-hierarchical
+type: papers
+title: 'MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing'
+url: https://arxiv.org/abs/2605.23986v1
+authors:
+- Han Chen
+- Zining Zhang
+- Wenqi Pei
+- Bingsheng He
+- Ming Wu
+- Jason Zeng
+- Michael Heinrich
+- Wei Wu
+- Hongbao Zhang
+venue: arXiv
+year: 2026
+summary: MemForest is a memory framework that optimizes agent memory management by using parallel chunk
+  extraction and a hierarchical temporal index (MemTree) to enable localized updates and improve throughput
+  for long-context LLM agents.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the systems engineering challenge of efficient and scalable
+    memory management for long-running agents, focusing on reliability and performance of the memory component.
+status: draft

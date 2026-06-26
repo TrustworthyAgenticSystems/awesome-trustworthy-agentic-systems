@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-directional-embedding-smoothing-for-robust-vision-language-models
+type: papers
+title: Directional Embedding Smoothing for Robust Vision Language Models
+url: https://arxiv.org/abs/2603.15259v1
+authors:
+- Ye Wang
+- Jing Liu
+- Toshiaki Koike-Akino
+venue: arXiv
+year: 2026
+summary: Extends the Randomized Embedding Smoothing and Token Aggregation (RESTA) defense to Vision-Language
+  Models (VLMs) to mitigate multi-modal jailbreaking attacks at inference time.
+harness_layer:
+- execution-shell
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses a specific security vulnerability (jailbreaking) in a core component (VLM) of agentic
+    systems with an inference-time defense, fitting the execution-shell layer.
+status: draft

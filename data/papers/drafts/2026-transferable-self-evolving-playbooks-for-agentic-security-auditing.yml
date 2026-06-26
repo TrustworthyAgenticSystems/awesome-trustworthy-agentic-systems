@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-transferable-self-evolving-playbooks-for-agentic-security-auditing
+type: papers
+title: Transferable Self-Evolving Playbooks for Agentic Security Auditing
+url: https://arxiv.org/abs/2606.16420v1
+authors:
+- Ziyue Wang
+- Cheuk Wang Maurice Ng
+- Chenchen Yu
+- Strick Sheng
+- Kaihua Qin
+- Liyi Zhou
+venue: arXiv
+year: 2026
+summary: EvoHunt is an environment for evolving agentic security auditing playbooks, using an audit agent,
+  an evaluator, and a reviser to automate playbook creation and transfer audit procedures to weaker agents.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the automated acquisition and transfer of agentic workflows
+    (playbooks) for security auditing, which is a systems-level contribution to agent coordination and
+    reliability.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agent-orchestrated-adaptive-rag-a-comparative-study-on
+type: papers
+title: 'Agent-Orchestrated Adaptive RAG: A Comparative Study on Structured and Multi-Hop Retrieval'
+url: https://arxiv.org/abs/2606.05658v1
+authors:
+- Anuj Maharjan
+- Devinder Kaur
+- Richard Molyet
+venue: arXiv
+year: 2026
+summary: An Agent-Orchestrated Adaptive RAG framework that uses dynamic query decomposition, iterative
+  retrieval, and self-reflection to improve performance on complex queries, with a comparative study on
+  its effectiveness across different query types and domains.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the engineering of trustworthy agentic systems by exploring adaptive
+    RAG strategies and their impact on retrieval reliability and accuracy, highlighting the need for cost-aware
+    orchestration.
+status: draft

@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-does-hierarchy-help-benchmarking-agent-coordination-in
+type: papers
+title: When Does Hierarchy Help? Benchmarking Agent Coordination in Event-Driven Industrial Scheduling
+url: https://arxiv.org/abs/2605.13172v1
+authors:
+- Ziqi Wang
+- Yuhao Yang
+- Zhiwei Ling
+- Wenzhuo Qian
+- Hailiang Zhao
+venue: arXiv
+year: 2026
+summary: Introduces DESBench, a benchmark for evaluating agent coordination paradigms (centralized, hierarchical,
+  heterarchical, holonic) in event-driven industrial scheduling, revealing trade-offs in effectiveness,
+  efficiency, and robustness.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a benchmark and analysis of different coordination paradigms in multi-agent
+    systems, directly addressing a core aspect of trustworthy agentic system design.
+status: draft

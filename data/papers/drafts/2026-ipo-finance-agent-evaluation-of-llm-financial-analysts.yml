@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ipo-finance-agent-evaluation-of-llm-financial-analysts
+type: papers
+title: 'IPO Finance Agent: Evaluation of LLM Financial Analysts beyond Finance Agent v2, with Automated
+  Rubric Generation -- the Case of the SpaceX (SPCX) IPO'
+url: https://arxiv.org/abs/2606.23032v2
+authors:
+- Mostapha Benhenda
+venue: arXiv
+year: 2026
+summary: Introduces IPO Finance Agent, an extension of Finance Agent v2, with an improved contextual retrieval
+  architecture to handle long S-1 filings for IPO due diligence, and an automated rubric generation pipeline
+  for evaluation.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to agentic systems by improving retrieval architecture for long documents
+    and introducing an automated evaluation rubric generation pipeline, addressing reliability in agent
+    performance.
+status: draft

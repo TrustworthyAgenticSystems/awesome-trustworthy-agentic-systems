@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-gate-is-only-as-honest-as-its
+type: papers
+title: 'The Gate Is Only as Honest as Its Contracts: ContractGuard for the Contract Layer of Risk-Aware
+  Causal Gating'
+url: https://arxiv.org/abs/2606.18550v1
+authors:
+- Laxmipriya Ganesh Iyer
+- Rahul Suresh Babu
+venue: arXiv
+year: 2026
+summary: Analyzes the integrity of tool contracts in Risk-Aware Causal Gating (RACG) as a new attack surface
+  for indirect prompt injection and introduces ContractGuard, a verifier that uses signed provenance,
+  typed attestation, and runtime effect verification to secure tool contracts.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a critical security vulnerability in the tool-interface layer of agentic
+    systems by securing the integrity of tool contracts against adversarial manipulation.
+status: draft

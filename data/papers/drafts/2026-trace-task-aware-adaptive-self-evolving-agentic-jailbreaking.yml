@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-trace-task-aware-adaptive-self-evolving-agentic-jailbreaking
+type: papers
+title: 'TRACE: Task-Aware Adaptive Self-Evolving Agentic Jailbreaking'
+url: https://arxiv.org/abs/2605.30883v1
+authors:
+- Churui Zeng
+- Weiwei Qi
+- Kedong Xiu
+- Tianhang Zheng
+- Chaochao Lu
+- Liang He
+- Zhan Qin
+- Kui Ren
+venue: arXiv
+year: 2026
+summary: TRACE is an agentic jailbreaking framework that decomposes malicious tasks into subtask sequences
+  and disguises harmful subtasks within iteratively evolved, task-aware scenarios to induce agents to
+  execute malicious operations.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses adversarial testing of agentic systems by proposing a novel
+    jailbreaking framework that exploits the planning and execution capabilities of agents to bypass safety
+    alignments.
+status: draft

@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-automcu-feasibility-first-mcu-neural-network-customization-via
+type: papers
+title: 'AutoMCU: Feasibility-First MCU Neural Network Customization via LLM-based Multi-Agent Systems'
+url: https://arxiv.org/abs/2605.21560v1
+authors:
+- Penglin Dai
+- Zijie Zhou
+- Xincao Xu
+- Junhua Wang
+- Xiao Wu
+- Lixin Duan
+venue: arXiv
+year: 2026
+summary: AutoMCU is an LLM-based multi-agent system that automates neural network customization for MCUs
+  by iteratively generating, filtering, evaluating, and verifying deployable architectures, using hardware-in-the-loop
+  feedback and state-isolated multi-agent scheduling.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system for automated neural network customization, focusing
+    on the coordination of agents and the use of hardware-in-the-loop feedback for feasibility, which
+    is a systems-engineering contribution to agent reliability.
+status: draft

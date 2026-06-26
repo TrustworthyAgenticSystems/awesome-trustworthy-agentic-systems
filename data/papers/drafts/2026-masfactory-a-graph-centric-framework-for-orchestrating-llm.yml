@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-masfactory-a-graph-centric-framework-for-orchestrating-llm
+type: papers
+title: 'MASFactory: A Graph-centric Framework for Orchestrating LLM-Based Multi-Agent Systems with Vibe
+  Graphing'
+url: https://arxiv.org/abs/2603.06007v2
+authors:
+- Yang Liu
+- Jinxuan Cai
+- Yishen Li
+- Qi Meng
+- Zedi Liu
+- Xin Li
+- Chen Qian
+- Chuan Shi
+- Cheng Yang
+venue: arXiv
+year: 2026
+summary: MASFactory is a graph-centric framework for orchestrating LLM-based multi-agent systems, featuring
+  a human-in-the-loop approach to compile natural-language intent into executable workflow graphs and
+  providing tools for runtime tracing and interaction.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper presents a systems-level framework for multi-agent orchestration, addressing workflow
+    specification, execution, and observability, which are core to trustworthy agentic systems.
+status: draft

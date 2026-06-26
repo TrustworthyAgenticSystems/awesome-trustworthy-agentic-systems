@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-multi-agent-memory-from-a-computer-architecture-perspective
+type: papers
+title: 'Multi-Agent Memory from a Computer Architecture Perspective: Visions and Challenges Ahead'
+url: https://arxiv.org/abs/2603.10062v2
+authors:
+- Zhongming Yu
+- Naicheng Yu
+- Hejia Zhang
+- Wentao Ni
+- Mingrui Yin
+- Jiaying Yang
+- Yujie Zhao
+- Jishen Zhao
+venue: arXiv
+year: 2026
+summary: This position paper frames multi-agent memory as a computer architecture problem, proposing a
+  three-layer hierarchy and identifying challenges in cache sharing, structured memory access control,
+  and memory consistency for reliable and scalable multi-agent systems.
+harness_layer:
+- memory
+sprs:
+- reliability
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides a foundational architectural framing for multi-agent memory, addressing
+    critical systems-level challenges like consistency and access control, which are essential for trustworthy
+    agentic systems.
+status: draft

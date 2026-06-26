@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mallvi-a-multi-agent-framework-for-integrated-generalized
+type: papers
+title: 'MALLVI: A Multi-Agent Framework for Integrated Generalized Robotics Manipulation'
+url: https://arxiv.org/abs/2602.16898v6
+authors:
+- Mehrshad Taji
+- Arad Mahdinezhad Kashani
+- Iman Ahmadi
+- AmirHossein Jadidi
+- Saina Kashani
+- Babak Khalaj
+venue: arXiv
+year: 2026
+summary: MALLVI is a multi-agent framework for robotic manipulation that coordinates specialized agents
+  (Decomposer, Localizer, Thinker, Reflector) to enable closed-loop feedback-driven execution, improving
+  robustness and generalization in dynamic settings.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent coordination framework for robust robotic manipulation,
+    focusing on closed-loop feedback and error recovery, which directly contributes to the reliability
+    of agentic systems.
+status: draft

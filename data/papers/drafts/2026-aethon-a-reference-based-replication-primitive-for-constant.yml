@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-aethon-a-reference-based-replication-primitive-for-constant
+type: papers
+title: 'Aethon: A Reference-Based Replication Primitive for Constant-Time Instantiation of Stateful AI
+  Agents'
+url: https://arxiv.org/abs/2604.12129v1
+authors:
+- Swanand Rao
+- Kiran Kashalkar
+- Parvathi Somashekar
+- Priya Krishnan
+venue: arXiv
+year: 2026
+summary: Aethon introduces a reference-based replication primitive for near-constant-time instantiation
+  of stateful AI agents, representing instances as compositional views over stable definitions and layered
+  memory to improve scalability and governance.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper proposes a novel system architecture for efficient and scalable instantiation
+    of stateful AI agents, directly addressing a core systems-engineering challenge for trustworthy agentic
+    systems.
+status: draft

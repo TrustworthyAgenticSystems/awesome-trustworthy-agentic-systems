@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-do-llms-favor-their-providers-measuring-vertical-integration
+type: papers
+title: Do LLMs Favor Their Providers? Measuring Vertical Integration Bias in Code Generation
+url: https://arxiv.org/abs/2605.28515v1
+authors:
+- Melih Catal
+- Alex Wolf
+- Tiago Ferreiro Matos
+- Pooja Rani
+- Harald Gall
+venue: arXiv
+year: 2026
+summary: Introduces Vertical Integration Bias (VIB) to measure how LLMs, especially in agentic workflows,
+  favor their provider's ecosystem in code generation, and proposes VIBench to quantify this bias and
+  its persistence across workflows.
+harness_layer:
+- supply-chain
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses a supply-chain security and reliability concern by identifying
+    and measuring a new form of bias in AI-generated code, particularly amplified in agentic systems.
+status: draft

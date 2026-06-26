@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-execution-envelopes-a-shared-admission-contract-for-backend
+type: papers
+title: 'Execution Envelopes: A Shared Admission Contract for Backend AI Execution Requests'
+url: https://arxiv.org/abs/2605.08267v1
+authors:
+- Krti Tallam
+venue: arXiv
+year: 2026
+summary: Introduces the 'execution envelope' as a normalized internal admission object for AI backends
+  to enable shared logging, governance, resource accounting, and authorization hooks across heterogeneous
+  execution requests, including agentic workflows.
+harness_layer:
+- architectures
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Proposes a foundational architectural primitive for consistent governance and observability
+    across diverse AI backend operations, including agentic systems.
+status: draft

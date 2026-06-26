@@ -1,0 +1,44 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-actionnex-a-virtual-outage-manager-for-cloud-computing
+type: papers
+title: 'ActionNex: A Virtual Outage Manager for Cloud Computing'
+url: https://arxiv.org/abs/2604.03512v2
+authors:
+- Zhenfeng Lin
+- Haoji Hu
+- Ming Hao
+- Xuchao Zhang
+- Ryan Zhang
+- Junhao Li
+- Ze Li
+- Oleg Kulygin
+- Chetan Bansal
+- Hatay Tuna
+- Murali Chintalapati
+- Sheila Jiang
+- Salman Zafar
+- Angie Anderson
+venue: arXiv
+year: 2026
+summary: ActionNex is a production-grade agentic system for cloud outage management that integrates multimodal
+  operational signals, hierarchical memory, and a reasoning agent to provide real-time, context-aware
+  action recommendations, evaluated on real Azure outages.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper describes a concrete, production-grade agentic system for a critical operational
+    task, detailing its architecture, memory, and reasoning components, and provides evaluation on real-world
+    incidents.
+status: draft

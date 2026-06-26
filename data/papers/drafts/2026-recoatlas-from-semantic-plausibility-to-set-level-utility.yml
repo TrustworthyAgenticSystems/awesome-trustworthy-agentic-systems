@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-recoatlas-from-semantic-plausibility-to-set-level-utility
+type: papers
+title: 'RecoAtlas: From Semantic Plausibility to Set-Level Utility in LLM Recommendation Agents'
+url: https://arxiv.org/abs/2605.18805v1
+authors:
+- Imad Aouali
+- Flavian Vasile
+- Otmane Sakhi
+- Alexandre Gilotte
+- Benjamin Heymann
+venue: arXiv
+year: 2026
+summary: RecoAtlas is a benchmark and toolkit for evaluating LLM recommendation agents, focusing on behavior-grounded
+  utility and tool-use policies, enabling diagnosis of performance gains from reasoning, signals, or tool
+  use.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a benchmark and toolkit for evaluating agentic systems, specifically
+    recommendation agents, with a focus on diagnosing performance related to tool use and behavior-grounded
+    metrics, which is relevant to observation and evaluation of agent behavior.
+status: draft

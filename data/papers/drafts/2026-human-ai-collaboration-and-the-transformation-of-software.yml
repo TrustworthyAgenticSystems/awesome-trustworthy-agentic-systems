@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-human-ai-collaboration-and-the-transformation-of-software
+type: papers
+title: Human-AI Collaboration and the Transformation of Software Engineering Work
+url: https://arxiv.org/abs/2606.03394v1
+authors:
+- Mamdouh Alenezi
+venue: arXiv
+year: 2026
+summary: This paper synthesizes the shift in software engineering work towards directing, verifying, and
+  governing autonomous systems, proposing a competency framework for future engineers in an agentic AI-enabled
+  paradigm.
+harness_layer:
+- foundations
+sprs:
+- safety
+- reliability
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a foundational analysis of the transformation of software engineering
+    work due to agentic AI, focusing on new roles in verification, governance, and oversight, which are
+    critical for trustworthy systems.
+status: draft

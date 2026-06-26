@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-prompt-to-service-an-slm-based-agent
+type: papers
+title: 'From Prompt to Service: An SLM-Based Agent Orchestration Gateway for AI-Driven Virtual Worlds'
+url: https://arxiv.org/abs/2606.03557v1
+authors:
+- Louis Nisiotis
+- Aimilios Hadjiliasi
+venue: arXiv
+year: 2026
+summary: An SLM-based Agent Orchestration Gateway decouples virtual world clients from heterogeneous AI
+  backends by using an edge-deployed SLM for intent-driven service routing, improving extensibility and
+  coordination of distributed services.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper presents a concrete architectural solution for orchestrating AI services in a distributed
+    agentic system, addressing reliability and extensibility concerns.
+status: draft

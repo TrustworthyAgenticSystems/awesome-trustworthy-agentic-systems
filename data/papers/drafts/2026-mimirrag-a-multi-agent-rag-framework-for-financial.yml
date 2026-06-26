@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mimirrag-a-multi-agent-rag-framework-for-financial
+type: papers
+title: 'MimirRAG: A Multi-Agent RAG Framework for Financial Data Retrieval with Metadata Integration'
+url: https://arxiv.org/abs/2605.25030v1
+authors:
+- Magnus Samuelsen
+- Wilmer Nyström
+- Somnath Mazumdar
+- Mansoor Hussain
+- Mikkel Strange
+venue: arXiv
+year: 2026
+summary: MimirRAG is a multi-agent RAG system for financial data retrieval that integrates metadata, table-aware
+  chunking, and agent-based query planning to improve accuracy and reduce hallucinations in financial
+  analysis.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent RAG system with specific architectural choices (metadata
+    integration, table-aware chunking, agentic workflow) to improve reliability and accuracy in a high-stakes
+    domain, addressing memory and coordination aspects of trustworthy agents.
+status: draft

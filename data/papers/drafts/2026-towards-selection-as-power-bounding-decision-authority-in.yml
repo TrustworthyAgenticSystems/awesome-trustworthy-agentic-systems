@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-selection-as-power-bounding-decision-authority-in
+type: papers
+title: 'Towards Selection as Power: Bounding Decision Authority in Autonomous Agents'
+url: https://arxiv.org/abs/2602.14606v1
+authors:
+- Jose Manuel de la Chica Rodriguez
+- Juan Manuel Vera Díaz
+venue: arXiv
+year: 2026
+summary: Proposes a governance architecture that separates cognition, selection, and action to bound an
+  agent's decision authority through mechanically enforced primitives, preventing deterministic outcome
+  capture in high-stakes domains.
+harness_layer:
+- oversight
+sprs:
+- safety
+- security
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses the systems-level problem of bounding agent decision authority and selection
+    power in regulated environments, with a concrete architectural proposal and adversarial evaluation.
+status: draft

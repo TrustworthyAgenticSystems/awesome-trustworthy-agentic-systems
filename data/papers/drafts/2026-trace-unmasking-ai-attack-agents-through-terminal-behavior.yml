@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-trace-unmasking-ai-attack-agents-through-terminal-behavior
+type: papers
+title: 'Trace: Unmasking AI Attack Agents Through Terminal Behavior Fingerprinting'
+url: https://arxiv.org/abs/2605.01186v1
+authors:
+- Murali Ediga
+- Sudipta Chattopadhyay
+venue: arXiv
+year: 2026
+summary: Trace is a multi-stage attribution and forensic framework that fingerprints AI attack agents
+  based on terminal command sequences to identify model families and guide defensive prompt injection
+  for system prompt exfiltration.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses adversarial testing and forensics of AI agents by fingerprinting
+    their terminal behavior and using this information to develop countermeasures, which is a systems-level
+    security contribution.
+status: draft

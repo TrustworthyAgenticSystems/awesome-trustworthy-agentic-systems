@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-engineering-robustness-into-personal-agents-with-the-ai
+type: papers
+title: Engineering Robustness into Personal Agents with the AI Workflow Store
+url: https://arxiv.org/abs/2605.10907v3
+authors:
+- Roxana Geambasu
+- Mariana Raykova
+- Pierre Tholoniat
+- Trishita Tiwari
+- Lillian Tsai
+- Wen Zhang
+venue: arXiv
+year: 2026
+summary: Proposes an "AI Workflow Store" as a reference architecture to integrate disciplined software
+  engineering processes like rigorous testing and staged deployment into agentic systems, moving beyond
+  brittle on-the-fly synthesis.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper outlines a vision for a new architectural paradigm for agentic systems, directly
+    addressing the need for engineering trustworthiness through robust software engineering practices.
+status: draft

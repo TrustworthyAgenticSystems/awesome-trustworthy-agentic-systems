@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-value-of-variance-mitigating-debate-collapse-in
+type: papers
+title: 'The Value of Variance: Mitigating Debate Collapse in Multi-Agent Systems via Uncertainty-Driven
+  Policy Optimization'
+url: https://arxiv.org/abs/2602.07186v1
+authors:
+- Luoxi Tang
+- Yuqiao Meng
+- Joseph Costa
+- Yingxue Zhang
+- Muchao Ye
+- Zhaohan Xi
+venue: arXiv
+year: 2026
+summary: Proposes a hierarchical metric to quantify behavioral uncertainty in multi-agent debate systems
+  and an uncertainty-driven policy optimization to mitigate debate collapse by penalizing self-contradiction
+  and peer conflict.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a specific failure mode (debate collapse) in multi-agent coordination and proposes
+    a system-level diagnostic and mitigation strategy.
+status: draft

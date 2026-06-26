@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-safereview-defending-llm-based-review-systems-against-adversarial
+type: papers
+title: 'SafeReview: Defending LLM-based Review Systems Against Adversarial Hidden Prompts'
+url: https://arxiv.org/abs/2604.26506v2
+authors:
+- Yuan Xin
+- Yixuan Weng
+- Minjun Zhu
+- Ying Ling
+- Chengwei Qin
+- Michael Backes
+- Yue Zhang
+- Linyi Yang
+venue: arXiv
+year: 2026
+summary: SafeReview is a co-evolutionary adversarial training framework that defends LLM-based peer review
+  systems against hidden prompt injection attacks by jointly training a Generator to create attacks and
+  a Defender to maintain review integrity.
+harness_layer:
+- red-team
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses adversarial testing and defense mechanisms for LLM-based systems,
+    specifically focusing on prompt injection attacks in a multi-turn, agent-like context (peer review).
+status: draft

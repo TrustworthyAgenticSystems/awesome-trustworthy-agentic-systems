@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-characterizing-faults-in-agentic-ai-a-taxonomy-of
+type: papers
+title: 'Characterizing Faults in Agentic AI: A Taxonomy of Types, Symptoms, and Root Causes'
+url: https://arxiv.org/abs/2603.06847v2
+authors:
+- Mehil B Shah
+- Mohammad Mehdi Morovati
+- Mohammad Masudur Rahman
+- Foutse Khomh
+venue: arXiv
+year: 2026
+summary: Empirical study of 385 faults in agentic AI systems, deriving a taxonomy of 34 fault types, symptoms,
+  and root causes across architectural dimensions like structured output, tool calls, and state management.
+harness_layer:
+- foundations
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Provides a foundational taxonomy of faults in agentic systems, directly addressing reliability
+    and observability challenges in the operational stack.
+status: draft

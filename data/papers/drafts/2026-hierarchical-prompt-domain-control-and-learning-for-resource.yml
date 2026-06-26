@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hierarchical-prompt-domain-control-and-learning-for-resource
+type: papers
+title: Hierarchical Prompt-Domain Control and Learning for Resource-Constrained Agentic Language Models
+url: https://arxiv.org/abs/2605.27703v1
+authors:
+- Joan Vendrell Gallart
+- Russell Bent
+- Michael Grosskopf
+venue: arXiv
+year: 2026
+summary: A hierarchical control-and-learning framework for resource-constrained agentic LLMs that separates
+  schema learning from semantic adaptation, using an oracle-controller to manage prompt-domain feasibility
+  and trigger lightweight fine-tuning under drift.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses the reliability of agent execution under resource constraints by managing prompt
+    state and adapting models through a control loop, which is a systems-level concern.
+status: draft

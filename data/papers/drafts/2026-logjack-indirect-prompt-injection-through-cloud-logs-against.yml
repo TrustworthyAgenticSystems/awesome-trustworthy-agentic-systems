@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-logjack-indirect-prompt-injection-through-cloud-logs-against
+type: papers
+title: 'LogJack: Indirect Prompt Injection Through Cloud Logs Against LLM Debugging Agents'
+url: https://arxiv.org/abs/2604.15368v1
+authors:
+- Harsh Shah
+venue: arXiv
+year: 2026
+summary: LogJack demonstrates indirect prompt injection attacks against LLM debugging agents via cloud
+  logs, evaluating 8 foundation models and cloud guardrails, and revealing a novel "sanitize and execute"
+  behavior.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a system-level adversarial threat (indirect prompt injection)
+    against agentic systems (debugging agents) and evaluates its impact on multiple models and cloud guardrails.
+status: draft

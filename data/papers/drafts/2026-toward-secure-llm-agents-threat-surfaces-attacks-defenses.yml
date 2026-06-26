@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-toward-secure-llm-agents-threat-surfaces-attacks-defenses
+type: papers
+title: 'Toward Secure LLM Agents: Threat Surfaces, Attacks, Defenses, and Evaluation'
+url: https://arxiv.org/abs/2606.10749v1
+authors:
+- Yuchen Ling
+- Shengcheng Yu
+- Zhenyu Chen
+- Chunrong Fang
+venue: arXiv
+year: 2026
+summary: A comprehensive survey and taxonomy of LLM agent security, framing risks around information flow,
+  delegated authority, and persistent state, and identifying gaps in current defenses and evaluation practices.
+harness_layer:
+- foundations
+sprs:
+- security
+- safety
+- privacy
+- reliability
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a foundational, systems-oriented framework for understanding and addressing
+    security risks in LLM agents, directly contributing to the 'foundations' layer of trustworthy agentic
+    systems.
+status: draft

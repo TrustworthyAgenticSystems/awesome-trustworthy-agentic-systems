@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-navigating-the-mirage-a-dual-path-agentic-framework
+type: papers
+title: 'Navigating the Mirage: A Dual-Path Agentic Framework for Robust Misleading Chart Question Answering'
+url: https://arxiv.org/abs/2603.28583v1
+authors:
+- Yanjie Zhang
+- Yafei Li
+- Rui Sheng
+- Zixin Chen
+- Yanna Lin
+- Huamin Qu
+- Lei Chen
+- Yushi Sun
+venue: arXiv
+year: 2026
+summary: A dual-path agentic framework, ChartCynics, decouples perception from verification to identify
+  misleading charts by using a Diagnostic Vision Path for structural anomalies and an OCR-Driven Data
+  Path for numerical grounding, resolving conflicts with an Agentic Summarizer.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper presents an agentic framework that uses a multi-agent coordination approach to
+    improve the reliability and safety of VLM outputs by explicitly addressing visual deception and data
+    distortion in charts.
+status: draft

@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-toward-personalized-llm-powered-agents-foundations-evaluation-and
+type: papers
+title: 'Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Future Directions'
+url: https://arxiv.org/abs/2602.22680v2
+authors:
+- Yue Xu
+- Qian Chen
+- Zizhan Ma
+- Dongrui Liu
+- Wenxuan Wang
+- Xiting Wang
+- Li Xiong
+- Wenjie Wang
+venue: arXiv
+year: 2026
+summary: A survey that taxonomizes personalized LLM-powered agents around profile modeling, memory, planning,
+  and action execution, analyzing how user signals are represented and utilized across the agent pipeline.
+harness_layer:
+- foundations
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a foundational taxonomy and survey of personalized LLM agents, which
+    is relevant to understanding the system-level challenges of building trustworthy agents.
+status: draft

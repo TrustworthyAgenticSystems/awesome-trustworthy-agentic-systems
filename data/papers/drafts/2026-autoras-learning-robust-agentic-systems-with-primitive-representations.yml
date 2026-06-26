@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-autoras-learning-robust-agentic-systems-with-primitive-representations
+type: papers
+title: 'AutoRAS: Learning Robust Agentic Systems with Primitive Representations'
+url: https://arxiv.org/abs/2606.21445v1
+authors:
+- Yang Yue
+- Xuancheng Zhu
+- Yuyang Ma
+- Guoshun Nan
+- Zihan Dou
+- Jingru Shan
+- Congyu Guo
+- Ji Zhang
+- Hua Wang
+- Jingfeng Zhang
+venue: arXiv
+year: 2026
+summary: AutoRAS is a framework for automatically designing robust multi-agent systems by generating and
+  optimizing sequences of symbolic primitives based on execution-derived safety signals and flow-based
+  objectives, improving robustness against adversarial attacks and internal failures.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the robustness of multi-agent systems by focusing on the automated
+    design and optimization of agent workflows, which is a core coordination-layer concern for trustworthy
+    agents.
+status: draft

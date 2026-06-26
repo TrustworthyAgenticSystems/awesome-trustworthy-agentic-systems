@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-generated-parallel-scalable-a-study-of-agentic-ai
+type: papers
+title: Generated, Parallel, Scalable? A Study of Agentic AI-Generated Julia Code on Supercomputers
+url: https://arxiv.org/abs/2606.16534v2
+authors:
+- Linus Bantel
+- Anna-Lena Roth
+- Jonas Posner
+- Dirk Pflüger
+venue: arXiv
+year: 2026
+summary: Evaluates agentic generation of parallel Julia code for HPC, identifying reliability issues like
+  deadlocks and out-of-memory errors at scale, and comparing different LLMs and parallelization frameworks.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper studies the reliability of AI-generated code in a specific, high-stakes domain
+    (HPC) and identifies systemic failures in agentic workflows, contributing to understanding agentic
+    system limitations.
+status: draft

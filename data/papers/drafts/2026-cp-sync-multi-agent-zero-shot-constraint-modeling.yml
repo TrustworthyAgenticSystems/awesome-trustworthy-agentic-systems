@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cp-sync-multi-agent-zero-shot-constraint-modeling
+type: papers
+title: 'CP-SynC: Multi-Agent Zero-Shot Constraint Modeling in MiniZinc with Synthesized Checkers'
+url: https://arxiv.org/abs/2605.01675v1
+authors:
+- Yuliang Song
+- Eldan Cohen
+venue: arXiv
+year: 2026
+summary: CP-SynC is a multi-agent workflow that coordinates modeling and validation agents to generate
+  and refine MiniZinc constraint programming models, using synthesized semantic checkers and multi-agent
+  evidence aggregation for improved reliability.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-agent coordination system for a complex task, focusing on improving
+    reliability through synthesized checkers and evidence aggregation, which is a systems-level contribution
+    to agent trustworthiness.
+status: draft

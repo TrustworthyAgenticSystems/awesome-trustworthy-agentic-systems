@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-regal-a-registry-driven-architecture-for-deterministic-grounding
+type: papers
+title: 'REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise
+  Telemetry'
+url: https://arxiv.org/abs/2603.03018v1
+authors:
+- Yuvraj Agrawal
+venue: arXiv
+year: 2026
+summary: REGAL is a registry-driven architecture for deterministically grounding agentic AI in enterprise
+  telemetry by using a Medallion ELT pipeline for compressed artifacts and a registry-driven compilation
+  layer for MCP tools, addressing context limits, semantic concepts, and metric interfaces.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- security
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper proposes a concrete architectural pattern for trustworthy agentic systems in an
+    enterprise context, focusing on deterministic grounding and governance through a registry-driven approach.
+status: draft

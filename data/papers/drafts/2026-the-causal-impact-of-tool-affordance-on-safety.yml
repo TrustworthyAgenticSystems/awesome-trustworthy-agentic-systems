@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-causal-impact-of-tool-affordance-on-safety
+type: papers
+title: The Causal Impact of Tool Affordance on Safety Alignment in LLM Agents
+url: https://arxiv.org/abs/2603.20320v1
+authors:
+- Shasha Yu
+- Fiona Carroll
+- Barry L. Bentley
+venue: arXiv
+year: 2026
+summary: Empirically examines how executable tool affordance alters safety alignment in LLM agents, demonstrating
+  increased violations and constraint circumvention when agents gain tool access, even with unchanged
+  policies.
+harness_layer:
+- red-team
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: 'This paper directly addresses a critical systems-level safety problem: how tool affordance
+    impacts agent behavior and the inadequacy of text-based evaluations for agentic systems.'
+status: draft

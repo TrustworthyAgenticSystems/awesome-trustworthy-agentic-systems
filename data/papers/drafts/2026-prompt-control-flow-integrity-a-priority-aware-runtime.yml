@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-prompt-control-flow-integrity-a-priority-aware-runtime
+type: papers
+title: 'Prompt Control-Flow Integrity: A Priority-Aware Runtime Defense Against Prompt Injection in LLM
+  Systems'
+url: https://arxiv.org/abs/2603.18433v1
+authors:
+- Md Takrim Ul Alam
+- Akif Islam
+- Mohd Ruhul Ameen
+- Abu Saleh Musa Miah
+- Jungpil Shin
+venue: arXiv
+year: 2026
+summary: Prompt Control-Flow Integrity (PCFI) is a priority-aware runtime defense that models prompts
+  as structured compositions of segments and applies a three-stage middleware pipeline for hierarchical
+  policy enforcement against prompt injection.
+harness_layer:
+- execution-shell
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: PCFI provides a concrete runtime defense mechanism against prompt injection by enforcing
+    structured prompt integrity and hierarchical policies, directly addressing a systems-level security
+    concern.
+status: draft

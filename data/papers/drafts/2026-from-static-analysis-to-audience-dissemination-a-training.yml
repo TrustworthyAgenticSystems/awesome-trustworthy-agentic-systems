@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-static-analysis-to-audience-dissemination-a-training
+type: papers
+title: 'From Static Analysis to Audience Dissemination: A Training-Free Multimodal Controversy Detection
+  Multi-Agent Framework'
+url: https://arxiv.org/abs/2605.02939v1
+authors:
+- Zihan Ding
+- Ziyuan Yang
+- Yi Zhang
+venue: arXiv
+year: 2026
+summary: A training-free multi-agent framework, AuDisAgent, for multimodal controversy detection that
+  models audience dissemination through specialized screening agents, a viewing panel agent for discussion,
+  and an arbitration agent for final judgment.
+harness_layer:
+- coordination
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a multi-agent framework for controversy detection, explicitly modeling
+    coordination and decision-making among agents to address a safety-critical task.
+status: draft

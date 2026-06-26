@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ai-agents-under-eu-law
+type: papers
+title: AI Agents Under EU Law
+url: https://arxiv.org/abs/2604.04604v1
+authors:
+- Luca Nannini
+- Adam Leon Smith
+- Michele Joshua Maggini
+- Enrico Panai
+- Sandra Feliciano
+- Aleksandr Tiulkanov
+- Elena Maran
+- James Gealy
+- Piercosma Bisconti
+venue: arXiv
+year: 2026
+summary: This paper provides a systematic regulatory mapping for AI agent providers under EU law, identifying
+  compliance challenges in cybersecurity, human oversight, transparency, and runtime behavioral drift,
+  and proposing a compliance architecture.
+harness_layer:
+- foundations
+sprs:
+- safety
+- security
+- privacy
+open_problems:
+- observability-attribution
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a foundational regulatory mapping and taxonomy for trustworthy agentic
+    systems, addressing cross-community framing of risks and compliance challenges.
+status: draft

@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-knowledge-graphs-the-missing-link-in-agentic-ai
+type: papers
+title: Knowledge Graphs, the Missing Link in Agentic AI-based Formal Verification
+url: https://arxiv.org/abs/2605.06434v1
+authors:
+- Vaisakh Naduvodi Viswambharan
+- Keerthan Kopparam Radhakrishna
+- Deepak Narayan Gadde
+- Aman Kumar
+venue: arXiv
+year: 2026
+summary: A multi-agent workflow leverages a verification-centric Knowledge Graph (KG) to improve SystemVerilog
+  Assertion (SVA) synthesis by providing traceable, design-grounded context from specifications, RTL,
+  and formal-tool feedback, driving refinement loops for syntax repair, CEX-guided correction, and coverage-directed
+  property augmentation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-agent system that uses a knowledge graph to coordinate and refine
+    formal verification tasks, addressing reliability in agentic workflows.
+status: draft

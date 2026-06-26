@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-adaptorch-task-adaptive-multi-agent-orchestration-in-the
+type: papers
+title: 'AdaptOrch: Task-Adaptive Multi-Agent Orchestration in the Era of LLM Performance Convergence'
+url: https://arxiv.org/abs/2602.16873v1
+authors:
+- Geunbin Yu
+venue: arXiv
+year: 2026
+summary: AdaptOrch is a formal framework for task-adaptive multi-agent orchestration that dynamically
+  selects optimal topologies based on task dependency graphs, demonstrating performance improvements over
+  static baselines.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses multi-agent coordination and orchestration as a systems-level
+    problem, contributing to the reliability of agent workflows.
+status: draft

@@ -1,0 +1,43 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hr-agents-using-multiple-llm-based-agents-to
+type: papers
+title: 'HR-Agents: Using Multiple LLM-based Agents to Improve Q&A about Brazilian Labor Legislation'
+url: https://arxiv.org/abs/2604.16337v1
+authors:
+- Abriel K. Moraes
+- Gabriel S. M. Dias
+- Vitor L. Fabris
+- Lucas D. Gessoni
+- Leonardo R. do Nascimento
+- Charles S. Oliveira
+- Vitor G. C. B. de Farias
+- Fabiana C. Q. de O. Marucci
+- Matheus H. R. Vicente
+- Gabriel U. Talasso
+- Erik Soares
+- Amparo Munoz
+- Sildolfo Gomes
+- Maria L. A. de S. Cruvinel
+- Leonardo T. dos Santos
+- Renata De Paris
+- Wandemberg Gibaut
+venue: arXiv
+year: 2026
+summary: A multi-agent system using specialized LLM agents and RAG is introduced to improve the accuracy
+  and efficiency of Q&A about Brazilian labor legislation, with cooperative agent interactions for response
+  validation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system with cooperative agent interactions for response
+    validation, which is a contribution to agent coordination and reliability.
+status: draft

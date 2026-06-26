@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-evoflux-inference-time-evolution-of-executable-tool-workflows
+type: papers
+title: 'Evoflux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents'
+url: https://arxiv.org/abs/2606.12674v1
+authors:
+- Kushal Raj Bhandari
+- Ling Yue
+- Ching-Yun Ko
+- Dhaval Patel
+- Shaowu Pan
+- Pin-Yu Chen
+- Jianxi Gao
+venue: arXiv
+year: 2026
+summary: Evoflux is an inference-time evolutionary search method that repairs executable tool workflows
+  for compact agents by evolving typed workflow graphs through structured edits and execution feedback,
+  improving execution feasibility on live MCP servers.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses the reliability of multi-step tool use in compact agents by proposing
+    a system-level repair mechanism for workflow graphs, which is a core coordination problem.
+status: draft

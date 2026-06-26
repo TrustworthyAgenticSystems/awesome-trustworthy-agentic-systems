@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-neuro-symbolic-approach-to-strategy-synthesis-for
+type: papers
+title: A Neuro-Symbolic Approach to Strategy Synthesis for Strategic Logics
+url: https://arxiv.org/abs/2606.17962v1
+authors:
+- Marco Aruta
+- Vadim Malvone
+- Aniello Murano
+- Domenico Parente
+- Luca Rizzuti
+venue: arXiv
+year: 2026
+summary: A neuro-symbolic framework integrates LLMs as strategy-generation oracles into a multi-agent
+  system model-checking pipeline, using formal validation to ensure soundness while navigating large strategy
+  spaces.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the coordination layer by using LLMs for strategy generation in
+    multi-agent systems, with a formal certification step to ensure reliability.
+status: draft

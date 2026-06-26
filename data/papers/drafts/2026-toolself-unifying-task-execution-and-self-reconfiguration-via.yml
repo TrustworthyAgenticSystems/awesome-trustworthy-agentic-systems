@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-toolself-unifying-task-execution-and-self-reconfiguration-via
+type: papers
+title: 'ToolSelf: Unifying Task Execution and Self-Reconfiguration via Tool-Driven Emergent Adaptation'
+url: https://arxiv.org/abs/2602.07883v4
+authors:
+- Jingqi Zhou
+- Sheng Wang
+- Dezhao Deng
+- Junwen Lu
+- Junwei Su
+- Qintong Li
+- Jiahui Gao
+- Hao Wu
+- Jiyue Jiang
+- Lingpeng Kong
+- Dunhong Jin
+- Chuan Wu
+venue: arXiv
+year: 2026
+summary: ToolSelf unifies agent execution and self-reconfiguration by abstracting configuration updates
+  as a tool interface, allowing dynamic adaptation of sub-goals, strategies, and toolboxes during task
+  execution.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a novel runtime self-reconfiguration paradigm that directly impacts
+    the execution shell and reliability of agentic systems.
+status: draft

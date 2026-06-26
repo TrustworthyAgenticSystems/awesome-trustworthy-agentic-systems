@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-how-should-agents-read-demonstrations-hierarchical-structure-beats
+type: papers
+title: How Should Agents Read Demonstrations? Hierarchical Structure Beats Flat Action Logs
+url: https://arxiv.org/abs/2606.20978v1
+authors:
+- Honjar Xing
+- Jefferson Lin
+- Henry Lieberman
+venue: arXiv
+year: 2026
+summary: Proposes structuring programming-by-demonstration action logs into hierarchical subgoals to improve
+  agent plan quality, especially for vague natural-language tasks, offering a design recommendation for
+  procedural context feeding.
+harness_layer:
+- intent
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to how human intent (demonstrations) is structured and translated into
+    reliable agent plans, addressing a key aspect of agent trustworthiness.
+status: draft

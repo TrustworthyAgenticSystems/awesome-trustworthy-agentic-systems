@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-argus-reorchestrating-static-analysis-via-a-multi-agent
+type: papers
+title: 'Argus: Reorchestrating Static Analysis via a Multi-Agent Ensemble for Full-Chain Security Vulnerability
+  Detection'
+url: https://arxiv.org/abs/2604.06633v1
+authors:
+- Zi Liang
+- Qipeng Xie
+- Jun He
+- Bohuan Xue
+- Weizheng Wang
+- Yuandao Cai
+- Fei Luo
+- Boxian Zhang
+- Haibo Hu
+- Kaishun Wu
+venue: arXiv
+year: 2026
+summary: Argus is a multi-agent framework that reorchestrates static analysis for vulnerability detection,
+  integrating supply chain analysis, collaborative agent workflows, RAG, and ReAct to improve accuracy
+  and reduce false positives.
+harness_layer:
+- coordination
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-agent system for security vulnerability detection, focusing on
+    the orchestration of agents and integration with existing SAST tools, which is a systems-level contribution
+    to trustworthy agents.
+status: draft

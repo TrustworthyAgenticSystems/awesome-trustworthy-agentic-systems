@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-infrastructure-for-valuable-tradable-and-verifiable-agent-memory
+type: papers
+title: Infrastructure for Valuable, Tradable, and Verifiable Agent Memory
+url: https://arxiv.org/abs/2603.24564v1
+authors:
+- Mengyuan Li
+- Lei Gao
+- Haoxuan Xu
+- Jiate Li
+- Potung Yu
+- Lingke Cheng
+- Yue Zhao
+- Murali Annavaram
+venue: arXiv
+year: 2026
+summary: Proposes an infrastructure (clawgang and meowtrade) to bind agent memory to verifiable computational
+  provenance, enabling its transfer and trade as a certified asset in an agent economy.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses the integrity and provenance of agent memory, enabling its verifiable and tradable
+    use, which is a systems-level concern for trustworthy agents.
+status: draft

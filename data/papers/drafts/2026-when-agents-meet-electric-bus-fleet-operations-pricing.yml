@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-agents-meet-electric-bus-fleet-operations-pricing
+type: papers
+title: 'When Agents Meet Electric Bus Fleet Operations: Pricing Behavior, Trade-offs, and Policy Implications
+  in an Aggregator Framework'
+url: https://arxiv.org/abs/2606.26400v1
+authors:
+- Jônatas Augusto Manzolli
+- Ali Eslami
+- Luis Miranda-Moreno
+- Jiangbo Yu
+venue: arXiv
+year: 2026
+summary: Proposes an agentic aggregator framework for electric bus fleet operations that couples an optimization
+  core with supervisory agents for real-time adaptation, evaluating its performance and identifying trade-offs
+  in value allocation between the aggregator and public transport operator.
+harness_layer:
+- architectures
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper presents a concrete agentic system architecture for a complex operational domain,
+    including real-time adaptation and analysis of operational trade-offs and policy implications, which
+    is relevant to trustworthy agentic systems.
+status: draft

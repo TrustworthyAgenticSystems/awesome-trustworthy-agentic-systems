@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-prompt-based-planning-mcp-native-graph-planning
+type: papers
+title: 'Beyond Prompt-Based Planning: MCP-Native Graph Planning-based Biomedical Agent System'
+url: https://arxiv.org/abs/2606.04494v1
+authors:
+- Zhangtianyi Chen
+- Florensia Widjaja
+- Wufei Dai
+- Xiangjun Zhang
+- Yuhao Shen
+- Juexiao Zhou
+venue: arXiv
+year: 2026
+summary: BioManus introduces a graph-scaffolded planning approach for biomedical agents, converting heterogeneous
+  bioinformatics tools into standardized MCP servers and organizing them into a typed graph to improve
+  planning stability and execution efficiency.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses agent planning and execution efficiency by structuring tool capabilities
+    into a graph, which is a systems-level contribution to agent coordination and reliability.
+status: draft

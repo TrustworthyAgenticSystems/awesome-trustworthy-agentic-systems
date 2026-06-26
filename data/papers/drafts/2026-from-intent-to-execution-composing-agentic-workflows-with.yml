@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-intent-to-execution-composing-agentic-workflows-with
+type: papers
+title: 'From Intent to Execution: Composing Agentic Workflows with Agent Recommendation'
+url: https://arxiv.org/abs/2605.03986v1
+authors:
+- Kishan Athrey
+- Ramin Pishehvar
+- Brian Riordan
+- Mahesh Viswanathan
+venue: arXiv
+year: 2026
+summary: A framework for automated multi-agent system creation, including an LLM-derived planner, dynamic
+  call graph, orchestrator, and a two-stage agent recommender with a critique agent for comprehensive
+  review and revision of task-based agent selection.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the automated composition and orchestration of multi-agent systems,
+    including a critique agent for reliability, which is a systems-engineering concern.
+status: draft

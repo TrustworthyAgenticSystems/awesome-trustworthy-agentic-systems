@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governance-by-construction-for-generalist-agents
+type: papers
+title: Governance by Construction for Generalist Agents
+url: https://arxiv.org/abs/2605.20874v1
+authors:
+- Segev Shlomov
+- Iftach Shoham
+- Alon Oved
+- Ido Levy
+- Sami Marreed
+- Harold Ship
+- Offer Akrabi
+- Sergey Zeltyn
+- Avi Yaeli
+- Nir Mashkif
+venue: arXiv
+year: 2026
+summary: CUGA's policy-as-code system provides a modular governance layer for generalist LLM agents, enforcing
+  policies at five structural checkpoints across the execution pipeline to ensure predictable, auditable,
+  and compliance-aware behavior.
+harness_layer:
+- oversight
+sprs:
+- security
+- safety
+open_problems:
+- intent-to-constraints
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the systems-engineering challenge of governance and oversight
+    for enterprise agents through a concrete, multi-stage policy enforcement architecture.
+status: draft

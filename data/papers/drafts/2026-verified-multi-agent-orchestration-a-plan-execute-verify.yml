@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-verified-multi-agent-orchestration-a-plan-execute-verify
+type: papers
+title: 'Verified Multi-Agent Orchestration: A Plan-Execute-Verify-Replan Framework for Complex Query Resolution'
+url: https://arxiv.org/abs/2603.11445v2
+authors:
+- Xing Zhang
+- Yanwei Cui
+- Guanghui Wang
+- Wei Qiu
+- Ziyuan Li
+- Fangwei Han
+- Yajing Huang
+- Hengzhi Qiu
+- Bing Zhu
+- Peiyang He
+venue: arXiv
+year: 2026
+summary: A multi-agent orchestration framework that uses a verification-driven iterative loop to decompose
+  complex queries, execute sub-questions in parallel, and adaptively replan based on LLM-based completeness
+  checks.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to multi-agent coordination and reliability through a verification-driven
+    orchestration mechanism, which is a systems-level concern.
+status: draft

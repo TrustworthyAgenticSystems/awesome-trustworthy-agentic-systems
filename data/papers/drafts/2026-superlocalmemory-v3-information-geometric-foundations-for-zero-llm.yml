@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-superlocalmemory-v3-information-geometric-foundations-for-zero-llm
+type: papers
+title: 'SuperLocalMemory V3: Information-Geometric Foundations for Zero-LLM Enterprise Agent Memory'
+url: https://arxiv.org/abs/2603.14588v1
+authors:
+- Varun Pratap Bhardwaj
+venue: arXiv
+year: 2026
+summary: Establishes information-geometric foundations for agent memory retrieval, lifecycle management,
+  and contradiction detection, replacing heuristics with principled mathematical models for consistency
+  and data sovereignty.
+harness_layer:
+- memory
+sprs:
+- reliability
+- privacy
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Provides foundational mathematical contributions to agent memory systems, addressing consistency
+    and data sovereignty, which are critical for trustworthy agentic systems.
+status: draft

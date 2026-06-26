@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-paper-reconstruction-evaluation-evaluating-presentation-and-hallucination-in
+type: papers
+title: 'Paper Reconstruction Evaluation: Evaluating Presentation and Hallucination in AI-written Papers'
+url: https://arxiv.org/abs/2604.01128v1
+authors:
+- Atsuyuki Miyai
+- Mashiro Toyooka
+- Zaiying Zhao
+- Kenta Watanabe
+- Toshihiko Yamasaki
+- Kiyoharu Aizawa
+venue: arXiv
+year: 2026
+summary: Introduces PaperRecon, an evaluation framework to quantify the quality and risks of AI-written
+  papers by comparing agent-generated papers against originals, disentangling presentation and hallucination
+  metrics.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a systematic evaluation framework for the output quality and risks of agentic systems,
+    specifically for AI-driven paper writing, which is a form of agentic action.
+status: draft

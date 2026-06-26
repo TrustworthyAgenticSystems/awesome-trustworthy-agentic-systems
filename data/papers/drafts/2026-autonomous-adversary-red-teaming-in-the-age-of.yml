@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-autonomous-adversary-red-teaming-in-the-age-of
+type: papers
+title: 'Autonomous Adversary: Red-Teaming in the age of LLM'
+url: https://arxiv.org/abs/2605.06486v1
+authors:
+- Mohammad Mamun
+- Mohamed Gaber
+- Scott Buffett
+- Sherif Saad
+venue: arXiv
+year: 2026
+summary: Analyzes the use of Language Model Agents for red-teaming, specifically in lateral movement scenarios,
+  benchmarking different operational modalities and identifying system-level failure modes like brittle
+  command invocation and state handling.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to red-teaming agentic systems by evaluating LLM agents in
+    adversarial scenarios and identifying systems-level vulnerabilities.
+status: draft

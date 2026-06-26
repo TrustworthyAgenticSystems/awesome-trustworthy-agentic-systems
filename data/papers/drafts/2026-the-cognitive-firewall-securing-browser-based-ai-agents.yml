@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-cognitive-firewall-securing-browser-based-ai-agents
+type: papers
+title: The Cognitive Firewall:Securing Browser Based AI Agents Against Indirect Prompt Injection Via Hybrid
+  Edge Cloud Defense
+url: https://arxiv.org/abs/2603.23791v1
+authors:
+- Qianlong Lan
+- Anuj Kaul
+venue: arXiv
+year: 2026
+summary: The Cognitive Firewall is a three-stage split-compute architecture that distributes security
+  checks across client and cloud to defend browser-based AI agents against indirect prompt injection,
+  achieving low attack success rates and significant latency advantages.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses securing browser-based AI agents against indirect prompt injection
+    through a novel hybrid edge-cloud defense architecture, focusing on the tool interface and execution
+    boundaries.
+status: draft

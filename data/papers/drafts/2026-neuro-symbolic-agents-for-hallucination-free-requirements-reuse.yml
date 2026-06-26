@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-neuro-symbolic-agents-for-hallucination-free-requirements-reuse
+type: papers
+title: Neuro-Symbolic Agents for Hallucination-Free Requirements Reuse
+url: https://arxiv.org/abs/2605.01562v2
+authors:
+- Ahmed F. Ibrahim
+venue: arXiv
+year: 2026
+summary: A neuro-symbolic multi-agent system for requirements reuse that uses an LLM as a heuristic for
+  traversing a formal domain model, with a symbolic validator enforcing structural constraints to prevent
+  hallucinated requirement combinations.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper presents a multi-agent system that uses symbolic validation within the agent loop
+    to ensure structural integrity and prevent hallucinations, directly addressing reliability and safety
+    in agentic workflows.
+status: draft

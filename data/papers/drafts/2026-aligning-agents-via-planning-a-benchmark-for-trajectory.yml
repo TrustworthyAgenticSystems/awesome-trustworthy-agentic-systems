@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-aligning-agents-via-planning-a-benchmark-for-trajectory
+type: papers
+title: 'Aligning Agents via Planning: A Benchmark for Trajectory-Level Reward Modeling'
+url: https://arxiv.org/abs/2604.08178v2
+authors:
+- Jiaxuan Wang
+- Yulan Hu
+- Wenjin Yang
+- Zheng Pan
+- Xin Li
+- Lan-Zhe Guo
+venue: arXiv
+year: 2026
+summary: Introduces Plan-RewardBench, a trajectory-level preference benchmark for evaluating reward models
+  in tool-integrated agentic systems, covering safety, tool-use, planning, and error recovery scenarios.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a benchmark for evaluating agentic system trustworthiness at the trajectory
+    level, which is a direct contribution to observation and evaluation of agent behavior.
+status: draft

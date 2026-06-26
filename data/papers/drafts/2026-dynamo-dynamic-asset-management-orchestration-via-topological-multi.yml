@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-dynamo-dynamic-asset-management-orchestration-via-topological-multi
+type: papers
+title: DynAMO:Dynamic Asset Management Orchestration via Topological Multi-Agent Scheduling
+url: https://arxiv.org/abs/2606.19382v1
+authors:
+- Kanishk Kushwaha
+- Vikrant Vinod Bansode
+- Harsh Vardhan
+- Dhaval C. Patel
+venue: arXiv
+year: 2026
+summary: DynAMO is a Plan-then-Execute engine for industrial asset management that generates verifiable
+  workflow graphs, supporting both sequential and dependency-aware parallel execution to improve efficiency
+  and robustness in multi-agent orchestration.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper presents a concrete system for multi-agent coordination and scheduling, addressing
+    reliability and safety in industrial automation with experimental validation.
+status: draft

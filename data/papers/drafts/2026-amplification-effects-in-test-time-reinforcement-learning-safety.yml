@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-amplification-effects-in-test-time-reinforcement-learning-safety
+type: papers
+title: 'Amplification Effects in Test-Time Reinforcement Learning: Safety and Reasoning Vulnerabilities'
+url: https://arxiv.org/abs/2603.15417v1
+authors:
+- Vanshaj Khattar
+- Md Rafi ur Rashid
+- Moumita Choudhury
+- Jing Liu
+- Toshiaki Koike-Akino
+- Ming Jin
+- Ye Wang
+venue: arXiv
+year: 2026
+summary: Investigates safety vulnerabilities in test-time reinforcement learning (TTRL) methods, demonstrating
+  how harmful prompt injections amplify existing model behaviors and degrade reasoning, especially with
+  specially designed "HarmInject" prompts.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses adversarial testing of agentic systems by demonstrating prompt
+    injection vulnerabilities in test-time learning, which is a form of agent adaptation.
+status: draft

@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-clawnet-human-symbiotic-agent-network-for-cross-user
+type: papers
+title: 'ClawNet: Human-Symbiotic Agent Network for Cross-User Autonomous Cooperation'
+url: https://arxiv.org/abs/2604.19211v1
+authors:
+- Zhiqin Yang
+- Zhenyuan Zhang
+- Xianzhang Jia
+- Jun Song
+- Wei Xue
+- Yonggang Zhang
+- Yike Guo
+venue: arXiv
+year: 2026
+summary: Proposes a human-symbiotic agent network paradigm with a layered identity architecture, scoped
+  authorization, and action-level accountability for secure cross-user agent collaboration.
+harness_layer:
+- coordination
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses the systems-level challenges of secure multi-user, multi-agent coordination
+    and governance, including identity, authorization, and accountability.
+status: draft

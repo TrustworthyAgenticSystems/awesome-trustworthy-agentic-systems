@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-episodic-semantic-memory-architecture-for-long-horizon-scientific
+type: papers
+title: Episodic-Semantic Memory Architecture for Long-Horizon Scientific Agents
+url: https://arxiv.org/abs/2605.17625v1
+authors:
+- Nikola Milosevic
+venue: arXiv
+year: 2026
+summary: Proposes and evaluates a dual-process memory architecture for scientific agents that decouples
+  episodic and semantic memory to manage context window saturation and enable long-horizon operation,
+  demonstrating improved accuracy and token efficiency over full-context models.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a core systems-engineering problem for long-running agents (memory management and
+    context saturation) with a concrete architectural solution and large-scale evaluation.
+status: draft

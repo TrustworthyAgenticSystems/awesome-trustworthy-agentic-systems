@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-compiled-memory-not-more-information-but-more-precise
+type: papers
+title: 'Compiled Memory: Not More Information, but More Precise Instructions for Language Agents'
+url: https://arxiv.org/abs/2603.15666v1
+authors:
+- James Rhodes
+- George Kang
+venue: arXiv
+year: 2026
+summary: Atlas is a memory kernel that distills agent task experience into instruction rewriting, updating
+  the agent's system prompt with verified facts from failures and successes to improve performance on
+  subsequent tasks.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a novel approach to agent memory that directly impacts how an agent's
+    instructions evolve based on its experience, addressing memory utility and reliability through system
+    prompt rewriting.
+status: draft

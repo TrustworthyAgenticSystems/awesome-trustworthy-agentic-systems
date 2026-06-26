@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-learning-to-hand-off-provably-convergent-workflow-learning
+type: papers
+title: 'Learning to Hand Off: Provably Convergent Workflow Learning under Interface Constraints'
+url: https://arxiv.org/abs/2605.19140v1
+authors:
+- Jiayu Li
+- Enpei Zhang
+- Dawei Zhou
+- Elynn Chen
+- Yujun Yan
+venue: arXiv
+year: 2026
+summary: Formalizes multi-agent workflow learning under interface constraints as an IC-SMDP and proposes
+  IC-Q, a decentralized Q-learning algorithm with finite-sample guarantees for coordinating agents via
+  scalar handoffs.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses multi-agent coordination and reliability in a decentralized setting, which is relevant
+    to trustworthy agentic systems.
+status: draft

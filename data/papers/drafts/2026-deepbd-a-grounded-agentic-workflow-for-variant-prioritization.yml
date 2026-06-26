@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-deepbd-a-grounded-agentic-workflow-for-variant-prioritization
+type: papers
+title: 'DeepBD: A Grounded Agentic Workflow for Variant Prioritization and Diagnosis of Genetic Birth
+  Defects'
+url: https://arxiv.org/abs/2606.24779v1
+authors:
+- Shiyu Li
+- Ziqi Yan
+- Zhihao Wu
+- Jielong Lu
+- Weiran Liao
+- Jiajun Yu
+- Genjie Li
+- Zeyu Chu
+- Jiajun Bu
+- Haishuai Wang
+venue: arXiv
+year: 2026
+summary: DeepBD is a grounded agentic workflow for genetic variant prioritization and diagnosis, separating
+  evidence integration, tool-based refinement, and LLM-assisted diagnostic review to improve recall on
+  birth defect cases.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper presents a reference architecture for a trustworthy agentic system in a high-stakes
+    domain, detailing the workflow and its components for reliability and safety.
+status: draft

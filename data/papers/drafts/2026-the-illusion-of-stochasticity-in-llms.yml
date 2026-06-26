@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-illusion-of-stochasticity-in-llms
+type: papers
+title: The Illusion of Stochasticity in LLMs
+url: https://arxiv.org/abs/2604.06543v1
+authors:
+- Xiangming Gu
+- Soham De
+- Michalis Titsias
+- Larisa Markeeva
+- Petar Veličković
+- Razvan Pascanu
+venue: arXiv
+year: 2026
+summary: Empirical analysis demonstrating that LLMs struggle to reliably sample from specified distributions,
+  highlighting a fundamental flaw in their stochastic output generation for agentic systems.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper identifies a fundamental reliability issue in how LLMs, when acting as agents,
+    handle stochastic sampling, which is critical for agent execution and decision-making.
+status: draft

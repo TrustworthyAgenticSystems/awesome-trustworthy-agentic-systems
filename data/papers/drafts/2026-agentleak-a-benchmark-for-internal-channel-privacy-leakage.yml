@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentleak-a-benchmark-for-internal-channel-privacy-leakage
+type: papers
+title: 'AgentLeak: A Benchmark for Internal-Channel Privacy Leakage in Multi-Agent LLM Systems'
+url: https://arxiv.org/abs/2602.11510v3
+authors:
+- Faouzi El Yagoubi
+- Godwin Badu-Marfo
+- Ranwa Al Mallah
+venue: arXiv
+year: 2026
+summary: Introduces AgentLeak, a benchmark for evaluating internal-channel privacy leakage in multi-agent
+  LLM systems by instrumenting seven communication pathways and analyzing inter-agent messages and shared
+  memory.
+harness_layer:
+- observation-eval
+sprs:
+- privacy
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses privacy leakage in multi-agent systems by proposing a novel benchmark
+    and methodology for observing and evaluating internal communication channels, which is a critical
+    systems-level problem.
+status: draft

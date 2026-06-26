@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-distributed-general-purpose-agent-networks-architecture-key-mechanisms
+type: papers
+title: 'Distributed General-Purpose Agent Networks: Architecture, Key Mechanisms, and Prototypes'
+url: https://arxiv.org/abs/2606.17368v1
+authors:
+- Shengli Zhang
+- Deen Ma
+- Zibin Lin
+- Taotao Wang
+venue: arXiv
+year: 2026
+summary: Proposes a layered architecture for distributed general-purpose agent networks, focusing on semantic
+  announcement propagation for discovery, verifiable identity and multi-topic reputation for governance,
+  and semantic-gradient mechanism design for task execution.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses the systems-level challenges of coordination, trust, and governance in open, distributed
+    multi-agent networks, including specific technical mechanisms and prototype results.
+status: draft

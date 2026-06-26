@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-control-charts-for-multi-agent-systems
+type: papers
+title: Control Charts for Multi-agent Systems
+url: https://arxiv.org/abs/2605.11135v1
+authors:
+- Hayden Helm
+- Carey Priebe
+- Brandon Duderstadt
+venue: arXiv
+year: 2026
+summary: Extends adaptive control charts to multi-agent systems for automated monitoring, demonstrating
+  their necessity for learning agents and susceptibility to slow adversarial defection.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Proposes a concrete monitoring mechanism for multi-agent systems and analyzes its robustness
+    against adaptive adversaries, directly addressing observation and evaluation concerns.
+status: draft

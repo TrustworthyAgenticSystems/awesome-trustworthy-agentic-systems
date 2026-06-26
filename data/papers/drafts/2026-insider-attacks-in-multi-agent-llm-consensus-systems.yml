@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-insider-attacks-in-multi-agent-llm-consensus-systems
+type: papers
+title: Insider Attacks in Multi-Agent LLM Consensus Systems
+url: https://arxiv.org/abs/2605.08268v1
+authors:
+- Xiaolin Sun
+- Zixuan Liu
+- Yibin Hu
+- Zizhan Zheng
+venue: arXiv
+year: 2026
+summary: Formalizes and demonstrates insider manipulation attacks in multi-agent LLM consensus systems
+  using a world-model-based reinforcement learning framework to delay or prevent agreement among benign
+  agents.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Directly addresses adversarial testing of multi-agent systems by modeling and executing insider
+    attacks on consensus mechanisms.
+status: draft

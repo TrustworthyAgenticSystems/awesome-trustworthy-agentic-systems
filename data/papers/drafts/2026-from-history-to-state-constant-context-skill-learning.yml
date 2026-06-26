@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-history-to-state-constant-context-skill-learning
+type: papers
+title: 'From History to State: Constant-Context Skill Learning for LLM Agents'
+url: https://arxiv.org/abs/2605.05413v1
+authors:
+- Haoyang Xie
+- Xinyuan Wang
+- Yancheng Wang
+- Puda Zhao
+- Feng Ju
+venue: arXiv
+year: 2026
+summary: A context-to-weights framework for agent skill learning that moves procedural context from prompts
+  into model weights, reducing prompt tokens and improving privacy by minimizing sensitive context exposure
+  to external APIs.
+harness_layer:
+- memory
+sprs:
+- privacy
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses privacy and cost concerns in agent memory management by internalizing recurring
+    workflow context into model weights, a systems-level optimization for trustworthy agents.
+status: draft

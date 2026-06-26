@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-parallelism-pays-off-cohesion-aware-task-partitioning
+type: papers
+title: 'When Parallelism Pays Off: Cohesion-Aware Task Partitioning for Multi-Agent Coding'
+url: https://arxiv.org/abs/2606.00953v1
+authors:
+- Xu Yang
+- Lunyiu Nie
+- Ethan Chandra
+- Stanislav Gannutin
+- Fangru Lin
+- Swarat Chaudhuri
+venue: arXiv
+year: 2026
+summary: Formalizes multi-agent orchestration as a graph partitioning problem to optimize communication-to-computation
+  trade-offs, instantiating it in a system that uses static analysis and community detection for task
+  partitioning and dependency-aware scheduling to improve pass rate, speedup, and cost efficiency.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to multi-agent coordination by formalizing and implementing a system-level
+    approach to task partitioning and scheduling for efficiency and reliability.
+status: draft

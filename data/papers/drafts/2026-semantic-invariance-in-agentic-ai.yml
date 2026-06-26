@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-semantic-invariance-in-agentic-ai
+type: papers
+title: Semantic Invariance in Agentic AI
+url: https://arxiv.org/abs/2603.13173v2
+authors:
+- I. de Zarzà
+- J. de Curtò
+- Jordi Cabot
+- Pietro Manzoni
+- Carlos T. Calafate
+venue: arXiv
+year: 2026
+summary: A metamorphic testing framework for assessing the semantic invariance of LLM reasoning agents
+  under various semantic-preserving input transformations, revealing robustness issues not captured by
+  standard benchmarks.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a systematic evaluation framework for agent reliability under input
+    variations, directly addressing a systems-level concern for trustworthy agent deployment.
+status: draft

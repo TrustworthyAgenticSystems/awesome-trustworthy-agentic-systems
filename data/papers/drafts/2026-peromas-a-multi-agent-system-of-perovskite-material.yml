@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-peromas-a-multi-agent-system-of-perovskite-material
+type: papers
+title: 'PeroMAS: A Multi-agent System of Perovskite Material Discovery'
+url: https://arxiv.org/abs/2602.13312v1
+authors:
+- Yishu Wang
+- Wei Liu
+- Yifan Li
+- Shengxiang Xu
+- Xujie Yuan
+- Ran Li
+- Yuyu Luo
+- Jia Zhu
+- Shimin Di
+- Min-Ling Zhang
+- Guixiang Li
+venue: arXiv
+year: 2026
+summary: PeroMAS is a multi-agent system that orchestrates perovskite-specific tools via Model Context
+  Protocols (MCPs) to achieve end-to-end material discovery, validated by human experts and real-world
+  synthesis experiments.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system that coordinates specialized tools for a complex
+    scientific discovery workflow, including evaluation by human experts and real-world validation, which
+    aligns with the 'coordination' layer and 'reliability' guarantee.
+status: draft

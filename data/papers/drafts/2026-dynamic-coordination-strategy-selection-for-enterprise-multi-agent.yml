@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-dynamic-coordination-strategy-selection-for-enterprise-multi-agent
+type: papers
+title: Dynamic Coordination Strategy Selection for Enterprise Multi-Agent Systems
+url: https://arxiv.org/abs/2606.00804v2
+authors:
+- Thanh Luong Tuan
+venue: arXiv
+year: 2026
+summary: Evaluates dynamic coordination strategy selection for enterprise multi-agent systems across various
+  tasks and models, finding that dynamic routing can achieve near-best performance compared to fixed strategies.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses the operational challenge of selecting coordination strategies
+    in multi-agent systems, contributing to the reliability of agent workflows.
+status: draft

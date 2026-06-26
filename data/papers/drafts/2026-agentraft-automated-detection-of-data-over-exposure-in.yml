@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentraft-automated-detection-of-data-over-exposure-in
+type: papers
+title: 'AgentRaft: Automated Detection of Data Over-Exposure in LLM Agents'
+url: https://arxiv.org/abs/2603.07557v1
+authors:
+- Yixi Lin
+- Jiangrong Wu
+- Yuhong Nan
+- Xueqiang Wang
+- Xinyuan Zhang
+- Zibin Zheng
+venue: arXiv
+year: 2026
+summary: AgentRaft is an automated framework that uses program analysis, function call graph traversal,
+  and runtime taint tracking with a multi-LLM voting committee to detect Data Over-Exposure (DOE) in LLM
+  agents, where sensitive data is inadvertently transmitted beyond user intent.
+harness_layer:
+- observation-eval
+sprs:
+- privacy
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a critical privacy and security concern in agentic systems
+    by providing an automated detection framework for data over-exposure in cross-tool data flows, which
+    is a systems-level problem.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-composing-verifiable-conceptual-models-via-building-blocks-towards
+type: papers
+title: 'Composing Verifiable Conceptual Models via Building Blocks: Towards Design-Time Verification of
+  Agentic AI Workflows'
+url: https://arxiv.org/abs/2606.21565v1
+authors:
+- Noe Y. Flandre
+- Alexander C. Nwala
+- Philippe J. Giabbanelli
+venue: arXiv
+year: 2026
+summary: A design-time verification approach for agentic workflows that models compositions of reusable
+  building blocks and checks their compatibility using twelve structural rules to detect design flaws.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper proposes a design-time verification method for multi-agent workflows, addressing
+    reliability and safety at the coordination layer before deployment.
+status: draft

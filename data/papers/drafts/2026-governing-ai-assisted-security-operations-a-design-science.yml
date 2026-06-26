@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governing-ai-assisted-security-operations-a-design-science
+type: papers
+title: 'Governing AI-Assisted Security Operations: A Design Science Framework for Operational Decision
+  Support'
+url: https://arxiv.org/abs/2605.09534v1
+authors:
+- Elyson A. De La Cruz
+- Rishikesh Sahay
+- Md Rasel Al Mamun
+venue: arXiv
+year: 2026
+summary: A design science framework for governing AI-assisted operational decision support in high-risk
+  digital infrastructure, focusing on separating AI planning from operational execution through schema-grounded
+  retrieval, policy validation, and auditable agent traces.
+harness_layer:
+- oversight
+sprs:
+- security
+- privacy
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a management framework for governing AI-assisted operational decision
+    support, directly addressing human oversight and accountability in high-risk agentic systems.
+status: draft

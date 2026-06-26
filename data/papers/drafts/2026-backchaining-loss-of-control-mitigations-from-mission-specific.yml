@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-backchaining-loss-of-control-mitigations-from-mission-specific
+type: papers
+title: Backchaining Loss of Control Mitigations from Mission-Specific Benchmarks in National Security
+url: https://arxiv.org/abs/2605.21095v1
+authors:
+- Matteo Pistillo
+- Samantha Faraone
+- Joshua Herman
+venue: arXiv
+year: 2026
+summary: Proposes an empirical methodology for identifying and prioritizing affordance and permission-based
+  mitigations for Loss of Control (LoC) threats in national security contexts by backchaining from errors
+  on mission-specific benchmarks.
+harness_layer:
+- permissions
+sprs:
+- safety
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses the engineering of permissions and affordances as safety levers
+    for agentic systems in high-stakes environments, using an empirical methodology.
+status: draft

@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-auditing-multi-agent-llm-reasoning-trees-outperforms-majority
+type: papers
+title: Auditing Multi-Agent LLM Reasoning Trees Outperforms Majority Vote and LLM-as-Judge
+url: https://arxiv.org/abs/2602.09341v1
+authors:
+- Wei Yang
+- Shixuan Li
+- Heng Ping
+- Peiyu Zhang
+- Paul Bogdan
+- Jesse Thomason
+venue: arXiv
+year: 2026
+summary: AgentAuditor replaces majority voting in multi-agent systems with a path search over a Reasoning
+  Tree to resolve conflicts and improve accuracy by comparing reasoning branches at divergence points.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a system-level approach to improve the reliability of multi-agent coordination
+    by explicitly modeling and auditing reasoning traces, moving beyond simple aggregation heuristics.
+status: draft

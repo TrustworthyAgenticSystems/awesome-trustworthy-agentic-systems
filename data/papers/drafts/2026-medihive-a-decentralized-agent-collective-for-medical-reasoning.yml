@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-medihive-a-decentralized-agent-collective-for-medical-reasoning
+type: papers
+title: 'MediHive: A Decentralized Agent Collective for Medical Reasoning'
+url: https://arxiv.org/abs/2603.27150v2
+authors:
+- Xiaoyang Wang
+- Christopher C. Yang
+venue: arXiv
+year: 2026
+summary: MediHive is a decentralized multi-agent framework for medical question answering that uses a
+  shared memory pool and iterative fusion to achieve consensus, addressing scalability and single points
+  of failure in centralized designs.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the coordination layer by proposing a decentralized multi-agent
+    architecture that enhances reliability and fault tolerance for complex reasoning tasks.
+status: draft

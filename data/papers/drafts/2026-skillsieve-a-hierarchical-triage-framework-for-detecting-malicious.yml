@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-skillsieve-a-hierarchical-triage-framework-for-detecting-malicious
+type: papers
+title: 'SkillSieve: A Hierarchical Triage Framework for Detecting Malicious AI Agent Skills'
+url: https://arxiv.org/abs/2604.06550v2
+authors:
+- Yinghan Hou
+- Zongyou Yang
+- Zaihu Pang
+- Xiujun Ma
+venue: arXiv
+year: 2026
+summary: SkillSieve is a hierarchical triage framework for detecting malicious agent skills in marketplaces,
+  combining regex, AST, metadata checks, and multi-LLM analysis to identify vulnerabilities in both code
+  and natural-language instructions.
+harness_layer:
+- supply-chain
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses supply-chain security for agent skills by providing a multi-modal
+    detection framework for malicious content in a marketplace setting.
+status: draft

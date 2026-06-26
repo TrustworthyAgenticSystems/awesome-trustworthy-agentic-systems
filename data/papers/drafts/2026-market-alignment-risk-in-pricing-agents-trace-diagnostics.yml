@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-market-alignment-risk-in-pricing-agents-trace-diagnostics
+type: papers
+title: 'Market-Alignment Risk in Pricing Agents: Trace Diagnostics and Trace-Prior RL under Hidden Competitor
+  State'
+url: https://arxiv.org/abs/2605.06529v1
+authors:
+- Peiying Zhu
+- Sidi Chang
+venue: arXiv
+year: 2026
+summary: Diagnoses a Goodhart-style failure in pricing agents where scalar rewards lead to misaligned
+  behavior, and proposes a trace-level diagnostic protocol and a Trace-Prior RL method to align agent
+  behavior with intended market dynamics visible only in traces.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a critical problem of evaluating and aligning agent behavior when scalar rewards
+    are insufficient, providing a diagnostic protocol and a repair recipe for agentic systems.
+status: draft

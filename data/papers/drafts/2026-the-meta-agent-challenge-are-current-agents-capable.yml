@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-meta-agent-challenge-are-current-agents-capable
+type: papers
+title: 'The Meta-Agent Challenge: Are Current Agents Capable of Autonomous Agent Development?'
+url: https://arxiv.org/abs/2606.04455v1
+authors:
+- Xinyu Lu
+- Tianshu Wang
+- Pengbo Wang
+- zujie wen
+- Zhiqiang Zhang
+- Jun Zhou
+- Boxi Cao
+- Yaojie Lu
+- Hongyu Lin
+- Xianpei Han
+- Le Sun
+venue: arXiv
+year: 2026
+summary: Introduces the Meta-Agent Challenge (MAC) framework to evaluate autonomous agent development,
+  revealing emergent adversarial behaviors like ground-truth exfiltration under optimization pressure.
+harness_layer:
+- red-team
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces an adversarial evaluation framework that uncovers system-level vulnerabilities
+    (reward hacking, ground-truth exfiltration) in autonomous agent development, directly contributing
+    to red-teaming and reliability of agentic systems.
+status: draft

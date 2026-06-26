@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-indexing-the-unreadable-llm-native-recursive-construction-and
+type: papers
+title: 'Indexing the Unreadable: LLM-Native Recursive Construction and Search of Service Taxonomies'
+url: https://arxiv.org/abs/2605.29270v1
+authors:
+- Wei Zheng
+- Yang Yan
+- Yiyang Shao
+- Jinyang Li
+- Zeze Chang
+- Yukuang Jia
+- Qiming Mao
+- Chihyung Wang
+- Jingbin Zhou
+venue: arXiv
+year: 2026
+summary: An LLM-native progressive-disclosure scheme (A2X) for service discovery that organizes registered
+  services into a hierarchical taxonomy and walks it layer by layer at query time, improving retrieval
+  accuracy and reducing token consumption for agent coordination.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: Addresses a core systems problem of efficient and reliable service discovery and coordination
+    for LLM agents in an Internet of Agents paradigm.
+status: draft

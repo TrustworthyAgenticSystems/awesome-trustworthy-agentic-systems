@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mobilekernelbench-can-llms-write-efficient-kernels-for-mobile
+type: papers
+title: 'MobileKernelBench: Can LLMs Write Efficient Kernels for Mobile Devices?'
+url: https://arxiv.org/abs/2603.11935v2
+authors:
+- Xingze Zou
+- Jing Wang
+- Yuhua Zheng
+- Xueyi Chen
+- Haolei Bai
+- Lingcheng Kong
+- Syed A. R. Abu-Bakar
+- Zhaode Wang
+- Chengfei Lv
+- Haoji Hu
+- Huan Wang
+venue: arXiv
+year: 2026
+summary: Introduces MobileKernelBench, an evaluation framework for LLM-generated mobile kernels, and MoKA,
+  a multi-agent system with repository-aware reasoning and plan-and-execute paradigm to improve kernel
+  generation reliability and performance.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces an evaluation framework and a multi-agent system to address the reliability
+    and performance of LLM-generated code for a specific domain, which is a systems-level contribution
+    to agentic architectures.
+status: draft

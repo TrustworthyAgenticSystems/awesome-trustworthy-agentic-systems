@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-stage-claw-automated-state-based-agent-benchmarking-for
+type: papers
+title: 'STAGE-Claw: Automated State-based Agent Benchmarking for Realistic Scenarios'
+url: https://arxiv.org/abs/2606.10394v1
+authors:
+- Sirui Liang
+- Bohan Yu
+- Peiyu Wang
+- Shiguang Guo
+- Wenxing Hu
+- Pengfei Cao
+- Jian Zhao
+- Cao Liu
+- Ke Zeng
+- Xunliang Cai
+- Kang Liu
+venue: arXiv
+year: 2026
+summary: STAGE-Claw is an automated framework for building and evaluating realistic personal-agent scenarios
+  in state-based personal-computing environments, measuring performance by the correctness of the final
+  system state.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to the observation and evaluation of agentic systems by proposing
+    a novel, state-based benchmarking framework for realistic scenarios.
+status: draft

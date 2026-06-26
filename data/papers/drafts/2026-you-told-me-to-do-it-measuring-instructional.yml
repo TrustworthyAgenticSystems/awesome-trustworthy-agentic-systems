@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-you-told-me-to-do-it-measuring-instructional
+type: papers
+title: 'You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents'
+url: https://arxiv.org/abs/2603.11862v1
+authors:
+- Ching-Yu Kao
+- Xinfeng Li
+- Shenyu Dai
+- Tianze Qiu
+- Pengcheng Zhou
+- Eric Hanchen Jiang
+- Philip Sperl
+venue: arXiv
+year: 2026
+summary: Identifies and measures the "Trusted Executor Dilemma" where high-privilege LLM agents execute
+  adversarial instructions embedded in documentation, leading to private data leakage, and evaluates the
+  ineffectiveness of current defenses.
+harness_layer:
+- red-team
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a critical security vulnerability in agentic systems by demonstrating
+    and measuring instruction injection through documentation, which is a form of red-teaming and highlights
+    a gap in least-privilege reasoning.
+status: draft

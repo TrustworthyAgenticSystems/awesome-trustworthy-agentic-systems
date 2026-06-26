@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-securing-llm-agent-long-term-memory-against-poisoning
+type: papers
+title: 'Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with
+  Machine-Checked Guarantees'
+url: https://arxiv.org/abs/2606.24322v1
+authors:
+- Yedidel Louck
+venue: arXiv
+year: 2026
+summary: Formalizes memory poisoning attacks on LLM agent long-term memory, demonstrates malleability
+  of existing content- and lineage-based defenses, and proposes a non-malleable, origin-bound authority
+  mechanism with machine-checked guarantees to prevent such attacks.
+harness_layer:
+- memory
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a critical security vulnerability in agent memory (poisoning) with a formal
+    model, empirical validation, and a novel defense mechanism.
+status: draft

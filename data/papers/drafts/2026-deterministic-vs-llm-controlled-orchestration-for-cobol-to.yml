@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-deterministic-vs-llm-controlled-orchestration-for-cobol-to
+type: papers
+title: Deterministic vs. LLM-Controlled Orchestration for COBOL-to-Python Modernization
+url: https://arxiv.org/abs/2605.09894v1
+authors:
+- Naing Oo Lwin
+- Rajesh Kumar
+venue: arXiv
+year: 2026
+summary: Empirical study comparing deterministic and LLM-controlled orchestration for COBOL-to-Python
+  modernization, demonstrating that deterministic orchestration improves robustness and efficiency without
+  sacrificing correctness in structured workflows.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly compares orchestration strategies for agentic systems, focusing on reliability
+    and efficiency in a structured software engineering context.
+status: draft

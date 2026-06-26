@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-intentional-deception-as-controllable-capability-in-llm-agents
+type: papers
+title: Intentional Deception as Controllable Capability in LLM Agents
+url: https://arxiv.org/abs/2603.07848v1
+authors:
+- Jason Starace
+- Terence Soule
+venue: arXiv
+year: 2026
+summary: Systematic study of intentional deception as an engineered capability in LLM-to-LLM interactions,
+  identifying misdirection as a primary attack vector and specific agent profiles requiring safeguards.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses adversarial manipulation and deception in multi-agent systems,
+    providing insights into red-teaming and defensive design for agent trustworthiness.
+status: draft

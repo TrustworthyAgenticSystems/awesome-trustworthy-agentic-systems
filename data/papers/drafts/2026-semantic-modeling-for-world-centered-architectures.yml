@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-semantic-modeling-for-world-centered-architectures
+type: papers
+title: Semantic Modeling for World-Centered Architectures
+url: https://arxiv.org/abs/2604.01359v1
+authors:
+- Andrei Mantsivoda
+- Darya Gavrilina
+venue: arXiv
+year: 2026
+summary: Introduces world-centered multi-agent systems (WMAS) with shared, explicit world representations
+  and semantic models to ensure consistency, explainability, and stability in structured domains.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Proposes a foundational architectural shift for multi-agent systems to improve trustworthiness
+    properties like consistency and explainability through a shared world model.
+status: draft

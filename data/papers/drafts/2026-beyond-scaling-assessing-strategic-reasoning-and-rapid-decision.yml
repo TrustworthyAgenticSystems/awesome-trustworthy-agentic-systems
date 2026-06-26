@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-scaling-assessing-strategic-reasoning-and-rapid-decision
+type: papers
+title: 'Beyond Scaling: Assessing Strategic Reasoning and Rapid Decision-Making Capability of LLMs in
+  Zero-sum Environments'
+url: https://arxiv.org/abs/2603.09337v1
+authors:
+- Yang Li
+- Xing Chen
+- Yutao Liu
+- Gege Qi
+- Yanxian BI
+- Zizhe Wang
+- Yunjian Zhang
+- Yao Zhu
+venue: arXiv
+year: 2026
+summary: Introduces STAR Benchmark, a multi-agent evaluation framework for assessing LLM agents in zero-sum
+  competitive environments, focusing on iterative decision-making, temporal constraints, and strategic
+  behavior quality beyond win-loss outcomes.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a multi-agent evaluation framework for assessing strategic reasoning
+    and rapid decision-making in interactive, adversarial environments, which is relevant to the observation
+    and evaluation of agent behavior.
+status: draft

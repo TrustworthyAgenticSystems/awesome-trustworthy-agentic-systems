@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-asymmetryzero-a-framework-for-operationalizing-human-expert-preferences
+type: papers
+title: 'AsymmetryZero: A Framework for Operationalizing Human Expert Preferences as Semantic Evals'
+url: https://arxiv.org/abs/2605.04083v1
+authors:
+- Tadhg Looram
+- Lucas Nuzzi
+- Kyle Waters
+- Steven Dillmann
+venue: arXiv
+year: 2026
+summary: AsymmetryZero is a framework for operationalizing human expert preferences as semantic evaluation
+  contracts, enabling consistent grading criteria for both model-only and agentic evaluations, and studying
+  the agreement and efficiency of different LLM-based 'juries' for evaluation.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the operationalization of human expert preferences for evaluating
+    agentic systems, addressing the challenge of encoding subjective requirements into evaluation contracts
+    and comparing different LLM-based evaluation juries, which is relevant to human oversight and long-horizon
+    evaluation.
+status: draft

@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-scihorizon-dataeva-an-agentic-system-for-ai-readiness
+type: papers
+title: 'SciHorizon-DataEVA: An Agentic System for AI-Readiness Evaluation of Heterogeneous Scientific
+  Data'
+url: https://arxiv.org/abs/2604.26645v2
+authors:
+- Dianyu Liu
+- Chuan Qin
+- Xi Chen
+- Xiaohan Li
+- Wenxi Xu
+- Yuyang Wang
+- Xin Chen
+- Yuanchun Zhou
+- Hengshu Zhu
+venue: arXiv
+year: 2026
+summary: SciHorizon-DataEVA is a multi-agent system that evaluates the AI-readiness of scientific data
+  using a hierarchical, tool-centric workflow with built-in verification and self-correction, addressing
+  data quality and AI compatibility for scientific discovery.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system for evaluating data readiness, focusing on the orchestration
+    and execution of evaluation workflows, which is a systems-level contribution to agent reliability
+    and safety in scientific applications.
+status: draft

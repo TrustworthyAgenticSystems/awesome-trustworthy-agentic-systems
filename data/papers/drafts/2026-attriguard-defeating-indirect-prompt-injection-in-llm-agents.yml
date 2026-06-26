@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-attriguard-defeating-indirect-prompt-injection-in-llm-agents
+type: papers
+title: 'AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations'
+url: https://arxiv.org/abs/2603.10749v2
+authors:
+- Yu He
+- Haozhe Zhu
+- Yiming Li
+- Shuo Shao
+- Hongwei Yao
+- Zhihao Liu
+- Zhan Qin
+venue: arXiv
+year: 2026
+summary: AttriGuard is a runtime defense that uses causal attribution and counterfactual tests to distinguish
+  legitimate tool calls from those driven by indirect prompt injections embedded in untrusted tool outputs.
+harness_layer:
+- tool-interface
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a critical security vulnerability in agentic systems (indirect
+    prompt injection) by focusing on the tool-interface layer with a novel runtime defense mechanism.
+status: draft

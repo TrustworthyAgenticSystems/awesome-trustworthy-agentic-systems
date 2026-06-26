@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-red-teaming-the-agentic-red-team
+type: papers
+title: Red-Teaming the Agentic Red-Team
+url: https://arxiv.org/abs/2606.24496v1
+authors:
+- Dario Pasquini
+- Michal Bazyli
+- Taras Fedynyshyn
+- Artem Sorokin
+venue: arXiv
+year: 2026
+summary: First in-depth security analysis of agentic systems for offensive security operations, demonstrating
+  common design flaws that enable API key exfiltration, persistence, and sandbox escape, and proposing
+  a robust architecture and design principles.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly red-teams agentic systems themselves, identifying critical vulnerabilities
+    and proposing architectural mitigations, which is squarely in scope for trustworthy agentic systems.
+status: draft

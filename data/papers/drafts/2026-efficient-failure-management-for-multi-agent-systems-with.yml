@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-efficient-failure-management-for-multi-agent-systems-with
+type: papers
+title: Efficient Failure Management for Multi-Agent Systems with Reasoning Trace Representation
+url: https://arxiv.org/abs/2603.21522v1
+authors:
+- Lingzhe Zhang
+- Tong Jia
+- Mingyu Wang
+- Weijie Hong
+- Chiming Duan
+- Minghua He
+- Rongqian Wang
+- Xi Peng
+- Meiling Wang
+- Gong Zhang
+- Renhai Chen
+- Ying Li
+venue: arXiv
+year: 2026
+summary: EAGER is an efficient failure management framework for multi-agent systems that uses unsupervised
+  reasoning-scoped contrastive learning on historical traces to enable real-time, step-wise failure detection,
+  diagnosis, and mitigation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a system-level framework for failure management in multi-agent systems,
+    addressing reliability through observation and diagnosis of agent behavior.
+status: draft

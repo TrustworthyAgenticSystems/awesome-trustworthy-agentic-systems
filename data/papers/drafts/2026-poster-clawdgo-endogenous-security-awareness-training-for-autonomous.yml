@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-poster-clawdgo-endogenous-security-awareness-training-for-autonomous
+type: papers
+title: 'Poster: ClawdGo: Endogenous Security Awareness Training for Autonomous AI Agents'
+url: https://arxiv.org/abs/2604.24020v1
+authors:
+- Jiaqi Li
+- Yang Zhao
+- Bin Sun
+- Yang Yu
+- Jian Chang
+- Lidong Zhai
+venue: arXiv
+year: 2026
+summary: ClawdGo is a framework for endogenous security awareness training that teaches agents to recognize
+  and reason about threats at inference time using a three-layer domain taxonomy, self-play training,
+  and cross-session memory accumulation.
+harness_layer:
+- memory
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: The paper directly addresses agent security awareness and threat judgment at inference time,
+    including memory accumulation and a taxonomy of threats, which is a systems-level contribution.
+status: draft

@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-text-to-sql-an-agentic-llm-system
+type: papers
+title: 'Beyond Text-to-SQL: An Agentic LLM System for Governed Enterprise Analytics APIs'
+url: https://arxiv.org/abs/2605.21027v2
+authors:
+- Gundeep Singh
+- Parsa Kavehzadeh
+- Jing Xia
+- Xue-Yong Fu
+- Julien Bouvier Tremblay
+- Md Tahmid Rahman Laskar
+- Vincent Lum
+- Shashi Bhushan TN
+venue: arXiv
+year: 2026
+summary: Analytic Agent is an LLM-based agentic system that translates natural language intents into secure
+  interactions with enterprise analytics APIs, ensuring reliability and compliance through multi-step
+  reasoning and policy-aware orchestration.
+harness_layer:
+- architectures
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper describes an agentic system architecture for enterprise analytics that addresses
+    security, reliability, and compliance risks when interacting with governed APIs, which is a direct
+    contribution to trustworthy agentic systems.
+status: draft

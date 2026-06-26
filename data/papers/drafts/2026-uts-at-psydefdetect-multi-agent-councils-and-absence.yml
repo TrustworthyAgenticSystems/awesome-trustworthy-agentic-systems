@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-uts-at-psydefdetect-multi-agent-councils-and-absence
+type: papers
+title: 'UTS at PsyDefDetect: Multi-Agent Councils and Absence-Based Reasoning for Defense Mechanism Classification'
+url: https://arxiv.org/abs/2605.09769v2
+authors:
+- Dima Galat
+- Marian-Andrei Rizoiu
+venue: arXiv
+year: 2026
+summary: A multi-phase deliberative council of agents is designed to classify psychological defense mechanisms,
+  with a focus on encoding absence-based reasoning and addressing systematic biases in minority class
+  predictions through a targeted override ensemble.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent architecture for classification, including a deliberative
+    council and an override ensemble, which contributes to the coordination and reliability of agentic
+    systems.
+status: draft

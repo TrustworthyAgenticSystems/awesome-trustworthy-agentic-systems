@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-can-it-reach-the-generator-investigating-the-survival
+type: papers
+title: Can It Reach the Generator? Investigating the Survival of Prompt-Injection Attacks in Realistic
+  RAG Settings
+url: https://arxiv.org/abs/2605.28017v2
+authors:
+- Yu Yin
+- Shuai Wang
+- Bevan Koopman
+- Guido Zuccon
+venue: arXiv
+year: 2026
+summary: Re-evaluates prompt-injection attacks in a realistic three-stage RAG pipeline (retriever, reranker,
+  generator) to assess their survival and proposes a lightweight detection guard.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly investigates the effectiveness and detectability of prompt-injection
+    attacks within a realistic RAG system, contributing to red-teaming and security of agent memory and
+    execution.
+status: draft

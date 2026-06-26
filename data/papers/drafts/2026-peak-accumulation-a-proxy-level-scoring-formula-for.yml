@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-peak-accumulation-a-proxy-level-scoring-formula-for
+type: papers
+title: 'Peak + Accumulation: A Proxy-Level Scoring Formula for Multi-Turn LLM Attack Detection'
+url: https://arxiv.org/abs/2602.11247v2
+authors:
+- J Alex Corll
+venue: arXiv
+year: 2026
+summary: Proposes a proxy-level scoring formula, Peak + Accumulation, for detecting multi-turn prompt
+  injection attacks by aggregating per-turn pattern scores into a conversation-level risk score without
+  LLM invocation.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses the detection of multi-turn adversarial attacks on LLM agents at the proxy
+    layer, a critical systems-level security concern.
+status: draft

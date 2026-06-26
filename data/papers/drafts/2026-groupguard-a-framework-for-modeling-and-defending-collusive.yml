@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-groupguard-a-framework-for-modeling-and-defending-collusive
+type: papers
+title: 'GroupGuard: A Framework for Modeling and Defending Collusive Attacks in Multi-Agent Systems'
+url: https://arxiv.org/abs/2603.13940v1
+authors:
+- Yiling Tao
+- Xinran Zheng
+- Shuo Yang
+- Meiling Tao
+- Xingjun Wang
+venue: arXiv
+year: 2026
+summary: Introduces and models group collusive attacks in multi-agent systems, demonstrating increased
+  attack success rates, and proposes GroupGuard, a multi-layered defense framework for detecting and isolating
+  collusive agents.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses a system-level adversarial threat (collusive attacks) in multi-agent
+    systems and proposes a defense framework, fitting squarely into red-teaming and security for agentic
+    systems.
+status: draft

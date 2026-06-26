@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-graph-based-target-back-propagation-for-context-adaptation
+type: papers
+title: Graph-based Target Back-Propagation for Context Adaptation in Multi-LLM Agentic Systems
+url: https://arxiv.org/abs/2606.14155v1
+authors:
+- Tan Zhu
+- Tong Yao
+- Kananart Kuwaranancharoen
+- Amit Singh
+- Yushang Lai
+- Deepa Mohan
+- Shankara Bhargava
+venue: arXiv
+year: 2026
+summary: A context adaptation framework for multi-LLM agentic workflows that uses graph-based target back-propagation
+  to iteratively revise prompts based on task feedback, addressing credit assignment and convergence.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the reliability of multi-agent coordination by providing a method
+    for context adaptation and prompt optimization within agentic workflows, with theoretical convergence
+    guarantees.
+status: draft

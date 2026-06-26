@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governed-evolution-of-agent-runtimes-through-executable-operational
+type: papers
+title: Governed Evolution of Agent Runtimes through Executable Operational Cognition
+url: https://arxiv.org/abs/2605.27328v1
+authors:
+- Mariano Garralda-Barrio
+venue: arXiv
+year: 2026
+summary: Proposes a framework for governed runtime evolution of agent-generated artifacts as persistent
+  runtime capabilities, introducing HarnessMutation for lifecycle-aware adaptation with explicit validation,
+  traceability, evaluation, and rollback constraints.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses the systems-level problem of managing the lifecycle and evolution of agent-generated
+    code as part of the operational runtime, with governance and transactional semantics.
+status: draft

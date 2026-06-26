@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-spear-an-engineering-case-study-of-multi-agent
+type: papers
+title: 'SPEAR: An Engineering Case Study of Multi-Agent Coordination for Smart Contract Auditing'
+url: https://arxiv.org/abs/2602.04418v3
+authors:
+- Indraveni Chebolu
+- Arnab Mallick
+- Harmesh Rana
+venue: arXiv
+year: 2026
+summary: SPEAR is a multi-agent coordination framework for smart contract auditing that uses specialized
+  agents, negotiation protocols, and programmatic repair for robust security analysis workflows.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- security
+open_problems:
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses multi-agent coordination and recovery in a security-critical
+    domain, contributing to the reliability and security of agentic systems.
+status: draft

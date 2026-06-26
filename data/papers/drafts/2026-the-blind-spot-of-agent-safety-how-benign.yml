@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-blind-spot-of-agent-safety-how-benign
+type: papers
+title: 'The Blind Spot of Agent Safety: How Benign User Instructions Expose Critical Vulnerabilities in
+  Computer-Use Agents'
+url: https://arxiv.org/abs/2604.10577v2
+authors:
+- Xuwei Ding
+- Skylar Zhai
+- Linxin Song
+- Jiate Li
+- Taiwei Shi
+- Nicholas Meade
+- Siva Reddy
+- Jian Kang
+- Jieyu Zhao
+venue: arXiv
+year: 2026
+summary: Introduces OS-BLIND, a benchmark for evaluating computer-use agents against unintended attack
+  conditions where benign user instructions lead to harm due to task context or execution, revealing high
+  attack success rates in frontier models and multi-agent systems.
+harness_layer:
+- red-team
+sprs:
+- safety
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses adversarial testing of agentic systems, specifically focusing
+    on a novel class of vulnerabilities where benign instructions lead to harmful outcomes, which is a
+    critical red-teaming contribution.
+status: draft

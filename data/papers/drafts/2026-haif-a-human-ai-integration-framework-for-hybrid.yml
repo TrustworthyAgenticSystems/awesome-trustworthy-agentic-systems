@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-haif-a-human-ai-integration-framework-for-hybrid
+type: papers
+title: 'HAIF: A Human-AI Integration Framework for Hybrid Team Operations'
+url: https://arxiv.org/abs/2602.07641v1
+authors:
+- Marc Bara
+venue: arXiv
+year: 2026
+summary: Proposes the Human-AI Integration Framework (HAIF) as a protocol-based operational system for
+  organizing daily work in hybrid human-AI teams, focusing on delegation, tiered autonomy, and feedback
+  mechanisms.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses human oversight and integration challenges for agentic systems in operational workflows,
+    which is a core concern for trustworthy agentic systems.
+status: draft

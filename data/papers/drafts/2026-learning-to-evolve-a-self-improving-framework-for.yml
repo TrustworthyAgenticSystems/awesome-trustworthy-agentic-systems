@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-learning-to-evolve-a-self-improving-framework-for
+type: papers
+title: 'Learning to Evolve: A Self-Improving Framework for Multi-Agent Systems via Textual Parameter Graph
+  Optimization'
+url: https://arxiv.org/abs/2604.20714v1
+authors:
+- Shan He
+- Runze Wang
+- Zhuoyun Du
+- Huiyu Bai
+- Zouying Cao
+- Yu Cheng
+- Bo Zheng
+venue: arXiv
+year: 2026
+summary: TPGO models multi-agent systems as textual parameter graphs and uses meta-learning on execution
+  traces to generate textual gradients for self-improving optimization of agent coordination and workflows.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a framework for self-improving optimization of multi-agent system coordination
+    and workflows, addressing reliability through learning from execution traces.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-think-it-run-it-autonomous-ml-pipeline-generation
+type: papers
+title: 'Think it, Run it: Autonomous ML pipeline generation via self-healing multi-agent AI'
+url: https://arxiv.org/abs/2604.27096v1
+authors:
+- Adela Bara
+- Gabriela Dobrita
+- Simona-Vasilica Oprea
+venue: arXiv
+year: 2026
+summary: Proposes a five-agent architecture for autonomous ML pipeline generation, integrating code-grounded
+  RAG, explainable recommendation, and a self-healing mechanism for improved robustness and efficiency.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Describes an end-to-end agentic system architecture with specific mechanisms for robustness
+    and self-healing, contributing to the reliability of agent workflows.
+status: draft

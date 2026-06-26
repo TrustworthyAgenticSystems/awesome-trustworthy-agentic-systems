@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hiding-in-plain-floats-steganographic-carriers-for-indirect
+type: papers
+title: 'Hiding in Plain Floats: Steganographic Carriers for Indirect Prompt and Content Injection'
+url: https://arxiv.org/abs/2606.08403v1
+authors:
+- Mudit Sinha
+- Sanika Chavan
+venue: arXiv
+year: 2026
+summary: Demonstrates a novel indirect prompt/content injection attack that uses steganographic float
+  parameters to bypass text-based defenses, highlighting a failure boundary for text-only inspection in
+  structured-input pipelines.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper identifies a new attack vector for prompt injection that exploits structured data
+    channels, directly contributing to red-teaming and security of agentic systems.
+status: draft

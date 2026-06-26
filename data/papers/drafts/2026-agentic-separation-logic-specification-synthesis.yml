@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-separation-logic-specification-synthesis
+type: papers
+title: Agentic Separation Logic Specification Synthesis
+url: https://arxiv.org/abs/2605.27531v1
+authors:
+- Tarun Suresh
+- David Korczynski
+- Julien Vanegue
+venue: arXiv
+year: 2026
+summary: Spec-Agent is an agentic system that synthesizes formal specifications for C++ codebases by coordinating
+  static analysis, runtime tracing, fuzzing, and iterative LLM refinement to ensure correctness and expressiveness.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes an agentic system that coordinates multiple components (static analysis,
+    tracing, fuzzing, LLM) to achieve a complex software engineering task, directly contributing to the
+    reliability of software through specification synthesis and validation.
+status: draft

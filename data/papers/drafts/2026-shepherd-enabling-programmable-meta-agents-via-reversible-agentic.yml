@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-shepherd-enabling-programmable-meta-agents-via-reversible-agentic
+type: papers
+title: 'Shepherd: Enabling Programmable Meta-Agents via Reversible Agentic Execution Traces'
+url: https://arxiv.org/abs/2605.10913v3
+authors:
+- Simon Yu
+- Derek Chong
+- Ananjan Nandi
+- Dilara Soylu
+- Jiuding Sun
+- Christopher D Manning
+- Weiyan Shi
+venue: arXiv
+year: 2026
+summary: Shepherd is a Python substrate that treats agent execution as a first-class, reversible object,
+  enabling meta-agents to inspect, transform, and repair execution traces for improved coordination, safety,
+  and optimization.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper introduces a foundational execution substrate that enables advanced meta-agent
+    operations like rollback, repair, and coordination, directly addressing reliability and safety concerns
+    in agentic systems.
+status: draft

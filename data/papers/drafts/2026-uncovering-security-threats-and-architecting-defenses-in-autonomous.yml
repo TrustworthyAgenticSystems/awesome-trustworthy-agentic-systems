@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-uncovering-security-threats-and-architecting-defenses-in-autonomous
+type: papers
+title: 'Uncovering Security Threats and Architecting Defenses in Autonomous Agents: A Case Study of OpenClaw'
+url: https://arxiv.org/abs/2603.12644v1
+authors:
+- Zonghao Ying
+- Xiao Yang
+- Siyang Wu
+- Yumeng Song
+- Yang Qu
+- Hainan Li
+- Tianlin Li
+- Jiakai Wang
+- Aishan Liu
+- Xianglong Liu
+venue: arXiv
+year: 2026
+summary: Comprehensive security analysis of the OpenClaw agent ecosystem, identifying prompt injection-driven
+  RCE, sequential tool attack chains, and supply chain contamination, and proposing a tri-layered risk
+  taxonomy and a Full-Lifecycle Agent Security Architecture (FASA).
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a detailed security analysis of an agentic system, identifies specific
+    system-level vulnerabilities, and proposes an architectural defense blueprint, directly addressing
+    trustworthy agentic systems engineering.
+status: draft

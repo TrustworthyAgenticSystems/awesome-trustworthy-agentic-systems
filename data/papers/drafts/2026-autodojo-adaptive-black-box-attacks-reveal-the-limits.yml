@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-autodojo-adaptive-black-box-attacks-reveal-the-limits
+type: papers
+title: 'AutoDojo: Adaptive Black-Box Attacks Reveal the Limits of IPI Defenses and Task-Specification
+  Effects in LLM Agents'
+url: https://arxiv.org/abs/2606.15057v2
+authors:
+- Xinhang Ma
+- Taoran Li
+- Chaowei Xiao
+- Zhiyuan Yu
+- Ning Zhang
+- Yevgeniy Vorobeychik
+venue: arXiv
+year: 2026
+summary: Introduces AutoDojo, an adaptive black-box attack framework that optimizes indirect prompt injections
+  against LLM agent defenses, revealing limitations of current prompt-based and detection-based defenses,
+  especially for action-open tasks.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to red-teaming agentic systems by developing an adaptive
+    attack framework to evaluate the robustness of IPI defenses, highlighting system-level vulnerabilities.
+status: draft

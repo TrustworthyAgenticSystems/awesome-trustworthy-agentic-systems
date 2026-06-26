@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-healthy-evolution-exploring-the-role-and-mechanisms
+type: papers
+title: 'Towards Healthy Evolution: Exploring the Role and Mechanisms of Human-Agent Interaction in Self-Evolving
+  Systems'
+url: https://arxiv.org/abs/2606.06114v2
+authors:
+- Dianxing Shi
+- Bowen Wang
+- Junqi He
+- Junhao Chen
+- Yuta Nakashima
+venue: arXiv
+year: 2026
+summary: Introduces ANCHOR, an LLM-based framework that simulates human supervision to provide feedback
+  at various phases of self-evolution, demonstrating its effectiveness in mitigating safety degradation
+  and preserving performance in self-evolving agent systems.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses human oversight mechanisms for self-evolving agent systems,
+    focusing on safety and reliability of long-term agent behavior.
+status: draft

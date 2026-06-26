@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-liaisonagent-an-multi-agent-framework-for-autonomous-risk
+type: papers
+title: 'LiaisonAgent: An Multi-Agent Framework for Autonomous Risk Investigation and Governance'
+url: https://arxiv.org/abs/2603.00200v1
+authors:
+- Chuanming Tang
+- Ling Qing
+- Shifeng Chen
+venue: arXiv
+year: 2026
+summary: LiaisonAgent is an autonomous multi-agent system for end-to-end risk investigation and governance
+  in SOCs, integrating specialized sub-agents and a hybrid planning architecture to improve incident response
+  and reduce manual overhead.
+harness_layer:
+- architectures
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper presents an end-to-end multi-agent system architecture for a critical security
+    operations use case, including details on its planning and sub-agent composition, and evaluates its
+    performance and resilience against adversarial inputs.
+status: draft

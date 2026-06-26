@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ama-bench-evaluating-long-horizon-memory-for-agentic
+type: papers
+title: 'AMA-Bench: Evaluating Long-Horizon Memory for Agentic Applications'
+url: https://arxiv.org/abs/2602.22769v4
+authors:
+- Yujie Zhao
+- Boqin Yuan
+- Junbo Huang
+- Haocheng Yuan
+- Zhongming Yu
+- Haozhou Xu
+- Lanxiang Hu
+- Abhilash Shankarampeta
+- Zimeng Huang
+- Wentao Ni
+- Yuandong Tian
+- Jishen Zhao
+venue: arXiv
+year: 2026
+summary: Introduces AMA-Bench, a benchmark for evaluating long-horizon memory in agentic systems using
+  real and synthetic trajectories, and proposes AMA-Agent, a causality-graph-based memory system to address
+  identified shortcomings.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the evaluation and engineering of memory systems for long-running
+    agents, which is a core component of trustworthy agentic systems.
+status: draft

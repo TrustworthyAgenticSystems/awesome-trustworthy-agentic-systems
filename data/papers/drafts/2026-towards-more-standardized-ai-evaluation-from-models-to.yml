@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-more-standardized-ai-evaluation-from-models-to
+type: papers
+title: 'Towards More Standardized AI Evaluation: From Models to Agents'
+url: https://arxiv.org/abs/2602.18029v1
+authors:
+- Ali El Filali
+- Inès Bedar
+venue: arXiv
+year: 2026
+summary: This paper provides a foundational argument for shifting AI evaluation from model-centric static
+  benchmarks to a systems-level measurement discipline for trustworthy agentic behavior, addressing the
+  role of evaluation in conditioning trust and governance.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the foundational shift required in evaluation for trustworthy
+    agentic systems, framing it as a core control function for reliability and safety.
+status: draft

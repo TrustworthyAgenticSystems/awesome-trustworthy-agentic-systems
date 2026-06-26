@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-webweaver-breaking-topology-confidentiality-in-llm-multi-agent
+type: papers
+title: 'WebWeaver: Breaking Topology Confidentiality in LLM Multi-Agent Systems with Stealthy Context-Based
+  Inference'
+url: https://arxiv.org/abs/2603.11132v2
+authors:
+- Zixun Xiong
+- Gaoyi Wu
+- Lingfeng Yao
+- Miao Pan
+- Xiaojiang Du
+- Hao Wang
+venue: arXiv
+year: 2026
+summary: WebWeaver is an attack framework that infers the communication topology of LLM multi-agent systems
+  by compromising a single agent and using context-based inference, demonstrating a new threat to topology
+  confidentiality.
+harness_layer:
+- red-team
+sprs:
+- security
+- privacy
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper presents a novel red-teaming attack on multi-agent systems, specifically targeting
+    the confidentiality of communication topology, which is a system-level security concern.
+status: draft

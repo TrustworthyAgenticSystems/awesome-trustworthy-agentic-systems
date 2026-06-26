@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-symbolic-vector-attention-fusion-for-collective-intelligence
+type: papers
+title: Symbolic-Vector Attention Fusion for Collective Intelligence
+url: https://arxiv.org/abs/2604.03955v1
+authors:
+- Hongwei Xu
+venue: arXiv
+year: 2026
+summary: Introduces Symbolic-Vector Attention Fusion (SVAF) for inter-agent signal decomposition and selective
+  fusion, enabling agents to evaluate and remix relevant information from diverse domains, and integrates
+  it with a CfC neural network for temporal state evolution in a multi-agent system.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.75
+  rationale: The paper describes a mechanism for inter-agent communication and knowledge fusion, which
+    is a core aspect of multi-agent coordination and reliability, with a live deployment validation.
+status: draft

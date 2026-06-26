@@ -1,0 +1,57 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentbeats-agentifying-agent-assessment-for-openness-standardization-and
+type: papers
+title: 'AgentBeats: Agentifying Agent Assessment for Openness, Standardization, and Reproducibility'
+url: https://arxiv.org/abs/2606.13608v2
+authors:
+- Xiaoyuan Liu
+- Jianhong Tu
+- Yuqi Chen
+- Siyuan Xie
+- Sihan Ren
+- Tianneng Shi
+- Gal Gantar
+- Evan Sandoval
+- Donghyun Lee
+- Daniel Miao
+- Peter J. Gilbert
+- Nick Hynes
+- Mauro Staver
+- Warren He
+- David Marn
+- Andrew Low
+- Xi Zhang
+- Elron Bandel
+- Michal Shmueli-Scheuer
+- Siva Reddy
+- Alexandre Drouin
+- Alexandre Lacoste
+- Ramayya Krishnan
+- Elham Tabassi
+- Yu Su
+- Victor Barres
+- Chenguang Wang
+- Wenbo Guo
+- Dawn Song
+venue: arXiv
+year: 2026
+summary: Proposes Agentified Agent Assessment (AAA) and its realization AgentBeats, a standardized, agent-agnostic
+  evaluation framework using judge agents and unified protocols for reproducible and interoperable assessment
+  of diverse agent designs.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the systems-level problem of fragmented agent evaluation by proposing
+    a standardized, agent-agnostic assessment framework with empirical validation.
+status: draft

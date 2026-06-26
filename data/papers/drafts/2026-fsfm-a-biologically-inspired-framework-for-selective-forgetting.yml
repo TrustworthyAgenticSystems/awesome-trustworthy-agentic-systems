@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-fsfm-a-biologically-inspired-framework-for-selective-forgetting
+type: papers
+title: 'FSFM: A Biologically-Inspired Framework for Selective Forgetting of Agent Memory'
+url: https://arxiv.org/abs/2604.20300v2
+authors:
+- Yingjie Gu
+- Wenjian Xiong
+- Liqiang Wang
+- Pengcheng Ren
+- Chao Li
+- Xiaojing Zhang
+- Yijuan Guo
+- Qi Sun
+- Jingyao Ma
+- Shidang Shi
+venue: arXiv
+year: 2026
+summary: A biologically-inspired framework for selective forgetting in LLM agent memory, improving efficiency,
+  content quality, and security by actively pruning malicious inputs and sensitive data.
+harness_layer:
+- memory
+sprs:
+- security
+- privacy
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses memory management for trustworthy agents, specifically focusing
+    on security and privacy through selective forgetting of sensitive and malicious data.
+status: draft

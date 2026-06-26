@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-weak-cues-to-real-identities-evaluating-inference
+type: papers
+title: 'From Weak Cues to Real Identities: Evaluating Inference-Driven De-Anonymization in LLM Agents'
+url: https://arxiv.org/abs/2603.18382v2
+authors:
+- Myeongseob Ko
+- Jihyun Jeong
+- Sumiran Singh Thakur
+- Gyuhak Kim
+- Ruoxi Jia
+venue: arXiv
+year: 2026
+summary: Demonstrates that LLM agents can de-anonymize individuals by inferring real-world identities
+  from scattered, non-identifying cues, highlighting a new privacy risk in agentic systems.
+harness_layer:
+- memory
+sprs:
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper directly addresses a novel privacy vulnerability in agentic systems related to
+    information inference and memory, which is a core concern for trustworthy agents.
+status: draft

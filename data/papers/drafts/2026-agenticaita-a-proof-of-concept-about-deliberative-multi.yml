@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agenticaita-a-proof-of-concept-about-deliberative-multi
+type: papers
+title: 'AgenticAITA: A Proof-Of-Concept About Deliberative Multi-Agent Reasoning for Autonomous Trading
+  Systems'
+url: https://arxiv.org/abs/2605.12532v1
+authors:
+- Ivan Letteri
+venue: arXiv
+year: 2026
+summary: A multi-agent framework for autonomous trading that uses a sequential deliberative pipeline with
+  specialized agents, typed JSON contracts, and a hard-gate safety layer to ensure deterministic and reproducible
+  operations.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-agent coordination framework with explicit architectural contributions
+    for safety, determinism, and reproducibility in a high-stakes domain.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-flashrt-towards-computationally-and-memory-efficient-red-teaming
+type: papers
+title: 'FlashRT: Towards Computationally and Memory Efficient Red-Teaming for Prompt Injection and Knowledge
+  Corruption'
+url: https://arxiv.org/abs/2604.28157v1
+authors:
+- Yanting Wang
+- Chenlong Yin
+- Ying Chen
+- Jinyuan Jia
+venue: arXiv
+year: 2026
+summary: FlashRT is a framework that improves the computational and memory efficiency of optimization-based
+  red-teaming methods for prompt injection and knowledge corruption attacks in long-context LLMs.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the practical challenges of red-teaming agentic systems by improving
+    the efficiency of adversarial testing for prompt injection and knowledge corruption.
+status: draft

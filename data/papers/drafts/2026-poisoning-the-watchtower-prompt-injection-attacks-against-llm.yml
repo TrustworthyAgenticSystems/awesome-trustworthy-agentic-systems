@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-poisoning-the-watchtower-prompt-injection-attacks-against-llm
+type: papers
+title: 'Poisoning the Watchtower: Prompt Injection Attacks Against LLM-Augmented Security Operations Through
+  Adversarial Log Content'
+url: https://arxiv.org/abs/2605.24421v1
+authors:
+- Rohan Pandey
+- Archit Bhujang
+venue: arXiv
+year: 2026
+summary: Characterizes log-substrate prompt injection attacks against LLM-augmented security operations,
+  where attacker-controlled log content manipulates the LLM's behavior, and evaluates various attack strategies
+  and defenses.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a novel prompt injection attack vector within a critical agentic
+    system (SOC copilots) and evaluates its impact and potential defenses.
+status: draft

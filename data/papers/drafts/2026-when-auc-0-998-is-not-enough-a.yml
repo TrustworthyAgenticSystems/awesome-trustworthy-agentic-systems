@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-auc-0-998-is-not-enough-a
+type: papers
+title: 'When AUC 0.998 Is Not Enough: A Candidate Evaluation Protocol for Hidden-State Probes of Indirect
+  Prompt Injection in Multimodal Computer-Use Agents'
+url: https://arxiv.org/abs/2606.22864v1
+authors:
+- Yanhang Li
+- Zhichao Fan
+- Zexin Zhuang
+venue: arXiv
+year: 2026
+summary: Proposes a candidate evaluation protocol with post-hoc diagnostics to rigorously interpret hidden-state
+  probe results for indirect prompt injection detection in multimodal computer-use agents, moving beyond
+  simple AUC scores.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses the critical problem of evaluating and interpreting detection mechanisms for indirect
+    prompt injection in agentic systems, focusing on robust evaluation methodology.
+status: draft

@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-biomedarena-an-open-source-toolkit-for-building-and
+type: papers
+title: 'BioMedArena: An Open-source Toolkit for Building and Evaluating Biomedical Deep Research Agents'
+url: https://arxiv.org/abs/2605.06177v2
+authors:
+- Jinge Wu
+- Hongjian Zhou
+- Mingde Zeng
+- Jiayuan Zhu
+- Junde Wu
+- Jiazhen Pan
+- Ayush Noori
+- Sean Wu
+- Honghan Wu
+- Fenglin Liu
+- David A. Clifton
+venue: arXiv
+year: 2026
+summary: BioMedArena is an open-source toolkit that provides a standardized evaluation environment for
+  biomedical deep research agents, decoupling evaluation layers and offering reference components to improve
+  reproducibility and comparability.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the reproducibility and evaluation challenges of agentic systems
+    by providing a structured toolkit and shared environment for comparison.
+status: draft

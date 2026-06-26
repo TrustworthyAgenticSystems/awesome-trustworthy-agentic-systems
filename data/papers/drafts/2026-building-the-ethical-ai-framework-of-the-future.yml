@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-building-the-ethical-ai-framework-of-the-future
+type: papers
+title: 'Building the ethical AI framework of the future: from philosophy to practice'
+url: https://arxiv.org/abs/2603.06599v1
+authors:
+- Jasper Kyle Catapang
+venue: arXiv
+year: 2026
+summary: Presents an ethics-by-design control architecture that embeds ethical reasoning into stage-specific
+  enforcement mechanisms across the AI lifecycle, using a triple-gate structure for operational AI governance.
+harness_layer:
+- architectures
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: This paper proposes a concrete, deployable control architecture for ethical AI governance
+    across the entire lifecycle, including agentic systems, with specific mechanisms for enforcement and
+    evaluation.
+status: draft

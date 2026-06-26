@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-prompt-injection-detection-is-regime-dependent-a-deployment
+type: papers
+title: 'Prompt Injection Detection is Regime-Dependent: A Deployment-Aware Evaluation with Interpretable
+  Structural Signals'
+url: https://arxiv.org/abs/2605.26999v1
+authors:
+- Akindoyin Akinrele
+- Shreyank N Gowda
+venue: arXiv
+year: 2026
+summary: Evaluates prompt injection detection methods across diverse deployment regimes and introduces
+  interpretable structural signals to improve detection, highlighting the gap between ranking performance
+  and real-world effectiveness.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a deployment-aware evaluation of prompt injection detection, which is
+    a core red-teaming concern for agentic systems, and introduces structural signals relevant to system-level
+    attacks.
+status: draft

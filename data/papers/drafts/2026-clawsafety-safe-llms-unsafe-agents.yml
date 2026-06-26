@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-clawsafety-safe-llms-unsafe-agents
+type: papers
+title: 'ClawSafety: "Safe" LLMs, Unsafe Agents'
+url: https://arxiv.org/abs/2604.01438v2
+authors:
+- Bowen Wei
+- Yunbei Zhang
+- Jinhao Pan
+- Kai Mei
+- Xiao Wang
+- Jihun Hamm
+- Ziwei Zhu
+- Yingqiang Ge
+venue: arXiv
+year: 2026
+summary: CLAWSAFETY is a benchmark of 120 adversarial test scenarios for personal AI agents with elevated
+  privileges, evaluating five LLMs and three agent frameworks to demonstrate that safety depends on the
+  full deployment stack, not just the backbone model.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses adversarial testing of agentic systems in realistic, high-privilege
+    environments, highlighting the system-level nature of agent safety beyond model-centric evaluations.
+status: draft

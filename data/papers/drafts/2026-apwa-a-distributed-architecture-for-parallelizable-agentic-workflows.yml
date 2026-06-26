@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-apwa-a-distributed-architecture-for-parallelizable-agentic-workflows
+type: papers
+title: 'APWA: A Distributed Architecture for Parallelizable Agentic Workflows'
+url: https://arxiv.org/abs/2605.15132v1
+authors:
+- Evan Rose
+- Tushin Mallick
+- Matthew D. Laws
+- Cristina Nita-Rotaru
+- Alina Oprea
+venue: arXiv
+year: 2026
+summary: APWA is a distributed multi-agent system architecture that decomposes complex queries into non-interfering
+  subproblems for parallel execution, addressing scaling bottlenecks in agentic workflows.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a distributed architecture for parallelizing agentic workflows, directly
+    addressing coordination and scaling challenges in multi-agent systems.
+status: draft

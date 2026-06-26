@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-security-in-a-workflow-exploring-role-based-agentic
+type: papers
+title: 'Security in a Workflow: Exploring Role-Based Agentic Architectures for Vulnerability Handling'
+url: https://arxiv.org/abs/2606.14261v1
+authors:
+- Srijita Basu
+- Miroslaw Staron
+venue: arXiv
+year: 2026
+summary: Explores a role-based agentic workflow for vulnerability analysis and mitigation, integrating
+  Planner, Analyzer, Fixer, and Verifier agents to address multi-stage secure software engineering practices.
+harness_layer:
+- coordination
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses the coordination of multiple agents in a workflow for a security-critical
+    task, which is a systems-engineering contribution.
+status: draft

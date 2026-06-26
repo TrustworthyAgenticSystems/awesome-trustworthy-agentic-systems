@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mind-your-heartbeat-claw-background-execution-inherently-enables
+type: papers
+title: Mind Your HEARTBEAT! Claw Background Execution Inherently Enables Silent Memory Pollution
+url: https://arxiv.org/abs/2603.23064v3
+authors:
+- Yechao Zhang
+- Shiqian Zhao
+- Jie Zhang
+- Gelei Deng
+- Jiawen Zhang
+- Xiaogeng Liu
+- Chaowei Xiao
+- Tianwei Zhang
+venue: arXiv
+year: 2026
+summary: Identifies a memory pollution vulnerability in AI agents where untrusted content from background
+  execution silently influences user-facing behavior due to shared memory context and lack of provenance,
+  formalized as an Exposure-Memory-Behavior pathway.
+harness_layer:
+- memory
+sprs:
+- security
+- privacy
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a critical security vulnerability in agent memory management
+    and context integrity, proposing a novel attack vector and analyzing its impact on agent behavior.
+status: draft

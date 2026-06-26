@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agenteval-dag-structured-step-level-evaluation-for-agentic
+type: papers
+title: 'AgentEval: DAG-Structured Step-Level Evaluation for Agentic Workflows with Error Propagation Tracking'
+url: https://arxiv.org/abs/2604.23581v1
+authors:
+- Dongxin Guo
+- Jikun Wu
+- Siu Ming Yiu
+venue: arXiv
+year: 2026
+summary: AgentEval is a framework for DAG-structured, step-level evaluation of agentic workflows that
+  tracks error propagation and automates root cause attribution, demonstrating improved failure detection
+  and root cause accuracy in production settings.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the systems-level problem of evaluating and debugging multi-step
+    agentic workflows, providing a concrete framework and empirical validation for improved reliability.
+status: draft

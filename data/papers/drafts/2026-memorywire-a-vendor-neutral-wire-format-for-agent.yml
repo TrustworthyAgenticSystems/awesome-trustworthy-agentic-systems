@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memorywire-a-vendor-neutral-wire-format-for-agent
+type: papers
+title: 'memorywire: A Vendor-Neutral Wire Format for Agent Memory Operations'
+url: https://arxiv.org/abs/2606.01138v2
+authors:
+- Thamilvendhan Munirathinam
+venue: arXiv
+year: 2026
+summary: A vendor-neutral wire format for agent memory operations, including a MemoryStore interface,
+  fan-out router, and optional human-in-the-loop governance channel, with a reference implementation and
+  empirical validation.
+harness_layer:
+- memory
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses the systems-engineering problem of memory interoperability, governance,
+    and reliability for agentic systems with a concrete protocol and reference implementation.
+status: draft

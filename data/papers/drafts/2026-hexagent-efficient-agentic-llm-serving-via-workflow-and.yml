@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hexagent-efficient-agentic-llm-serving-via-workflow-and
+type: papers
+title: 'HexAGenT: Efficient Agentic LLM Serving via Workflow- and Heterogeneity-Aware Scheduling'
+url: https://arxiv.org/abs/2605.16637v1
+authors:
+- You Peng
+- Youhe Jiang
+- Wenshuang Li
+- Xu Xu
+- Ke Zhou
+- Jiawei Jiang
+- Chen Wang
+- Binhang Yuan
+venue: arXiv
+year: 2026
+summary: HexAGenT is a workflow-aware scheduler for heterogeneous LLM inference clusters that optimizes
+  for end-to-end workflow latency by modeling requests as online-revealed DAGs and prioritizing calls
+  based on projected risk of missing completion horizons.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the reliability of agentic systems by proposing a novel scheduling
+    mechanism for efficient and timely execution of multi-step agent workflows in heterogeneous serving
+    environments.
+status: draft

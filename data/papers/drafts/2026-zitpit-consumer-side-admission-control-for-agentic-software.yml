@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-zitpit-consumer-side-admission-control-for-agentic-software
+type: papers
+title: 'ZitPit: Consumer-Side Admission Control for Agentic Software Intake'
+url: https://arxiv.org/abs/2604.06241v1
+authors:
+- Jepson Taylor
+- Chris Brousseau
+- Jordan Hildebrandt
+- Kelli Quinn
+venue: arXiv
+year: 2026
+summary: ZitPit is an open-source Rust system that unifies artifact admission, repository-open state,
+  capability-scoped execution, and durable policy records at the consumer execution boundary for agentic
+  workflows, addressing the low-observability loop of AI IDEs and coding agents.
+harness_layer:
+- supply-chain
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses supply-chain security for agentic software intake by proposing
+    a consumer-side admission control system that enforces explicit policy decisions before execution.
+status: draft

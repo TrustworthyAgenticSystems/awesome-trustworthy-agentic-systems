@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-trustdesc-preventing-tool-poisoning-in-llm-applications-via
+type: papers
+title: 'TRUSTDESC: Preventing Tool Poisoning in LLM Applications via Trusted Description Generation'
+url: https://arxiv.org/abs/2604.07536v1
+authors:
+- Hengkai Ye
+- Zhechang Zhang
+- Jinyuan Jia
+- Hong Hu
+venue: arXiv
+year: 2026
+summary: TRUSTDESC is a framework that prevents tool poisoning attacks by automatically generating trusted,
+  implementation-faithful tool descriptions through static analysis, description synthesis, and dynamic
+  verification.
+harness_layer:
+- tool-interface
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a critical security vulnerability in the tool-interface layer
+    of LLM agents by providing a concrete, evaluated defense mechanism.
+status: draft

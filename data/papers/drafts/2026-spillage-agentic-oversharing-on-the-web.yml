@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-spillage-agentic-oversharing-on-the-web
+type: papers
+title: 'SPILLage: Agentic Oversharing on the Web'
+url: https://arxiv.org/abs/2602.13516v1
+authors:
+- Jaechul Roh
+- Eugene Bagdasarian
+- Hamed Haddadi
+- Ali Shahin Shamsabadi
+venue: arXiv
+year: 2026
+summary: Formalizes and benchmarks "Natural Agentic Oversharing" on the web, demonstrating pervasive unintentional
+  disclosure of task-irrelevant user information through agent action traces (clicks, scrolls, navigation)
+  across live e-commerce sites.
+harness_layer:
+- red-team
+sprs:
+- privacy
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper introduces a novel red-teaming framework to identify and characterize privacy
+    risks (oversharing) in web agents, focusing on system-level behavioral traces beyond text leakage.
+status: draft

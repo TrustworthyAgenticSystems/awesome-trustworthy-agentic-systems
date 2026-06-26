@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-scaling-agentic-capabilities-not-context-efficient-reinforcement-finetuning
+type: papers
+title: 'Scaling Agentic Capabilities, Not Context: Efficient Reinforcement Finetuning for Large Toolspaces'
+url: https://arxiv.org/abs/2603.06713v1
+authors:
+- Karan Gupta
+- Pranav Vajreshwari
+- Yash Pandya
+- Raghav Magazine
+- Akshay Nambi
+- Ahmed Awadallah
+venue: arXiv
+year: 2026
+summary: ATLAS is a reinforcement finetuning framework that enables small language models to operate effectively
+  in large toolspace environments by learning context acquisition and action execution, combining iterative
+  tool loading with programmatic tool orchestration to manage context growth and stabilize long-horizon
+  trajectories.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the execution shell by addressing context control and execution
+    structure as learnable decisions for efficient and reliable agent operation in large tool environments.
+status: draft

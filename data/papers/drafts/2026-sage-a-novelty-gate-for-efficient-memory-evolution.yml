@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-sage-a-novelty-gate-for-efficient-memory-evolution
+type: papers
+title: 'SAGE: A Novelty Gate for Efficient Memory Evolution in Agentic LLMs'
+url: https://arxiv.org/abs/2605.30711v2
+authors:
+- Sijia Wang
+- Dhanajit Brahma
+- Ricardo Henao
+venue: arXiv
+year: 2026
+summary: SAGE introduces a novelty-detection gate for agentic LLM memory evolution, using a density estimator
+  to efficiently decide whether to add, merge, or ignore new facts, thereby reducing expensive LLM write-time
+  reasoning.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: The paper directly addresses a systems-engineering problem in agent memory management (write-side
+    control) with a concrete, evaluated solution for efficiency and quality.
+status: draft

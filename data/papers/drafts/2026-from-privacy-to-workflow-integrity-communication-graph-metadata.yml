@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-privacy-to-workflow-integrity-communication-graph-metadata
+type: papers
+title: 'From Privacy to Workflow Integrity: Communication-Graph Metadata in Autonomous Agent Interoperability'
+url: https://arxiv.org/abs/2606.07150v3
+authors:
+- Bijaya Dangol
+venue: arXiv
+year: 2026
+summary: Analyzes the threat of communication-graph metadata leakage in multi-agent interoperability protocols,
+  demonstrating how an adversary can infer workflow intent and act on it, and proposes transport- and
+  bootstrap-layer privacy properties with an indistinguishability-game semantics.
+harness_layer:
+- coordination
+sprs:
+- security
+- privacy
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses a novel security and privacy threat in multi-agent coordination by analyzing communication-graph
+    metadata leakage and its implications for workflow integrity, with a concrete threat model and evaluation.
+status: draft

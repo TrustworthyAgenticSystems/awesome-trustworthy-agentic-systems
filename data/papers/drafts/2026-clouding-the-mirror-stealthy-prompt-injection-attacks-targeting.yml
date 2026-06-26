@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-clouding-the-mirror-stealthy-prompt-injection-attacks-targeting
+type: papers
+title: 'Clouding the Mirror: Stealthy Prompt Injection Attacks Targeting LLM-based Phishing Detection'
+url: https://arxiv.org/abs/2602.05484v1
+authors:
+- Takashi Koide
+- Hiroki Nakano
+- Daiki Chiba
+venue: arXiv
+year: 2026
+summary: Presents a comprehensive evaluation of stealthy prompt injection attacks against multimodal LLM-based
+  phishing detection systems, categorizing attack techniques and surfaces, and proposing InjectDefuser
+  as a defense framework.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses adversarial testing of LLM-based systems, specifically focusing
+    on prompt injection in a security-critical application, and proposes a defense framework.
+status: draft

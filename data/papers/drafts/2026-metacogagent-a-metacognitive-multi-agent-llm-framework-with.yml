@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-metacogagent-a-metacognitive-multi-agent-llm-framework-with
+type: papers
+title: 'MetaCogAgent: A Metacognitive Multi-Agent LLM Framework with Self-Aware Task Delegation'
+url: https://arxiv.org/abs/2605.17292v1
+authors:
+- Chenyu Wang
+- Yang Shu
+venue: arXiv
+year: 2026
+summary: MetaCogAgent is a multi-agent LLM framework that uses metacognitive self-assessment to evaluate
+  task-capability alignment, adaptively delegate tasks, and iteratively refine agent competence models,
+  leading to improved task accuracy and efficiency.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the coordination layer by introducing a metacognitive framework
+    for task delegation and competence learning in multi-agent systems, directly addressing reliability
+    in task execution.
+status: draft

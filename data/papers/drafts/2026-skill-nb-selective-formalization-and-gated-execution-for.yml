@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-skill-nb-selective-formalization-and-gated-execution-for
+type: papers
+title: 'SKILL.nb: Selective Formalization and Gated Execution for Durable Agent Workflows'
+url: https://arxiv.org/abs/2606.08049v1
+authors:
+- Amine El Hattami
+- Nicolas Chapados
+- Christopher Pal
+venue: arXiv
+year: 2026
+summary: SKILL.nb is a framework for governing reusable agent workflows using selective formalization
+  and gate-conditioned execution, storing workflows as auditable, versioned notebooks to improve reliability
+  under environment drift.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the reliability of long-running agent workflows through a novel
+    execution framework that manages lifecycle policies and environment drift.
+status: draft

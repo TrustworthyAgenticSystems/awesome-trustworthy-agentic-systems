@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mcpthreathive-automated-threat-intelligence-for-model-context-protocol
+type: papers
+title: 'MCPThreatHive: Automated Threat Intelligence for Model Context Protocol Ecosystems'
+url: https://arxiv.org/abs/2604.13849v1
+authors:
+- Yi Ting Shen
+- Kentaroh Toyoda
+- Alex Leung
+venue: arXiv
+year: 2026
+summary: MCPThreatHive is an open-source platform that automates the end-to-end lifecycle of threat intelligence
+  for Model Context Protocol (MCP)-based agentic systems, including data collection, AI-driven threat
+  extraction, classification, and knowledge graph storage.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses security threats in agentic systems by providing an automated
+    threat intelligence platform and taxonomy for MCP-based systems, which is a clear contribution to
+    red-teaming and security for agentic systems.
+status: draft

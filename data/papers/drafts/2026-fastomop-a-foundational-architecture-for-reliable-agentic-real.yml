@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-fastomop-a-foundational-architecture-for-reliable-agentic-real
+type: papers
+title: 'FastOMOP: A Foundational Architecture for Reliable Agentic Real-World Evidence Generation on OMOP
+  CDM data'
+url: https://arxiv.org/abs/2604.24572v1
+authors:
+- Niko Moeller-Grell
+- Shihao Shenzhang
+- Zhangshu Joshua Jiang
+- Richard JB Dobson
+- Vishnu V Chandrabalan
+venue: arXiv
+year: 2026
+summary: FastOMOP is an open-source multi-agent architecture for real-world evidence generation that enforces
+  safety and reliability through process-boundary governance, observability, and orchestration layers,
+  independent of agent reasoning.
+harness_layer:
+- architectures
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper proposes a foundational architecture for trustworthy agentic systems, specifically
+    addressing safety and reliability in a critical domain (healthcare RWE) through system-level governance
+    and observability.
+status: draft

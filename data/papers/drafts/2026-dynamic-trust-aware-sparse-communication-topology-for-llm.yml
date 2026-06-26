@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-dynamic-trust-aware-sparse-communication-topology-for-llm
+type: papers
+title: Dynamic Trust-Aware Sparse Communication Topology for LLM-Based Multi-Agent Consensus
+url: https://arxiv.org/abs/2606.01828v1
+authors:
+- Wanshuang Gou
+- Zihan Liu
+venue: arXiv
+year: 2026
+summary: DySCo is a dynamic trust-aware sparse consensus mechanism that optimizes multi-agent communication
+  topology by estimating the value of communication edges based on agent reliability and task relevance,
+  reducing overhead while preserving critical information for consensus.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the systems-level problem of communication overhead and efficiency
+    in multi-agent coordination, contributing to the reliability of complex reasoning tasks.
+status: draft

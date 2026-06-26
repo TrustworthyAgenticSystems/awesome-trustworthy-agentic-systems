@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-investigating-detection-and-obfuscation-of-prompt-injection-attacks
+type: papers
+title: Investigating Detection and Obfuscation of Prompt Injection Attacks Against Software Reverse Engineering
+  AI Agents
+url: https://arxiv.org/abs/2605.30677v1
+authors:
+- Brian Crawford
+- Patrick McClure
+venue: arXiv
+year: 2026
+summary: Investigates prompt injection attacks embedded in source code against software reverse engineering
+  AI agents, demonstrating detection and obfuscation techniques for these attacks in decompiler output.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses adversarial testing and defense against prompt injection in a specific
+    agentic system context (software reverse engineering).
+status: draft

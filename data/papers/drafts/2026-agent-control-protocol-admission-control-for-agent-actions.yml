@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agent-control-protocol-admission-control-for-agent-actions
+type: papers
+title: 'Agent Control Protocol: Admission Control for Agent Actions'
+url: https://arxiv.org/abs/2603.18829v10
+authors:
+- Marcelo Fernandez
+venue: arXiv
+year: 2026
+summary: A temporal admission control protocol (ACP) that enforces behavioral properties over agent execution
+  traces using static risk scoring and stateful signals, preventing harmful patterns from individually
+  valid requests.
+harness_layer:
+- execution-shell
+sprs:
+- safety
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: 'Directly addresses a core problem in agent trustworthiness: controlling emergent harmful
+    behavior from individually valid actions via a stateful execution-shell mechanism.'
+status: draft

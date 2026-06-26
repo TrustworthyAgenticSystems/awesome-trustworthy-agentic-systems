@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-benchmarking-knowledge-extraction-attack-and-defense-on-retrieval
+type: papers
+title: Benchmarking Knowledge-Extraction Attack and Defense on Retrieval-Augmented Generation
+url: https://arxiv.org/abs/2602.09319v3
+authors:
+- Zhisheng Qi
+- Utkarsh Sahu
+- Li Ma
+- Haoyu Han
+- Ryan Rossi
+- Franck Dernoncourt
+- Mahantesh Halappanavar
+- Nesreen Ahmed
+- Yushun Dong
+- Yue Zhao
+- Yu Zhang
+- Yu Wang
+venue: arXiv
+year: 2026
+summary: Introduces the first systematic benchmark for knowledge-extraction attacks and defenses on RAG
+  systems, covering diverse models, indexing, and strategies under a unified experimental framework.
+harness_layer:
+- memory
+sprs:
+- privacy
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses a critical security and privacy concern for agent memory (RAG)
+    by providing a systematic benchmark for knowledge-extraction attacks and defenses.
+status: draft

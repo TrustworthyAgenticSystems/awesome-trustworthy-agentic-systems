@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-your-agents-are-aging-too-agent-lifespan-engineering
+type: papers
+title: 'Your Agents Are Aging Too: Agent Lifespan Engineering for Deployed Systems'
+url: https://arxiv.org/abs/2605.26302v1
+authors:
+- Jianing Zhu
+- Yeonju Ro
+- John Robertson
+- Kevin Wang
+- Junbo Li
+- Haris Vikalo
+- Aditya Akella
+- Zhangyang Wang
+venue: arXiv
+year: 2026
+summary: Introduces AgingBench, a longitudinal reliability benchmark to measure and diagnose degradation
+  in long-lived AI agents across various aging mechanisms and memory pipeline stages, emphasizing lifespan
+  evaluation over day-one benchmarks.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses the long-term reliability and evaluation of deployed agentic systems,
+    providing a framework for diagnosing degradation mechanisms.
+status: draft

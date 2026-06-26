@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-trinityguard-a-unified-framework-for-safeguarding-multi-agent
+type: papers
+title: 'TrinityGuard: A Unified Framework for Safeguarding Multi-Agent Systems'
+url: https://arxiv.org/abs/2603.15408v1
+authors:
+- Kai Wang
+- Biaojie Zeng
+- Zeming Wei
+- Chang Jin
+- Hefeng Zhou
+- Xiangtian Li
+- Chao Yang
+- Jingjing Qu
+- Xingcheng Xu
+- Xia Hu
+venue: arXiv
+year: 2026
+summary: TrinityGuard is a comprehensive framework for evaluating and monitoring multi-agent system risks,
+  encompassing a three-tier risk taxonomy, an MAS abstraction layer, risk-specific test modules, and runtime
+  monitor agents coordinated by an LLM Judge Factory.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a comprehensive framework for evaluating and monitoring multi-agent
+    system risks, including runtime monitoring and a detailed risk taxonomy, directly addressing systems-level
+    trustworthiness.
+status: draft

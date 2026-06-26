@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-legalgraphrag-multi-agent-graph-retrieval-augmented-generation-for
+type: papers
+title: 'LegalGraphRAG: Multi-Agent Graph Retrieval-Augmented Generation for Reliable Legal Reasoning'
+url: https://arxiv.org/abs/2605.28120v1
+authors:
+- Zerui Chen
+- Qinggang Zhang
+- Zhishang Xiang
+- Zhimin Wei
+- Linfeng Gao
+- Xiao Huang
+- Zhihong Zhang
+- Jinsong Su
+venue: arXiv
+year: 2026
+summary: LegalGraphRAG introduces a multi-agent system with Researcher, Auditor, and Adjudicator roles
+  to improve reliable and transparent legal reasoning by verifying retrieved evidence against source documents.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a multi-agent system with distinct roles for evidence retrieval, verification,
+    and synthesis, directly addressing reliability and transparency in agentic reasoning workflows.
+status: draft

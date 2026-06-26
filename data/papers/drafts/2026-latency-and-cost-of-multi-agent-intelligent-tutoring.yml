@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-latency-and-cost-of-multi-agent-intelligent-tutoring
+type: papers
+title: Latency and Cost of Multi-Agent Intelligent Tutoring at Scale
+url: https://arxiv.org/abs/2604.24110v1
+authors:
+- Iizalaarab Elhaimeur
+- Nikos Chrisochoides
+venue: arXiv
+year: 2026
+summary: Empirical study of latency and cost for a multi-agent intelligent tutoring system across different
+  API throughput tiers and concurrency levels, providing deployment guidance for scaling agentic systems.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper provides a concrete, empirical analysis of the operational characteristics (latency,
+    cost) of a multi-agent system at scale, offering practical guidance for trustworthy deployments.
+status: draft

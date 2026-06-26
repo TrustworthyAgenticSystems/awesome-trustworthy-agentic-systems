@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-lean4agent-formal-modeling-and-verification-for-agent-workflow
+type: papers
+title: 'Lean4Agent: Formal Modeling and Verification for Agent Workflow and Trajectory'
+url: https://arxiv.org/abs/2606.06523v2
+authors:
+- Ruida Wang
+- Jerry Huang
+- Pengcheng Wang
+- Xuanqing Liu
+- Luyang Kong
+- Tong Zhang
+venue: arXiv
+year: 2026
+summary: Lean4Agent is a framework that uses the Lean4 formal language to model and verify agent workflows
+  and execution trajectories, enabling semantic consistency checks and localization of execution-time
+  failures.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a formal verification framework for agent workflows and trajectories,
+    directly addressing reliability and observability in agentic systems.
+status: draft

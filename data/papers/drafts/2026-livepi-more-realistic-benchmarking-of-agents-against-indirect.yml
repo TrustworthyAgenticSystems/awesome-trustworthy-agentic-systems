@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-livepi-more-realistic-benchmarking-of-agents-against-indirect
+type: papers
+title: 'LivePI: More Realistic Benchmarking of Agents Against Indirect Prompt Injection'
+url: https://arxiv.org/abs/2605.17986v3
+authors:
+- Lei Zhao
+- Abhay Bhaskar
+- Edgar Dobriban
+venue: arXiv
+year: 2026
+summary: LivePI is a structured benchmark for indirect prompt injection (IPI) risk in a production-like,
+  test-controlled environment, covering seven input surfaces, twelve attack families, and five malicious
+  goals, and evaluates a two-layer defense.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly contributes to red-teaming agentic systems by introducing a comprehensive,
+    realistic benchmark for indirect prompt injection and evaluating defenses against it.
+status: draft

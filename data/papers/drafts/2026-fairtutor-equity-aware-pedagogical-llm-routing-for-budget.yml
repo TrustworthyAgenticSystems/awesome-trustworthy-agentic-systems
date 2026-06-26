@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-fairtutor-equity-aware-pedagogical-llm-routing-for-budget
+type: papers
+title: 'FairTutor: Equity-Aware Pedagogical LLM Routing for Budget-Constrained AI Tutoring'
+url: https://arxiv.org/abs/2606.20713v1
+authors:
+- Qingyang Xu
+venue: arXiv
+year: 2026
+summary: FairTutor is an equity-aware model-routing framework that uses multi-agent orchestration, including
+  query analysis, pedagogical planning, and selective escalation to premium models, to achieve cost-effective
+  AI tutoring while maintaining pedagogical quality.
+harness_layer:
+- coordination
+sprs:
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to multi-agent orchestration and pedagogical planning for equitable
+    access to AI tutoring, addressing a safety concern related to educational equity.
+status: draft

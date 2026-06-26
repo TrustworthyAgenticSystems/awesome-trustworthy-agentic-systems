@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-effective-strategies-for-asynchronous-software-engineering-agents
+type: papers
+title: Effective Strategies for Asynchronous Software Engineering Agents
+url: https://arxiv.org/abs/2603.21489v1
+authors:
+- Jiayi Geng
+- Graham Neubig
+venue: arXiv
+year: 2026
+summary: Introduces Centralized Asynchronous Isolated Delegation (CAID), a multi-agent coordination paradigm
+  for software engineering tasks that uses centralized task delegation, asynchronous execution in isolated
+  workspaces, and structured integration with test-based verification to improve accuracy and timely completion.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: The paper proposes a structured multi-agent coordination paradigm inspired by human software
+    engineering primitives to address challenges in long-horizon tasks, directly contributing to the reliability
+    of agentic systems.
+status: draft

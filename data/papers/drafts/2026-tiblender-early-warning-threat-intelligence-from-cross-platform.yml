@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-tiblender-early-warning-threat-intelligence-from-cross-platform
+type: papers
+title: 'TIBlender: Early-Warning Threat Intelligence from Cross-Platform Social Media Evidence'
+url: https://arxiv.org/abs/2606.04580v1
+authors:
+- Hiroki Nakano
+- Takashi Koide
+- Daiki Chiba
+venue: arXiv
+year: 2026
+summary: TIBlender is a multi-agent system that integrates fragmented cyber threat signals from four social
+  media platforms into structured threat intelligence reports through collaborative, evidence-backed analysis
+  by role-specialized LLM agents.
+harness_layer:
+- coordination
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes a multi-agent system for threat intelligence, focusing on the coordination
+    of specialized agents to integrate cross-platform evidence for early-warning security, which is a
+    systems-level contribution.
+status: draft

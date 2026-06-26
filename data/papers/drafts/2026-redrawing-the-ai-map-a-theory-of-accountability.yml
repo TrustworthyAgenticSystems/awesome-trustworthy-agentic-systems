@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-redrawing-the-ai-map-a-theory-of-accountability
+type: papers
+title: 'Redrawing the AI Map: A Theory of Accountability Boundaries in Agentic Ecosystems'
+url: https://arxiv.org/abs/2605.23179v1
+authors:
+- Muhammad Zia Hydari
+- Farooq Muzaffar
+venue: arXiv
+year: 2026
+summary: Develops a theory of accountability boundaries in agentic ecosystems, introducing 'accountability
+  assets' and 'rule debt' to explain when technical modularization aligns with organizational disaggregation
+  for auditable and responsible AI-supported outputs.
+harness_layer:
+- foundations
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a foundational theoretical framework for understanding accountability and governance
+    in agentic systems, addressing the translation gap between technical modularity and organizational
+    responsibility.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-aip-agent-identity-protocol-for-verifiable-delegation-across
+type: papers
+title: 'AIP: Agent Identity Protocol for Verifiable Delegation Across MCP and A2A'
+url: https://arxiv.org/abs/2603.24775v1
+authors:
+- Sunil Prakash
+venue: arXiv
+year: 2026
+summary: Introduces Agent Identity Protocol (AIP) using Invocation-Bound Capability Tokens (IBCTs) to
+  provide verifiable delegation, attenuated authorization, and provenance binding for agent-to-agent and
+  tool-calling interactions, with reference implementations and adversarial evaluation.
+harness_layer:
+- permissions
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses agent identity, authorization, and verifiable delegation across the agentic
+    stack, with concrete protocol design, implementation, and adversarial evaluation.
+status: draft

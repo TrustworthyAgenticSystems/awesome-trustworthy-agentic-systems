@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-aliyunconsoleagent-training-web-agents-in-real-world-cloud
+type: papers
+title: 'AliyunConsoleAgent: Training Web Agents in Real-World Cloud Environments via Distillation and
+  Reinforcement Learning'
+url: https://arxiv.org/abs/2606.09447v1
+authors:
+- Bojie Rong
+- Zheyu Shen
+- Qiaoping Wang
+- Pengfei Kang
+- Yang Xu
+- Yawen Wei
+- Hanyu Wu
+- Zhi Zhao
+- Leihao Pei
+- Linquan Jiang
+venue: arXiv
+year: 2026
+summary: AliyunConsoleAgent is a web agent framework for automated documentation verification in cloud
+  environments, using a two-stage training paradigm (SFT and RL) and a high-determinism rollout system
+  with Terraform-based provisioning to enable large-scale, reliable training and evaluation in real-world
+  settings.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes a complete agent architecture for a real-world problem, including systems-level
+    details like a high-determinism rollout system and reward-hacking-resistant evaluation, which are
+    crucial for trustworthy deployment.
+status: draft

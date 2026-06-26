@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-characterization-of-multi-model-agentic-ai-systems-on
+type: papers
+title: Characterization of Multi-Model Agentic AI Systems on General Tasks via Trace-Driven Simulation
+url: https://arxiv.org/abs/2606.01725v1
+authors:
+- Donghwan Kim
+- Prakhar Singh
+- Younghoon Min
+- Jongryool Kim
+- Jongse Park
+- Kiwan Maeng
+venue: arXiv
+year: 2026
+summary: GAIATrace is the first token-level trace dataset of two state-of-the-art agentic systems (MiroThinker
+  and OWL) running GAIA, a benchmark composed of a heterogeneous mix of general-purpose tasks. Vidur-Agent
+  is a trace-driven simulator that can replay GAIATrace to perform reproducible, low-cost system evaluation
+  across diverse simulated environments.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a trace dataset and a trace-driven simulator for reproducible, low-cost
+    system evaluation of agentic systems, directly addressing observability and long-horizon evaluation.
+status: draft

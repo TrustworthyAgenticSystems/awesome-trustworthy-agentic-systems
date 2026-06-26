@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-detection-governing-genai-in-academic-peer-review
+type: papers
+title: 'Beyond Detection: Governing GenAI in Academic Peer Review as a Sociotechnical Challenge'
+url: https://arxiv.org/abs/2603.20214v1
+authors:
+- Tatiana Chakravorti
+- Pranav Narayanan Venkit
+- Sourojit Ghosh
+- Sarah Rajtmajer
+venue: arXiv
+year: 2026
+summary: Examines the sociotechnical challenges of integrating GenAI into academic peer review, focusing
+  on human oversight, accountability, and the division of labor between AI and human evaluative judgment,
+  based on mixed-method empirical study.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses human oversight and governance challenges in agentic workflows (peer review) through
+    an empirical study, offering recommendations for preserving accountability and trust.
+status: draft

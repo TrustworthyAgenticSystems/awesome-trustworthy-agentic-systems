@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-fairness-in-multi-agent-systems-for-software-engineering
+type: papers
+title: 'Fairness in Multi-Agent Systems for Software Engineering: An SDLC-Oriented Rapid Review'
+url: https://arxiv.org/abs/2604.13103v1
+authors:
+- Corey Yang-Smith
+- Ronnie de Souza Santos
+- Ahmad Abdellatif
+venue: arXiv
+year: 2026
+summary: A rapid review of fairness in multi-agent systems for software engineering, identifying gaps
+  in evaluation, generalization, and mitigation mechanisms relevant to the SDLC.
+harness_layer:
+- foundations
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper provides a foundational review of fairness challenges in agentic systems within
+    the SDLC, identifying key gaps and motivating future systems-level research.
+status: draft

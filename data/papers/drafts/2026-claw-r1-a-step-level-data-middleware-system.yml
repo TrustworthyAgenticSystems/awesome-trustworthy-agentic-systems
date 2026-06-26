@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-claw-r1-a-step-level-data-middleware-system
+type: papers
+title: 'Claw-R1: A Step-Level Data Middleware System for Agentic Reinforcement Learning'
+url: https://arxiv.org/abs/2606.09138v1
+authors:
+- Daoyu Wang
+- Mingyue Cheng
+- Qingchuan Li
+- Shuo Yu
+- Jie Ouyang
+- Qi Liu
+venue: arXiv
+year: 2026
+summary: Claw-R1 is a step-level data middleware system that manages the full data lifecycle of agent-environment
+  interactions, from capturing multi-turn interaction steps to organizing them into step-level records
+  for inspection, curation, and training-ready batch configuration.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper contributes a system for managing and curating agent interaction data, which is
+    crucial for observability, evaluation, and reliability of agentic systems.
+status: draft

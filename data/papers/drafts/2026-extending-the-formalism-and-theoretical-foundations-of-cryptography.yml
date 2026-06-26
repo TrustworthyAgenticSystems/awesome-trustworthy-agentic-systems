@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-extending-the-formalism-and-theoretical-foundations-of-cryptography
+type: papers
+title: Extending the Formalism and Theoretical Foundations of Cryptography to AI
+url: https://arxiv.org/abs/2603.02590v1
+authors:
+- Federico Villa
+- F. Betül Durak
+- Tadayoshi Kohno
+- Tapdig Maharramli
+- Franziska Roesner
+venue: arXiv
+year: 2026
+summary: This paper provides a formal foundation for agentic access control, including an attack taxonomy
+  and a security-game framework, to enable principled reasoning about the security of agentic system designs.
+harness_layer:
+- foundations
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper establishes formal foundations for agentic access control and security, directly
+    addressing a core systems-level challenge for trustworthy agents.
+status: draft

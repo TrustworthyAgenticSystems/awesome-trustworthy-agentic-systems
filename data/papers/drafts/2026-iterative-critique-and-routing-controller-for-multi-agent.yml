@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-iterative-critique-and-routing-controller-for-multi-agent
+type: papers
+title: Iterative Critique-and-Routing Controller for Multi-Agent Systems with Heterogeneous LLMs
+url: https://arxiv.org/abs/2605.08686v1
+authors:
+- Wenzhi Fang
+- Liangqi Yuan
+- Guangchen Lan
+- Dong-Jun Han
+- Christopher G. Brinton
+venue: arXiv
+year: 2026
+summary: A critique-and-routing controller for multi-agent systems that iteratively evaluates drafts and
+  selects the next agent for refinement, formulated as an MDP with agent-utilization constraints.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a novel coordination mechanism for multi-agent systems that addresses
+    iterative refinement and resource constraints, contributing to the reliability of agent workflows.
+status: draft

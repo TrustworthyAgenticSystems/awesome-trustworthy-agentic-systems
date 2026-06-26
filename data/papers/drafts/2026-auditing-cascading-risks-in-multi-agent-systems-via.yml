@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-auditing-cascading-risks-in-multi-agent-systems-via
+type: papers
+title: Auditing Cascading Risks in Multi-Agent Systems via Semantic-Geometric Co-evolution
+url: https://arxiv.org/abs/2603.13325v1
+authors:
+- Zixun Luo
+- Yuhang Fan
+- Hengyu Lin
+- Yufei Li
+- Youzhi Zhang
+venue: arXiv
+year: 2026
+summary: A framework for detecting cascading risks in multi-agent systems by modeling interactions as
+  dynamic graphs and using Ollivier-Ricci Curvature to identify early structural deviations that precede
+  semantic violations.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper proposes a novel observation and evaluation method for multi-agent systems, focusing
+    on early detection of cascading risks through structural analysis of interaction dynamics.
+status: draft

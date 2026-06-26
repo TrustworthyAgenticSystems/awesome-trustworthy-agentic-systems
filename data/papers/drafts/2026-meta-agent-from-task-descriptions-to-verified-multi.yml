@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-meta-agent-from-task-descriptions-to-verified-multi
+type: papers
+title: 'Meta-Agent: From Task Descriptions to Verified Multi-Agent Systems'
+url: https://arxiv.org/abs/2605.25233v1
+authors:
+- Andy Xu
+- Yu-Wing Tai
+venue: arXiv
+year: 2026
+summary: Meta-Agent is a two-phase framework that constructs and executes multi-agent systems from natural-language
+  task descriptions, integrating planning, grounding, and multi-level verification to improve task success
+  and error recovery.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the reliability of multi-agent systems through structured coordination,
+    explicit contracts, and multi-level verification and error attribution, which are core systems-engineering
+    concerns.
+status: draft

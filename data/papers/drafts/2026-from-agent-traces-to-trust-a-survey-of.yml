@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-agent-traces-to-trust-a-survey-of
+type: papers
+title: 'From Agent Traces to Trust: A Survey of Evidence Tracing and Execution Provenance in LLM Agents'
+url: https://arxiv.org/abs/2606.04990v3
+authors:
+- Yiqi Wang
+- Jiaqi Zhang
+- Taotao Cai
+- Zirui Liu
+- Qingqiang Sun
+- Zequn Sun
+- Zhangkai Wu
+- Manqing Dong
+- Mingkai Zhang
+- Xuefei Yin
+- Yanming Zhu
+venue: arXiv
+year: 2026
+summary: A survey defining execution provenance and evidence tracing as foundational concepts for process-level
+  accountability in LLM agents, connecting various aspects of trustworthiness within a unified framework.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a foundational taxonomy and survey of evidence tracing and execution
+    provenance, directly addressing the observability and accountability of agentic systems.
+status: draft

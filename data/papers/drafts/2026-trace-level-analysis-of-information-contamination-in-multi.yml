@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-trace-level-analysis-of-information-contamination-in-multi
+type: papers
+title: Trace-Level Analysis of Information Contamination in Multi-Agent Systems
+url: https://arxiv.org/abs/2604.27586v1
+authors:
+- Anna Mazhar
+- Huzaifa Suri
+- Sainyam Galhotra
+venue: arXiv
+year: 2026
+summary: Studies information contamination in multi-agent workflows by injecting perturbations and analyzing
+  trace divergence in plans, tool invocations, and intermediate state, providing a measurement framework
+  and taxonomy for detection and localization.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses the observability and evaluation of information integrity and reliability
+    in multi-step agent workflows through a trace-level analysis and measurement framework.
+status: draft

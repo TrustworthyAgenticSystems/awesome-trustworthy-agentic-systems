@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-reporeviewer-a-local-first-multi-agent-architecture-for
+type: papers
+title: 'RepoReviewer: A Local-First Multi-Agent Architecture for Repository-Level Code Review'
+url: https://arxiv.org/abs/2603.16107v1
+authors:
+- Peng Zhang
+venue: arXiv
+year: 2026
+summary: RepoReviewer is a local-first multi-agent architecture for automated GitHub repository review,
+  decomposing the process into distinct stages and providing reusable evaluation infrastructure.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes a pragmatic multi-agent system architecture for a complex task, focusing
+    on system design, implementation tradeoffs, and practical failure modes, which is a direct contribution
+    to trustworthy agentic systems.
+status: draft

@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-control-boundary-to-insurance-claim-reconstructing-ai
+type: papers
+title: 'From Control Boundary to Insurance Claim: Reconstructing AI-Mediated Losses Through the CER Framework'
+url: https://arxiv.org/abs/2606.03777v1
+authors:
+- Alex Leung
+- Rex Zhang
+- Kentaroh Toyoda
+- SiewMei Loh
+venue: arXiv
+year: 2026
+summary: Introduces the CER framework (Control Boundary, Evidence Reconstruction, Insurance Response)
+  to define and operationalize the reconstruction of AI-mediated losses for insurance claims, addressing
+  the need for state reconstruction in agentic systems.
+harness_layer:
+- foundations
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a foundational framework for understanding and reconstructing AI-mediated
+    losses in agentic systems, directly addressing the 'foundations' layer and the need for robust observability
+    for accountability.
+status: draft

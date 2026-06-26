@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mama-a-game-theoretic-approach-for-designing-safe
+type: papers
+title: 'MaMa: A Game-Theoretic Approach for Designing Safe Agentic Systems'
+url: https://arxiv.org/abs/2602.04431v2
+authors:
+- Jonathan Nöther
+- Adish Singla
+- Goran Radanovic
+venue: arXiv
+year: 2026
+summary: A game-theoretic approach (MaMa) for designing multi-agent systems that are robust to compromised
+  agents, using LLM-based adversarial search to iteratively refine system designs against worst-case attacks.
+harness_layer:
+- coordination
+sprs:
+- safety
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the safety and security of multi-agent coordination by designing
+    systems resilient to compromised agents, a core systems-engineering problem.
+status: draft

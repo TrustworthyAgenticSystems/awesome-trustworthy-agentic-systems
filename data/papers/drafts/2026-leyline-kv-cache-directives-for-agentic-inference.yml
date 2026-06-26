@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-leyline-kv-cache-directives-for-agentic-inference
+type: papers
+title: 'Leyline: KV Cache Directives for Agentic Inference'
+url: https://arxiv.org/abs/2606.01065v1
+authors:
+- Bole Ma
+- Jan Eitzinger
+- Harald Koestler
+venue: arXiv
+year: 2026
+summary: Leyline introduces a serving-side primitive for KV cache management that allows agentic policies
+  to direct the removal or replacement of cached content, avoiding full re-prefill costs and improving
+  latency and solve rates.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses a core execution-shell problem for agentic systems by providing a novel
+    primitive for efficient KV cache management under policy-driven edits.
+status: draft

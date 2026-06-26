@@ -1,0 +1,43 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cutscene-agent-an-llm-agent-framework-for-automated
+type: papers
+title: 'Cutscene Agent: An LLM Agent Framework for Automated 3D Cutscene Generation'
+url: https://arxiv.org/abs/2604.25318v1
+authors:
+- Lanshan He
+- Haozhou Pang
+- Qi Gan
+- Xin Shen
+- Ziwei Zhang
+- Yibo Liu
+- Gang Fang
+- Bo Liu
+- Kai Sheng
+- Shengfeng Zeng
+- Chaofan Li
+- Zhen Hui
+- Keer Zhou
+- Lan Zhou
+- Shujun Dai
+venue: arXiv
+year: 2026
+summary: Cutscene Agent introduces a bidirectional Model Context Protocol (MCP) for LLM agents to interact
+  with a game engine, enabling closed-loop generation of cinematic assets and addressing long-horizon
+  tool orchestration challenges.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to tool-interface design with bidirectional integration and addresses
+    long-horizon, multi-step orchestration, which is relevant to agentic systems reliability.
+status: draft

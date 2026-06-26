@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-fase-fast-adaptive-semantic-entropy-for-code-quality
+type: papers
+title: 'FASE: Fast Adaptive Semantic Entropy for Code Quality'
+url: https://arxiv.org/abs/2606.09800v1
+authors:
+- Shizhe Lin
+- Ladan Tahvildari
+venue: arXiv
+year: 2026
+summary: Introduces Fast Adaptive Semantic Entropy (FASE), a computationally efficient metric for quantifying
+  uncertainty and approximating functional correctness in multi-agent code generation workflows, addressing
+  the challenge of LLM hallucinations and error propagation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes a practical and cost-effective evaluation metric for multi-agent code
+    generation systems, directly addressing reliability in agentic workflows.
+status: draft

@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-diversity-collapse-in-multi-agent-llm-systems-structural
+type: papers
+title: 'Diversity Collapse in Multi-Agent LLM Systems: Structural Coupling and Collective Failure in Open-Ended
+  Idea Generation'
+url: https://arxiv.org/abs/2604.18005v2
+authors:
+- Nuo Chen
+- Yicheng Tong
+- Yuzhe Yang
+- Yufei He
+- Xueyi Zhang
+- Qingyun Zou
+- Qian Wang
+- Bingsheng He
+venue: arXiv
+year: 2026
+summary: Empirical study of diversity collapse in multi-agent ideation systems, identifying how model
+  alignment, authority dynamics, and communication topologies lead to collective failures and reduced
+  exploration.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper provides a systematic empirical study of collective failures in multi-agent systems,
+    specifically addressing how coordination mechanisms impact the reliability and diversity of agent
+    outputs.
+status: draft

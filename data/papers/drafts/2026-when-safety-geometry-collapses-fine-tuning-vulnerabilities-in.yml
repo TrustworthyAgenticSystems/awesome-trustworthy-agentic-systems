@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-safety-geometry-collapses-fine-tuning-vulnerabilities-in
+type: papers
+title: 'When Safety Geometry Collapses: Fine-Tuning Vulnerabilities in Agentic Guard Models'
+url: https://arxiv.org/abs/2605.02914v1
+authors:
+- Ismail Hossain
+- Sai Puppala
+- Jannatul Ferdaus
+- Md Jahangir Alam
+- Yoonpyo Lee
+- Syed Bahauddin Alam
+- Sajedul Talukder
+venue: arXiv
+year: 2026
+summary: Demonstrates how benign fine-tuning can destroy safety alignment in guard models used in agentic
+  pipelines, proposing a training-time regularization method (FW-SSR) to recover safety by sharpening
+  latent safety geometry.
+harness_layer:
+- execution-shell
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses a critical reliability and safety vulnerability in guard models, which are a key
+    component of the agentic execution shell, with a concrete mitigation and a new evaluation method.
+status: draft

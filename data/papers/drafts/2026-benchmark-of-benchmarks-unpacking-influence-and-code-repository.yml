@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-benchmark-of-benchmarks-unpacking-influence-and-code-repository
+type: papers
+title: 'Benchmark of Benchmarks: Unpacking Influence and Code Repository Quality in LLM Safety Benchmarks'
+url: https://arxiv.org/abs/2603.04459v3
+authors:
+- Junjie Chu
+- Xinyue Shen
+- Ye Leng
+- Michael Backes
+- Yun Shen
+- Yang Zhang
+venue: arXiv
+year: 2026
+summary: Systematic measurement study of 31 LLM safety benchmarks, revealing low code runnability and
+  ethical deficiencies, and proposing a checklist for improving benchmark quality and safety.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the reliability and safety of evaluation infrastructure for
+    LLM agents, identifying systemic issues in benchmark quality and proposing concrete improvements.
+status: draft

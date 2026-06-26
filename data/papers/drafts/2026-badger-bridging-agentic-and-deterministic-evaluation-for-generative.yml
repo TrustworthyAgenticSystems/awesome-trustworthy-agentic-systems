@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-badger-bridging-agentic-and-deterministic-evaluation-for-generative
+type: papers
+title: 'BADGER: Bridging Agentic and Deterministic Evaluation for Generative Enterprise Reasoning'
+url: https://arxiv.org/abs/2606.02109v1
+authors:
+- Shannon Serrao
+- Soumitra Chatterjee
+- Dorina Strori
+- Abhishek Sharma
+- Nathan Miller
+venue: arXiv
+year: 2026
+summary: BADGER is a unified evaluation framework for enterprise AI systems, integrating text-to-SQL assessment
+  with agentic behavior evaluation, featuring LLM-assisted SQL component extraction and a hybrid execution
+  accuracy metric.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper presents a concrete evaluation framework for agentic systems, addressing the reliability
+    of their outputs in an enterprise context.
+status: draft

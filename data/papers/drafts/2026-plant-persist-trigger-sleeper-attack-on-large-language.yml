@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-plant-persist-trigger-sleeper-attack-on-large-language
+type: papers
+title: 'Plant, Persist, Trigger: Sleeper Attack on Large Language Model Agents'
+url: https://arxiv.org/abs/2605.28201v1
+authors:
+- Yongxiang Li
+- Moxin Li
+- Zhixin Ma
+- Fengbin Zhu
+- Dongrui Liu
+- Wenjie Wang
+- Fuli Feng
+venue: arXiv
+year: 2026
+summary: Formalizes and evaluates 'Sleeper Attacks' where adversarial content persists in agent state
+  (session context, memory, skills) across interactions and is later triggered by benign queries, demonstrating
+  vulnerabilities in LLM agents.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper introduces a novel, persistent adversarial attack on agentic systems, focusing
+    on how malicious content can be planted and triggered across multiple interactions, directly addressing
+    a system-level security and safety concern.
+status: draft

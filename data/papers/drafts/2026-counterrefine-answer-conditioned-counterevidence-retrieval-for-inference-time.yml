@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-counterrefine-answer-conditioned-counterevidence-retrieval-for-inference-time
+type: papers
+title: 'CounterRefine: Answer-Conditioned Counterevidence Retrieval for Inference-Time Knowledge Repair
+  in Factual Question Answering'
+url: https://arxiv.org/abs/2603.16091v3
+authors:
+- Tianyi Huang
+- Ying Kai Deng
+venue: arXiv
+year: 2026
+summary: CounterRefine is a lightweight repair layer for RAG that uses answer-conditioned counterevidence
+  retrieval and a guarded refinement step to improve factual question answering by reconsidering and repairing
+  initial answers.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the reliability of RAG-backed agents by introducing a mechanism
+    for self-correction and knowledge repair within the memory and reasoning process.
+status: draft

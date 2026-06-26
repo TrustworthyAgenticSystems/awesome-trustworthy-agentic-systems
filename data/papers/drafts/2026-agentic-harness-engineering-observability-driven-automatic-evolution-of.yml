@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-harness-engineering-observability-driven-automatic-evolution-of
+type: papers
+title: 'Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses'
+url: https://arxiv.org/abs/2604.25850v4
+authors:
+- Jiahang Lin
+- Shichun Liu
+- Chengjun Pan
+- Lizhi Lin
+- Shihan Dou
+- Zhiheng Xi
+- Xuanjing Huang
+- Hang Yan
+- Zhenhua Han
+- Tao Gui
+- Yu-Gang Jiang
+venue: arXiv
+year: 2026
+summary: AHE is a closed-loop system for automatically evolving coding-agent harnesses by providing component,
+  experience, and decision observability to guide edits and attribute their effects, leading to improved
+  performance and transferability.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the systems-engineering challenge of automatically evolving
+    agent harnesses through enhanced observability and attribution, which is crucial for reliability and
+    long-horizon evaluation.
+status: draft

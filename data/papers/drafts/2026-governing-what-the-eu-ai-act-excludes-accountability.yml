@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governing-what-the-eu-ai-act-excludes-accountability
+type: papers
+title: 'Governing What the EU AI Act Excludes: Accountability for Autonomous AI Agents in Smart City Critical
+  Infrastructure'
+url: https://arxiv.org/abs/2605.01091v1
+authors:
+- Talal Ashraf Butt
+- Muhammad Iqbal
+- Razi Iqbal
+venue: arXiv
+year: 2026
+summary: Analyzes accountability gaps in the EU AI Act for autonomous AI agents in critical infrastructure
+  and proposes AgentGov-SC, a three-layer governance architecture with conflict resolution and autonomy-calibrated
+  activation.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses human oversight and accountability for complex, interacting agentic systems in
+    critical infrastructure, including a concrete governance architecture.
+status: draft

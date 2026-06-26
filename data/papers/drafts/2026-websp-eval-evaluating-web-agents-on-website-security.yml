@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-websp-eval-evaluating-web-agents-on-website-security
+type: papers
+title: 'WebSP-Eval: Evaluating Web Agents on Website Security and Privacy Tasks'
+url: https://arxiv.org/abs/2604.06367v2
+authors:
+- Guruprasad Viswanathan Ramesh
+- Asmit Nayak
+- Basieem Siddique
+- Kassem Fawaz
+venue: arXiv
+year: 2026
+summary: WebSP-Eval is an evaluation framework for web agents that measures performance on website security
+  and privacy tasks, including a dataset, an agentic system for state management, and an automated evaluator.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- privacy
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a novel evaluation framework specifically designed for assessing web
+    agents' trustworthiness in security and privacy contexts, which is a direct contribution to observation
+    and evaluation of agentic systems.
+status: draft

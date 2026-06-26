@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-verifying-intent-and-harm-a-unified-defense-against
+type: papers
+title: 'Verifying Intent and Harm: A Unified Defense Against LLM-Generated Threats'
+url: https://arxiv.org/abs/2606.26377v1
+authors:
+- Poojitha Thota
+- Yun Lei
+- Santhosh Thangaraj
+- Siddhartha Reddy Jonnalagadda
+- Shirin Nilizadeh
+venue: arXiv
+year: 2026
+summary: A verification framework that jointly evaluates prompt intent and response harm using specialized
+  analyst agents and a judge for conflict resolution, outperforming single-sided defenses against various
+  adversarial threats.
+harness_layer:
+- coordination
+sprs:
+- security
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper proposes a multi-agent coordination framework for jointly verifying prompt intent
+    and response harm, directly addressing a systems-level security and safety problem in LLM applications.
+status: draft

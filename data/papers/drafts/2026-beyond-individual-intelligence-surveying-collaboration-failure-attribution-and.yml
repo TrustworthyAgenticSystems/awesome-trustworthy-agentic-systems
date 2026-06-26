@@ -1,0 +1,50 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-individual-intelligence-surveying-collaboration-failure-attribution-and
+type: papers
+title: 'Beyond Individual Intelligence: Surveying Collaboration, Failure Attribution, and Self-Evolution
+  in LLM-based Multi-Agent Systems'
+url: https://arxiv.org/abs/2605.14892v2
+authors:
+- Shihao Qi
+- Jie Ma
+- Rui Xing
+- Wei Guo
+- Xiao Huang
+- Zhitao Gao
+- Jianhao Deng
+- Jun Liu
+- Lingling Zhang
+- Bifan Wei
+- Boqian Yang
+- Pinghui Wang
+- Jianwen Sun
+- Jing Tao
+- Yaqiang Wu
+- Hui Liu
+- Yu Yao
+- Tongliang Liu
+venue: arXiv
+year: 2026
+summary: 'A survey that unifies research on multi-agent systems by organizing it into a causal progression
+  (LIFE: Lay, Integrate, Find, Evolve) to highlight dependencies between collaboration, failure attribution,
+  and self-evolution, and identifies open challenges for closed-loop self-improving systems.'
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This survey provides a foundational taxonomy and conceptual roadmap for understanding and
+    engineering trustworthy multi-agent systems, focusing on failure attribution and self-improvement
+    as systems problems.
+status: draft

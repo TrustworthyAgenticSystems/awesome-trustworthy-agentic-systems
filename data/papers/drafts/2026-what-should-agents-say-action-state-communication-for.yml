@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-what-should-agents-say-action-state-communication-for
+type: papers
+title: What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems
+url: https://arxiv.org/abs/2606.05304v1
+authors:
+- Chen Huang
+- Yuhao Wu
+- Wenxuan Zhang
+venue: arXiv
+year: 2026
+summary: PACT (Protocolized Action-state Communication and Transmission) proposes a structured, compact
+  action-state record for inter-agent communication to reduce token usage and improve efficiency in multi-agent
+  systems.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper addresses a systems-level problem of communication efficiency and context management
+    in multi-agent coordination, with a concrete technical solution and empirical validation.
+status: draft

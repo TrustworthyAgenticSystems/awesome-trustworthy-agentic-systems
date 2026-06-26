@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-intentionality-is-a-design-decision-measuring-functional-intentionality
+type: papers
+title: 'Intentionality is a Design Decision: Measuring Functional Intentionality for Accountable AI Systems'
+url: https://arxiv.org/abs/2605.05475v1
+authors:
+- Allessia Chiappetta
+- Robert Mahari
+venue: arXiv
+year: 2026
+summary: Proposes a multidimensional framework, the Functional Intentionality Test (FIT), to quantify
+  intentional-like behavior in AI systems for governance and accountability, linking it to architectural
+  design choices.
+harness_layer:
+- foundations
+sprs:
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper provides a foundational framework for measuring and governing agentic system behavior,
+    directly addressing accountability and oversight as a design decision.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-jailbreak-foundry-from-papers-to-runnable-attacks-for
+type: papers
+title: 'Jailbreak Foundry: From Papers to Runnable Attacks for Reproducible Benchmarking'
+url: https://arxiv.org/abs/2602.24009v3
+authors:
+- Zhicheng Fang
+- Jingjie Zheng
+- Chenxu Fu
+- Wei Xu
+venue: arXiv
+year: 2026
+summary: Jailbreak Foundry (JBF) is a system that translates jailbreak papers into executable modules
+  using a multi-agent workflow, enabling reproducible and standardized evaluation of attacks within a
+  unified harness.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to the red-teaming and adversarial evaluation of agentic
+    systems by providing a framework for reproducible jailbreak benchmarking.
+status: draft

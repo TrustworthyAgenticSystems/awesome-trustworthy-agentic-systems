@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-adaptive-collaboration-with-humans-metacognitive-policy-optimization-for
+type: papers
+title: 'Adaptive Collaboration with Humans: Metacognitive Policy Optimization for Multi-Agent LLMs with
+  Continual Learning'
+url: https://arxiv.org/abs/2603.07972v1
+authors:
+- Wei Yang
+- Defu Cao
+- Jiacheng Pang
+- Muyan Weng
+- Yan Liu
+venue: arXiv
+year: 2026
+summary: The HILA framework introduces a metacognitive policy for multi-agent LLMs to decide when to solve
+  problems autonomously and when to defer to human experts, using dual-loop policy optimization for immediate
+  decision-making and continual learning.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses human oversight at scale by proposing a framework for agents
+    to learn when to involve humans, which is crucial for trustworthy agentic systems.
+status: draft

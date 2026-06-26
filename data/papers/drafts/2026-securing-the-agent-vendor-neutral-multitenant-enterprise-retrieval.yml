@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-securing-the-agent-vendor-neutral-multitenant-enterprise-retrieval
+type: papers
+title: 'Securing the Agent: Vendor-Neutral, Multitenant Enterprise Retrieval and Tool Use'
+url: https://arxiv.org/abs/2605.05287v1
+authors:
+- Francisco Javier Arceo
+- Varsha Prasad Narsing
+venue: arXiv
+year: 2026
+summary: Introduces a layered isolation architecture for multitenant enterprise RAG and agentic systems,
+  combining policy-aware ingestion, retrieval-time gating, and server-side orchestration to enforce authorization
+  and prevent cross-tenant data leakage.
+harness_layer:
+- permissions
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses critical security and privacy challenges in multitenant agentic systems
+    by proposing and validating a concrete architectural solution for authorization and isolation.
+status: draft

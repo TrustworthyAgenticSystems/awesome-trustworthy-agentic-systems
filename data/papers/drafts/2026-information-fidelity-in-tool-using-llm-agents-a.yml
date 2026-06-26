@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-information-fidelity-in-tool-using-llm-agents-a
+type: papers
+title: 'Information Fidelity in Tool-Using LLM Agents: A Martingale Analysis of the Model Context Protocol'
+url: https://arxiv.org/abs/2602.13320v1
+authors:
+- Flint Xiaofeng Fan
+- Cheston Tan
+- Roger Wattenhofer
+- Yew-Soon Ong
+venue: arXiv
+year: 2026
+summary: Introduces a theoretical framework and empirical validation for analyzing error accumulation
+  in sequential tool calls within LLM agents, proving linear distortion growth and providing actionable
+  deployment principles for error control.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Provides a theoretical and empirical analysis of error propagation in tool-using agents,
+    directly addressing reliability concerns in the operational stack.
+status: draft

@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-deeproot-a-kg-coordinated-multi-agent-system-for
+type: papers
+title: 'DeepRoot: A KG-Coordinated Multi-Agent System for Therapeutic Reasoning over Historical Medical
+  Texts'
+url: https://arxiv.org/abs/2606.15931v1
+authors:
+- Zijian Carl Ma
+- Sean J. Wang
+- Sijbren Kramer
+- Li Erran Li
+venue: arXiv
+year: 2026
+summary: DeepRoot is a multi-agent LLM system that coordinates knowledge graph construction and utilization
+  for therapeutic reasoning over historical medical texts, demonstrating improved reasoning quality and
+  reduced hallucination compared to baseline LLMs.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system that coordinates knowledge graph building and reasoning
+    to improve reliability and safety in a complex domain, addressing a systems-level challenge in agentic
+    design.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-evaluating-agentic-ai-in-the-wild-failure-modes
+type: papers
+title: 'Evaluating Agentic AI in the Wild: Failure Modes, Drift Patterns, and a Production Evaluation
+  Framework'
+url: https://arxiv.org/abs/2605.01604v1
+authors:
+- Mukund Pandey
+venue: arXiv
+year: 2026
+summary: Presents a taxonomy of seven production agent failure modes, empirically demonstrates the inadequacy
+  of standard metrics, and proposes PAEF, a five-dimension framework for continuous evaluation of agentic
+  systems in production.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses the critical problem of evaluating trustworthy agentic systems in production,
+    including failure modes and a concrete evaluation framework.
+status: draft

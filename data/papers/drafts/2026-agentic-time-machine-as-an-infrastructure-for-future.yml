@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-time-machine-as-an-infrastructure-for-future
+type: papers
+title: Agentic Time Machine as an Infrastructure for Future-Event Forecasting
+url: https://arxiv.org/abs/2606.21013v1
+authors:
+- Jingyi Chai
+- Bingyang Zheng
+- Xiangrui Liu
+- Hao Lu
+- Zihang Zhou
+- Tianchen Wang
+- Kemeng Zhang
+- Siheng Chen
+venue: arXiv
+year: 2026
+summary: Agentic Time Machine (TM) is an infrastructure that reconstructs past web states to provide a
+  high-fidelity, fast-feedback sandbox for evaluating future-event forecasting agents, addressing the
+  trade-off between efficiency and environmental realism in evaluation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a novel infrastructure for evaluating agentic systems, specifically
+    addressing the challenge of high-fidelity, long-horizon evaluation for forecasting agents.
+status: draft

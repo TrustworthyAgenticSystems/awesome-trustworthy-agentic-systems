@@ -1,0 +1,45 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-semantic-organization-memory-as-execution-state-management
+type: papers
+title: 'Beyond Semantic Organization: Memory as Execution State Management for Long-Horizon Agents'
+url: https://arxiv.org/abs/2606.06090v1
+authors:
+- Yaoqi Chen
+- Haibin Lai
+- Yuru Feng
+- Chuyu Han
+- Qianxi Zhang
+- Baotong Lu
+- Menghao Li
+- Xinjiang Wang
+- Zhirui Wang
+- Shusen Xu
+- Zengzhong Li
+- Zewen Jin
+- Hao Wu
+- Cheng Li
+- Qi Chen
+venue: arXiv
+year: 2026
+summary: MAGE is an active execution-state manager that organizes agent interactions in a hierarchical
+  state tree to preserve state integrity, isolate flawed segments, and manage context growth for long-horizon
+  tasks.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses memory management for long-running agents, focusing on state
+    integrity, error isolation, and context bounding, which are core systems-engineering concerns for
+    trustworthy agents.
+status: draft

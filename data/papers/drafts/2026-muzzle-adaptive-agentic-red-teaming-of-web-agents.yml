@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-muzzle-adaptive-agentic-red-teaming-of-web-agents
+type: papers
+title: 'MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks'
+url: https://arxiv.org/abs/2602.09222v2
+authors:
+- Georgios Syros
+- Evan Rose
+- Brian Grinstead
+- Christoph Kerschbaumer
+- William Robertson
+- Cristina Nita-Rotaru
+- Alina Oprea
+venue: arXiv
+year: 2026
+summary: MUZZLE is an automated agentic red-teaming framework that adaptively identifies high-salience
+  injection surfaces and generates context-aware malicious instructions to test web agents against indirect
+  prompt injection attacks, demonstrating new attacks across various web applications and adversarial
+  objectives.
+harness_layer:
+- red-team
+sprs:
+- security
+- privacy
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly contributes to red-teaming agentic systems by providing an adaptive framework
+    for discovering indirect prompt injection attacks in web agents, which is a critical security concern.
+status: draft

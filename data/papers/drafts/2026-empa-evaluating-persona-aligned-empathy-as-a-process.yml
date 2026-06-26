@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-empa-evaluating-persona-aligned-empathy-as-a-process
+type: papers
+title: 'EMPA: Evaluating Persona-Aligned Empathy as a Process'
+url: https://arxiv.org/abs/2603.00552v2
+authors:
+- Shiya Zhang
+- Yuhan Zhan
+- Ruixi Su
+- Ruihan Sun
+- Ziyi Song
+- Zhaohan Chen
+- Xiaofan Zhang
+venue: arXiv
+year: 2026
+summary: EMPA is a process-oriented framework for evaluating persona-aligned empathy in LLM-based dialogue
+  agents, using multi-agent sandboxes and latent psychological scoring to assess long-horizon empathic
+  behavior.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a framework for evaluating long-horizon agent behavior in a multi-agent
+    sandbox, which is relevant to observation and evaluation of agentic systems.
+status: draft

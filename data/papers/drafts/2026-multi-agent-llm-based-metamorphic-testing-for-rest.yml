@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-multi-agent-llm-based-metamorphic-testing-for-rest
+type: papers
+title: Multi-Agent LLM-based Metamorphic Testing for REST APIs
+url: https://arxiv.org/abs/2605.28321v1
+authors:
+- Shehroz Khan
+- Abdullah Mughees
+- Gaadha Sudheerbabu
+- Tanwir Ahmad
+- Dragos Truscan
+venue: arXiv
+year: 2026
+summary: ARMeta is an LLM-based multi-agent system that generates and executes metamorphic tests for REST
+  APIs, addressing the test oracle problem by specifying relations between API outputs.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper presents a multi-agent system for metamorphic testing of REST APIs, directly contributing
+    to the reliability and evaluation of agentic systems by generating and executing tests.
+status: draft

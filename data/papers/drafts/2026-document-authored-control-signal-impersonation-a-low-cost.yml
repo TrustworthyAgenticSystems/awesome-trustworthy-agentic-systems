@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-document-authored-control-signal-impersonation-a-low-cost
+type: papers
+title: 'Document-Authored Control-Signal Impersonation: A Low-Cost Indirect Prompt Attack on RAG Safety
+  Boundaries'
+url: https://arxiv.org/abs/2606.09005v1
+authors:
+- Jianguo Zhu
+venue: arXiv
+year: 2026
+summary: Identifies and evaluates Document-Authored Control-Signal Impersonation (DACSI), a novel indirect
+  prompt injection attack where untrusted retrieved documents impersonate control-relevant metadata or
+  policy signals within RAG systems, highlighting a source-authority boundary failure.
+harness_layer:
+- memory
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses a security vulnerability in RAG memory systems by demonstrating
+    how untrusted document content can be misattributed as trusted control signals, a critical systems-level
+    problem.
+status: draft

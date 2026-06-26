@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-harness-for-real-world-compilers
+type: papers
+title: Agentic Harness for Real-World Compilers
+url: https://arxiv.org/abs/2603.20075v1
+authors:
+- Yingwei Zheng
+- Cong Li
+- Shaohua Li
+- Yuqun Zhang
+- Zhendong Su
+venue: arXiv
+year: 2026
+summary: Introduces llvm-autofix, an agentic harness with agent-friendly LLVM tools and a benchmark, to
+  assist LLM agents in understanding and fixing complex compiler bugs.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a specialized agentic harness and tool integration for a complex real-world
+    system (compilers), addressing reliability in bug fixing.
+status: draft

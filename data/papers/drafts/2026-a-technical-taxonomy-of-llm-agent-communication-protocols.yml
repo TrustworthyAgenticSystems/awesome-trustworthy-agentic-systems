@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-technical-taxonomy-of-llm-agent-communication-protocols
+type: papers
+title: A Technical Taxonomy of LLM Agent Communication Protocols
+url: https://arxiv.org/abs/2606.19135v1
+authors:
+- Linus Sander
+- Habtom Kahsay Gidey
+- Alexander Lenz
+- Alois Knoll
+venue: arXiv
+year: 2026
+summary: A technical taxonomy for classifying and analyzing LLM agent communication protocols across five
+  dimensions, revealing architectural patterns and highlighting open research gaps in interoperability
+  and policy enforcement.
+harness_layer:
+- foundations
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a foundational taxonomy for understanding and engineering communication in multi-agent
+    systems, addressing interoperability and architectural patterns.
+status: draft

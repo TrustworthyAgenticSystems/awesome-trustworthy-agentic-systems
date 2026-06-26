@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-dytopo-dynamic-topology-routing-for-multi-agent-reasoning
+type: papers
+title: 'DyTopo: Dynamic Topology Routing for Multi-Agent Reasoning via Semantic Matching'
+url: https://arxiv.org/abs/2602.06039v1
+authors:
+- Yuxing Lu
+- Yucheng Hu
+- Xukai Zhao
+- Jiuxin Cao
+venue: arXiv
+year: 2026
+summary: DyTopo is a manager-guided multi-agent framework that dynamically reconstructs communication
+  graphs at each round based on semantic matching of agent needs and offers, improving multi-round reasoning
+  and providing interpretable coordination traces.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper contributes to the coordination layer by introducing a dynamic communication topology
+    for multi-agent systems, which enhances reasoning reliability and provides an interpretable trace
+    of agent interactions.
+status: draft

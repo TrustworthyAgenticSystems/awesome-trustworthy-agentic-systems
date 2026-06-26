@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agent-psychometrics-task-level-performance-prediction-in-agentic
+type: papers
+title: 'Agent psychometrics: Task-level performance prediction in agentic coding benchmarks'
+url: https://arxiv.org/abs/2604.00594v1
+authors:
+- Chris Ge
+- Daria Kryvosheieva
+- Daniel Fried
+- Uzay Girit
+- Kaivalya Hariharan
+venue: arXiv
+year: 2026
+summary: A psychometric framework for predicting task-level success or failure in agentic coding benchmarks
+  by decomposing agent ability into LLM and scaffold components, enabling better calibration of new tasks.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the evaluation and understanding of agent performance at the task
+    level, which is crucial for the reliability of agentic systems, especially in long-horizon evaluation.
+status: draft

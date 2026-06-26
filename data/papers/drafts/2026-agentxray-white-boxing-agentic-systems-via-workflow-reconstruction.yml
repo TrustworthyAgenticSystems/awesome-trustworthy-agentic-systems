@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentxray-white-boxing-agentic-systems-via-workflow-reconstruction
+type: papers
+title: 'AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction'
+url: https://arxiv.org/abs/2602.05353v3
+authors:
+- Ruijie Shi
+- Houbin Zhang
+- Yuecheng Han
+- Yuheng Wang
+- Jingru Fan
+- Runde Yang
+- Yufan Dang
+- Huatao Li
+- Dewen Liu
+- Yuan Cheng
+- Chen Qian
+venue: arXiv
+year: 2026
+summary: AgentXRay reconstructs explicit, interpretable workflows from black-box agentic systems using
+  only input-output access, enabling white-box understanding and control.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the problem of observing and interpreting opaque agent workflows,
+    which is crucial for trustworthy agentic systems.
+status: draft

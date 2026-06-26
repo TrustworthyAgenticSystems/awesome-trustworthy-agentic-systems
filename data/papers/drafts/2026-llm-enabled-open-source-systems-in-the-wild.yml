@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-llm-enabled-open-source-systems-in-the-wild
+type: papers
+title: 'LLM-Enabled Open-Source Systems in the Wild: An Empirical Study of Vulnerabilities in GitHub Security
+  Advisories'
+url: https://arxiv.org/abs/2604.04288v2
+authors:
+- Fariha Tanjim Shifat
+- Hariswar Baburaj
+- Ce Zhou
+- Jaydeb Sarker
+- Mia Mohammad Imran
+venue: arXiv
+year: 2026
+summary: Empirical study of 295 GitHub Security Advisories for LLM-enabled open-source systems, finding
+  that traditional CWEs capture code-level defects while OWASP Top 10 for LLM Applications reveals architectural
+  risks like Supply Chain and Excessive Agency.
+harness_layer:
+- foundations
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper provides an empirical study and taxonomy of vulnerabilities in LLM-enabled systems,
+    contributing to the foundational understanding of agentic system risks.
+status: draft

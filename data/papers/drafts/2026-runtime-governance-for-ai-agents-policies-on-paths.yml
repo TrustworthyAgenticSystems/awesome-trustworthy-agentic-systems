@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-runtime-governance-for-ai-agents-policies-on-paths
+type: papers
+title: 'Runtime Governance for AI Agents: Policies on Paths'
+url: https://arxiv.org/abs/2603.16586v1
+authors:
+- Maurits Kaptein
+- Vassilis-Javed Khan
+- Andriy Podstavnychy
+venue: arXiv
+year: 2026
+summary: Formalizes runtime governance for AI agents by defining compliance policies as deterministic
+  functions over execution paths, enabling evaluation of path-dependent policies beyond static access
+  control or prompt-level instructions.
+harness_layer:
+- oversight
+sprs:
+- security
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses runtime governance and oversight for agentic systems by proposing a formal
+    framework for path-dependent policy evaluation.
+status: draft

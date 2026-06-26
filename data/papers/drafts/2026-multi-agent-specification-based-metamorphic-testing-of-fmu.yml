@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-multi-agent-specification-based-metamorphic-testing-of-fmu
+type: papers
+title: Multi-Agent Specification-based Metamorphic Testing of FMU-Based Simulations
+url: https://arxiv.org/abs/2605.25101v1
+authors:
+- Ashir Kulshreshtha
+- Abdullah Mughees
+- Gaadha Sudheerbabu
+- Tanwir Ahmad
+- Kristian Klemets
+- Dragos Truscan
+- Mikael Manngård
+venue: arXiv
+year: 2026
+summary: An LLM-powered multi-agent workflow for specification-based metamorphic testing of FMU-based
+  simulation models, orchestrating agents to extract requirements and derive metamorphic relations for
+  test case generation and evaluation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-agent system for automated test generation and evaluation of
+    simulation models, directly contributing to the reliability of agentic workflows for verification
+    and validation.
+status: draft

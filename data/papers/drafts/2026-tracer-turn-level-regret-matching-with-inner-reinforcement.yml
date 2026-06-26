@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-tracer-turn-level-regret-matching-with-inner-reinforcement
+type: papers
+title: 'TRACER: Turn-level Regret Matching with Inner Reinforcement Credit for Cooperative Multi-LLM Reasoning'
+url: https://arxiv.org/abs/2605.28699v1
+authors:
+- Chusen Li
+- Zhou Liu
+- Shuigeng Zhou
+- Wentao Zhang
+venue: arXiv
+year: 2026
+summary: TRACER is a turn-level reinforcement framework for cooperative multi-LLM reasoning that separates
+  collaborative decision-making into a controller-regret layer and a generation-credit layer to improve
+  multi-agent coordination and reduce training overhead.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to multi-agent coordination by introducing a novel reinforcement framework
+    for cooperative multi-LLM reasoning, addressing issues like sparse rewards and fixed collaboration
+    protocols.
+status: draft

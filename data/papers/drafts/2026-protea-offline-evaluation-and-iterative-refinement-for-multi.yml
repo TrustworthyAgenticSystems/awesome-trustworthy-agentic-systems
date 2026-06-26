@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-protea-offline-evaluation-and-iterative-refinement-for-multi
+type: papers
+title: 'PROTEA: Offline Evaluation and Iterative Refinement for Multi-Agent LLM Workflows'
+url: https://arxiv.org/abs/2605.18032v1
+authors:
+- Kazuki Kawamura
+- Satoshi Waki
+- Kei Tateno
+venue: arXiv
+year: 2026
+summary: PROTEA provides a unified interface for offline, test-driven improvement of multi-agent workflows
+  by executing, scoring intermediate outputs, localizing bottlenecks, and suggesting prompt revisions
+  with automatic re-evaluation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the observation, debugging, and iterative refinement of multi-agent
+    LLM workflows, which is a core systems-engineering problem for trustworthy agents.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-verify-gated-completion-as-admission-control-in-a
+type: papers
+title: 'Verify-Gated Completion as Admission Control in a Governed Multi-Agent Runtime: A Bounded Architecture
+  Case Study'
+url: https://arxiv.org/abs/2605.17998v2
+authors:
+- Hai-Duong Nguyen
+- Xuan-The Tran
+venue: arXiv
+year: 2026
+summary: Proposes verify-gated completion as an admission-control pattern for multi-agent runtimes, where
+  a read-only verifier decides on agent completion claims, ensuring inspectability and fail-closed resolution
+  with audit paths.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses human oversight and governance in multi-agent systems through a specific architectural
+    pattern for admission control and auditability.
+status: draft

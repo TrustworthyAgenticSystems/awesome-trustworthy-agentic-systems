@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-influence-factors-on-rag-poisoning
+type: papers
+title: Influence Factors on RAG Poisoning
+url: https://arxiv.org/abs/2606.12469v1
+authors:
+- Pedro Pereira
+- Eva Maia
+- Isabel Praça
+- Adrien Bécue
+venue: arXiv
+year: 2026
+summary: Investigates RAG poisoning vulnerabilities through a full factorial experimental study, identifying
+  key influence factors like retriever architecture, dataset, retrieval depth, and database composition
+  on both retrieval and generation-level attack success.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses memory integrity and poisoning in RAG systems, identifying system-level
+    factors that influence vulnerability and robustness.
+status: draft

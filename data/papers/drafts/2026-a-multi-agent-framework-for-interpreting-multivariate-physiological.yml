@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-multi-agent-framework-for-interpreting-multivariate-physiological
+type: papers
+title: A Multi-Agent Framework for Interpreting Multivariate Physiological Time Series
+url: https://arxiv.org/abs/2603.04142v1
+authors:
+- Davide Gabrielli
+- Paola Velardi
+- Stefano Faralli
+- Bardh Prenkaj
+venue: arXiv
+year: 2026
+summary: Evaluates a role-structured multi-agent system for interpreting physiological time series in
+  a clinical pilot, revealing nuanced performance trade-offs between agentic orchestration and zero-shot
+  inference for different model types and clinical targets.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a systems-level evaluation of multi-agent orchestration in a safety-critical
+    domain, highlighting design trade-offs and lessons learned for trustworthy agent deployment.
+status: draft

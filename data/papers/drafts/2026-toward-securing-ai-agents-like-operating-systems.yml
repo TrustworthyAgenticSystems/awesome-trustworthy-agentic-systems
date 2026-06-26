@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-toward-securing-ai-agents-like-operating-systems
+type: papers
+title: Toward Securing AI Agents Like Operating Systems
+url: https://arxiv.org/abs/2605.14932v1
+authors:
+- Lukas Pirch
+- Micha Horlboge
+- Patrick Großmann
+- Syeda Mahnur Asif
+- Klim Kireev
+- Thorsten Holz
+- Konrad Rieck
+venue: arXiv
+year: 2026
+summary: This paper frames the security challenges of LLM-based agents through the lens of operating systems,
+  surveying open-source agents, deriving a unified architecture, and systematically analyzing attack vectors
+  to propose OS-inspired mitigations.
+harness_layer:
+- foundations
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: The paper provides a foundational security analysis of agentic systems by drawing parallels
+    to operating system security, identifying attack vectors, and proposing architectural recommendations.
+status: draft

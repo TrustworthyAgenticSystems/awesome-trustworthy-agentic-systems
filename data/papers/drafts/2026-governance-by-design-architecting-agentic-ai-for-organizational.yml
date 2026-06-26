@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governance-by-design-architecting-agentic-ai-for-organizational
+type: papers
+title: 'Governance by Design: Architecting Agentic AI for Organizational Learning and Scalable Autonomy'
+url: https://arxiv.org/abs/2605.20210v1
+authors:
+- Nelly Dux
+- Cristina Alaimo
+- Philippe Roussiere
+- Abhishek Kumar Mishra
+venue: arXiv
+year: 2026
+summary: Qualitative case study of an enterprise agentic system rollout, distilling architectural and
+  operational lessons for governance, accountability, and scalable autonomy.
+harness_layer:
+- architectures
+sprs:
+- safety
+- reliability
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides architectural and operational insights into governance for enterprise agentic systems,
+    directly addressing systems-level concerns for trustworthy deployments.
+status: draft

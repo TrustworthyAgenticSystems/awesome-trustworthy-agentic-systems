@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-autoskill-experience-driven-lifelong-learning-via-skill-self
+type: papers
+title: 'AutoSkill: Experience-Driven Lifelong Learning via Skill Self-Evolution'
+url: https://arxiv.org/abs/2603.01145v2
+authors:
+- Yutao Yang
+- Junsong Li
+- Qianjun Pan
+- Bihao Zhan
+- Yuxuan Cai
+- Lin Du
+- Jie Zhou
+- Kai Chen
+- Qin Chen
+- Xin Li
+- Bo Zhang
+- Liang He
+venue: arXiv
+year: 2026
+summary: AutoSkill is an experience-driven lifelong learning framework that enables LLM agents to automatically
+  derive, maintain, and reuse skills from dialogue and interaction traces, acting as a model-agnostic
+  plugin layer for personalized capabilities.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a system-level framework for managing and reusing agent 'skills' derived
+    from interaction traces, which directly relates to agent memory and personalized behavior over time.
+status: draft

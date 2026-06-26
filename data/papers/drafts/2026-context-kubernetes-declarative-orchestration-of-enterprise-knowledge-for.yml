@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-context-kubernetes-declarative-orchestration-of-enterprise-knowledge-for
+type: papers
+title: 'Context Kubernetes: Declarative Orchestration of Enterprise Knowledge for Agentic AI Systems'
+url: https://arxiv.org/abs/2604.11623v3
+authors:
+- Charafeddine Mouzouni
+venue: arXiv
+year: 2026
+summary: Context Kubernetes is a declarative architecture for orchestrating enterprise knowledge for agentic
+  AI systems, formalizing abstractions, a YAML-based manifest, a reconciliation loop, and a three-tier
+  agent permission model to ensure knowledge is delivered with appropriate permissions and freshness.
+harness_layer:
+- architectures
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper proposes a novel architectural solution for a core systems problem in agentic
+    AI (knowledge orchestration and permissions) with formalization, a prototype, and experimental validation
+    against attack scenarios.
+status: draft

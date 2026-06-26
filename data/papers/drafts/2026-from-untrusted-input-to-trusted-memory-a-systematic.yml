@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-untrusted-input-to-trusted-memory-a-systematic
+type: papers
+title: 'From Untrusted Input to Trusted Memory: A Systematic Study of Memory Poisoning Attacks in LLM
+  Agents'
+url: https://arxiv.org/abs/2606.04329v2
+authors:
+- Pritam Dash
+- Tongyu Ge
+- Aditi Jain
+- Tanmay Shah
+- Zhiwei Shang
+venue: arXiv
+year: 2026
+summary: Systematic study of memory poisoning attacks in LLM agents, identifying write channels, structural
+  vulnerabilities, and a taxonomy of attacks, along with a benchmark to evaluate their exploitability.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses memory integrity and security in agentic systems by characterizing attacks
+    and their underlying vulnerabilities.
+status: draft

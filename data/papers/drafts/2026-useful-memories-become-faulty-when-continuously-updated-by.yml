@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-useful-memories-become-faulty-when-continuously-updated-by
+type: papers
+title: Useful Memories Become Faulty When Continuously Updated by LLMs
+url: https://arxiv.org/abs/2605.12978v1
+authors:
+- Dylan Zhang
+- Yanshan Lin
+- Zhengkun Wu
+- Yihang Sun
+- Bingxuan Li
+- Dianqi Li
+- Hao Peng
+venue: arXiv
+year: 2026
+summary: Empirical study showing that continuously updated, consolidated memories in LLM agents degrade
+  over time, leading to performance regression, and proposes treating raw episodic traces as first-class
+  evidence to improve reliability.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses a critical reliability issue in agent memory systems by identifying a
+    failure mode in continuous consolidation and proposing a systems-level mitigation.
+status: draft

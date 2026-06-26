@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ghost-in-the-agent-redefining-information-flow-tracking
+type: papers
+title: 'Ghost in the Agent: Redefining Information Flow Tracking for LLM Agents'
+url: https://arxiv.org/abs/2604.23374v1
+authors:
+- Yuandao Cai
+- Wensheng Tang
+- Cheng Wen
+- Shengchao Qin
+venue: arXiv
+year: 2026
+summary: NeuroTaint is a novel information flow tracking framework for LLM agents that redefines taint
+  propagation to include semantic transformation, causal influence, and cross-session persistence, enabling
+  more effective detection of security threats from untrusted external data.
+harness_layer:
+- red-team
+sprs:
+- security
+- privacy
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a critical security problem in agentic systems by proposing
+    a new information flow tracking framework tailored for LLM agents, with extensive evaluation on real-world
+    frameworks and benchmarks.
+status: draft

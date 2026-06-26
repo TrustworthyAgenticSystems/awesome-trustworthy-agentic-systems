@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-adversarial-prompt-injection-attack-on-multimodal-large-language
+type: papers
+title: Adversarial Prompt Injection Attack on Multimodal Large Language Models
+url: https://arxiv.org/abs/2603.29418v1
+authors:
+- Meiwen Ding
+- Song Xia
+- Chenqi Kong
+- Xudong Jiang
+venue: arXiv
+year: 2026
+summary: This paper introduces an imperceptible visual prompt injection attack against multimodal LLMs,
+  embedding adversarial instructions in images via bounded text overlays and optimized visual perturbations.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses adversarial testing of agentic systems by demonstrating a novel
+    prompt injection attack on multimodal LLMs.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-an-end-to-end-encrypted-control-pipeline-for
+type: papers
+title: An End-to-End Encrypted Control Pipeline for Multi-Agent Coordination via CKKS Homomorphic Encryption
+url: https://arxiv.org/abs/2606.07375v1
+authors:
+- Sai Sandeep Damera
+- Maria Charitidou
+- Asim Zoulkarni
+- John S. Baras
+venue: arXiv
+year: 2026
+summary: An end-to-end encrypted control pipeline for multi-agent coordination that operates on CKKS-encrypted
+  data, redesigning sensing, state estimation, state propagation, and consensus control to maintain privacy
+  while enabling coordination.
+harness_layer:
+- coordination
+sprs:
+- privacy
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses privacy and security in multi-agent coordination by proposing
+    a novel homomorphic encryption-based control pipeline, which is a systems-level contribution.
+status: draft

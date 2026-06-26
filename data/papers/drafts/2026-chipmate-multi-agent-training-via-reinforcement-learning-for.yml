@@ -1,0 +1,43 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-chipmate-multi-agent-training-via-reinforcement-learning-for
+type: papers
+title: 'ChipMATE: Multi-Agent Training via Reinforcement Learning for Enhanced RTL Generation'
+url: https://arxiv.org/abs/2605.12857v1
+authors:
+- Zhongkai Yu
+- Yichen Lin
+- Chenyang Zhou
+- Yuwei Zhang
+- Kun Zhou
+- Junxia Cui
+- Haotian Ye
+- Zhengding Hu
+- Zaifeng Pan
+- Ruiyi Wang
+- Yujie Zhao
+- Hejia Zhang
+- Jingbo Shang
+- Jishen Zhao
+- Yufei Ding
+venue: arXiv
+year: 2026
+summary: ChipMATE is a self-trained multi-agent framework for RTL generation that uses a Verilog agent
+  and a Python reference-model agent for mutual verification, incorporating a backtrack-based inference
+  workflow to prevent error propagation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent coordination framework with a specific workflow for mutual
+    verification and error prevention, addressing reliability in agentic systems.
+status: draft

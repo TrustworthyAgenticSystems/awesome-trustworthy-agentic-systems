@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-owner-harm-a-missing-threat-model-for-ai
+type: papers
+title: 'Owner-Harm: A Missing Threat Model for AI Agent Safety'
+url: https://arxiv.org/abs/2604.18658v1
+authors:
+- Dongcheng Zhang
+- Yiqing Jiang
+venue: arXiv
+year: 2026
+summary: Proposes 'Owner-Harm' as a formal threat model for agents harming their deployers, quantifies
+  defense gaps on new benchmarks, and introduces the Symbolic-Semantic Defense Generalization (SSDG) framework
+  for detection.
+harness_layer:
+- red-team
+sprs:
+- security
+- privacy
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Introduces a new, critical threat model for agentic systems, provides empirical evaluation
+    of defense gaps, and proposes a framework for improving detection, directly addressing agent security
+    and privacy.
+status: draft

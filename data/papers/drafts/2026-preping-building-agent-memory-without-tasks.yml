@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-preping-building-agent-memory-without-tasks
+type: papers
+title: 'PREPING: Building Agent Memory without Tasks'
+url: https://arxiv.org/abs/2605.13880v1
+authors:
+- Yumin Choi
+- Sangwoo Park
+- Minki Kang
+- Jinheon Baek
+- Sung Ju Hwang
+venue: arXiv
+year: 2026
+summary: Preping is a proposer-guided framework for pre-task memory construction that uses self-generated
+  synthetic practice and selective memory updates to build procedural memory for agents, addressing the
+  cold-start problem in new environments.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the construction and integrity of agent memory, specifically
+    tackling the cold-start problem through a structured, controlled synthetic practice framework.
+status: draft

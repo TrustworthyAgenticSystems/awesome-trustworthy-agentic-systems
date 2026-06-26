@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-logigen-logic-driven-generation-of-verifiable-agentic-tasks
+type: papers
+title: 'LOGIGEN: Logic-Driven Generation of Verifiable Agentic Tasks'
+url: https://arxiv.org/abs/2603.00540v1
+authors:
+- Yucheng Zeng
+- Weipeng Lu
+- Linyun Liu
+- Shupeng Li
+- Zitian Qu
+- Chenghao Zhu
+- Shaofei Li
+- Zhengdong Tan
+- Mengyue Liu
+- Haotian Zhao
+- Zhe Zhou
+- Jianmin Wu
+venue: arXiv
+year: 2026
+summary: LOGIGEN is a logic-driven framework that synthesizes verifiable training data for agentic tasks
+  by compiling natural-language policies into database constraints, initializing boundary states, and
+  searching for causal solution paths, enabling robust evaluation and training of agents in complex environments.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the generation of verifiable agentic tasks and training data, which
+    is crucial for robust evaluation and reliability of agentic systems.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-automatically-attacking-software-reverse-engineering-ai-agents
+type: papers
+title: Automatically Attacking Software Reverse Engineering AI Agents
+url: https://arxiv.org/abs/2605.30667v1
+authors:
+- Brian Crawford
+- Justin Phillips
+- Patrick McClure
+venue: arXiv
+year: 2026
+summary: Presents an adversarial technique using genetic algorithm-based prompt generation to deceive
+  LLM-powered disassembly and decompilation agents into misinterpreting binary executables, effectively
+  corrupting their analytical output.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses adversarial testing of agentic systems by demonstrating a novel
+    prompt injection attack against reverse engineering agents, which is a core red-teaming concern.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-autoregressive-diffusion-world-models-for-off-policy-evaluation
+type: papers
+title: Autoregressive Diffusion World Models for Off-Policy Evaluation of LLM Agents
+url: https://arxiv.org/abs/2606.05558v1
+authors:
+- Kaixuan Liu
+- Guojun Xiong
+- Weinan Zhang
+- Shengpu Tang
+venue: arXiv
+year: 2026
+summary: ADWM is an autoregressive diffusion world model for off-policy evaluation of LLM agents, enabling
+  reliable step-by-step rollouts to estimate agent performance from pre-collected trajectories without
+  real-world execution.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to offline evaluation of LLM agents, addressing the reliability of
+    long-horizon evaluation in interactive environments.
+status: draft

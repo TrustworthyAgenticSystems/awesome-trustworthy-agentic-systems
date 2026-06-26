@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-polar-agentic-rl-on-any-harness-at-scale
+type: papers
+title: 'Polar: Agentic RL on Any Harness at Scale'
+url: https://arxiv.org/abs/2605.24220v1
+authors:
+- Binfeng Xu
+- Hao Zhang
+- Shaokun Zhang
+- Songyang Han
+- Mingjie Liu
+- Jian Hu
+- Shizhe Diao
+- Zhenghui Jin
+- Yunheng Zou
+- Michael Demoret
+- Jan Kautz
+- Yi Dong
+venue: arXiv
+year: 2026
+summary: Polar is a scalable asynchronous RL rollout framework that treats agent harnesses as black boxes,
+  proxies LLM API calls, and reconstructs token-faithful trajectories for training, enabling efficient
+  RL on arbitrary agent workflows.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes a system for scalable observation, trajectory reconstruction, and evaluation
+    of agent behavior across diverse harnesses, directly addressing long-horizon evaluation challenges.
+status: draft

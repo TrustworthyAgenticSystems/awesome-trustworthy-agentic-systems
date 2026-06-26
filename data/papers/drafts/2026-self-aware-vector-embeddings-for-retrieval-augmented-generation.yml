@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-self-aware-vector-embeddings-for-retrieval-augmented-generation
+type: papers
+title: 'Self-Aware Vector Embeddings for Retrieval-Augmented Generation: A Neuroscience-Inspired Framework
+  for Temporal, Confidence-Weighted, and Relational Knowledge'
+url: https://arxiv.org/abs/2604.20598v1
+authors:
+- Naizhong Xu
+venue: arXiv
+year: 2026
+summary: SmartVector is a framework that augments vector embeddings with temporal awareness, confidence
+  decay, and relational awareness, using a multi-signal retrieval score and a background consolidation
+  agent to improve accuracy and reduce stale answers in RAG systems.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the integrity and reliability of agent memory by enhancing
+    RAG with temporal, confidence, and relational metadata, which is a core systems-engineering problem
+    for trustworthy agents.
+status: draft

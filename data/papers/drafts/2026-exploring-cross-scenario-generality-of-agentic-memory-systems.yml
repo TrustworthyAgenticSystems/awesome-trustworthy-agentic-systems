@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-exploring-cross-scenario-generality-of-agentic-memory-systems
+type: papers
+title: 'Exploring Cross-Scenario Generality of Agentic Memory Systems: Diagnostics and a Strong Baseline'
+url: https://arxiv.org/abs/2606.04315v1
+authors:
+- Zhikai Chen
+- Jialiang Gu
+- Junyu Yin
+- Xianxuan Long
+- Shenglai Zeng
+- Xiaoze Liu
+- Kai Guo
+- Keren Zhou
+- Jiliang Tang
+venue: arXiv
+year: 2026
+summary: Evaluates the cross-scenario generality of agentic memory systems across diverse tasks and proposes
+  an agentic memory harness with a self-managed tool interface for improved performance.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the engineering challenge of memory system generality and proposes
+    a system-level solution involving active agent control over memory via tool calls.
+status: draft

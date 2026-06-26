@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-control-architecture-for-training-free-memory-use
+type: papers
+title: A Control Architecture for Training-Free Memory Use
+url: https://arxiv.org/abs/2604.18206v1
+authors:
+- Yanzhen Lu
+- Muchen Jiang
+- Zhicheng Qian
+- Xingyu Zhou
+venue: arXiv
+year: 2026
+summary: A control architecture for training-free memory use that manages when to trigger memory-assisted
+  passes, when to trust retrieved content, and how to govern the memory bank over time, showing improvements
+  on arithmetic benchmarks.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses the systems-level problem of controlling and governing memory use in
+    agents, including when to apply and trust retrieved content, which is a core concern for trustworthy
+    agent memory.
+status: draft

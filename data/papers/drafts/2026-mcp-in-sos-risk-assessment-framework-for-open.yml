@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mcp-in-sos-risk-assessment-framework-for-open
+type: papers
+title: 'MCP-in-SoS: Risk assessment framework for open-source MCP servers'
+url: https://arxiv.org/abs/2603.10194v1
+authors:
+- Pratyay Kumar
+- Miguel Antonio Guirao Aguilera
+- Srikathyayani Srikanteswara
+- Satyajayant Misra
+- Abu Saleh Md Tayeen
+venue: arXiv
+year: 2026
+summary: Systematic, large-scale security assessment of open-source Model Context Protocol (MCP) servers
+  using static code analysis to identify CWE weaknesses and map them to CAPEC attack patterns, revealing
+  exploitable vulnerabilities that compromise confidentiality, integrity, and availability.
+harness_layer:
+- tool-interface
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses security risks and weaknesses in open-source MCP servers, which are critical
+    components of the agentic system's tool interface.
+status: draft

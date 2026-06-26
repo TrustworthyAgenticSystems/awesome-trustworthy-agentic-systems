@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hidden-in-memory-sleeper-memory-poisoning-in-llm
+type: papers
+title: 'Hidden in Memory: Sleeper Memory Poisoning in LLM Agents'
+url: https://arxiv.org/abs/2605.15338v2
+authors:
+- Sidharth Pulipaka
+- Stanislau Hlebik
+- Leonidas Raghav
+- Sahar Abdelnabi
+- Vyas Raina
+- Ivaxi Sheth
+- Mario Fritz
+venue: arXiv
+year: 2026
+summary: Characterizes 'sleeper memory poisoning' as a delayed attack where adversarial external content
+  causes an LLM agent to store fabricated memories, influencing future interactions, and evaluates its
+  effectiveness across different models.
+harness_layer:
+- memory
+sprs:
+- security
+- privacy
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a novel attack vector on agent memory integrity and its long-term impact
+    on agent behavior, with empirical validation.
+status: draft

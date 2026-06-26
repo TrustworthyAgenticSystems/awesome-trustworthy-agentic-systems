@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-quantclaw-precision-where-it-matters-for-openclaw
+type: papers
+title: 'QuantClaw: Precision Where It Matters for OpenClaw'
+url: https://arxiv.org/abs/2604.22577v1
+authors:
+- Manyi Zhang
+- Ji-Fu Li
+- Zhongao Sun
+- Xiaohao Liu
+- Zhenhua Dong
+- Xianzhi Yu
+- Haoli Bai
+- Xiaobo Xia
+venue: arXiv
+year: 2026
+summary: QuantClaw is a precision routing plugin that dynamically assigns quantization levels to agent
+  tasks based on their characteristics, reducing computational cost and latency in multi-turn reasoning
+  workflows.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses the efficiency and reliability of agent execution by dynamically managing
+    precision, which is a systems-level concern for trustworthy agent deployment.
+status: draft

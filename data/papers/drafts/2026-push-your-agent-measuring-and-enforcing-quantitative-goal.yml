@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-push-your-agent-measuring-and-enforcing-quantitative-goal
+type: papers
+title: 'Push Your Agent: Measuring and Enforcing Quantitative Goal Persistence in Long-Horizon LLM Agents'
+url: https://arxiv.org/abs/2605.23574v1
+authors:
+- Yuandao Cai
+- Yuzhang Zhu
+- Liyou Gao
+- Wensheng Tang
+- Shengchao Qin
+venue: arXiv
+year: 2026
+summary: Introduces Quantitative Goal Persistence (QGP) to measure whether long-horizon agents complete
+  a requested count of distinct valid items, and proposes PushBench to benchmark this reliability aspect
+  with verifier-backed work units.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses a systems-level reliability problem in long-horizon agents by
+    proposing a new evaluation methodology and benchmark for quantitative goal persistence.
+status: draft

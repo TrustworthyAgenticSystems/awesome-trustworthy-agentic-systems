@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-adaptools-adaptive-tool-based-indirect-prompt-injection-attacks
+type: papers
+title: 'AdapTools: Adaptive Tool-based Indirect Prompt Injection Attacks on Agentic LLMs'
+url: https://arxiv.org/abs/2602.20720v1
+authors:
+- Che Wang
+- Jiaming Zhang
+- Ziqi Zhang
+- Zijie Wang
+- Yinghui Wang
+- Jianbo Gao
+- Tao Wei
+- Zhong Chen
+- Wei Yang Bryan Lim
+venue: arXiv
+year: 2026
+summary: AdapTools is an adaptive indirect prompt injection attack framework that selects stealthy tools
+  and generates adaptive prompts to bypass defenses in agentic LLMs, demonstrating a 2.13x improvement
+  in attack success rate.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to red-teaming agentic systems by developing an adaptive
+    indirect prompt injection attack framework that targets tool-based agents and evaluates its effectiveness
+    against state-of-the-art defenses.
+status: draft

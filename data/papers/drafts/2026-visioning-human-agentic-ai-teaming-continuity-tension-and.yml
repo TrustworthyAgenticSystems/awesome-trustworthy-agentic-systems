@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-visioning-human-agentic-ai-teaming-continuity-tension-and
+type: papers
+title: 'Visioning Human-Agentic AI Teaming: Continuity, Tension, and Future Research'
+url: https://arxiv.org/abs/2603.04746v1
+authors:
+- Bowen Lou
+- Tian Lu
+- T. S. Raghu
+- Yingjie Zhang
+venue: arXiv
+year: 2026
+summary: Extends Team Situation Awareness theory to human-AI teaming with agentic systems, addressing
+  structural uncertainty in behavior trajectories and evolving objectives to clarify where foundational
+  insights hold and where new research is needed for continuous alignment.
+harness_layer:
+- foundations
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a foundational conceptual framework for understanding and engineering
+    trustworthy human-agentic AI teaming, directly addressing the structural uncertainty introduced by
+    agentic systems.
+status: draft

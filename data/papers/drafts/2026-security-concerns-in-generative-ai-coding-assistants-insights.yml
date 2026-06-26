@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-security-concerns-in-generative-ai-coding-assistants-insights
+type: papers
+title: 'Security Concerns in Generative AI Coding Assistants: Insights from Online Discussions on GitHub
+  Copilot'
+url: https://arxiv.org/abs/2604.08352v1
+authors:
+- Nicolás E. Díaz Ferreyra
+- Monika Swetha Gurupathi
+- Zadia Codabux
+- Nalin Arachchilage
+- Riccardo Scandariato
+venue: arXiv
+year: 2026
+summary: Exploratory study of developer-voiced security concerns in GenAI coding assistants, identifying
+  data leakage, code licensing, adversarial attacks, and insecure code suggestions as key areas.
+harness_layer:
+- foundations
+sprs:
+- security
+- privacy
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper provides foundational insights into developer-perceived security concerns in AI
+    coding assistants, framing the problem from a systems-user perspective.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-dpbench-structural-determinants-of-multi-agent-llm-coordination
+type: papers
+title: 'DPBench: Structural Determinants of Multi-Agent LLM Coordination Under Simultaneous Resource Contention'
+url: https://arxiv.org/abs/2602.13255v2
+authors:
+- Najmul Hasan
+- Prashanth BusiReddyGari
+venue: arXiv
+year: 2026
+summary: DPBench is a benchmark that adapts the Dining Philosophers problem to evaluate multi-agent LLM
+  coordination under varying structural conditions, identifying protocol variables that mitigate deadlock
+  in simultaneous resource contention.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper provides a systems-level benchmark for multi-agent coordination, focusing on structural
+    determinants of success and failure, which is crucial for reliable agentic systems.
+status: draft

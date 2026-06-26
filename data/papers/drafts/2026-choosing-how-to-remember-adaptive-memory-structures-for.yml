@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-choosing-how-to-remember-adaptive-memory-structures-for
+type: papers
+title: 'Choosing How to Remember: Adaptive Memory Structures for LLM Agents'
+url: https://arxiv.org/abs/2602.14038v1
+authors:
+- Mingfei Lu
+- Mengjia Wu
+- Feng Liu
+- Jiawei Xu
+- Weikai Li
+- Haoyang Wang
+- Zhengdong Hu
+- Ying Ding
+- Yizhou Sun
+- Jie Lu
+- Yi Zhang
+venue: arXiv
+year: 2026
+summary: FluxMem proposes an adaptive memory organization framework for LLM agents that learns to select
+  among multiple complementary memory structures based on interaction features, improving long-horizon
+  coherence and performance.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the engineering of agent memory systems, focusing on adaptive
+    structures and fusion for improved reliability in long-horizon interactions.
+status: draft

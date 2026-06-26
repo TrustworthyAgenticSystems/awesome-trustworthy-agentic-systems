@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-efficient-llm-serving-for-agentic-workflows-a-data
+type: papers
+title: 'Efficient LLM Serving for Agentic Workflows: A Data Systems Perspective'
+url: https://arxiv.org/abs/2603.16104v1
+authors:
+- Noppanat Wadlom
+- Junyi Shen
+- Yao Lu
+venue: arXiv
+year: 2026
+summary: Helium is a workflow-aware LLM serving framework that optimizes agentic workloads by modeling
+  them as query plans and integrating proactive caching and cache-aware scheduling to maximize reuse across
+  prompts and KV states.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the efficiency and reliability of the agent execution shell by optimizing
+    LLM serving for interdependent agentic workflows.
+status: draft

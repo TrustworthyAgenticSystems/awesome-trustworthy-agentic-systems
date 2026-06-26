@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-self-organizing-multi-agent-systems-for-continuous-software
+type: papers
+title: Self-Organizing Multi-Agent Systems for Continuous Software Development
+url: https://arxiv.org/abs/2603.25928v1
+authors:
+- Wenhan Lyu
+- Yue Xiao
+- Yixuan Zhang
+- Yifan Sun
+venue: arXiv
+year: 2026
+summary: TheBotCompany is an orchestration framework for continuous multi-agent software development,
+  featuring a three-phase state machine, self-organizing agent teams, and asynchronous human oversight,
+  evaluated on long-term project completion and defect detection.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper contributes to multi-agent coordination and human oversight for long-running,
+    complex tasks, addressing reliability and safety in continuous software development workflows.
+status: draft

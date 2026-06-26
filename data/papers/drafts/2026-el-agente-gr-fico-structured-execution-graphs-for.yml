@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-el-agente-gr-fico-structured-execution-graphs-for
+type: papers
+title: 'El Agente Gráfico: Structured Execution Graphs for Scientific Agents'
+url: https://arxiv.org/abs/2602.17902v1
+authors:
+- Jiaru Bai
+- Abdulrahman Aldossary
+- Thomas Swanick
+- Marcel Müller
+- Yeonghun Kang
+- Zijian Zhang
+- Jin Won Lee
+- Tsz Wai Ko
+- Mohammad Ghazi Vakili
+- Varinia Bernales
+- Alán Aspuru-Guzik
+venue: arXiv
+year: 2026
+summary: El Agente Gráfico is a single-agent framework that integrates LLM decision-making with a type-safe
+  execution environment and dynamic knowledge graphs to manage computational state and context, improving
+  consistency and provenance tracking for scientific workflows.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper presents a reference architecture for scientific agents that addresses reliability
+    and provenance through structured execution and knowledge graphs, moving beyond prompt-centric designs.
+status: draft

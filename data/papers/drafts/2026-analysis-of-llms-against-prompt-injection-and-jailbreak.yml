@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-analysis-of-llms-against-prompt-injection-and-jailbreak
+type: papers
+title: Analysis of LLMs Against Prompt Injection and Jailbreak Attacks
+url: https://arxiv.org/abs/2602.22242v1
+authors:
+- Piyush Jaiswal
+- Aaditya Pratap
+- Shreyansh Saraswati
+- Harsh Kasyap
+- Somanath Tripathy
+venue: arXiv
+year: 2026
+summary: Evaluates prompt injection and jailbreak vulnerabilities across multiple open-source LLMs using
+  a curated dataset and assesses the effectiveness of lightweight inference-time defenses against these
+  attacks.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses adversarial testing of LLMs, including the limitations of defenses
+    against complex, reasoning-heavy prompts, which is relevant to red-teaming agentic systems.
+status: draft

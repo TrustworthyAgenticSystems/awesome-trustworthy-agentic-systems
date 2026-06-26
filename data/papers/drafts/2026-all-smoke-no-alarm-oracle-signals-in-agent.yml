@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-all-smoke-no-alarm-oracle-signals-in-agent
+type: papers
+title: 'All Smoke, No Alarm: Oracle Signals in Agent-Authored Test Code'
+url: https://arxiv.org/abs/2606.18168v1
+authors:
+- Dipayan Banik
+- Kowshik Chowdhury
+- Shazibul Islam Shamim
+venue: arXiv
+year: 2026
+summary: Empirical study of oracle signals in agent-authored test code, revealing that most test patches
+  lack strong verification logic and proposing oracle-aware quality checks for agent contributions.
+harness_layer:
+- supply-chain
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the quality and reliability of AI-generated code within the software supply
+    chain, with implications for agentic system trustworthiness.
+status: draft

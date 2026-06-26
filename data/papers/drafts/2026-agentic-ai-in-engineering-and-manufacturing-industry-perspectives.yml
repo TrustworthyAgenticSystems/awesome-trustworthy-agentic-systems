@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-ai-in-engineering-and-manufacturing-industry-perspectives
+type: papers
+title: 'Agentic AI in Engineering and Manufacturing: Industry Perspectives on Utility, Adoption, Challenges,
+  and Opportunities'
+url: https://arxiv.org/abs/2604.09633v1
+authors:
+- Kristen M. Edwards
+- Maxwell Bauer
+- Claire Jacquillat
+- A. John Hart
+- Faez Ahmed
+venue: arXiv
+year: 2026
+summary: Qualitative study of industry perspectives on agentic AI adoption in engineering and manufacturing,
+  identifying key challenges in data fragmentation, security, regulatory compliance, reliability, verification,
+  and auditability.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a foundational understanding of real-world challenges and requirements
+    for trustworthy agentic systems in a critical industry, directly informing the 'foundations' layer.
+status: draft

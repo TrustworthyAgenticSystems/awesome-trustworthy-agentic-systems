@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-vllm-hook-v0-a-plug-in-for-programming
+type: papers
+title: 'vLLM Hook v0: A Plug-in for Programming Model Internals on vLLM'
+url: https://arxiv.org/abs/2603.06588v1
+authors:
+- Ching-Yun Ko
+- Pin-Yu Chen
+venue: arXiv
+year: 2026
+summary: vLLM Hook enables programming and probing of internal model states within the vLLM inference
+  engine, facilitating test-time alignment, adversarial prompt detection, and activation steering for
+  deployed models.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper contributes to the observability and intervention capabilities of deployed LLM
+    inference engines, which is crucial for monitoring and controlling agent behavior at a foundational
+    level.
+status: draft

@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-star-scalable-task-conditioned-retrieval-for-long-horizon
+type: papers
+title: 'STaR: Scalable Task-Conditioned Retrieval for Long-Horizon Multimodal Robot Memory'
+url: https://arxiv.org/abs/2602.09255v2
+authors:
+- Mingfeng Yuan
+- Hao Zhang
+- Mahan Mohammadi
+- Runhao Li
+- Jinjun Shan
+- Steven L. Waslander
+venue: arXiv
+year: 2026
+summary: STaR is an agentic reasoning framework that builds a task-agnostic, multimodal long-term memory
+  and uses a scalable task-conditioned retrieval algorithm to extract compact, information-rich memories
+  for contextual reasoning in long-horizon robot operations.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses scalable long-horizon memory and retrieval for agentic robot workflows,
+    which is a direct contribution to trustworthy agent memory systems.
+status: draft

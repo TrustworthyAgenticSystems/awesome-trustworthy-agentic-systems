@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-conmem-structured-memory-guided-adaptation-in-training-free
+type: papers
+title: 'ConMem: Structured Memory-Guided Adaptation in Training-Free Multi-Agent Systems'
+url: https://arxiv.org/abs/2606.08702v1
+authors:
+- Zhixun Tan
+- Qiang Chen
+- Tairan Huang
+- Xiu Su
+- Yi Chen
+venue: arXiv
+year: 2026
+summary: ConMem is a training-free framework that distills historical multi-agent interaction trajectories
+  into a relation-aware memory graph to provide structured guidance for robust and efficient adaptation.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to agent memory management by proposing a structured, relation-aware
+    memory graph for multi-agent adaptation, improving efficiency and robustness without additional training.
+status: draft

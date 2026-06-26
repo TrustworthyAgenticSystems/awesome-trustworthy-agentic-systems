@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-description-code-inconsistency-in-real-world-mcp-servers
+type: papers
+title: 'Description-Code Inconsistency in Real-world MCP Servers: Measurement, Detection, and Security
+  Implications'
+url: https://arxiv.org/abs/2606.04769v1
+authors:
+- Yutao Shi
+- Xiaohan Zhang
+- Xiangjing Zhang
+- Xihua Shen
+- Hui Ouyang
+- Huming Qiu
+- Mi Zhang
+- Min Yang
+venue: arXiv
+year: 2026
+summary: Characterizes Description-Code Inconsistency (DCI) in MCP servers, where tool descriptions diverge
+  from their implementations, and proposes DCIChecker, an automated framework to detect these inconsistencies
+  using static analysis and prompting.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a critical security and reliability problem in the tool-interface layer
+    of agentic systems with a concrete detection framework and empirical study.
+status: draft

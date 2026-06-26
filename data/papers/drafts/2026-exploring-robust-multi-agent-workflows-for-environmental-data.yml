@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-exploring-robust-multi-agent-workflows-for-environmental-data
+type: papers
+title: Exploring Robust Multi-Agent Workflows for Environmental Data Management
+url: https://arxiv.org/abs/2604.01647v1
+authors:
+- Boyuan Guan
+- Jason Liu
+- Yanzhao Wu
+- Kiavash Bahreini
+venue: arXiv
+year: 2026
+summary: EnviSmart is a production data management system that achieves reliability through a three-track
+  knowledge architecture and a role-separated multi-agent design with deterministic validators and audited
+  handoffs at trust boundaries, preventing errors in irreversible actions.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper presents a concrete reference architecture for trustworthy agentic systems, focusing
+    on reliability and safety in a production environment with detailed mechanisms and incident response.
+status: draft

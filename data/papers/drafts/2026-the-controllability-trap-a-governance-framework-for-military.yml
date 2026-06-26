@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-controllability-trap-a-governance-framework-for-military
+type: papers
+title: 'The Controllability Trap: A Governance Framework for Military AI Agents'
+url: https://arxiv.org/abs/2603.03515v1
+authors:
+- Subramanyam Sahoo
+venue: arXiv
+year: 2026
+summary: Proposes a governance framework for military AI agents that introduces a real-time Control Quality
+  Score to continuously measure and manage human control, enabling graduated responses to control degradation.
+harness_layer:
+- oversight
+sprs:
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses human oversight and governance of agentic systems, particularly in high-stakes
+    military contexts, with a concrete architectural framework and measurable metrics.
+status: draft

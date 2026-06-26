@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-trust-a-framework-for-decentralized-ai-service-v
+type: papers
+title: 'TRUST: A Framework for Decentralized AI Service v.0.1'
+url: https://arxiv.org/abs/2604.27132v1
+authors:
+- Yu-Chao Huang
+- Zhen Tan
+- Mohan Zhang
+- Pingzhi Li
+- Zhuo Zhang
+- Tianlong Chen
+venue: arXiv
+year: 2026
+summary: TRUST is a decentralized framework for verifying Large Reasoning Models and Multi-Agent Systems,
+  using HDAGs for parallel auditing, DAAN protocol for root-cause attribution, and a multi-tier consensus
+  mechanism for correctness, with on-chain recording and privacy-by-design segmentation.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- reliability
+- privacy
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper proposes a decentralized framework for auditing and verifying agentic systems,
+    directly addressing robustness, scalability, opacity, and privacy concerns in observation and evaluation.
+status: draft

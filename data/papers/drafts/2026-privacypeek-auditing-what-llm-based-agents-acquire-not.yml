@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-privacypeek-auditing-what-llm-based-agents-acquire-not
+type: papers
+title: 'PrivacyPeek: Auditing What LLM-Based Agents Acquire, Not Just What They Say'
+url: https://arxiv.org/abs/2606.00152v1
+authors:
+- Mingxuan Zhang
+- Jiahui Han
+- Dadi Guo
+- Songze Li
+- Guanchu Wang
+- Na Zou
+- Dongrui Liu
+- Xia Hu
+venue: arXiv
+year: 2026
+summary: PrivacyPeek is a benchmark for evaluating acquisition-stage privacy leakage in LLM-based agents,
+  focusing on over-acquisition of sensitive information through tool calls and subsequent elicitation,
+  rather than just disclosed outputs.
+harness_layer:
+- observation-eval
+sprs:
+- privacy
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper introduces a novel benchmark and methodology for auditing privacy at the acquisition
+    stage of agent operation, directly addressing a systems-level privacy concern for trustworthy agents.
+status: draft

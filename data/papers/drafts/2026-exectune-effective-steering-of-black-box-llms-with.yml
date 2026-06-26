@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-exectune-effective-steering-of-black-box-llms-with
+type: papers
+title: 'ExecTune: Effective Steering of Black-Box LLMs with Guide Models'
+url: https://arxiv.org/abs/2604.09741v1
+authors:
+- Vijay Lingam
+- Aditya Golatkar
+- Anwesan Pal
+- Ben Vo
+- Narayanan Sadagopan
+- Alessandro Achille
+- Jun Huan
+- Anoop Deoras
+- Stefano Soatto
+venue: arXiv
+year: 2026
+summary: Introduces Guide-Core Policies (GCoP) as an abstraction for agentic systems where a guide model
+  generates a strategy for a black-box core model, and proposes ExecTune to optimize guide-averaged executability
+  for improved accuracy and cost efficiency.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper formalizes and optimizes the coordination between a guide and core model in agentic
+    systems, directly addressing reliability and efficiency in multi-model orchestration.
+status: draft

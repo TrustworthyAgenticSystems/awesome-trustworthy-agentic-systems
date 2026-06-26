@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-model-scaling-to-system-scaling-scaling-the
+type: papers
+title: 'From Model Scaling to System Scaling: Scaling the Harness in Agentic AI'
+url: https://arxiv.org/abs/2605.26112v1
+authors:
+- Shangding Gu
+venue: arXiv
+year: 2026
+summary: This paper frames agentic AI progress as a system-scaling problem, emphasizing the 'agent harness'
+  (execution layer) and outlining research bottlenecks and benchmarks for context governance, trustworthy
+  memory, and dynamic skill routing.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the foundational framing of trustworthy agentic systems as
+    a systems-engineering problem, not just a model-scaling problem, and proposes a research agenda for
+    harness-level evaluation.
+status: draft

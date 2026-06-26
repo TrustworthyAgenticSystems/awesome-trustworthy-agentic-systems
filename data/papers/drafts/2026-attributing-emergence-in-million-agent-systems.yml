@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-attributing-emergence-in-million-agent-systems
+type: papers
+title: Attributing Emergence in Million-Agent Systems
+url: https://arxiv.org/abs/2605.11404v1
+authors:
+- Ling Tang
+- Jilin Mei
+- Qian Chen
+- Qihan Ren
+- Linfeng Zhang
+- Quanshi Zhang
+- Jing Shao
+- Xia Hu
+- Dongrui Liu
+venue: arXiv
+year: 2026
+summary: Adapts Aumann-Shapley path-integral attribution to enable scalable attribution of emergent macro
+  phenomena to individual agents in million-agent systems, demonstrating that small-scale attribution
+  is structurally biased.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides a scalable method for attributing emergent behavior in large multi-agent systems,
+    addressing a critical observability and evaluation challenge for trustworthy agentic systems.
+status: draft

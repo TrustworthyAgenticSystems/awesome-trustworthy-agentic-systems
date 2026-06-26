@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-formalscience-scalable-human-in-the-loop-autoformalisation-of
+type: papers
+title: 'FormalScience: Scalable Human-in-the-Loop Autoformalisation of Science with Agentic Code Generation
+  in Lean'
+url: https://arxiv.org/abs/2604.23002v1
+authors:
+- Jordan Meadows
+- Lan Zhang
+- Andre Freitas
+venue: arXiv
+year: 2026
+summary: FormalScience is a human-in-the-loop agentic pipeline that enables domain experts to produce
+  syntactically correct and semantically aligned formal proofs from informal scientific reasoning, addressing
+  the challenge of autoformalisation in scientific domains.
+harness_layer:
+- oversight
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a human-in-the-loop agentic pipeline for autoformalisation, which directly
+    contributes to the oversight layer by enabling domain experts to guide and verify agent output for
+    reliability.
+status: draft

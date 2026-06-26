@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-visinject-disruption-injection-a-dual-dimension-evaluation-of
+type: papers
+title: 'VisInject: Disruption != Injection -- A Dual-Dimension Evaluation of Universal Adversarial Attacks
+  on Vision-Language Models'
+url: https://arxiv.org/abs/2605.01449v1
+authors:
+- Pang Liu
+- Yingjie Lao
+venue: arXiv
+year: 2026
+summary: Evaluates universal adversarial attacks on vision-language models using a dual-axis metric to
+  distinguish mere output perturbation from precise prompt injection, finding a significant divergence
+  between the two.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a refined adversarial evaluation methodology for multimodal prompt injection, which
+    is a system-level threat to agent trustworthiness.
+status: draft

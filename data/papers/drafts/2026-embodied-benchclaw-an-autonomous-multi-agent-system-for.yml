@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-embodied-benchclaw-an-autonomous-multi-agent-system-for
+type: papers
+title: 'Embodied-BenchClaw: An Autonomous Multi-Agent System for Embodied Spatial Intelligence Benchmark
+  Construction'
+url: https://arxiv.org/abs/2606.11909v1
+authors:
+- Baoyang Jiang
+- Fengchun Zhang
+- Leyuan Wang
+- Haotian Li
+- Yida Wang
+- Zhe Ji
+- Jinshan Lai
+- Xi Ren
+- Jianwei Hu
+- Qiang Ma
+venue: arXiv
+year: 2026
+summary: Embodied-BenchClaw is an autonomous multi-agent system that constructs and maintains embodied
+  spatial intelligence benchmarks through a five-stage pipeline coordinated by planning, construction,
+  and evaluation agents, enhancing reusability and reliability via a Skill Library and quality control.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system for an engineering task (benchmark construction)
+    with a focus on reliability, reusability, and maintainability, which are systems-level concerns.
+status: draft

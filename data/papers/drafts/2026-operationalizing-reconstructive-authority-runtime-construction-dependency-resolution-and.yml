@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-operationalizing-reconstructive-authority-runtime-construction-dependency-resolution-and
+type: papers
+title: 'Operationalizing Reconstructive Authority: Runtime Construction, Dependency Resolution, and Execution
+  Gating in Autonomous Agent Systems'
+url: https://arxiv.org/abs/2605.23935v1
+authors:
+- Marcelo Fernandez - TraslaIA
+venue: arXiv
+year: 2026
+summary: Introduces a runtime execution model that enforces Reconstructive Authority by evaluating action-time
+  authority, dynamically resolving dependencies, and gating execution based on authority constructibility,
+  including a recovery loop for incomplete observability.
+harness_layer:
+- execution-shell
+sprs:
+- safety
+- reliability
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses runtime enforcement of authority and execution control for autonomous
+    agents, contributing to the execution-shell layer of trustworthy agentic systems.
+status: draft

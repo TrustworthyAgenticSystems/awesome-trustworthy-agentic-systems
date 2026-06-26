@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-scalable-inference-architectures-for-compound-ai-systems-a
+type: papers
+title: 'Scalable Inference Architectures for Compound AI Systems: A Production Deployment Study'
+url: https://arxiv.org/abs/2604.25724v1
+authors:
+- Srikanta Prasad S
+- Utkarsh Arora
+venue: arXiv
+year: 2026
+summary: Presents a production deployment study of a modular, platform-agnostic inference architecture
+  for compound AI systems, addressing challenges like multi-model fan-out and cascading cold-starts to
+  improve latency, throughput, and cost-effectiveness for agentic workloads.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper details a production-grade inference architecture specifically designed for the
+    operational challenges of compound AI systems and agents, providing concrete performance metrics and
+    operational lessons.
+status: draft

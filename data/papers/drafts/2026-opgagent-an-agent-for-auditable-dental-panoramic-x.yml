@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-opgagent-an-agent-for-auditable-dental-panoramic-x
+type: papers
+title: 'OPGAgent: An Agent for Auditable Dental Panoramic X-ray Interpretation'
+url: https://arxiv.org/abs/2603.00462v1
+authors:
+- Zhaolin Yu
+- Litao Yang
+- Ben Babicka
+- Ming Hu
+- Jing Hao
+- Anthony Huang
+- James Huang
+- Yueming Jin
+- Jiasong Wu
+- Zongyuan Ge
+venue: arXiv
+year: 2026
+summary: OPGAgent is a multi-tool agentic system for dental panoramic X-ray interpretation that coordinates
+  specialized perception modules with a consensus mechanism to improve accuracy and auditability.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system that orchestrates specialized tools and includes
+    a consensus mechanism for conflict resolution, directly addressing coordination and reliability in
+    an agentic system for a safety-critical domain.
+status: draft

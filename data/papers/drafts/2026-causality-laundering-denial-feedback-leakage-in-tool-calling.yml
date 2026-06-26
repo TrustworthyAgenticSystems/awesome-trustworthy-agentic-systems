@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-causality-laundering-denial-feedback-leakage-in-tool-calling
+type: papers
+title: 'Causality Laundering: Denial-Feedback Leakage in Tool-Calling LLM Agents'
+url: https://arxiv.org/abs/2604.04035v1
+authors:
+- Mohammad Hossein Chinaei
+venue: arXiv
+year: 2026
+summary: Identifies "causality laundering," a denial-feedback leakage pattern in tool-calling agents,
+  and proposes the Agentic Reference Monitor (ARM) as a runtime enforcement layer that uses a provenance
+  graph with counterfactual edges to block such attacks.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a novel security vulnerability in tool-calling agent systems with a concrete,
+    evaluated runtime defense mechanism.
+status: draft

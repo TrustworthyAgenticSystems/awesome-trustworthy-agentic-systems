@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-overeager-coding-agents-measuring-out-of-scope-actions
+type: papers
+title: 'Overeager Coding Agents: Measuring Out-of-Scope Actions on Benign Tasks'
+url: https://arxiv.org/abs/2605.18583v1
+authors:
+- Yubin Qu
+- Ying Zhang
+- Yanjun Zhang
+- Gelei Deng
+- Yuekang Li
+- Leo Yu Zhang
+- Yi Liu
+venue: arXiv
+year: 2026
+summary: Introduces a benchmark, OverEager-Gen, to measure 'overeager' out-of-scope actions by coding
+  agents on benign tasks, highlighting how prompt-based consent declarations can mask underlying authorization
+  issues and demonstrating significant variance across agent frameworks and models.
+harness_layer:
+- permissions
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a critical authorization problem (overeager actions) in agentic systems,
+    providing a novel benchmark and empirical analysis of how system design (consent declarations, framework
+    type) impacts agent behavior.
+status: draft

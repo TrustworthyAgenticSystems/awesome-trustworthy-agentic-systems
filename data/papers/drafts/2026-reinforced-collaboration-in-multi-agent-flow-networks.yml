@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-reinforced-collaboration-in-multi-agent-flow-networks
+type: papers
+title: Reinforced Collaboration in Multi-Agent Flow Networks
+url: https://arxiv.org/abs/2605.12943v1
+authors:
+- Zheng Wang
+- Yuang Liu
+- Yangkai Ding
+venue: arXiv
+year: 2026
+summary: MANGO is a data-driven framework that optimizes multi-agent collaboration workflows using reinforcement
+  learning and textual gradients to mitigate error propagation and improve efficiency.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses error propagation in multi-agent workflows, a systems-level reliability
+    concern for agent coordination, with a concrete optimization framework.
+status: draft

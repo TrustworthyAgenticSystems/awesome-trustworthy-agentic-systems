@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-stars-skill-triggered-audit-for-request-conditioned-invocation
+type: papers
+title: 'STARS: Skill-Triggered Audit for Request-Conditioned Invocation Safety in Agent Systems'
+url: https://arxiv.org/abs/2604.10286v1
+authors:
+- Guijia Zhang
+- Shu Yang
+- Xilin Gong
+- Di Wang
+venue: arXiv
+year: 2026
+summary: STARS introduces a request-conditioned skill invocation auditing system that combines static
+  capability priors with a runtime risk model to predict and triage unsafe tool calls in agent systems.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the safety and security of tool invocation in agent systems
+    by proposing a runtime auditing mechanism, which is a core systems-engineering problem.
+status: draft

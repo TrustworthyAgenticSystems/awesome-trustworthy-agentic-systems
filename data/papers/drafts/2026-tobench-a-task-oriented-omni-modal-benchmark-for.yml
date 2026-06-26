@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-tobench-a-task-oriented-omni-modal-benchmark-for
+type: papers
+title: 'TOBench: A Task-Oriented Omni-Modal Benchmark for Real-World Tool-Using Agents'
+url: https://arxiv.org/abs/2605.16909v1
+authors:
+- Zhiqiang Liu
+- Wenhui Dong
+- Yilang Tan
+- Yuwen Qu
+- Haochen Yin
+- Chenyang Si
+venue: arXiv
+year: 2026
+summary: Introduces MM-ToolBench, a benchmark and evaluation harness for task-oriented omni-modal tool
+  use, featuring closed-loop multimodal verification and grounded evaluators for complex real-world workflows.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a concrete, systems-level evaluation framework for complex, multi-step agentic workflows,
+    addressing a critical need for long-horizon evaluation.
+status: draft

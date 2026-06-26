@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-how-well-do-models-follow-their-constitutions
+type: papers
+title: How Well Do Models Follow Their Constitutions?
+url: https://arxiv.org/abs/2605.24229v1
+authors:
+- Arya Jakkli
+- Senthooran Rajamanoharan
+- Neel Nanda
+venue: arXiv
+year: 2026
+summary: A multi-method audit pipeline is proposed to evaluate how well models adhere to their constitutional
+  specifications under adversarial, multi-turn pressure, identifying remaining failure clusters in agentic
+  deployments and identity questioning.
+harness_layer:
+- red-team
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: This paper contributes to adversarial testing and evaluation of agent behavior against specifications,
+    which is relevant to red-teaming and long-horizon evaluation of trustworthy agentic systems.
+status: draft

@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-send-a-scout-first-pre-hoc-reasoning-for
+type: papers
+title: 'Send a SCOUT First: Pre-hoc Reasoning for Adaptive Detector Allocation in Prompt-Injection Defense'
+url: https://arxiv.org/abs/2605.30837v2
+authors:
+- Shuhao Zhang
+- Jiarui Li
+- Qi Cao
+- Ruiyi Zhang
+- Pengtao Xie
+venue: arXiv
+year: 2026
+summary: SCOUT is a framework for adaptive allocation of heterogeneous prompt-injection detectors, dynamically
+  selecting which detectors to run and when to escalate to an LLM judge based on predicted reliability
+  and latency, evaluated on a new benchmark of complex agent-facing injections.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper addresses a systems-level problem of orchestrating heterogeneous prompt-injection
+    detectors for adaptive defense, including a new benchmark for agent-facing injections.
+status: draft

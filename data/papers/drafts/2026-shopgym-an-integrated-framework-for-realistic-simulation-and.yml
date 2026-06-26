@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-shopgym-an-integrated-framework-for-realistic-simulation-and
+type: papers
+title: 'ShopGym: An Integrated Framework for Realistic Simulation and Scalable Benchmarking of E-Commerce
+  Web Agents'
+url: https://arxiv.org/abs/2605.16116v1
+authors:
+- Chinmay Savadikar
+- Mingyu Zhao
+- Yuanzheng Zhu
+- Han Li
+- Shuang Xie
+- Alberto Castelo
+- Tianfu Wu
+- Lingyun Wang
+venue: arXiv
+year: 2026
+summary: ShopGym is an integrated framework for generating realistic, diverse, controllable, and reproducible
+  e-commerce simulation environments and benchmark tasks for web agents, addressing the challenge of scalable
+  and reliable evaluation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a systems-level framework for scalable and reproducible evaluation of
+    agent behavior in complex, realistic environments, directly addressing a key challenge in trustworthy
+    agent development.
+status: draft

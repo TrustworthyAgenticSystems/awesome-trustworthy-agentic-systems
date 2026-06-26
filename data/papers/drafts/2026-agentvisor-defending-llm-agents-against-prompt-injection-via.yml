@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentvisor-defending-llm-agents-against-prompt-injection-via
+type: papers
+title: 'AgentVisor: Defending LLM Agents Against Prompt Injection via Semantic Virtualization'
+url: https://arxiv.org/abs/2604.24118v1
+authors:
+- Zonghao Ying
+- Haozheng Wang
+- Jiangfan Liu
+- Quanchen Zou
+- Aishan Liu
+- Jian Yang
+- Yaodong Yang
+- Xianglong Liu
+venue: arXiv
+year: 2026
+summary: AgentVisor is a defense framework that uses semantic virtualization and a trusted semantic visor
+  to enforce privilege separation and mitigate direct and indirect prompt injection attacks on LLM agents.
+harness_layer:
+- execution-shell
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses prompt injection defense for LLM agents by proposing a novel
+    systems-level framework inspired by OS virtualization, with experimental validation.
+status: draft

@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentcanary-a-security-evaluation-framework-for-autonomous-ai
+type: papers
+title: 'AgentCanary: A Security Evaluation Framework for Autonomous AI Agents in Real Executable Environments'
+url: https://arxiv.org/abs/2606.10484v1
+authors:
+- Peiyang Li
+- Songping Wang
+- Yi Huang
+- Yanhua Shi
+- Chenhao Zhang
+- Qi Li
+- Yueming Lyu
+- Caifeng Shan
+- Fengting Li
+- Chao Feng
+- Chuanqun Zhu
+- Liang Chen
+venue: arXiv
+year: 2026
+summary: AgentCanary is a security evaluation framework for autonomous AI agents that features comprehensive
+  risk coverage, a high-fidelity real executable environment, and trajectory-grounded multi-dimensional
+  evaluation to assess agent security against long-horizon attacks.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the red-teaming and security evaluation of agentic systems
+    in realistic, high-fidelity environments, which is a core concern for trustworthy agents.
+status: draft

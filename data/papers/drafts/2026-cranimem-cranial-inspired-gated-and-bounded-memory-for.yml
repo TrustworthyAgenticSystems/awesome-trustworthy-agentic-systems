@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cranimem-cranial-inspired-gated-and-bounded-memory-for
+type: papers
+title: 'CraniMem: Cranial Inspired Gated and Bounded Memory for Agentic Systems'
+url: https://arxiv.org/abs/2603.15642v1
+authors:
+- Pearl Mody
+- Mihir Panchal
+- Rishit Kar
+- Kiran Bhowmick
+- Ruhina Karani
+venue: arXiv
+year: 2026
+summary: CraniMem introduces a neurocognitively inspired, gated, and bounded multi-stage memory system
+  for LLM agents, featuring goal-conditioned gating, utility tagging, and a scheduled consolidation loop
+  to improve robustness against distraction and ensure stable retention in long-running workflows.
+harness_layer:
+- memory
+sprs:
+- reliability
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses memory management, stability, and robustness in long-running
+    agentic systems, which is a core concern for trustworthy agent memory.
+status: draft

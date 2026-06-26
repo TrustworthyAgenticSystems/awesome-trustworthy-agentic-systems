@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ductile-agentic-llm-orchestration-of-engineering-analysis-in
+type: papers
+title: 'DUCTILE: Agentic LLM Orchestration of Engineering Analysis in Product Development Practice'
+url: https://arxiv.org/abs/2603.10249v2
+authors:
+- Alejandro Pradas-Gomez
+- Arindam Brahma
+- Ola Isaksson
+venue: arXiv
+year: 2026
+summary: DUCTILE is an agentic orchestration approach that separates adaptive LLM-based orchestration
+  from deterministic tool execution, demonstrated on an industrial structural analysis task to handle
+  input deviations and ensure methodological compliance.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper presents an end-to-end agentic architecture for industrial engineering analysis,
+    addressing reliability through adaptive orchestration and discussing practical consequences for human
+    oversight.
+status: draft

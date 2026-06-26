@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-star-a-stage-attributed-triage-and-repair-framework
+type: papers
+title: 'STAR: A Stage-attributed Triage and Repair framework for RCA Agents in Microservices'
+url: https://arxiv.org/abs/2605.15581v1
+authors:
+- Junle Wang
+- Xingchuang Liao
+- Wenjun Wu
+venue: arXiv
+year: 2026
+summary: STAR is a stage-attributed triage and repair framework that decomposes RCA agent workflows into
+  structured stages, localizes reasoning bugs to specific stages, and performs stage-specific patch-and-replay
+  repair to improve reliability.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the reliability and debuggability of agentic systems by localizing
+    and repairing errors within a structured execution workflow.
+status: draft

@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-researchpilot-a-local-first-multi-agent-system-for
+type: papers
+title: 'ResearchPilot: A Local-First Multi-Agent System for Literature Synthesis and Related Work Drafting'
+url: https://arxiv.org/abs/2603.14629v1
+authors:
+- Peng Zhang
+venue: arXiv
+year: 2026
+summary: ResearchPilot is an open-source, self-hostable multi-agent system for literature review, detailing
+  its local-first architecture, typed agent interfaces, and persistence mechanisms as a systems contribution.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper presents a concrete, deployable multi-agent system architecture with detailed engineering
+    tradeoffs and system design, focusing on reliability and transparency rather than pure algorithmic
+    novelty.
+status: draft

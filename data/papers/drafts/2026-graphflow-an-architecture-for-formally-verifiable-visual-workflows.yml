@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-graphflow-an-architecture-for-formally-verifiable-visual-workflows
+type: papers
+title: 'GraphFlow: An Architecture for Formally Verifiable Visual Workflows Enabling Reliable Agentic
+  AI Automation'
+url: https://arxiv.org/abs/2605.14968v1
+authors:
+- Drewry H. Morris
+- Luis Valles
+- Reza Hosseini Ghomi
+venue: arXiv
+year: 2026
+summary: GraphFlow is a visual workflow system that uses executable diagrams as formal specifications
+  for multi-step agentic AI automation, aiming to improve reliability through compile-time contract checking
+  and runtime enforcement, with explicit trust boundaries.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper proposes a system architecture for reliable agentic AI automation, focusing on
+    formal verification of workflows and explicit trust boundaries, directly addressing systems-level
+    trustworthiness.
+status: draft

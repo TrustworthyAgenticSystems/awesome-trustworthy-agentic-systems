@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-failurescope-cross-regime-behavioral-diagnosis-of-language-model
+type: papers
+title: 'FailureScope: Cross-Regime Behavioral Diagnosis of Language Model Weaknesses'
+url: https://arxiv.org/abs/2606.09878v1
+authors:
+- Nicholas Saban
+venue: arXiv
+year: 2026
+summary: FailureScope is a behavioral diagnosis method that clusters evaluation probes by cross-model
+  pass/fail patterns to identify specific model weaknesses across single-turn, multi-turn, and adversarial
+  agent attack regimes.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper provides a method for behavioral diagnosis and evaluation of agentic systems across
+    different operational regimes, directly contributing to observation and evaluation.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-piiguard-mitigating-pii-harvesting-under-adversarial-sanitization
+type: papers
+title: 'PIIGuard: Mitigating PII Harvesting under Adversarial Sanitization'
+url: https://arxiv.org/abs/2605.03129v1
+authors:
+- Mingshuo Liu
+- Yiwei Zha
+- Min Chen
+venue: arXiv
+year: 2026
+summary: PIIGuard is a webpage-level defense that uses hidden HTML fragments to prevent browsing-enabled
+  LLM agents from harvesting PII, evaluated against direct-HTML, public-URL browsing, and adversarial
+  sanitization settings.
+harness_layer:
+- tool-interface
+sprs:
+- privacy
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper proposes a novel, deployable defense at the tool-interface layer (webpage content)
+    to mitigate PII leakage by LLM agents, addressing a practical security and privacy concern.
+status: draft

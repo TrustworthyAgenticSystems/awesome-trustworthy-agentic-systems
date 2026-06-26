@@ -1,0 +1,44 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ecogym-evaluating-llms-for-long-horizon-plan-and
+type: papers
+title: 'EcoGym: Evaluating LLMs for Long-Horizon Plan-and-Execute in Interactive Economies'
+url: https://arxiv.org/abs/2602.09514v3
+authors:
+- Xavier Hu
+- Jinxiang Xia
+- Shengze Xu
+- Kangqi Song
+- Yishuo Yuan
+- Guibin Zhang
+- JinCheng Ren
+- Boyu Feng
+- Li Lu
+- Tieyong Zeng
+- Jiaheng Liu
+- Minghao Liu
+- He Zhu
+- Yuchen Eleanor Jiang
+- Wei Wang
+- Wangchunshu Zhou
+venue: arXiv
+year: 2026
+summary: EcoGym is a generalizable benchmark for continuous plan-and-execute decision-making in interactive
+  economies, providing a testbed for long-term strategic coherence and robustness of LLM agents under
+  partial observability and stochasticity.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a new benchmark for long-horizon evaluation of agentic systems, directly
+    addressing a key open problem in trustworthy agent development.
+status: draft

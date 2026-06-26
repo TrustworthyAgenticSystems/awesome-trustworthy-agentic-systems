@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-shields-automating-os-hardening-with-iterative-multi-agent
+type: papers
+title: 'SHIELDS: Automating OS Hardening with Iterative Multi-Agent Remediation'
+url: https://arxiv.org/abs/2606.05476v1
+authors:
+- Andrew Hamara
+- Dwight Horne
+- Aldehir Rojas
+- Timothy Kurniawan
+- Sophie Lamothe
+- Vishal Suresh
+- Nicholas Turoci
+- Lawrence Wong
+venue: arXiv
+year: 2026
+summary: SHIELDS is a multi-agent system that automates OS hardening by iteratively proposing and refining
+  security fixes based on feedback from system execution and validation scans.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper describes a multi-agent system for automated OS hardening, directly addressing
+    a systems-level security and reliability problem with an iterative, feedback-driven approach.
+status: draft

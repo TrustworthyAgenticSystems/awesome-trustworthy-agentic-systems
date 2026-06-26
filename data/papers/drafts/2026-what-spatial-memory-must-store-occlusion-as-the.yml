@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-what-spatial-memory-must-store-occlusion-as-the
+type: papers
+title: 'What Spatial Memory Must Store: Occlusion as the Test for Language-Agent Memory'
+url: https://arxiv.org/abs/2606.10299v1
+authors:
+- Doeon Kwon
+- Junho Bang
+venue: arXiv
+year: 2026
+summary: This paper investigates how spatial memory systems for language agents should store and retrieve
+  information, demonstrating that geometry-led weighting and separating recall from visibility (using
+  a DDA for occlusion) significantly improve performance in spatial query regimes.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the engineering of agent memory systems, specifically how spatial
+    information should be structured and accessed for reliable recall and visibility, with empirical validation.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-are-ai-assisted-development-tools-immune-to-prompt
+type: papers
+title: Are AI-assisted Development Tools Immune to Prompt Injection?
+url: https://arxiv.org/abs/2603.21642v1
+authors:
+- Charoes Huang
+- Xin Huang
+- Amin Milani Fard
+venue: arXiv
+year: 2026
+summary: Empirical analysis of prompt injection vulnerabilities, specifically tool-poisoning, across seven
+  real-world Model Context Protocol (MCP) clients, identifying disparities in their security features
+  and susceptibility to attacks.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a direct, empirical study of prompt injection attacks and tool-poisoning
+    vulnerabilities in real-world AI-assisted development tools, contributing to red-teaming and security
+    of agentic systems.
+status: draft

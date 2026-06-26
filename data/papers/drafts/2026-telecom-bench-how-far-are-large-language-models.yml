@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-telecom-bench-how-far-are-large-language-models
+type: papers
+title: 'TeleCom-Bench: How Far Are Large Language Models from Industrial Telecommunication Applications?'
+url: https://arxiv.org/abs/2605.18025v1
+authors:
+- Jieting Xiao
+- Yun Lin
+- Huizhen Qiu
+- Rui Ma
+- Chen Zhong
+- Dongyang Xu
+- Xiao Long
+- Chaoyu Zhang
+- Qiaobo Hao
+- Ding Zou
+- Zhiguo Yang
+- Yanqin Gao
+- Fang Tan
+venue: arXiv
+year: 2026
+summary: Introduces TeleCom-Bench, a comprehensive benchmark for evaluating LLMs in industrial telecommunication
+  applications, focusing on end-to-end knowledge application and procedural execution tasks within live
+  network agent workflows.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper provides a new benchmark specifically designed to evaluate LLMs in end-to-end
+    agentic workflows within a critical industrial domain, addressing a gap in long-horizon evaluation
+    for real-world reliability.
+status: draft

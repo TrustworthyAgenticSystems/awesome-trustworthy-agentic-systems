@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-detecting-safety-violations-across-many-agent-traces
+type: papers
+title: Detecting Safety Violations Across Many Agent Traces
+url: https://arxiv.org/abs/2604.11806v1
+authors:
+- Adam Stein
+- Davis Brown
+- Hamed Hassani
+- Mayur Naik
+- Eric Wong
+venue: arXiv
+year: 2026
+summary: Meerkat combines clustering with agentic search to detect rare, complex, and adversarially hidden
+  safety violations across large sets of agent traces, improving detection over baselines in misuse, misalignment,
+  and task gaming scenarios.
+harness_layer:
+- observation-eval
+sprs:
+- safety
+- security
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper introduces a system-level approach for detecting complex safety violations by analyzing
+    multiple agent traces, directly addressing observability and evaluation challenges for trustworthy
+    agents.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-brain-prompt-injection-a-route-safety-audit-for
+type: papers
+title: 'Brain-Prompt Injection: A Route-Safety Audit for BCI-LLM Agents'
+url: https://arxiv.org/abs/2606.09315v1
+authors:
+- Jianwei Tai
+venue: arXiv
+year: 2026
+summary: Identifies and characterizes 'brain-prompt injection' as a new attack surface for BCI-LLM agents,
+  proposing a Route-Safety Audit Contract and split-conformal calibration to detect and mitigate signal-side
+  perturbations that alter agent actions.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a novel red-teaming attack surface (brain-prompt injection) and proposes
+    a systems-level audit contract and calibration method to ensure route safety in BCI-LLM agent pipelines.
+status: draft

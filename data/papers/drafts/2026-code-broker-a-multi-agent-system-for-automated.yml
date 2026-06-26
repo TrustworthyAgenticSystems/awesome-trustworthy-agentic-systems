@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-code-broker-a-multi-agent-system-for-automated
+type: papers
+title: 'Code Broker: A Multi-Agent System for Automated Code Quality Assessment'
+url: https://arxiv.org/abs/2604.23088v2
+authors:
+- Samer Attrah
+venue: arXiv
+year: 2026
+summary: Code Broker is a multi-agent system for automated code quality assessment, featuring a hierarchical
+  architecture, asynchronous execution with retry logic, and session memory, presented as a technical
+  report on system design and tool orchestration.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper describes a multi-agent system architecture for code quality assessment, including
+    details on orchestration, retry logic, and memory, which are relevant to trustworthy agentic systems.
+status: draft

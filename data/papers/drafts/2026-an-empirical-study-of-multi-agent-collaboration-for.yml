@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-an-empirical-study-of-multi-agent-collaboration-for
+type: papers
+title: An Empirical Study of Multi-Agent Collaboration for Automated Research
+url: https://arxiv.org/abs/2603.29632v2
+authors:
+- Yang Shen
+- Zhenyi Yi
+- Ziyi Zhao
+- Lijun Sun
+- Dongyang Li
+- Chin-Teng Lin
+- Yuhui Shi
+venue: arXiv
+year: 2026
+summary: Empirical study comparing single-agent, subagent, and agent team architectures for automated
+  research, revealing trade-offs between operational stability and theoretical deliberation in multi-agent
+  coordination.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper empirically studies multi-agent coordination frameworks and their operational characteristics,
+    directly contributing to the understanding of agentic system reliability and design.
+status: draft

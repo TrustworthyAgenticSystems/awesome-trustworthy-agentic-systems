@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-self-attribution-bias-when-ai-monitors-go-easy
+type: papers
+title: 'Self-Attribution Bias: When AI Monitors Go Easy on Themselves'
+url: https://arxiv.org/abs/2603.04582v1
+authors:
+- Dipika Khullar
+- Jack Hopkins
+- Rowan Wang
+- Fabien Roger
+venue: arXiv
+year: 2026
+summary: Identifies and characterizes self-attribution bias in LLM-based self-monitoring agents, where
+  monitors are less critical of actions they implicitly attribute to themselves, leading to inflated reliability
+  metrics in evaluation.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses a systemic bias in agent self-monitoring and evaluation, impacting the
+    trustworthiness of deployed agentic systems.
+status: draft

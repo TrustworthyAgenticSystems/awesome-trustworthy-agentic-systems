@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memora-a-harmonic-memory-representation-balancing-abstraction-and
+type: papers
+title: 'Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity'
+url: https://arxiv.org/abs/2602.03315v1
+authors:
+- Menglin Xia
+- Xuchao Zhang
+- Shantanu Dixit
+- Paramaguru Harimurugan
+- Rujia Wang
+- Victor Ruhle
+- Robert Sim
+- Chetan Bansal
+- Saravan Rajmohan
+venue: arXiv
+year: 2026
+summary: Memora introduces a harmonic memory representation that balances abstraction and specificity
+  for agent memory systems, improving retrieval relevance and reasoning effectiveness as memory scales.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses the engineering challenge of scaling agent memory while maintaining
+    retrieval effectiveness, a core concern for trustworthy agentic systems.
+status: draft

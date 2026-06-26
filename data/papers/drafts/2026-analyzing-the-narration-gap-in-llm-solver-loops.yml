@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-analyzing-the-narration-gap-in-llm-solver-loops
+type: papers
+title: Analyzing the Narration Gap in LLM-Solver Loops
+url: https://arxiv.org/abs/2606.19588v1
+authors:
+- Zunchen Huang
+- Songgaojun Deng
+venue: arXiv
+year: 2026
+summary: Analyzes the 'narration gap' in LLM-solver loops where an adversary can invert a formally verified
+  conclusion during the LLM's narration phase, even with certificate gating, and proposes hardened prompts
+  as a mitigation.
+harness_layer:
+- red-team
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses a critical security and reliability vulnerability in hybrid LLM-solver systems
+    by demonstrating adversarial manipulation of verified outputs during the narration phase and exploring
+    mitigations.
+status: draft

@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-auton-agentic-ai-framework
+type: papers
+title: The Auton Agentic AI Framework
+url: https://arxiv.org/abs/2602.23720v1
+authors:
+- Sheng Cao
+- Zhao Chang
+- Chang Li
+- Hannan Li
+- Liyao Fu
+- Ji Tang
+venue: arXiv
+year: 2026
+summary: Presents Auton, a principled architectural framework for agentic AI systems, separating declarative
+  Cognitive Blueprints from a Runtime Engine to enable portability, auditability, and modular tool integration,
+  and addressing safety enforcement via policy projection.
+harness_layer:
+- architectures
+sprs:
+- security
+- reliability
+- safety
+open_problems:
+- least-privilege-reasoning
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Describes a comprehensive architectural framework for agentic systems, addressing multiple
+    trustworthiness concerns like auditability, safety, and modularity at a systems level.
+status: draft

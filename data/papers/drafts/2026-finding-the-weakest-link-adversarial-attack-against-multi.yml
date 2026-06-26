@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-finding-the-weakest-link-adversarial-attack-against-multi
+type: papers
+title: 'Finding the Weakest Link: Adversarial Attack against Multi-Agent Communications'
+url: https://arxiv.org/abs/2605.13170v1
+authors:
+- Maxwell Standen
+- Junae Kim
+- Claudia Szabo
+venue: arXiv
+year: 2026
+summary: Investigates single-victim communication perturbation attacks against multi-agent systems by
+  using gradient information to identify susceptible messages, agents, and timesteps, and proposes adversarial
+  loss functions to enhance attack effectiveness.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses adversarial attacks on multi-agent communication, which is a
+    system-level security concern for agentic systems.
+status: draft

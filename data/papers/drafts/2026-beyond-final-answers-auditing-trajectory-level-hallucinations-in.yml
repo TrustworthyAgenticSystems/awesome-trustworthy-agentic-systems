@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-final-answers-auditing-trajectory-level-hallucinations-in
+type: papers
+title: 'Beyond Final Answers: Auditing Trajectory-Level Hallucinations in Multi-Agent Industrial Workflows'
+url: https://arxiv.org/abs/2605.24219v2
+authors:
+- Harshada Badave
+- Santosh Borse
+- Andrea Gomez
+- Harshitha Narahari
+- Sara Carter
+- Vishwa Bhatt
+- Aishani Rachakonda
+- Shuxin Lin
+- Dhaval Patel
+venue: arXiv
+year: 2026
+summary: Introduces Trajel, a dataset and evaluation framework with a five-type taxonomy for auditing
+  trajectory-level hallucinations in multi-agent industrial workflows, demonstrating the inadequacy of
+  final-output-only evaluation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses the critical problem of evaluating and auditing multi-step agent behavior
+    for trustworthiness, moving beyond final-answer metrics to trajectory-level analysis.
+status: draft

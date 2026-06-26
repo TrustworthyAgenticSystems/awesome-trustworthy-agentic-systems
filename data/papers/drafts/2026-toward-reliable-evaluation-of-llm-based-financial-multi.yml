@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-toward-reliable-evaluation-of-llm-based-financial-multi
+type: papers
+title: 'Toward Reliable Evaluation of LLM-Based Financial Multi-Agent Systems: Taxonomy, Coordination
+  Primacy, and Cost Awareness'
+url: https://arxiv.org/abs/2603.27539v1
+authors:
+- Phat Nguyen
+- Thang Pham
+venue: arXiv
+year: 2026
+summary: This paper introduces a taxonomy for financial multi-agent systems, proposes the Coordination
+  Primacy Hypothesis regarding inter-agent coordination's impact on decision quality, and critiques common
+  evaluation failures, offering a new metric for assessing coordination value.
+harness_layer:
+- foundations
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper provides foundational work on understanding and evaluating multi-agent systems,
+    including a taxonomy and critique of evaluation failures, which is crucial for building trustworthy
+    agentic systems.
+status: draft

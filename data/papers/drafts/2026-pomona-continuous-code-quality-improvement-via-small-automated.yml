@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-pomona-continuous-code-quality-improvement-via-small-automated
+type: papers
+title: 'Pomona: Continuous Code Quality Improvement via Small, Automated Changes at Bloomberg'
+url: https://arxiv.org/abs/2606.06752v1
+authors:
+- David Williams
+- Angelos Evripiotis
+- Serkan Kirbas
+- Harry Morgan
+- Sergey Magidovich
+- Peter Wainwright
+- Federica Sarro
+venue: arXiv
+year: 2026
+summary: Pomona is a lightweight agentic tool that automates continuous code quality improvement by generating
+  small pull requests (PRs) for human review, focusing on maintaining engineer trust and productivity.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper describes a human-in-the-loop agentic system for code quality, directly addressing
+    oversight and the practicalities of agent deployment in a production environment.
+status: draft

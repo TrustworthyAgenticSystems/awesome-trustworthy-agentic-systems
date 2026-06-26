@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-how-agentic-ai-coding-assistants-become-the-attacker
+type: papers
+title: How Agentic AI Coding Assistants Become the Attacker's Shell
+url: https://arxiv.org/abs/2605.25871v1
+authors:
+- Yue Liu
+- Yanjie Zhao
+- Yunbo Lyu
+- Ting Zhang
+- Haoyu Wang
+- David Lo
+venue: arXiv
+year: 2026
+summary: Examines how prompt injection attacks can hijack agentic AI coding assistants by embedding hidden
+  instructions in external artifacts, turning them into an attacker's shell.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses a system-level security vulnerability (prompt injection via external artifacts)
+    in agentic coding assistants, including attack mechanisms and defense challenges.
+status: draft

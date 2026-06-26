@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-swarm-skills-a-portable-self-evolving-multi-agent
+type: papers
+title: 'Swarm Skills: A Portable, Self-Evolving Multi-Agent System Specification for Coordination Engineering'
+url: https://arxiv.org/abs/2605.10052v2
+authors:
+- Xinyu Zhang
+- Zhicheng Dou
+- Deyang Li
+- Jianjun Tao
+- Shuo Cheng
+- Ruifeng Shi
+- Fangchao Liu
+- Enrui Hu
+- Yangkai Ding
+- Hongbo Wang
+- Qi Ye
+- Xuefeng Jin
+- Zhangchun Zhao
+venue: arXiv
+year: 2026
+summary: Swarm Skills proposes a portable specification for multi-agent coordination protocols, including
+  roles, workflows, and execution bounds, with a self-evolution algorithm to automatically refine these
+  protocols based on execution trajectories.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses the engineering of multi-agent coordination, focusing on portability
+    and autonomous improvement of collaboration protocols, which is a core systems problem.
+status: draft

@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ai-scientists-as-engines-of-discovery-a-case
+type: papers
+title: 'AI Scientists as Engines of Discovery: A Case for Development within Reformed Institutions'
+url: https://arxiv.org/abs/2606.22859v1
+authors:
+- Raul Jimenez
+- Boris Bolliet
+- Francisco Villaescusa-Navarro
+- Rabih Zbib
+- Benjamin Wandelt
+- David N. Spergel
+- Thomas Meier
+- Jessica Montgomery
+- Hana Aliee
+- Licia Verde
+venue: arXiv
+year: 2026
+summary: This paper frames the development of AI scientists as a qualitative shift requiring institutional
+  redesign for verification, accountability, interpretability, and dual-use safety, sketching multi-agent
+  architectures and their implications for scientific processes.
+harness_layer:
+- foundations
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides a foundational framing of trustworthy agentic systems in a scientific
+    context, addressing institutional and architectural considerations for safety and reliability.
+status: draft

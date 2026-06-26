@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-fuzzingbrain-v2-a-multi-agent-llm-system-for
+type: papers
+title: 'FuzzingBrain V2: A Multi-Agent LLM System for Automated Vulnerability Discovery and Reproduction'
+url: https://arxiv.org/abs/2605.21779v1
+authors:
+- Ze Sheng
+- Zhicheng Chen
+- Qingxiao Xu
+- Kewen Zhu
+- Jeff Huang
+venue: arXiv
+year: 2026
+summary: FuzzingBrain V2 is a multi-agent system for automated vulnerability discovery and reproduction,
+  using a novel control-flow-based abstraction for precise localization and hierarchical function analysis
+  with dual-layer fuzzing.
+harness_layer:
+- coordination
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper describes a multi-agent system for automated vulnerability discovery, focusing
+    on the coordination of agents for security tasks and providing real-world deployment results.
+status: draft

@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-medmaslab-a-unified-orchestration-framework-for-benchmarking-multimodal
+type: papers
+title: 'MedMASLab: A Unified Orchestration Framework for Benchmarking Multimodal Medical Multi-Agent Systems'
+url: https://arxiv.org/abs/2603.09909v2
+authors:
+- Yunhang Qian
+- Xiaobin Hu
+- Jiaquan Yu
+- Siyang Xin
+- Xiaokun Chen
+- Jiangning Zhang
+- Peng-Tao Jiang
+- Jiawei Liu
+- Hongwei Bran Li
+venue: arXiv
+year: 2026
+summary: MedMASLab provides a unified orchestration framework and benchmarking platform for multimodal
+  medical multi-agent systems, addressing architectural fragmentation and standardizing multimodal integration
+  and evaluation.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a unified framework and benchmarking platform for multi-agent systems,
+    focusing on architectural standardization and evaluation, which is relevant to trustworthy agentic
+    systems.
+status: draft

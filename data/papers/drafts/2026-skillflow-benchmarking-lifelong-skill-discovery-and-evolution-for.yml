@@ -1,0 +1,45 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-skillflow-benchmarking-lifelong-skill-discovery-and-evolution-for
+type: papers
+title: SkillFlow:Benchmarking Lifelong Skill Discovery and Evolution for Autonomous Agents
+url: https://arxiv.org/abs/2604.17308v1
+authors:
+- Ziao Zhang
+- Kou Shi
+- Shiting Huang
+- Avery Nie
+- Yu Zeng
+- Yiming Zhao
+- Zhen Fang
+- Qishen Su
+- Haibo Qiu
+- Wei Yang
+- Qingnan Ren
+- Shun Zou
+- Wenxuan Huang
+- Lin Chen
+- Zehui Chen
+- Feng Zhao
+venue: arXiv
+year: 2026
+summary: SkillFlow introduces a benchmark and evaluation protocol for lifelong skill discovery, patching,
+  and evolution in autonomous agents, assessing their ability to maintain a coherent skill library over
+  time.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a structured testbed and evaluation protocol for assessing the reliability
+    and evolution of agent skills over long-running, sequential tasks, which is relevant to observation
+    and evaluation of agentic systems.
+status: draft

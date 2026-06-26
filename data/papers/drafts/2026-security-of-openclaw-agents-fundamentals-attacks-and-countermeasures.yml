@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-security-of-openclaw-agents-fundamentals-attacks-and-countermeasures
+type: papers
+title: 'Security of OpenClaw Agents: Fundamentals, Attacks, and Countermeasures'
+url: https://arxiv.org/abs/2605.25435v1
+authors:
+- Yuntao Wang
+- Jianle Ba
+- Han Liu
+- Yanghe Pan
+- Jintao Wei
+- Zhou Su
+- Tom H. Luan
+- Linkang Du
+venue: arXiv
+year: 2026
+summary: A comprehensive survey of the security landscape for OpenClaw agents, categorizing threats and
+  defenses across reasoning, action execution, and external interaction, and identifying unresolved issues.
+harness_layer:
+- foundations
+sprs:
+- security
+- privacy
+- reliability
+open_problems:
+- least-privilege-reasoning
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a foundational survey of security for agentic systems, aligning with
+    the 'foundations' harness layer and addressing multiple SPRS guarantees.
+status: draft

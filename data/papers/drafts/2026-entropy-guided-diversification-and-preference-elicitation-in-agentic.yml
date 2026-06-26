@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-entropy-guided-diversification-and-preference-elicitation-in-agentic
+type: papers
+title: Entropy Guided Diversification and Preference Elicitation in Agentic Recommendation Systems
+url: https://arxiv.org/abs/2603.11399v1
+authors:
+- Dat Tran
+- Yongce Li
+- Hannah Clay
+- Negin Golrezaei
+- Sajjad Beygi
+- Amin Saberi
+venue: arXiv
+year: 2026
+summary: An Interactive Decision Support System (IDSS) uses entropy to guide adaptive preference elicitation
+  and uncertainty-aware ranking, improving interaction efficiency and recommendation quality under ambiguous
+  user intent.
+harness_layer:
+- intent
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses the challenge of ambiguous user intent in agentic recommendation systems
+    by using entropy-guided preference elicitation and uncertainty-aware ranking, which is a direct contribution
+    to the 'intent' harness layer.
+status: draft

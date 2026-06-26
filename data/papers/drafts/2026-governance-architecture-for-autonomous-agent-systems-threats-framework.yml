@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governance-architecture-for-autonomous-agent-systems-threats-framework
+type: papers
+title: 'Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice'
+url: https://arxiv.org/abs/2603.07191v2
+authors:
+- Yuxu Ge
+venue: arXiv
+year: 2026
+summary: Proposes a four-layer governance architecture (LGA) for autonomous agents, including sandboxing,
+  intent verification, zero-trust authorization, and immutable audit logging, and evaluates its effectiveness
+  against various execution-layer vulnerabilities.
+harness_layer:
+- architectures
+sprs:
+- security
+- safety
+open_problems:
+- intent-to-constraints
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper proposes a comprehensive architectural framework for agent governance, addressing
+    multiple systems-level trust concerns with experimental validation.
+status: draft

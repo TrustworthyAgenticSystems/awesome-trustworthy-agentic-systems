@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-experience-makes-skillful-enabling-generalizable-medical-agent-reasoning
+type: papers
+title: 'Experience Makes Skillful: Enabling Generalizable Medical Agent Reasoning via Self-Evolving Skill
+  Memory'
+url: https://arxiv.org/abs/2606.09365v3
+authors:
+- Haoran Sun
+- Wenjie Li
+- Yujie Zhang
+- Zekai Lin
+- Fanrui Zhang
+- Kaitao Chen
+- Xingqi He
+- Yichen Li
+- Mianxin Liu
+- Lei Liu
+- Yankai Jiang
+venue: arXiv
+year: 2026
+summary: SkeMex is a post-deployment self-evolution framework that distills informative interaction trajectories
+  into structured, reusable skills for medical agents, organizing them into a multi-branch repository
+  and governing their retention based on context-dependent utility.
+harness_layer:
+- memory
+sprs:
+- reliability
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses memory management and governance for long-horizon agent reasoning, focusing
+    on distilling useful experience and managing its lifecycle, which is a systems-level contribution
+    to trustworthy agents.
+status: draft

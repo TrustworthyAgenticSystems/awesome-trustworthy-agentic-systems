@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-only-the-final-text-survives-implicit-execution
+type: papers
+title: 'When Only the Final Text Survives: Implicit Execution Tracing for Multi-Agent Attribution'
+url: https://arxiv.org/abs/2603.17445v4
+authors:
+- Yi Nian
+- Haosen Cao
+- Shenzhe Zhu
+- Henry Peng Zou
+- Qingqing Luan
+- Yue Zhao
+venue: arXiv
+year: 2026
+summary: Implicit Execution Tracing (IET) embeds agent-specific statistical signals into generated text
+  to enable attribution and trace recovery even when execution logs are unavailable, providing a provenance-by-design
+  framework for multi-agent systems.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses the critical problem of attributing actions and reasoning to
+    specific agents in multi-agent systems when traditional execution traces are absent, contributing
+    to observability and accountability.
+status: draft

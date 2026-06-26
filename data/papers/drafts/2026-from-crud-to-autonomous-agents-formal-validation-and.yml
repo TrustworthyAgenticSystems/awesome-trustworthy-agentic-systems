@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-crud-to-autonomous-agents-formal-validation-and
+type: papers
+title: 'From CRUD to Autonomous Agents: Formal Validation and Zero-Trust Security for Semantic Gateways
+  in AI-Native Enterprise Systems'
+url: https://arxiv.org/abs/2604.25555v1
+authors:
+- Ignacio Peyrano
+venue: arXiv
+year: 2026
+summary: Proposes a Semantic Gateway and Model Context Protocol (MCP) for AI-native enterprise systems,
+  reframing API access as a semantic surface with dynamic tool discovery, authorization, and execution
+  based on intent and policy enforcement, and introduces a three-layer Zero-Trust security model with
+  formal validation and fuzzing techniques.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses security and validation challenges at the tool-interface layer for agentic
+    systems, proposing a novel architectural pattern and formal verification methods.
+status: draft

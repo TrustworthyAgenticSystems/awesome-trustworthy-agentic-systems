@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-optimization-instability-in-autonomous-agentic-workflows-for-clinical
+type: papers
+title: Optimization Instability in Autonomous Agentic Workflows for Clinical Symptom Detection
+url: https://arxiv.org/abs/2602.16037v1
+authors:
+- Cameron Cagan
+- Pedram Fard
+- Jiazi Tian
+- Jingya Cheng
+- Shawn N. Murphy
+- Hossein Estiri
+venue: arXiv
+year: 2026
+summary: Characterizes optimization instability in autonomous agentic workflows where continued self-improvement
+  degrades performance, and demonstrates a selector agent for retrospective identification of best-performing
+  iterations to prevent catastrophic failure.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper identifies and addresses a critical failure mode in autonomous agentic workflows,
+    proposing a system-level intervention for reliability and safety in long-running tasks.
+status: draft

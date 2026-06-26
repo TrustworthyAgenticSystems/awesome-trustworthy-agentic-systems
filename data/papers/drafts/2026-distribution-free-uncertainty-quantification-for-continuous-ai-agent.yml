@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-distribution-free-uncertainty-quantification-for-continuous-ai-agent
+type: papers
+title: Distribution-Free Uncertainty Quantification for Continuous AI Agent Evaluation
+url: https://arxiv.org/abs/2605.19779v1
+authors:
+- Yuxuan Gao
+- Megan Wang
+- Yi Ling Yu
+venue: arXiv
+year: 2026
+summary: Adapts conformal prediction and adaptive conformal inference for distribution-free uncertainty
+  quantification in continuous AI agent evaluation, providing coverage guarantees for quality scores and
+  compositional bounds for multi-agent pipelines.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Directly contributes to the robust evaluation and monitoring of AI agent systems by providing
+    statistical guarantees for quality scores and handling uncertainty in multi-agent workflows.
+status: draft

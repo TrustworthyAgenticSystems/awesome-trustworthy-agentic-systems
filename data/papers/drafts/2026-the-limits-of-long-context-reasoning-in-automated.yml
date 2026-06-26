@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-limits-of-long-context-reasoning-in-automated
+type: papers
+title: The Limits of Long-Context Reasoning in Automated Bug Fixing
+url: https://arxiv.org/abs/2602.16069v2
+authors:
+- Ravi Raju
+- Mengmeng Ji
+- Shubhangi Upasani
+- Bo Li
+- Urmish Thakker
+venue: arXiv
+year: 2026
+summary: Systematic evaluation of long-context reasoning limits in LLMs for automated bug fixing within
+  an agentic harness, revealing that agentic success stems from task decomposition rather than true long-context
+  capability.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper systematically evaluates the limits of LLM long-context reasoning within an agentic
+    system, identifying failure modes and challenging existing evaluation methodologies.
+status: draft

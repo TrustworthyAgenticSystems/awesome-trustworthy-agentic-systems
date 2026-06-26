@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-bypassing-document-ingestion-an-mcp-approach-to-financial
+type: papers
+title: 'Bypassing Document Ingestion: An MCP Approach to Financial Q&A'
+url: https://arxiv.org/abs/2603.20316v1
+authors:
+- Sasan Mansouri
+- Edoardo Pilla
+- Mark Wahrenburg
+- Fabian Woebbeking
+venue: arXiv
+year: 2026
+summary: Explores Model Context Protocol (MCP) as a direct data interaction alternative to RAG for financial
+  Q&A, exposing LSEG APIs as tools via a custom MCP server and evaluating its performance and limitations.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses the design and evaluation of tool interfaces for agents, specifically
+    using MCP to access curated data systems instead of document ingestion.
+status: draft

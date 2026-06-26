@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-strategic-decision-support-for-ai-agents
+type: papers
+title: Strategic Decision Support for AI Agents
+url: https://arxiv.org/abs/2606.12587v1
+authors:
+- Shayan Kiyani
+- Sima Noorani
+- George Pappas
+- Hamed Hassani
+venue: arXiv
+year: 2026
+summary: A framework for strategic decision support for AI agents that minimizes human/tool support usage
+  while controlling counterfactual missed-support error, with an online algorithm for adaptive thresholding
+  and calibration.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses human oversight and reliability in agentic systems by optimizing
+    when agents should seek support, which is a core systems-level concern for trustworthy agents.
+status: draft

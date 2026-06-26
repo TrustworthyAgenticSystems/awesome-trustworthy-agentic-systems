@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-claw-eval-live-a-live-agent-benchmark-for
+type: papers
+title: 'Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows'
+url: https://arxiv.org/abs/2604.28139v2
+authors:
+- Chenxin Li
+- Zhengyang Tang
+- Mingxin Huang
+- Yunlong Lin
+- Shijue Huang
+- Shengyuan Liu
+- Bowen Ye
+- Rang Li
+- Lei Li
+- Benyou Wang
+- Yixuan Yuan
+venue: arXiv
+year: 2026
+summary: Claw-Eval-Live is a live benchmark for workflow agents that uses refreshable public workflow-demand
+  signals and records execution traces, audit logs, and service state for verifiable grading, revealing
+  low reliability in current models.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a novel, systems-oriented approach to evaluating agent reliability
+    in evolving real-world workflows, focusing on verifiable execution and long-horizon performance.
+status: draft

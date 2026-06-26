@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-your-agent-has-a-genome-sequence-level-behavioral
+type: papers
+title: 'Your Agent Has a Genome: Sequence-Level Behavioral Analysis and Runtime Governance of LLM-Powered
+  Autonomous Agents'
+url: https://arxiv.org/abs/2606.15579v1
+authors:
+- Sidi Deng
+venue: arXiv
+year: 2026
+summary: Proposes Base Sequence Analysis to encode agent runtime behavior into symbolic sequences for
+  pattern mining, revealing high-risk patterns and systemic deficits, and designs a runtime governance
+  system that improves task success and reduces token consumption.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Provides a novel methodology for runtime observation and analysis of agent behavior, identifies
+    specific failure patterns, and implements a deployable governance system to improve reliability and
+    safety.
+status: draft

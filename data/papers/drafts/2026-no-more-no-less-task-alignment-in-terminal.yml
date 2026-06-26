@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-no-more-no-less-task-alignment-in-terminal
+type: papers
+title: 'No More, No Less: Task Alignment in Terminal Agents'
+url: https://arxiv.org/abs/2605.12233v1
+authors:
+- Sina Mavali
+- David Pape
+- Jonathan Evertz
+- Samira Abedini
+- Devansh Srivastav
+- Thorsten Eisenhofer
+- Sahar Abdelnabi
+- Lea Schönherr
+venue: arXiv
+year: 2026
+summary: Introduces a benchmark (TAB) to evaluate terminal agents' ability to selectively follow relevant
+  environmental instructions while ignoring distractors, revealing a gap between task capability and task
+  alignment and the limitations of current prompt injection defenses.
+harness_layer:
+- red-team
+sprs:
+- reliability
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a novel adversarial evaluation benchmark for agentic systems, specifically
+    focusing on the selective interpretation of environmental instructions, which is a critical aspect
+    of agent reliability and security.
+status: draft

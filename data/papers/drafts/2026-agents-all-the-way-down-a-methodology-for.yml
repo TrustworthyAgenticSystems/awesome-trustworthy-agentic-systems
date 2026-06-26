@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agents-all-the-way-down-a-methodology-for
+type: papers
+title: Agents All the Way Down; A Methodology for Building Custom AI Agents from Substrate to Production
+url: https://arxiv.org/abs/2606.11869v1
+authors:
+- Marc Alier Forment
+- Juanan Pereira
+- Francisco José García-Peñalvo
+- María José Casañ Guerrero
+venue: arXiv
+year: 2026
+summary: A methodology for building custom AI agents from substrate to production, emphasizing the LLM
+  as a software component, reusable building blocks, and an iterative prototype-harvest-test loop with
+  agent-driven behavioral testing.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a methodology for end-to-end agent system construction, including architectural
+    patterns and testing practices, which is directly relevant to engineering trustworthy agentic systems.
+status: draft

@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-multi-dimensional-behavioral-evaluation-of-agentic-stock-prediction
+type: papers
+title: Multi-Dimensional Behavioral Evaluation of Agentic Stock Prediction Systems Using Large Language
+  Model Judges with Closed-Loop Reinforcement Learning Feedback
+url: https://arxiv.org/abs/2605.05739v3
+authors:
+- Mohammad Al Ridhawi
+- Mahtab Haj Ali
+- Hussein Al Osman
+venue: arXiv
+year: 2026
+summary: A behavioral evaluation methodology for agentic systems that scores intermediate decision processes
+  along multiple dimensions using LLM judges, with a closed-loop feedback mechanism for reinforcement
+  learning.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a system-level evaluation methodology for agentic systems that diagnoses
+    intermediate decision processes, directly addressing observability and long-horizon evaluation.
+status: draft

@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mempro-agentic-memory-systems-as-evolvable-programs
+type: papers
+title: 'MemPro: Agentic Memory Systems as Evolvable Programs'
+url: https://arxiv.org/abs/2606.00619v1
+authors:
+- Qingshan Liu
+- Guoqing Wang
+- Wen Wu
+- Jingqi Huang
+- Xinqi Tao
+- Dejia Song
+- Jie Zhou
+- Liang He
+venue: arXiv
+year: 2026
+summary: MemPro is a system-level evolution framework that treats the entire memory construction-retrieval
+  pipeline as an evolvable program, allowing an Evolving Agent to iteratively diagnose failures and refine
+  memory system implementations for long-horizon tasks.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a system-level framework for evolving agentic memory systems, addressing
+    reliability and adaptation challenges in the memory harness layer.
+status: draft

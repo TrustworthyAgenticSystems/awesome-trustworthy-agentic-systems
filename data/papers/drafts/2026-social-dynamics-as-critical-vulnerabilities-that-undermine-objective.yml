@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-social-dynamics-as-critical-vulnerabilities-that-undermine-objective
+type: papers
+title: Social Dynamics as Critical Vulnerabilities that Undermine Objective Decision-Making in LLM Collectives
+url: https://arxiv.org/abs/2604.06091v2
+authors:
+- Changgeon Ko
+- Jisu Shin
+- Hoyun Song
+- Huije Lee
+- Eui Jun Hwang
+- Jong C. Park
+venue: arXiv
+year: 2026
+summary: Investigates how social dynamics like conformity, perceived expertise, dominant speaker effect,
+  and rhetorical persuasion undermine the reliability of a representative LLM agent in multi-agent decision-making,
+  revealing system-level vulnerabilities.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses how social dynamics in multi-agent coordination can introduce
+    vulnerabilities and degrade the reliability of agentic systems, which is a systems-level concern.
+status: draft

@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-swe-chat-coding-agent-interactions-from-real-users
+type: papers
+title: 'SWE-chat: Coding Agent Interactions From Real Users in the Wild'
+url: https://arxiv.org/abs/2604.20779v1
+authors:
+- Joachim Baumann
+- Vishakh Padmakumar
+- Xiang Li
+- John Yang
+- Diyi Yang
+- Sanmi Koyejo
+venue: arXiv
+year: 2026
+summary: Presents SWE-chat, a large-scale dataset of real-world coding agent sessions, to empirically
+  characterize usage patterns, failure modes, and the survival rate of agent-produced code in developer
+  workflows.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- security
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides an empirical foundation for understanding real-world agent performance and failure
+    modes, which is crucial for building trustworthy systems.
+status: draft

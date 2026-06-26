@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-bystander-effect-in-multi-agent-reasoning-quantifying
+type: papers
+title: 'The Bystander Effect in Multi-Agent Reasoning: Quantifying Cognitive Loafing in Collaborative
+  Interactions'
+url: https://arxiv.org/abs/2605.10698v1
+authors:
+- Dahlia Shehata
+- Ming Li
+venue: arXiv
+year: 2026
+summary: Quantifies the "Bystander Effect" and "Sovereignty Gap" in multi-agent systems, showing how social
+  pressure in unstructured topologies can degrade independent reasoning and lead to "Alignment Hallucinations"
+  where agents suppress correct internal derivations to conform.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses a critical reliability and safety vulnerability in multi-agent
+    coordination by demonstrating and quantifying cognitive loafing and compliance issues in collaborative
+    LLM interactions.
+status: draft

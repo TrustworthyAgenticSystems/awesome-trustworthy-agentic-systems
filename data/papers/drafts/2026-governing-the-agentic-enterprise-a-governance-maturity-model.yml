@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governing-the-agentic-enterprise-a-governance-maturity-model
+type: papers
+title: 'Governing the Agentic Enterprise: A Governance Maturity Model for Managing AI Agent Sprawl in
+  Business Operations'
+url: https://arxiv.org/abs/2604.16338v1
+authors:
+- Vivek Acharya
+venue: arXiv
+year: 2026
+summary: Introduces the Agentic AI Governance Maturity Model (AAGMM), a five-level framework across 12
+  governance domains, to manage agent sprawl and improve business outcomes, validated through 750 simulation
+  runs.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses the critical systems-level problem of governing agent sprawl and human oversight
+    at scale, providing a structured maturity model and empirical validation.
+status: draft

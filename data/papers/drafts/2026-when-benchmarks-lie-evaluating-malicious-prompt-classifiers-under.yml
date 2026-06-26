@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-benchmarks-lie-evaluating-malicious-prompt-classifiers-under
+type: papers
+title: 'When Benchmarks Lie: Evaluating Malicious Prompt Classifiers Under True Distribution Shift'
+url: https://arxiv.org/abs/2602.14161v1
+authors:
+- Max Fomin
+venue: arXiv
+year: 2026
+summary: Analyzes the limitations of current prompt injection and jailbreak detection benchmarks, proposing
+  a Leave-One-Dataset-Out (LODO) evaluation to measure true out-of-distribution generalization and revealing
+  that production guardrails fail on indirect attacks targeting agents.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses the adversarial testing and evaluation of agentic systems,
+    specifically focusing on prompt injection and jailbreak attacks, and proposes a new evaluation methodology
+    to improve reliability.
+status: draft

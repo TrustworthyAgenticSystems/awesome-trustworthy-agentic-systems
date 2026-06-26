@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-resilient-consensus-in-agentic-ai
+type: papers
+title: Resilient Consensus in Agentic AI
+url: https://arxiv.org/abs/2606.15024v1
+authors:
+- Sribalaji C. Anand
+- George J. Pappas
+venue: arXiv
+year: 2026
+summary: Applies classical resilient consensus theory to multi-LLM agent systems, demonstrating that LLM
+  agents fail to reach agreement in scenarios where classical theory guarantees convergence, and shows
+  that wrapping agents with classical filters improves agreement.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses the reliability and safety of multi-agent coordination by applying
+    and evaluating classical consensus theory in the context of LLM agents.
+status: draft

@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-toolrosella-translating-code-repositories-into-standardized-tools-for
+type: papers
+title: 'ToolRosella: Translating Code Repositories into Standardized Tools for Scientific Agents'
+url: https://arxiv.org/abs/2603.09290v5
+authors:
+- Shimin Di
+- Xujie Yuan
+- Hanghui Guo
+- Chaoqian Ouyang
+- Yongxu Liu
+- Ling Yue
+- Zhangze Chen
+- Libin Zheng
+- Jia Zhu
+- Shaowu Pan
+- Jian Yin
+- Yong Rui
+- Min-Ling Zhang
+venue: arXiv
+year: 2026
+summary: ToolRosella is a framework that automatically transforms heterogeneous scientific code repositories
+  into standardized, agent-invocable tools, addressing the challenge of operationalizing existing code
+  for agent use.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly contributes to the engineering of agent tool interfaces by automating
+    the conversion of existing code into reliable, standardized tools for agents.
+status: draft

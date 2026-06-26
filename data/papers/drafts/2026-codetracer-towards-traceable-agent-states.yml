@@ -1,0 +1,44 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-codetracer-towards-traceable-agent-states
+type: papers
+title: 'CodeTracer: Towards Traceable Agent States'
+url: https://arxiv.org/abs/2604.11641v3
+authors:
+- Han Li
+- Yifan Yao
+- Letian Zhu
+- Rili Feng
+- Hongyi Ye
+- Jiaming Wang
+- Yancheng He
+- Pengyu Zou
+- Lehan Zhang
+- Xinping Lei
+- Haoyang Huang
+- Ken Deng
+- Ming Sun
+- Zhaoxiang Zhang
+- He Ye
+- Jiaheng Liu
+venue: arXiv
+year: 2026
+summary: CodeTracer is a tracing architecture that reconstructs hierarchical state transition histories
+  and localizes failure origins in complex code agent workflows, enabling systematic debugging and recovery.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the observability and debugging of complex agentic systems,
+    a core problem in engineering trustworthy agents, with a concrete architecture and evaluation.
+status: draft

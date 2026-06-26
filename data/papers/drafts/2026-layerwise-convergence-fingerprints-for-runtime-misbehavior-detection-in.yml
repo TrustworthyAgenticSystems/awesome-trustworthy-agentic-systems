@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-layerwise-convergence-fingerprints-for-runtime-misbehavior-detection-in
+type: papers
+title: Layerwise Convergence Fingerprints for Runtime Misbehavior Detection in Large Language Models
+url: https://arxiv.org/abs/2604.24542v1
+authors:
+- Nay Myat Min
+- Long H. Pham
+- Jun Sun
+venue: arXiv
+year: 2026
+summary: Introduces Layerwise Convergence Fingerprinting (LCF), a tuning-free runtime monitor that uses
+  inter-layer hidden-state trajectories as a health signal to detect backdoors, jailbreaks, and prompt
+  injections in deployed LLMs.
+harness_layer:
+- execution-shell
+sprs:
+- security
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: Proposes a general-purpose runtime monitoring technique for detecting various misbehaviors
+    in deployed LLMs, directly addressing execution-shell trustworthiness.
+status: draft

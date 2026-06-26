@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-templatefuzz-fine-grained-chat-template-fuzzing-for-jailbreaking
+type: papers
+title: 'TEMPLATEFUZZ: Fine-Grained Chat Template Fuzzing for Jailbreaking and Red Teaming LLMs'
+url: https://arxiv.org/abs/2604.12232v1
+authors:
+- Qingchao Shen
+- Zibo Xiao
+- Lili Huang
+- Enwei Hu
+- Yongqiang Tian
+- Junjie Chen
+venue: arXiv
+year: 2026
+summary: TEMPLATEFUZZ is a fuzzing framework that systematically exposes vulnerabilities in chat templates,
+  a critical yet underexplored attack surface in LLMs, by generating diverse chat template variants and
+  using a heuristic search strategy to amplify attack success rates.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly contributes to red-teaming agentic systems by identifying and exploiting
+    a novel attack surface (chat templates) for jailbreaking LLMs, which is relevant to the security of
+    the overall agent stack.
+status: draft

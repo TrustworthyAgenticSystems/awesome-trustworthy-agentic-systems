@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-oxygent-making-multi-agent-systems-modular-observable-and
+type: papers
+title: 'OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction'
+url: https://arxiv.org/abs/2604.25602v2
+authors:
+- Junxing Hu
+- Tianlong Li
+- Lei Yu
+- Ai Han
+venue: arXiv
+year: 2026
+summary: OxyGent is an open-source framework that provides a unified abstraction for agents, tools, LLMs,
+  and reasoning flows, enabling modular composition, dynamic planning for observability, and an evolution
+  engine for continuous improvement in multi-agent systems.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes an architectural framework for multi-agent systems that addresses modularity,
+    observability, and evolvability, which are key systems-engineering concerns for trustworthy agents.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-codesentinel-a-three-layer-defense-against-indirect-prompt
+type: papers
+title: 'CodeSentinel: A Three-Layer Defense Against Indirect Prompt Injection in Code Contexts'
+url: https://arxiv.org/abs/2606.19235v1
+authors:
+- Po-Han Cheng
+- Chia-Mu Yu
+- Ying-Dar Lin
+- Yu-Sung Wu
+- Wei-Bin Lee
+venue: arXiv
+year: 2026
+summary: CodeSentinel is a three-layer inference-time sanitizer that uses syntax-guided pre-filtering,
+  CST-guided scoring, and node perturbation to detect and neutralize indirect prompt injections hidden
+  in external code contexts before they reach the LLM.
+harness_layer:
+- memory
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses a critical security vulnerability (indirect prompt injection)
+    in the memory/context management of code LLMs by proposing a system-level defense mechanism.
+status: draft

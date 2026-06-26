@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-neglected-free-lunch-from-post-training-progress-advantage
+type: papers
+title: 'Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents'
+url: https://arxiv.org/abs/2606.26080v1
+authors:
+- Changdae Oh
+- Wendi Li
+- Seongheon Park
+- Samuel Yeh
+- Tanwi Mallick
+- Sharon Li
+venue: arXiv
+year: 2026
+summary: Introduces 'progress advantage' as an annotation-free, step-level evaluation signal derived from
+  RL post-training, enabling test-time scaling, uncertainty quantification, and failure attribution for
+  LLM agents.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a novel, practical method for fine-grained, step-level evaluation and failure attribution
+    in agentic systems, addressing a key challenge in observation and evaluation.
+status: draft

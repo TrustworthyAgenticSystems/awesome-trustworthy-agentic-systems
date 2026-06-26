@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-poster-edgecitadel-hybrid-nats-mqtt-orchestration-for-edge
+type: papers
+title: 'Poster: EdgeCitadel -- Hybrid NATS-MQTT Orchestration for Edge Multi-Agent Systems'
+url: https://arxiv.org/abs/2606.14710v1
+authors:
+- Zhonghao Zhan
+- Yefan Zhang
+- Hamed Haddadi
+venue: arXiv
+year: 2026
+summary: EdgeCitadel is an edge multi-agent orchestration platform using a hybrid NATS-MQTT architecture
+  for heterogeneous agent coordination, persistence, and passive traffic visualization.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a concrete system architecture for multi-agent coordination in an edge
+    environment, addressing reliability and observability concerns for distributed agent systems.
+status: draft

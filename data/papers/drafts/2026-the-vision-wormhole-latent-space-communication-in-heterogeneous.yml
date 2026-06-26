@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-vision-wormhole-latent-space-communication-in-heterogeneous
+type: papers
+title: 'The Vision Wormhole: Latent-Space Communication in Heterogeneous Multi-Agent Systems'
+url: https://arxiv.org/abs/2602.15382v2
+authors:
+- Xiaoze Liu
+- Ruowang Zhang
+- Weichen Yu
+- Siheng Xiong
+- Liu He
+- Feijie Wu
+- Hoin Jung
+- Matt Fredrikson
+- Xiaoqian Wang
+- Jing Gao
+venue: arXiv
+year: 2026
+summary: A novel communication mechanism, Vision Wormhole, enables continuous latent-space communication
+  between heterogeneous multi-agent systems by re-purposing VLM visual interfaces, reducing communication
+  overhead and improving reasoning accuracy.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper addresses a systems-level communication bottleneck in multi-agent coordination
+    by proposing a novel, scalable latent-space communication channel for heterogeneous agents.
+status: draft

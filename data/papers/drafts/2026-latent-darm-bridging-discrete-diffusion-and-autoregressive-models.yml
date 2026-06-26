@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-latent-darm-bridging-discrete-diffusion-and-autoregressive-models
+type: papers
+title: 'Latent-DARM: Bridging Discrete Diffusion And Autoregressive Models For Reasoning'
+url: https://arxiv.org/abs/2603.09184v1
+authors:
+- Lina Berrayana
+- Ahmed Heakl
+- Abdullah Sohail
+- Thomas Hofmann
+- Salman Khan
+- Wei Chen
+venue: arXiv
+year: 2026
+summary: Latent-DARM is a latent-space communication framework that bridges discrete diffusion models
+  (for planning) and autoregressive models (for execution) to improve multi-agent collaboration and reasoning
+  accuracy.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper contributes to multi-agent coordination by proposing a novel communication framework
+    that leverages heterogeneous model types for improved reasoning and plan revision.
+status: draft

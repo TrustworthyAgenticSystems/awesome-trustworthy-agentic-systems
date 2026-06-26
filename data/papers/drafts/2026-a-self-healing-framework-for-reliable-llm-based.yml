@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-self-healing-framework-for-reliable-llm-based
+type: papers
+title: A Self-Healing Framework for Reliable LLM-Based Autonomous Agents
+url: https://arxiv.org/abs/2605.06737v1
+authors:
+- Cheonsu Jeong
+- Younggun Shin
+venue: arXiv
+year: 2026
+summary: A self-healing framework for LLM agents that integrates failure detection, quantitative reliability
+  assessment, and automated recovery through adaptive replanning and corrective prompting, validated in
+  a multi-agent workflow environment.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses reliability of LLM agents through a systems-level self-healing framework
+    that monitors internal reasoning and external execution.
+status: draft

@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-role-based-agentic-ai-for-intent-driven-network
+type: papers
+title: Role-Based Agentic AI for Intent-Driven Network and Service Orchestration
+url: https://arxiv.org/abs/2606.20580v1
+authors:
+- Juan Parra-Ullauri
+- Talha Ahmed Khan
+- Daniel McHugh
+- Shipra Kapoor
+- Alistair Duke
+- Alicia Hey
+- Andy Corston-Petrie
+venue: arXiv
+year: 2026
+summary: Proposes a role-based multi-agent architecture for end-to-end intent orchestration in telecommunication
+  networks, mirroring organizational structures to bridge BSS-OSS divide for accountable and scalable
+  service delivery.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Presents a reference architecture for agentic systems in a complex domain, focusing on functional
+    decomposition, domain separation, and coordination for intent-driven orchestration.
+status: draft

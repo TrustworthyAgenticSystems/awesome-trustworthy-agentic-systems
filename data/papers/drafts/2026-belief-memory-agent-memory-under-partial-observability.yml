@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-belief-memory-agent-memory-under-partial-observability
+type: papers
+title: 'Belief Memory: Agent Memory Under Partial Observability'
+url: https://arxiv.org/abs/2605.05583v2
+authors:
+- Junfeng Liao
+- Qizhou Wang
+- Jianing Zhu
+- Bo Du
+- Rui Yan
+- Xiuying Chen
+venue: arXiv
+year: 2026
+summary: BeliefMem introduces a probabilistic memory paradigm for LLM agents that stores multiple candidate
+  conclusions with associated probabilities, allowing agents to retain and update uncertainty from partial
+  observations, thereby improving decision-making in partially observable environments.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses a systems-level problem in agent memory management by proposing a novel
+    probabilistic approach to handle uncertainty from partial observations, directly impacting agent reliability.
+status: draft

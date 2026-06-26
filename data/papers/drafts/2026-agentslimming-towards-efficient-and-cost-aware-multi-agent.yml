@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentslimming-towards-efficient-and-cost-aware-multi-agent
+type: papers
+title: 'AgentSlimming: Towards Efficient and Cost-Aware Multi-Agent Systems'
+url: https://arxiv.org/abs/2605.08813v1
+authors:
+- Yulang Chen
+- Haoxuan Peng
+- Jinyan Liu
+- Zichen Wen
+- Dongrui Liu
+- Linfeng Zhang
+venue: arXiv
+year: 2026
+summary: AgentSlimming is a compression framework for multi-agent workflows that prunes redundant agents
+  or replaces them with low-cost alternatives to reduce token consumption while maintaining performance.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses the efficiency and cost-awareness of multi-agent systems by optimizing
+    communication topologies, which is a systems-level concern for reliable agent coordination.
+status: draft

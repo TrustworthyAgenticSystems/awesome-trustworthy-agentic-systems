@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-helpful-to-trustworthy-llm-agents-for-pair
+type: papers
+title: 'From Helpful to Trustworthy: LLM Agents for Pair Programming'
+url: https://arxiv.org/abs/2604.10300v1
+authors:
+- Ragib Shahariar Ayon
+venue: arXiv
+year: 2026
+summary: Doctoral research proposing a systematic study of multi-agent LLM pair programming to externalize
+  intent and use development tools for iterative validation, aiming to improve reliability, auditability,
+  and maintainability of AI-generated code over time.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.75
+  rationale: This paper outlines a research plan for engineering trustworthy agentic systems in a software
+    development context, focusing on human oversight, intent alignment, and iterative validation of agent
+    outputs.
+status: draft

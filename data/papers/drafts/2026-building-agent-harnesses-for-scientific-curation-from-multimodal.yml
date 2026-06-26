@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-building-agent-harnesses-for-scientific-curation-from-multimodal
+type: papers
+title: Building Agent Harnesses for Scientific Curation from Multimodal Sources
+url: https://arxiv.org/abs/2606.21005v1
+authors:
+- Sheng Zhang
+- Qin Liu
+- Renqian Luo
+- Shufang Xie
+- Reuben Tan
+- Sean Hayes
+- Gregory Bryman
+- Wendong Ge
+- Roxy Zhang
+- Oluwaseun Egbelowo
+- Kelly Yee
+- Hoifung Poon
+venue: arXiv
+year: 2026
+summary: Introduces Beaver, an agent harness for scientific curation that extracts structured information
+  from multimodal sources, preserving provenance and enabling an iterative evaluate-diagnose-revise loop
+  through persistent run artifacts.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes an end-to-end agent architecture (harness) designed for a specific complex
+    task, focusing on auditable workflows and iterative improvement through observable artifacts, which
+    is a systems-level contribution.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-sok-the-attack-surface-of-agentic-ai-tools
+type: papers
+title: 'SoK: The Attack Surface of Agentic AI -- Tools, and Autonomy'
+url: https://arxiv.org/abs/2603.22928v1
+authors:
+- Ali Dehghantanha
+- Sajad Homayoun
+venue: arXiv
+year: 2026
+summary: A systematization of knowledge mapping the attack surface of agentic AI systems, including prompt
+  injection, knowledge-base poisoning, tool exploits, and multi-agent threats, with a taxonomy of attacks,
+  defensive controls, and open research challenges.
+harness_layer:
+- foundations
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a comprehensive systematization of knowledge on the attack surface of
+    agentic AI systems, directly addressing foundational security concerns for the operational stack.
+status: draft

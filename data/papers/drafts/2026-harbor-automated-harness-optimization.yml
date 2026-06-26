@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-harbor-automated-harness-optimization
+type: papers
+title: 'HARBOR: Automated Harness Optimization'
+url: https://arxiv.org/abs/2604.20938v1
+authors:
+- Biswa Sengupta
+- Jinhua Wang
+venue: arXiv
+year: 2026
+summary: Formalizes automated harness optimization as a constrained Bayesian optimization problem and
+  provides a reference solver, HARBOR, for configuring production agent harnesses to improve reliability
+  and safety.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the systems-engineering challenge of optimizing the entire agent harness
+    for trustworthiness, with a formal methodology and a reference solver.
+status: draft

@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-creativegame-toward-mechanic-aware-creative-game-generation
+type: papers
+title: CreativeGame:Toward Mechanic-Aware Creative Game Generation
+url: https://arxiv.org/abs/2604.19926v1
+authors:
+- Hongnan Ma
+- Han Wang
+- Shenglin Wang
+- Tieyue Yin
+- Yiwei Shi
+- Yucong Huang
+- Yingtian Zou
+- Muning Wen
+- Mengyue Yang
+venue: arXiv
+year: 2026
+summary: CreativeGame is a multi-agent system for iterative HTML5 game generation that integrates programmatic
+  rewards, lineage-scoped memory, runtime validation, and mechanic-guided planning to support interpretable
+  version-to-version evolution and architectural analysis.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes a substantial multi-agent system architecture for iterative game generation,
+    focusing on systems-level concerns like memory, validation, and planning for reliable and observable
+    evolution, rather than just model capabilities.
+status: draft

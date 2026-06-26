@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-efficient-and-interpretable-multi-agent-llm-routing-via
+type: papers
+title: Efficient and Interpretable Multi-Agent LLM Routing via Ant Colony Optimization
+url: https://arxiv.org/abs/2603.12933v1
+authors:
+- Xudong Wang
+- Chaoning Zhang
+- Jiaquan Zhang
+- Chenghao Li
+- Qigan Sun
+- Sung-Ho Bae
+- Peng Wang
+- Ning Xie
+- Jie Zou
+- Yang Yang
+- Hengtao Shen
+venue: arXiv
+year: 2026
+summary: AMRO-S is an efficient and interpretable routing framework for multi-agent systems that uses
+  a fine-tuned small language model for intent inference and ant colony optimization for semantic-conditioned
+  path selection, improving quality-cost trade-offs and providing traceable routing evidence.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses efficient and interpretable routing in multi-agent systems, which is
+    a core coordination problem for trustworthy agentic systems, with a concrete technical solution and
+    evaluation.
+status: draft

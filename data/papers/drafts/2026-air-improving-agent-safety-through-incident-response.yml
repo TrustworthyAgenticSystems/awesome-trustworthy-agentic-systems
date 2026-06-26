@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-air-improving-agent-safety-through-incident-response
+type: papers
+title: 'AIR: Improving Agent Safety through Incident Response'
+url: https://arxiv.org/abs/2602.11749v2
+authors:
+- Zibo Xiao
+- Jun Sun
+- Junjie Chen
+venue: arXiv
+year: 2026
+summary: Introduces AIR, an incident response framework for LLM agent systems that detects incidents,
+  guides containment and recovery actions, and synthesizes guardrail rules for future prevention, evaluated
+  across three agent types.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses post-failure recovery and incident management for agent systems, which
+    is a critical aspect of trustworthy agent oversight and reliability.
+status: draft

@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-vikingmem-a-memory-base-management-system-for-stateful
+type: papers
+title: 'VikingMem: A Memory Base Management System for Stateful LLM-based Applications'
+url: https://arxiv.org/abs/2605.29640v3
+authors:
+- Jiajie Fu
+- Junwen Chen
+- Mengzhao Wang
+- Aoxiang He
+- Maojia Sheng
+- Xiangyu Ke
+- Yifan Zhu
+- Yunjun Gao
+venue: arXiv
+year: 2026
+summary: VikingMem is a memory base management system that uses selective extraction, stateful evolution,
+  and temporal compression to manage persistent state for long-term LLM interactions, improving memory
+  retrieval effectiveness.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a novel memory management system for stateful LLM applications, directly
+    addressing the reliability of long-term memory in agentic systems.
+status: draft

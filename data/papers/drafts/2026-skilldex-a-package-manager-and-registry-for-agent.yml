@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-skilldex-a-package-manager-and-registry-for-agent
+type: papers
+title: 'Skilldex: A Package Manager and Registry for Agent Skill Packages with Hierarchical Scope-Based
+  Distribution'
+url: https://arxiv.org/abs/2604.16911v1
+authors:
+- Sampriti Saha
+- Pranav Hemanth
+venue: arXiv
+year: 2026
+summary: Skilldex is a package manager and registry for agent skill packages that provides compiler-style
+  format conformance scoring and a 'skillset' abstraction to bundle related skills with shared context,
+  improving the reliability of tool interfaces.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the engineering of trustworthy agentic systems by providing
+    infrastructure for managing and validating agent skill packages, which are critical components of
+    tool interfaces.
+status: draft

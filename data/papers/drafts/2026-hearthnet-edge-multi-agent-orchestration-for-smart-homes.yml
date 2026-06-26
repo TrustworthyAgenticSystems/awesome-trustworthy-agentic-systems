@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hearthnet-edge-multi-agent-orchestration-for-smart-homes
+type: papers
+title: 'HearthNet: Edge Multi-Agent Orchestration for Smart Homes'
+url: https://arxiv.org/abs/2604.09618v2
+authors:
+- Zhonghao Zhan
+- Krinos Li
+- Yefan Zhang
+- Hamed Haddadi
+venue: arXiv
+year: 2026
+summary: HearthNet is an edge multi-agent orchestration system for smart homes that externalizes context,
+  preserves execution history, and separates planning, verification, authorization, and actuation across
+  explicit boundaries to improve reliability and safety.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+- security
+open_problems:
+- observability-attribution
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper presents a concrete reference architecture for trustworthy agentic systems in
+    a real-world, failure-prone domain, addressing reliability, safety, and security through system design.
+status: draft

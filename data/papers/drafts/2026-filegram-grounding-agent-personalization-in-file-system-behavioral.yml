@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-filegram-grounding-agent-personalization-in-file-system-behavioral
+type: papers
+title: 'FileGram: Grounding Agent Personalization in File-System Behavioral Traces'
+url: https://arxiv.org/abs/2604.04901v1
+authors:
+- Shuai Liu
+- Shulin Tian
+- Kairui Hu
+- Yuhao Dong
+- Zhe Yang
+- Bo Li
+- Jingkang Yang
+- Chen Change Loy
+- Ziwei Liu
+venue: arXiv
+year: 2026
+summary: FileGram is a framework for grounding agent memory and personalization in file-system behavioral
+  traces, including a data engine for simulation, a benchmark for evaluation, and a memory architecture
+  that builds user profiles from atomic actions and content deltas.
+harness_layer:
+- memory
+sprs:
+- privacy
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a memory architecture and evaluation framework for agents operating on
+    local file systems, directly addressing memory management and personalization from a systems perspective.
+status: draft

@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-real-faults-in-model-context-protocol-mcp-software
+type: papers
+title: 'Real Faults in Model Context Protocol (MCP) Software: a Comprehensive Taxonomy'
+url: https://arxiv.org/abs/2603.05637v1
+authors:
+- Mina Taraghi
+- Mohammad Mehdi Morovati
+- Foutse Khomh
+venue: arXiv
+year: 2026
+summary: Presents a taxonomy of real-world faults in Model Context Protocol (MCP) servers, derived empirically
+  and validated by practitioners, to identify error-prone components in AI-enabled software systems.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses reliability and security concerns in the tool-interface layer by providing
+    a taxonomy of faults in MCP servers, which are critical for agentic systems.
+status: draft

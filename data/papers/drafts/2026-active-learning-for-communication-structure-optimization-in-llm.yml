@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-active-learning-for-communication-structure-optimization-in-llm
+type: papers
+title: Active Learning for Communication Structure Optimization in LLM-Based Multi-Agent Systems
+url: https://arxiv.org/abs/2605.05703v2
+authors:
+- Huchen Yang
+- Xinghao Dong
+- Dan Negrut
+- Jin-Long Wu
+venue: arXiv
+year: 2026
+summary: Proposes an active learning framework to optimize communication structures in multi-agent systems
+  by identifying the most informative tasks for training, improving efficiency and stability, especially
+  in black-box and noisy environments.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the reliability of multi-agent coordination by optimizing communication
+    structures through an active learning framework, addressing a systems-level concern.
+status: draft

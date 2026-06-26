@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-input-guardrails-reconstructing-cross-agent-semantic-flows
+type: papers
+title: 'Beyond Input Guardrails: Reconstructing Cross-Agent Semantic Flows for Execution-Aware Attack
+  Detection'
+url: https://arxiv.org/abs/2603.04469v1
+authors:
+- Yangyang Wei
+- Yijie Xu
+- Zhenyuan Li
+- Xiangmin Shen
+- Shouling Ji
+venue: arXiv
+year: 2026
+summary: Proposes a framework, MAScope, that reconstructs cross-agent semantic flows into contiguous behavioral
+  trajectories to detect compound attack vectors that bypass static input guardrails.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the detection of multi-step, cross-agent attacks that exploit the system's
+    operational stack, moving beyond simple input-level defenses.
+status: draft

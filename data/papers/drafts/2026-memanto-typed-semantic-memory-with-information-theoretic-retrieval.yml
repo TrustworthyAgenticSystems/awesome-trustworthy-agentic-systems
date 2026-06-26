@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memanto-typed-semantic-memory-with-information-theoretic-retrieval
+type: papers
+title: 'Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents'
+url: https://arxiv.org/abs/2604.22085v1
+authors:
+- Seyed Moein Abtahi
+- Rasa Rahnema
+- Hetkumar Patel
+- Neel Patel
+- Majid Fekri
+- Tara Khani
+venue: arXiv
+year: 2026
+summary: Memanto introduces a typed semantic memory schema with automated conflict resolution and temporal
+  versioning, leveraging an information-theoretic search engine for efficient and accurate retrieval in
+  long-horizon agentic systems.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: 'The paper directly addresses a core systems-engineering challenge for trustworthy agents:
+    efficient and reliable memory management, with a focus on operational complexity and performance.'
+status: draft

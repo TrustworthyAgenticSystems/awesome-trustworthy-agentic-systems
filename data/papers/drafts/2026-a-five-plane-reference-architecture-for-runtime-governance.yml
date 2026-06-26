@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-five-plane-reference-architecture-for-runtime-governance
+type: papers
+title: A Five-Plane Reference Architecture for Runtime Governance of Production AI Agents
+url: https://arxiv.org/abs/2606.12320v1
+authors:
+- Krti Tallam
+venue: arXiv
+year: 2026
+summary: A five-plane reference architecture for runtime governance of production AI agents, featuring
+  stop-anywhere mediation, composite principals with capability attenuation, and a structured audit substrate,
+  demonstrated to foreclose seven production threats.
+harness_layer:
+- architectures
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper proposes a comprehensive reference architecture for runtime governance of AI agents,
+    directly addressing systems-level security and safety concerns for production deployments.
+status: draft

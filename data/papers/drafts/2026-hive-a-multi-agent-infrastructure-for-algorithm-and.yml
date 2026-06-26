@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hive-a-multi-agent-infrastructure-for-algorithm-and
+type: papers
+title: 'Hive: A Multi-Agent Infrastructure for Algorithm- and Task-Level Scaling'
+url: https://arxiv.org/abs/2604.17353v1
+authors:
+- Zizhang Luo
+- Yuhao Luo
+- Youwei Xiao
+- Yansong Xu
+- Runlin Guo
+- Yun Liang
+venue: arXiv
+year: 2026
+summary: Hive is a multi-agent infrastructure that optimizes resource allocation and computation reuse
+  across multiple reasoning branches and agents, addressing algorithm- and task-level scaling for agentic
+  systems.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent infrastructure with specific mechanisms for optimizing
+    resource allocation and computation reuse, which directly contributes to the reliability and efficiency
+    of agent coordination.
+status: draft

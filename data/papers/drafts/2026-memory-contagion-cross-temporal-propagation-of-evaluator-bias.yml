@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memory-contagion-cross-temporal-propagation-of-evaluator-bias
+type: papers
+title: 'Memory Contagion: Cross-Temporal Propagation of Evaluator Bias via Agent Memory'
+url: https://arxiv.org/abs/2606.23195v2
+authors:
+- Zewen Liu
+venue: arXiv
+year: 2026
+summary: Identifies and formalizes "Memory Contagion," the cross-temporal propagation of evaluator bias
+  through agent memory, demonstrating how biased experiences stored in memory can influence future agent
+  behavior.
+harness_layer:
+- memory
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses a critical vulnerability in agent memory systems related to
+    bias propagation, which impacts the trustworthiness of long-running agents.
+status: draft

@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-virtual-speech-therapist-a-clinician-in-the-loop
+type: papers
+title: 'Virtual Speech Therapist: A Clinician-in-the-Loop AI Speech Therapy Agent for Personalized and
+  Supervised Therapy'
+url: https://arxiv.org/abs/2605.01101v2
+authors:
+- Shakeel Sheikh
+- Patrick Marmaroli
+- MD Sahidullah
+- Slim Ouni
+- Fabrice Hirsch
+- Goncalo Leal
+- Bjorn W Schuller
+venue: arXiv
+year: 2026
+summary: A multi-agent system for stuttering therapy planning that integrates deep learning classification
+  with LLM agents for plan generation and critique, incorporating a clinician-in-the-loop for final review
+  to ensure safety and quality.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system with a clear human-in-the-loop oversight mechanism
+    for safety and quality, directly addressing a systems-engineering concern for trustworthy agents.
+status: draft

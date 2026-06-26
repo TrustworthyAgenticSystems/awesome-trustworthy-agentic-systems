@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-comment-and-control-hijacking-agentic-workflows-via-context
+type: papers
+title: 'Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution'
+url: https://arxiv.org/abs/2605.11229v1
+authors:
+- Neil Fendley
+- Zhengyu Liu
+- Aonan Guan
+- Jiacheng Zhong
+- Yinzhi Cao
+venue: arXiv
+year: 2026
+summary: Presents JAW, a novel framework for hijacking agentic workflows on automation platforms by evolving
+  inputs under context derived from hybrid program analysis to achieve credential exfiltration and arbitrary
+  command execution.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a critical security vulnerability in agentic workflows by demonstrating
+    a novel attack method and evaluating it on real-world platforms, contributing to red-teaming and adversarial
+    testing of agentic systems.
+status: draft

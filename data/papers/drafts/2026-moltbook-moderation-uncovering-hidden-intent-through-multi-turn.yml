@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-moltbook-moderation-uncovering-hidden-intent-through-multi-turn
+type: papers
+title: 'Moltbook Moderation: Uncovering Hidden Intent Through Multi-Turn Dialogue'
+url: https://arxiv.org/abs/2605.12856v2
+authors:
+- Ali Al-Lawati
+- Nafis Tripto
+- Abolfazl Ansari
+- Jason Lucas
+- Suhang Wang
+- Dongwon Lee
+venue: arXiv
+year: 2026
+summary: BOT-MOD is a moderation framework that identifies malicious agent intent through multi-turn dialogue
+  and Gibbs-based sampling, addressing challenges beyond content filtering in multi-agent systems.
+harness_layer:
+- oversight
+sprs:
+- safety
+- security
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses the challenge of moderating agent behavior by inferring intent
+    through interaction, which is a key aspect of human oversight and governance in agentic systems.
+status: draft

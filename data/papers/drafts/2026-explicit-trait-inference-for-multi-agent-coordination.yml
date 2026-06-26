@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-explicit-trait-inference-for-multi-agent-coordination
+type: papers
+title: Explicit Trait Inference for Multi-Agent Coordination
+url: https://arxiv.org/abs/2604.19278v2
+authors:
+- Suhaib Abdurahman
+- Etsuko Ishii
+- Katerina Margatina
+- Divya Bhargavi
+- Monica Sunkara
+- Yi Zhang
+venue: arXiv
+year: 2026
+summary: Explicit Trait Inference (ETI) enables LLM agents to infer and track partner characteristics
+  (warmth, competence) from interaction histories to improve coordination and reduce failures in multi-agent
+  systems.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses coordination failures in multi-agent systems by introducing
+    a mechanism for agents to infer and leverage partner traits, contributing to the reliability of agentic
+    workflows.
+status: draft

@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-evolve-as-a-team-collaborative-self-evolution-for
+type: papers
+title: 'Evolve as a Team: Collaborative Self-Evolution for LLM-based Multi-Agent Systems'
+url: https://arxiv.org/abs/2605.29790v1
+authors:
+- Zhezheng Hao
+- Tianfu Wang
+- Huanshuo Dong
+- Ziyan Liu
+- Hong Wang
+- Xiankun Lin
+- Qiang Lin
+- Can Wang
+- Hande Dong
+- Jiawei Chen
+venue: arXiv
+year: 2026
+summary: Meta-Team is an experience-driven framework for multi-agent system evolution that enables collaborative
+  self-evolution by preserving execution context and coordinating post-task communication to improve agent
+  behaviors, inter-agent coordination, and team organization.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses the reliability of multi-agent systems by proposing a framework for collaborative
+    self-evolution based on execution experience, which is a systems-level contribution to agent coordination.
+status: draft

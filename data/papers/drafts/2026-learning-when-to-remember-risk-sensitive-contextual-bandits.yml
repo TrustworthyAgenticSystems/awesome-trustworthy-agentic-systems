@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-learning-when-to-remember-risk-sensitive-contextual-bandits
+type: papers
+title: 'Learning When to Remember: Risk-Sensitive Contextual Bandits for Abstention-Aware Memory Retrieval
+  in LLM-Based Coding Agents'
+url: https://arxiv.org/abs/2604.27283v1
+authors:
+- Mehmet Iscan
+venue: arXiv
+year: 2026
+summary: Introduces a risk-sensitive contextual bandit memory controller (RSCB-MC) that decides whether
+  to use, summarize, or abstain from injecting retrieved memory into an LLM-based coding agent, prioritizing
+  safety by penalizing false-positive memory injection.
+harness_layer:
+- memory
+sprs:
+- safety
+- reliability
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the trustworthiness of agent memory by treating memory injection
+    as a risk-sensitive control problem, focusing on preventing unsafe memory use in coding agents.
+status: draft

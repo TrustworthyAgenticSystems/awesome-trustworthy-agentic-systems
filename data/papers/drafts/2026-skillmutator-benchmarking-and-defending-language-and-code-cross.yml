@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-skillmutator-benchmarking-and-defending-language-and-code-cross
+type: papers
+title: 'SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills'
+url: https://arxiv.org/abs/2606.14154v1
+authors:
+- Youngduk Kim
+- Minkyoo Song
+- Seungwon Shin
+venue: arXiv
+year: 2026
+summary: Introduces SkillMutator, a benchmark for detecting language-and-code cross-modal attacks on LLM
+  Agent Skills, where benign natural-language specifications hide malicious executable code, and proposes
+  a reasoning-trajectory distillation framework for a locally deployable scanner.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- privacy
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses a novel cross-modal attack surface on agent tool interfaces (skills) with
+    a benchmark and a practical defense mechanism.
+status: draft

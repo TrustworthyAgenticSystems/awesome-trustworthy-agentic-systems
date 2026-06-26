@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-alignment-in-time-peak-aware-orchestration-for-long
+type: papers
+title: 'Alignment in Time: Peak-Aware Orchestration for Long-Horizon Agentic Systems'
+url: https://arxiv.org/abs/2602.17910v1
+authors:
+- Hanjing Shi
+- Dominic DiFranzo
+venue: arXiv
+year: 2026
+summary: APEMO is a runtime scheduling layer that uses temporal-affective signals to optimize computational
+  allocation and target repairs at critical segments of long-horizon agent trajectories, enhancing trajectory-level
+  quality and reuse.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a runtime orchestration layer that addresses sustained reliability and
+    instability in long-horizon agent workflows, which is a systems-engineering contribution.
+status: draft

@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-sheaf-theoretic-planning-a-categorical-foundation-for-resilient
+type: papers
+title: 'Sheaf-Theoretic Planning: A Categorical Foundation for Resilient Multi-Agent Autonomous Systems'
+url: https://arxiv.org/abs/2605.01879v1
+authors:
+- Manuel Hernández
+- Eduardo Sánchez-Soto
+venue: arXiv
+year: 2026
+summary: Proposes Sheaf-Theoretic Planning (STP) as a categorical foundation for resilient multi-agent
+  autonomous systems, addressing limitations of traditional logical models in stochastic and adversarial
+  environments.
+harness_layer:
+- foundations
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.75
+  rationale: This paper offers a foundational, theoretical contribution to multi-agent coordination and
+    resilience, which is in scope for the 'foundations' layer.
+status: draft

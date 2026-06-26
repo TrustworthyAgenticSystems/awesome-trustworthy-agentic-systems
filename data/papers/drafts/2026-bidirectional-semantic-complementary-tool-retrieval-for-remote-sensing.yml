@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-bidirectional-semantic-complementary-tool-retrieval-for-remote-sensing
+type: papers
+title: Bidirectional Semantic Complementary Tool Retrieval for Remote Sensing Agents
+url: https://arxiv.org/abs/2606.07538v1
+authors:
+- Zeyuan Wang
+- Dongyang Hou
+- Cheng Yang
+- Xuezhi Cui
+- Linrui Xu
+- Bo Yu
+- Gaozhi Zhou
+- Ziyu Li
+- Liangtian Liu
+- Kai Ouyang
+- Wang Guo
+- Lili Zhu
+- Chao Tao
+venue: arXiv
+year: 2026
+summary: Proposes a bidirectional semantic complementary tool retrieval method that enhances natural language
+  queries with planning-based subtasks and enriches tool descriptions with contextual information from
+  a dynamic tool dependency graph to improve tool retrieval accuracy for remote sensing agents.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: 'Addresses a core systems problem in agentic workflows: bridging the semantic gap between
+    high-level user intent and low-level tool specifications for reliable tool use.'
+status: draft

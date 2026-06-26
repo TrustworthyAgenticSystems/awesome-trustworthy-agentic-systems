@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-graph-native-cognitive-memory-for-ai-agents-formal
+type: papers
+title: 'Graph-Native Cognitive Memory for AI Agents: Formal Belief Revision Semantics for Versioned Memory
+  Architectures'
+url: https://arxiv.org/abs/2603.17244v1
+authors:
+- Young Bin Park
+venue: arXiv
+year: 2026
+summary: Kumiho is a graph-native cognitive memory architecture with formal belief revision semantics,
+  providing immutable revisions and typed dependency edges for managing agent-produced work as versionable
+  assets, and achieving high adversarial refusal accuracy.
+harness_layer:
+- memory
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the architectural synthesis and formal grounding of agent memory,
+    including versioning and integrity, which is a core systems problem for trustworthy agents.
+status: draft

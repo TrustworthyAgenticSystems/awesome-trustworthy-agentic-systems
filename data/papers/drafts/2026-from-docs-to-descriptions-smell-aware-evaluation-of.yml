@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-docs-to-descriptions-smell-aware-evaluation-of
+type: papers
+title: 'From Docs to Descriptions: Smell-Aware Evaluation of MCP Server Descriptions'
+url: https://arxiv.org/abs/2602.18914v1
+authors:
+- Peiran Wang
+- Ying Li
+- Yuqiang Sun
+- Chengwei Liu
+- Yang Liu
+- Yuan Tian
+venue: arXiv
+year: 2026
+summary: Systematic study of "description smells" in MCP tool descriptions, their impact on LLM tool selection,
+  and a quality standard for remediation to improve agent reliability and security.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses the reliability and security of tool interfaces by analyzing and mitigating
+    issues in MCP server descriptions, which are critical for agent tool use.
+status: draft

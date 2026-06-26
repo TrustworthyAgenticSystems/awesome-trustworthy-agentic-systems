@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governed-memory-a-production-architecture-for-multi-agent
+type: papers
+title: 'Governed Memory: A Production Architecture for Multi-Agent Workflows'
+url: https://arxiv.org/abs/2603.17787v1
+authors:
+- Hamed Taheri
+venue: arXiv
+year: 2026
+summary: Governed Memory is a production architecture for multi-agent workflows that provides shared,
+  governed memory through a dual memory model, tiered governance routing, reflection-bounded retrieval,
+  and a closed-loop schema lifecycle, validated by controlled experiments and production deployment.
+harness_layer:
+- architectures
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper presents a production architecture addressing critical systems-level challenges
+    in multi-agent memory governance, with concrete mechanisms and empirical validation.
+status: draft

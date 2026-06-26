@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-behavioral-canaries-auditing-private-retrieved-context-usage-in
+type: papers
+title: 'Behavioral Canaries: Auditing Private Retrieved Context Usage in RL Fine-Tuning'
+url: https://arxiv.org/abs/2604.22191v1
+authors:
+- Chaoran Chen
+- Dayu Yuan
+- Peter Kairouz
+venue: arXiv
+year: 2026
+summary: Introduces "Behavioral Canaries" to audit the unauthorized use of private retrieved contexts
+  in RL fine-tuning by embedding stylistic response triggers in preference data, enabling detection of
+  training-time influence.
+harness_layer:
+- memory
+sprs:
+- privacy
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses a critical privacy and auditing problem for agent memory, specifically how to detect
+    unauthorized use of retrieved context in RL fine-tuning, which is a systems-level concern for trustworthy
+    agents.
+status: draft

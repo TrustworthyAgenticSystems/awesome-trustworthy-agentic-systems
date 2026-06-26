@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-multi-agent-collaboration-with-state-management
+type: papers
+title: Multi-agent Collaboration with State Management
+url: https://arxiv.org/abs/2605.20563v1
+authors:
+- Mengyang Liu
+- Taozhi Chen
+- Zhenhua Xu
+- Xue Jiang
+- Yihong Dong
+venue: arXiv
+year: 2026
+summary: STORM is a state-oriented management system for multi-agent collaboration that mediates interactions
+  with a shared workspace to ensure consistent views and resolve conflicting edits at write time, improving
+  reliability in shared codebase scenarios.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses a systems-level problem of state consistency and conflict resolution
+    in multi-agent collaboration, contributing to the reliability of agentic workflows.
+status: draft

@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-safari-scaling-long-horizon-agentic-fault-attribution-via
+type: papers
+title: 'SAFARI: Scaling Long Horizon Agentic Fault Attribution via Active Investigation'
+url: https://arxiv.org/abs/2606.24626v1
+authors:
+- Chenyang Zhu
+- Jiayu Yao
+- Kushal Chawla
+- Youbing Yin
+- Nathan Wolfe
+- Pengshan Cai
+- Jingyu Wu
+- Spencer Hong
+- Sangwoo Cho
+- Shi-Xiong Zhang
+- Daben Liu
+- Sambit Sahu
+- Erin Babinsky
+venue: arXiv
+year: 2026
+summary: SAFARI is a framework that enables long-horizon agentic fault attribution by using a tool-augmented
+  diagnostic loop and persistent short-term memory, decoupling diagnostic accuracy from context window
+  limits.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the systems-engineering challenge of diagnosing failures in
+    long-running agentic systems by proposing a novel observation and evaluation framework.
+status: draft

@@ -1,0 +1,44 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-skillevolbench-benchmarking-the-evolution-from-episodic-experience-to
+type: papers
+title: 'SkillEvolBench: Benchmarking the Evolution from Episodic Experience to Procedural Skills'
+url: https://arxiv.org/abs/2605.24117v1
+authors:
+- Yingtie Lei
+- Zhongwei Wan
+- Jiankun Zhang
+- Samiul Alam
+- Zixuan Zhong
+- Peizhou Huang
+- Xin Wang
+- Jingxuan Zhang
+- Donghao Zhou
+- Yunta Hsieh
+- Zhihao Dou
+- Hui Shen
+- Yan Xu
+- Dimitrios Dimitriadis
+- Tuo Zhang
+- Mi Zhang
+venue: arXiv
+year: 2026
+summary: Introduces SkillEvolBench, a diagnostic benchmark to evaluate how LLM agents distill episodic
+  experience into reusable procedural skills, testing for context shift, adversarial shortcuts, and composition
+  in skill formation.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the challenge of skill formation and memory management in long-running
+    agents, providing a benchmark for evaluating the trustworthiness of learned procedural knowledge.
+status: draft

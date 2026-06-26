@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-nimo-controller-a-self-driving-laboratory-orchestrator-based
+type: papers
+title: 'NIMO Controller: a self-driving laboratory orchestrator based on the Model Context Protocol'
+url: https://arxiv.org/abs/2605.15227v1
+authors:
+- Naruki Yoshikawa
+- Ryo Tamura
+venue: arXiv
+year: 2026
+summary: Proposes an SDL software architecture based on the Model Context Protocol (MCP) to expose all
+  SDL functionalities through MCP servers, providing a unified interface for both human users and AI agents
+  to design experimental workflows.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper focuses on standardizing tool interfaces for AI agents in self-driving laboratories,
+    which is a direct contribution to the agentic system stack.
+status: draft

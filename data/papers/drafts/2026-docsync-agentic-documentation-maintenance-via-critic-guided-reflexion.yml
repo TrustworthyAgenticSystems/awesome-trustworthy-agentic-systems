@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-docsync-agentic-documentation-maintenance-via-critic-guided-reflexion
+type: papers
+title: 'DocSync: Agentic Documentation Maintenance via Critic-Guided Reflexion'
+url: https://arxiv.org/abs/2605.02163v1
+authors:
+- Sidhesh Badrinarayan
+- Adithya Parthasarathy
+venue: arXiv
+year: 2026
+summary: DocSync is an agentic workflow that uses AST representations and RAG for dependency-aware context,
+  combined with a critic-guided refinement loop, to maintain semantic consistency between code and documentation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes an agentic workflow with a critic-guided refinement loop for a specific
+    software engineering task, contributing to the reliability of agentic systems in maintaining code
+    integrity.
+status: draft

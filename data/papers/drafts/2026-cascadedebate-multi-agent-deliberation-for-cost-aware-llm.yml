@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cascadedebate-multi-agent-deliberation-for-cost-aware-llm
+type: papers
+title: 'CascadeDebate: Multi-Agent Deliberation for Cost-Aware LLM Cascades'
+url: https://arxiv.org/abs/2604.12262v1
+authors:
+- Raeyoung Chang
+- Dongwook Kwon
+- Jisoo Lee
+- Nikhil Verma
+venue: arXiv
+year: 2026
+summary: CascadeDebate introduces multi-agent deliberation at each tier of an LLM cascade to resolve ambiguous
+  queries internally, reducing premature escalation to costlier models or human experts and dynamically
+  scaling compute based on query difficulty.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to multi-agent coordination and dynamic resource allocation within
+    an agentic system, directly addressing reliability and cost-efficiency in complex LLM workflows.
+status: draft

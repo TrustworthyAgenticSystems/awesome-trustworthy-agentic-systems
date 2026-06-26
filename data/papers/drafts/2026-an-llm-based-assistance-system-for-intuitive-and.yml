@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-an-llm-based-assistance-system-for-intuitive-and
+type: papers
+title: An LLM-Based Assistance System for Intuitive and Flexible Capability-Based Planning
+url: https://arxiv.org/abs/2605.28666v1
+authors:
+- Luis Miguel Vieira da Silva
+- Nicolas König
+- Felix Gehlhoff
+venue: arXiv
+year: 2026
+summary: A hybrid assistance system that combines a symbolic capability-based planner with an LLM-based
+  layer for natural-language interaction, explanation, and knowledge model adaptation under human approval,
+  improving accessibility and adaptability in industrial automation.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a hybrid system that uses an LLM for human interaction and knowledge
+    model adaptation in a planning system, directly addressing human oversight and adaptability in agentic
+    workflows.
+status: draft

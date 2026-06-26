@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-on-the-adoption-of-ai-coding-agents-in
+type: papers
+title: On the Adoption of AI Coding Agents in Open-source Android and iOS Development
+url: https://arxiv.org/abs/2602.12144v1
+authors:
+- Muhammad Ahmad Khan
+- Hasnain Ali
+- Muneeb Rana
+- Muhammad Saqib Ilyas
+- Abdul Ali Bangash
+venue: arXiv
+year: 2026
+summary: Empirical study of AI coding agent adoption and pull request acceptance rates in open-source
+  Android and iOS projects, providing baselines for platform-aware agentic system design.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides an empirical characterization of AI agent adoption and performance in
+    real-world open-source mobile development, offering insights into agentic system design and evaluation
+    baselines.
+status: draft

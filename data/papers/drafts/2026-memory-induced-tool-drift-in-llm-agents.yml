@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memory-induced-tool-drift-in-llm-agents
+type: papers
+title: Memory-Induced Tool-Drift in LLM Agents
+url: https://arxiv.org/abs/2605.24941v1
+authors:
+- Mahavir Dabas
+- Jihyun Jeong
+- Ming Jin
+- Ruoxi Jia
+venue: arXiv
+year: 2026
+summary: Identifies and characterizes "memory-induced tool-drift," where personality biases in long-term
+  memory silently affect tool calls, and evaluates its persistence across frontier models and production
+  memory architectures.
+harness_layer:
+- memory
+sprs:
+- safety
+- reliability
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper identifies a novel systems-level vulnerability at the intersection of memory and
+    tool use, providing a benchmark and mechanistic analysis relevant to trustworthy agentic systems.
+status: draft

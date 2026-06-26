@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-how-much-coordination-gain-is-real-a-paired
+type: papers
+title: How Much Coordination Gain Is Real? A Paired Noise-Floor Protocol for Multi-Agent LLM Benchmarks
+url: https://arxiv.org/abs/2606.20695v1
+authors:
+- Alibek T Kaliyev
+- Artem Maryanskyy
+venue: arXiv
+year: 2026
+summary: Proposes a paired noise-floor protocol for multi-agent LLM benchmarks to assess the statistical
+  significance of reported coordination gains, finding that many reported effects fall within the noise
+  envelope.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses the reliability of multi-agent system evaluation by establishing a rigorous benchmarking
+    protocol to distinguish true coordination gains from noise.
+status: draft

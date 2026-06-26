@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentfugue-agent-scaling-for-long-horizon-tasks-through
+type: papers
+title: 'AgentFugue: Agent Scaling for Long-Horizon Tasks through Collective Reasoning'
+url: https://arxiv.org/abs/2605.24486v1
+authors:
+- Yuyang Hu
+- Hongjin Qian
+- Shuting Wang
+- Jiongnan Liu
+- Tong Zhao
+- Xiaoxi Li
+- Zheng Liu
+- Zhicheng Dou
+venue: arXiv
+year: 2026
+summary: AgentFugue is a collective reasoning framework that enables peer agents to share discoveries
+  through a shared reasoning hub, improving performance on long-horizon tasks without explicit orchestration.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a novel coordination mechanism for multi-agent systems, addressing how
+    agents can collectively improve reliability on long-horizon tasks.
+status: draft

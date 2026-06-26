@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mas-on-the-fly-dynamic-adaptation-of-llm
+type: papers
+title: 'MAS-on-the-Fly: Dynamic Adaptation of LLM-based Multi-Agent Systems at Test Time'
+url: https://arxiv.org/abs/2602.13671v1
+authors:
+- Guangyi Liu
+- Haojun Lin
+- Huan Zeng
+- Heng Wang
+- Quanming Yao
+venue: arXiv
+year: 2026
+summary: MASFly introduces a dynamic adaptation framework for multi-agent systems at test time, using
+  retrieval-augmented SOP instantiation for system generation and an experience-guided Watcher agent for
+  real-time execution supervision.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a system for dynamic adaptation and supervision of multi-agent coordination,
+    addressing reliability and long-horizon evaluation in agentic systems.
+status: draft

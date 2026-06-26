@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-topopilot-reliable-conversational-workflow-automation-for-topological-data
+type: papers
+title: 'TopoPilot: Reliable Conversational Workflow Automation for Topological Data Analysis and Visualization'
+url: https://arxiv.org/abs/2603.25063v1
+authors:
+- Nathaniel Gorski
+- Shusen Liu
+- Bei Wang
+venue: arXiv
+year: 2026
+summary: TopoPilot is a two-agent framework with an orchestrator and a verifier that uses systematic guardrails
+  and verification mechanisms to ensure reliable and consistent execution of complex scientific visualization
+  workflows.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses reliability in agentic systems through a two-agent architecture
+    with explicit verification and guardrails, which is a systems-level contribution.
+status: draft

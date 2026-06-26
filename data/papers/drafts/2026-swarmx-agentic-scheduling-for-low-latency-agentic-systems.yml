@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-swarmx-agentic-scheduling-for-low-latency-agentic-systems
+type: papers
+title: 'SwarmX: Agentic Scheduling for Low-Latency Agentic Systems'
+url: https://arxiv.org/abs/2606.21401v1
+authors:
+- Yeqi Huang
+- Yanwei Ye
+- Guomin Chen
+- Wenhao Su
+- Bin Gong
+- Jialian Li
+- Zhan Lu
+- Yangshen Deng
+- Xuan Sun
+- Le Xu
+- Luo Mai
+venue: arXiv
+year: 2026
+summary: SwarmX is an agentic scheduling system that uses neural predictors to optimize resource allocation
+  for low-latency agentic applications, reducing tail latency and increasing throughput in production
+  environments.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a system-level architecture for scheduling and serving agentic applications,
+    addressing reliability and performance in a production context.
+status: draft

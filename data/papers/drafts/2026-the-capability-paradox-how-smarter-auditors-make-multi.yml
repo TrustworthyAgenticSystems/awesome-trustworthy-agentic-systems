@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-capability-paradox-how-smarter-auditors-make-multi
+type: papers
+title: 'The Capability Paradox: How Smarter Auditors Make Multi-Agent Systems Less Secure'
+url: https://arxiv.org/abs/2605.17480v2
+authors:
+- Qiqi Liu
+- Thorsten Holz
+- Shilin Ye
+- Runhan Song
+venue: arXiv
+year: 2026
+summary: Identifies "semantic hijacking" as a new attack surface in multi-agent systems where harmful
+  requests are concealed in domain-specific narratives, and proposes heterogeneous ensemble verification
+  as a defense by exploiting capability asymmetries.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper identifies a novel system-level attack (semantic hijacking) in multi-agent systems
+    and proposes a concrete defense, directly contributing to agent red-teaming and security.
+status: draft

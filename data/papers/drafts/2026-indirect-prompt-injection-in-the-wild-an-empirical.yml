@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-indirect-prompt-injection-in-the-wild-an-empirical
+type: papers
+title: 'Indirect Prompt Injection in the Wild: An Empirical Study of Prevalence, Techniques, and Objectives'
+url: https://arxiv.org/abs/2604.27202v1
+authors:
+- Soheil Khodayari
+- Xuenan Zhang
+- Bhupendra Acharya
+- Giancarlo Pellegrino
+venue: arXiv
+year: 2026
+summary: Large-scale empirical analysis of indirect prompt injections in web content, characterizing their
+  prevalence, techniques, and objectives, and evaluating compliance across models and webpage representations.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a large-scale empirical study of a critical red-teaming vector (indirect
+    prompt injection) for agentic systems that interact with untrusted web content.
+status: draft

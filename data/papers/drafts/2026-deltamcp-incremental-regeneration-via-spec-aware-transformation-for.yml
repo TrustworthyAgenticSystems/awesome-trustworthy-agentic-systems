@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-deltamcp-incremental-regeneration-via-spec-aware-transformation-for
+type: papers
+title: 'DeltaMCP: Incremental Regeneration via Spec-Aware Transformation for MCP servers'
+url: https://arxiv.org/abs/2605.28148v1
+authors:
+- Aditya Pujara
+- Xiaogang Zhu
+- Hsiang-Ting Chen
+venue: arXiv
+year: 2026
+summary: DeltaMCP is a specification-aware, incremental regeneration tool for MCP servers that updates
+  only affected tooling when an API's OpenAPI specification changes, improving maintainability and version
+  consistency.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the reliability and maintainability of tool interfaces for
+    agentic systems by providing an incremental update mechanism for MCP servers.
+status: draft

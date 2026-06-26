@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-linddun-based-privacy-threat-modeling-framework-for
+type: papers
+title: A LINDDUN-based Privacy Threat Modeling Framework for GenAI
+url: https://arxiv.org/abs/2603.06051v1
+authors:
+- Qianying Liao
+- Jonah Bellemans
+- Laurens Sion
+- Xue Jiang
+- Dmitrii Usynin
+- Xuebing Zhou
+- Dimitri Van Landuyt
+- Lieven Desmet
+- Wouter Joosen
+venue: arXiv
+year: 2026
+summary: A novel domain-specific privacy threat modeling framework for GenAI applications, built on LINDDUN,
+  derived from a systematic literature review and case study, and validated on an AI Agent system.
+harness_layer:
+- foundations
+sprs:
+- privacy
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides a foundational privacy threat modeling framework specifically for GenAI-based applications
+    and AI agents, addressing a core trustworthiness concern.
+status: draft

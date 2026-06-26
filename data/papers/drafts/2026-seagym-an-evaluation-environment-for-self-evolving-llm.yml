@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-seagym-an-evaluation-environment-for-self-evolving-llm
+type: papers
+title: 'SEAGym: An Evaluation Environment for Self-Evolving LLM Agents'
+url: https://arxiv.org/abs/2606.17546v1
+authors:
+- Congjie Zheng
+- Chuanyi Xue
+- Bin Liang
+- Jun Yang
+- Changshui Zhang
+venue: arXiv
+year: 2026
+summary: SEAGym is an evaluation environment designed to measure the impact of agent harness updates across
+  various evaluation views, including training, validation, test, replay, and cost records, to provide
+  comprehensive insights into self-evolving LLM agents.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to the evaluation and observation of self-evolving agentic
+    systems by providing a structured environment to assess harness updates and their impact on reliability
+    and performance over time.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-what-twelve-llm-agent-benchmark-papers-disclose-about
+type: papers
+title: 'What Twelve LLM Agent Benchmark Papers Disclose About Themselves: A Pilot Audit and an Open Scoring
+  Schema'
+url: https://arxiv.org/abs/2605.21404v1
+authors:
+- Mahdi Naser Moghadasi
+- Faezeh Ghaderi
+venue: arXiv
+year: 2026
+summary: A pilot audit of twelve LLM agent benchmark papers to assess the disclosure of evaluation run
+  details, revealing low transparency in agent benchmarks regarding harness specification and cost reporting.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the observability and reproducibility of agent evaluations,
+    which is critical for the reliability of agentic systems.
+status: draft

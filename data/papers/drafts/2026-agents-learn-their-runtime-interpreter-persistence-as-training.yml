@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agents-learn-their-runtime-interpreter-persistence-as-training
+type: papers
+title: 'Agents Learn Their Runtime: Interpreter Persistence as Training-Time Semantics'
+url: https://arxiv.org/abs/2603.01209v2
+authors:
+- Victor May
+- Aaditya Salgarkar
+- Yishan Wang
+- Diganta Misra
+- Huu Nguyen
+venue: arXiv
+year: 2026
+summary: Investigates the impact of interpreter state persistence during training on agent efficiency
+  and stability in different runtime environments, demonstrating that aligning training data with deployment
+  runtime semantics improves performance.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses a systems-level concern regarding the execution shell's state
+    management and its interaction with agent training, impacting reliability and efficiency.
+status: draft

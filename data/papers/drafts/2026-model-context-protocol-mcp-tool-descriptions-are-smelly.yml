@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-model-context-protocol-mcp-tool-descriptions-are-smelly
+type: papers
+title: Model Context Protocol (MCP) Tool Descriptions Are Smelly! Towards Improving AI Agent Efficiency
+  with Augmented MCP Tool Descriptions
+url: https://arxiv.org/abs/2602.14878v3
+authors:
+- Mohammed Mehedi Hasan
+- Hao Li
+- Gopi Krishnan Rajbahadur
+- Bram Adams
+- Ahmed E. Hassan
+venue: arXiv
+year: 2026
+summary: Empirical study of tool description quality in the Model Context Protocol (MCP) ecosystem, identifying
+  'smells' that impact agent performance and proposing augmented descriptions to improve task success
+  rates while managing execution costs.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the quality and impact of tool descriptions, a critical component
+    of the tool-interface layer for agentic systems, with empirical analysis and proposed improvements.
+status: draft

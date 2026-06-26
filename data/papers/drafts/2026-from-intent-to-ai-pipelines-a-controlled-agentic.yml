@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-intent-to-ai-pipelines-a-controlled-agentic
+type: papers
+title: 'From Intent to AI Pipelines: A Controlled Agentic Framework for Non-AI Expert Scientists'
+url: https://arxiv.org/abs/2605.18764v1
+authors:
+- Hyacinth Ali
+- Jessie Galasso-Carbonnel
+- Houari Sahraoui
+venue: arXiv
+year: 2026
+summary: A human-in-the-loop agentic framework (DDAP) that guides non-AI expert scientists through a structured,
+  four-stage process to systematically construct AI pipelines and their implementation code, maintaining
+  user control over key decisions.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a controlled agentic framework with human-in-the-loop oversight for generating
+    AI pipelines, addressing the challenge of non-expert users and maintaining control over the process.
+status: draft

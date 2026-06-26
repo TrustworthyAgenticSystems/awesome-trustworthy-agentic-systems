@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-asynchronous-verified-semantic-caching-for-tiered-llm-architectures
+type: papers
+title: Asynchronous Verified Semantic Caching for Tiered LLM Architectures
+url: https://arxiv.org/abs/2602.13165v2
+authors:
+- Asmit Kumar Singh
+- Haozhe Wang
+- Laxmi Naga Santosh Attaluri
+- Tak Chiam
+- Weihua Zhu
+venue: arXiv
+year: 2026
+summary: Krites is an asynchronous, LLM-judged caching policy that expands static cache coverage by verifying
+  near-misses with an LLM judge and promoting approved matches to the dynamic cache, improving reuse of
+  curated responses without impacting critical path latency.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the reliability of agent memory by improving semantic caching with
+    an LLM-judged asynchronous verification mechanism.
+status: draft

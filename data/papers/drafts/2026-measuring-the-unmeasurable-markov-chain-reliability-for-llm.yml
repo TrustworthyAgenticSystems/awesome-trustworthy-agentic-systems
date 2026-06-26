@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-measuring-the-unmeasurable-markov-chain-reliability-for-llm
+type: papers
+title: 'Measuring the Unmeasurable: Markov Chain Reliability for LLM Agents'
+url: https://arxiv.org/abs/2604.24579v1
+authors:
+- Phat T. Tran-Truong
+- Xuan-Bach Le
+venue: arXiv
+year: 2026
+summary: A reproducible pipeline, TraceToChain, that fits agent execution traces to an absorbing discrete-time
+  Markov chain to model and quantify agent reliability, reconciling various success metrics into a unified
+  first-passage distribution.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a rigorous, systems-level methodology for measuring and modeling the
+    reliability of LLM agent execution traces, directly addressing long-horizon evaluation and observability.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-humans-integrate-agents-fix-how-agent-authored-pull
+type: papers
+title: 'Humans Integrate, Agents Fix: How Agent-Authored Pull Requests Are Referenced in Practice'
+url: https://arxiv.org/abs/2604.04059v1
+authors:
+- Islem Khemissi
+- Moataz Chouchen
+- Dong Wang
+- Raula Gaikovina Kula
+venue: arXiv
+year: 2026
+summary: Empirical study of human-agent and agent-agent interactions in code review, showing how agent-authored
+  pull requests are referenced and integrated, highlighting increased coordination effort and longer review
+  times.
+harness_layer:
+- oversight
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides an empirical study of human-agent interaction and coordination in code
+    review, which is relevant to human oversight and the operational challenges of integrating agentic
+    systems into workflows.
+status: draft

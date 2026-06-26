@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-confused-chatgpt-cross-app-context-poisoning-via-first
+type: papers
+title: 'Confused ChatGPT: Cross-App Context Poisoning via First-Party APIs'
+url: https://arxiv.org/abs/2606.00485v1
+authors:
+- Chao Wang
+- Somesh Jha
+- Zhiqiang Lin
+venue: arXiv
+year: 2026
+summary: Identifies and demonstrates cross-app context poisoning in ChatGPT Apps, a novel indirect prompt
+  injection attack leveraging shared, untagged context and first-party APIs to manipulate co-resident
+  benign applications.
+harness_layer:
+- red-team
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper details a system-level adversarial attack (context poisoning) on a multi-tenant
+    agent platform, identifying architectural vulnerabilities and demonstrating exploit chains across
+    applications.
+status: draft

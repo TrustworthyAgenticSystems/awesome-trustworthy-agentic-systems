@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-agents-go-quiet-output-generation-capacity-and
+type: papers
+title: 'When Agents Go Quiet: Output Generation Capacity and Format-Cost Separation for LLM Document Synthesis'
+url: https://arxiv.org/abs/2604.16736v1
+authors:
+- Justice Owusu Agyemang
+- Michael Agyare
+- Miriam Kobbinah
+- Nathaniel Agbugblah
+- Prosper Addo
+venue: arXiv
+year: 2026
+summary: Introduces Output Generation Capacity (OGC) and a Format-Cost Separation Theorem to explain and
+  prevent output stalling in LLM agents when generating large, format-heavy documents, implemented as
+  an open-source MCP server.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Addresses a critical reliability failure mode in agent execution (output stalling) with a
+    theoretical framework and a practical, deployable solution.
+status: draft

@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-model-context-protocol-threat-modeling-and-analyzing-vulnerabilities
+type: papers
+title: Model Context Protocol Threat Modeling and Analyzing Vulnerabilities to Prompt Injection with Tool
+  Poisoning
+url: https://arxiv.org/abs/2603.22489v1
+authors:
+- Charoes Huang
+- Xin Huang
+- Ngoc Phu Tran
+- Amin Milani Fard
+venue: arXiv
+year: 2026
+summary: Threat modeling of the Model Context Protocol (MCP) identifies tool poisoning as a prevalent
+  client-side vulnerability, leading to an empirical evaluation of seven MCP clients and a multi-layered
+  defense strategy.
+harness_layer:
+- tool-interface
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses security vulnerabilities in tool interfaces, a critical component
+    of trustworthy agentic systems, with a clear threat model and empirical evaluation.
+status: draft

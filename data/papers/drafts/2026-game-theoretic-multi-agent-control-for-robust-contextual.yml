@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-game-theoretic-multi-agent-control-for-robust-contextual
+type: papers
+title: Game-Theoretic Multi-Agent Control for Robust Contextual Reasoning in LLMs
+url: https://arxiv.org/abs/2606.10322v2
+authors:
+- Saeid Jamshidi
+- Amin Nikanjam
+- Arghavan Moradi Dakhel
+- Kawser Wazed Nafi
+- Foutse Khomh
+venue: arXiv
+year: 2026
+summary: Introduces GT-MCP, a game-theoretic multi-agent controller that manages context evolution as
+  a closed-loop dynamical process, using a trust function and rollback mechanism to maintain contextual
+  stability against prompt-injection and context-poisoning attacks.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses the systems-level problem of context integrity and stability in multi-turn
+    agent interactions, with a concrete multi-agent coordination mechanism and empirical evaluation against
+    adversarial attacks.
+status: draft

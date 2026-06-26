@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-rec-a-verifiable-benchmark-for-agentic-recommender-systems
+type: papers
+title: '$τ$-Rec: A Verifiable Benchmark for Agentic Recommender Systems'
+url: https://arxiv.org/abs/2606.10156v1
+authors:
+- Bharath Sivaram Narasimhan
+- Karthik R Narasimhan
+venue: arXiv
+year: 2026
+summary: Introduces $τ$-Rec, a verifiable benchmark for agentic recommender systems that uses structured
+  catalog predicates and a reveal-tagged elicitation mechanism to systematically test consistent reasoning
+  in multi-turn dialogues.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a concrete, verifiable evaluation methodology for the reliability of multi-turn
+    agentic systems, addressing a key challenge in observation and evaluation.
+status: draft

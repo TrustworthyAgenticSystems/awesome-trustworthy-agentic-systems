@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-executable-agentic-memory-for-gui-agent
+type: papers
+title: Executable Agentic Memory for GUI Agent
+url: https://arxiv.org/abs/2605.12294v1
+authors:
+- Zerui Qin
+- Sheng Yue
+- Xingyuan Hua
+- Yongjian Fu
+- Ju Ren
+venue: arXiv
+year: 2026
+summary: Proposes Executable Agentic Memory (EAM), a structured Knowledge Graph for GUI agents that transforms
+  planning into a retrieval-and-execution process, improving robustness and efficiency for long-horizon
+  tasks.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses memory management and planning robustness for long-horizon agent tasks, contributing
+    to the reliability of agentic systems.
+status: draft

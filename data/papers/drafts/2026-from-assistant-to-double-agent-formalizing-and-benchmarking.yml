@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-assistant-to-double-agent-formalizing-and-benchmarking
+type: papers
+title: 'From Assistant to Double Agent: Formalizing and Benchmarking Attacks on OpenClaw for Personalized
+  Local AI Agent'
+url: https://arxiv.org/abs/2602.08412v2
+authors:
+- Yuhang Wang
+- Feiming Xu
+- Zheng Lin
+- Guangyu He
+- Yuzhe Huang
+- Haichang Gao
+- Zhenxing Niu
+- Shiguo Lian
+- Zhaoxiang Liu
+venue: arXiv
+year: 2026
+summary: Proposes Personalized Agent Security Bench (PASB), an end-to-end security evaluation framework
+  for personalized agents that incorporates realistic usage scenarios, toolchains, and long-horizon interactions
+  to identify vulnerabilities in user prompt processing, tool usage, and memory retrieval.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to red-teaming agentic systems by formalizing and benchmarking
+    attacks on personalized agents in realistic, long-horizon scenarios, identifying system-level vulnerabilities.
+status: draft

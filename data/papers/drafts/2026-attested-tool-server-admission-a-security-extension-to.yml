@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-attested-tool-server-admission-a-security-extension-to
+type: papers
+title: 'Attested Tool-Server Admission: A Security Extension to the Model Context Protocol'
+url: https://arxiv.org/abs/2605.24248v2
+authors:
+- Alfredo Metere
+venue: arXiv
+year: 2026
+summary: Introduces a security extension to the Model Context Protocol (MCP) for tool-server admission,
+  enabling attested server verification, per-server tool allowlisting, and enforcement modes to secure
+  agent interactions with external tools.
+harness_layer:
+- tool-interface
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses security and trust boundaries in agent tool interfaces with a concrete,
+    deployable, and standardized mechanism for server and tool authorization.
+status: draft

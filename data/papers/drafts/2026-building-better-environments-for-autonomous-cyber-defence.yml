@@ -1,0 +1,44 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-building-better-environments-for-autonomous-cyber-defence
+type: papers
+title: Building Better Environments for Autonomous Cyber Defence
+url: https://arxiv.org/abs/2604.08805v1
+authors:
+- Chris Hicks
+- Elizabeth Bates
+- Shae McFadden
+- Isaac Symes Thompson
+- Myles Foley
+- Ed Chapman
+- Nickolas Espinosa Dice
+- Ankita Samaddar
+- Joshua Sylvester
+- Himanshu Neema
+- Nicholas Butts
+- Nate Foster
+- Ahmad Ridley
+- Zoe M
+- Paul Jones
+venue: arXiv
+year: 2026
+summary: This paper provides a framework for decomposing the interface between RL cyber environments and
+  real systems, along with guidelines for developing and evaluating RL-based autonomous cyber defense
+  agents in network defense scenarios.
+harness_layer:
+- architectures
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the architectural understanding and evaluation of autonomous agents
+    in a critical security domain, focusing on environment design for trustworthy agent behavior.
+status: draft

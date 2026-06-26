@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-latentskill-from-in-context-textual-skills-to-in
+type: papers
+title: 'LatentSkill: From In-Context Textual Skills to In-Weight Latent Skills for LLM Agents'
+url: https://arxiv.org/abs/2606.06087v1
+authors:
+- Aofan Yu
+- Chenyu Zhou
+- Tianyi Xu
+- Zihan Guo
+- Rong Shan
+- Zhihui Fu
+- Jun Wang
+- Weiwen Liu
+- Yong Yu
+- Weinan Zhang
+- Jianghao Lin
+venue: arXiv
+year: 2026
+summary: LatentSkill converts textual agent skills into plug-and-play LoRA adapters, storing skill knowledge
+  in weight space to reduce context overhead and improve efficiency and modularity.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper addresses the efficiency and exposure of agent skills by moving them from context
+    to weight space, which has implications for memory management and security of agent operations.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-task-guided-conversational-graphs-to-goal-oriented
+type: papers
+title: From Task-Guided Conversational Graphs to Goal-Oriented Dialogue Runtimes
+url: https://arxiv.org/abs/2606.23797v1
+authors:
+- Mariano Garralda-Barrio
+venue: arXiv
+year: 2026
+summary: Introduces the Goal-Oriented Dialogue Runtime (GODR), a framework-neutral design pattern for
+  managing complex, multi-domain, interruptible conversations by treating goals, task frames, and lifecycle
+  state as first-class runtime objects to ensure objective continuity.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper proposes a systems-level design pattern for managing complex conversational state
+    and goal continuity in multi-agent orchestration, directly addressing reliability in complex agentic
+    workflows.
+status: draft

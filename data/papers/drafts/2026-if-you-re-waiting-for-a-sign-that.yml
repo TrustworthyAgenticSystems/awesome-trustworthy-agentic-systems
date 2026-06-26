@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-if-you-re-waiting-for-a-sign-that
+type: papers
+title: If you're waiting for a sign... that might not be it! Mitigating Trust Boundary Confusion from
+  Visual Injections on Vision-Language Agentic Systems
+url: https://arxiv.org/abs/2604.19844v1
+authors:
+- Jiamin Chang
+- Minhui Xue
+- Ruoxi Sun
+- Shuchao Pang
+- Salil S. Kanhere
+- Hammond Pearce
+venue: arXiv
+year: 2026
+summary: Addresses trust boundary confusion in Vision-Language Agentic Systems by proposing a multi-agent
+  defense framework that separates perception from decision-making to dynamically assess visual input
+  reliability against misleading visual injections.
+harness_layer:
+- coordination
+sprs:
+- security
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper directly tackles a systems-level security and safety problem (trust boundary confusion
+    from visual injections) in VLAS, proposing a multi-agent architectural defense.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-where-instruction-hierarchy-breaks-diagnosing-and-repairing-failures
+type: papers
+title: 'Where Instruction Hierarchy Breaks: Diagnosing and Repairing Failures in Reasoning Language Models'
+url: https://arxiv.org/abs/2606.07808v1
+authors:
+- Sanjay Kariyappa
+- G. Edward Suh
+venue: arXiv
+year: 2026
+summary: A white-box diagnostic framework to localize instruction hierarchy failures in reasoning models
+  into identification, conflict resolution, and response realization, and two training-free self-monitoring
+  mechanisms to reduce non-compliance.
+harness_layer:
+- oversight
+sprs:
+- safety
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: The paper provides a diagnostic framework and self-monitoring mechanisms for improving instruction
+    hierarchy adherence in agentic workflows, directly addressing trustworthiness in agent behavior.
+status: draft

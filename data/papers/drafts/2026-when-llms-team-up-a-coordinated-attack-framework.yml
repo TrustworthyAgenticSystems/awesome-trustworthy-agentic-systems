@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-llms-team-up-a-coordinated-attack-framework
+type: papers
+title: 'When LLMs Team Up: A Coordinated Attack Framework for Automated Cyber Intrusions'
+url: https://arxiv.org/abs/2605.08763v1
+authors:
+- Minfeng Qi
+- Tianqing Zhu
+- Zijie Xu
+- Congcong Zhu
+- Qin Wang
+- Wanlei Zhou
+venue: arXiv
+year: 2026
+summary: CAESAR is a coordinated multi-agent framework that decomposes intrusion-style workflows into
+  typed roles with bounded round protocols, persistent knowledge bases, and capability-token write isolation
+  to improve task success and reduce performance variance.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses the coordination and structural integrity of multi-agent systems
+    for complex, security-critical tasks, with a focus on role boundaries, artifact provenance, and knowledge
+    promotion as monitoring signals.
+status: draft

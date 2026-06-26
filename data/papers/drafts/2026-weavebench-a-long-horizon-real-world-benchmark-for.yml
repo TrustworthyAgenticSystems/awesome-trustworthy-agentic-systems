@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-weavebench-a-long-horizon-real-world-benchmark-for
+type: papers
+title: 'WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces'
+url: https://arxiv.org/abs/2606.09426v2
+authors:
+- Wanli Li
+- Bowen Zhou
+- Yunyao Yu
+- Zhou Xu
+- Yifan Yang
+- Dongsheng Li
+- Caihua Shan
+venue: arXiv
+year: 2026
+summary: WeaveBench is a long-horizon, real-world benchmark for computer-use agents that evaluates cross-interface
+  orchestration across GUI, CLI, and code operations, using a trajectory-aware judge to prevent shortcut
+  behaviors.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a system-level benchmark and evaluation methodology for long-horizon
+    agent workflows across hybrid interfaces, directly addressing a critical gap in agent trustworthiness
+    evaluation.
+status: draft

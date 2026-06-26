@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-dynamic-authorization-for-knowledge-base-agents-in-6g
+type: papers
+title: Dynamic Authorization for Knowledge-Base Agents in 6G
+url: https://arxiv.org/abs/2605.05269v1
+authors:
+- Loay Abdelrazek
+- Leyli Karacay
+- Marin Orlic
+venue: arXiv
+year: 2026
+summary: Proposes a hybrid authorization framework integrating roles and First-Order Logic predicates
+  to enforce zero-trust, triple-level access control for agents interacting with knowledge graphs in decentralized
+  multi-agent systems.
+harness_layer:
+- permissions
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: Directly addresses fine-grained, dynamic authorization for agents accessing knowledge bases,
+    a core aspect of least-privilege reasoning in agentic systems.
+status: draft

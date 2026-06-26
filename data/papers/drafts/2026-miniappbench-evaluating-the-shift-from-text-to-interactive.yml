@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-miniappbench-evaluating-the-shift-from-text-to-interactive
+type: papers
+title: 'MiniAppBench: Evaluating the Shift from Text to Interactive HTML Responses in LLM-Powered Assistants'
+url: https://arxiv.org/abs/2603.09652v3
+authors:
+- Zuhao Zhang
+- Chengyue Yu
+- Yuante Li
+- Chenyi Zhuang
+- Linjian Mo
+- Shuai Li
+venue: arXiv
+year: 2026
+summary: MiniAppBench and MiniAppEval provide a benchmark and an agentic evaluation framework for assessing
+  LLM-generated interactive HTML applications (MiniApps) by performing human-like exploratory testing.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a benchmark and an agentic evaluation framework for interactive applications,
+    which directly contributes to the observation and evaluation of agent behavior in a systems context.
+status: draft

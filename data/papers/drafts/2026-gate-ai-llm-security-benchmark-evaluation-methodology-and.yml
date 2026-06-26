@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-gate-ai-llm-security-benchmark-evaluation-methodology-and
+type: papers
+title: 'Gate AI: LLM Security Benchmark Evaluation Methodology and Results'
+url: https://arxiv.org/abs/2606.02959v1
+authors:
+- Ryle Goehausen
+- Marcus Sousa
+venue: arXiv
+year: 2026
+summary: Describes an evaluation harness for LLM security detectors that addresses systematic weaknesses
+  in prompt-injection and jailbreak evaluations by using global operating points, cross-validation, and
+  a battery of generalization diagnostics.
+harness_layer:
+- observation-eval
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides a robust methodology and evaluation harness for adversarial testing of LLM security,
+    which is critical for trustworthy agentic systems.
+status: draft

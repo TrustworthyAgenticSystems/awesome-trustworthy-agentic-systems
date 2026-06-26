@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-five-fatal-assumptions-why-t-shirt-sizing-systematically
+type: papers
+title: 'Five Fatal Assumptions: Why T-Shirt Sizing Systematically Fails for AI Projects'
+url: https://arxiv.org/abs/2602.17734v1
+authors:
+- Raja Soundaramourty
+- Ozkan Kilic
+- Ramu Chenchaiah
+venue: arXiv
+year: 2026
+summary: Analyzes five foundational assumptions of traditional software estimation that systematically
+  fail in AI projects, particularly for LLMs and multi-agent systems, and proposes a 'Checkpoint Sizing'
+  approach for iterative reassessment.
+harness_layer:
+- foundations
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Provides a foundational analysis of why traditional project management assumptions fail for
+    AI agentic systems, contributing to understanding reliability challenges in their development.
+status: draft

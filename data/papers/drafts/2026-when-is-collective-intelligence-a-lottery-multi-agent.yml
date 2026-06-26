@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-is-collective-intelligence-a-lottery-multi-agent
+type: papers
+title: When Is Collective Intelligence a Lottery? Multi-Agent Scaling Laws for Memetic Drift in LLMs
+url: https://arxiv.org/abs/2603.24676v1
+authors:
+- Hidenori Tanaka
+venue: arXiv
+year: 2026
+summary: Introduces Quantized Simplex Gossip (QSG) to model memetic drift in multi-agent LLM systems,
+  explaining how arbitrary choices can compound into consensus and deriving scaling laws for drift-induced
+  polarization.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a foundational model and scaling laws for understanding emergent, potentially
+    unreliable, behavior in multi-agent coordination, which is critical for trustworthy systems.
+status: draft

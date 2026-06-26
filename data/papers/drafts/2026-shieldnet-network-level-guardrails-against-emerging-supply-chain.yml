@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-shieldnet-network-level-guardrails-against-emerging-supply-chain
+type: papers
+title: 'ShieldNet: Network-Level Guardrails against Emerging Supply-Chain Injections in Agentic Systems'
+url: https://arxiv.org/abs/2604.04426v1
+authors:
+- Zhuowen Yuan
+- Zhaorun Chen
+- Zhen Xiang
+- Nathaniel D. Bastian
+- Seyyed Hadi Hashemi
+- Chaowei Xiao
+- Wenbo Guo
+- Bo Li
+venue: arXiv
+year: 2026
+summary: Introduces SC-Inject-Bench, a benchmark for supply-chain injection attacks via malicious MCP
+  tools, and ShieldNet, a network-level guardrail framework that detects these attacks by observing network
+  interactions.
+harness_layer:
+- supply-chain
+sprs:
+- security
+- privacy
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses supply-chain security for agentic systems by proposing a benchmark and
+    a network-level defense mechanism.
+status: draft

@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-don-t-vibe-code-do-skele-code-interactive
+type: papers
+title: 'Don''t Vibe Code, Do Skele-Code: Interactive No-Code Notebooks for Subject Matter Experts to Build
+  Lower-Cost Agentic Workflows'
+url: https://arxiv.org/abs/2603.18122v1
+authors:
+- Sriram Gopalakrishnan
+venue: arXiv
+year: 2026
+summary: Skele-Code provides a natural-language and graph-based interface for subject matter experts to
+  build agentic workflows, focusing on a code-first approach where agents assist in code generation and
+  error recovery rather than full orchestration, aiming to reduce token costs and improve modularity.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.75
+  rationale: The paper describes a system for building agentic workflows, focusing on the coordination
+    layer and aiming for reliability through modularity and cost reduction, which aligns with engineering
+    trustworthy agentic systems.
+status: draft

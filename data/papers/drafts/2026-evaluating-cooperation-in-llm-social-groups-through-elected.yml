@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-evaluating-cooperation-in-llm-social-groups-through-elected
+type: papers
+title: Evaluating Cooperation in LLM Social Groups through Elected Leadership
+url: https://arxiv.org/abs/2604.11721v2
+authors:
+- Ryan Faulkner
+- Anushka Deshpande
+- David Guzman Piedrahita
+- Joel Z. Leibo
+- Zhijing Jin
+venue: arXiv
+year: 2026
+summary: Investigates how elected leadership and election mechanisms can improve cooperation and social
+  welfare in multi-agent LLM systems, demonstrating significant gains in social welfare and survival time.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses multi-agent coordination and governance mechanisms, which are
+    critical for the reliability and safety of agentic systems.
+status: draft

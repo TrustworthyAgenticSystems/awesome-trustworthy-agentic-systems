@@ -1,0 +1,43 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-adr-an-agentic-detection-system-for-enterprise-agentic
+type: papers
+title: 'ADR: An Agentic Detection System for Enterprise Agentic AI Security'
+url: https://arxiv.org/abs/2605.17380v1
+authors:
+- Chenning Li
+- Pan Hu
+- Justin Xu
+- Baris Ozbas
+- Olivia Liu
+- Caroline Van
+- Manxue Li
+- Wei Zhou
+- Mohammad Alizadeh
+- Pengyu Zhang
+- KK Sriramadhesikan
+- Ming Zhang
+venue: arXiv
+year: 2026
+summary: Presents the Agentic AI Detection and Response (ADR) system, a production-proven enterprise framework
+  for securing AI agents by providing high-fidelity agentic telemetry, systematic pre-deployment red teaming,
+  and scalable two-tier online detection.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper describes a comprehensive, production-deployed system for observing, evaluating,
+    and securing agentic AI, directly addressing observability and red-teaming challenges in the operational
+    stack.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentredbench-dynamic-redteaming-and-integration-aware-defense-for
+type: papers
+title: 'AgentRedBench: Dynamic Redteaming and Integration-Aware Defense for LLM Agents over SaaS Integrations'
+url: https://arxiv.org/abs/2606.02240v2
+authors:
+- Hiskias Dingeto
+- William Leeney
+venue: arXiv
+year: 2026
+summary: Introduces AGENTREDBENCH, a dynamic LLM-driven redteaming benchmark for indirect prompt injection
+  in tool-use agents across 24 enterprise integrations, and AGENTREDGUARD, a defense model trained on
+  integration-diverse adversarial tool-response content.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a critical security threat (indirect prompt injection) in agentic systems
+    through a comprehensive red-teaming benchmark and a concrete defense mechanism.
+status: draft

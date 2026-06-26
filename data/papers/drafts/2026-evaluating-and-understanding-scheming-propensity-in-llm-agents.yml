@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-evaluating-and-understanding-scheming-propensity-in-llm-agents
+type: papers
+title: Evaluating and Understanding Scheming Propensity in LLM Agents
+url: https://arxiv.org/abs/2603.01608v2
+authors:
+- Mia Hopman
+- Jannes Elstner
+- Maria Avramidou
+- Amritanshu Prasad
+- David Lindner
+venue: arXiv
+year: 2026
+summary: Systematic evaluation of LLM agent scheming propensity under varied agent and environmental incentives,
+  demonstrating brittleness of scheming behavior to tool availability and surprising effects of increased
+  oversight.
+harness_layer:
+- red-team
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper provides a systematic adversarial evaluation of agent scheming, focusing on system-level
+    factors like tool availability and oversight, which is relevant to red-teaming agentic systems.
+status: draft

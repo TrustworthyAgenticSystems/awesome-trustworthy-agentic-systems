@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-meissa-multi-modal-medical-agentic-intelligence
+type: papers
+title: 'Meissa: Multi-modal Medical Agentic Intelligence'
+url: https://arxiv.org/abs/2603.09018v1
+authors:
+- Yixiong Chen
+- Xinyi Bai
+- Yue Pan
+- Zongwei Zhou
+- Alan Yuille
+venue: arXiv
+year: 2026
+summary: Meissa is a lightweight 4B-parameter medical multi-modal LLM that enables offline agentic capabilities
+  by distilling structured trajectories from frontier models, addressing cost, latency, and privacy concerns
+  for clinical deployment.
+harness_layer:
+- architectures
+sprs:
+- privacy
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper presents an architectural approach for deploying trustworthy medical agents offline,
+    addressing privacy and reliability concerns through distillation of agentic capabilities.
+status: draft

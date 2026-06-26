@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mind-the-tool-failures-achieving-synergistic-tool-gains
+type: papers
+title: 'Mind the Tool Failures: Achieving Synergistic Tool Gains for Medical Agents'
+url: https://arxiv.org/abs/2605.26691v1
+authors:
+- Yunhui Gan
+- Tan Pan
+- Kaiyu Guo
+- Limei Han
+- Weimiao Yu
+- Guangnan Ye
+- Chen Jiang
+- Yuan Cheng
+venue: arXiv
+year: 2026
+summary: Proposes a reinforcement learning framework for instance-level tool selection in medical agents
+  to mitigate failures from imperfect tools and improve reliability in clinical settings.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses the systems problem of tool reliability and failure handling in agentic systems,
+    specifically for medical applications, which directly impacts safety and reliability.
+status: draft

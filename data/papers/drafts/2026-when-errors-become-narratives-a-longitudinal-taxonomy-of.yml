@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-errors-become-narratives-a-longitudinal-taxonomy-of
+type: papers
+title: 'When Errors Become Narratives: A Longitudinal Taxonomy of Silent Failures in a Production LLM
+  Agent Runtime'
+url: https://arxiv.org/abs/2606.14589v1
+authors:
+- Wei Wu
+venue: arXiv
+year: 2026
+summary: Longitudinal study and taxonomy of silent failures in a production LLM agent runtime, identifying
+  'fail-plausible' incidents where LLMs narrate errors as plausible outcomes, and deriving design principles
+  for loud and attributable failures.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses the critical problem of observability and attribution of failures in production
+    agent systems, including a novel 'fail-plausible' mechanism unique to LLMs.
+status: draft

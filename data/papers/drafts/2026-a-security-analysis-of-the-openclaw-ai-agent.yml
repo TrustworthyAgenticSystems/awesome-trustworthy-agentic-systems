@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-security-analysis-of-the-openclaw-ai-agent
+type: papers
+title: A Security Analysis of the OpenClaw AI Agent Framework
+url: https://arxiv.org/abs/2603.27517v3
+authors:
+- Surada Suwansathit
+- Yuxuan Zhang
+- Guofei Gu
+venue: arXiv
+year: 2026
+summary: A systematic security analysis of the OpenClaw AI agent framework, identifying vulnerabilities
+  across architectural layers and attack types, including a complete RCE path and weaknesses in command
+  filtering and plugin distribution.
+harness_layer:
+- architectures
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a detailed security analysis of an open-source AI agent runtime, identifying
+    systemic vulnerabilities and proposing architectural insights, directly contributing to trustworthy
+    agentic systems.
+status: draft

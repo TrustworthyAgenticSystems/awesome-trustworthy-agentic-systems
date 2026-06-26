@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-provenanceguard-source-aware-factuality-verification-for-mcp-based
+type: papers
+title: 'ProvenanceGuard: Source-Aware Factuality Verification for MCP-Based LLM Agents'
+url: https://arxiv.org/abs/2606.18037v1
+authors:
+- Ander Alvarez
+- Santhiya Rajan
+- Samuel Mugel
+- Román Orús
+venue: arXiv
+year: 2026
+summary: ProvenanceGuard is a source-aware verifier for MCP-grounded LLM agent answers that detects cross-source
+  conflation by decomposing claims, routing them to specific evidence sources, and comparing stated attribution
+  with the routed source.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a system-level verification mechanism for agent outputs, specifically
+    addressing source attribution and factuality in tool-using agents, which is a direct contribution
+    to trustworthy agentic systems.
+status: draft

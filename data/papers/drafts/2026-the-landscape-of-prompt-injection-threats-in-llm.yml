@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-landscape-of-prompt-injection-threats-in-llm
+type: papers
+title: 'The Landscape of Prompt Injection Threats in LLM Agents: From Taxonomy to Analysis'
+url: https://arxiv.org/abs/2602.10453v1
+authors:
+- Peiran Wang
+- Xinfeng Li
+- Chong Xiang
+- Jinghuai Zhang
+- Ying Li
+- Lixia Zhang
+- Xiaofeng Wang
+- Yuan Tian
+venue: arXiv
+year: 2026
+summary: A systematic review and taxonomy of prompt injection attacks and defenses for LLM agents, introducing
+  AgentPI, a new benchmark for evaluating context-dependent agent behaviors under adversarial conditions.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a comprehensive analysis of prompt injection threats in LLM agents, including
+    a new benchmark that specifically addresses context-dependent agent behaviors, which is critical for
+    red-teaming agentic systems.
+status: draft

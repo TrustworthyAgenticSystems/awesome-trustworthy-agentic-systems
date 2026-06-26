@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-on-time-within-budget-constraint-driven-online-resource
+type: papers
+title: 'On Time, Within Budget: Constraint-Driven Online Resource Allocation for Agentic Workflows'
+url: https://arxiv.org/abs/2605.06110v2
+authors:
+- Xinglin Wang
+- Zishen Liu
+- Shaoxiong Feng
+- Peiwen Yuan
+- Yiwei Li
+- Jiayi Shi
+- Yueqi Zhang
+- Chuyi Tan
+- Ji Zhang
+- Boyuan Pan
+- Yao Hu
+- Kan Li
+venue: arXiv
+year: 2026
+summary: This paper proposes Monte Carlo Portfolio Planning (MCPP), a closed-loop planner for constraint-driven
+  online resource allocation in agentic workflows, aiming to maximize the probability of successful completion
+  within budget and deadline constraints.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the reliability of agentic workflows by focusing on resource
+    allocation and planning under explicit budget and deadline constraints, which is a systems-level concern
+    for multi-step agent execution.
+status: draft

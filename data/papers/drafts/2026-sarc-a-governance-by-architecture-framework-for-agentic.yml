@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-sarc-a-governance-by-architecture-framework-for-agentic
+type: papers
+title: 'SARC: A Governance-by-Architecture Framework for Agentic AI Systems'
+url: https://arxiv.org/abs/2605.07728v1
+authors:
+- Gaston Besanson
+venue: arXiv
+year: 2026
+summary: SARC is a runtime governance architecture for tool-using agents that formalizes constraints as
+  first-class specification objects, compiling them into four enforcement sites within the agent loop
+  to ensure executable, inspectable, and auditable obligations.
+harness_layer:
+- architectures
+sprs:
+- security
+- safety
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper proposes a novel architectural framework for runtime governance of agentic systems,
+    directly addressing the challenge of enforcing constraints at execution time rather than post-hoc.
+status: draft

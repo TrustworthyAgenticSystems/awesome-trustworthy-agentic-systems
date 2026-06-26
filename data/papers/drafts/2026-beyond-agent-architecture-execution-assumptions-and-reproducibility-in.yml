@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-agent-architecture-execution-assumptions-and-reproducibility-in
+type: papers
+title: 'Beyond Agent Architecture: Execution Assumptions and Reproducibility in LLM-Based Trading Systems'
+url: https://arxiv.org/abs/2606.08285v1
+authors:
+- Junyi Yao
+- Zihao Zheng
+venue: arXiv
+year: 2026
+summary: A reproducibility audit and topical review of LLM-based trading systems, highlighting the lack
+  of clear reporting standards for execution realism and evaluation comparability, which are critical
+  for interpreting and reproducing results.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses reproducibility and evaluation comparability in agentic systems,
+    focusing on the operational aspects of execution realism in a specific domain.
+status: draft

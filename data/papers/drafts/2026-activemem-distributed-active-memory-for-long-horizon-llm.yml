@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-activemem-distributed-active-memory-for-long-horizon-llm
+type: papers
+title: 'ActiveMem: Distributed Active Memory for Long-Horizon LLM Reasoning'
+url: https://arxiv.org/abs/2606.10532v1
+authors:
+- Yunhan Jiang
+- Wenbin Duan
+- Shasha Guo
+- Liang Pang
+- Xiaoqian Sun
+- Huawei Shen
+venue: arXiv
+year: 2026
+summary: ActiveMem is a distributed memory framework that decouples agent memory from the core reasoning
+  process, using a planner with distilled semantic gists and a parallel memory system to manage information
+  for long-horizon tasks.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a systems-level solution for memory management in LLM agents, addressing
+    the trade-off between context scaling and information loss, which is relevant to the reliability of
+    long-running agents.
+status: draft

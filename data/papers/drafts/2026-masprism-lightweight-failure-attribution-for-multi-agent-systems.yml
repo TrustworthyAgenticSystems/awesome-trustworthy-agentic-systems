@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-masprism-lightweight-failure-attribution-for-multi-agent-systems
+type: papers
+title: 'MASPrism: Lightweight Failure Attribution for Multi-Agent Systems Using Prefill-Stage Signals'
+url: https://arxiv.org/abs/2605.07509v2
+authors:
+- Yang Liu
+- Hongjiang Feng
+- Junsong Pu
+- Zhuangbin Chen
+venue: arXiv
+year: 2026
+summary: MASPrism is a lightweight framework for failure attribution in multi-agent systems that uses
+  prefill-stage signals from a small language model to identify and rank failure sources in execution
+  logs.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses a core problem in observing and evaluating multi-agent system
+    reliability by providing a novel, efficient method for failure attribution in complex execution traces.
+status: draft

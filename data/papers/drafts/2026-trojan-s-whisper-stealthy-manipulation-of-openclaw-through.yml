@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-trojan-s-whisper-stealthy-manipulation-of-openclaw-through
+type: papers
+title: 'Trojan''s Whisper: Stealthy Manipulation of OpenClaw through Injected Bootstrapped Guidance'
+url: https://arxiv.org/abs/2603.19974v1
+authors:
+- Fazhong Liu
+- Zhuoyan Chen
+- Tu Lan
+- Haozhen Tan
+- Zhenyu Xu
+- Xiang Li
+- Guoxing Chen
+- Yan Meng
+- Haojin Zhu
+venue: arXiv
+year: 2026
+summary: Identifies and characterizes "guidance injection" as a novel attack vector in autonomous coding
+  agents like OpenClaw, where adversarial operational narratives are embedded into bootstrap guidance
+  files to manipulate agent reasoning and execute harmful actions stealthily.
+harness_layer:
+- supply-chain
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a novel supply-chain security vulnerability in agentic systems,
+    demonstrating stealthy manipulation through injected guidance and proposing defense directions.
+status: draft

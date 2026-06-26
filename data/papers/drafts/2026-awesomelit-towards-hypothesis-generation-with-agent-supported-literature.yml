@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-awesomelit-towards-hypothesis-generation-with-agent-supported-literature
+type: papers
+title: 'AwesomeLit: Towards Hypothesis Generation with Agent-Supported Literature Research'
+url: https://arxiv.org/abs/2603.22648v1
+authors:
+- Zefei Xie
+- Yuhan Guo
+- Kai Xu
+venue: arXiv
+year: 2026
+summary: AwesomeLit is a human-agent collaborative visualization system that provides a transparent, user-steerable
+  agentic workflow, a dynamic query exploring tree, and a semantic similarity view to help researchers
+  generate hypotheses and explore unfamiliar topics.
+harness_layer:
+- oversight
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a human-agent collaborative system with transparent workflows and provenance
+    visualization, directly addressing human oversight and trust in agentic literature research.
+status: draft

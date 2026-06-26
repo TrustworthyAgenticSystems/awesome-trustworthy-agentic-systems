@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agent-privilege-separation-in-openclaw-a-structural-defense
+type: papers
+title: 'Agent Privilege Separation in OpenClaw: A Structural Defense Against Prompt Injection'
+url: https://arxiv.org/abs/2603.13424v1
+authors:
+- Darren Cheng
+- Wen-Kwang Tsao
+venue: arXiv
+year: 2026
+summary: A structural defense against prompt injection using agent isolation via privilege separation
+  and tool partitioning in a two-agent pipeline, complemented by JSON formatting to strip persuasive framing.
+harness_layer:
+- permissions
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses prompt injection as a system-level security problem with a structural
+    defense mechanism involving agent architecture and privilege separation.
+status: draft

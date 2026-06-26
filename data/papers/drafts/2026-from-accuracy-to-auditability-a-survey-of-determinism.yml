@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-accuracy-to-auditability-a-survey-of-determinism
+type: papers
+title: 'From Accuracy to Auditability: A Survey of Determinism in Financial AI Systems'
+url: https://arxiv.org/abs/2605.23955v2
+authors:
+- Ruizhe Zhou
+- Xiaoyang Liu
+- Gaoyuan Du
+- Yi Zheng
+- Shouxi Ren
+- Deepayan Chakrabarti
+- Dengdu Jiang
+venue: arXiv
+year: 2026
+summary: A survey and empirical study of reproducibility failures in financial AI systems, including LLM-based
+  agentic workflows, proposing a layered evaluation framework for auditability.
+harness_layer:
+- foundations
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a systems perspective on reproducibility and auditability, which are
+    foundational for trustworthy agentic systems, with specific attention to LLM-based agentic workflows.
+status: draft

@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-dive-into-claude-code-the-design-space-of
+type: papers
+title: 'Dive into Claude Code: The Design Space of Today''s and Future AI Agent Systems'
+url: https://arxiv.org/abs/2604.14228v1
+authors:
+- Jiacheng Liu
+- Xiaohan Zhao
+- Xinyi Shang
+- Zhiqiang Shen
+venue: arXiv
+year: 2026
+summary: Architectural analysis of Claude Code and OpenClaw, identifying design principles for human values,
+  safety, security, reliability, and extensibility, and comparing their different architectural answers
+  based on deployment context.
+harness_layer:
+- architectures
+sprs:
+- security
+- safety
+- reliability
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a detailed architectural analysis of two real-world agent systems, identifying
+    design principles and implementation choices related to trustworthiness, directly contributing to
+    the 'architectures' layer.
+status: draft

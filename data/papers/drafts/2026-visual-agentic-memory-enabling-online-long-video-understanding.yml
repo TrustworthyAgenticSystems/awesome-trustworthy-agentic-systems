@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-visual-agentic-memory-enabling-online-long-video-understanding
+type: papers
+title: 'Visual Agentic Memory: Enabling Online Long Video Understanding via Online Indexing, Hierarchical
+  Memory, and Agentic Retrieval'
+url: https://arxiv.org/abs/2605.16481v1
+authors:
+- Aiden Yiliu Li
+- Nels Numan
+- Anthony Steed
+venue: arXiv
+year: 2026
+summary: Visual Agentic Memory (VAM) is a training-free framework for long video understanding that uses
+  online indexing, hierarchical memory, and agentic retrieval to manage and ground reasoning in explicit,
+  inspectable visual evidence.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a systems-level approach to managing agent memory for long-horizon video
+    understanding, focusing on explicit evidence retention, organization, and retrieval rather than just
+    model-side context.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memory-poisoning-and-secure-multi-agent-systems
+type: papers
+title: Memory poisoning and secure multi-agent systems
+url: https://arxiv.org/abs/2603.20357v1
+authors:
+- Vicenç Torra
+- Maria Bras-Amorós
+venue: arXiv
+year: 2026
+summary: Analyzes memory poisoning attacks across different agent memory types (semantic, episodic, short-term)
+  and proposes mitigation strategies, including cryptographic solutions and private knowledge retrieval
+  for semantic memory.
+harness_layer:
+- memory
+sprs:
+- security
+- privacy
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Directly addresses memory integrity and security in agentic systems, including multi-agent
+    interactions, with proposed mitigation strategies.
+status: draft

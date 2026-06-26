@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-dynamic-cyber-ranges
+type: papers
+title: Dynamic Cyber Ranges
+url: https://arxiv.org/abs/2604.24184v1
+authors:
+- Víctor Mayoral-Vilches
+- María Sanz-Gómez
+- Francesco Balassone
+- Maite Del Mundo De Torres
+- George Nicolaou
+- Samuel Rodriguez Borines
+- Almerindo Graziano
+- Paul Zabalegui
+- Endika Gil-Uriarte
+venue: arXiv
+year: 2026
+summary: Proposes Dynamic Cyber Ranges, which incorporate LLM-driven Defender agents to harden infrastructure
+  and respond to attacks, thereby increasing the resistance of cyber range environments against LLM-driven
+  APT agents.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses adversarial testing of agentic systems in a realistic environment
+    and proposes a system-level defense mechanism.
+status: draft

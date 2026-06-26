@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-fair-and-comprehensive-evaluation-of-routers-in
+type: papers
+title: Towards Fair and Comprehensive Evaluation of Routers in Collaborative LLM Systems
+url: https://arxiv.org/abs/2602.11877v1
+authors:
+- Wanxing Wu
+- He Zhu
+- Yixia Li
+- Lei Yang
+- Jiehui Zhao
+- Hongru Wang
+- Jian Yang
+- Benyou Wang
+- Bingyi Jing
+- Guanhua Chen
+venue: arXiv
+year: 2026
+summary: RouterXBench is a principled evaluation framework for LLM routers, utilizing internal hidden
+  states to assess router ability, scenario alignment, and cross-domain robustness, and introducing ProbeDirichlet,
+  a lightweight router that aggregates cross-layer hidden states for robust generalization.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes an evaluation framework and a router for collaborative LLM systems, which
+    directly contributes to the coordination layer of agentic systems by improving reliability and robustness
+    in multi-model routing.
+status: draft

@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-optimizing-agent-planning-for-security-and-autonomy
+type: papers
+title: Optimizing Agent Planning for Security and Autonomy
+url: https://arxiv.org/abs/2602.11416v1
+authors:
+- Aashish Kolluri
+- Rishi Sharma
+- Manuel Costa
+- Boris Köpf
+- Tobias Nießen
+- Mark Russinovich
+- Shruti Tople
+- Santiago Zanella-Béguelin
+venue: arXiv
+year: 2026
+summary: This paper introduces autonomy metrics and a security-aware agent design that plans for both
+  task progress and policy compliance to reduce human-in-the-loop reliance while maintaining security,
+  implemented on an information-flow control defense.
+harness_layer:
+- oversight
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses human oversight and agent autonomy in the context of security
+    policies, a core systems-engineering challenge for trustworthy agents.
+status: draft

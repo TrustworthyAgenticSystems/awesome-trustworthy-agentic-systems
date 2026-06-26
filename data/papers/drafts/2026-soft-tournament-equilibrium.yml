@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-soft-tournament-equilibrium
+type: papers
+title: Soft Tournament Equilibrium
+url: https://arxiv.org/abs/2604.04328v3
+authors:
+- Saad Alqithami
+venue: arXiv
+year: 2026
+summary: Introduces Soft Tournament Equilibrium (STE), a differentiable framework for learning and computing
+  set-valued tournament solutions from pairwise comparison data to evaluate general-purpose agents in
+  non-transitive interaction domains.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses the fundamental challenge of evaluating general-purpose agents in complex, non-transitive
+    interaction domains, providing a robust, systems-level evaluation framework.
+status: draft

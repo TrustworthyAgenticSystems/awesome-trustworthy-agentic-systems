@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cvevolve-autonomous-algorithm-discovery-for-unstructured-scientific-data
+type: papers
+title: 'CVEvolve: Autonomous Algorithm Discovery for Unstructured Scientific Data Processing'
+url: https://arxiv.org/abs/2605.11359v3
+authors:
+- Ming Du
+- Xiangyu Yin
+- Yanqi Luo
+- Dishant Beniwal
+- Songyuan Tang
+- Hemant Sharma
+- Mathew J. Cherukara
+venue: arXiv
+year: 2026
+summary: CVEvolve is an autonomous agentic harness that discovers and improves scientific data-processing
+  algorithms using a multi-round search strategy, code execution, evaluation, and holdout testing, demonstrating
+  a reference architecture for zero-code algorithm development.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper describes an end-to-end agentic system for algorithm discovery, including execution,
+    evaluation, and testing components, which is a relevant architecture for trustworthy agents.
+status: draft

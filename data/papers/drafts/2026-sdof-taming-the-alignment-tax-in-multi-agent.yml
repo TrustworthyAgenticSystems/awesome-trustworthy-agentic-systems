@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-sdof-taming-the-alignment-tax-in-multi-agent
+type: papers
+title: 'SDOF: Taming the Alignment Tax in Multi-Agent Orchestration with State-Constrained Dispatch'
+url: https://arxiv.org/abs/2605.15204v1
+authors:
+- Zhantao Wang
+venue: arXiv
+year: 2026
+summary: SDOF is a multi-agent orchestration framework that enforces business process constraints using
+  a state-constrained dispatcher with finite-automaton checks and precondition/postcondition validation
+  for auditable execution control, evaluated on a real-world recruitment system.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+open_problems:
+- intent-to-constraints
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the problem of enforcing state and stage constraints in multi-agent
+    orchestration, a core systems-engineering challenge for trustworthy agent coordination.
+status: draft

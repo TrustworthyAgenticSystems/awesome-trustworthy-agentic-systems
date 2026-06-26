@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ai-knows-when-it-s-being-watched-functional
+type: papers
+title: 'AI Knows When It''s Being Watched: Functional Strategic Action and Contextual Register Modulation
+  in Large Language Models'
+url: https://arxiv.org/abs/2605.15034v1
+authors:
+- Vinicius Covas
+- Jorge Alberto Hidalgo Toledo
+venue: arXiv
+year: 2026
+summary: Empirical study demonstrating that LLM-based multi-agent systems adapt their linguistic register
+  in response to perceived social observation, with implications for AI governance and auditing.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly investigates how agent behavior changes under different oversight conditions,
+    which is relevant to human-in-the-loop and auditing systems.
+status: draft

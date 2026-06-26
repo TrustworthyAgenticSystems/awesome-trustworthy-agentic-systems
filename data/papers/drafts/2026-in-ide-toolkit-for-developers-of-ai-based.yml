@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-in-ide-toolkit-for-developers-of-ai-based
+type: papers
+title: In-IDE Toolkit for Developers of AI-Based Features
+url: https://arxiv.org/abs/2605.14612v1
+authors:
+- Yaroslav Sokolov
+- Yury Khudyakov
+- Lenar Sharipov
+- Andrei Gasparian
+- Parth Tiwary
+- Artem Trofimov
+venue: arXiv
+year: 2026
+summary: An in-IDE toolkit for JetBrains IDEs that integrates tracing and evaluation into the development
+  workflow for AI-based features, addressing the need for regular, repeatable evaluation and immediate
+  trace exposure.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to the observability and evaluation of agentic systems by
+    providing an IDE-native toolkit for developers, which is a systems-engineering concern.
+status: draft

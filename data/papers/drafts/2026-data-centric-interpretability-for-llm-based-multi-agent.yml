@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-data-centric-interpretability-for-llm-based-multi-agent
+type: papers
+title: Data-Centric Interpretability for LLM-based Multi-Agent Reinforcement Learning
+url: https://arxiv.org/abs/2602.05183v2
+authors:
+- John Yan
+- Michael Yu
+- Yuqi Sun
+- Alexander Duffy
+- Tyler Marques
+- Matthew Lyle Olson
+venue: arXiv
+year: 2026
+summary: Applies Sparse Autoencoders (SAEs) and LLM-summarizer methods to interpret training dynamics
+  and emergent behaviors in LLM-based multi-agent reinforcement learning, identifying fine-grained behaviors
+  and reward hacking.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to understanding and interpreting agent behavior during training, which
+    is crucial for ensuring reliability and safety in agentic systems, aligning with observation and evaluation
+    concerns.
+status: draft

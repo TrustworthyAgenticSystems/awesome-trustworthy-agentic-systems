@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ready-from-day-1-population-aware-coordination-for
+type: papers
+title: 'Ready from Day 1: Population-Aware Coordination for Large-Scale Constrained Multi-Agent Systems'
+url: https://arxiv.org/abs/2605.13900v2
+authors:
+- Angel Wang
+- Dominique Perrault-Joncas
+- Alvaro Maggiar
+- Carson Eisenach
+- Dean Foster
+venue: arXiv
+year: 2026
+summary: Introduces population-aware coordination interfaces, learned primal and dual maps conditioned
+  on population summaries, to enable efficient and reliable planning in large-scale multi-agent systems
+  with shared resource constraints, even under changing population compositions.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a core systems-engineering problem in multi-agent coordination and planning under
+    dynamic constraints, with a concrete technical solution and empirical validation.
+status: draft

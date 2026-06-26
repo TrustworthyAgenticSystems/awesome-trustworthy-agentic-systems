@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-do-agent-societies-develop-intellectual-elites-the-hidden
+type: papers
+title: Do Agent Societies Develop Intellectual Elites? The Hidden Power Laws of Collective Cognition in
+  LLM Multi-Agent Systems
+url: https://arxiv.org/abs/2604.02674v1
+authors:
+- Kavana Venkatesh
+- Jiaming Cui
+venue: arXiv
+year: 2026
+summary: Empirical study of coordination dynamics in LLM multi-agent systems, identifying heavy-tailed
+  coordination cascades and 'intellectual elites' due to an integration bottleneck, and proposing Deficit-Triggered
+  Integration (DTI) to improve performance.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper provides a large-scale empirical study of coordination dynamics in multi-agent
+    systems, identifying a structural mechanism (integration bottleneck) and proposing a mitigation (DTI)
+    to improve reliability and stability.
+status: draft

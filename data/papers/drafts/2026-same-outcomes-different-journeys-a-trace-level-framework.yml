@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-same-outcomes-different-journeys-a-trace-level-framework
+type: papers
+title: 'Same Outcomes, Different Journeys: A Trace-Level Framework for Comparing Human and GUI-Agent Behavior
+  in Production Search Systems'
+url: https://arxiv.org/abs/2604.07929v1
+authors:
+- Maria Movin
+- Claudia Hauff
+- Aron Henriksson
+- Panagiotis Papapetrou
+venue: arXiv
+year: 2026
+summary: A trace-level evaluation framework for comparing human and GUI-agent behavior across task outcome,
+  effort, query formulation, and navigation, instantiated in a production search system to reveal behavioral
+  misalignment despite similar task success.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides a concrete framework for trace-level evaluation and diagnostics of agent behavior
+    in production systems, addressing the reliability of agent proxies.
+status: draft

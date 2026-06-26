@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-clawcoin-an-agentic-ai-native-cryptocurrency-for-decentralized
+type: papers
+title: 'ClawCoin: An Agentic AI-Native Cryptocurrency for Decentralized Agent Economies'
+url: https://arxiv.org/abs/2604.19026v1
+authors:
+- Shaoyu Li
+- Chaoyu Zhang
+- Hexuan Yu
+- Y. Thomas Hou
+- Wenjing Lou
+venue: arXiv
+year: 2026
+summary: ClawCoin is a tokenized, compute-cost-indexed cryptocurrency designed to stabilize execution
+  capacity and improve coordination in decentralized agent economies by providing a unit of account aligned
+  with API token consumption.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper proposes a novel architectural component for decentralized agent economies, addressing
+    the reliability of agent operations under compute cost shocks, which is a systems-level concern.
+status: draft

@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-sentinelbench-a-benchmark-for-long-running-monitoring-agents
+type: papers
+title: 'SentinelBench: A Benchmark for Long-Running Monitoring Agents'
+url: https://arxiv.org/abs/2606.05342v2
+authors:
+- Matheus Kunzler Maldaner
+- Adam Fourney
+- Amanda Swearngin
+- Hussein Mozannar
+- Gagan Bansal
+- Maya Murad
+- Rafah Hosn
+- Saleema Amershi
+venue: arXiv
+year: 2026
+summary: Introduces SentinelBench, a benchmark for long-running monitoring agents in time-evolving web
+  environments, measuring task completion, reaction time, and resource use to evaluate agent design choices.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides a system-level benchmark for evaluating the reliability and resource efficiency
+    of long-running agent workflows in dynamic environments.
+status: draft

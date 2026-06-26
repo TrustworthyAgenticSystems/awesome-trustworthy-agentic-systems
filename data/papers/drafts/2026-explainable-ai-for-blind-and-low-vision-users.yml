@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-explainable-ai-for-blind-and-low-vision-users
+type: papers
+title: 'Explainable AI for Blind and Low-Vision Users: Navigating Trust, Modality, and Interpretability
+  in the Agentic Era'
+url: https://arxiv.org/abs/2604.00187v2
+authors:
+- Abu Noman Md Sakib
+- Protik Dey
+- Zijie Zhang
+- Taslima Akter
+venue: arXiv
+year: 2026
+summary: Investigates the unique XAI requirements of blind and low-vision users for agentic systems, focusing
+  on multimodal interfaces and blame-aware explanation design to improve trust and accountability.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses human oversight and trust in agentic systems, specifically for an underserved user
+    group, with implications for explanation design and accountability.
+status: draft

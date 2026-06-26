@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-icon-indirect-prompt-injection-defense-for-agents-based
+type: papers
+title: 'ICON: Indirect Prompt Injection Defense for Agents based on Inference-Time Correction'
+url: https://arxiv.org/abs/2602.20708v1
+authors:
+- Che Wang
+- Fuyao Zhang
+- Jiaming Zhang
+- Ziqi Zhang
+- Yinghui Wang
+- Longtao Huang
+- Jianbo Gao
+- Zhong Chen
+- Wei Yang Bryan Lim
+venue: arXiv
+year: 2026
+summary: ICON is a probing-to-mitigation framework that detects indirect prompt injection attacks by identifying
+  over-focusing signatures in the latent space and then surgically steers attention to neutralize the
+  attack while preserving task continuity.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses a system-level adversarial threat (indirect prompt injection)
+    and proposes a defense mechanism that operates at the inference-time correction layer, balancing security
+    and task utility.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-autonomy-tax-defense-training-breaks-llm-agents
+type: papers
+title: 'The Autonomy Tax: Defense Training Breaks LLM Agents'
+url: https://arxiv.org/abs/2603.19423v2
+authors:
+- Shawn Li
+- Yue Zhao
+venue: arXiv
+year: 2026
+summary: Identifies a capability-alignment paradox where defense training for prompt injection in LLM
+  agents systematically degrades agent competence and reliability across multi-step tasks, while failing
+  to prevent sophisticated attacks.
+harness_layer:
+- red-team
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses the adversarial testing and reliability of multi-step agent
+    workflows, highlighting a critical systems-level failure mode of current defense paradigms.
+status: draft

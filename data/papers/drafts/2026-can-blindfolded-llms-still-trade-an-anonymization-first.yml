@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-can-blindfolded-llms-still-trade-an-anonymization-first
+type: papers
+title: Can Blindfolded LLMs Still Trade? An Anonymization-First Framework for Portfolio Optimization
+url: https://arxiv.org/abs/2603.17692v1
+authors:
+- Joohyoung Jeon
+- Hongchul Lee
+venue: arXiv
+year: 2026
+summary: A framework for evaluating LLM trading agents by anonymizing identifiers to validate signal legitimacy
+  and assess robustness across market regimes, addressing memorization and survivorship biases.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the rigorous evaluation of agent behavior by addressing spurious
+    performance and validating signal legitimacy, which is a systems-level concern for trustworthy agents.
+status: draft

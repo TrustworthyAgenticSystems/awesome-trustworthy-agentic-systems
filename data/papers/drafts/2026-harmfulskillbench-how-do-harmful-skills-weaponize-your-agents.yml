@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-harmfulskillbench-how-do-harmful-skills-weaponize-your-agents
+type: papers
+title: 'HarmfulSkillBench: How Do Harmful Skills Weaponize Your Agents?'
+url: https://arxiv.org/abs/2604.15415v1
+authors:
+- Yukun Jiang
+- Yage Zhang
+- Michael Backes
+- Xinyue Shen
+- Yang Zhang
+venue: arXiv
+year: 2026
+summary: Large-scale measurement study of harmful skills in agent ecosystems, identifying 4.93% as harmful,
+  and a benchmark (HarmfulSkillBench) to evaluate agent safety against these skills, showing that pre-installed
+  harmful skills significantly lower refusal rates.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the security and safety implications of tool-use in agentic
+    systems by identifying and benchmarking harmful skills within open skill ecosystems.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-bypassing-ai-control-protocols-via-agent-as-a
+type: papers
+title: Bypassing AI Control Protocols via Agent-as-a-Proxy Attacks
+url: https://arxiv.org/abs/2602.05066v2
+authors:
+- Jafar Isbarov
+- Murat Kantarcioglu
+venue: arXiv
+year: 2026
+summary: Demonstrates a novel "Agent-as-a-Proxy" attack that bypasses monitoring-based defenses by treating
+  the agent as a delivery mechanism for indirect prompt injection, showing fragility regardless of monitor
+  model scale.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses adversarial testing of agentic systems and their monitoring defenses,
+    highlighting a system-level vulnerability.
+status: draft

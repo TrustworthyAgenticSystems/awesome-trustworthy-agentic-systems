@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-lightweight-llm-agent-memory-with-small-language-models
+type: papers
+title: Lightweight LLM Agent Memory with Small Language Models
+url: https://arxiv.org/abs/2604.07798v3
+authors:
+- Jiaquan Zhang
+- Chaoning Zhang
+- Shuxu Chen
+- Zhenzhen Huang
+- Pengcheng Zheng
+- Zhicheng Wang
+- Ping Guo
+- Fan Mo
+- Sung-Ho Bae
+- Jie Zou
+- Jiwei Wei
+- Yang Yang
+venue: arXiv
+year: 2026
+summary: LightMem is a lightweight memory system for LLM agents that uses Small Language Models (SLMs)
+  to modularize memory retrieval, writing, and long-term consolidation, separating online processing from
+  offline consolidation for efficient memory invocation.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the engineering challenge of efficient and accurate memory management
+    for LLM agents, a core component of the agentic stack.
+status: draft

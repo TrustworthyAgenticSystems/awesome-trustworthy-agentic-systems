@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-lacuna-safe-agents-as-recursive-program-holes
+type: papers
+title: 'LACUNA: Safe Agents as Recursive Program Holes'
+url: https://arxiv.org/abs/2605.28617v1
+authors:
+- Yaoyu Zhao
+- Yichen Xu
+- Oliver Bračevac
+- Cao Nguyen Pham
+- Frank Zhengqing Wu
+- Martin Odersky
+venue: arXiv
+year: 2026
+summary: LACUNA is a programming model that integrates LLM-written code directly into the agent's runtime
+  as typed program holes, using type-checking to ensure safety, bound tool/data access, and enable atomic
+  action execution with retry on rejection.
+harness_layer:
+- execution-shell
+sprs:
+- safety
+- reliability
+open_problems:
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper proposes a novel programming model for agent execution that directly addresses
+    safety and reliability concerns by integrating model-written code into the runtime with type-checking
+    and transactional semantics.
+status: draft

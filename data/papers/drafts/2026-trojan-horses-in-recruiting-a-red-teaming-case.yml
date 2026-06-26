@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-trojan-horses-in-recruiting-a-red-teaming-case
+type: papers
+title: 'Trojan Horses in Recruiting: A Red-Teaming Case Study on Indirect Prompt Injection in Standard
+  vs. Reasoning Models'
+url: https://arxiv.org/abs/2602.18514v1
+authors:
+- Manuel Wirth
+venue: arXiv
+year: 2026
+summary: Qualitative red-teaming case study on indirect prompt injection in HR decision-making pipelines,
+  comparing standard and reasoning models to identify distinct failure modes and a 'Meta-Cognitive Leakage'
+  vulnerability in reasoning models.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses adversarial testing of LLM agents in a specific application
+    domain (HR) and identifies system-level failure modes related to prompt injection, including a novel
+    'Meta-Cognitive Leakage' vulnerability.
+status: draft

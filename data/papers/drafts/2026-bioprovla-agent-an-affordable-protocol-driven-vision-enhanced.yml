@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-bioprovla-agent-an-affordable-protocol-driven-vision-enhanced
+type: papers
+title: 'BioProVLA-Agent: An Affordable, Protocol-Driven, Vision-Enhanced VLA-Enabled Embodied Multi-Agent
+  System with Closed-Loop-Capable Reasoning for Biological Laboratory Manipulation'
+url: https://arxiv.org/abs/2605.07306v1
+authors:
+- Zhaohui Du
+- Zhe Wang
+- Hongmei Fei
+- Xiwen Cao
+- Ting Xiao
+- Qi Wang
+- Huanbo Jin
+- Jiaming Gu
+- Quan Lu
+- Zhe Liu
+venue: arXiv
+year: 2026
+summary: BioProVLA-Agent is an affordable, protocol-driven, vision-enhanced embodied multi-agent system
+  for biological manipulation, integrating protocol parsing, visual state verification, and embodied execution
+  in a closed-loop workflow to improve reliability in wet-lab environments.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes an end-to-end reference architecture for a trustworthy agentic system
+    in a real-world, safety-critical domain, with specific systems-level components for verification and
+    robustness.
+status: draft

@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-tracesafe-a-systematic-assessment-of-llm-guardrails-on
+type: papers
+title: 'TraceSafe: A Systematic Assessment of LLM Guardrails on Multi-Step Tool-Calling Trajectories'
+url: https://arxiv.org/abs/2604.07223v1
+authors:
+- Yen-Shan Chen
+- Sian-Yao Huang
+- Cheng-Lin Yang
+- Yun-Nung Chen
+venue: arXiv
+year: 2026
+summary: Introduces TraceSafe-Bench, a comprehensive benchmark for assessing guardrail efficacy on multi-step
+  tool-use trajectories across 12 risk categories, revealing that structural data competence and model
+  architecture are key drivers of performance.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the adversarial testing and evaluation of guardrails within
+    multi-step agentic workflows, focusing on system-level vulnerabilities beyond static outputs.
+status: draft

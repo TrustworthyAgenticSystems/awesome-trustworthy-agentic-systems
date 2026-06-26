@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-conjunctive-prompt-attacks-in-multi-agent-llm-systems
+type: papers
+title: Conjunctive Prompt Attacks in Multi-Agent LLM Systems
+url: https://arxiv.org/abs/2604.16543v1
+authors:
+- Nokimul Hasan Arif
+- Qian Lou
+- Mengxin Zheng
+venue: arXiv
+year: 2026
+summary: Characterizes 'conjunctive prompt attacks' that exploit prompt segmentation and inter-agent routing
+  in multi-agent systems, where benign-looking components combine to activate harmful behavior, and demonstrates
+  their effectiveness across various topologies.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a novel system-level adversarial attack on multi-agent systems, highlighting
+    a structural vulnerability and the inadequacy of existing single-component defenses.
+status: draft

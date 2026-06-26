@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-colosseum-auditing-collusion-in-cooperative-multi-agent-systems
+type: papers
+title: 'Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems'
+url: https://arxiv.org/abs/2602.15198v2
+authors:
+- Mason Nakamura
+- Abhinav Kumar
+- Saswat Das
+- Sahar Abdelnabi
+- Saaduddin Mahmud
+- Ferdinando Fioretto
+- Shlomo Zilberstein
+- Eugene Bagdasarian
+venue: arXiv
+year: 2026
+summary: Colosseum is a framework for auditing collusive behavior in cooperative multi-agent systems,
+  measuring action-based and communication-based collusion, and identifying emergent collusion through
+  secret communication channels.
+harness_layer:
+- red-team
+sprs:
+- safety
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses adversarial testing of multi-agent systems for collusive behavior,
+    which is a system-level trustworthiness concern.
+status: draft

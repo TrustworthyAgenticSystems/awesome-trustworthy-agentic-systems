@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-toward-reliable-design-of-llm-enabled-agentic-workflows
+type: papers
+title: 'Toward Reliable Design of LLM-Enabled Agentic Workflows: Optimizing Latency-Reliability-Cost Tradeoffs'
+url: https://arxiv.org/abs/2605.23929v1
+authors:
+- Ya-Ting Yang
+- Quanyan Zhu
+venue: arXiv
+year: 2026
+summary: This paper introduces performance models for LLM and non-LLM agents to analyze and optimize latency,
+  reliability, and cost tradeoffs in sequential agentic workflows, proposing a water-filling token allocation
+  policy.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides a systems-level analysis of agentic workflow design, focusing on reliability
+    and cost optimization, which is relevant to trustworthy agent architectures.
+status: draft

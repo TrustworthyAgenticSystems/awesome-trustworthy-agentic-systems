@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-code-isn-t-memory-a-structural-codebase-index
+type: papers
+title: 'Code Isn''t Memory: A Structural Codebase Index Inside a Coding Agent'
+url: https://arxiv.org/abs/2606.22417v1
+authors:
+- Ishaan Bhola
+- Adithyan Krishnan
+- Sravanth Kurmala
+- Mukunda NS
+venue: arXiv
+year: 2026
+summary: Evaluates the impact of a structural codebase index on localization and resolution gains within
+  a fixed coding agent harness, demonstrating improved performance without cost penalty.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses memory management and retrieval strategies within an agentic
+    system, focusing on a structural codebase index for coding agents.
+status: draft

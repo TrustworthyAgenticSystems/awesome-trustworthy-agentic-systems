@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-gam-hierarchical-graph-based-agentic-memory-for-llm
+type: papers
+title: 'GAM: Hierarchical Graph-based Agentic Memory for LLM Agents'
+url: https://arxiv.org/abs/2604.12285v1
+authors:
+- Zhaofen Wu
+- Hanrong Zhang
+- Fulin Lin
+- Wujiang Xu
+- Xinran Xu
+- Yankai Chen
+- Henry Peng Zou
+- Shaowen Chen
+- Weizhi Zhang
+- Xue Liu
+- Philip S. Yu
+- Hongwei Wang
+venue: arXiv
+year: 2026
+summary: GAM proposes a hierarchical graph-based memory framework that decouples memory encoding from
+  consolidation to improve long-term consistency and reduce interference from transient noise in LLM agents.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses memory management and integrity for long-running agents, focusing
+    on reliability and consistency of knowledge retention.
+status: draft

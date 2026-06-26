@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-sheaf-framework-for-strategic-multi-agent-systems
+type: papers
+title: 'A Sheaf Framework for Strategic Multi-Agent Systems: From Consensus to Nash Equilibria'
+url: https://arxiv.org/abs/2606.01663v1
+authors:
+- Manuel Hernández
+- Eduardo Sánchez-Soto
+venue: arXiv
+year: 2026
+summary: A categorical framework integrating event calculus, ensemble formation, and game theory into
+  a Grothendieck topos to model strategic multi-agent coordination, with Nash equilibria corresponding
+  to global sections of a best-response correspondence sheaf.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.75
+  rationale: Provides a rigorous, foundational framework for verifiable and economically rational multi-agent
+    coordination, addressing consistency and strategic choice at the system level.
+status: draft

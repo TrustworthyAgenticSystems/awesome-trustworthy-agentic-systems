@@ -1,0 +1,43 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-graph-based-agent-memory-taxonomy-techniques-and-applications
+type: papers
+title: 'Graph-based Agent Memory: Taxonomy, Techniques, and Applications'
+url: https://arxiv.org/abs/2602.05665v1
+authors:
+- Chang Yang
+- Chuang Zhou
+- Yilin Xiao
+- Su Dong
+- Luyao Zhuang
+- Yujing Zhang
+- Zhu Wang
+- Zijin Hong
+- Zheng Yuan
+- Zhishang Xiang
+- Shengyuan Chen
+- Huachi Zhou
+- Qinggang Zhang
+- Ninghao Liu
+- Jinsong Su
+- Xinrun Wang
+- Yi Chang
+- Xiao Huang
+venue: arXiv
+year: 2026
+summary: A comprehensive survey and taxonomy of graph-based agent memory, analyzing techniques for extraction,
+  storage, retrieval, and evolution to improve memory system reliability.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a foundational survey of graph-based agent memory, directly addressing
+    the 'memory' harness layer and aiming for more reliable memory systems.
+status: draft

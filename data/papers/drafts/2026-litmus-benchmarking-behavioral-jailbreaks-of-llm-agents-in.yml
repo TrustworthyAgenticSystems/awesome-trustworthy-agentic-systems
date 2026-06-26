@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-litmus-benchmarking-behavioral-jailbreaks-of-llm-agents-in
+type: papers
+title: 'LITMUS: Benchmarking Behavioral Jailbreaks of LLM Agents in Real OS Environments'
+url: https://arxiv.org/abs/2605.10779v1
+authors:
+- Chiyu Zhang
+- Huiqin Yang
+- Bendong Jiang
+- Xiaolei Zhang
+- Yiran Zhao
+- Ruyi Chen
+- Lu Zhou
+- Xiaogang Xu
+- Jiafei Wu
+- Liming Fang
+- Zhe Liu
+venue: arXiv
+year: 2026
+summary: LITMUS is a benchmark for behavioral jailbreaks of LLM agents in real OS environments, featuring
+  semantic-physical dual verification and OS-level state rollback to evaluate dangerous OS-level operations.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses adversarial testing of agentic systems in real OS environments,
+    including novel attack paradigms and a physically grounded evaluation framework.
+status: draft

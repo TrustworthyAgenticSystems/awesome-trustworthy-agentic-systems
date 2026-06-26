@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-similarity-trustworthy-memory-search-for-personal-ai
+type: papers
+title: 'Beyond Similarity: Trustworthy Memory Search for Personal AI Agents'
+url: https://arxiv.org/abs/2606.06054v1
+authors:
+- Jiawen Zhang
+- Kejia Chen
+- Jiachen Ma
+- Yangfan Hu
+- Lipeng He
+- Yechao Zhang
+- Jian Liu
+- Xiaohu Yang
+- Tianwei Zhang
+- Ruoxi Jia
+venue: arXiv
+year: 2026
+summary: Identifies long-term memory as a critical trust boundary in personal AI agents, demonstrating
+  vulnerabilities like cross-domain leakage and tool-call drift, and proposes MemGate, a lightweight plug-in
+  for task-conditioned memory admission to mitigate these threats.
+harness_layer:
+- memory
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses memory integrity and trust-boundary issues in agentic systems with a concrete
+    attack surface analysis and a deployable defense mechanism.
+status: draft

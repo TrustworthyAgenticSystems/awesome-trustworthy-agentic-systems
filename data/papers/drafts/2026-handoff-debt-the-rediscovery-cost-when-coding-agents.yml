@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-handoff-debt-the-rediscovery-cost-when-coding-agents
+type: papers
+title: 'Handoff Debt: The Rediscovery Cost When Coding Agents Take Over Interrupted Tasks'
+url: https://arxiv.org/abs/2606.02875v1
+authors:
+- Dipesh KC
+- Anjila Budathoki
+venue: arXiv
+year: 2026
+summary: Introduces the concept of "handoff debt" to quantify the cost of resuming interrupted coding
+  tasks by agents, evaluating different handoff views on successor agent efficiency.
+harness_layer:
+- oversight
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the operational challenge of task handoffs and continuity in
+    agentic systems, focusing on the cost and efficiency of human-agent or agent-agent collaboration.
+status: draft

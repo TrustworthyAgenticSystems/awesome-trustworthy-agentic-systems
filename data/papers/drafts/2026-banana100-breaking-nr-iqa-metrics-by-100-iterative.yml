@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-banana100-breaking-nr-iqa-metrics-by-100-iterative
+type: papers
+title: 'Banana100: Breaking NR-IQA Metrics by 100 Iterative Image Replications with Nano Banana Pro'
+url: https://arxiv.org/abs/2604.03400v1
+authors:
+- Kenan Tang
+- Praveen Arunshankar
+- Andong Hua
+- Anthony Yang
+- Yao Qin
+venue: arXiv
+year: 2026
+summary: Identifies and systematically studies iterative image quality degradation in multi-turn multi-modal
+  agentic systems, demonstrating that current NR-IQA metrics fail to detect this degradation, and releases
+  a dataset for further research.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper identifies a critical reliability and safety issue in multi-turn agentic systems
+    related to iterative degradation and the failure of evaluation metrics to detect it, providing a dataset
+    for future work.
+status: draft

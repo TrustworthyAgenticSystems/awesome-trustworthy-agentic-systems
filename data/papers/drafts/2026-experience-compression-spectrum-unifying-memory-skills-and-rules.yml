@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-experience-compression-spectrum-unifying-memory-skills-and-rules
+type: papers
+title: 'Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents'
+url: https://arxiv.org/abs/2604.15877v2
+authors:
+- Xing Zhang
+- Guanghui Wang
+- Yanwei Cui
+- Wei Qiu
+- Ziyuan Li
+- Bing Zhu
+- Peiyang He
+venue: arXiv
+year: 2026
+summary: Proposes the Experience Compression Spectrum as a unifying framework for agent memory, skills,
+  and rules, analyzing how different compression levels impact context consumption, retrieval latency,
+  and compute overhead in long-horizon agent deployments.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a foundational framework and analysis for managing agent memory and knowledge at
+    scale, addressing a critical systems-engineering bottleneck for trustworthy agents.
+status: draft

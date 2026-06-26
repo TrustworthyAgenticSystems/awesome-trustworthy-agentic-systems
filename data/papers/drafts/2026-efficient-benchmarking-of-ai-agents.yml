@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-efficient-benchmarking-of-ai-agents
+type: papers
+title: Efficient Benchmarking of AI Agents
+url: https://arxiv.org/abs/2603.23749v1
+authors:
+- Franck Ndzomga
+venue: arXiv
+year: 2026
+summary: Proposes an optimization-free protocol for efficient agent benchmarking by evaluating on mid-range
+  difficulty tasks to maintain rank fidelity under scaffold and temporal shifts, reducing evaluation cost
+  by 44-70%.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses the systems-level problem of efficient and reliable evaluation for agentic systems,
+    specifically focusing on long-horizon evaluation challenges.
+status: draft

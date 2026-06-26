@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-axle-a-cloud-infrastructure-for-lean-4-theorem
+type: papers
+title: 'AXLE: A Cloud Infrastructure for Lean 4 Theorem Proving Utilities'
+url: https://arxiv.org/abs/2606.26442v1
+authors:
+- Jimmy Xin
+- Alex Schneidman
+- Chris Cummins
+- Karun Ram
+- Srihari Ganesh
+- Jannis Limperg
+venue: arXiv
+year: 2026
+summary: AXLE is a cloud infrastructure for Lean 4 theorem proving utilities, providing scalable proof
+  verification, manipulation, and extraction with per-request isolation and multi-version support for
+  AI-driven mathematical workflows.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes a cloud infrastructure that provides scalable, robust, and isolated
+    services for theorem proving, directly addressing systems-level challenges for AI agents in mathematics.
+status: draft

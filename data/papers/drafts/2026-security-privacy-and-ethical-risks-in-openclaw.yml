@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-security-privacy-and-ethical-risks-in-openclaw
+type: papers
+title: Security, Privacy, and Ethical Risks in OpenClaw
+url: https://arxiv.org/abs/2605.23330v1
+authors:
+- Yutong Jin
+- Zelin Zhang
+- Zhijin Lyu
+- Jianbing Ni
+venue: arXiv
+year: 2026
+summary: Systematic investigation of security, privacy, and ethical risks in the OpenClaw locally executable
+  AI agent system, focusing on persistent local storage, tool invocation, and cross-context information
+  aggregation.
+harness_layer:
+- foundations
+sprs:
+- security
+- privacy
+- safety
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a systematic investigation of risks in a real-world agent system, contributing
+    to the foundational understanding of trustworthy agentic systems.
+status: draft

@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-the-manual-lies-a-realistic-benchmark-to
+type: papers
+title: 'When the Manual Lies: A Realistic Benchmark to Evaluate MCP Poisoning Attacks for LLM Agents'
+url: https://arxiv.org/abs/2605.24069v1
+authors:
+- Shi Liu
+- Xuehai Tang
+- Xikang Yang
+- Liang Lin
+- Biyu Zhou
+- Wenjie Xiao
+- Wantao Liu
+venue: arXiv
+year: 2026
+summary: Introduces Tool Description Poisoning (TDP), a semantic attack where malicious instructions are
+  injected into tool metadata, and proposes the MCP-TDP Security Benchmark to evaluate this threat, along
+  with a "Reactive Self-Correction" defense mechanism.
+harness_layer:
+- tool-interface
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a novel attack surface in the tool-interface layer of LLM agents
+    and proposes a defense, making a clear contribution to agentic system security.
+status: draft

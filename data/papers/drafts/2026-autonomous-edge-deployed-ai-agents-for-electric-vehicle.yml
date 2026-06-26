@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-autonomous-edge-deployed-ai-agents-for-electric-vehicle
+type: papers
+title: Autonomous Edge-Deployed AI Agents for Electric Vehicle Charging Infrastructure Management
+url: https://arxiv.org/abs/2603.08736v1
+authors:
+- Mohammed Cherifi
+venue: arXiv
+year: 2026
+summary: Presents Auralink SDC, an edge-deployed multi-agent architecture for autonomous EV charging infrastructure
+  management, featuring confidence-calibrated autonomous resolution, adaptive RAG, and a low-latency runtime,
+  validated on 18,000 incidents.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes a complete architecture for a trustworthy agentic system in a safety-critical
+    domain, including specific systems-engineering contributions like confidence-calibrated resolution
+    and a specialized runtime.
+status: draft

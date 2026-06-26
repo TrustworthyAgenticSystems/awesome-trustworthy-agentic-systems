@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agent-fence-mapping-security-vulnerabilities-across-deep-research
+type: papers
+title: 'Agent-Fence: Mapping Security Vulnerabilities Across Deep Research Agents'
+url: https://arxiv.org/abs/2602.07652v1
+authors:
+- Sai Puppala
+- Ismail Hossain
+- Md Jahangir Alam
+- Yoonpyo Lee
+- Jay Yoo
+- Tanzim Ahad
+- Syed Bahauddin Alam
+- Sajedul Talukder
+venue: arXiv
+year: 2026
+summary: AgentFence is an architecture-centric security evaluation framework that defines 14 trust-boundary
+  attack classes across agent components and detects failures via trace-auditable conversation breaks,
+  evaluating eight agent archetypes under persistent multi-turn interaction.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses adversarial testing of agentic systems by defining attack classes
+    and evaluating architectural variations in security break rates, focusing on operational security.
+status: draft

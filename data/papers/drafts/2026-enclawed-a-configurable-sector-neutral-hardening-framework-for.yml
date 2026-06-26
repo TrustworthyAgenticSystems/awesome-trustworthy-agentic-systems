@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-enclawed-a-configurable-sector-neutral-hardening-framework-for
+type: papers
+title: 'enclawed: A Configurable, Sector-Neutral Hardening Framework for Single-User AI Assistant Gateways'
+url: https://arxiv.org/abs/2604.16838v2
+authors:
+- Alfredo Metere
+venue: arXiv
+year: 2026
+summary: enclawed is a hardening framework for AI assistant gateways, built on OpenClaw, providing attestable
+  peer trust, deny-by-default external connectivity, signed-module loading, and a tamper-evident audit
+  trail, with a comprehensive test suite and formal verification primitives.
+harness_layer:
+- architectures
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper describes a comprehensive hardening framework for AI assistant gateways, addressing
+    multiple systems-level security and privacy concerns with concrete architectural details, formal methods,
+    and a robust test suite.
+status: draft

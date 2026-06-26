@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-psebench-a-controllable-and-verifiable-benchmark-for-evaluating
+type: papers
+title: 'PSEBench: A Controllable and Verifiable Benchmark for Evaluating LLMs in Patient Safety Event
+  Triage'
+url: https://arxiv.org/abs/2606.05463v2
+authors:
+- Keqi Han
+- Ryan Young
+- Annabel Strauss
+- Lindsey Hughes
+- Katharine M. Nesbitt
+- Nicole Schueler
+- Che Ngufor
+- Carl Yang
+- Yuan Xue
+- Zhijun Yin
+venue: arXiv
+year: 2026
+summary: Introduces PSEBench, a policy-grounded, verifiable benchmark for evaluating LLMs in patient safety
+  event triage, featuring an agentic evaluation environment to assess evidence-grounded reasoning, information
+  seeking, and principled abstention.
+harness_layer:
+- observation-eval
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes a verifiable benchmark and an agentic evaluation environment for a
+    high-stakes task, directly addressing the reliability and safety of LLM agents in a critical domain.
+status: draft

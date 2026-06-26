@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-targeted-bit-flip-attacks-on-llm-based-agents
+type: papers
+title: Targeted Bit-Flip Attacks on LLM-Based Agents
+url: https://arxiv.org/abs/2603.10042v1
+authors:
+- Jialai Wang
+- Ya Wen
+- Zhongmou Liu
+- Yuxiao Wu
+- Bingyi He
+- Zongpeng Li
+- Ee-Chien Chang
+venue: arXiv
+year: 2026
+summary: Introduces Flip-Agent, the first targeted bit-flip attack framework for LLM-based agents, demonstrating
+  manipulation of both final outputs and tool invocations by exploiting hardware faults.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses a novel adversarial attack surface on LLM-based agent systems,
+    specifically targeting the multi-stage pipeline and tool invocations, which is relevant to red-teaming
+    and system security.
+status: draft

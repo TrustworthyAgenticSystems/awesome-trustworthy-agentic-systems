@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentdyn-are-your-agent-security-defenses-deployable-in
+type: papers
+title: 'AgentDyn: Are Your Agent Security Defenses Deployable in Real-World Dynamic Environments?'
+url: https://arxiv.org/abs/2602.03117v3
+authors:
+- Hao Li
+- Ruoyao Wen
+- Shanghao Shi
+- Ning Zhang
+- Yevgeniy Vorobeychik
+- Chaowei Xiao
+venue: arXiv
+year: 2026
+summary: Introduces AgentDyn, a new benchmark with 60 open-ended tasks and 560 injection test cases across
+  real-world scenarios, to evaluate agent security defenses against dynamic indirect prompt injection
+  attacks.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the adversarial testing of agentic systems by proposing a new,
+    more realistic benchmark for indirect prompt injection attacks, highlighting the deployability gap
+    of existing defenses.
+status: draft

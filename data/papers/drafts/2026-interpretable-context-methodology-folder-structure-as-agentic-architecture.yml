@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-interpretable-context-methodology-folder-structure-as-agentic-architecture
+type: papers
+title: 'Interpretable Context Methodology: Folder Structure as Agentic Architecture'
+url: https://arxiv.org/abs/2603.16021v2
+authors:
+- Jake Van Clief
+- David McDermott
+venue: arXiv
+year: 2026
+summary: Model Workspace Protocol (MWP) proposes using filesystem structure and markdown files to orchestrate
+  sequential agent workflows, replacing complex multi-agent frameworks with a simpler, human-reviewable
+  architecture.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a novel architectural pattern for agent orchestration, focusing on simplifying
+    context management and human oversight for sequential workflows.
+status: draft

@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-coding-agents-don-t-know-when-to-act
+type: papers
+title: Coding Agents Don't Know When to Act
+url: https://arxiv.org/abs/2605.07769v1
+authors:
+- Thibaud Gloaguen
+- Niels Mündler
+- Mark Müller
+- Veselin Raychev
+- Martin Vechev
+venue: arXiv
+year: 2026
+summary: Introduces FixedBench, a benchmark to evaluate coding agents' ability to abstain from acting
+  on already-resolved issues, revealing an action bias and proposing explicit inaction framing as a path
+  to success.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: 'The paper introduces a systematic evaluation benchmark (FixedBench) for a critical reliability
+    and safety concern in agentic systems: knowing when *not* to act, which is a form of long-horizon
+    evaluation.'
+status: draft

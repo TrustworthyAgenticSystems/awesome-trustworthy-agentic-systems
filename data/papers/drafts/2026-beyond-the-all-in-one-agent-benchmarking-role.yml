@@ -1,0 +1,49 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-the-all-in-one-agent-benchmarking-role
+type: papers
+title: 'Beyond the All-in-One Agent: Benchmarking Role-Specialized Multi-Agent Collaboration in Enterprise
+  Workflows'
+url: https://arxiv.org/abs/2605.08761v1
+authors:
+- Tao Yu
+- Hao Wang
+- Changyu Li
+- Shenghua Chai
+- Minghui Zhang
+- Zhongtian Luo
+- Yuxuan Zhou
+- Haopeng Jin
+- Zhaolu Kang
+- Jiabing Yang
+- YiFan Zhang
+- Xinming Wang
+- Hongzhu Yi
+- Zheqi He
+- Jing-Shu Zheng
+- Xi Yang
+- Yan Huang
+- Liang Wang
+venue: arXiv
+year: 2026
+summary: Introduces EntCollabBench, a multi-agent benchmark simulating enterprise workflows with role
+  specialization, access control, and stateful systems, evaluated via execution traces and database state
+  verification.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a benchmark for multi-agent collaboration that specifically addresses
+    enterprise constraints like role specialization and access control, which are critical for trustworthy
+    agentic systems.
+status: draft

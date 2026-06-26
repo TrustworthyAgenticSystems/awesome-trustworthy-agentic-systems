@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-propguard-safeguarding-llm-mas-via-propagation-aware-exploration
+type: papers
+title: 'PropGuard: Safeguarding LLM-MAS via Propagation-Aware Exploration and Remediation'
+url: https://arxiv.org/abs/2605.16346v1
+authors:
+- Bingyu Yan
+- Xiaoming Zhang
+- Jinyu Hou
+- Chaozhuo Li
+- Ziyi Zhou
+- Xiaozhe Zhang
+- Litian Zhang
+venue: arXiv
+year: 2026
+summary: PropGuard is a propagation-aware framework that constructs a dual-view spatio-temporal graph
+  to trace and remediate malicious instruction propagation across agents and rounds in LLM-MAS, addressing
+  system-level compromise.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper directly addresses security risks in multi-agent systems by tracing and remediating
+    malicious instruction propagation, which is a core red-teaming and observability problem for trustworthy
+    agents.
+status: draft

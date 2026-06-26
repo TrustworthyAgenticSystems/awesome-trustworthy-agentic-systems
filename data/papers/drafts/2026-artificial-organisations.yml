@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-artificial-organisations
+type: papers
+title: Artificial Organisations
+url: https://arxiv.org/abs/2602.13275v1
+authors:
+- William Waites
+venue: arXiv
+year: 2026
+summary: Proposes an institutional model for multi-agent AI safety using architectural compartmentalization
+  and adversarial review to achieve reliable collective behavior from potentially unreliable individual
+  components, demonstrated through a document composition engine.
+harness_layer:
+- coordination
+sprs:
+- safety
+- reliability
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses multi-agent coordination and safety through architectural design, including
+    information asymmetry and adversarial review, which are core systems-level concerns for trustworthy
+    agents.
+status: draft

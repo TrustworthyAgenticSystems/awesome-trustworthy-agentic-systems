@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-security-attack-and-defense-strategies-for-autonomous-agent
+type: papers
+title: 'Security Attack and Defense Strategies for Autonomous Agent Frameworks: A Layered Review with
+  OpenClaw as a Case Study'
+url: https://arxiv.org/abs/2604.27464v1
+authors:
+- Luyao Xu
+- Xiang Chen
+venue: arXiv
+year: 2026
+summary: A layered review of security risks and defense strategies in autonomous agent frameworks, organizing
+  analysis into context/instruction, tool/action, state/persistence, and ecosystem/automation layers,
+  and identifying cross-layer threat propagation.
+harness_layer:
+- foundations
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a foundational, layered taxonomy of security risks and defenses for agentic
+    systems, directly addressing the 'agent-as-system' thesis.
+status: draft

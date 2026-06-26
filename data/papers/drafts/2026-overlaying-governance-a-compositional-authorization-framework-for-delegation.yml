@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-overlaying-governance-a-compositional-authorization-framework-for-delegation
+type: papers
+title: 'Overlaying Governance: A Compositional Authorization Framework for Delegation and Scope in Agentic
+  AI'
+url: https://arxiv.org/abs/2606.03518v1
+authors:
+- Amjad Ibrahim
+- Yong Li
+venue: arXiv
+year: 2026
+summary: A compositional authorization framework that introduces primitives for recursive delegation,
+  contextual boundaries, and dynamic scoping to govern agentic AI systems, operationalized through an
+  overlay operator on existing relational policies.
+harness_layer:
+- permissions
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the critical problem of authorization and delegation for autonomous
+    agents, proposing a novel compositional framework with formal proofs and empirical evaluation.
+status: draft

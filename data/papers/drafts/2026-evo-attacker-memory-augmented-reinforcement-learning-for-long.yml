@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-evo-attacker-memory-augmented-reinforcement-learning-for-long
+type: papers
+title: 'Evo-Attacker: Memory-Augmented Reinforcement Learning for Long-Horizon Tool Attacks on LLM-MAS'
+url: https://arxiv.org/abs/2605.25389v1
+authors:
+- Bingyu Yan
+- Xiaoming Zhang
+- Jinyu Hou
+- Chaozhuo Li
+- Ziyi Zhou
+- Yiming Hei
+- Litian Zhang
+venue: arXiv
+year: 2026
+summary: Evo-Attacker formulates long-horizon tool attacks on LLM-MAS as a memory-augmented reinforcement
+  learning process, using dynamic attack memory and deliberative reasoning to generate adversarial patterns
+  and optimize intermediate steps.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses adversarial testing of multi-step agent workflows and tool-use
+    security, which is a core concern for trustworthy agentic systems.
+status: draft

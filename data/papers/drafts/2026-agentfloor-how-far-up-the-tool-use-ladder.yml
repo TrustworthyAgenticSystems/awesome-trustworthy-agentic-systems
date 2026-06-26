@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentfloor-how-far-up-the-tool-use-ladder
+type: papers
+title: 'AgentFloor: How Far Up the tool use Ladder Can Small Open-Weight Models Go?'
+url: https://arxiv.org/abs/2605.00334v1
+authors:
+- Ranit Karmakar
+- Jayita Chatterjee
+venue: arXiv
+year: 2026
+summary: AgentFloor is a 30-task benchmark for evaluating the capability of small open-weight models in
+  agentic workflows, identifying which parts of an agent workflow can be handled by smaller models versus
+  larger frontier models.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides a practical design principle for agentic systems by evaluating model capabilities
+    across different workflow complexities, contributing to architectural decisions for reliability and
+    cost-effectiveness.
+status: draft

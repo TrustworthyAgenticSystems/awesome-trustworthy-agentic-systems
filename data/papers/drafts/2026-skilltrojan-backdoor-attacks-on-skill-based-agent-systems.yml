@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-skilltrojan-backdoor-attacks-on-skill-based-agent-systems
+type: papers
+title: 'SkillTrojan: Backdoor Attacks on Skill-Based Agent Systems'
+url: https://arxiv.org/abs/2604.06811v2
+authors:
+- Yunhao Feng
+- Yifan Ding
+- Yingshui Tan
+- Boren Zheng
+- Yanming Guo
+- Xiaolong Li
+- Kun Zhai
+- Yishan Li
+- Wenke Huang
+venue: arXiv
+year: 2026
+summary: Introduces SkillTrojan, a backdoor attack that embeds malicious logic within skill implementations,
+  partitioning an encrypted payload across multiple skill invocations, and evaluates its effectiveness
+  in a code-based agent setting.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a novel system-level attack vector (skill-based backdoors)
+    in agentic systems, demonstrating a critical security vulnerability in skill composition and execution.
+status: draft

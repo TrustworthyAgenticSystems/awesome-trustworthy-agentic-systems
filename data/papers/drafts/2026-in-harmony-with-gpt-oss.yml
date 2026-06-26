@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-in-harmony-with-gpt-oss
+type: papers
+title: In harmony with gpt-oss
+url: https://arxiv.org/abs/2604.00362v1
+authors:
+- Borislav Mavrin
+venue: arXiv
+year: 2026
+summary: Reverse-engineers the implicit tool-use behavior of gpt-oss-20b and builds a native agent harness
+  to reproduce published scores, demonstrating the importance of understanding model-native interfaces
+  for reliable agent performance.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper reverse-engineers an agent's implicit tool-use and builds a native harness, contributing
+    to understanding and reproducing agent system behavior.
+status: draft

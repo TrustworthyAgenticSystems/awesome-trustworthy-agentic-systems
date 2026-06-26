@@ -1,0 +1,43 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-scaling-laws-of-skills-in-llm-agent
+type: papers
+title: The Scaling Laws of Skills in LLM Agent Systems
+url: https://arxiv.org/abs/2605.16508v1
+authors:
+- Charles Chen
+- Qiming Yu
+- Yuhang Gu
+- Zhuoye Huang
+- Hanjing Li
+- Hongyu Liu
+- Simin Liu
+- Jinhao Liu
+- Dengyun Peng
+- Jiangyi Wang
+- Zheng Yan
+- Fanqing Meng
+- Ethan Qin
+- Carl Che
+- Mengkang Hu
+venue: arXiv
+year: 2026
+summary: Identifies scaling laws for skill routing and execution in LLM agent systems, showing how library
+  structure and exposure policy impact performance and proposing law-guided optimization to improve routing
+  accuracy and reduce skill hijacking.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper provides a foundational understanding of how skill libraries impact agent reliability
+    and proposes actionable optimizations for agent coordination and execution.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hdp-a-lightweight-cryptographic-protocol-for-human-delegation
+type: papers
+title: 'HDP: A Lightweight Cryptographic Protocol for Human Delegation Provenance in Agentic AI Systems'
+url: https://arxiv.org/abs/2604.04522v1
+authors:
+- Asiri Dalugoda
+venue: arXiv
+year: 2026
+summary: HDP is a lightweight cryptographic protocol that captures and verifies human authorization context
+  and multi-hop delegation chains in agentic systems, enabling offline provenance verification of actions.
+harness_layer:
+- permissions
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a core security and accountability problem in agentic systems
+    by proposing a cryptographic protocol for human delegation provenance and authorization.
+status: draft

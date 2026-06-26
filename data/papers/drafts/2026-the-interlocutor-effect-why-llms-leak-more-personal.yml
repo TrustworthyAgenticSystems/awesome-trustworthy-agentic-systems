@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-interlocutor-effect-why-llms-leak-more-personal
+type: papers
+title: 'The Interlocutor Effect: Why LLMs Leak More Personal Data to Agents Than Humans'
+url: https://arxiv.org/abs/2606.09844v1
+authors:
+- Faouzi El Yagoubi
+- Godwin Badu-Marfo
+- Ranwa Al Mallah
+venue: arXiv
+year: 2026
+summary: Identifies and quantifies the "Interlocutor Effect," where LLMs leak more PII to perceived AI
+  agents than to humans, and proposes the Attention Suppression Hypothesis with initial experimental corroboration
+  on Llama-3.1-8B-Instruct.
+harness_layer:
+- red-team
+sprs:
+- privacy
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper identifies a novel privacy vulnerability in LLMs when interacting with other agents,
+    directly impacting the security and privacy of multi-agent systems.
+status: draft

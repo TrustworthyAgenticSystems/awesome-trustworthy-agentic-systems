@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hidden-coalitions-in-multi-agent-ai-a-spectral
+type: papers
+title: 'Hidden Coalitions in Multi-Agent AI: A Spectral Diagnostic from Internal Representations'
+url: https://arxiv.org/abs/2605.06696v1
+authors:
+- Cameron Berg
+- Susan L. Schneider
+- Mark M. Bailey
+venue: arXiv
+year: 2026
+summary: A spectral diagnostic method that uses mutual information from internal neural representations
+  to detect emergent coalition structures in multi-agent systems, distinguishing genuine informational
+  coupling from spurious behavioral similarity.
+harness_layer:
+- observation-eval
+sprs:
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a novel diagnostic tool for monitoring emergent, potentially unsafe, internal
+    structures in multi-agent systems, directly contributing to observability and safety.
+status: draft

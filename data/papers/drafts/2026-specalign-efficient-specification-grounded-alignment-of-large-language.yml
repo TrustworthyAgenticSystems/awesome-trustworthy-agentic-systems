@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-specalign-efficient-specification-grounded-alignment-of-large-language
+type: papers
+title: 'SpecAlign: Efficient Specification-Grounded Alignment of Large Language Models via Synthetic Data'
+url: https://arxiv.org/abs/2606.16276v2
+authors:
+- Wenjie Wang
+- Yue Huang
+- Zhengqing Yuan
+- Han Bao
+- Shiyi Du
+- Yuchen Ma
+- Yue Zhao
+- Yanfang Ye
+- Xiangliang Zhang
+venue: arXiv
+year: 2026
+summary: SpecAlign is a framework that synthesizes alignment data directly from specification documents
+  using structured rule annotation, controllable instantiation, and multi-agent adversarial synthesis
+  to improve LLM compliance with explicit model specifications.
+harness_layer:
+- intent
+sprs:
+- safety
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses the challenge of translating natural language specifications
+    into operational constraints for LLM behavior, which is a core problem in intent compilation for trustworthy
+    agents.
+status: draft

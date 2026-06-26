@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-analyzing-defensive-misdirection-against-model-guided-automated-attacks
+type: papers
+title: Analyzing Defensive Misdirection Against Model-Guided Automated Attacks on Agentic AI Systems
+url: https://arxiv.org/abs/2606.20470v1
+authors:
+- Reza Soosahabi
+- Vivek Namsani
+venue: arXiv
+year: 2026
+summary: Analyzes model-guided automated attacks on agentic AI systems and proposes a detect-and-misdirect
+  defense strategy to reduce attacker success rate by providing misleading feedback to automated attack
+  judges.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses adversarial testing and defense mechanisms for agentic systems,
+    specifically focusing on automated attacks and a novel misdirection defense strategy.
+status: draft

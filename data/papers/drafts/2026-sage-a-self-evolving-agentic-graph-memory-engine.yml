@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-sage-a-self-evolving-agentic-graph-memory-engine
+type: papers
+title: 'SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory'
+url: https://arxiv.org/abs/2605.12061v1
+authors:
+- Juntong Wang
+- Haoyue Zhao
+- guanghui Pan
+- Xiyuan Wang
+- Yanbo Wang
+- Qiyan Deng
+- Muhan Zhang
+venue: arXiv
+year: 2026
+summary: SAGE is a self-evolving agentic graph-memory engine that dynamically constructs and refines structured
+  graph memory from interaction histories, improving evidence recovery and retrieval efficiency through
+  reader-writer feedback.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a dynamic, self-evolving memory system for agents, addressing a core
+    systems-engineering challenge in agent memory management and reliability.
+status: draft

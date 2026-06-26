@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-sgto-mas-secure-gorilla-troops-optimization-for-multi
+type: papers
+title: 'SGTO-MAS: Secure Gorilla Troops Optimization for Multi-Agent LLM Systems'
+url: https://arxiv.org/abs/2606.07940v1
+authors:
+- Saeid Jamshidi
+venue: arXiv
+year: 2026
+summary: Proposes a security-aware, swarm-intelligence-inspired optimization method for adaptive agent
+  selection and coordination in multi-agent LLM systems, balancing performance, security, and computational
+  cost.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses multi-agent coordination as a systems problem, explicitly considering security
+    risks and resource efficiency in its optimization objective.
+status: draft

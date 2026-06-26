@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-persona-attack-incremental-memory-injection-jailbreak-attack-against
+type: papers
+title: 'Persona Attack: Incremental Memory Injection Jailbreak Attack against Large Language Models'
+url: https://arxiv.org/abs/2606.00150v1
+authors:
+- Junyoung Park
+- Seongyong Ju
+- Sunghwan Park
+- Jaewoo Lee
+venue: arXiv
+year: 2026
+summary: Persona Attack is a memory injection jailbreak method that manipulates an LLM's context window
+  incrementally, causing models to prioritize injected instructions over safety alignment.
+harness_layer:
+- memory
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses a security vulnerability in agent memory (context window) through
+    an incremental injection attack, demonstrating a system-level threat.
+status: draft

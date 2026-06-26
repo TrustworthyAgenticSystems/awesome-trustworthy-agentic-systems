@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-an-evaluation-of-data-leakage-risks-in-tool
+type: papers
+title: An Evaluation of Data Leakage Risks in Tool-Using LLM Agents in Realistic Scenarios
+url: https://arxiv.org/abs/2606.17114v1
+authors:
+- Hankyul Baek
+- Jaewon Noh
+- Sang Seo
+- Yongsu Kim
+- Gabriel Waikin Loh Matienzo
+- Young Il Kim
+- Ee Wei Seah
+- Akriti Vij
+venue: arXiv
+year: 2026
+summary: Evaluates data leakage risks in tool-using LLM agents across 12 realistic, non-adversarial tasks,
+  identifying five risk types and proposing a methodology for assessing data-handling safety.
+harness_layer:
+- red-team
+sprs:
+- privacy
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a systematic evaluation of data leakage in agentic systems under realistic,
+    non-adversarial conditions, contributing to red-teaming and evaluation methodologies for agent privacy
+    and safety.
+status: draft

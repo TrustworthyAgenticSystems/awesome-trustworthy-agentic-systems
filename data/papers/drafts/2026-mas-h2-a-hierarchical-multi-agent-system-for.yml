@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mas-h2-a-hierarchical-multi-agent-system-for
+type: papers
+title: 'MAS-H2: A Hierarchical Multi-Agent System for Holistic Cloud-Native Autoscaling'
+url: https://arxiv.org/abs/2603.07607v1
+authors:
+- Hamed Hamzeh
+- Parisa Vahdatian
+venue: arXiv
+year: 2026
+summary: MAS-H2 is a hierarchical multi-agent system that decomposes cloud resource autoscaling into strategic,
+  planning, and execution layers to proactively manage pods and nodes, addressing the strategic void between
+  business policies and resource provisioning.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper presents a multi-agent system for cloud resource management, focusing on coordination
+    and planning to improve reliability and resource efficiency, which is a systems-level contribution.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-arbiter-detecting-interference-in-llm-agent-system-prompts
+type: papers
+title: 'Arbiter: Detecting Interference in LLM Agent System Prompts'
+url: https://arxiv.org/abs/2603.08993v1
+authors:
+- Tony Mason
+venue: arXiv
+year: 2026
+summary: Arbiter is a framework that uses formal evaluation rules and multi-model LLM scouring to detect
+  interference patterns and vulnerabilities in system prompts of coding agents, identifying structural
+  data loss and other issues.
+harness_layer:
+- red-team
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper presents a novel red-teaming framework for system prompts, identifying system-level
+    vulnerabilities like structural data loss in agent memory, which is directly relevant to trustworthy
+    agentic systems.
+status: draft

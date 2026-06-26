@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-autonomous-agent-orchestrated-digital-twins-aadt-leveraging-the
+type: papers
+title: 'Autonomous Agent-Orchestrated Digital Twins (AADT): Leveraging the OpenClaw Framework for State
+  Synchronization in Rare Genetic Disorders'
+url: https://arxiv.org/abs/2603.27104v1
+authors:
+- Hongzhuo Chen
+- Zhanliang Wang
+- Quan M. Nguyen
+- Gongbo Zhang
+- Chunhua Weng
+- Kai Wang
+venue: arXiv
+year: 2026
+summary: Proposes an Autonomous Agent-orchestrated Digital Twin (AADT) framework using OpenClaw's proactive
+  "heartbeat" and modular Agent Skills to continuously synchronize MDT states with evolving data streams,
+  enabling timely and auditable updates for rare genetic disorders.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper presents an end-to-end reference architecture for agentic systems in a critical
+    domain, addressing reliability and safety through continuous synchronization and auditable updates.
+status: draft

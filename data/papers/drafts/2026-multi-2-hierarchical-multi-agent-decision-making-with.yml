@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-multi-2-hierarchical-multi-agent-decision-making-with
+type: papers
+title: 'Multi$^2$: Hierarchical Multi-Agent Decision-Making with LLM-Based Agents in Interactive Environments'
+url: https://arxiv.org/abs/2606.03698v1
+authors:
+- Sangeun Park
+- Minhae Kwon
+venue: arXiv
+year: 2026
+summary: Multi$^2$ is a hierarchical multi-agent framework that decomposes decision-making into high-level
+  sub-goal generation and low-level atomic action execution to mitigate objective drift and improve long-horizon
+  control.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to multi-agent coordination and long-horizon reliability by addressing
+    objective drift through a hierarchical decomposition of agent roles.
+status: draft

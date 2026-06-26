@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-energy-per-successful-goal-goal-level-energy-accounting
+type: papers
+title: 'Energy per Successful Goal: Goal-Level Energy Accounting for Agentic AI Systems'
+url: https://arxiv.org/abs/2605.22883v1
+authors:
+- Deepak Panigrahy
+- Aakash Tyagi
+venue: arXiv
+year: 2026
+summary: A-LEMS is a cross-layer measurement framework that redefines AI energy accounting from energy
+  per inference to Energy per Successful Goal (EpG), aggregating total workflow energy across all execution
+  attempts for agentic systems.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper introduces a novel, system-level energy measurement framework for agentic systems,
+    directly addressing the observability and evaluation of long-horizon agent workflows.
+status: draft

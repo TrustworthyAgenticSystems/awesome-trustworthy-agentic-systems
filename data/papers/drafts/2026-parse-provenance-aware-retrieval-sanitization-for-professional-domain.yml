@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-parse-provenance-aware-retrieval-sanitization-for-professional-domain
+type: papers
+title: 'PARSE: Provenance-Aware Retrieval Sanitization for Professional Domain LLM Agents'
+url: https://arxiv.org/abs/2606.17467v1
+authors:
+- Aaditya Pai
+venue: arXiv
+year: 2026
+summary: Introduces PARSE, a provenance-aware retrieval sanitization pipeline that classifies sentences
+  by injection likelihood, extracts structured facts, and verifies fact preservation to defend against
+  prompt injection in real enterprise documents.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses prompt injection in RAG-backed agents by proposing a provenance-aware
+    sanitization pipeline for real-world enterprise documents.
+status: draft

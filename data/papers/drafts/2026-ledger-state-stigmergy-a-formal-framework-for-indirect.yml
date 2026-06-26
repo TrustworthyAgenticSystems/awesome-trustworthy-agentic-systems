@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ledger-state-stigmergy-a-formal-framework-for-indirect
+type: papers
+title: 'Ledger-State Stigmergy: A Formal Framework for Indirect Coordination Grounded in Distributed Ledger
+  State'
+url: https://arxiv.org/abs/2604.03997v1
+authors:
+- Fernando Paredes García
+venue: arXiv
+year: 2026
+summary: Introduces a formal framework for indirect coordination of autonomous agents on blockchains,
+  mapping stigmergy to distributed ledger technology and identifying recurring on-chain coordination patterns.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Provides a formal framework and design guidance for multi-agent coordination using shared
+    ledger state, which is relevant to the reliability of agentic systems.
+status: draft

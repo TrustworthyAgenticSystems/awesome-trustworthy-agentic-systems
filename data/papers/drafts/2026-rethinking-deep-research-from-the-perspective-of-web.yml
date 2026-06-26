@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-rethinking-deep-research-from-the-perspective-of-web
+type: papers
+title: Rethinking Deep Research from the Perspective of Web Content Distribution Matching
+url: https://arxiv.org/abs/2603.07241v1
+authors:
+- Zixuan Yu
+- Zhenheng Tang
+- Tongliang Liu
+- Chengqi Zhang
+- Xiaowen Chu
+- Bo Han
+venue: arXiv
+year: 2026
+summary: WeDas is a framework that improves deep search agents' retrieval by incorporating web content
+  distribution characteristics into the agent's observation space, using a few-shot probing mechanism
+  to estimate query-result alignment.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses a systems-level problem in agent memory (RAG) by improving the alignment
+    between agent queries and web content distribution, which is crucial for reliable evidence retrieval.
+status: draft

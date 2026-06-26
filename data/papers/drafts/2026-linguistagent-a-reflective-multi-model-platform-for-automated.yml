@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-linguistagent-a-reflective-multi-model-platform-for-automated
+type: papers
+title: 'LinguistAgent: A Reflective Multi-Model Platform for Automated Linguistic Annotation'
+url: https://arxiv.org/abs/2602.05493v1
+authors:
+- Bingru Li
+venue: arXiv
+year: 2026
+summary: LinguistAgent is a multi-agent platform with an Annotator and Reviewer workflow that simulates
+  peer-review for linguistic annotation, supporting comparative experiments across different LLM paradigms
+  and providing real-time token-level evaluation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system with a specific coordination mechanism (annotator/reviewer
+    workflow) and evaluation capabilities for a practical application, fitting the 'coordination' layer
+    and 'reliability' guarantee.
+status: draft

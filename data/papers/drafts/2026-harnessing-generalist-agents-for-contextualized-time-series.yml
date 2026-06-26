@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-harnessing-generalist-agents-for-contextualized-time-series
+type: papers
+title: Harnessing Generalist Agents for Contextualized Time Series
+url: https://arxiv.org/abs/2606.05404v1
+authors:
+- Zihao Li
+- Kaifeng Jin
+- Yuanchen Bei
+- Jiaru Zou
+- Avaneesh Kumar
+- Xuying Ning
+- Yanjun Zhao
+- Mengting Ai
+- Baoyu Jing
+- Hanghang Tong
+- Jingrui He
+venue: arXiv
+year: 2026
+summary: TimeClaw is an agentic harness framework that provides generalist LLM agents with time series-native
+  runtime support, including executable temporal tools, experience-driven capability evolution, and episodic
+  multimodal memory for contextualized temporal reasoning.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes an agentic harness framework with specific systems components (tools,
+    memory, runtime support) for a specialized domain, contributing to agent architectures.
+status: draft

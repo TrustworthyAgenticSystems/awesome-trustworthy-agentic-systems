@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-numerical-instability-and-chaos-quantifying-the-unpredictability-of
+type: papers
+title: 'Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models'
+url: https://arxiv.org/abs/2604.13206v1
+authors:
+- Chashi Mahiul Islam
+- Alan Villarreal
+- Mao Nishino
+- Shaeke Salman
+- Xiuwen Liu
+venue: arXiv
+year: 2026
+summary: Analyzes how numerical instability and floating-point rounding errors propagate through Transformer
+  layers, leading to unpredictable and chaotic behavior in LLMs, which impacts their reliability in agentic
+  workflows.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a fundamental reliability issue in LLM execution within agentic systems by analyzing
+    numerical instability and its propagation.
+status: draft

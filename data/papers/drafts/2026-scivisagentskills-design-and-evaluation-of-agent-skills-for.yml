@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-scivisagentskills-design-and-evaluation-of-agent-skills-for
+type: papers
+title: 'SciVisAgentSkills: Design and Evaluation of Agent Skills for Scientific Data Analysis and Visualization'
+url: https://arxiv.org/abs/2606.05525v1
+authors:
+- Kuangshi Ai
+- Haichao Miao
+- Kaiyuan Tang
+- Shusen Liu
+- Chaoli Wang
+venue: arXiv
+year: 2026
+summary: SciVisAgentSkills provides a collection of reusable agent skills that encode tool usage patterns
+  and domain heuristics to augment coding agents for scientific data analysis and visualization, improving
+  task completion and token efficiency.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the design of tool interfaces by encoding structured procedural
+    knowledge for reliable agent tool use in a specific domain.
+status: draft

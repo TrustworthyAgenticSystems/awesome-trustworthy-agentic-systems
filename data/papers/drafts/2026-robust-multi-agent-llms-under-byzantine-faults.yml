@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-robust-multi-agent-llms-under-byzantine-faults
+type: papers
+title: Robust Multi-Agent LLMs under Byzantine Faults
+url: https://arxiv.org/abs/2605.09076v1
+authors:
+- Haejoon Lee
+- Vincent-Daniel Yun
+- Hyeonho Oh
+- Dimitra Panagou
+- Sai Praneeth Karimireddy
+venue: arXiv
+year: 2026
+summary: Self-Anchored Consensus (SAC) is a decentralized iterative filter-and-refine protocol for multi-agent
+  LLM systems that enables agents to locally evaluate and filter unreliable messages, ensuring robustness
+  against Byzantine faults in peer-to-peer networks.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the reliability and security of multi-agent LLM coordination
+    under adversarial conditions, proposing a decentralized consensus protocol to mitigate Byzantine faults.
+status: draft

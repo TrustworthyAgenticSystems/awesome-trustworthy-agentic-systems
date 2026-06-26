@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentshield-deception-based-compromise-detection-for-tool-using
+type: papers
+title: 'AgentShield: Deception-based Compromise Detection for Tool-using LLM Agents'
+url: https://arxiv.org/abs/2605.11026v1
+authors:
+- Yassin H. Rassul
+- Tarik A. Rashid
+venue: arXiv
+year: 2026
+summary: AgentShield is a deception-based framework that uses fake tools, credentials, and allowlisted
+  parameters within the tool interface to detect successful indirect prompt injection attacks in LLM agents,
+  providing real-time compromise signals and self-supervised labels for a classifier.
+harness_layer:
+- tool-interface
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: The paper directly addresses a critical security vulnerability (indirect prompt injection)
+    in the agent's tool interface with a novel detection mechanism and robust evaluation.
+status: draft

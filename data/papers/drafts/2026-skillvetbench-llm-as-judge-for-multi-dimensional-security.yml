@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-skillvetbench-llm-as-judge-for-multi-dimensional-security
+type: papers
+title: 'SkillVetBench: LLM-as-Judge for Multi-Dimensional Security Risk Evaluation in Open-Source LLM
+  Agent Skills'
+url: https://arxiv.org/abs/2606.15899v1
+authors:
+- Ismail Hossain
+- Sai Puppala
+- Md Jahangir Alam
+- Tanzim Ahad
+- Sajedul Talukder
+venue: arXiv
+year: 2026
+summary: SKILLVETBENCH is a public leaderboard and LLM-as-Judge system for vetting open-source LLM agent
+  skills against multi-dimensional security risks, including instruction-layer and multi-agent threats,
+  demonstrating superior detection compared to static code analysis.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the security vetting of agent skills, including instruction-layer
+    attacks and multi-agent risk, which is a core red-teaming and supply-chain concern for trustworthy
+    agentic systems.
+status: draft

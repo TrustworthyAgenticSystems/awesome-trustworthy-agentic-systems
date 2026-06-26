@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-inference-routing-to-agent-orchestration-declarative-policy
+type: papers
+title: 'From Inference Routing to Agent Orchestration: Declarative Policy Compilation with Cross-Layer
+  Verification'
+url: https://arxiv.org/abs/2603.27299v1
+authors:
+- Huamin Chen
+- Xunzhuo Liu
+- Bowei He
+- Xue Liu
+venue: arXiv
+year: 2026
+summary: Extends a declarative, non-Turing-complete policy language from stateless inference routing to
+  multi-step agent orchestration, compiling verified decision nodes for various frameworks and infrastructure
+  artifacts to ensure consistent policy enforcement.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses the engineering of trustworthy agent coordination and policy
+    enforcement across the full stack, from agent logic to infrastructure, using a verifiable declarative
+    language.
+status: draft

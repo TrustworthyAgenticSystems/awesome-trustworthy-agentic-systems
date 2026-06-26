@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-illusion-of-multi-agent-advantage
+type: papers
+title: The Illusion of Multi-Agent Advantage
+url: https://arxiv.org/abs/2606.13003v2
+authors:
+- Prathyusha Jwalapuram
+- Hehai Lin
+- Chuyuan Li
+- Fangkai Jiao
+- Sudong Wang
+- Yifei Ming
+- Zixuan Ke
+- Chengwei Qin
+- Giuseppe Carenini
+- Shafiq Joty
+venue: arXiv
+year: 2026
+summary: Empirical study demonstrating that automatically generated multi-agent systems often underperform
+  simpler single-agent baselines and expert-architected MAS, highlighting architectural bloat and evaluation
+  framework limitations.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper critically evaluates the coordination and architectural design of multi-agent
+    systems, identifying reliability issues and evaluation gaps relevant to trustworthy agentic systems.
+status: draft

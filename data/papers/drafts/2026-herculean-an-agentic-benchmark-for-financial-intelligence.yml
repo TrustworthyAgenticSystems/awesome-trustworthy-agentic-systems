@@ -1,0 +1,91 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-herculean-an-agentic-benchmark-for-financial-intelligence
+type: papers
+title: 'Herculean: An Agentic Benchmark for Financial Intelligence'
+url: https://arxiv.org/abs/2605.14355v3
+authors:
+- Xueqing Peng
+- Zhuohan Xie
+- Yupeng Cao
+- Haohang Li
+- Lingfei Qian
+- Yan Wang
+- Vincent Jim Zhang
+- Huan He
+- Xuguang Ai
+- Linhai Ma
+- Ruoyu Xiang
+- Yueru He
+- Yi Han
+- Shuyao Wang
+- Yuqing Guo
+- Mingyang Jiang
+- Yilun Zhao
+- Youzhong Dong
+- Xiaoyu Wang
+- Yankai Chen
+- Ye Yuan
+- Qiyuan Zhang
+- Fuyuan Lyu
+- Haolun Wu
+- Yonghan Yang
+- Zichen Zhao
+- Yuyang Dai
+- Fan Zhang
+- Rania Elbadry
+- Ayesha Gull
+- Muhammad Usman Safder
+- Nuo Chen
+- Fengbin Zhu
+- Tianshi Cai
+- Zimu Wang
+- Polydoros Giannouris
+- Yuechen Jiang
+- Zhiwei Liu
+- Mohsinul Kabir
+- Yuyan Wang
+- Yixiang Zheng
+- Yangyang Yu
+- Weijin Liu
+- Wenbo Cao
+- Anke Xu
+- Peng Lu
+- Jerry Huang
+- Mingquan Lin
+- Prayag Tiwari
+- Yijia Zhao
+- Víctor Gutiérrez-Basulto
+- Xiao-Yang Liu
+- Kaleb E Smith
+- Jiahuan Pei
+- Arman Cohan
+- Jimin Huang
+- Yuehua Tang
+- Alejandro Lopez-Lira
+- Xi Chen
+- Xue Liu
+- Junichi Tsujii
+- Jian-Yun Nie
+- Sophia Ananiadou
+venue: arXiv
+year: 2026
+summary: Introduces Herculean, a skilled benchmark for agentic financial intelligence that evaluates end-to-end
+  workflow execution across four financial tasks using standardized MCP-based skill environments.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper contributes a system-level benchmark for evaluating the reliability and safety
+    of agentic systems in complex, high-stakes financial workflows, addressing long-horizon evaluation.
+status: draft

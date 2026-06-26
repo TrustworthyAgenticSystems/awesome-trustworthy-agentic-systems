@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentassay-token-efficient-regression-testing-for-non-deterministic
+type: papers
+title: 'AgentAssay: Token-Efficient Regression Testing for Non-Deterministic AI Agent Workflows'
+url: https://arxiv.org/abs/2603.02601v1
+authors:
+- Varun Pratap Bhardwaj
+venue: arXiv
+year: 2026
+summary: AgentAssay is a token-efficient framework for regression testing non-deterministic AI agent workflows,
+  using statistical verdicts, behavioral fingerprinting, and adaptive budget optimization to detect regressions
+  with significant cost reductions.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: 'This paper directly addresses a core systems-engineering problem of trustworthy agents:
+    regression testing and evaluation of non-deterministic workflows, with a concrete, token-efficient
+    methodology and empirical validation.'
+status: draft

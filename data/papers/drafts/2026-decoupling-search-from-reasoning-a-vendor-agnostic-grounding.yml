@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-decoupling-search-from-reasoning-a-vendor-agnostic-grounding
+type: papers
+title: 'Decoupling Search from Reasoning: A Vendor-Agnostic Grounding Architecture for LLM Agents'
+url: https://arxiv.org/abs/2606.18947v1
+authors:
+- Emmanuel Aboah Boateng
+- Kyle MacDonald
+- Amardeep Kumar
+- Siddharth Kodwani
+- Sudeep Das
+venue: arXiv
+year: 2026
+summary: Decoupled Search Grounding (DSG) provides a vendor-agnostic architecture for externalizing and
+  controlling real-time search grounding for LLM agents, improving inspectability, cost, and output contract
+  adherence.
+harness_layer:
+- memory
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper proposes a systems architecture for managing and controlling the retrieval component
+    of RAG-based agents, addressing reliability, cost, and output integrity concerns.
+status: draft

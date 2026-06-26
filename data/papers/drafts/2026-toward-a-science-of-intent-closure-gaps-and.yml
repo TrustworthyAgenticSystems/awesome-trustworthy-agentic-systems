@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-toward-a-science-of-intent-closure-gaps-and
+type: papers
+title: 'Toward a Science of Intent: Closure Gaps and Delegation Envelopes for Open-World AI Agents'
+url: https://arxiv.org/abs/2604.25000v2
+authors:
+- Maximiliano Armesto
+- Christophe Kolb
+venue: arXiv
+year: 2026
+summary: Proposes 'intent compilation' to transform human purpose into inspectable artifacts that bind
+  agent execution, formalizing residual openness as a closure-gap vector and defining delegation envelopes
+  for pre-authorized action spaces.
+harness_layer:
+- intent
+sprs:
+- safety
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: Directly addresses the problem of translating human intent into machine-checkable constraints
+    for open-world agents, a core challenge for trustworthy agentic systems.
+status: draft

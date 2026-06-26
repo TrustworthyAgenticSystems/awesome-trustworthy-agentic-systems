@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-poirot-interrogating-agents-for-failure-detection-in-multi
+type: papers
+title: 'POIROT: Interrogating Agents for Failure Detection in Multi-Agent Systems'
+url: https://arxiv.org/abs/2606.02282v1
+authors:
+- Iñaki Dellibarda Varela
+- R. Sendra-Arranz
+- Pablo Romero-Sorozabal
+- J. M. Valverde-García
+- Annemarie F. Laudanski
+- Álvaro Gutiérrez
+- Eduardo Rocon
+- Manuel Cebrian
+venue: arXiv
+year: 2026
+summary: POIROT is a protocol that repurposes a multi-agent system's own agents as a diagnostic layer
+  to detect emergent failures and hallucinations, outperforming single-LLM evaluators, and is released
+  with a fault attribution benchmark.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the problem of failure detection and safety oversight in multi-agent
+    systems by leveraging internal agent capabilities, which is a core systems-engineering challenge for
+    trustworthy agents.
+status: draft

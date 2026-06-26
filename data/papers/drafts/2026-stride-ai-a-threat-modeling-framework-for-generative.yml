@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-stride-ai-a-threat-modeling-framework-for-generative
+type: papers
+title: 'STRIDE-AI: A Threat Modeling Framework for Generative AI Security Assessment'
+url: https://arxiv.org/abs/2605.17163v1
+authors:
+- Tsafac Nkombong Regine Cyrille
+- Franziska Schwarz
+venue: arXiv
+year: 2026
+summary: STRIDE-AI is a threat modeling framework that adapts the classical STRIDE methodology for generative
+  AI systems, bridging high-level risk standards with technical vulnerability taxonomies to improve security
+  assessment.
+harness_layer:
+- foundations
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a foundational threat modeling framework specifically for generative
+    AI, addressing the probabilistic nature of AI systems and providing a structured approach to security
+    assessment.
+status: draft

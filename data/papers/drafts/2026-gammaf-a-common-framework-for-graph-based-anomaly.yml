@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-gammaf-a-common-framework-for-graph-based-anomaly
+type: papers
+title: 'GAMMAF: A Common Framework for Graph-Based Anomaly Monitoring Benchmarking in LLM Multi-Agent
+  Systems'
+url: https://arxiv.org/abs/2604.24477v1
+authors:
+- Pablo Mateo-Torrejón
+- Alfonso Sánchez-Macián
+venue: arXiv
+year: 2026
+summary: Introduces Gammaf, an open-source benchmarking platform for graph-based anomaly detection in
+  LLM multi-agent systems, which generates synthetic interaction datasets and evaluates defense models
+  by isolating flagged adversarial nodes.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper provides a systems-level benchmarking framework for evaluating anomaly detection
+    in multi-agent systems, directly addressing the need for reproducible evaluation of agent trustworthiness.
+status: draft

@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-copyright-data-scraping-ai-governance-toward-a
+type: papers
+title: 'Agentic Copyright, Data Scraping & AI Governance: Toward a Coasean Bargain in the Era of Artificial
+  Intelligence'
+url: https://arxiv.org/abs/2604.07546v1
+authors:
+- Paulius Jurcys
+- Mark Fenwick
+venue: arXiv
+year: 2026
+summary: Proposes a supervised multi-agent governance framework to embed legal rules, technical protocols,
+  and institutional oversight into multi-agent architectures for managing copyright in creative markets.
+harness_layer:
+- oversight
+sprs:
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.75
+  rationale: Addresses human oversight and governance of agent behavior at scale, specifically for legal
+    compliance and market ordering.
+status: draft

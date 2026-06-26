@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-co-evolving-agent-architectures-and-interpretable-reasoning-for
+type: papers
+title: Co-evolving Agent Architectures and Interpretable Reasoning for Automated Optimization
+url: https://arxiv.org/abs/2604.17708v2
+authors:
+- Jiahao Huang
+- Peilan Xu
+- Xiaoya Nan
+- Wenjian Luo
+venue: arXiv
+year: 2026
+summary: EvoOR-Agent is a co-evolutionary framework that represents agent workflows as activity-on-edge
+  networks to adaptively coordinate problem interpretation, mathematical formulation, solver selection,
+  code generation, and iterative debugging for complex operations research tasks.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the coordination layer by proposing an adaptive, evolvable framework
+    for agent workflows, improving reliability and interpretability in complex, multi-step tasks.
+status: draft

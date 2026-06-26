@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-clawtrace-cost-aware-tracing-for-llm-agent-skill
+type: papers
+title: 'ClawTrace: Cost-Aware Tracing for LLM Agent Skill Distillation'
+url: https://arxiv.org/abs/2604.23853v2
+authors:
+- Boqin Yuan
+- Yue Su
+- Renchu Song
+- Sen Yang
+- Jing Qin
+venue: arXiv
+year: 2026
+summary: ClawTrace introduces cost-attributed agent traces and a TraceCard schema to enable fine-grained
+  analysis and patching of distilled agent skills, revealing that different patch types have distinct
+  impacts on quality and cost.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to observation and evaluation by introducing cost-aware tracing and
+    a structured schema for analyzing agent skill distillation, directly impacting reliability and long-horizon
+    evaluation.
+status: draft

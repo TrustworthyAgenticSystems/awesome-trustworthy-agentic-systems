@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-search-time-contamination-in-deep-research-agents-measuring
+type: papers
+title: 'Search-Time Contamination in Deep Research Agents: Measuring Performance Inflation in Public Benchmark
+  Evaluation'
+url: https://arxiv.org/abs/2606.05241v1
+authors:
+- Yongjie Wang
+- Xinyue Zhang
+- Kunhong Yao
+- Zhiwei Zeng
+- Kaisong Song
+- Jun Lin
+- Zhiqi Shen
+venue: arXiv
+year: 2026
+summary: Systematic study of Search-Time Contamination (STC) in deep research agents, defining contamination
+  types and developing detection algorithms to quantify performance inflation due to external retrieval
+  of benchmark data.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses a critical evaluation reliability issue for web-searching agents by defining, detecting,
+    and quantifying contamination, and proposing mitigation practices.
+status: draft

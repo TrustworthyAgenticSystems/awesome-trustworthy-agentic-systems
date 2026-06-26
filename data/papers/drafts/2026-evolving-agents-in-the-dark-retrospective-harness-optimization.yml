@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-evolving-agents-in-the-dark-retrospective-harness-optimization
+type: papers
+title: 'Evolving Agents in the Dark: Retrospective Harness Optimization via Self-Preference'
+url: https://arxiv.org/abs/2606.05922v2
+authors:
+- Wenbo Pan
+- Shujie Liu
+- Chin-Yew Lin
+- Jingying Zeng
+- Xianfeng Tang
+- Xiangyang Zhou
+- Yan Lu
+- Xiaohua Jia
+venue: arXiv
+year: 2026
+summary: Retrospective Harness Optimization (RHO) is a self-supervised method that optimizes agent harnesses
+  by re-solving challenging past tasks, analyzing rollouts via self-validation and self-consistency, and
+  selecting updates based on self-preference, improving long-horizon accuracy without external ground
+  truth.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a self-supervised method for optimizing agent harnesses based on past
+    trajectories, directly addressing the reliability and long-horizon evaluation of agent systems in
+    deployment.
+status: draft

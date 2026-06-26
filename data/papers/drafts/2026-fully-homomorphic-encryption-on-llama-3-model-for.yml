@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-fully-homomorphic-encryption-on-llama-3-model-for
+type: papers
+title: Fully Homomorphic Encryption on Llama 3 model for privacy preserving LLM inference
+url: https://arxiv.org/abs/2604.12168v1
+authors:
+- Anes Abdennebi
+- Nadjia Kara
+- Laaziz Lahlou
+venue: arXiv
+year: 2026
+summary: Integrates Fully Homomorphic Encryption (FHE) into the LLM inference pipeline to protect sensitive
+  data and model parameters against privacy attacks, including those from quantum computing.
+harness_layer:
+- memory
+sprs:
+- privacy
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses privacy and security concerns within the LLM operational stack by applying FHE
+    to the inference pipeline, which is relevant to memory and execution-shell integrity.
+status: draft

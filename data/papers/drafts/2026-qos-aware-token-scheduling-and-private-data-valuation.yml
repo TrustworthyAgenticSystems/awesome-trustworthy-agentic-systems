@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-qos-aware-token-scheduling-and-private-data-valuation
+type: papers
+title: QoS-Aware Token Scheduling and Private Data Valuation for Multi-Modal Agentic Networks
+url: https://arxiv.org/abs/2606.15573v2
+authors:
+- Yao Du
+- Jing Liu
+- Pengfei Xu
+- Zehua Wang
+- Victor C. M. Leung
+- Cyril Leung
+- Victoria Lemieux
+venue: arXiv
+year: 2026
+summary: Proposes a fair token allocation scheme and private data valuation for decentralized agentic
+  systems, using differentially private prototypes to preserve utility and reduce semantic leakage in
+  multi-modal memory.
+harness_layer:
+- memory
+sprs:
+- privacy
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses privacy and fairness in decentralized data management for agentic systems, specifically
+    concerning memory and data contribution, with a technical approach using differential privacy.
+status: draft

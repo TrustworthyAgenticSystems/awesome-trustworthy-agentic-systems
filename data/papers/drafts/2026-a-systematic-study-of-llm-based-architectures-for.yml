@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-systematic-study-of-llm-based-architectures-for
+type: papers
+title: A Systematic Study of LLM-Based Architectures for Automated Patching
+url: https://arxiv.org/abs/2603.01257v1
+authors:
+- Qingxiao Xu
+- Ze Sheng
+- Zhicheng Chen
+- Jeff Huang
+venue: arXiv
+year: 2026
+summary: A systematic comparison of four LLM-based automated patching architectures, analyzing their trade-offs
+  in correctness, failure modes, token usage, and execution time on real-world vulnerability tasks.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a systematic study of architectural designs for LLM-based agents, directly
+    addressing systems-level trade-offs for reliability in a critical application.
+status: draft

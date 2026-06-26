@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-trade-offs-in-decentralized-agentic-ai-discovery-across
+type: papers
+title: Trade-offs in Decentralized Agentic AI Discovery Across the Compute Continuum
+url: https://arxiv.org/abs/2605.11839v1
+authors:
+- Patrizio Dazzi
+- Emanuele Carlini
+- Matteo Mordacchini
+- Saul Urso
+venue: arXiv
+year: 2026
+summary: This paper studies the trade-offs of decentralized discovery mechanisms for agentic systems across
+  cloud, edge, and intermittently connected domains, comparing Chord, Pastry, and Kademlia for discovery
+  reliability, startup behavior, and control-plane overhead.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the architectural understanding of decentralized agent discovery,
+    which is a systems-level concern for agent reliability across diverse compute environments.
+status: draft

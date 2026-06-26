@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-rollout-cards-a-reproducibility-standard-for-agent-research
+type: papers
+title: 'Rollout Cards: A Reproducibility Standard for Agent Research'
+url: https://arxiv.org/abs/2605.12131v1
+authors:
+- Charlie Masters
+- Ziyuan Liu
+- Stefano V. Albrecht
+venue: arXiv
+year: 2026
+summary: Proposes "rollout cards" as a reproducibility standard for agent research, preserving full rollout
+  records and declared reporting rules to address inconsistencies in reported scores and enable re-analysis.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses reproducibility and evaluation challenges in agentic systems by proposing
+    a concrete standard for capturing and reporting execution traces and evaluation rules.
+status: draft

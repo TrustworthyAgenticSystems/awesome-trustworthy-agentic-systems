@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-an-organization-scoped-llm-agent-runtime-architecture-for
+type: papers
+title: An Organization-Scoped LLM Agent Runtime Architecture for Regulated Cybersecurity Operations
+url: https://arxiv.org/abs/2605.30604v1
+authors:
+- George Fatouros
+- Georgios Makridis
+- George Kousiouris
+- John Soldatos
+- Dimosthenis Kyriazis
+venue: arXiv
+year: 2026
+summary: Proposes an organization-scoped LLM agent runtime architecture for regulated cybersecurity operations,
+  emphasizing a typed Security Context, governed Tool Adapter Layer, and tiered human-in-the-loop gates
+  for auditable and policy-enforced agent behavior.
+harness_layer:
+- architectures
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper proposes a concrete, auditable architecture for deploying LLM agents in regulated
+    environments, directly addressing systems-level concerns for trustworthiness.
+status: draft

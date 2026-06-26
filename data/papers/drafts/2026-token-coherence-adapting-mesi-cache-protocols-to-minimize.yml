@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-token-coherence-adapting-mesi-cache-protocols-to-minimize
+type: papers
+title: 'Token Coherence: Adapting MESI Cache Protocols to Minimize Synchronization Overhead in Multi-Agent
+  LLM Systems'
+url: https://arxiv.org/abs/2603.15183v1
+authors:
+- Vladyslav Parakhin
+venue: arXiv
+year: 2026
+summary: Proposes adapting MESI cache coherence protocols to multi-agent LLM systems to reduce synchronization
+  overhead, formally mapping cache states to artifact synchronization and providing a TLA+-verified protocol
+  and empirical validation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a systems-level reliability and performance problem in multi-agent coordination
+    with a formal, verified, and empirically validated solution.
+status: draft

@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-harness-bench-measuring-harness-effects-across-models-in
+type: papers
+title: 'Harness-Bench: Measuring Harness Effects across Models in Realistic Agent Workflows'
+url: https://arxiv.org/abs/2605.27922v1
+authors:
+- Yilun Yao
+- Xinyu Tan
+- Chao-Hsuan Liu
+- Yaoming Li
+- Zhengyang Wang
+- Wenhan Yu
+- Zhewen Tan
+- Yuxuan Tian
+- Guangxiang Zhao
+- Lin Sun
+- Xiangzheng Zhang
+- Tong Yang
+venue: arXiv
+year: 2026
+summary: Harness-Bench is a diagnostic benchmark for evaluating the impact of different harness configurations
+  on agent performance, process quality, and failure behavior in realistic, sandboxed agent workflows.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper introduces a benchmark specifically designed to measure and diagnose the effects
+    of the agentic system's harness layer on trustworthiness, directly addressing a core problem in agent
+    evaluation.
+status: draft

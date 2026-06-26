@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-outrunning-llm-cutoffs-a-live-kernel-crash-resolution
+type: papers
+title: 'Outrunning LLM Cutoffs: A Live Kernel Crash Resolution Benchmark for All'
+url: https://arxiv.org/abs/2602.02690v3
+authors:
+- Chenxi Huang
+- Alex Mathai
+- Feiyang Yu
+- Aleksandr Nogikh
+- Petros Maniatis
+- Franjo Ivančić
+- Eugene Wu
+- Kostis Kaffes
+- Junfeng Yang
+- Baishakhi Ray
+venue: arXiv
+year: 2026
+summary: Live-kBench is an evaluation framework for self-evolving benchmarks that continuously scrapes
+  and evaluates agents on freshly discovered kernel bugs, and kEnv provides a standardized crash-resolution
+  environment for kernel compilation, execution, and feedback.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a system for continuous evaluation and benchmarking of LLM agents in
+    a live, evolving environment, directly addressing long-horizon evaluation and reliability for agentic
+    systems.
+status: draft

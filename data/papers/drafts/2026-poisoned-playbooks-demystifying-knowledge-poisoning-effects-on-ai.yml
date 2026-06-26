@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-poisoned-playbooks-demystifying-knowledge-poisoning-effects-on-ai
+type: papers
+title: 'Poisoned Playbooks: Demystifying Knowledge Poisoning Effects on AI Security Agents'
+url: https://arxiv.org/abs/2606.24402v1
+authors:
+- Juho Park
+- Hyunmin Choi
+- Kevin Nam
+venue: arXiv
+year: 2026
+summary: This paper demonstrates how poisoned security knowledge write-ups, injected into RAG sources,
+  systematically alter the behavior of AI security agents, and proposes a Verification Boundary classification
+  to explain poison adoption patterns.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses memory poisoning in RAG-based agents, a critical security and
+    reliability concern for trustworthy agentic systems, with empirical analysis and proposed mitigation
+    strategies.
+status: draft

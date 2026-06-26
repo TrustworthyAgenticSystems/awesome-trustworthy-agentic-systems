@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-differentiable-bayesian-relaxation-for-latent-partial-order
+type: papers
+title: A Differentiable Bayesian Relaxation for Latent Partial-Order Inference
+url: https://arxiv.org/abs/2605.06976v1
+authors:
+- Dongqing Li
+- Geoff K. Nicholls
+- Shiyi Sun
+- You Luo
+venue: arXiv
+year: 2026
+summary: Introduces a differentiable Bayesian relaxation for inferring latent partial-order structures
+  from linearized agent and workflow traces, enabling more accurate and scalable analysis of true prerequisites
+  and dependencies.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses the problem of inferring true causal dependencies from linearized agent traces,
+    which is crucial for understanding and evaluating agent behavior and reliability.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-large-language-models-exhibit-normative-conformity
+type: papers
+title: Large Language Models Exhibit Normative Conformity
+url: https://arxiv.org/abs/2604.19301v1
+authors:
+- Mikako Bito
+- Keita Nishimoto
+- Kimitaka Asatani
+- Ichiro Sakata
+venue: arXiv
+year: 2026
+summary: Investigates informational and normative conformity in LLMs within multi-agent systems, demonstrating
+  how LLMs can be manipulated by social context and suggesting distinct internal mechanisms for these
+  behaviors.
+harness_layer:
+- coordination
+sprs:
+- security
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper directly addresses a vulnerability in multi-agent coordination by analyzing how
+    LLMs conform to group norms, which can be exploited by malicious actors.
+status: draft

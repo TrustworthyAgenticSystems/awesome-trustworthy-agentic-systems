@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mas-prove-understanding-the-process-verification-of-multi
+type: papers
+title: 'MAS-ProVe: Understanding the Process Verification of Multi-Agent Systems'
+url: https://arxiv.org/abs/2602.03053v1
+authors:
+- Vishal Venkataramani
+- Haizhou Shi
+- Zixuan Ke
+- Austin Xu
+- Xiaoxiao He
+- Yingbo Zhou
+- Semih Yavuz
+- Hao Wang
+- Shafiq Joty
+venue: arXiv
+year: 2026
+summary: An empirical study of process verification paradigms and granularities for multi-agent systems,
+  evaluating their effectiveness and variance in guiding coordination and identifying challenges in reliably
+  evaluating partial multi-agent trajectories.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses the observation and evaluation of multi-agent system behavior,
+    specifically focusing on process verification of intermediate steps, which is a core systems-engineering
+    concern for reliability.
+status: draft

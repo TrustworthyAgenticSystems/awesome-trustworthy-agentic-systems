@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-known-by-their-actions-fingerprinting-llm-browser-agents
+type: papers
+title: 'Known By Their Actions: Fingerprinting LLM Browser Agents via UI Traces'
+url: https://arxiv.org/abs/2605.14786v1
+authors:
+- William Lugoloobi
+- Samuelle Marro
+- Jabez Magomere
+- Joss Wright
+- Chris Russell
+venue: arXiv
+year: 2026
+summary: Demonstrates a passive fingerprinting attack on LLM browser agents by analyzing UI traces and
+  interaction timings to identify the underlying model, posing a security risk for targeted attacks.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper identifies a novel red-team attack surface for LLM agents by passively fingerprinting
+    their underlying models through UI traces, directly contributing to agent security.
+status: draft

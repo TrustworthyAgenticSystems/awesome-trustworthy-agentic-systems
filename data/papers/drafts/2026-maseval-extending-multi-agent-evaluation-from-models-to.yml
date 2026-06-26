@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-maseval-extending-multi-agent-evaluation-from-models-to
+type: papers
+title: 'MASEval: Extending Multi-Agent Evaluation from Models to Systems'
+url: https://arxiv.org/abs/2603.08835v1
+authors:
+- Cornelius Emde
+- Alexander Rubinstein
+- Anmol Goel
+- Ahmed Heakl
+- Sangdoo Yun
+- Seong Joon Oh
+- Martin Gubri
+venue: arXiv
+year: 2026
+summary: MASEval is a framework-agnostic evaluation library that treats the entire multi-agent system,
+  including topology, orchestration, and error handling, as the unit of analysis, demonstrating that framework
+  choice significantly impacts performance.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the system-level evaluation gap for multi-agent systems, moving beyond
+    model-centric benchmarks to assess the full operational stack.
+status: draft

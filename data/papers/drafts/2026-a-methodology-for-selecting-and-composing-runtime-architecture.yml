@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-methodology-for-selecting-and-composing-runtime-architecture
+type: papers
+title: A Methodology for Selecting and Composing Runtime Architecture Patterns for Production LLM Agents
+url: https://arxiv.org/abs/2605.20173v1
+authors:
+- Vasundra Srinivasan
+venue: arXiv
+year: 2026
+summary: Introduces the stochastic-deterministic boundary (SDB) as a core architectural primitive for
+  LLM agent runtimes, catalogs six runtime patterns, and provides a methodology for selecting and composing
+  them to improve reliability and manage replay divergence.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Provides a foundational architectural methodology and catalog of patterns for engineering
+    reliable and safe production LLM agent systems, directly addressing the stochastic-deterministic boundary.
+status: draft

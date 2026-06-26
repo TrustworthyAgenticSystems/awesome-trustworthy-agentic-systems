@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-shield-to-target-denial-of-service-attacks
+type: papers
+title: 'From Shield to Target: Denial-of-Service Attacks on LLM-Based Agent Guardrails'
+url: https://arxiv.org/abs/2606.14517v2
+authors:
+- Yuguang Zhou
+- Xunguang Wang
+- Pingchuan Ma
+- Zhantong Xue
+- Zhaoyu Wang
+- Shuai Wang
+venue: arXiv
+year: 2026
+summary: Demonstrates a denial-of-service attack on LLM-based agent guardrails by trapping them in extended
+  reasoning loops, leading to significant token and latency amplification in both standalone and end-to-end
+  agent deployments.
+harness_layer:
+- red-team
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper identifies a novel system-level DoS vulnerability in agent guardrails, providing
+    a systematic attack framework and evaluating its impact on real-world agent deployments.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-preregistered-belief-revision-contracts
+type: papers
+title: Preregistered Belief Revision Contracts
+url: https://arxiv.org/abs/2604.15558v1
+authors:
+- Saad Alqithami
+venue: arXiv
+year: 2026
+summary: Introduces Preregistered Belief Revision Contracts (PBRC), a protocol-level mechanism for multi-agent
+  systems that separates communication from epistemic change, ensuring auditable and enforceable belief
+  revisions based on externally validated evidence.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses trustworthiness in multi-agent coordination by enforcing auditable and
+    evidence-based belief revision, preventing conformity effects.
+status: draft

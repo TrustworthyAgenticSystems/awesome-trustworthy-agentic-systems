@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentdropoutv2-optimizing-information-flow-in-multi-agent-systems
+type: papers
+title: 'AgentDropoutV2: Optimizing Information Flow in Multi-Agent Systems via Test-Time Rectify-or-Reject
+  Pruning'
+url: https://arxiv.org/abs/2602.23258v2
+authors:
+- Yutong Wang
+- Siyuan Xiong
+- Xuebo Liu
+- Wenkang Zhou
+- Liang Ding
+- Miao Zhang
+- Min Zhang
+venue: arXiv
+year: 2026
+summary: AgentDropoutV2 is a test-time rectify-or-reject pruning framework that acts as an active firewall
+  to intercept and correct or prune erroneous information from individual agents in multi-agent systems,
+  guided by distilled error patterns.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a system-level framework for dynamically managing information flow and
+    error propagation in multi-agent systems, directly addressing reliability concerns in coordination.
+status: draft

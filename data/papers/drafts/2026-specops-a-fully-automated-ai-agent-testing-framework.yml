@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-specops-a-fully-automated-ai-agent-testing-framework
+type: papers
+title: 'SpecOps: A Fully Automated AI Agent Testing Framework in Real-World GUI Environments'
+url: https://arxiv.org/abs/2603.10268v1
+authors:
+- Syed Yusuf Ahmed
+- Shiwei Feng
+- Chanwoo Bae
+- Calix Barrus Xiangyu Zhang
+venue: arXiv
+year: 2026
+summary: SpecOps is a fully automated testing framework that uses specialized LLM agents to generate,
+  execute, and validate test cases for GUI-based AI agents in real-world environments, demonstrating practical
+  viability and bug detection effectiveness.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a concrete, automated testing framework for real-world agentic systems,
+    directly addressing the challenge of evaluating complex agent behavior in production-like environments.
+status: draft

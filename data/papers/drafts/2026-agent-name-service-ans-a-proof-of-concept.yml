@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agent-name-service-ans-a-proof-of-concept
+type: papers
+title: 'Agent Name Service (ANS): A Proof-of-Concept Trust Layer for Secure AI Agent Discovery, Identity,
+  and Governance in Kubernetes'
+url: https://arxiv.org/abs/2604.26997v1
+authors:
+- Akshay Mittal
+- Elyson De La Cruz
+venue: arXiv
+year: 2026
+summary: A proof-of-concept implementation of an Agent Name Service (ANS) in Kubernetes, using DIDs, VCs,
+  and OPA, to provide secure discovery, identity, capability attestation, and policy governance for multi-agent
+  systems.
+harness_layer:
+- architectures
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper presents a concrete architectural solution for secure agent discovery, identity,
+    and governance within a Kubernetes environment, directly addressing systems-level trust concerns.
+status: draft

@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-ai-in-industry-adoption-level-and-deployment
+type: papers
+title: 'Agentic AI in Industry: Adoption Level and Deployment Barriers'
+url: https://arxiv.org/abs/2605.14675v1
+authors:
+- Spyridon Alvanakis Apostolou
+- Jan Bosch
+- Helena Holmström Olsson
+venue: arXiv
+year: 2026
+summary: Qualitative interview study with industry practitioners characterizing the adoption maturity
+  of agentic AI and identifying a capability-deployment verification gap due to absent output verification
+  mechanisms and non-determinism.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Empirical study of real-world agentic system adoption and deployment barriers, highlighting
+    critical systems-level challenges like verification and non-determinism in production.
+status: draft

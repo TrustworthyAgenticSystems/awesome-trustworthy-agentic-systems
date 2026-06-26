@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentgate-a-lightweight-structured-routing-engine-for-the
+type: papers
+title: 'AgentGate: A Lightweight Structured Routing Engine for the Internet of Agents'
+url: https://arxiv.org/abs/2604.06696v1
+authors:
+- Yujun Cheng
+- Enfang Cui
+- Hao Qin
+- Zhiyuan Liang
+- Qi Xu
+venue: arXiv
+year: 2026
+summary: AgentGate is a lightweight structured routing engine that decomposes agent request dispatch into
+  action decision and structural grounding, enabling efficient and privacy-aware coordination for the
+  Internet of Agents.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- security
+- privacy
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses efficient and constrained request dispatch and coordination in multi-agent
+    systems, which is a core systems problem for trustworthy agentic systems.
+status: draft

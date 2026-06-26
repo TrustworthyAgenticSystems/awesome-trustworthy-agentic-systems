@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-attack-success-rate-examining-trigger-leakage-in
+type: papers
+title: 'Beyond Attack Success Rate: Examining Trigger Leakage in Vision-Language Agentic Systems'
+url: https://arxiv.org/abs/2606.12586v1
+authors:
+- Jiamin Chang
+- Salil Kanhere
+- Piotr Koniusz
+- Jason
+- Xue
+- Hammond Pearce
+venue: arXiv
+year: 2026
+summary: Formalizes and quantifies "trigger leakage" in Vision-Language Agentic Systems, where inputs
+  visually or semantically close to a backdoor trigger inadvertently activate malicious behavior, and
+  proposes a defense using hard-negative samples.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses a system-level adversarial threat (backdoor trigger leakage) in VLAS, including
+    its propagation into executable programs and action sequences, with a concrete defense.
+status: draft

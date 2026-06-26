@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governing-evolving-memory-in-llm-agents-risks-mechanisms
+type: papers
+title: 'Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed
+  Memory (SSGM) Framework'
+url: https://arxiv.org/abs/2603.11768v2
+authors:
+- Chingkwun Lam
+- Jiaxin Li
+- Lingfei Zhang
+- Kuo Zhao
+venue: arXiv
+year: 2026
+summary: Proposes the Stability and Safety-Governed Memory (SSGM) framework, a conceptual governance architecture
+  that decouples memory evolution from execution to mitigate memory corruption risks, semantic drift,
+  and knowledge leakage in dynamic agentic memory systems.
+harness_layer:
+- memory
+sprs:
+- security
+- privacy
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses critical systems-engineering challenges in agent memory governance, including
+    integrity, privacy, and safety, with a proposed architectural framework.
+status: draft

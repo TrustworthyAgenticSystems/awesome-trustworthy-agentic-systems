@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-lessons-from-penetration-tests-on-large-scale-agent
+type: papers
+title: Lessons from Penetration Tests on Large-Scale Agent Systems
+url: https://arxiv.org/abs/2605.27042v1
+authors:
+- Kevin Eykholt
+- Dhilung Kirat
+- Xiaokui Shu
+- Jiyong Jang
+- Frederico Araujo
+- Ian Molloy
+venue: arXiv
+year: 2026
+summary: Presents findings from two penetration tests on proprietary agent systems, evaluating their security
+  posture and identifying recurring classes of vulnerabilities in execution-capable AI agents.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses adversarial testing and security vulnerabilities in real-world, proprietary
+    agent systems, providing insights into system-level weaknesses.
+status: draft

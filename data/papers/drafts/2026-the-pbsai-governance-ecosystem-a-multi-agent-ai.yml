@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-pbsai-governance-ecosystem-a-multi-agent-ai
+type: papers
+title: 'The PBSAI Governance Ecosystem: A Multi-Agent AI Reference Architecture for Securing Enterprise
+  AI Estates'
+url: https://arxiv.org/abs/2602.11301v1
+authors:
+- John M. Willis
+venue: arXiv
+year: 2026
+summary: Introduces the PBSAI Governance Ecosystem, a multi-agent reference architecture for securing
+  enterprise AI estates, defining bounded agent families and shared context envelopes to mediate between
+  tools and policy.
+harness_layer:
+- architectures
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper proposes a concrete multi-agent reference architecture for securing enterprise
+    AI estates, directly addressing systems-level trustworthiness.
+status: draft

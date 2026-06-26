@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cryptoanalystbench-failures-in-multi-tool-long-form-llm
+type: papers
+title: 'CryptoAnalystBench: Failures in Multi-Tool Long-Form LLM Analysis'
+url: https://arxiv.org/abs/2602.11304v1
+authors:
+- Anushri Eswaran
+- Oleg Golev
+- Darshan Tank
+- Sidhant Rahi
+- Himanshu Tyagi
+venue: arXiv
+year: 2026
+summary: Introduces CryptoAnalystBench, a benchmark and evaluation pipeline for multi-tool, long-form
+  LLM analysis in high-data-density domains, identifying a taxonomy of seven higher-order error types
+  not captured by standard factuality checks.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides a concrete benchmark and evaluation methodology for identifying complex failure
+    modes in multi-tool agentic systems, directly addressing long-horizon evaluation challenges.
+status: draft

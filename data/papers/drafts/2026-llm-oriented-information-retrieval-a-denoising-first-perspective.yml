@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-llm-oriented-information-retrieval-a-denoising-first-perspective
+type: papers
+title: 'LLM-Oriented Information Retrieval: A Denoising-First Perspective'
+url: https://arxiv.org/abs/2605.00505v2
+authors:
+- Lu Dai
+- Liang Sun
+- Fanpu Cao
+- Ziyang Rao
+- Cehao Yang
+- Hao Liu
+- Hui Xiong
+venue: arXiv
+year: 2026
+summary: This perspective paper argues that denoising is the primary bottleneck for LLM-oriented information
+  retrieval in RAG and agentic search, proposing a four-stage framework of IR challenges and a taxonomy
+  of signal-to-noise optimization techniques across the information access pipeline.
+harness_layer:
+- memory
+sprs:
+- reliability
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses the problem of noise in RAG and agent memory, which is critical
+    for agent trustworthiness, and provides a systems-level taxonomy of denoising techniques.
+status: draft

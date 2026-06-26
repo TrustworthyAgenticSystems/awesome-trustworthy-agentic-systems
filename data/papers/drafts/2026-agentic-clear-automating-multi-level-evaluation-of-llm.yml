@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-clear-automating-multi-level-evaluation-of-llm
+type: papers
+title: 'Agentic CLEAR: Automating Multi-Level Evaluation of LLM Agents'
+url: https://arxiv.org/abs/2605.22608v1
+authors:
+- Asaf Yehudai
+- Lilach Eden
+- Michal Shmueli-Scheuer
+venue: arXiv
+year: 2026
+summary: Agentic CLEAR is an automatic, dynamic evaluation framework that provides multi-level textual
+  insights into agent behavior (system, trace, node) to address the challenges of overseeing and assessing
+  autonomous agents.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly contributes to the observation and evaluation of agentic systems by providing
+    a framework for multi-level, dynamic assessment of agent behavior.
+status: draft

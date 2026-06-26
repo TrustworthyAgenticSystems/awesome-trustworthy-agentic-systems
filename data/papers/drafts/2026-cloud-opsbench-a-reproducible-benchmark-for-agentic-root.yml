@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cloud-opsbench-a-reproducible-benchmark-for-agentic-root
+type: papers
+title: 'Cloud-OpsBench: A Reproducible Benchmark for Agentic Root Cause Analysis in Cloud Systems'
+url: https://arxiv.org/abs/2603.00468v1
+authors:
+- Yilun Wang
+- Guangba Yu
+- Haiyu Huang
+- Zirui Wang
+- Yujie Huang
+- Pengfei Chen
+- Michael R. Lyu
+venue: arXiv
+year: 2026
+summary: Cloud-OpsBench is a reproducible benchmark for agentic root cause analysis in cloud systems,
+  using a state snapshot paradigm to create a deterministic digital twin for evaluating active reasoning
+  and training agents.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a benchmark and infrastructure for evaluating and training agents in
+    a reproducible cloud environment, directly addressing long-horizon evaluation and reliability for
+    agentic systems.
+status: draft

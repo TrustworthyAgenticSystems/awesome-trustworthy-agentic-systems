@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-custody-envelope-threshold-authority-scaled-admission-of
+type: papers
+title: 'The Custody Envelope Threshold: Authority-Scaled Admission of External Artifacts in Institutional
+  Infrastructure'
+url: https://arxiv.org/abs/2606.06767v1
+authors:
+- Amadeus Brandes
+venue: arXiv
+year: 2026
+summary: Proposes the Custody Envelope Threshold, an authority-scaled model for admitting external artifacts
+  into institutional infrastructure, connecting object identity, ingress path, and revocation capacity
+  to the delegated execution authority.
+harness_layer:
+- supply-chain
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the supply-chain security and governance of external artifacts, including
+    AI tool servers and model artifacts, within institutional infrastructure.
+status: draft

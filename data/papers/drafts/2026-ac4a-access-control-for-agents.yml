@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ac4a-access-control-for-agents
+type: papers
+title: 'AC4A: Access Control for Agents'
+url: https://arxiv.org/abs/2603.20933v1
+authors:
+- Reshabh K Sharma
+- Dan Grossman
+venue: arXiv
+year: 2026
+summary: AC4A is an access control framework for LLM agents that enables fine-grained, hierarchical permission
+  definition and enforcement for API and browser-based interactions, addressing the problem of agents
+  having excessive access.
+harness_layer:
+- permissions
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the critical systems-engineering problem of least-privilege
+    access control for agentic systems, providing a concrete framework and demonstrating its utility.
+status: draft

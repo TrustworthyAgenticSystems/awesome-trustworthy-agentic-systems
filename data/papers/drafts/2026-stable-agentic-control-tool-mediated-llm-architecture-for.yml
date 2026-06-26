@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-stable-agentic-control-tool-mediated-llm-architecture-for
+type: papers
+title: 'Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense'
+url: https://arxiv.org/abs/2605.03034v1
+authors:
+- Kerri Prinos
+- Lilianne Brush
+- Cameron Denton
+- Zhanqi Wang
+- Joshua Knox
+- Snehal Antani
+- Anton Foltz
+- Amy Villaseñor
+venue: arXiv
+year: 2026
+summary: A tool-mediated LLM agent architecture for autonomous cyber defense that uses deterministic tools
+  and finite action catalogs, with formal guarantees of controllability, observability, and Input-to-State
+  Stability (ISS) machine-checked in Lean 4.
+harness_layer:
+- architectures
+sprs:
+- security
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper presents a novel agentic system architecture with formal guarantees for high-stakes
+    adversarial environments, directly addressing trustworthiness in agent design.
+status: draft

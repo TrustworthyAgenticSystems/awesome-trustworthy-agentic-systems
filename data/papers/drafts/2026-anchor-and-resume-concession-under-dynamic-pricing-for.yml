@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-anchor-and-resume-concession-under-dynamic-pricing-for
+type: papers
+title: Anchor-and-Resume Concession Under Dynamic Pricing for LLM-Augmented Freight Negotiation
+url: https://arxiv.org/abs/2604.20732v1
+authors:
+- Hoang Nguyen
+- Lu Wang
+- Marta Gaia Bras
+venue: arXiv
+year: 2026
+summary: A two-index anchor-and-resume framework for freight negotiation that guarantees monotonically
+  non-decreasing offers under dynamic pricing shifts, decoupling LLM from core pricing logic for reliability
+  and transparency.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper presents a system architecture for LLM-augmented negotiation that addresses reliability
+    and safety concerns by ensuring monotonic offers and decoupling the LLM from critical pricing logic.
+status: draft

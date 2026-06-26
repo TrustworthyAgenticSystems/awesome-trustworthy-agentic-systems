@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentforesight-online-auditing-for-early-failure-prediction-in
+type: papers
+title: 'AgentForesight: Online Auditing for Early Failure Prediction in Multi-Agent Systems'
+url: https://arxiv.org/abs/2605.08715v2
+authors:
+- Boxuan Zhang
+- Jianing Zhu
+- Zeru Shi
+- Dongfang Liu
+- Ruixiang Tang
+venue: arXiv
+year: 2026
+summary: AgentForesight is a framework for online auditing of multi-agent systems that predicts decisive
+  errors early in a trajectory, enabling intervention before full failure, and is evaluated on a new corpus
+  of agentic trajectories.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses online observation and early failure prediction in multi-agent
+    systems, which is a critical aspect of trustworthy agentic systems.
+status: draft

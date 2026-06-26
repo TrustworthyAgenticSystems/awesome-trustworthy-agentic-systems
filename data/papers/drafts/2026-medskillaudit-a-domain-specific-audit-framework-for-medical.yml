@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-medskillaudit-a-domain-specific-audit-framework-for-medical
+type: papers
+title: 'MedSkillAudit: A Domain-Specific Audit Framework for Medical Research Agent Skills'
+url: https://arxiv.org/abs/2604.20441v1
+authors:
+- Yingyong Hou
+- Xinyuan Lao
+- Huimei Wang
+- Qianyu Yao
+- Wei Chen
+- Bocheng Huang
+- Fei Sun
+- Yuxian Lv
+- Weiqi Lei
+- Xueqian Wen
+- Pengfei Xia
+- Zhujun Tan
+- Shengyang Xie
+venue: arXiv
+year: 2026
+summary: MedSkillAudit is a layered framework for pre-deployment auditing of medical research agent skills,
+  focusing on reliability against expert review and assessing release readiness.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper contributes a domain-specific audit framework for agent skills, addressing human
+    oversight and evaluation of agent reliability and safety before deployment.
+status: draft

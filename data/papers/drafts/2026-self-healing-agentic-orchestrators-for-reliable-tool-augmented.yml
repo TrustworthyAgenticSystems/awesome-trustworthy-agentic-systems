@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-self-healing-agentic-orchestrators-for-reliable-tool-augmented
+type: papers
+title: Self-Healing Agentic Orchestrators for Reliable Tool-Augmented Large Language Model Systems
+url: https://arxiv.org/abs/2606.01416v1
+authors:
+- Rahul Suresh Babu
+- Adarsh Agrawal
+venue: arXiv
+year: 2026
+summary: A self-healing agentic orchestrator that maps failure signals to recovery actions under budget,
+  verifies recovered trajectories, and records observability traces, demonstrating improved reliability
+  and diagnosability in tool-augmented LLM systems.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the systems-level problem of reliability in agentic orchestrators
+    by proposing a self-healing mechanism for runtime control and recovery.
+status: draft

@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-prompt-overflow-what-the-guardrail-inspects-is-not
+type: papers
+title: 'Prompt Overflow: What the Guardrail Inspects Is Not What the Model Infers'
+url: https://arxiv.org/abs/2605.23196v1
+authors:
+- Yuanbo Zhou
+- Changjia Zhu
+- Junyu Wang
+- Xu He
+- Yan Zhai
+- Kun Sun
+- Mingkui Wei
+- Junjie Xiong
+venue: arXiv
+year: 2026
+summary: Identifies and demonstrates a "Prompt Overflow Attack" that exploits the mismatch between guardrail
+  inspection windows and LLM inference windows to bypass safety checks with fragmented malicious instructions.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper describes a novel red-teaming attack that targets a specific system-level vulnerability
+    in how guardrails process long inputs, directly impacting agent security.
+status: draft

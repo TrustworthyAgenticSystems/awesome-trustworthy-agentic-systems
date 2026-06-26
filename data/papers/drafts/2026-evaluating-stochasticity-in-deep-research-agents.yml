@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-evaluating-stochasticity-in-deep-research-agents
+type: papers
+title: Evaluating Stochasticity in Deep Research Agents
+url: https://arxiv.org/abs/2602.23271v1
+authors:
+- Haotian Zhai
+- Elias Stengel-Eskin
+- Pratik Patil
+- Liu Leqi
+venue: arXiv
+year: 2026
+summary: Formalizes and quantifies stochasticity in Deep Research Agents (DRAs) as an information acquisition
+  Markov Decision Process, identifying sources of variance and proposing mitigation strategies like structured
+  output and ensemble-based query generation to improve research output quality.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a critical reliability concern (stochasticity) in agentic systems through formal
+    modeling, evaluation, and mitigation strategies, directly contributing to trustworthy agent engineering.
+status: draft

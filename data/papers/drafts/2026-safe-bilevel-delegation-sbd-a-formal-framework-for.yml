@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-safe-bilevel-delegation-sbd-a-formal-framework-for
+type: papers
+title: 'Safe Bilevel Delegation (SBD): A Formal Framework for Runtime Delegation Safety in Multi-Agent
+  Systems'
+url: https://arxiv.org/abs/2604.27358v1
+authors:
+- Yuan Sun
+venue: arXiv
+year: 2026
+summary: A formal framework for runtime delegation safety in hierarchical multi-agent systems that dynamically
+  adjusts safety-efficiency trade-offs and controls decision authority transfer to sub-agents.
+harness_layer:
+- coordination
+sprs:
+- safety
+- reliability
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a formal framework for runtime delegation safety in multi-agent systems,
+    directly addressing a systems-level concern for trustworthy agent coordination.
+status: draft

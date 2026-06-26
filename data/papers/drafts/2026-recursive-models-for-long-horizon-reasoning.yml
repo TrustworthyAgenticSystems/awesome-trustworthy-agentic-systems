@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-recursive-models-for-long-horizon-reasoning
+type: papers
+title: Recursive Models for Long-Horizon Reasoning
+url: https://arxiv.org/abs/2603.02112v1
+authors:
+- Chenxiao Yang
+- Nathan Srebro
+- Zhiyuan Li
+venue: arXiv
+year: 2026
+summary: Proposes recursive models as a framework for long-horizon reasoning by decomposing tasks into
+  subtasks with isolated contexts, demonstrating improved performance on combinatorial search.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a system-level approach (recursive decomposition) to manage context
+    and enable long-horizon reasoning in agentic systems, which is a core reliability concern.
+status: draft

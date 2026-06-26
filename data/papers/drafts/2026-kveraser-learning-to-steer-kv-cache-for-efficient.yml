@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-kveraser-learning-to-steer-kv-cache-for-efficient
+type: papers
+title: 'KVEraser: Learning to Steer KV Cache for Efficient Localized Context Erasing'
+url: https://arxiv.org/abs/2606.17034v1
+authors:
+- Mufei Li
+- Shikun Liu
+- Dongqi Fu
+- Haoyu Wang
+- Yinglong Xia
+- Hong Li
+- Hong Yan
+- Pan Li
+venue: arXiv
+year: 2026
+summary: KVEraser is a learned KV-cache editing method that enables efficient localized context erasing
+  by replacing only the KV states of the erased interval with learned steering states, addressing the
+  challenge of post-hoc context modification in long-context LLM applications.
+harness_layer:
+- memory
+sprs:
+- reliability
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses a systems-level problem in agent memory management (KV cache
+    editing) for reliability and security, with a concrete technical solution and performance evaluation.
+status: draft

@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-thunderagent-a-simple-fast-and-program-aware-agentic
+type: papers
+title: 'ThunderAgent: A Simple, Fast and Program-Aware Agentic Inference System'
+url: https://arxiv.org/abs/2602.13692v2
+authors:
+- Hao Kang
+- Ziyang Li
+- Xinyu Yang
+- Weili Xu
+- Yinfang Chen
+- Junxiong Wang
+- Beidi Chen
+- Tushar Krishna
+- Chenfeng Xu
+- Simran Arora
+venue: arXiv
+year: 2026
+summary: ThunderAgent is a program-aware agentic inference system that unifies resource management for
+  LLM KV caches and tool execution environments to improve throughput and memory efficiency in multi-turn
+  agentic workflows.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a systems-level contribution to the execution shell of agentic workflows,
+    focusing on resource management and scheduling for reliability and performance.
+status: draft

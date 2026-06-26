@@ -1,0 +1,90 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-static-leaderboards-predictive-validity-for-the-evaluation
+type: papers
+title: 'Beyond Static Leaderboards: Predictive Validity for the Evaluation of LLM Agents'
+url: https://arxiv.org/abs/2606.19704v1
+authors:
+- Dhaval C. Patel
+- Kaoutar El Maghraoui
+- Shuxin Lin
+- Yusheng Li
+- Tianjun Feng
+- Chun-Yi Tsai
+- Yihan Sun
+- Wei Alexander Xin
+- Akshat Bhandari
+- Tanisha Rathod
+- Aaron Fan
+- Sanskruti Vijay Shejwal
+- Tomas Pasiecznik
+- Sagar Chethan Kumar
+- Tanmay Agarwal
+- Rohith Kanathur
+- Sam Colman
+- Amaan Sheikh
+- Dev Bahl
+- Ann Li
+- Krish Veera
+- Alimurtaza Mustafa Merchant
+- Shambhawi Baswaraj Bhure
+- Sajal Kumar Goyla
+- Chengrui Li
+- Kirthana Natarajan
+- Rui Li
+- Thomas Ajai
+- Rujing Li
+- Vivek G. Iyer
+- Sanjaii Vijayakumar
+- Yitong Bai
+- Ayal Yakobe
+- Darief Maes
+- Yassine Jebbouri
+- Tianyang Xu
+- Thai Quoc On
+- Vera Mazeeva
+- Winston Li
+- Yuval Shemla
+- Yeshitha Bhuvanesh
+- Rushin Bhatt
+- Siddharth Chethan Gowda
+- Alisha Vinod
+- Caroline Cahill
+- Shriya Aishani Rachakonda
+- Yunfeng Chen
+- Aryaman Agrawal
+- Aman Upganlawar
+- Mao Le Jonathan Ang
+- Yubin Sally Go
+- Madhav Rajkondawar
+- Yang-Jung Chen
+- Trisha Maturi
+- Ananya Kapoor
+- Andrew Li
+- Shrey Arora
+- Mana Abbaszadeh
+- Shen Li
+- Charles Xu
+- Byeolah Kwon
+venue: arXiv
+year: 2026
+summary: This paper proposes evaluating LLM agents by predictive validity, the correlation between in-sample
+  and out-of-sample rank, rather than aggregate scores, to address rank instability in deployed agent
+  evaluation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the challenge of evaluating LLM agents in production settings
+    by proposing a new methodology for benchmark design and interpretation, which is a core observation-eval
+    concern.
+status: draft

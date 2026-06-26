@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-orchestration-free-customer-service-automation-a-privacy-preserving
+type: papers
+title: 'Orchestration-Free Customer Service Automation: A Privacy-Preserving and Flowchart-Guided Framework'
+url: https://arxiv.org/abs/2602.15377v1
+authors:
+- Mengze Hong
+- Chen Jason Zhang
+- Zichang Guo
+- Hanlin Gu
+- Di Jiang
+- Li Qing
+venue: arXiv
+year: 2026
+summary: An orchestration-free framework for customer service automation using Task-Oriented Flowcharts
+  (TOFs) to guide end-to-end agent behavior, emphasizing local deployment and decentralized distillation
+  for privacy.
+harness_layer:
+- architectures
+sprs:
+- privacy
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes an end-to-end agentic system architecture for customer service, addressing
+    privacy and generalizability through a novel flowchart-guided approach and local model deployment.
+status: draft

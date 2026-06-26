@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentspawn-adaptive-multi-agent-collaboration-through-dynamic-spawning
+type: papers
+title: 'AgentSpawn: Adaptive Multi-Agent Collaboration Through Dynamic Spawning for Long-Horizon Code
+  Generation'
+url: https://arxiv.org/abs/2602.07072v1
+authors:
+- Igor Costa
+venue: arXiv
+year: 2026
+summary: AgentSpawn is an architecture for dynamic multi-agent collaboration in long-horizon code generation,
+  featuring automatic memory transfer, adaptive spawning policies, and coherence protocols to improve
+  completion rates and reduce memory overhead.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a system architecture for dynamic multi-agent coordination, addressing
+    reliability and efficiency in long-running agentic workflows.
+status: draft

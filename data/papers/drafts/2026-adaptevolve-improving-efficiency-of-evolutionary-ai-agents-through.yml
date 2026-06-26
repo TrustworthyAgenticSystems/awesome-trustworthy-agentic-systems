@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-adaptevolve-improving-efficiency-of-evolutionary-ai-agents-through
+type: papers
+title: 'AdaptEvolve: Improving Efficiency of Evolutionary AI Agents through Adaptive Model Selection'
+url: https://arxiv.org/abs/2602.11931v2
+authors:
+- Pretam Ray
+- Pratik Prabhanjan Brahma
+- Zicheng Liu
+- Emad Barsoum
+venue: arXiv
+year: 2026
+summary: AdaptEvolve introduces an adaptive LLM selection mechanism for evolutionary agentic systems that
+  dynamically chooses models based on intrinsic generation confidence to optimize computational efficiency
+  while maintaining reasoning capability.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses the system-level problem of efficient LLM selection within multi-LLM
+    evolutionary refinement frameworks, directly impacting the reliability and cost of agent coordination.
+status: draft

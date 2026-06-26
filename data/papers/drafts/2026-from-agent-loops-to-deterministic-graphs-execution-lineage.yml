@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-agent-loops-to-deterministic-graphs-execution-lineage
+type: papers
+title: 'From Agent Loops to Deterministic Graphs: Execution Lineage for Reproducible AI-Native Work'
+url: https://arxiv.org/abs/2605.06365v1
+authors:
+- Josh Rosen
+- Seth Rosen
+venue: arXiv
+year: 2026
+summary: Introduces execution lineage, a DAG-based execution model for AI-native workflows, to provide
+  explicit dependencies, stable intermediate boundaries, and identity-based replay for reproducible and
+  maintainable AI-generated work.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Proposes a novel architectural model for agentic systems that directly addresses reproducibility
+    and maintainability of AI-generated work products, a core systems-engineering concern.
+status: draft

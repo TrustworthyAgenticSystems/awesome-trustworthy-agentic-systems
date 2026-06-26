@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-gbqa-a-game-benchmark-for-evaluating-llms-as
+type: papers
+title: 'GBQA: A Game Benchmark for Evaluating LLMs as Quality Assurance Engineers'
+url: https://arxiv.org/abs/2604.02648v1
+authors:
+- Shufan Jiang
+- Chios Chen
+- Zhiyang Chen
+venue: arXiv
+year: 2026
+summary: Introduces GBQA, a game benchmark with 124 human-verified bugs, to evaluate LLM agents' ability
+  to autonomously detect software bugs in dynamic runtime environments, using a multi-agent system for
+  benchmark construction and an interactive agent for evaluation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a benchmark and evaluation methodology for autonomous bug discovery by
+    LLM agents, directly contributing to the observation and evaluation of agent reliability in complex
+    software environments.
+status: draft

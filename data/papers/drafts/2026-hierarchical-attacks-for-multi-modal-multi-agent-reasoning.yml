@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hierarchical-attacks-for-multi-modal-multi-agent-reasoning
+type: papers
+title: Hierarchical Attacks for Multi-Modal Multi-Agent Reasoning
+url: https://arxiv.org/abs/2605.13213v1
+authors:
+- Hao Zhou
+- Tiru Wu
+- Yan Jiang
+- Wanqi Zhou
+- Junxing Hu
+- Ai Han
+venue: arXiv
+year: 2026
+summary: Introduces HAM , a hierarchical attack framework for multi-modal multi-agent systems that targets
+  perception, communication, and reasoning layers to compromise collective decision-making.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to red-teaming agentic systems by proposing a structured
+    attack framework for multi-modal multi-agent systems, demonstrating vulnerabilities across different
+    layers of the agent stack.
+status: draft

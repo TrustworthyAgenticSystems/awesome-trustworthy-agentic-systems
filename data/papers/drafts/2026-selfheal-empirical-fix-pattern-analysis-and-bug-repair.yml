@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-selfheal-empirical-fix-pattern-analysis-and-bug-repair
+type: papers
+title: 'SelfHeal: Empirical Fix Pattern Analysis and Bug Repair in LLM Agents'
+url: https://arxiv.org/abs/2604.17699v1
+authors:
+- Niful Islam
+- Muhammad Anas Raza
+- Mohammad Wardat
+venue: arXiv
+year: 2026
+summary: Empirical study of bug fix patterns in LLM agents across multiple platforms, a new benchmark
+  dataset for agent bugs, and a multi-agent system for autonomous bug repair in agentic systems.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides an empirical study of agent bug patterns and proposes an agentic system
+    for autonomous bug repair, directly contributing to the reliability and evaluation of agent workflows.
+status: draft

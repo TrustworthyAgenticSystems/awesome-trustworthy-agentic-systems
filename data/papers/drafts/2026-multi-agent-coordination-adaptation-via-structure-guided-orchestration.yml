@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-multi-agent-coordination-adaptation-via-structure-guided-orchestration
+type: papers
+title: Multi-Agent Coordination Adaptation via Structure-Guided Orchestration
+url: https://arxiv.org/abs/2605.25746v1
+authors:
+- Haoran Li
+- Shulun Chen
+- Shaoyuan Sun
+- Hanchen Wang
+venue: arXiv
+year: 2026
+summary: MACA is an automated coordination framework that learns a task- and budget-conditioned structural
+  prior to guide policy-based orchestration, balancing structural stability and dynamic adaptability in
+  multi-agent systems.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses the systems engineering challenge of balancing structural stability
+    and dynamic adaptability in multi-agent coordination, offering a framework for efficient and controlled
+    execution.
+status: draft

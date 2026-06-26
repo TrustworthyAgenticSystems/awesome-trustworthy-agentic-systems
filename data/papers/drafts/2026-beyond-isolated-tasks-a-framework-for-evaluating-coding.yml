@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-isolated-tasks-a-framework-for-evaluating-coding
+type: papers
+title: 'Beyond Isolated Tasks: A Framework for Evaluating Coding Agents on Sequential Software Evolution'
+url: https://arxiv.org/abs/2604.03035v1
+authors:
+- KN Ajay Shastry
+- Ganesh Senrayan
+- Shrey Satapara
+- Pranoy Panda
+- Chaitanya Devaguptapu
+venue: arXiv
+year: 2026
+summary: Introduces a framework and dataset, SWE-STEPS, for evaluating coding agents on sequential software
+  evolution tasks, capturing long-horizon performance, regression verification, and repository health
+  degradation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses long-horizon evaluation and the reliability of agentic systems in a realistic,
+    sequential software development context, revealing system-level issues like technical debt accumulation.
+status: draft

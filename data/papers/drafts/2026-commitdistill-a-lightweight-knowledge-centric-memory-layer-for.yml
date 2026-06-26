@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-commitdistill-a-lightweight-knowledge-centric-memory-layer-for
+type: papers
+title: 'CommitDistill: A Lightweight Knowledge-Centric Memory Layer for Software Repositories'
+url: https://arxiv.org/abs/2605.18284v1
+authors:
+- Divya Chukkapalli
+- Thejesh Avula
+- Aditya Aggarwal
+- Harsimran Singh
+- Amith Tallanki
+venue: arXiv
+year: 2026
+summary: CommitDistill is a lightweight, deterministic, and local-only memory layer that extracts typed
+  knowledge units from software repository commit history using regex and surfaces them via TF-IDF retrieval,
+  providing an inspectable memory substrate for AI coding assistants.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes a concrete, trust-instrumented memory system for agents operating on
+    software repositories, focusing on reliability and inspectability of the memory layer.
+status: draft

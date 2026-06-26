@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-scepsy-serving-agentic-workflows-using-aggregate-llm-pipelines
+type: papers
+title: 'Scepsy: Serving Agentic Workflows Using Aggregate LLM Pipelines'
+url: https://arxiv.org/abs/2604.15186v1
+authors:
+- Marcel Wagenländer
+- Otto White
+- Britannio Jarrett
+- Pedro Silvestre
+- Yanda Tao
+- Guo Li
+- Huanzhou Zhu
+- Llúis Vilanova
+- Peter Pietzuch
+venue: arXiv
+year: 2026
+summary: Scepsy is a new agentic serving system that efficiently schedules arbitrary multi-LLM agentic
+  workflows onto a GPU cluster by using aggregate LLM pipeline profiling to optimize GPU allocations for
+  throughput and latency.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes a systems architecture for efficiently serving agentic workflows, directly
+    addressing reliability and performance challenges in the operational stack.
+status: draft

@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-argus-agentic-gpu-optimization-guided-by-data-flow
+type: papers
+title: 'ARGUS: Agentic GPU Optimization Guided by Data-Flow Invariants'
+url: https://arxiv.org/abs/2604.18616v1
+authors:
+- Haohui Mai
+- Xiaoyan Guo
+- Xiangyun Ding
+- Daifeng Li
+- Qiuchu Yu
+- Chenzhun Guo
+- Cong Wang
+- Jiacheng Zhao
+- Christos Kozyrakis
+- Binhang Yuan
+venue: arXiv
+year: 2026
+summary: Argus is an agentic framework that uses data-flow invariants and a tile-based DSL to provide
+  dense, structured feedback for GPU kernel optimization, enabling agents to achieve near hand-optimized
+  performance.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper contributes to the reliability of agent-generated code by providing a structured
+    feedback mechanism for complex optimization tasks, addressing a systems-level challenge in agentic
+    code generation.
+status: draft

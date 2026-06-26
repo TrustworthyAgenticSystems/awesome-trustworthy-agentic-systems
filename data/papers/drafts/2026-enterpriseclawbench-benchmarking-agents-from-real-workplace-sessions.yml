@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-enterpriseclawbench-benchmarking-agents-from-real-workplace-sessions
+type: papers
+title: 'EnterpriseClawBench: Benchmarking Agents from Real Workplace Sessions'
+url: https://arxiv.org/abs/2606.23654v1
+authors:
+- Jincheng Zhong
+- Weizhi Wang
+- Che Jiang
+- Kai Tian
+- Zhenzhao Yuan
+- Junlin Yang
+- Dianqiao Lei
+- Kaiyan Zhang
+venue: arXiv
+year: 2026
+summary: Introduces EnterpriseClawBench, a benchmark and evaluation protocol for enterprise agents derived
+  from real-world workplace sessions, emphasizing multi-faceted performance metrics beyond single scores.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a methodology for evaluating agentic systems in realistic enterprise settings, addressing
+    the challenge of long-horizon evaluation and complex performance metrics.
+status: draft

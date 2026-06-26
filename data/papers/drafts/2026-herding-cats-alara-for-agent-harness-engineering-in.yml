@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-herding-cats-alara-for-agent-harness-engineering-in
+type: papers
+title: 'Herding CATs: ALARA for Agent Harness Engineering in Portable Composable Multi-Agent Teams'
+url: https://arxiv.org/abs/2603.20380v2
+authors:
+- Christopher J. Agostino
+- Nayan D'Souza
+venue: arXiv
+year: 2026
+summary: Introduces a plain-text context-agent-tool (CAT) data layer for declaratively managing tool access
+  and modifications for agents, enabling more scalable and verifiable control over agent behavior.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses a systems-engineering problem in managing agent tool access and configuration,
+    with a concrete data layer and evaluation.
+status: draft

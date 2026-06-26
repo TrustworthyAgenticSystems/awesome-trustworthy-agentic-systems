@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-excomm-exploration-stage-communication-for-error-resilient-agentic
+type: papers
+title: 'ExComm: Exploration-Stage Communication for Error-Resilient Agentic Test-Time Scaling'
+url: https://arxiv.org/abs/2605.22102v1
+authors:
+- Woomin Song
+- Beomjun Kim
+- Daewon Choi
+- Sai Muralidhar Jayanthi
+- Saket Dingliwal
+- Jinwoo Shin
+- Aram Galstyan
+venue: arXiv
+year: 2026
+summary: ExComm is a communication protocol for multi-agent systems that detects and resolves factual
+  conflicts in agent belief states during exploration, providing targeted feedback to improve error resilience
+  in long-horizon tasks.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper addresses error propagation in multi-agent systems through a communication protocol
+    and verification loop, directly contributing to the reliability of agent coordination and long-horizon
+    evaluation.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentictyper-automated-typing-of-legacy-software-projects-using
+type: papers
+title: 'AgenticTyper: Automated Typing of Legacy Software Projects Using Agentic AI'
+url: https://arxiv.org/abs/2602.21251v1
+authors:
+- Clemens Pohle
+venue: arXiv
+year: 2026
+summary: AgenticTyper is an LLM-based agentic system that automates the conversion of legacy JavaScript
+  projects to TypeScript, including type checking setup, definition generation, and iterative error correction,
+  evaluated on proprietary repositories.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper describes an agentic system that performs a complex, long-horizon software engineering
+    task, demonstrating reliability and correctness through iterative error correction and behavior preservation
+    at repository scale.
+status: draft

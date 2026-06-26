@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ai-harness-engineering-a-runtime-substrate-for-foundation
+type: papers
+title: 'AI Harness Engineering: A Runtime Substrate for Foundation-Model Software Agents'
+url: https://arxiv.org/abs/2605.13357v1
+authors:
+- Hailin Zhong
+- Shengxin Zhu
+venue: arXiv
+year: 2026
+summary: Formalizes an AI Harness Engineering substrate for software-engineering agents, identifying eleven
+  component responsibilities and a four-level operational ladder for runtime support, with a trace-based
+  evaluation protocol.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Provides a foundational framework and taxonomy for engineering trustworthy agentic systems,
+    specifically focusing on the runtime substrate and its responsibilities for reliability and security.
+status: draft

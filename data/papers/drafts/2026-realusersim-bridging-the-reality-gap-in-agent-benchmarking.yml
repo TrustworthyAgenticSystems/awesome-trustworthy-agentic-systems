@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-realusersim-bridging-the-reality-gap-in-agent-benchmarking
+type: papers
+title: 'RealUserSim: Bridging the Reality Gap in Agent Benchmarking via Grounded User Simulation'
+url: https://arxiv.org/abs/2605.20204v1
+authors:
+- Ming Zhu
+- Juntao Tan
+- Rithesh Murthy
+- Jielin Qiu
+- Liangwei Yang
+- Wenting Zhao
+- Silvio Savarese
+- Shelby Heinecke
+- Huan Wang
+venue: arXiv
+year: 2026
+summary: RealUserSim is a user simulation framework grounded in real human-LLM conversation data to create
+  more realistic stress tests for agent evaluation, revealing failure mechanisms missed by cooperative
+  simulators.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: The paper directly addresses the reliability of agent evaluation by improving user simulation
+    fidelity, which is crucial for long-horizon evaluation of agent behavior.
+status: draft

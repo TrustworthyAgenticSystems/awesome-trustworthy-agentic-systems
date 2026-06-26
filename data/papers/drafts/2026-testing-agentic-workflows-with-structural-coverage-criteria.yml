@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-testing-agentic-workflows-with-structural-coverage-criteria
+type: papers
+title: Testing Agentic Workflows with Structural Coverage Criteria
+url: https://arxiv.org/abs/2605.26521v1
+authors:
+- Nafiseh Kahani
+- Mojtaba Bagherzadeh
+venue: arXiv
+year: 2026
+summary: A structural testing approach for multi-agent workflow specifications that derives coverage obligations
+  over coordination graphs and uses coverage-driven generation to produce executable tests, revealing
+  whether declared agents, tool-access rules, restrictions, and delegation paths have been exercised.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- security
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly contributes to the observation and evaluation of agentic systems by introducing
+    a structural testing methodology for multi-agent workflows, addressing test-suite adequacy and regression
+    detection.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-complete-cyclic-subtask-graphs-for-tool-using-llm
+type: papers
+title: 'Complete Cyclic Subtask Graphs for Tool-Using LLM Agents: Flexibility, Cost, and Bottlenecks in
+  Multi-Agent Workflows'
+url: https://arxiv.org/abs/2604.22820v1
+authors:
+- Luay Gharzeddine
+- Samer Saab
+venue: arXiv
+year: 2026
+summary: Studies complete cyclic subtask graphs as a maximally flexible multi-agent architecture to analyze
+  the trade-offs between revisitation, coordination overhead, and inference cost in long-horizon tasks.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly investigates multi-agent coordination architectures and their impact
+    on reliability and cost, using a systems-level experimental approach.
+status: draft

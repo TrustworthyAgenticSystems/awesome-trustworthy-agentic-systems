@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-an-agentic-evaluation-framework-for-ai-generated-scientific
+type: papers
+title: An Agentic Evaluation Framework for AI-Generated Scientific Code in PETSc
+url: https://arxiv.org/abs/2603.15976v1
+authors:
+- Hong Zhang
+- Barry Smith
+- Satish Balay
+- Le Chen
+- Murat Keceli
+- Lois Curfman McInnes
+- Junchao Zhang
+venue: arXiv
+year: 2026
+summary: An agentic evaluation framework, petscagent-bench, uses a tool-augmented evaluator agent to compile,
+  execute, and measure code from a model-under-test agent across five scoring categories, enabling black-box
+  evaluation of scientific code generation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a system-level evaluation framework for AI-generated code, focusing
+    on agent-to-agent evaluation and addressing the limitations of static benchmarks for complex library
+    code.
+status: draft

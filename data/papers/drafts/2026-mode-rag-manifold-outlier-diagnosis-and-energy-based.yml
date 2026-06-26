@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mode-rag-manifold-outlier-diagnosis-and-energy-based
+type: papers
+title: 'MODE-RAG: Manifold Outlier Diagnosis and Energy-based Retrieval-Augmented Generation Evaluation'
+url: https://arxiv.org/abs/2606.17449v1
+authors:
+- Zehang Wei
+- Jiaxin Dai
+- Jiamin Yan
+- Xiang Xiang
+venue: arXiv
+year: 2026
+summary: A multi-agent system, MODE-RAG, uses Variational Free Energy and internal attention states to
+  dynamically route high-risk queries to specialized agents, integrating MCTS and logit perturbations
+  to mitigate cross-modal hallucinations and logical fabrications in M-RAG systems.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a multi-agent system with dynamic routing and specialized agents to address
+    trustworthiness issues (hallucinations, fabrications) in M-RAG, contributing to agent coordination
+    and reliability.
+status: draft

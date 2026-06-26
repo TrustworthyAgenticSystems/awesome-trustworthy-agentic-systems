@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-rethinking-software-engineering-for-agentic-ai-systems
+type: papers
+title: Rethinking Software Engineering for Agentic AI Systems
+url: https://arxiv.org/abs/2604.10599v1
+authors:
+- Mamdouh Alenezi
+venue: arXiv
+year: 2026
+summary: This paper proposes a conceptual framework for rethinking software engineering for agentic AI
+  systems, focusing on orchestration, verification, and human-AI collaboration as core competencies for
+  managing abundant AI-generated code.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides a foundational analysis of the shift in software engineering paradigms
+    due to agentic AI, addressing system-level design, semantic validation, and accountable oversight,
+    which are critical for trustworthy systems.
+status: draft

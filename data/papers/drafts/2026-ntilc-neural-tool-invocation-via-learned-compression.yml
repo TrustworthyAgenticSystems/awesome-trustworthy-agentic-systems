@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ntilc-neural-tool-invocation-via-learned-compression
+type: papers
+title: 'NTILC: Neural Tool Invocation via Learned Compression'
+url: https://arxiv.org/abs/2606.06566v1
+authors:
+- Andrew Krikorian
+- Yayuan Li
+- Jason J. Corso
+venue: arXiv
+year: 2026
+summary: NTILC is a neural tool selection and invocation framework that uses learned latent retrieval
+  to select tools, reducing context window consumption and inference latency by conditioning the LLM only
+  on the selected tool schema.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses a systems-engineering problem (context window limits for tool registries)
+    with a concrete solution (learned latent retrieval for tool selection) that improves reliability and
+    efficiency of tool invocation.
+status: draft

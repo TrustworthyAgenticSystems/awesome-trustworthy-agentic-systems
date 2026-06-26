@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-selection-integrity-for-llm-graph-memory-an-accumulability
+type: papers
+title: 'Selection Integrity for LLM Graph Memory: An Accumulability Criterion for Information-Flow-Blind
+  Retrieval'
+url: https://arxiv.org/abs/2606.12290v1
+authors:
+- Zeming Fei
+- Hongming Fei
+- Xiaoyang Wang
+- Yang yang
+- Prosanta Gope
+- Biplab Sikdar
+- Ying Zhang
+venue: arXiv
+year: 2026
+summary: This paper demonstrates a novel memory poisoning attack on graph-based agent memories where untrusted
+  structural writes can silently misdirect information flow by altering selection, even with authenticated
+  facts, and proposes a defense called \authselect\ that recomputes selection on authenticated subgraphs.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: The paper identifies a critical vulnerability in graph-based agent memory, demonstrating
+    a systems-level attack on information flow and proposing a concrete defense mechanism with performance
+    analysis.
+status: draft

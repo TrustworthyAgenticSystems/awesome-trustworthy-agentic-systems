@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-formal-verification-of-learned-multi-agent-communication-policies
+type: papers
+title: Formal Verification of Learned Multi-Agent Communication Policies via Decision Tree Distillation
+url: https://arxiv.org/abs/2606.19632v1
+authors:
+- Ahmad Farooq
+- Kamran Iqbal
+venue: arXiv
+year: 2026
+summary: A four-stage framework for formally verifying learned multi-agent communication policies by distilling
+  neural policies into decision trees and translating them into probabilistic model checker specifications,
+  validated on multi-drone coordination tasks.
+harness_layer:
+- coordination
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: The paper provides a concrete systems-level approach for verifying safety properties of multi-agent
+    coordination policies, bridging deep MARL with formal safety workflows.
+status: draft

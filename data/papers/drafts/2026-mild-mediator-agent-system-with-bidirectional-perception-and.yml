@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mild-mediator-agent-system-with-bidirectional-perception-and
+type: papers
+title: 'MILD: Mediator Agent System with Bidirectional Perception and Multi-Layered Alignment for Human-Vehicle
+  Collaboration'
+url: https://arxiv.org/abs/2605.01507v2
+authors:
+- Jiyao Wang
+- Yunbiao Wang
+- Yubo Jiao
+- Xiao Yang
+- Dengbo He
+- Sasan Jafarnejad
+- Luis Miranda-Moreno
+- Raphael Frank
+- Jiangbo Yu
+venue: arXiv
+year: 2026
+summary: A mediator agent system for human-vehicle collaboration that uses a perception agent and a strategy
+  agent with constraint-weighted policy optimization to align with safety regulations and human values,
+  improving shared situational awareness and coordination.
+harness_layer:
+- coordination
+sprs:
+- safety
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes an agentic system architecture for human-vehicle collaboration, focusing
+    on aligning agent behavior with safety regulations and human values through constraint-weighted policy
+    optimization and dynamic constraint incorporation, which is a direct contribution to trustworthy agent
+    coordination and intent-to-constraints.
+status: draft

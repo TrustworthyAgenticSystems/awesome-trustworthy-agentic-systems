@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-blind-gods-and-broken-screens-architecting-a-secure
+type: papers
+title: 'Blind Gods and Broken Screens: Architecting a Secure, Intent-Centric Mobile Agent Operating System'
+url: https://arxiv.org/abs/2602.10915v3
+authors:
+- Zhenhua Zou
+- Sheng Guo
+- Qiuyang Zhan
+- Lepeng Zhao
+- Shuo Li
+- Qi Li
+- Ke Xu
+- Mingwei Xu
+- Zhuotao Liu
+venue: arXiv
+year: 2026
+summary: Proposes Aura, a clean-slate secure agent operating system architecture for mobile agents, replacing
+  GUI scraping with a structured, intent-centric interaction model and enforcing security through cryptographic
+  identity, semantic input sanitization, cognitive integrity, and granular access control.
+harness_layer:
+- architectures
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper presents a comprehensive architectural solution for secure mobile agent systems,
+    addressing multiple systems-level vulnerabilities and proposing concrete defense pillars.
+status: draft

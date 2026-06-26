@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-context-hurts-the-crossover-effect-of-knowledge
+type: papers
+title: 'When Context Hurts: The Crossover Effect of Knowledge Transfer on Multi-Agent Design Exploration'
+url: https://arxiv.org/abs/2605.04361v1
+authors:
+- Saranyan Vigraham
+venue: arXiv
+year: 2026
+summary: Empirical study demonstrating a "crossover effect" where context injection can either improve
+  or degrade multi-agent design exploration, depending on task characteristics, and proposes a diagnostic
+  for conditional context injection.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper empirically investigates how context injection, a core memory concern, impacts
+    multi-agent system reliability and proposes a practical diagnostic for its conditional use.
+status: draft

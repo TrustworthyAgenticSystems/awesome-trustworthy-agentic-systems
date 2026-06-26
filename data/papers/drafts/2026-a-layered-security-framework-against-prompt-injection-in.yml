@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-layered-security-framework-against-prompt-injection-in
+type: papers
+title: A Layered Security Framework Against Prompt Injection in RAG-Based Chatbots
+url: https://arxiv.org/abs/2606.19660v1
+authors:
+- Gulshan Saleem
+- Nisar Ahmed
+- Muhammad Imran Zaman
+- Ali Hassan
+venue: arXiv
+year: 2026
+summary: A three-layer security framework that intercepts direct and indirect prompt injection in RAG-based
+  chatbots by screening user input, enforcing provenance-based instruction hierarchy during context assembly,
+  and auditing model output.
+harness_layer:
+- memory
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper directly addresses prompt injection in RAG systems, focusing on the integrity of
+    retrieved memory and the enforcement of trust boundaries within the context assembly, which is a core
+    systems-engineering problem for trustworthy agents.
+status: draft

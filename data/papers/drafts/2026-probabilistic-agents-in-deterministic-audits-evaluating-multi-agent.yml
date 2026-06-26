@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-probabilistic-agents-in-deterministic-audits-evaluating-multi-agent
+type: papers
+title: 'Probabilistic Agents in Deterministic Audits: Evaluating Multi-Agent Systems for Automated Audits
+  Based on the German IT-Grundschutz'
+url: https://arxiv.org/abs/2606.25622v1
+authors:
+- Lea Roxanne Muth
+- Marian Margraf
+venue: arXiv
+year: 2026
+summary: Presents a multi-agent system architecture with HybridRAG for partially automating IT-Grundschutz
+  certification, introducing a Hypothesis-Verification Loop and Decoupled Reasoning Pipeline to enforce
+  compliance rigor, and evaluates its performance against a human expert-generated dataset.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes a concrete multi-agent system architecture for a real-world compliance
+    task, including specific technical contributions to improve reliability and safety, and provides an
+    empirical evaluation of its performance.
+status: draft

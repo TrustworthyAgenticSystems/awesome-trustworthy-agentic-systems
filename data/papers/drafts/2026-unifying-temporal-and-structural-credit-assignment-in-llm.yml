@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-unifying-temporal-and-structural-credit-assignment-in-llm
+type: papers
+title: Unifying Temporal and Structural Credit Assignment in LLM-Based Multi-Agent Prompt Optimization
+url: https://arxiv.org/abs/2605.30227v1
+authors:
+- Wenwu Li
+- Yuran Song
+- Mingze Zhao
+- Bo Jin
+- Wenhao Li
+venue: arXiv
+year: 2026
+summary: Proposes a credit assignment framework for multi-agent systems that decomposes optimization into
+  temporal and structural components to identify and refine weak links in agent coordination and roles.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses the challenge of optimizing multi-agent system dynamics by providing a structured
+    approach to credit assignment, which is a systems-level problem for agent reliability and self-improvement.
+status: draft

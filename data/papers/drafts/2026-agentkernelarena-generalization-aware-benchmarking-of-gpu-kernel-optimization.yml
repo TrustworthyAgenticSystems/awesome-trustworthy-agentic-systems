@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentkernelarena-generalization-aware-benchmarking-of-gpu-kernel-optimization
+type: papers
+title: 'AgentKernelArena: Generalization-Aware Benchmarking of GPU Kernel Optimization Agents'
+url: https://arxiv.org/abs/2605.16819v1
+authors:
+- Sharareh Younesian
+- Wenwen Ouyang
+- Sina Rafati
+- Mehdi Rezagholizadeh
+- Sharon Zhou
+- Ji Liu
+- Yue Liu
+- Yuchen Yang
+- Hao Li
+- Ziqiong Liu
+- Dong Li
+- Vikram Appia
+- Zhenyu Gu
+- Emad Barsoum
+venue: arXiv
+year: 2026
+summary: AgentKernelArena is an open-source benchmark for evaluating AI coding agents on GPU kernel optimization,
+  focusing on full agent workflows, gated compilation/correctness/performance checks, and unseen-configuration
+  generalization testing.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a benchmark for evaluating full agent workflows, including generalization
+    testing, which is a direct contribution to observation and evaluation of agentic systems.
+status: draft

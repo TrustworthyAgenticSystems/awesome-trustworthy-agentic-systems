@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-trajaudit-automated-failure-diagnosis-for-agentic-coding-systems
+type: papers
+title: 'TrajAudit: Automated Failure Diagnosis for Agentic Coding Systems'
+url: https://arxiv.org/abs/2605.26563v1
+authors:
+- Minxing Wang
+- Xiaofei Xie
+- Yintong Huo
+venue: arXiv
+year: 2026
+summary: TrajAudit is a failure diagnosis framework for repository-level coding trajectories that uses
+  an investigator agent with noise filtering and preliminary diagnosis modules to improve localization
+  accuracy and reduce token consumption.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses automated failure diagnosis and observability for agentic systems,
+    a core systems-engineering problem for reliability.
+status: draft

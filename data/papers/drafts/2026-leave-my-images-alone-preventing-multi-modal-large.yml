@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-leave-my-images-alone-preventing-multi-modal-large
+type: papers
+title: 'Leave My Images Alone: Preventing Multi-Modal Large Language Models from Analyzing Images via
+  Visual Prompt Injection'
+url: https://arxiv.org/abs/2604.09024v1
+authors:
+- Zedian Shao
+- Hongbin Liu
+- Yuepeng Hu
+- Neil Zhenqiang Gong
+venue: arXiv
+year: 2026
+summary: ImageProtector is a user-side visual prompt injection method that embeds imperceptible perturbations
+  into images to induce MLLMs to refuse analysis, protecting sensitive information from large-scale extraction.
+harness_layer:
+- red-team
+sprs:
+- privacy
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a red-teaming attack (visual prompt injection) and a defense mechanism
+    to prevent MLLMs from analyzing images, directly addressing privacy and security concerns in agentic
+    systems that process multi-modal inputs.
+status: draft

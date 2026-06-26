@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-formal-skill-programmable-runtime-skills-for-efficient-and
+type: papers
+title: 'Formal Skill: Programmable Runtime Skills for Efficient and Accurate LLM Agents'
+url: https://arxiv.org/abs/2605.19604v1
+authors:
+- Xi Zhang
+- Meijun Gao
+- Yuntian Zhao
+- Xinyu Tan
+- Yilun Yao
+- Feiyu Wang
+- Yanshu Wang
+- Dingsiyi
+- Tong Yang
+venue: arXiv
+year: 2026
+summary: Formal Skill is a runtime-native abstraction that represents reusable agent capabilities with
+  JSON metadata, Python executors, and hook-governed control logic, enabling token-efficient and enforceable
+  control over agent workflows.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper introduces a runtime abstraction for agent skills that directly addresses reliability
+    and safety through structured execution, state management, and policy enforcement within the agent's
+    operational stack.
+status: draft

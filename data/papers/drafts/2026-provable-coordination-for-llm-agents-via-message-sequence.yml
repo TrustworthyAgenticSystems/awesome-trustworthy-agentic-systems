@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-provable-coordination-for-llm-agents-via-message-sequence
+type: papers
+title: Provable Coordination for LLM Agents via Message Sequence Charts
+url: https://arxiv.org/abs/2604.17612v2
+authors:
+- Benedikt Bollig
+- Matthias Függer
+- Thomas Nowak
+venue: arXiv
+year: 2026
+summary: Introduces a domain-specific language based on message sequence charts to specify and provably
+  generate deadlock-free coordination protocols for multi-agent systems, separating message structure
+  from LLM actions.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the reliability and safety of multi-agent coordination through formal
+    methods and provable guarantees, a core systems-engineering problem.
+status: draft

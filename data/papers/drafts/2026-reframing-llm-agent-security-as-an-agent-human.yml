@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-reframing-llm-agent-security-as-an-agent-human
+type: papers
+title: Reframing LLM Agent Security as an Agent-Human Interaction Problem
+url: https://arxiv.org/abs/2605.24309v1
+authors:
+- Peiran Wang
+- Ying Li
+- Yuan Tian
+venue: arXiv
+year: 2026
+summary: This paper reframes LLM agent security as an agent-human interaction problem, analyzing the mismatch
+  between academic research and industry deployment of human-centric security mechanisms and proposing
+  a research agenda for AHI security.
+harness_layer:
+- oversight
+sprs:
+- security
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses human oversight and the cognitive load associated with agent
+    security, which is a core concern for trustworthy agentic systems.
+status: draft

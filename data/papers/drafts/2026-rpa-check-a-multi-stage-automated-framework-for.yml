@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-rpa-check-a-multi-stage-automated-framework-for
+type: papers
+title: 'RPA-Check: A Multi-Stage Automated Framework for Evaluating Dynamic LLM-based Role-Playing Agents'
+url: https://arxiv.org/abs/2604.11655v1
+authors:
+- Riccardo Rosati
+- Edoardo Colucci
+- Massimiliano Bolognini
+- Adriano Mancini
+- Paolo Sernani
+venue: arXiv
+year: 2026
+summary: RPA-Check is a multi-stage automated evaluation framework that assesses LLM-based role-playing
+  agents for role adherence, logical consistency, and long-term narrative stability in complex, constraints-heavy
+  environments.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a concrete, multi-stage automated evaluation framework for agent behavior,
+    addressing a key challenge in trustworthy agentic systems.
+status: draft

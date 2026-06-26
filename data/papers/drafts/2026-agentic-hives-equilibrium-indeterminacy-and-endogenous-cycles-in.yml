@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-hives-equilibrium-indeterminacy-and-endogenous-cycles-in
+type: papers
+title: 'Agentic Hives: Equilibrium, Indeterminacy, and Endogenous Cycles in Self-Organizing Multi-Agent
+  Systems'
+url: https://arxiv.org/abs/2603.00130v2
+authors:
+- Jean-Philippe Garnier
+venue: arXiv
+year: 2026
+summary: Introduces the Agentic Hive, a formal framework for self-organizing multi-agent systems with
+  dynamic agent populations, proving analytical results on equilibrium, stability, and demographic cycles
+  to provide a governance toolkit for operators.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Provides a formal, systems-level framework for dynamic multi-agent coordination and governance,
+    addressing reliability and safety through predictable demographic evolution.
+status: draft

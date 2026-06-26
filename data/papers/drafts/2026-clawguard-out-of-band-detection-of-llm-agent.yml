@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-clawguard-out-of-band-detection-of-llm-agent
+type: papers
+title: 'ClawGuard: Out-of-Band Detection of LLM Agent Workflow Hijacking via EM Side Channel'
+url: https://arxiv.org/abs/2605.06205v1
+authors:
+- Leo Linqian Gan
+- Jeffery Wu
+- Longyuan Ge
+- Lanqing Yang
+- Yonghao Song
+- Jingkai Zhang
+- Haojia Jin
+- Weiyi Wang
+- Guangtao Xue
+venue: arXiv
+year: 2026
+summary: ClawGuard is a passive, out-of-band monitor that detects LLM agent workflow hijacking by analyzing
+  electromagnetic (EM) emanations from distinct agent skill invocations, providing a forge-resistant physical
+  check against compromised host software.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper presents a novel, system-level defense against agent workflow hijacking using
+    an out-of-band physical side channel, directly addressing agent security and observability.
+status: draft

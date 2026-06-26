@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-aaflow-scalable-patterns-for-agentic-ai-workflows
+type: papers
+title: 'AAFLOW: Scalable Patterns for Agentic AI Workflows'
+url: https://arxiv.org/abs/2605.02162v1
+authors:
+- Arup Kumar Sarker
+- Mills Staylor
+- Aymen Alsaadi
+- Gregor von Laszewski
+- Shantenu Jha
+- Geoffrey Fox
+venue: arXiv
+year: 2026
+summary: AAFLOW is a distributed runtime that models agentic workflows as operator abstractions to create
+  communication-efficient execution plans, improving scalability and reproducibility through zero-copy
+  data planes and resource-deterministic scheduling.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a novel distributed runtime architecture for agentic workflows, directly
+    addressing scalability and reproducibility as systems-level concerns.
+status: draft

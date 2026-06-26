@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-knowing-to-doing-a-memory-controlled-benchmark
+type: papers
+title: 'From Knowing to Doing: A Memory-Controlled Benchmark for LLM Trading Agents on Stock Markets'
+url: https://arxiv.org/abs/2605.28359v1
+authors:
+- Taojie Zhu
+- Wentao Zhao
+- Rui Sun
+- Beidi Luan
+- Jiacheng Lu
+- Sinuo Wang
+- Jing Li
+- Daxin Jiang
+- Yonghong He
+- Zuo Bai
+venue: arXiv
+year: 2026
+summary: Introduces KTD-Fin, an end-to-end stock-market trading benchmark that uses data-side masking
+  to prevent knowledge leakage and a Barra-style attribution framework to decompose returns, addressing
+  evaluation failures in LLM trading agents.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper provides a concrete, reproducible evaluation framework for agentic systems, specifically
+    addressing reliability and long-horizon evaluation in a financial context.
+status: draft

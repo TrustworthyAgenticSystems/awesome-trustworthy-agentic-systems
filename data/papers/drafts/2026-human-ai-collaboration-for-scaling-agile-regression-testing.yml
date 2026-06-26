@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-human-ai-collaboration-for-scaling-agile-regression-testing
+type: papers
+title: 'Human-AI Collaboration for Scaling Agile Regression Testing: An Agentic-AI Teammate from Manual
+  to Automated Testing'
+url: https://arxiv.org/abs/2603.08190v2
+authors:
+- Moustapha El Outmani
+- Manthan Venkataramana Shenoy
+- Ahmad Hatahet
+- Andreas Rausch
+- Tim Niklas Kniep
+- Thomas Raddatz
+- Benjamin King
+venue: arXiv
+year: 2026
+summary: An industrial case study of an agentic AI system that generates system-level regression test
+  scripts from specifications, operating as a 'silent AI teammate' for human review within CI pipelines.
+harness_layer:
+- oversight
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes a real-world deployment of an agentic system for test automation, focusing
+    on human-AI collaboration and oversight challenges in a production setting.
+status: draft

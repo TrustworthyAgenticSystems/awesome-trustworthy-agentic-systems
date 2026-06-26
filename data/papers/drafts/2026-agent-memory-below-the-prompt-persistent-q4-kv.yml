@@ -1,0 +1,26 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agent-memory-below-the-prompt-persistent-q4-kv
+type: papers
+title: 'Agent Memory Below the Prompt: Persistent Q4 KV Cache for Multi-Agent LLM Inference on Edge Devices'
+url: https://arxiv.org/abs/2603.04428v1
+authors:
+- Yakov Pyotr Shkolnikov
+venue: arXiv
+year: 2026
+summary: This paper proposes a system for persisting and reloading quantized KV caches to disk for multi-agent
+  LLM inference on edge devices, significantly reducing re-prefill computation and improving memory efficiency.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses a systems-level memory management problem for multi-agent systems,
+    focusing on efficiency and reliability of agent execution on resource-constrained devices.
+status: draft

@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-holmes-multimodal-agentic-diagnosis-for-mixed-language-mobile
+type: papers
+title: 'Holmes: Multimodal Agentic Diagnosis for Mixed-Language Mobile Crashes at Industrial Scale'
+url: https://arxiv.org/abs/2606.21963v1
+authors:
+- Jia Li
+- Wenyuan Ma
+- Ting Peng
+- Haibin Zheng
+- Yuetang Deng
+venue: arXiv
+year: 2026
+summary: Holmes is a multi-agent system with a hierarchical Retrieve-Explore-Reason architecture that
+  automates root cause analysis for mobile crashes by synthesizing multimodal runtime signals to reconstruct
+  failure contexts and localize faults in large codebases.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper presents an end-to-end multi-agent system architecture for a critical operational
+    problem (crash diagnosis) with significant real-world impact and detailed methodology for handling
+    complex, large-scale environments.
+status: draft

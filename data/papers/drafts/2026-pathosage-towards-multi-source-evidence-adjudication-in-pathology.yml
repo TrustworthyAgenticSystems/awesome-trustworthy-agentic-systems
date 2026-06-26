@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-pathosage-towards-multi-source-evidence-adjudication-in-pathology
+type: papers
+title: 'PathoSage: Towards Multi-Source Evidence Adjudication in Pathology via Experience-Aware Agentic
+  Workflow'
+url: https://arxiv.org/abs/2606.07549v1
+authors:
+- Chengyang Zhang
+- Wenchuan Zhang
+- Bo Li
+- Mengran Li
+- Bob Zhang
+- Yuhao Yi
+- Hong Bu
+- Jiancheng Lv
+venue: arXiv
+year: 2026
+summary: PathoSage is a three-stage agentic framework for pathology that explicitly separates knowledge
+  retrieval, evidence collection, and evidence adjudication, using a structured deliberation process and
+  an experience system to model tool reliability and mitigate hallucinations and classifier disagreement.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a multi-stage agentic workflow with explicit evidence adjudication and
+    reliability-aware tool modeling, directly addressing reliability and safety in agent coordination
+    and tool use.
+status: draft

@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-secure-agentic-ai-to-secure-agentic-web
+type: papers
+title: 'From Secure Agentic AI to Secure Agentic Web: Challenges, Threats, and Future Directions'
+url: https://arxiv.org/abs/2603.01564v1
+authors:
+- Zhihang Deng
+- Jiaping Gui
+- Weinan Zhang
+venue: arXiv
+year: 2026
+summary: A survey providing a comprehensive threat taxonomy and defense review for agentic AI systems,
+  extending to the 'Agentic Web' with discussions on escalated risks and open challenges for web-scale
+  deployment.
+harness_layer:
+- foundations
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a foundational taxonomy and survey of security challenges and defenses
+    for agentic systems, directly addressing the 'agent-as-system' thesis.
+status: draft

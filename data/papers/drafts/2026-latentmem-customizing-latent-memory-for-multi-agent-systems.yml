@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-latentmem-customizing-latent-memory-for-multi-agent-systems
+type: papers
+title: 'LatentMem: Customizing Latent Memory for Multi-Agent Systems'
+url: https://arxiv.org/abs/2602.03036v2
+authors:
+- Muxin Fu
+- Xiangyuan Xue
+- Yafu Li
+- Zefeng He
+- Siyuan Huang
+- Xiaoye Qu
+- Yu Cheng
+- Yang Yang
+venue: arXiv
+year: 2026
+summary: LatentMem is a learnable multi-agent memory framework that customizes agent-specific memories
+  in a token-efficient manner by synthesizing compact latent memories from an experience bank and agent-specific
+  contexts.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses memory management and efficiency in multi-agent systems, which is a core
+    systems-engineering concern for agent trustworthiness.
+status: draft

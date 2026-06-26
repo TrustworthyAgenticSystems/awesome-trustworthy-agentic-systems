@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-features-to-actions-explainability-in-traditional-and
+type: papers
+title: 'From Features to Actions: Explainability in Traditional and Agentic AI Systems'
+url: https://arxiv.org/abs/2602.06841v4
+authors:
+- Sindhuja Chaduvula
+- Jessee Ho
+- Kina Kim
+- Aravind Narayanan
+- Ahmed Y. Radwan
+- Mahshid Alinoori
+- Muskan Garg
+- Dhanesh Ramachandram
+- Shaina Raza
+venue: arXiv
+year: 2026
+summary: Compares attribution-based explanations with trace-based diagnostics for agentic systems, finding
+  that trace-grounded rubric evaluation is more effective for localizing execution-level failures in multi-step
+  agent trajectories.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses explainability and diagnosis of failures in multi-step agentic
+    systems, contributing to observation and evaluation of agent behavior.
+status: draft

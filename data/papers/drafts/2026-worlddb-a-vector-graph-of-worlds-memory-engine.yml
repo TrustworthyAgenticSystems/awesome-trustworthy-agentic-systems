@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-worlddb-a-vector-graph-of-worlds-memory-engine
+type: papers
+title: 'WorldDB: A Vector Graph-of-Worlds Memory Engine with Ontology-Aware Write-Time Reconciliation'
+url: https://arxiv.org/abs/2604.18478v1
+authors:
+- Harish Santhanalakshmi Ganesan
+venue: arXiv
+year: 2026
+summary: WorldDB is a vector graph-of-worlds memory engine that uses recursive, content-addressed nodes
+  and programmable edge types for ontology-aware write-time reconciliation, improving accuracy on long-context
+  conversational tasks.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: This paper presents a novel memory engine with architectural features (recursive graphs,
+    content-addressed immutability, programmable edges) directly addressing reliability and integrity
+    concerns for agentic memory.
+status: draft

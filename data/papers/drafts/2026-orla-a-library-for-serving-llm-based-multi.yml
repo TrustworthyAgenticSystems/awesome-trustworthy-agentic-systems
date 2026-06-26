@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-orla-a-library-for-serving-llm-based-multi
+type: papers
+title: 'Orla: A Library for Serving LLM-Based Multi-Agent Systems'
+url: https://arxiv.org/abs/2603.13605v1
+authors:
+- Rana Shahout
+- Hayder Tirmazi
+- Minlan Yu
+- Michael Mitzenmacher
+venue: arXiv
+year: 2026
+summary: Orla is a serving library that abstracts request execution from workflow-level policy for multi-agent
+  systems, managing stage mapping, workflow orchestration, and memory across heterogeneous infrastructure
+  to improve latency and cost.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Orla provides a systems-level architecture for serving multi-agent workflows, addressing
+    orchestration, resource management, and memory across different models and backends.
+status: draft

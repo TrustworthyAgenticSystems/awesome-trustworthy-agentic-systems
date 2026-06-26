@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-federated-learning-the-future-of-distributed-training
+type: papers
+title: 'Agentic Federated Learning: The Future of Distributed Training Orchestration'
+url: https://arxiv.org/abs/2604.04895v1
+authors:
+- Rafael O. Jarczewski
+- Gabriel U. Talasso
+- Leandro Villas
+- Allan M. de Souza
+venue: arXiv
+year: 2026
+summary: Proposes Agentic-FL, a framework using LLM-based agents for autonomous orchestration in federated
+  learning to adapt to client heterogeneity and manage privacy budgets, addressing reliability and security
+  challenges.
+harness_layer:
+- coordination
+sprs:
+- privacy
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a multi-agent system for orchestrating federated learning, directly addressing
+    coordination and reliability in a distributed system context, with a focus on privacy management.
+status: draft

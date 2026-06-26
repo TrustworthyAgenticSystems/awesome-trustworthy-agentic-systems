@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mipiad-multilingual-indirect-prompt-injection-attack-defense-with
+type: papers
+title: 'MIPIAD: Multilingual Indirect Prompt Injection Attack Defense with Qwen -- TF-IDF Hybrid and Meta-Ensemble
+  Learning'
+url: https://arxiv.org/abs/2605.07269v1
+authors:
+- Al Muhit Muhtadi
+- Mostafa Rifat Tazwar
+venue: arXiv
+year: 2026
+summary: MIPIAD is a defense framework against multilingual indirect prompt injection attacks, combining
+  a fine-tuned sequence classifier, TF-IDF lexical features, and ensemble learning, evaluated on English
+  and Bangla.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses a system-level security vulnerability (indirect prompt injection)
+    in RAG and tool-using LLM systems with a concrete defense framework.
+status: draft

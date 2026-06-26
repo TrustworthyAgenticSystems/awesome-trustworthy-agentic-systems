@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-webtrap-stealthy-mid-task-hijacking-of-browser-agents
+type: papers
+title: 'WebTrap: Stealthy Mid-Task Hijacking of Browser Agents During Navigation'
+url: https://arxiv.org/abs/2605.08310v1
+authors:
+- Zhichao Liu
+- Wenbo Pan
+- Haining Yu
+- Ge Gao
+- Tianqing Zhu
+- Xiaohua Jia
+venue: arXiv
+year: 2026
+summary: WebTrap demonstrates a stealthy mid-task hijacking attack on browser agents that fuses malicious
+  instructions with user goals, exploiting navigation vulnerabilities in long-horizon tasks.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper presents a novel red-teaming attack that exploits system-level vulnerabilities
+    in agent navigation and multi-step execution, directly contributing to agentic system security.
+status: draft

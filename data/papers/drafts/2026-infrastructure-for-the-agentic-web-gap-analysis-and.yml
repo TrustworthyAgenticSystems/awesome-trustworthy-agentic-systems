@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-infrastructure-for-the-agentic-web-gap-analysis-and
+type: papers
+title: 'Infrastructure for the Agentic Web: Gap Analysis and Architecture from the Agentverse Platform'
+url: https://arxiv.org/abs/2606.20570v1
+authors:
+- Robin Dey
+- Panyanon Viradecha
+venue: arXiv
+year: 2026
+summary: Systematic analysis of the Agentverse platform, identifying 62 missing capabilities across eight
+  categories, and proposing a seven-layer reference architecture for a fully realized agent-native cloud.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- security
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides a detailed architectural analysis and gap taxonomy for production agent infrastructure,
+    directly addressing systems-level challenges for trustworthy agents.
+status: draft

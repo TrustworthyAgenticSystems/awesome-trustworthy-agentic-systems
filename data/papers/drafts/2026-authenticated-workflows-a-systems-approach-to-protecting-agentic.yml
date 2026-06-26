@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-authenticated-workflows-a-systems-approach-to-protecting-agentic
+type: papers
+title: 'Authenticated Workflows: A Systems Approach to Protecting Agentic AI'
+url: https://arxiv.org/abs/2602.10465v1
+authors:
+- Mohan Rajagopalan
+- Vinay Rao
+venue: arXiv
+year: 2026
+summary: Introduces authenticated workflows as a complete trust layer for enterprise agentic AI, enforcing
+  intent and integrity at prompt, tool, data, and context boundaries using cryptographic proofs and a
+  hierarchical policy language.
+harness_layer:
+- foundations
+sprs:
+- security
+- safety
+open_problems:
+- intent-to-constraints
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper proposes a foundational systems approach to agent security, defining trust boundaries
+    and a policy language for deterministic enforcement, with strong empirical validation.
+status: draft

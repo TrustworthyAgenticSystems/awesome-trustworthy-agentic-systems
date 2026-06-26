@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-ai-and-the-industrialization-of-cyber-offense
+type: papers
+title: 'Agentic AI and the Industrialization of Cyber Offense: Forecast, Consequences, and Defensive Priorities
+  for Enterprises and the Mittelstand'
+url: https://arxiv.org/abs/2605.06713v1
+authors:
+- Christopher Koch
+venue: arXiv
+year: 2026
+summary: This paper synthesizes current evidence on agentic AI cyber capabilities, introduces risk models
+  for attack compression, and provides a prioritized defense roadmap for enterprises.
+harness_layer:
+- foundations
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a foundational analysis of agentic AI cyber risks and proposes a defense
+    roadmap, which is relevant to understanding the systems-level security implications.
+status: draft

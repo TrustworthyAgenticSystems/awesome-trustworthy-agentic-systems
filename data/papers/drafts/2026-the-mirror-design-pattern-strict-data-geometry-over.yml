@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-mirror-design-pattern-strict-data-geometry-over
+type: papers
+title: 'The Mirror Design Pattern: Strict Data Geometry over Model Scale for Prompt Injection Detection'
+url: https://arxiv.org/abs/2603.11875v2
+authors:
+- J Alex Corll
+venue: arXiv
+year: 2026
+summary: Introduces the Mirror design pattern for prompt injection detection, using strict data geometry
+  and a sparse character n-gram linear SVM to achieve high recall and F1 at sub-millisecond latency for
+  L1 screening.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses prompt injection detection, a core red-teaming concern, with a novel,
+    performant, and auditable system-level defense.
+status: draft

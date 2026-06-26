@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-avda-autonomous-vibe-detection-authoring-for-cybersecurity
+type: papers
+title: 'AVDA: Autonomous Vibe Detection Authoring for Cybersecurity'
+url: https://arxiv.org/abs/2603.25930v2
+authors:
+- Fatih Bulut
+- Carlo DePaolis
+- Raghav Batta
+- Anjali Mangal
+venue: arXiv
+year: 2026
+summary: AVDA is a framework that automates cybersecurity detection authoring by integrating organizational
+  context into AI-assisted code generation, evaluating different agentic strategies for quality and cost.
+harness_layer:
+- architectures
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper presents a framework for automating cybersecurity detection authoring, which is
+    a systems-level problem involving AI-assisted code generation and integration into developer environments,
+    directly contributing to the security of agentic systems.
+status: draft

@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-skills-to-talent-organising-heterogeneous-agents-as
+type: papers
+title: 'From Skills to Talent: Organising Heterogeneous Agents as a Real-World Company'
+url: https://arxiv.org/abs/2604.22446v1
+authors:
+- Zhengxu Yu
+- Yu Fu
+- Zhiyuan He
+- Yuxuan Huang
+- Lee Ka Yiu
+- Meng Fang
+- Weilin Luo
+- Jun Wang
+venue: arXiv
+year: 2026
+summary: OneManCompany (OMC) is a framework for organizing heterogeneous agents into dynamic, self-improving
+  AI organizations, using a Talent Market for on-demand recruitment and an Explore-Execute-Review tree
+  search for hierarchical planning, execution, and evaluation with formal guarantees.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper introduces a novel coordination framework for multi-agent systems, addressing
+    dynamic team structures and organizational learning, which is a core systems-engineering problem for
+    trustworthy agents.
+status: draft

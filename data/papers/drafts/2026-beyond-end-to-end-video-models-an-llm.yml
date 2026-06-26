@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-end-to-end-video-models-an-llm
+type: papers
+title: 'Beyond End-to-End Video Models: An LLM-Based Multi-Agent System for Educational Video Generation'
+url: https://arxiv.org/abs/2602.11790v2
+authors:
+- Lingyong Yan
+- Jiulong Wu
+- Dong Xie
+- Weixian Shi
+- Deguo Xia
+- Jizhou Huang
+venue: arXiv
+year: 2026
+summary: LASEV is a hierarchical multi-agent system for educational video generation that uses specialized
+  agents, an orchestrating agent, shared state, quality gates, and iterative critique to ensure logical
+  rigor and pedagogical coherence.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-agent system with explicit coordination mechanisms, quality gates,
+    and iterative critique, which are relevant to engineering trustworthy agentic systems for reliability
+    and safety.
+status: draft

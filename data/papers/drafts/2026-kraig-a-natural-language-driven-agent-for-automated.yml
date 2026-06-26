@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-kraig-a-natural-language-driven-agent-for-automated
+type: papers
+title: 'kRAIG: A Natural Language-Driven Agent for Automated DataOps Pipeline Generation'
+url: https://arxiv.org/abs/2603.20311v1
+authors:
+- Rohan Siva
+- Kai Cheung
+- Lichi Li
+- Ganesh Sundaram
+venue: arXiv
+year: 2026
+summary: kRAIG is an AI agent that translates natural language into Kubeflow Pipelines, using a ReQuesAct
+  framework to clarify user intent and LLM-based validation to ensure pipeline integrity and executability.
+harness_layer:
+- intent
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the challenge of translating natural language intent into reliable
+    and safe agent actions through explicit clarification and validation stages, which is a core systems
+    problem for trustworthy agents.
+status: draft

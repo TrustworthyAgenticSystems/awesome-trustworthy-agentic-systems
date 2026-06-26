@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-foundation-model-based-agents-in-industrial-automation-purposes
+type: papers
+title: 'Foundation-Model-Based Agents in Industrial Automation: Purposes, Capabilities, and Open Challenges'
+url: https://arxiv.org/abs/2605.02592v1
+authors:
+- Vincent Henkel
+- Felix Gehlhoff
+- David Kube
+- Asaad Almutareb
+- Luis Cruz
+- Bernd Hellingrath
+- Philip Koch
+- Christoph Legat
+- Florian Mohr
+- Michael Oberle
+- Felix Ocker
+- Thorsten Schoeler
+- Mario Thron
+- Nico Andre Töpfer
+- Lucas Vogt
+- Yuchen Xia
+venue: arXiv
+year: 2026
+summary: A systematic literature survey on foundation-model-based agents in industrial automation, identifying
+  their purposes, capabilities, and limitations, and proposing a working definition.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a foundational survey and taxonomy of agentic systems in industrial contexts,
+    aligning with the 'foundations' layer by framing the problem and identifying challenges.
+status: draft

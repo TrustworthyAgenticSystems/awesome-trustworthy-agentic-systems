@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-pipe-cypher-automatic-enterprise-benchmark-generation-for-text
+type: papers
+title: 'PIPE-Cypher: Automatic Enterprise Benchmark Generation for Text-to-Cypher Systems'
+url: https://arxiv.org/abs/2606.08481v1
+authors:
+- Suraj Ranganath
+- Anish Raghavendra
+venue: arXiv
+year: 2026
+summary: PIPE-Cypher is a local benchmark-generation pipeline that creates balanced, executable, and schema-specific
+  NL-to-Cypher benchmarks from live property graphs, addressing the challenge of evaluating Text2Cypher
+  systems in dynamic enterprise environments.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper contributes a system for generating dynamic, deployment-relevant benchmarks for
+    Text2Cypher systems, which is crucial for reliable evaluation of agentic components that interact
+    with databases.
+status: draft

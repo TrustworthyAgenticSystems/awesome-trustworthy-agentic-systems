@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ipi-proxy-an-intercepting-proxy-for-red-teaming
+type: papers
+title: 'IPI-proxy: An Intercepting Proxy for Red-Teaming Web-Browsing AI Agents Against Indirect Prompt
+  Injection'
+url: https://arxiv.org/abs/2605.11868v1
+authors:
+- Chia-Pei
+- Chen
+- Kentaroh Toyoda
+- Anita Lai
+- Alex Leung
+venue: arXiv
+year: 2026
+summary: IPI-proxy is an open-source intercepting proxy toolkit for red-teaming web-browsing AI agents
+  against indirect prompt injection by rewriting real HTTP responses with adversarial payloads from a
+  unified library.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly contributes to red-teaming agentic systems by providing a practical tool
+    for evaluating web-browsing agents against indirect prompt injection in a realistic setting.
+status: draft

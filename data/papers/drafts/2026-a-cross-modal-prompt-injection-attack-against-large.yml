@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-cross-modal-prompt-injection-attack-against-large
+type: papers
+title: A Cross-Modal Prompt Injection Attack against Large Vision-Language Models with Image-Only Perturbation
+url: https://arxiv.org/abs/2605.16090v1
+authors:
+- Hao Yang
+- Zhuo Ma
+- Yang Liu
+- Yilong Yang
+- Guancheng Wang
+- JianFeng Ma
+venue: arXiv
+year: 2026
+summary: Introduces CrossMPI, a novel cross-modal prompt injection attack against LVLMs that steers both
+  textual and visual interpretations via image-only perturbations, by optimizing in the model's hidden
+  state space and using layer selection and distance-decremental perturbation strategies.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes a novel red-teaming attack against multimodal agents, specifically focusing
+    on cross-modal prompt injection, which is a system-level security concern.
+status: draft

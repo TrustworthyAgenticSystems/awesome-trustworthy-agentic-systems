@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-build-judge-optimize-a-blueprint-for-continuous-improvement
+type: papers
+title: 'Build, Judge, Optimize: A Blueprint for Continuous Improvement of Multi-Agent Consumer Assistants'
+url: https://arxiv.org/abs/2603.03565v2
+authors:
+- Alejandro Breen Herrera
+- Aayush Sheth
+- Steven G. Xu
+- Zhucheng Zhan
+- Charles Wright
+- Marcus Yearwood
+- Hongtai Wei
+- Sudeep Das
+- Danny Nightingale
+- Meg Watson
+- Charles Pollnow
+venue: arXiv
+year: 2026
+summary: Presents a blueprint for evaluating and optimizing multi-agent conversational shopping assistants
+  using a multi-faceted rubric, LLM-as-judge pipeline, and two prompt-optimization strategies (sub-agent
+  and system-level multi-turn optimization).
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a concrete methodology for evaluating and optimizing multi-agent systems
+    in a production context, addressing long-horizon evaluation and continuous improvement.
+status: draft

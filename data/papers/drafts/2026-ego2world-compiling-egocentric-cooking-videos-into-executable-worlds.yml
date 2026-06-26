@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ego2world-compiling-egocentric-cooking-videos-into-executable-worlds
+type: papers
+title: 'Ego2World: Compiling Egocentric Cooking Videos into Executable Worlds for Belief-State Planning'
+url: https://arxiv.org/abs/2605.13335v1
+authors:
+- Qinchuan Cheng
+- Zhantao Gong
+- Pengzhan Sun
+- Angela Yao
+- Xulei Yang
+- Shijie Li
+venue: arXiv
+year: 2026
+summary: Ego2World is an executable benchmark that converts egocentric cooking videos into symbolic worlds
+  with graph-transition rules, forcing agents to plan under partial observation and maintain belief state
+  for improved task completion.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper introduces a novel benchmark for evaluating embodied agents' ability to plan and
+    maintain belief states under partial observation, which is crucial for the reliability of long-running
+    agentic systems.
+status: draft

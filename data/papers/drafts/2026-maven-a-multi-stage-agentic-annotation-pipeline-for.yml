@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-maven-a-multi-stage-agentic-annotation-pipeline-for
+type: papers
+title: 'MAVEN: A Multi-stage Agentic Annotation Pipeline for Video Reasoning Tasks'
+url: https://arxiv.org/abs/2605.21917v1
+authors:
+- Han Zhang
+- Wanting Jiang
+- Tomasz Kornuta
+- Tian Zheng
+- Vidya Murali
+venue: arXiv
+year: 2026
+summary: MAVEN is a multi-stage agentic pipeline for video annotation that uses a hierarchical refinement
+  loop to classify errors, trace root causes, and iteratively improve data quality through prompt rewriting
+  or pipeline modification.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-stage agentic pipeline with a hierarchical refinement loop for
+    error classification and pipeline adaptation, which is a substantive contribution to agentic systems
+    engineering for reliability.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-toward-a-theory-of-hierarchical-memory-for-language
+type: papers
+title: Toward a Theory of Hierarchical Memory for Language Agents
+url: https://arxiv.org/abs/2603.21564v1
+authors:
+- Yashar Talebirad
+- Ali Parsaee
+- Csongor Y. Szepesvari
+- Amirhossein Nadiri
+- Osmar Zaiane
+venue: arXiv
+year: 2026
+summary: Proposes a unifying theoretical framework for hierarchical memory in language agents, decomposing
+  it into extraction, coarsening, and traversal operators to compare design choices across existing systems.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Provides a foundational theoretical contribution to the design and comparison of hierarchical
+    memory systems for agents, which is critical for reliability and integrity.
+status: draft

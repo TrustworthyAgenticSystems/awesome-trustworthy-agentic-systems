@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-causal-methods-for-llm-development-and-evaluation
+type: papers
+title: Causal methods for LLM development and evaluation
+url: https://arxiv.org/abs/2605.25998v1
+authors:
+- Dennis Frauen
+- Marie Brockschmidt
+- Konstantin Hess
+- Haorui Ma
+- Yuchen Ma
+- Abdurahman Maarouf
+- Maresa Schröder
+- Jonas Schweisthal
+- Yuxin Wang
+- Athiya Deviyani
+- Sonali Parbhoo
+- Rahul G. Krishnan
+- Stefan Feuerriegel
+venue: arXiv
+year: 2026
+summary: This paper argues for the application of causal inference methods to address inherent causal
+  questions in LLM development and evaluation, including agentic workflows, to ensure reliable and scientifically
+  grounded design.
+harness_layer:
+- foundations
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides a foundational argument for applying causal methods to improve reliability
+    in LLM development and evaluation, explicitly mentioning agentic workflows and evaluation pipelines.
+status: draft

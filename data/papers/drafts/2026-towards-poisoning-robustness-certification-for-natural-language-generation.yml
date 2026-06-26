@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-poisoning-robustness-certification-for-natural-language-generation
+type: papers
+title: Towards Poisoning Robustness Certification for Natural Language Generation
+url: https://arxiv.org/abs/2602.09757v1
+authors:
+- Mihnea Ghitu
+- Matthew Wicker
+venue: arXiv
+year: 2026
+summary: Formalizes poisoning robustness for natural language generation with two security properties
+  (stability and validity) and introduces Targeted Partition Aggregation (TPA) to certify the minimum
+  poisoning budget for targeted attacks, including agent tool-calling scenarios.
+harness_layer:
+- red-team
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a certification framework for poisoning robustness in natural language
+    generation, specifically addressing agent tool-calling, which is a direct contribution to red-teaming
+    and reliability of agentic systems.
+status: draft

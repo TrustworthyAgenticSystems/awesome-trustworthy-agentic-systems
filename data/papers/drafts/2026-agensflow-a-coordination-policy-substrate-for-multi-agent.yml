@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agensflow-a-coordination-policy-substrate-for-multi-agent
+type: papers
+title: 'AgensFlow: A Coordination-Policy Substrate for Multi-Agent Systems'
+url: https://arxiv.org/abs/2605.27466v1
+authors:
+- Nicole Koenigstein
+venue: arXiv
+year: 2026
+summary: AgensFlow is an open-source framework that treats multi-agent coordination as an online policy-learning
+  problem, making coordination decisions observable and learnable from repeated trajectories to improve
+  workflow reliability.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the systems-engineering challenge of multi-agent coordination
+    and routing, proposing a learnable policy substrate for improved reliability.
+status: draft

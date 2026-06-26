@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-measuring-safety-alignment-effects-in-autonomous-security-agents
+type: papers
+title: Measuring Safety Alignment Effects in Autonomous Security Agents
+url: https://arxiv.org/abs/2605.19722v1
+authors:
+- Isaac David
+- Arthur Gervais
+venue: arXiv
+year: 2026
+summary: A trace-based benchmark for autonomous security agents that measures safety alignment effects
+  at the system level, considering refusal, unsafe action, tool reliability, and evidence grounding across
+  30 vulnerability-analysis tasks.
+harness_layer:
+- observation-eval
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a system-level, trace-based benchmark for evaluating safety alignment
+    in autonomous agents, focusing on operational behavior rather than single-turn model outputs.
+status: draft

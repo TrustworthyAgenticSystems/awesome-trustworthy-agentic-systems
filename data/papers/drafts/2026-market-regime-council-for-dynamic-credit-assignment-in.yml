@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-market-regime-council-for-dynamic-credit-assignment-in
+type: papers
+title: Market Regime Council for Dynamic Credit Assignment in Multi-Agent LLM Decision Systems
+url: https://arxiv.org/abs/2605.24490v1
+authors:
+- Yunhua Pei
+- Zerui Ge
+- Jin Zheng
+- John Cartlidge
+venue: arXiv
+year: 2026
+summary: Proposes Market Regime Council (MRC), a multi-agent system for portfolio management that uses
+  Shapley values to dynamically assign credit and weight specialist agents, enhancing transparency and
+  stability during regime shifts.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses dynamic credit assignment and transparency in multi-agent coordination, a systems-level
+    concern for trustworthy agentic systems.
+status: draft

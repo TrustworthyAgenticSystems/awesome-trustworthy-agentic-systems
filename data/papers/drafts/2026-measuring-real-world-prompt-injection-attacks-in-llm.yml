@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-measuring-real-world-prompt-injection-attacks-in-llm
+type: papers
+title: Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening
+url: https://arxiv.org/abs/2605.28999v1
+authors:
+- Mohan Zhang
+- Yuqi Jia
+- Zhen Tan
+- Steven Jiang
+- Neil Zhenqiang Gong
+- Tianlong Chen
+- Dawn Song
+venue: arXiv
+year: 2026
+summary: Presents the first systematic measurement study of real-world prompt injection attacks in LLM-based
+  resume screening, revealing prevalence and characteristics of hidden injections.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides an empirical study of real-world prompt injection attacks, contributing
+    to the understanding of adversarial threats in agentic systems.
+status: draft

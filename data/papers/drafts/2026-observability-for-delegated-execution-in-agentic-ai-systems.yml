@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-observability-for-delegated-execution-in-agentic-ai-systems
+type: papers
+title: Observability for Delegated Execution in Agentic AI Systems
+url: https://arxiv.org/abs/2606.09692v1
+authors:
+- Abhinav Mishra
+- Kumar Sharad
+venue: arXiv
+year: 2026
+summary: Proposes an agent-aware observability substrate with a lightweight gateway and common information
+  model to bind delegation context at execution time, enabling reliable cross-tool delegation-scoped reconstruction
+  and forensic queries.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- privacy
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Addresses a critical observability gap in agentic systems by providing a technical solution
+    for delegation-scoped attribution and access footprint reconstruction across heterogeneous tools.
+status: draft

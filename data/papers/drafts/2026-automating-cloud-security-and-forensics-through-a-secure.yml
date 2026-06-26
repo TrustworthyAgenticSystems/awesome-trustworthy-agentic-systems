@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-automating-cloud-security-and-forensics-through-a-secure
+type: papers
+title: Automating Cloud Security and Forensics Through a Secure-by-Design Generative AI Framework
+url: https://arxiv.org/abs/2604.03912v1
+authors:
+- Dalal Alharthi
+- Ivan Roberto Kawaminami Garcia
+venue: arXiv
+year: 2026
+summary: A secure-by-design GenAI framework integrating PromptShield for ontology-driven prompt validation
+  against adversarial inputs and CIAF for structured, ontology-based reasoning in cloud forensic investigations,
+  evaluated on real-world cloud datasets.
+harness_layer:
+- red-team
+sprs:
+- security
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a framework that directly addresses prompt injection attacks and enhances
+    forensic rigor in cloud environments, contributing to the security and reliability of agentic systems.
+status: draft

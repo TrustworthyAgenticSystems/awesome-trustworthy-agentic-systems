@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-staminabench-stress-testing-coding-agents-over-100-interaction
+type: papers
+title: 'StaminaBench: Stress-Testing Coding Agents over 100 Interaction Turns'
+url: https://arxiv.org/abs/2606.19613v1
+authors:
+- Vlad Sobal
+- Shuo Yang
+- Yuting Zhang
+- Wei Xia
+- Stefano Soatto
+venue: arXiv
+year: 2026
+summary: StaminaBench is a black-box, language-agnostic benchmark for stress-testing coding agents over
+  100 consecutive interaction turns, evaluating their reliability and the impact of harnesses and test
+  feedback on long-horizon performance.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a novel, system-level benchmark for evaluating the long-term reliability
+    and robustness of agentic systems, specifically coding agents, under sustained interaction.
+status: draft

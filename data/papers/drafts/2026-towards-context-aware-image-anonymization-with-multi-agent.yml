@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-context-aware-image-anonymization-with-multi-agent
+type: papers
+title: Towards Context-Aware Image Anonymization with Multi-Agent Reasoning
+url: https://arxiv.org/abs/2603.27817v3
+authors:
+- Robert Aufschläger
+- Jakob Folz
+- Gautam Savaliya
+- Manjitha D Vidanalage
+- Michael Heigl
+- Martin Schramm
+venue: arXiv
+year: 2026
+summary: A multi-agent framework for context-aware image anonymization that uses specialized agents coordinating
+  in a PDCA cycle to identify and redact PII based on spatial context, while generating audit trails for
+  GDPR compliance.
+harness_layer:
+- coordination
+sprs:
+- privacy
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: The paper describes a multi-agent system for a privacy-critical task, focusing on agent coordination,
+    context-aware reasoning, and auditability for regulatory compliance.
+status: draft

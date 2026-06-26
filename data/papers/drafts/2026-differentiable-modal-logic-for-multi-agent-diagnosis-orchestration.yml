@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-differentiable-modal-logic-for-multi-agent-diagnosis-orchestration
+type: papers
+title: Differentiable Modal Logic for Multi-Agent Diagnosis, Orchestration and Communication
+url: https://arxiv.org/abs/2602.12083v1
+authors:
+- Antonin Sulc
+venue: arXiv
+year: 2026
+summary: Introduces Differentiable Modal Logic (DML) and Modal Logical Neural Networks (MLNNs) to learn
+  and reason about trust, causality, and permissions in multi-agent systems for debugging, orchestration,
+  and communication.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper contributes a neurosymbolic framework for learning and applying modal logic to
+    diagnose and control multi-agent system behavior, directly addressing coordination and reliability
+    concerns.
+status: draft

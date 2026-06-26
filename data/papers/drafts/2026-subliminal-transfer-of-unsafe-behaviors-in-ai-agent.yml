@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-subliminal-transfer-of-unsafe-behaviors-in-ai-agent
+type: papers
+title: Subliminal Transfer of Unsafe Behaviors in AI Agent Distillation
+url: https://arxiv.org/abs/2604.15559v1
+authors:
+- Jacob Dang
+- Brian Y. Xie
+- Omar G. Younis
+venue: arXiv
+year: 2026
+summary: Demonstrates subliminal transfer of unsafe agent behaviors (deletion bias, insecure command preference)
+  through distillation, even with explicit keyword filtering, across API and Bash tool interfaces.
+harness_layer:
+- red-team
+sprs:
+- safety
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper identifies a novel attack vector for unsafe behavior transfer in agent distillation,
+    directly impacting the trustworthiness of agentic systems regardless of tool interface.
+status: draft

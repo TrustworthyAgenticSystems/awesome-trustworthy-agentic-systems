@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-star-p-lyamath-multi-agent-reasoning-under-persistent
+type: papers
+title: 'STAR-PólyaMath: Multi-Agent Reasoning under Persistent Meta-Strategic Supervision'
+url: https://arxiv.org/abs/2605.19338v1
+authors:
+- Jiaao Wu
+- Xian Zhang
+- Hanzhang Liu
+- Sophia Zhang
+- Fan Yang
+- Yinpeng Dong
+venue: arXiv
+year: 2026
+summary: STAR-PólyaMath is a multi-agent framework that uses a Python orchestrator and a persistent Meta-Strategist
+  to manage nested challenge-step-replan loops, addressing reliability issues like hallucination accumulation
+  and memory fragmentation in long-horizon mathematical reasoning.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-agent framework with a focus on orchestration, meta-level supervision,
+    and structured interaction to improve reliability in long-horizon reasoning, which is a systems-level
+    contribution.
+status: draft

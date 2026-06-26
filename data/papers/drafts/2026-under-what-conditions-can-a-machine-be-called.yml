@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-under-what-conditions-can-a-machine-be-called
+type: papers
+title: Under What Conditions Can a Machine Be Called Genuinely Creative?
+url: https://arxiv.org/abs/2606.13196v3
+authors:
+- Yong Zeng
+venue: arXiv
+year: 2026
+summary: Develops a ten-requirement framework for genuine machine creativity, derived from Designics,
+  emphasizing recursive intervention dynamics and human-AI co-living, which frames proactive AI ethics
+  as internal to the system design.
+harness_layer:
+- foundations
+sprs:
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.75
+  rationale: Provides a foundational framework for understanding and engineering genuine machine creativity,
+    including ethical considerations, relevant to trustworthy agentic systems.
+status: draft

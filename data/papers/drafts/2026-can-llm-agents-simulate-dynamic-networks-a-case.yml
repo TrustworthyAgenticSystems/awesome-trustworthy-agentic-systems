@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-can-llm-agents-simulate-dynamic-networks-a-case
+type: papers
+title: Can LLM Agents Simulate Dynamic Networks? A Case Study on Email Networks with Phishing Synthesis
+url: https://arxiv.org/abs/2605.12507v1
+authors:
+- Siqi Miao
+- Ziyang Chen
+- Yuhong Luo
+- Hans Hao-Hsun Hsu
+- Mufei Li
+- Kaiqing Zhang
+- Pan Li
+venue: arXiv
+year: 2026
+summary: Introduces two extensions, data-driven event triggers and Hawkes processes, to LLM multi-agent
+  simulation frameworks to improve the fidelity of macroscopic network dynamics for modeling information
+  propagation and cybersecurity threats.
+harness_layer:
+- architectures
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses the reliability of multi-agent simulations for security applications by improving
+    the realism of network dynamics, which is relevant for evaluating agentic systems.
+status: draft

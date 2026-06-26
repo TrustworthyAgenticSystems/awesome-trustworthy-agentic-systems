@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-agents-evolve-institutions-follow
+type: papers
+title: When Agents Evolve, Institutions Follow
+url: https://arxiv.org/abs/2604.27691v1
+authors:
+- Chao Fei
+- Hongcheng Guo
+- Yanghua Xiao
+venue: arXiv
+year: 2026
+summary: Translates historical political institutions into executable multi-agent architectures to empirically
+  test trade-offs in collective organization, efficiency, and error correction, demonstrating that governance
+  topology significantly impacts collective performance.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses the coordination and organizational challenges of multi-agent
+    systems, framing them as a systems-engineering problem with empirical evaluation of different architectural
+    patterns.
+status: draft

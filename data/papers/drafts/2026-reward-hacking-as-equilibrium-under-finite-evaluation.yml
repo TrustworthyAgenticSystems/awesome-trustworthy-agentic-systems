@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-reward-hacking-as-equilibrium-under-finite-evaluation
+type: papers
+title: Reward Hacking as Equilibrium under Finite Evaluation
+url: https://arxiv.org/abs/2603.28063v1
+authors:
+- Jiacheng Wang
+- Jinbin Huang
+venue: arXiv
+year: 2026
+summary: Theoretical framework proving reward hacking as a structural equilibrium in AI agents due to
+  finite evaluation, with a computable distortion index and analysis of how agentic systems exacerbate
+  this problem.
+harness_layer:
+- foundations
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Provides a foundational theoretical understanding of a core trustworthiness problem (reward
+    hacking) that is exacerbated by agentic systems, offering a vulnerability assessment procedure.
+status: draft

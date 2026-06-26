@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-learning-to-continually-learn-via-meta-learning-agentic
+type: papers
+title: Learning to Continually Learn via Meta-learning Agentic Memory Designs
+url: https://arxiv.org/abs/2602.07755v1
+authors:
+- Yiming Xiong
+- Shengran Hu
+- Jeff Clune
+venue: arXiv
+year: 2026
+summary: ALMA is a meta-learning framework that automates the design of memory modules for agentic systems,
+  including database schemas and retrieval/update mechanisms, to enable more effective continual learning.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses the engineering of agent memory designs for continual learning
+    and adaptation, which is a systems-level concern for agent reliability.
+status: draft

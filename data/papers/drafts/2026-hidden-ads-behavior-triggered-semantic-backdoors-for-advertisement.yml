@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hidden-ads-behavior-triggered-semantic-backdoors-for-advertisement
+type: papers
+title: 'Hidden Ads: Behavior Triggered Semantic Backdoors for Advertisement Injection in Vision Language
+  Models'
+url: https://arxiv.org/abs/2603.27522v1
+authors:
+- Duanyi Yao
+- Changyue Li
+- Zhicong Huang
+- Cheng Hong
+- Songze Li
+venue: arXiv
+year: 2026
+summary: Introduces "Hidden Ads," a semantic backdoor attack that injects advertisements into VLM recommendations
+  based on natural user behaviors and semantic content, and evaluates its efficacy and resistance to defenses.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes a novel adversarial attack on agentic systems (VLMs in recommendation
+    services) that exploits natural user behavior for malicious content injection, directly contributing
+    to red-teaming efforts.
+status: draft

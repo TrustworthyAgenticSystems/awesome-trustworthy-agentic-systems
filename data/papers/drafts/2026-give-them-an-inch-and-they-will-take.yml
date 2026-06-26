@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-give-them-an-inch-and-they-will-take
+type: papers
+title: Give Them an Inch and They Will Take a Mile:Understanding and Measuring Caller Identity Confusion
+  in MCP-Based AI Systems
+url: https://arxiv.org/abs/2603.07473v1
+authors:
+- Yuhang Huang
+- Boyang Ma
+- Biwei Yan
+- Xuelong Dai
+- Yechao Zhang
+- Minghui Xu
+- Kaidi Xu
+- Yue Zhang
+venue: arXiv
+year: 2026
+summary: Identifies and characterizes caller identity confusion vulnerabilities in Model Context Protocol
+  (MCP) based AI systems, where MCP servers fail to authenticate callers or enforce fine-grained, per-tool
+  authorization, leading to expanded attack surfaces.
+harness_layer:
+- tool-interface
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses security vulnerabilities in tool interfaces (MCP) by analyzing caller
+    identity confusion and proposing explicit authentication and fine-grained authorization as solutions.
+status: draft

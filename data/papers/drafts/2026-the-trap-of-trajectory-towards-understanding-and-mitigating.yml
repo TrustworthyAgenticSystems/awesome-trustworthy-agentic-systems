@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-trap-of-trajectory-towards-understanding-and-mitigating
+type: papers
+title: 'The Trap of Trajectory: Towards Understanding and Mitigating Spurious Correlations in Agentic
+  Memory'
+url: https://arxiv.org/abs/2605.09330v1
+authors:
+- Luoxi Tang
+- Rupali Rajendra Vaje
+- Yuqiao Meng
+- Sakshi Sunil Narkar
+- Weicheng Ma
+- Zeyu Ding
+- Dazheng Zhang
+- Zhaohan Xi
+venue: arXiv
+year: 2026
+summary: Identifies and benchmarks spurious correlations in agentic memory that propagate erroneous reasoning,
+  and proposes CAMEL, a plug-and-play calibration method to mitigate these patterns at write and retrieval
+  time.
+harness_layer:
+- memory
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses a critical vulnerability in agentic memory systems by diagnosing spurious correlations
+    and providing a deployable mitigation strategy.
+status: draft

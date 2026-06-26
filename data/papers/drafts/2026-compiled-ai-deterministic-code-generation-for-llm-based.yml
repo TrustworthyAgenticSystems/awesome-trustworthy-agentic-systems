@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-compiled-ai-deterministic-code-generation-for-llm-based
+type: papers
+title: 'Compiled AI: Deterministic Code Generation for LLM-Based Workflow Automation'
+url: https://arxiv.org/abs/2604.05150v1
+authors:
+- Geert Trooskens
+- Aaron Karlsberg
+- Anmol Sharma
+- Lamara De Brouwer
+- Max Van Puyvelde
+- Matthew Young
+- John Thickstun
+- Gil Alterovitz
+- Walter A. De Brouwer
+venue: arXiv
+year: 2026
+summary: Introduces a system architecture and four-stage generation-and-validation pipeline for 'compiled
+  AI' that generates deterministic code artifacts from LLMs for high-stakes enterprise workflows, trading
+  runtime flexibility for predictability, auditability, and security.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper presents a systems-oriented architecture and pipeline for generating deterministic,
+    auditable code from LLMs, directly addressing reliability and security in agentic workflows.
+status: draft

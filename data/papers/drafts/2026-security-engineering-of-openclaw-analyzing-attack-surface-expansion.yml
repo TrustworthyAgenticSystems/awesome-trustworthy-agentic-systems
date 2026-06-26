@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-security-engineering-of-openclaw-analyzing-attack-surface-expansion
+type: papers
+title: 'Security Engineering of OpenClaw: Analyzing Attack Surface Expansion and Trust-Boundary Violations'
+url: https://arxiv.org/abs/2606.15008v1
+authors:
+- Saeid Jamshidi
+- Arghavan Moradi Dakhel
+- Kawser Wazed Nafi
+- Foutse Khomh
+venue: arXiv
+year: 2026
+summary: Analyzes the attack surface expansion, trust-boundary violations, and privilege drift in a self-hosted
+  multi-agent system (OpenClaw) as the number of agents and attacker capabilities increase, and evaluates
+  the impact of defensive controls.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a detailed security engineering analysis of a multi-agent system, focusing
+    on system-level vulnerabilities and the effectiveness of defensive controls, which is directly relevant
+    to trustworthy agentic systems.
+status: draft

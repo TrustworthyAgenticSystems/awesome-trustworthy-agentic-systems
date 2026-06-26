@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-workspace-optimization-how-to-train-your-agent
+type: papers
+title: 'Workspace Optimization: How to Train Your Agent'
+url: https://arxiv.org/abs/2605.09650v1
+authors:
+- Elad Sarafian
+- Gal Kaplun
+- Ron Banner
+- Daniel Soudry
+- Boris Ginsburg
+venue: arXiv
+year: 2026
+summary: Introduces 'workspace optimization' as a method to train agent behavior by evolving its external
+  structured workspace, instantiated in a multi-agent system for ARC-AGI-3.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a systems-level approach to agent learning by optimizing the external
+    workspace and demonstrates it in a multi-agent coordination harness.
+status: draft

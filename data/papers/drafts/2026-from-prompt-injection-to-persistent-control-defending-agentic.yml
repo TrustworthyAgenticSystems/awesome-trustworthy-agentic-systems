@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-prompt-injection-to-persistent-control-defending-agentic
+type: papers
+title: 'From Prompt Injection to Persistent Control: Defending Agentic Harness Against Trojan Backdoors'
+url: https://arxiv.org/abs/2605.31042v1
+authors:
+- Jiejun Tan
+- Zhicheng Dou
+- Xinyu Yang
+- Yuyang Hu
+- Yiruo Cheng
+- Xiaoxi Li
+- Ji-Rong Wen
+venue: arXiv
+year: 2026
+summary: Introduces ClawTrojan, a benchmark for multi-step trojan attacks in local agentic harnesses that
+  achieve persistent control, and proposes DASGuard, a defense that traces and sanitizes control-like
+  text from untrusted sources in sensitive files.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses multi-step, persistent control attacks on agentic systems, a critical
+    red-teaming and security problem, with a benchmark and a concrete defense mechanism.
+status: draft

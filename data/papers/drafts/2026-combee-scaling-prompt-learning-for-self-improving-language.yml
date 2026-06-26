@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-combee-scaling-prompt-learning-for-self-improving-language
+type: papers
+title: 'Combee: Scaling Prompt Learning for Self-Improving Language Model Agents'
+url: https://arxiv.org/abs/2604.04247v1
+authors:
+- Hanchen Li
+- Runyuan He
+- Qizheng Zhang
+- Changxiu Ji
+- Qiuyang Mang
+- Xiaokun Chen
+- Lakshya A Agrawal
+- Wei-Liang Liao
+- Eric Yang
+- Alvin Cheung
+- James Zou
+- Kunle Olukotun
+- Ion Stoica
+- Joseph E. Gonzalez
+venue: arXiv
+year: 2026
+summary: Combee is a framework that scales parallel prompt learning for self-improving agents by leveraging
+  parallel scans, an augmented shuffle mechanism, and a dynamic batch size controller to efficiently learn
+  from aggregate agentic traces without quality degradation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses the systems engineering challenge of efficiently learning from and evaluating
+    many agentic traces in parallel, which is relevant to observation and evaluation of agent behavior.
+status: draft

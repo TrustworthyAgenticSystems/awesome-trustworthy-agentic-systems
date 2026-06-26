@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-know-when-to-trust-the-skill-delayed-appraisal
+type: papers
+title: 'Know When to Trust the Skill: Delayed Appraisal and Epistemic Vigilance for Single-Agent LLMs'
+url: https://arxiv.org/abs/2604.16753v1
+authors:
+- Eren Unlu
+venue: arXiv
+year: 2026
+summary: Introduces MESA-S, a single-agent framework that uses delayed appraisal and epistemic vigilance
+  to separate self-confidence from source-confidence, improving trust provenance and mitigating supply-chain
+  vulnerabilities by decoupling skill utility awareness from execution.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to agent orchestration by introducing metacognitive governance for
+    single agents, addressing trust provenance and supply-chain vulnerabilities in tool use.
+status: draft

@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-caf-gen-a-multi-agent-system-for-enriching
+type: papers
+title: 'CAF-Gen: A Multi-Agent System for Enriching Argumentation Structures'
+url: https://arxiv.org/abs/2606.06646v2
+authors:
+- Jakub Bąba
+- Jarosław A. Chudziak
+venue: arXiv
+year: 2026
+summary: CAF-Gen is a multi-agent framework that uses an iterative Creator-Reviewer pipeline to enrich
+  shallow argument structures into CAF-compliant models, improving structural integrity and data quality
+  through multi-agent collaboration.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent coordination mechanism (Creator-Reviewer pipeline) to improve
+    the reliability and structural integrity of agent-generated outputs, which is a systems-level contribution.
+status: draft

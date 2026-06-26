@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ctfusion-a-ctf-based-benchmark-for-llm-agent
+type: papers
+title: 'CTFusion: A CTF-based Benchmark for LLM Agent Evaluation'
+url: https://arxiv.org/abs/2605.11504v1
+authors:
+- Dongjun Lee
+- Ga-eun Bae
+- Insu Yun
+venue: arXiv
+year: 2026
+summary: CTFusion is a streaming evaluation framework built on Live CTFs that addresses data contamination
+  and cheating in LLM agent evaluation by preserving per-agent independence and integrating with the CTFd
+  platform as an MCP server.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a novel evaluation framework for LLM agents, specifically addressing
+    reliability and integrity issues in long-horizon adversarial tasks, which is a direct contribution
+    to trustworthy agentic systems.
+status: draft

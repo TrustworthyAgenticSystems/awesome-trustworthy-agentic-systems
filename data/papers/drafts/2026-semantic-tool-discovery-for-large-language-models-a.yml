@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-semantic-tool-discovery-for-large-language-models-a
+type: papers
+title: 'Semantic Tool Discovery for Large Language Models: A Vector-Based Approach to MCP Tool Selection'
+url: https://arxiv.org/abs/2603.20313v1
+authors:
+- Sarat Mudunuri
+- Jian Wan
+- Ally Qin
+- Srinivasan Manoharan
+venue: arXiv
+year: 2026
+summary: A semantic tool discovery architecture that uses vector-based retrieval to dynamically select
+  relevant tools for LLMs, reducing token overhead and improving efficiency in MCP tool selection.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: The paper addresses a systems-engineering challenge in tool-interface management for LLM
+    agents by proposing a scalable and efficient tool discovery mechanism.
+status: draft

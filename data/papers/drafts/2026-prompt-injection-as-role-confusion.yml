@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-prompt-injection-as-role-confusion
+type: papers
+title: Prompt Injection as Role Confusion
+url: https://arxiv.org/abs/2603.12277v5
+authors:
+- Charles Ye
+- Jasmine Cui
+- Dylan Hadfield-Menell
+venue: arXiv
+year: 2026
+summary: This paper traces prompt injection to role confusion in LLMs, where models perceive text source
+  based on linguistic cues rather than explicit role labels, leading to attacks like CoT Forgery.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: The paper provides a mechanistic explanation and empirical validation of prompt injection
+    as a system-level vulnerability rooted in LLM's role perception, with a novel attack and measurement
+    technique.
+status: draft

@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-decentralized-multi-agent-systems-with-shared-context
+type: papers
+title: Decentralized Multi-Agent Systems with Shared Context
+url: https://arxiv.org/abs/2606.10662v1
+authors:
+- Yuzhen Mao
+- Azalia Mirhoseini
+venue: arXiv
+year: 2026
+summary: DeLM is a decentralized multi-agent system framework that uses a shared verified context and
+  task queue to enable asynchronous coordination and reduce communication bottlenecks in large-scale reasoning
+  tasks.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a decentralized coordination mechanism for multi-agent systems, addressing
+    a systems-level bottleneck in agent orchestration.
+status: draft

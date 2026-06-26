@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-pidp-attack-combining-prompt-injection-with-database-poisoning
+type: papers
+title: 'PIDP-Attack: Combining Prompt Injection with Database Poisoning Attacks on Retrieval-Augmented
+  Generation Systems'
+url: https://arxiv.org/abs/2603.25164v1
+authors:
+- Haozhen Wang
+- Haoyue Liu
+- Jionghao Zhu
+- Zhichao Wang
+- Yongxin Guo
+- Xiaoying Tang
+venue: arXiv
+year: 2026
+summary: PIDP-Attack combines prompt injection with database poisoning to manipulate RAG system responses
+  without prior knowledge of user queries, demonstrating a novel attack vector on memory integrity.
+harness_layer:
+- memory
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses a security vulnerability in RAG systems by proposing a compound
+    attack that targets the integrity of the agent's memory and retrieval process.
+status: draft

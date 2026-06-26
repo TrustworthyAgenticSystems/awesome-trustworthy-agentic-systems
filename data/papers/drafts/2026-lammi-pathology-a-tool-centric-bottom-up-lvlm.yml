@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-lammi-pathology-a-tool-centric-bottom-up-lvlm
+type: papers
+title: 'LAMMI-Pathology: A Tool-Centric Bottom-Up LVLM-Agent Framework for Molecularly Informed Medical
+  Intelligence in Pathology'
+url: https://arxiv.org/abs/2602.18773v1
+authors:
+- Haoyang Su
+- Shaoting Zhang
+- Xiaosong Wang
+venue: arXiv
+year: 2026
+summary: LAMMI-Pathology is a hierarchical, tool-centric agent framework for pathology that uses domain-adaptive
+  tools, component agents, and a top-level planner, with a novel trajectory construction mechanism for
+  robust inference and tool use.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a hierarchical agent coordination framework with a focus on robust tool
+    use and reasoning trajectories, which contributes to the reliability of agentic systems.
+status: draft

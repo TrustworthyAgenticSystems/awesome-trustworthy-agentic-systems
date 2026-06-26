@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-clawenvkit-automatic-environment-generation-for-claw-like-agents
+type: papers
+title: 'ClawEnvKit: Automatic Environment Generation for Claw-Like Agents'
+url: https://arxiv.org/abs/2604.18543v4
+authors:
+- Xirui Li
+- Ming Li
+- Ion Stoica
+- Cho-Jui Hsieh
+- Tianyi Zhou
+venue: arXiv
+year: 2026
+summary: ClawEnvKit is an automated pipeline for generating diverse, verified environments for claw-like
+  agents from natural language, enabling large-scale and continuous evaluation as well as adaptive training
+  environment generation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to automated environment generation for agent evaluation, addressing
+    the scalability and diversity of testing agentic systems, which is a key aspect of observation and
+    evaluation.
+status: draft

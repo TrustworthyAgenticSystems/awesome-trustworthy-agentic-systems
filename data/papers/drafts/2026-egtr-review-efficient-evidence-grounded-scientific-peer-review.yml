@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-egtr-review-efficient-evidence-grounded-scientific-peer-review
+type: papers
+title: 'EGTR-Review: Efficient Evidence-Grounded Scientific Peer Review Generation via Multi-Agent Teacher
+  Distillation'
+url: https://arxiv.org/abs/2606.06025v1
+authors:
+- Xinpeng Qiu
+- Wang Yihu
+- Zhifeng Liu
+- Xiaochen Wang
+- Jimin Wang
+venue: arXiv
+year: 2026
+summary: EGTR-Review proposes a multi-agent teacher framework for scientific peer review generation that
+  performs structured decomposition, evidence retrieval, and verification, then distills these reasoning
+  trajectories into a lightweight student model for efficient, evidence-grounded review generation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system for a complex task, focusing on the coordination
+    of agents for evidence-grounded reasoning and then distilling this process into a more efficient system,
+    which contributes to the reliability of agentic workflows.
+status: draft

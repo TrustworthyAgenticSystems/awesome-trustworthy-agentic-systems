@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-openagenet-oan-yellow-paper-technical-architecture-for-trust
+type: papers
+title: 'OpenAgenet / OAN Yellow Paper: Technical Architecture for Trust-Governed Resource Identity and
+  Discovery'
+url: https://arxiv.org/abs/2606.03163v3
+authors:
+- Jinliang Xu
+venue: arXiv
+year: 2026
+summary: This paper proposes OpenAgenet (OAN), a protocol-neutral trust layer for agent interconnection
+  and resource discovery, defining identity objects, registration, governance, and authorization mechanisms
+  to ensure verifiable and safe interactions.
+harness_layer:
+- foundations
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a foundational architectural framework for trust-governed agent resource
+    identity and discovery, directly addressing system-level trustworthiness before agent interaction.
+status: draft

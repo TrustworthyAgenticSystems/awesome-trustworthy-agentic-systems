@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-behavioral-transfer-in-ai-agents-evidence-and-privacy
+type: papers
+title: 'Behavioral Transfer in AI Agents: Evidence and Privacy Implications'
+url: https://arxiv.org/abs/2604.19925v1
+authors:
+- Shilei Luo
+- Zhiqi Zhang
+- Hengchen Dai
+- Dennis Zhang
+venue: arXiv
+year: 2026
+summary: Empirical study demonstrating systematic behavioral transfer from human owners to their AI agents,
+  leading to privacy risks through the implicit disclosure of owner-related personal information in public
+  discourse.
+harness_layer:
+- memory
+sprs:
+- privacy
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper identifies a privacy risk stemming from implicit behavioral transfer in agent memory/context,
+    which is a systems-level concern for trustworthy agents.
+status: draft

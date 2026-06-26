@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-nora-a-harness-engineered-autonomous-research-agent-for
+type: papers
+title: 'NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science'
+url: https://arxiv.org/abs/2605.02092v1
+authors:
+- Bing Zhou
+- Xiao Huang
+- Huan Ning
+- Qiusheng Wu
+- Diya Li
+- Ziyi Zhang
+venue: arXiv
+year: 2026
+summary: NORA is a harness-engineered, multi-agent autonomous research system for spatial data science,
+  demonstrating how lifecycle hooks, safety gates, generator-evaluator separation, human-in-the-loop,
+  and state persistence ensure reliable and reproducible autonomous research.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes an end-to-end reference architecture for a trustworthy agentic system,
+    focusing on engineering principles like safety gates and state persistence for reliability and reproducibility.
+status: draft

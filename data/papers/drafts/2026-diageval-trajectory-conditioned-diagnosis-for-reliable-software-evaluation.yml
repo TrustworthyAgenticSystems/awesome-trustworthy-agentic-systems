@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-diageval-trajectory-conditioned-diagnosis-for-reliable-software-evaluation
+type: papers
+title: 'DiagEval: Trajectory-Conditioned Diagnosis for Reliable Software Evaluation with GUI Agents'
+url: https://arxiv.org/abs/2605.17439v2
+authors:
+- Sirui Hong
+- Zhijie Liu
+- Tengfei Li
+- Wei Tao
+- Yifan Wu
+- Chenglin Wu
+venue: arXiv
+year: 2026
+summary: DiagEval is a trajectory-conditioned diagnostic evaluation protocol that reuses failed GUI agent
+  execution traces to perform targeted diagnostic probes, improving failure attribution and evaluation
+  accuracy for interactive software.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the reliability of agent evaluation by providing a method for
+    diagnosing failures in GUI agent trajectories, which is a systems-level problem.
+status: draft

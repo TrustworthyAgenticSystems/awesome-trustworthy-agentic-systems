@@ -1,0 +1,56 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-baichuan-m4-a-clinical-grade-medical-agent-system
+type: papers
+title: 'Baichuan-M4: A Clinical-Grade Medical Agent System for Continuous Care'
+url: https://arxiv.org/abs/2606.08982v2
+authors:
+- Aiyuan Yang
+- Canbin Piao
+- Chengfeng Dou
+- Da Pan
+- Dian Wang
+- Fan Yang
+- Fei Deng
+- Fei Li
+- Guangwei Ai
+- Hui Liu
+- Hongda Zhang
+- Jinyang Tai
+- Kai Lu
+- Lijun Liu
+- Linwei Chen
+- Linyu Li
+- Meiqing Guo
+- Peidong Guo
+- Qiang Ju
+- Rihui Xin
+- Shuai Wang
+- XinKai Ma
+- Xudong Chen
+- Yichuan Mo
+- Yijie Zhou
+- Leyi Pan
+- Yihe Luo
+- Zian Wang
+venue: arXiv
+year: 2026
+summary: Presents Baichuan-M4, a clinical-grade medical agent system with a unified runtime for action
+  constraints, tool use, long-term memory, and multi-agent coordination, designed for continuous care.
+harness_layer:
+- architectures
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Describes an end-to-end agent architecture with specific systems-engineering components for
+    safety, reliability, and continuous care in a high-stakes domain.
+status: draft

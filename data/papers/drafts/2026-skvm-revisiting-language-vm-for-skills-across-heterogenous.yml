@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-skvm-revisiting-language-vm-for-skills-across-heterogenous
+type: papers
+title: 'SkVM: Revisiting Language VM for Skills across Heterogenous LLMs and Harnesses'
+url: https://arxiv.org/abs/2604.03088v3
+authors:
+- Le Chen
+- Erhu Feng
+- Yubin Xia
+- Haibo Chen
+venue: arXiv
+year: 2026
+summary: SkVM is a compilation and runtime system that treats agent skills as code, enabling portable
+  and efficient execution across heterogeneous LLMs and agent harnesses by decomposing skill requirements
+  into primitive capabilities.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a systems-level solution for skill portability and consistent execution
+    across diverse agent platforms, addressing reliability and efficiency in the execution shell.
+status: draft

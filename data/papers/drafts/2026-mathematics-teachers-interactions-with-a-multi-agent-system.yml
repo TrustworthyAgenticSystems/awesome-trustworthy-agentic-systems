@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mathematics-teachers-interactions-with-a-multi-agent-system
+type: papers
+title: Mathematics Teachers Interactions with a Multi-Agent System for Personalized Problem Generation
+url: https://arxiv.org/abs/2604.12066v1
+authors:
+- Candace Walkington
+- Theodora Beauchamp
+- Fareya Ikram
+- Merve Koçyiğit Gürbüz
+- Fangli Xia
+- Margan Lee
+- Andrew Lan
+venue: arXiv
+year: 2026
+summary: Examines a multi-agent teacher-in-the-loop system for personalizing math problems, focusing on
+  teacher and student interactions and the effectiveness of AI agents in evaluating problem quality.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper investigates human oversight and the effectiveness of multi-agent evaluation in
+    an educational context, which directly relates to the trustworthiness of agentic systems in a real-world
+    application.
+status: draft

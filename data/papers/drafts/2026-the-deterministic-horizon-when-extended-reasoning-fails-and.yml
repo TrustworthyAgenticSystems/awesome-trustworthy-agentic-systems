@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-deterministic-horizon-when-extended-reasoning-fails-and
+type: papers
+title: 'The Deterministic Horizon: When Extended Reasoning Fails and Tool Delegation Becomes Necessary'
+url: https://arxiv.org/abs/2606.00376v1
+authors:
+- Dongxin Guo
+- Jikun Wu
+- Siu Ming Yiu
+venue: arXiv
+year: 2026
+summary: Establishes an information-theoretic limit on pure neural reasoning for deterministic state-tracking
+  tasks, defining a "Deterministic Horizon" beyond which tool delegation is architecturally necessary
+  for reliable agent performance.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides principled guidance for agentic system architecture by identifying a fundamental
+    limitation of pure neural reasoning and the necessity of tool delegation for reliability.
+status: draft

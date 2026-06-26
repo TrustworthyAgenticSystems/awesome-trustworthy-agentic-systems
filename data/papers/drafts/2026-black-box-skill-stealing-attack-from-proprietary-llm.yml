@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-black-box-skill-stealing-attack-from-proprietary-llm
+type: papers
+title: 'Black-Box Skill Stealing Attack from Proprietary LLM Agents: An Empirical Study'
+url: https://arxiv.org/abs/2604.21829v2
+authors:
+- Zihan Wang
+- Rui Zhang
+- Yu Liu
+- Chi Liu
+- Qingchuan Zhao
+- Hongwei Li
+- Guowen Xu
+venue: arXiv
+year: 2026
+summary: Systematic study of black-box skill stealing attacks against LLM agent systems, demonstrating
+  the extraction of proprietary skill content and evaluating defenses across input, inference, and output
+  phases.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses a novel adversarial threat (skill stealing) against agentic
+    systems, including an attack taxonomy, automated attack generation, and defense mechanisms.
+status: draft

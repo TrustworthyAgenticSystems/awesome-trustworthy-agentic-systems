@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentee-confidential-llm-agent-execution-on-edge-devices
+type: papers
+title: 'AgenTEE: Confidential LLM Agent Execution on Edge Devices'
+url: https://arxiv.org/abs/2604.18231v2
+authors:
+- Sina Abdollahi
+- Mohammad M Maheri
+- Javad Forough
+- Amir Al Sadi
+- Josh Millar
+- David Kotz
+- Marios Kogias
+- Hamed Haddadi
+venue: arXiv
+year: 2026
+summary: AgenTEE provides a system for confidential LLM agent execution on edge devices by isolating the
+  agent runtime, inference engine, and third-party applications within independently attested confidential
+  virtual machines (cVMs) to protect proprietary assets and sensitive runtime state.
+harness_layer:
+- execution-shell
+sprs:
+- security
+- privacy
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the security and privacy of agent execution environments, specifically
+    on edge devices, by proposing a system-level isolation architecture using confidential VMs.
+status: draft

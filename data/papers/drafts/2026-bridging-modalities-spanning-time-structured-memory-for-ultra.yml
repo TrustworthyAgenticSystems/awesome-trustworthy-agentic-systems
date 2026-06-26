@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-bridging-modalities-spanning-time-structured-memory-for-ultra
+type: papers
+title: 'Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning'
+url: https://arxiv.org/abs/2605.08271v1
+authors:
+- Jiazheng Li
+- Chi-Hao Wu
+- Yunze Liu
+- Kaize Ding
+- Jundong Li
+- Chuxu Zhang
+venue: arXiv
+year: 2026
+summary: MAGIC-Video introduces a multimodal memory graph and narrative chain for ultra-long video reasoning,
+  enabling an agentic loop to retrieve and inject facts across modalities and time, addressing the challenge
+  of long-range memory for agents.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly contributes to agent memory management for ultra-long contexts, a core
+    systems-engineering problem for trustworthy agents, with a novel structured memory approach and empirical
+    validation.
+status: draft

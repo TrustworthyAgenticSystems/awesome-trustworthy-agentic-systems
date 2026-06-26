@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-portable-agent-memory-a-protocol-for-cryptographically-verified
+type: papers
+title: 'Portable Agent Memory: A Protocol for Cryptographically-Verified Memory Transfer Across Heterogeneous
+  AI Agents'
+url: https://arxiv.org/abs/2605.11032v1
+authors:
+- Santhosh Kumar Ravindran
+venue: arXiv
+year: 2026
+summary: Portable Agent Memory is an open protocol and reference implementation for cryptographically-verified,
+  capability-based transfer of structured memory state across heterogeneous AI agents, addressing memory
+  integrity, provenance, and selective disclosure.
+harness_layer:
+- memory
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the systems-engineering problem of secure and private memory
+    management for agents, including provenance, access control, and injection resistance during transfer.
+status: draft

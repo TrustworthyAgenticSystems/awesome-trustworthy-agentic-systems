@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-retrieval-augmented-reasoning-reshapes-collective-reliability-under
+type: papers
+title: Agentic retrieval-augmented reasoning reshapes collective reliability under model variability in
+  radiology question answering
+url: https://arxiv.org/abs/2603.06271v1
+authors:
+- Mina Farajiamiri
+- Jeta Sopa
+- Saba Afza
+- Lisa Adams
+- Felix Barajas Ordonez
+- Tri-Thien Nguyen
+- Mahshad Lotfinia
+- Sebastian Wind
+- Keno Bressem
+- Sven Nebelung
+- Daniel Truhn
+- Soroosh Tayebi Arasteh
+venue: arXiv
+year: 2026
+summary: Evaluates the impact of agentic retrieval-augmented reasoning on collective reliability and robustness
+  across 34 LLMs for radiology question answering, analyzing decision dispersion, correctness, and clinical
+  severity of errors.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides an empirical evaluation of agentic system reliability and robustness
+    under model variability, which is a key aspect of trustworthy agentic systems.
+status: draft

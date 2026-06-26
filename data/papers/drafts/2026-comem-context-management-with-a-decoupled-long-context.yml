@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-comem-context-management-with-a-decoupled-long-context
+type: papers
+title: 'CoMem: Context Management with A Decoupled Long-Context Model'
+url: https://arxiv.org/abs/2605.30842v1
+authors:
+- Yuwei Zhang
+- Chengyu Dong
+- Shuowei Jin
+- Changlong Yu
+- Hejie Cui
+- Hongye Jin
+- Xinyang Zhang
+- Hamed Bonab
+- Colin Lockard
+- Jianshu Chen
+- Zhenyu Shi
+- Jingbo Shang
+- Xian Li
+- Bing Yin
+venue: arXiv
+year: 2026
+summary: CoMem decouples memory management from the primary agent workflow using an asynchronous pipeline
+  to overlap summarization with agent inference, reducing latency for long-horizon tasks.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses a systems-engineering problem in agent memory management (latency of
+    context processing) with a novel architectural solution and empirical validation.
+status: draft

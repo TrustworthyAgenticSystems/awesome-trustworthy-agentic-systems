@@ -1,0 +1,44 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-firefly-illuminating-large-scale-verified-tool-call-data
+type: papers
+title: 'Firefly: Illuminating Large-Scale Verified Tool-Call Data Generation from Real APIs'
+url: https://arxiv.org/abs/2605.17558v1
+authors:
+- Yuxuan Lu
+- Ziyi Wang
+- Yingzhou Lu
+- Yisi Sang
+- Jiri Gesi
+- Xianfeng Tang
+- Yimeng Zhang
+- Zhenwei Dai
+- Hui Liu
+- Hanqing Lu
+- Chen Luo
+- Qi He
+- Benoit Dumoulin
+- Jing Huang
+- Dakuo Wang
+venue: arXiv
+year: 2026
+summary: FireFly is a pipeline for generating large-scale, verifiable tool-call trajectory data from real
+  APIs by inverting the synthesis process and using a retrieval-augmented simulator for reproducible offline
+  training and evaluation.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the reliability of tool-calling agents by providing a method for
+    generating verifiable training data from real APIs, addressing the challenge of environment drift
+    and enabling reproducible evaluation.
+status: draft

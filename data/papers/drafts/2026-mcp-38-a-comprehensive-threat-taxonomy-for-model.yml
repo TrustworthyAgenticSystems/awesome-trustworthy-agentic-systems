@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mcp-38-a-comprehensive-threat-taxonomy-for-model
+type: papers
+title: 'MCP-38: A Comprehensive Threat Taxonomy for Model Context Protocol Systems (v1.0)'
+url: https://arxiv.org/abs/2603.18063v1
+authors:
+- Yi Ting Shen
+- Kentaroh Toyoda
+- Alex Leung
+venue: arXiv
+year: 2026
+summary: A comprehensive threat taxonomy (MCP-38) for Model Context Protocol systems, derived through
+  systematic methodology and mapped to existing frameworks, addressing novel semantic attack surfaces
+  like tool description poisoning and parasitic tool chaining.
+harness_layer:
+- foundations
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Provides a foundational taxonomy for understanding and categorizing security threats specific
+    to agentic systems, which is crucial for engineering trustworthy agents.
+status: draft

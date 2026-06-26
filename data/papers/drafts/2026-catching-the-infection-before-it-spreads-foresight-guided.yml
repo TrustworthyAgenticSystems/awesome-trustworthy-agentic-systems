@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-catching-the-infection-before-it-spreads-foresight-guided
+type: papers
+title: 'Catching the Infection Before It Spreads: Foresight-Guided Defense in Multi-Agent Systems'
+url: https://arxiv.org/abs/2605.01758v3
+authors:
+- Yue Ma
+- Ziyuan Yang
+- Yi Zhang
+venue: arXiv
+year: 2026
+summary: Proposes a training-free Foresight-Guided Local Purification (FLP) framework for multi-agent
+  systems that simulates future interactions to detect and eliminate infectious jailbreaks through localized
+  purification and album rollback.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses a system-level adversarial threat (infectious jailbreak) in multi-agent systems
+    with a concrete, deployable defense mechanism that involves agent-level reasoning and state management.
+status: draft

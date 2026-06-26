@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-agentic-investigation-of-security-alerts
+type: papers
+title: Towards Agentic Investigation of Security Alerts
+url: https://arxiv.org/abs/2604.25846v1
+authors:
+- Even Eilertsen
+- Vasileios Mavroeidis
+- Gudmund Grov
+venue: arXiv
+year: 2026
+summary: An experimental agentic workflow that automates early-stage security alert investigations by
+  leveraging LLMs with constrained tool access (SQL, grep) and structured query selection to produce a
+  final verdict.
+harness_layer:
+- architectures
+sprs:
+- security
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes an agentic system architecture for security alert investigation, focusing
+    on structured tool use and workflow design to improve reliability and security outcomes.
+status: draft

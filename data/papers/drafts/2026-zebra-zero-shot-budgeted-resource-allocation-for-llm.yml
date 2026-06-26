@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-zebra-zero-shot-budgeted-resource-allocation-for-llm
+type: papers
+title: 'ZEBRA: Zero-shot Budgeted Resource Allocation for LLM Orchestration'
+url: https://arxiv.org/abs/2605.20485v1
+authors:
+- May Hamri
+- Inbal Talgam-Cohen
+venue: arXiv
+year: 2026
+summary: ZEBRA is a zero-shot framework that allocates a fixed monetary budget across composing phases
+  of a multi-agent pipeline at inference time by reducing it to a continuous nonlinear knapsack problem,
+  outperforming direct LLM allocation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper addresses resource allocation and economic behavior in multi-agent systems, which
+    is a systems-level concern for reliable and efficient agent orchestration.
+status: draft

@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-aciarena-toward-unified-evaluation-for-agent-cascading-injection
+type: papers
+title: 'ACIArena: Toward Unified Evaluation for Agent Cascading Injection'
+url: https://arxiv.org/abs/2604.07775v1
+authors:
+- Hengyu An
+- Minxi Li
+- Jinghuai Zhang
+- Naen Xu
+- Chunyi Zhou
+- Changjiang Li
+- Xiaogang Xu
+- Tianyu Du
+- Shouling Ji
+venue: arXiv
+year: 2026
+summary: ACIArena is a unified framework for evaluating multi-agent system robustness against Agent Cascading
+  Injection, covering multiple attack surfaces and objectives across six MAS implementations with 1,356
+  test cases.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses adversarial testing of multi-agent systems, specifically focusing
+    on cascading injection attacks and providing a unified evaluation framework.
+status: draft

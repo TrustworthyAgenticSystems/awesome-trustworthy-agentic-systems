@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-review-the-code-not-the-story-a-vision
+type: papers
+title: 'Review the Code, Not the Story: A Vision and Protocol for Code-First Peer Review'
+url: https://arxiv.org/abs/2606.07683v1
+authors:
+- Jienan Chen
+venue: arXiv
+year: 2026
+summary: Proposes a code-first peer review protocol where an AI system acts as review infrastructure to
+  execute research artifacts, audit code, and map claims to evidence, generating a standardized review
+  package for human reviewers.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper proposes an AI-driven system for peer review that directly addresses human oversight
+    challenges by shifting the review target from narratives to executable evidence, including analysis
+    of AI-specific governance challenges.
+status: draft

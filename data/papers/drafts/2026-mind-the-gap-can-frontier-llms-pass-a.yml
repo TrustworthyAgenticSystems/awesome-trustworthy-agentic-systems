@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mind-the-gap-can-frontier-llms-pass-a
+type: papers
+title: 'Mind the Gap: Can Frontier LLMs Pass a Standardized Office Proficiency Exam?'
+url: https://arxiv.org/abs/2606.10956v1
+authors:
+- Tengchao Lv
+- Dongdong Zhang
+- Jiayu Ding
+- Yilin Jia
+- Yuzhong Zhao
+- Yupan Huang
+- Wenshan Wu
+- Xiangyang Zhou
+- Shaohan Huang
+- Nan Yang
+- Li Dong
+- Lei Cui
+- Furu Wei
+venue: arXiv
+year: 2026
+summary: Introduces a standardized evaluation benchmark for LLM agents on complex Office automation tasks,
+  using China's NCRE, to quantify long-horizon planning, precise parameter configuration, and multi-application
+  integration capabilities.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a novel, standardized, and fine-grained evaluation methodology for agentic
+    systems in a complex, real-world automation environment, directly addressing long-horizon evaluation.
+status: draft

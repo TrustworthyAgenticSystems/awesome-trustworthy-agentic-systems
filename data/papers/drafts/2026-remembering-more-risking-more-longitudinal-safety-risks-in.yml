@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-remembering-more-risking-more-longitudinal-safety-risks-in
+type: papers
+title: 'Remembering More, Risking More: Longitudinal Safety Risks in Memory-Equipped LLM Agents'
+url: https://arxiv.org/abs/2605.17830v1
+authors:
+- Ahmad Al-Tawaha
+- Shangding Gu
+- Peizhi Niu
+- Ruoxi Jia
+- Ming Jin
+venue: arXiv
+year: 2026
+summary: Introduces and evaluates "temporal memory contamination" as a longitudinal safety risk in memory-equipped
+  LLM agents, demonstrating that accumulated memory across tasks increases violation rates and proposing
+  a retrieval-state diagnostic monitor.
+harness_layer:
+- memory
+sprs:
+- safety
+- security
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses a novel, system-level safety risk related to agent memory accumulation
+    over long horizons, with a concrete evaluation protocol and a proposed detection mechanism.
+status: draft

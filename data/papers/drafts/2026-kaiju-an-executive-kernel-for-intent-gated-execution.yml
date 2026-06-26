@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-kaiju-an-executive-kernel-for-intent-gated-execution
+type: papers
+title: 'KAIJU: An Executive Kernel for Intent-Gated Execution of LLM Agents'
+url: https://arxiv.org/abs/2604.02375v1
+authors:
+- Cormac Guerin
+- Frank Guerin
+venue: arXiv
+year: 2026
+summary: KAIJU introduces an executive kernel that decouples LLM planning from agent workflow execution,
+  enforcing intent-gated authorization for tool dispatch and managing scheduling, dependencies, and failures.
+harness_layer:
+- execution-shell
+sprs:
+- security
+- reliability
+open_problems:
+- intent-to-constraints
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper proposes a system-level abstraction for agent execution, directly addressing security
+    and reliability concerns through intent-gated execution and an executive kernel.
+status: draft

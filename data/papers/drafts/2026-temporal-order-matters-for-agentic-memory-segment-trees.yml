@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-temporal-order-matters-for-agentic-memory-segment-trees
+type: papers
+title: 'Temporal Order Matters for Agentic Memory: Segment Trees for Long-Horizon Agents'
+url: https://arxiv.org/abs/2606.04555v1
+authors:
+- Yifan Simon Liu
+- Liam Gallagher
+- Faeze Moradi Kalarde
+- Jiazhou Liang
+- Armin Toroghi
+- Scott Sanner
+venue: arXiv
+year: 2026
+summary: Introduces Segment Tree Memory (SegTreeMem), a memory architecture that preserves temporal order
+  in conversational history for long-horizon agents, improving retrieval and answer quality by combining
+  local semantic matching with hierarchical temporal context.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Directly addresses a systems-engineering concern for agent memory (temporal order) and proposes
+    a novel architecture with experimental validation.
+status: draft

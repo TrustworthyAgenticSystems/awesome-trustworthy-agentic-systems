@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-proof-carrying-certificates-for-llm-pipelines-a-trust
+type: papers
+title: 'Proof-Carrying Certificates for LLM Pipelines: A Trust-Boundary Architecture'
+url: https://arxiv.org/abs/2605.16407v1
+authors:
+- George Koomullil
+venue: arXiv
+year: 2026
+summary: A framework for verifying deterministic structured computations in LLM pipelines using proof-carrying
+  certificates, extending a Lean 4 trust-boundary architecture to generic interfaces and providing local
+  certificate families and operators for pipeline-wide assurance.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a foundational, formal verification framework for the structured, non-LLM
+    parts of agentic systems, directly addressing trustworthiness through provable guarantees.
+status: draft

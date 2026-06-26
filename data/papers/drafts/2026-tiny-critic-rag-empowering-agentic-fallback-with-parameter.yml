@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-tiny-critic-rag-empowering-agentic-fallback-with-parameter
+type: papers
+title: 'Tiny-Critic RAG: Empowering Agentic Fallback with Parameter-Efficient Small Language Models'
+url: https://arxiv.org/abs/2603.00846v1
+authors:
+- Yichao Wu
+- Penghao Liang
+- Yafei Xiang
+- Mengwei Yuan
+- Jianan Liu
+- Jing Yang
+- Xianyou Li
+- Weiran Yan
+venue: arXiv
+year: 2026
+summary: Tiny-Critic RAG uses a parameter-efficient SLM as a deterministic gatekeeper for retrieval evaluation,
+  reducing latency and cost in agentic RAG systems while maintaining routing accuracy.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses the reliability and efficiency of retrieval evaluation within agentic
+    RAG systems, a core component of agent memory, by proposing a systems-level optimization.
+status: draft

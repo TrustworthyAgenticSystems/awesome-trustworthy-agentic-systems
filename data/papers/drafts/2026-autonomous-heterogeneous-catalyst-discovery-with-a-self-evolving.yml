@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-autonomous-heterogeneous-catalyst-discovery-with-a-self-evolving
+type: papers
+title: Autonomous heterogeneous catalyst discovery with a self-evolving multi-agent digital twin
+url: https://arxiv.org/abs/2606.05050v1
+authors:
+- Zhilong Song
+- Zongmin Zhang
+- Lixue Cheng
+venue: arXiv
+year: 2026
+summary: CatDT is a self-evolving multi-agent system for autonomous catalyst discovery, unifying gas-solid
+  and liquid-solid modeling, which demonstrates the importance of engineered harnesses for scientific
+  simulators.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper presents an end-to-end reference architecture for a scientific agentic system,
+    emphasizing the role of the engineered harness (tools, memory, self-improvement) for reliability and
+    accuracy.
+status: draft

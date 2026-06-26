@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-the-black-box-interpretability-of-agentic-ai
+type: papers
+title: 'Beyond the Black Box: Interpretability of Agentic AI Tool Use'
+url: https://arxiv.org/abs/2605.06890v3
+authors:
+- Hariom Tatsat
+- Ariye Shater
+venue: arXiv
+year: 2026
+summary: A mechanistic interpretability toolkit using Sparse Autoencoders and linear probes to infer tool-use
+  intent and risk from internal model states before action, providing internal observability for agent
+  systems.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a novel internal observability method for diagnosing tool-use failures
+    in agentic systems, directly addressing a key challenge in trustworthy agent engineering.
+status: draft

@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentrm-an-os-inspired-resource-manager-for-llm
+type: papers
+title: 'AgentRM: An OS-Inspired Resource Manager for LLM Agent Systems'
+url: https://arxiv.org/abs/2603.13110v1
+authors:
+- Jianshu She
+venue: arXiv
+year: 2026
+summary: AgentRM is an OS-inspired middleware resource manager that addresses scheduling failures and
+  context degradation in LLM agent systems through an MLFQ scheduler and a three-tier Context Lifecycle
+  Manager.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper directly addresses systems-level resource management challenges in agent execution,
+    drawing parallels to operating systems, and provides concrete solutions with empirical evaluation.
+status: draft

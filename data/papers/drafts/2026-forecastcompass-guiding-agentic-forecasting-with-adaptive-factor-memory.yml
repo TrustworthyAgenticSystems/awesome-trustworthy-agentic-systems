@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-forecastcompass-guiding-agentic-forecasting-with-adaptive-factor-memory
+type: papers
+title: 'ForecastCompass: Guiding Agentic Forecasting with Adaptive Factor Memory'
+url: https://arxiv.org/abs/2605.30858v1
+authors:
+- Yurui Chang
+- Yongkang Du
+- Yuanpu Cao
+- Jinghui Chen
+- Lu Lin
+venue: arXiv
+year: 2026
+summary: ForecastCompass (FoCo) is an adaptive factor-based memory framework that organizes forecasting
+  experience with a hierarchical taxonomy and maintains factor and reasoning memory components, iteratively
+  revised through retrospective analyses to improve probabilistic accuracy and calibration in agentic
+  forecasting.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a novel memory framework specifically designed for agentic forecasting,
+    addressing how agents learn and store reusable predictive factors and calibration knowledge, which
+    is a systems-level concern for agent memory.
+status: draft

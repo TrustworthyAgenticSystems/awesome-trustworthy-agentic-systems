@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-system-as-compressor-quantifying-system-intelligence-in
+type: papers
+title: 'Agentic System as Compressor: Quantifying System Intelligence in Bits'
+url: https://arxiv.org/abs/2606.25960v1
+authors:
+- Zihan Qin
+- Hongrui Zhang
+venue: arXiv
+year: 2026
+summary: Proposes a 'compression is intelligence' framework to quantify the intelligence of agentic systems
+  by measuring the codelength reduction achieved by agentic components in reconstructing a target object.
+harness_layer:
+- foundations
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Introduces a foundational, quantitative framework for evaluating the effectiveness of agentic
+    system components, which is relevant to understanding and improving system reliability.
+status: draft

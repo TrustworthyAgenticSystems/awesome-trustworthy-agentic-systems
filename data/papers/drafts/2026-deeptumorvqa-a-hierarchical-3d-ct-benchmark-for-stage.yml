@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-deeptumorvqa-a-hierarchical-3d-ct-benchmark-for-stage
+type: papers
+title: 'DeepTumorVQA: A Hierarchical 3D CT Benchmark for Stage-Wise Evaluation of Medical VLMs and Tool-Augmented
+  Agents'
+url: https://arxiv.org/abs/2605.09679v1
+authors:
+- Yixiong Chen
+- Wenjie Xiao
+- Pedro R. A. S. Bassi
+- Boyan Wang
+- Liang He
+- Xinze Zhou
+- Sezgin Er
+- Ibrahim Ethem Hamamci
+- Zongwei Zhou
+- Alan Yuille
+venue: arXiv
+year: 2026
+summary: DeepTumorVQA is a hierarchical 3D CT benchmark that decomposes medical reasoning into stages
+  (recognition, measurement, visual reasoning, medical reasoning) and provides tool-interaction environments
+  and ground-truth tool-use traces for evaluating and supervising medical AI agents.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a structured benchmark for evaluating multi-step agentic reasoning and
+    tool use in a medical context, directly addressing long-horizon evaluation and reliability for agent
+    systems.
+status: draft

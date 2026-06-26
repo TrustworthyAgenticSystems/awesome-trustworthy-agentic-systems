@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-internet-of-agentic-ai-incentive-compatible-distributed-teaming
+type: papers
+title: 'Internet of Agentic AI: Incentive-Compatible Distributed Teaming and Workflow'
+url: https://arxiv.org/abs/2602.03145v1
+authors:
+- Ya-Ting Yang
+- Quanyan Zhu
+venue: arXiv
+year: 2026
+summary: Proposes a framework for distributed, incentive-compatible multi-agent coordination, enabling
+  dynamic coalition formation and workflow execution across heterogeneous cloud and edge infrastructure.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses scalable coordination and distributed teaming for agentic systems, which is a core
+    systems-engineering challenge for trustworthy agents.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-soft-label-governance-for-distributional-safety-in-multi
+type: papers
+title: Soft-Label Governance for Distributional Safety in Multi-Agent Systems
+url: https://arxiv.org/abs/2604.19752v1
+authors:
+- Aizierjiang Aiersilan
+- Raeli Savitt
+venue: arXiv
+year: 2026
+summary: Introduces SWARM, a simulation framework for multi-agent systems that uses soft probabilistic
+  labels for continuous risk assessment and evaluates the impact of various governance levers on safety-welfare
+  tradeoffs.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the challenge of human oversight and governance in multi-agent systems
+    by proposing a novel continuous risk assessment and intervention framework.
+status: draft

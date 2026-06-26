@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-redefining-ai-red-teaming-in-the-agentic-era
+type: papers
+title: 'Redefining AI Red Teaming in the Agentic Era: From Weeks to Hours'
+url: https://arxiv.org/abs/2605.04019v1
+authors:
+- Raja Sekhar Rao Dheekonda
+- Will Pearce
+- Nick Landers
+venue: arXiv
+year: 2026
+summary: An AI red teaming agent built on the Dreadnode SDK that automates the creation and execution
+  of adversarial workflows for probing multi-agent systems, reducing manual effort from weeks to hours.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly contributes to the red-teaming of agentic systems by introducing an agent-based
+    framework for automating adversarial testing workflows.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-persistent-ai-agents-in-academic-research-a-single
+type: papers
+title: 'Persistent AI Agents in Academic Research: A Single-Investigator Implementation Case Study'
+url: https://arxiv.org/abs/2605.26870v1
+authors:
+- Anas H. Alzahrani
+venue: arXiv
+year: 2026
+summary: A self-observed case study of a persistent AI agent in an academic research environment, detailing
+  its architecture, utilization, artifact production, resource use, reproducibility, and governance, with
+  a focus on telemetry and memory usage.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a detailed case study and architectural insights into a persistent agentic
+    system, including its operational stack and governance protocols, which is directly relevant to trustworthy
+    agentic systems.
+status: draft

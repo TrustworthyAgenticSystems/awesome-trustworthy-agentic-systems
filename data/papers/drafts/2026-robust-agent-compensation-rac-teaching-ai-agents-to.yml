@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-robust-agent-compensation-rac-teaching-ai-agents-to
+type: papers
+title: 'Robust Agent Compensation (RAC): Teaching AI Agents to Compensate'
+url: https://arxiv.org/abs/2605.03409v2
+authors:
+- Srinath Perera
+- Kaviru Hapuarachchi
+- Frank Leymann
+- Rania Khalaf
+venue: arXiv
+year: 2026
+summary: Robust Agent Compensation (RAC) is a log-based recovery paradigm implemented as an architectural
+  extension for agent frameworks, enabling reliable executions and avoiding unintended side effects without
+  requiring changes to existing agent code.
+harness_layer:
+- transactional-agency
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses transactional agency and reliable execution for agent systems,
+    a core open problem, with a concrete architectural solution and experimental validation.
+status: draft

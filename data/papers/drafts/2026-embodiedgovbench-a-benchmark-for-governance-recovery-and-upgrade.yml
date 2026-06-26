@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-embodiedgovbench-a-benchmark-for-governance-recovery-and-upgrade
+type: papers
+title: 'EmbodiedGovBench: A Benchmark for Governance, Recovery, and Upgrade Safety in Embodied Agent Systems'
+url: https://arxiv.org/abs/2604.11174v1
+authors:
+- Xue Qin
+- Simin Luan
+- John See
+- Cong Yang
+- Zhijun Li
+venue: arXiv
+year: 2026
+summary: EmbodiedGovBench is a benchmark for evaluating the governance, recovery, and upgrade safety of
+  embodied agent systems, covering dimensions like capability boundaries, policy enforcement, and human
+  oversight.
+harness_layer:
+- observation-eval
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a benchmark for evaluating system-level trustworthiness properties (governance,
+    recovery, upgrade safety) in embodied agent systems, which is a direct contribution to observation
+    and evaluation.
+status: draft

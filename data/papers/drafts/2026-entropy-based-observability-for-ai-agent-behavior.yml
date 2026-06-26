@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-entropy-based-observability-for-ai-agent-behavior
+type: papers
+title: Entropy-Based Observability for AI Agent Behavior
+url: https://arxiv.org/abs/2606.05872v3
+authors:
+- Olasimbo Ayodeji Arigbabu
+venue: arXiv
+year: 2026
+summary: Proposes Entropy-Based Observability for AI Agents (EOA), a lightweight framework for deriving
+  behavioral telemetry from agent traces to provide deeper insights into internal agent behavior beyond
+  outcome-oriented metrics.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Directly addresses the observability of agent behavior by proposing a framework for deriving
+    internal behavioral telemetry from execution traces.
+status: draft

@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-getting-better-at-working-with-you-compiling-user
+type: papers
+title: 'Getting Better at Working With You: Compiling User Corrections into Runtime Enforcement for Coding
+  Agents'
+url: https://arxiv.org/abs/2606.13174v1
+authors:
+- Yujun Zhou
+- Kehan Guo
+- Haomin Zhuang
+- Xiangqi Wang
+- Yue Huang
+- Zhenwen Liang
+- Pin-Yu Chen
+- Tian Gao
+- Nuno Moniz
+- Nitesh V. Chawla
+- Xiangliang Zhang
+venue: arXiv
+year: 2026
+summary: TRACE is a skill-layer pipeline that mines user corrections, rewrites them as atomic rules, and
+  compiles them into runtime checks to enforce user preferences for coding agents, reducing repeated preference
+  violations.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses human oversight and reliability by compiling user corrections
+    into enforceable runtime rules, a key systems-level problem for trustworthy agents.
+status: draft

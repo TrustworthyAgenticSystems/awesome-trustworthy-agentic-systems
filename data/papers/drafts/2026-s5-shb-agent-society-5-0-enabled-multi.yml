@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-s5-shb-agent-society-5-0-enabled-multi
+type: papers
+title: 'S5-SHB Agent: Society 5.0 enabled Multi-model Agentic Blockchain Framework for Smart Home'
+url: https://arxiv.org/abs/2603.05027v2
+authors:
+- Janani Rangila
+- Akila Siriweera
+- Incheon Paik
+- Keitaro Naruse
+- Isuru Jayanada
+- Vishmika Devindi
+venue: arXiv
+year: 2026
+summary: A multi-agent blockchain framework for smart homes that orchestrates specialized agents using
+  LLMs, features adaptive consensus, and a four-tier resident governance model for automation control.
+harness_layer:
+- architectures
+sprs:
+- security
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.8
+  rationale: This paper presents an end-to-end reference architecture for a trustworthy agentic system
+    in a smart home context, including multi-agent coordination, blockchain for accountability, and human
+    governance.
+status: draft

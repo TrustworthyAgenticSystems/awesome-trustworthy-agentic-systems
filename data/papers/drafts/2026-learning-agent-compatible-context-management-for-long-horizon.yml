@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-learning-agent-compatible-context-management-for-long-horizon
+type: papers
+title: Learning Agent-Compatible Context Management for Long-Horizon Tasks
+url: https://arxiv.org/abs/2605.30785v1
+authors:
+- Lu Yi
+- Runlin Lei
+- Liuyi Yao
+- Yuexiang Xie
+- Yuyang Li
+- Wenhao Zhang
+- Zhewei Wei
+- Yaliang Li
+- Jian-Yun Nie
+venue: arXiv
+year: 2026
+summary: Adaptive Context Management (AdaCoM) trains an external LLM to manage the context of a frozen
+  agent through flexible modification actions and end-to-end reinforcement learning, improving performance
+  on long-horizon tasks by preserving task constraints and progress while pruning stale content.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses context management for long-running agents, a core memory-layer
+    concern for reliability, with a novel external management approach.
+status: draft

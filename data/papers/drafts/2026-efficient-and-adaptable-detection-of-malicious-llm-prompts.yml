@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-efficient-and-adaptable-detection-of-malicious-llm-prompts
+type: papers
+title: Efficient and Adaptable Detection of Malicious LLM Prompts via Bootstrap Aggregation
+url: https://arxiv.org/abs/2602.08062v1
+authors:
+- Shayan Ali Hassan
+- Tao Ni
+- Zafar Ayyub Qazi
+- Marco Canini
+venue: arXiv
+year: 2026
+summary: BAGEL is a modular, lightweight, and incrementally updatable framework for detecting malicious
+  LLM prompts using a bootstrap aggregated ensemble of fine-tuned models, addressing the challenge of
+  adapting to evolving threats efficiently.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the detection of malicious prompts, a core red-teaming concern,
+    with a systems-level solution for adaptability and efficiency in production.
+status: draft

@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cordon-semantic-transactions-for-tool-using-llm-agents
+type: papers
+title: 'Cordon: Semantic Transactions for Tool-Using LLM Agents'
+url: https://arxiv.org/abs/2606.17573v1
+authors:
+- Zheng Chen
+- Hanqing Liu
+- Duling Xu
+- Dong Dong
+- Jialin Li
+- Bangzheng Pu
+- Jidong Zhai
+venue: arXiv
+year: 2026
+summary: Cordon introduces a transactional runtime system for LLM agents that stages and validates irreversible
+  effects within a task-level execution boundary, enabling commit, rollback, and recovery across multi-step
+  workflows.
+harness_layer:
+- transactional-agency
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses transactional semantics for agent actions, a core open problem
+    for trustworthy agentic systems, with a concrete runtime implementation and evaluation.
+status: draft

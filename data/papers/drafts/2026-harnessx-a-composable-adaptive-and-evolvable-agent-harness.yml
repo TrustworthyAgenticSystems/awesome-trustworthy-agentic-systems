@@ -1,0 +1,44 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-harnessx-a-composable-adaptive-and-evolvable-agent-harness
+type: papers
+title: 'HarnessX: A Composable, Adaptive, and Evolvable Agent Harness Foundry'
+url: https://arxiv.org/abs/2606.14249v1
+authors:
+- Tingyang Chen
+- Shuo Lu
+- Kang Zhao
+- Weicheng Meng
+- Hanlin Teng
+- Tianhao Li
+- Chao Li
+- Xule Liu
+- Jian Liang
+- Zhizhong Zhang
+- Yuan Xie
+- Heng Qu
+- Kun Shao
+- Jian Luan
+venue: arXiv
+year: 2026
+summary: HarnessX is a foundry for composable, adaptive, and evolvable agent harnesses that uses a trace-driven
+  multi-agent evolution engine to improve agent performance by systematically updating harness primitives
+  and generating model training signals from execution feedback.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper introduces a system-level framework for designing, adapting, and evolving agent
+    harnesses based on execution feedback, directly addressing the engineering of trustworthy agentic
+    systems.
+status: draft

@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agent-mentor-framing-agent-knowledge-through-semantic-trajectory
+type: papers
+title: 'Agent Mentor: Framing Agent Knowledge through Semantic Trajectory Analysis'
+url: https://arxiv.org/abs/2604.10513v1
+authors:
+- Roi Ben-Gigi
+- Yuval David
+- Fabiana Fournier
+- Lior Limonad
+- Dany Moshkovich
+- Hadar Mulian
+- Segev Shlomov
+venue: arXiv
+year: 2026
+summary: An analytics pipeline that monitors agent execution logs to identify semantic features of undesired
+  behaviors and systematically injects corrective instructions into system prompts to improve performance.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a system for monitoring and adapting agent behavior through prompt correction
+    based on execution logs, directly addressing agent reliability and observability.
+status: draft

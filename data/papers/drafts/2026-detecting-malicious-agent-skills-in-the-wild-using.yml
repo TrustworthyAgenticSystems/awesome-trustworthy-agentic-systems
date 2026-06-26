@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-detecting-malicious-agent-skills-in-the-wild-using
+type: papers
+title: Detecting Malicious Agent Skills in the Wild using Attention
+url: https://arxiv.org/abs/2606.23416v1
+authors:
+- Bacem Etteib
+- Daniele Lunghi
+- Tégawendé F. Bissyandé
+venue: arXiv
+year: 2026
+summary: Locate-and-Judge is a two-stage attention-based detector for malicious agent skills, addressing
+  the supply-chain attack surface of third-party skill marketplaces by efficiently identifying and flagging
+  malicious instructions within skill packages.
+harness_layer:
+- supply-chain
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a critical supply-chain security problem for agentic systems
+    by proposing and evaluating a scalable detection mechanism for malicious third-party skills.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-pypiline-malicious-pypi-package-detection-via-suspicious-api
+type: papers
+title: 'PYPILINE: Malicious PyPI Package Detection via Suspicious API Knowledge and Agent Workflow'
+url: https://arxiv.org/abs/2606.19063v2
+authors:
+- Siyuan Pang
+- Zhengwei Jiang
+- Yepeng Yao
+- Zijing Fan
+- Haozhe Li
+- Baoxu Liu
+venue: arXiv
+year: 2026
+summary: PYPILINE is a novel method for detecting malicious PyPI packages by combining static analysis
+  to build a suspicious API knowledge base with an agent workflow that uses RAG to enhance semantic analysis
+  and automate report generation.
+harness_layer:
+- supply-chain
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses supply-chain security for software packages, a critical component
+    of trustworthy agentic systems, by proposing an automated detection method.
+status: draft

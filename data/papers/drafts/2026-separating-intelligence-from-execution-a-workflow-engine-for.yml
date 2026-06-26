@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-separating-intelligence-from-execution-a-workflow-engine-for
+type: papers
+title: 'Separating Intelligence from Execution: A Workflow Engine for the Model Context Protocol'
+url: https://arxiv.org/abs/2605.00827v1
+authors:
+- Abhinav Singh Parmar
+venue: arXiv
+year: 2026
+summary: The MCP Workflow Engine decouples agent intelligence from execution by allowing agents to generate
+  declarative workflow blueprints for complex, multi-step tasks, significantly reducing token consumption
+  and enabling deterministic, idempotent execution.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a workflow engine that provides a concrete architectural pattern for
+    orchestrating multi-step agent actions, directly addressing reliability and efficiency in agent execution.
+status: draft

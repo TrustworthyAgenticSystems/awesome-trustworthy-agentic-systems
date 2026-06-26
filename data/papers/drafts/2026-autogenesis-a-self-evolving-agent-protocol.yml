@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-autogenesis-a-self-evolving-agent-protocol
+type: papers
+title: 'Autogenesis: A Self-Evolving Agent Protocol'
+url: https://arxiv.org/abs/2604.15034v5
+authors:
+- Wentao Zhang
+- Zhe Zhao
+- Haibin Wen
+- Yingcheng Wu
+- Cankun Guo
+- Ming Yin
+- Bo An
+venue: arXiv
+year: 2026
+summary: Autogenesis Protocol (AGP) and System (AGS) provide a self-evolution protocol that models agent
+  components as versioned resources with explicit state and lifecycle, enabling auditable lineage and
+  rollback for improvements.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a system-level protocol and architecture for managing agent lifecycle,
+    context, versioning, and evolution, directly addressing reliability and security concerns in agentic
+    systems.
+status: draft

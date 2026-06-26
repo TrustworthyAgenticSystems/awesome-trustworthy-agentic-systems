@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-how-generation-architecture-shapes-code-complexity-in-multi
+type: papers
+title: 'How Generation Architecture Shapes Code Complexity in Multi-Agent LLM Systems: A Paired Study
+  on HumanEval'
+url: https://arxiv.org/abs/2606.00308v1
+authors:
+- Nazmus Ashrafi
+venue: arXiv
+year: 2026
+summary: Empirical study of how multi-agent orchestration architectures affect the structural complexity
+  of generated code, identifying specific layers (analyst-coder split, tester) that inflate complexity
+  without corresponding pass@1 advantages.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper investigates the system-level impact of multi-agent coordination architectures
+    on code complexity, a reliability concern, rather than just model capabilities.
+status: draft

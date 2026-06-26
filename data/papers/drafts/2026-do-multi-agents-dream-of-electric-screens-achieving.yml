@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-do-multi-agents-dream-of-electric-screens-achieving
+type: papers
+title: Do Multi-Agents Dream of Electric Screens? Achieving Perfect Accuracy on AndroidWorld Through Task
+  Decomposition
+url: https://arxiv.org/abs/2602.07787v1
+authors:
+- Pierre-Louis Favreau
+- Jean-Pierre Lo
+- Clement Guiguet
+- Charles Simon-Meunier
+- Nicolas Dehandschoewercker
+- Allen G. Roush
+- Judah Goldfeder
+- Ravid Shwartz-Ziv
+venue: arXiv
+year: 2026
+summary: Minitap is a multi-agent system that achieves 100% success on the AndroidWorld benchmark by addressing
+  single-agent failures through cognitive separation, deterministic post-validation of text input, and
+  meta-cognitive reasoning for cycle detection and strategy changes.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper presents a multi-agent system that addresses specific systems-level failures (context
+    pollution, undetected input failures, action loops) through architectural decomposition and meta-cognition,
+    directly contributing to agent reliability.
+status: draft

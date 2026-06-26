@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-trivium-temporal-regret-as-a-first-class-objective
+type: papers
+title: 'Trivium: Temporal Regret as a First-Class Objective for Causal-Memory Controllers'
+url: https://arxiv.org/abs/2606.04421v2
+authors:
+- Edward Y. Chang
+venue: arXiv
+year: 2026
+summary: Introduces temporal and epistemic regret as first-class objectives for causal-memory controllers
+  to systematically log, review, and correct agent failures, addressing the 'why' and 'when' of mistakes
+  beyond just outcome optimization.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses the systematic correction of agent failures over long-running
+    episodes by proposing new regret objectives for causal memory, which is a core systems problem for
+    agent reliability.
+status: draft

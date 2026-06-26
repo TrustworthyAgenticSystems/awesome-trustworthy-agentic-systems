@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-adema-a-knowledge-state-orchestration-architecture-for-long
+type: papers
+title: 'ADEMA: A Knowledge-State Orchestration Architecture for Long-Horizon Knowledge Synthesis with
+  LLMAgents'
+url: https://arxiv.org/abs/2604.25849v1
+authors:
+- Zhou Hanlin
+- Chan Huah Yong
+venue: arXiv
+year: 2026
+summary: ADEMA is a knowledge-state orchestration architecture designed for long-horizon knowledge synthesis,
+  focusing on explicit epistemic bookkeeping, checkpoint-resumable persistence, and artifact-first assembly
+  to maintain knowledge integrity and recoverability.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper presents a concrete architecture for managing knowledge states and ensuring recoverable
+    continuity in long-running agentic systems, directly addressing reliability and safety concerns.
+status: draft

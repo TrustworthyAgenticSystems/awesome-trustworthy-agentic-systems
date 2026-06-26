@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-ai-in-the-software-development-lifecycle-architecture
+type: papers
+title: 'Agentic AI in the Software Development Lifecycle: Architecture, Empirical Evidence, and the Reshaping
+  of Software Engineering'
+url: https://arxiv.org/abs/2604.26275v1
+authors:
+- Happy Bhati
+venue: arXiv
+year: 2026
+summary: Synthesizes current work on agentic software engineering systems, proposes a six-layer reference
+  architecture, and contrasts traditional SDLC with an emerging Agentic SDLC, identifying key open problems
+  for the discipline.
+harness_layer:
+- architectures
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Provides a reference architecture and frames the systems-level challenges of agentic software
+    engineering, which is foundational for trustworthy agentic systems.
+status: draft

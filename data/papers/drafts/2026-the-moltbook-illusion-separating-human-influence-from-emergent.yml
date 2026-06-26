@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-moltbook-illusion-separating-human-influence-from-emergent
+type: papers
+title: 'The Moltbook Illusion: Separating Human Influence from Emergent Behavior in AI Agent Societies'
+url: https://arxiv.org/abs/2602.07432v2
+authors:
+- Ning Li
+venue: arXiv
+year: 2026
+summary: Develops a temporal fingerprinting method to distinguish autonomous agent behavior from human-influenced
+  activity in social AI agent societies, validated by a natural experiment and applied to a large dataset
+  of agent posts and comments.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides a novel method for observing and attributing agent behavior in complex multi-agent
+    systems, addressing a critical aspect of trustworthiness.
+status: draft

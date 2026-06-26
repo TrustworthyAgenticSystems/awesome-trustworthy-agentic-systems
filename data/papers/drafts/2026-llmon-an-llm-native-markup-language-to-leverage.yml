@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-llmon-an-llm-native-markup-language-to-leverage
+type: papers
+title: 'LLMON: An LLM-native Markup Language to Leverage Structure and Semantics at the LLM Interface'
+url: https://arxiv.org/abs/2603.22519v2
+authors:
+- Michael Hind
+- Basel Shbita
+- Bo Wu
+- Farhan Ahmed
+- Chad DeLuca
+- Nathan Fulton
+- David Cox
+- Dan Gutfreund
+venue: arXiv
+year: 2026
+summary: Introduces LLMON, an LLM-native markup language, to convey structural and semantic metadata of
+  text to an LLM, distinguishing instructions from data to mitigate prompt injection and improve accuracy
+  and safety.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses prompt injection and model confusion by introducing a structured input format that
+    distinguishes trusted instructions from untrusted data, directly impacting memory and context integrity.
+status: draft

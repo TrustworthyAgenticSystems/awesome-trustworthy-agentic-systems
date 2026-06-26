@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-confidently-wrong-severity-aware-calibration-of-prompt-injection
+type: papers
+title: 'Confidently Wrong: Severity-Aware Calibration of Prompt-Injection Detectors under Attack Shift'
+url: https://arxiv.org/abs/2606.22659v1
+authors:
+- Md Anas Biswas
+venue: arXiv
+year: 2026
+summary: Evaluates the calibration and severity of prompt-injection detectors under attack distribution
+  shifts, revealing that detectors confidently miss indirect behavior-hijack injections due to content-keying,
+  leading to significant exploit leakage in live models.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the trustworthiness of agentic systems by analyzing the failure
+    modes of prompt-injection detectors under adversarial conditions and proposing a severity-aware evaluation
+    metric.
+status: draft

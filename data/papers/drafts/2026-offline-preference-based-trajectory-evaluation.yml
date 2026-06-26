@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-offline-preference-based-trajectory-evaluation
+type: papers
+title: Offline Preference-Based Trajectory Evaluation
+url: https://arxiv.org/abs/2606.17541v1
+authors:
+- Fernando Diaz
+venue: arXiv
+year: 2026
+summary: Proposes preference-based trajectory evaluation to compare agent trajectories directly, reducing
+  ties and improving discriminative power compared to terminal success metrics.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses a core problem in evaluating agentic systems by improving the discriminative power
+    of long-horizon evaluation, which is a key aspect of trustworthiness.
+status: draft

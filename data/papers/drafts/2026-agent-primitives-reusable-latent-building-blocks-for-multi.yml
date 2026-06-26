@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agent-primitives-reusable-latent-building-blocks-for-multi
+type: papers
+title: 'Agent Primitives: Reusable Latent Building Blocks for Multi-Agent Systems'
+url: https://arxiv.org/abs/2602.03695v2
+authors:
+- Haibo Jin
+- Peng Kuang
+- Ye Yu
+- Xiaopeng Yuan
+- Haohan Wang
+venue: arXiv
+year: 2026
+summary: Proposes Agent Primitives, reusable latent building blocks for multi-agent systems that communicate
+  via KV cache to improve robustness and efficiency by mitigating information degradation in multi-stage
+  interactions.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses architectural complexity and reusability in multi-agent coordination, improving
+    robustness and efficiency through a novel internal communication mechanism.
+status: draft

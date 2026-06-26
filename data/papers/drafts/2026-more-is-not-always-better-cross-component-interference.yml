@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-more-is-not-always-better-cross-component-interference
+type: papers
+title: 'More Is Not Always Better: Cross-Component Interference in LLM Agent Scaffolding'
+url: https://arxiv.org/abs/2605.05716v1
+authors:
+- Ming Liu
+venue: arXiv
+year: 2026
+summary: Empirical study of cross-component interference in LLM agent scaffolding, demonstrating that
+  maximally-equipped agents are often suboptimal due to destructive interactions between components, and
+  advocating for task-specific subset selection.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the reliability of agentic systems by analyzing how different
+    scaffolding components interact and can degrade performance, providing a systems-level understanding
+    of agent composition.
+status: draft

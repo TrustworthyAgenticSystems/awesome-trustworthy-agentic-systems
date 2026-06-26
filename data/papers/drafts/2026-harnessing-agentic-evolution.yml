@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-harnessing-agentic-evolution
+type: papers
+title: Harnessing Agentic Evolution
+url: https://arxiv.org/abs/2605.13821v1
+authors:
+- Jiayi Zhang
+- Yongfeng Gu
+- Jianhao Ruan
+- Maojia Song
+- Yiran Peng
+- Zhiguang Han
+- Jinyu Xiang
+- Zhitao Wang
+- Caiyin Yang
+- Yixi Ouyang
+- Bang Liu
+- Chenglin Wu
+- Yuyu Luo
+venue: arXiv
+year: 2026
+summary: AEvo is a meta-editing framework that allows a meta-agent to observe the accumulated evolution
+  context and edit the procedure or agent context controlling future evolution, improving long-horizon
+  search stability and performance.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a meta-agent framework for steering and stabilizing long-horizon agentic
+    evolution, addressing a systems-level challenge in multi-step agent coordination and reliability.
+status: draft

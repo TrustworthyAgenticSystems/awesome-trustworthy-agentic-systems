@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-discouq-structured-disagreement-analysis-for-uncertainty-quantification-in
+type: papers
+title: 'DiscoUQ: Structured Disagreement Analysis for Uncertainty Quantification in LLM Agent Ensembles'
+url: https://arxiv.org/abs/2603.20975v1
+authors:
+- Bo Jiang
+venue: arXiv
+year: 2026
+summary: DiscoUQ is a framework that quantifies uncertainty in multi-agent LLM ensembles by analyzing
+  structured inter-agent disagreement, including linguistic properties and embedding geometry, to produce
+  well-calibrated confidence estimates.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the reliability of multi-agent systems by improving uncertainty
+    quantification through structured disagreement analysis, which is a systems-level concern for agent
+    coordination.
+status: draft

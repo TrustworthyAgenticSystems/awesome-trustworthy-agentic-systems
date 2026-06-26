@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-harness-engineering-as-categorical-architecture
+type: papers
+title: Harness Engineering as Categorical Architecture
+url: https://arxiv.org/abs/2605.12239v1
+authors:
+- Bogdan Banu
+venue: arXiv
+year: 2026
+summary: Proposes categorical architecture as a formal theory for agent harness engineering, mapping agent
+  components (memory, skills, protocols, harness) to a formal triple to enable structural guarantees and
+  systematic comparison across frameworks.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides a foundational, formal theory for agent harness engineering, directly addressing
+    the systematic design and property preservation of agentic systems.
+status: draft

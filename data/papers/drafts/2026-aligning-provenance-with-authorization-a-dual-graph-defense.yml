@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-aligning-provenance-with-authorization-a-dual-graph-defense
+type: papers
+title: 'Aligning Provenance with Authorization: A Dual-Graph Defense for LLM Agents'
+url: https://arxiv.org/abs/2605.26497v1
+authors:
+- Peiran Wang
+- Ying Li
+- Yuan Tian
+venue: arXiv
+year: 2026
+summary: AuthGraph is a dual-graph defense framework that aligns an agent's execution provenance with
+  an authorization graph derived from user intent to detect indirect prompt injection and unauthorized
+  operations at the parameter-source level.
+harness_layer:
+- permissions
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses agent security by proposing a novel defense framework that
+    combines provenance tracking with authorization baselines to prevent indirect prompt injection and
+    unauthorized actions, a core systems problem.
+status: draft

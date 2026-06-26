@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-amemgym-interactive-memory-benchmarking-for-assistants-in-long
+type: papers
+title: 'AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations'
+url: https://arxiv.org/abs/2603.01966v1
+authors:
+- Cheng Jiayang
+- Dongyu Ru
+- Lin Qiu
+- Yiyang Li
+- Xuezhi Cao
+- Yangqiu Song
+- Xunliang Cai
+venue: arXiv
+year: 2026
+summary: AMemGym is an interactive environment for on-policy evaluation and optimization of memory systems
+  in long-horizon conversational agents, using structured data sampling to generate evaluation-aligned
+  interactions and diagnose performance gaps.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a novel interactive evaluation framework specifically for memory management
+    in long-running agentic systems, addressing a key reliability concern.
+status: draft

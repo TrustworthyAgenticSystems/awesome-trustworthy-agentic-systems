@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hippocampus-an-efficient-and-scalable-memory-module-for
+type: papers
+title: 'Hippocampus: An Efficient and Scalable Memory Module for Agentic AI'
+url: https://arxiv.org/abs/2602.13594v1
+authors:
+- Yi Li
+- Lianjie Cao
+- Faraz Ahmed
+- Puneet Sharma
+- Bingzhe Li
+venue: arXiv
+year: 2026
+summary: Hippocampus is an agentic memory management system that uses compact binary signatures and lossless
+  token-ID streams with a Dynamic Wavelet Matrix for efficient semantic search and content reconstruction,
+  addressing retrieval latency and storage scalability for long-horizon agents.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly contributes to the systems engineering of agent memory, focusing on efficiency
+    and scalability for persistent storage and retrieval, which impacts agent reliability.
+status: draft

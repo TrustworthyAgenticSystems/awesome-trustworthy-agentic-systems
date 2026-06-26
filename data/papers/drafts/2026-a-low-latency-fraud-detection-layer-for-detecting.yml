@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-low-latency-fraud-detection-layer-for-detecting
+type: papers
+title: A Low-Latency Fraud Detection Layer for Detecting Adversarial Interaction Patterns in LLM-Powered
+  Agents
+url: https://arxiv.org/abs/2605.01143v1
+authors:
+- Sheldon Yu
+- Yingcheng Sun
+- Hanqing Guo
+- Julian McAuley
+- Qianqian Tong
+venue: arXiv
+year: 2026
+summary: A low-latency fraud detection layer that models risk over interaction trajectories using structured
+  runtime features to detect adversarial patterns in LLM-powered agents, evaluated on a synthetic corpus
+  of multi-turn interactions.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper proposes a system-level defense mechanism for detecting adversarial interaction
+    patterns in LLM agents, focusing on multi-turn attacks and runtime features, which is a direct contribution
+    to red-teaming and observation-eval.
+status: draft

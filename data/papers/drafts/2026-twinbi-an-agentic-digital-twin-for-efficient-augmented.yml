@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-twinbi-an-agentic-digital-twin-for-efficient-augmented
+type: papers
+title: 'TwinBI: An Agentic Digital Twin for Efficient Augmented Interactions with Business Intelligence
+  Dashboards'
+url: https://arxiv.org/abs/2606.13731v1
+authors:
+- Jisoo Jang Wen-Syan Li
+venue: arXiv
+year: 2026
+summary: TwinBI is an agentic digital-twin framework that couples an LLM-based agent system with an executable
+  BI dashboard state to maintain consistent analytical state across mixed-mode interactions, improving
+  agent reliability and user support.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper presents an end-to-end reference architecture for integrating LLM agents with
+    BI dashboards, focusing on maintaining consistent state and improving reliability through a unified
+    interaction log and state reconstruction.
+status: draft

@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-demystifying-and-repairing-llm-in-the-loop
+type: papers
+title: Towards Demystifying and Repairing LLM-in-the-Loop Vulnerabilities
+url: https://arxiv.org/abs/2605.28893v1
+authors:
+- Yujie Ma
+- Jialin Rong
+- Chenxi Yang
+- Lili Quan
+- Xiaofei Xie
+- Yongqiang Lyu
+- Qiang Hu
+venue: arXiv
+year: 2026
+summary: Constructs the first dataset of real-world LLM-in-the-loop vulnerabilities (LLMCVE) by analyzing
+  2,888 multi-source vulnerabilities, identifying 205 as true LLM-in-the-loop cases, and evaluating agent-based
+  repair methods.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Directly addresses the analysis and repair of system-level vulnerabilities introduced by
+    LLMs and their downstream components, including prompt injection, which is a core red-teaming concern.
+status: draft

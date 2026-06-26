@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-skill-text-to-skill-structure-the-scheduling
+type: papers
+title: 'From Skill Text to Skill Structure: The Scheduling-Structural-Logical Representation for Agent
+  Skills'
+url: https://arxiv.org/abs/2604.24026v4
+authors:
+- Qiliang Liang
+- Hansi Wang
+- Zhong Liang
+- Yang Liu
+venue: arXiv
+year: 2026
+summary: Introduces the Scheduling-Structural-Logical (SSL) representation, a structured format for agent
+  skills that disentangles scheduling, execution structure, and logic, improving skill discovery and risk
+  assessment.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Proposes a foundational structured representation for agent skills that enhances machine
+    interpretability for critical systems-level tasks like risk assessment and discovery.
+status: draft

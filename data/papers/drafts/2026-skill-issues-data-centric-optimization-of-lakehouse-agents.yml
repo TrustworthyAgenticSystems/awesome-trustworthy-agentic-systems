@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-skill-issues-data-centric-optimization-of-lakehouse-agents
+type: papers
+title: '"Skill issues'''': data-centric optimization of lakehouse agents'
+url: https://arxiv.org/abs/2606.01185v1
+authors:
+- Nicole Rose Schneider
+- Davide Ghilardi
+- Giacomo Piccinini
+- Jacopo Tagliabue
+venue: arXiv
+year: 2026
+summary: Presents a data-centric optimization pipeline for coding agents operating on a branching lakehouse,
+  using state-verification and programmatic checks over lakehouse state to evaluate and improve agent
+  skills.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper focuses on evaluating and optimizing agent skills by verifying changes in a data
+    infrastructure, which is a systems-level problem for agent reliability and evaluation.
+status: draft

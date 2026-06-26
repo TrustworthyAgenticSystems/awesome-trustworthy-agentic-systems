@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-turn-a-language-for-agentic-computation
+type: papers
+title: 'Turn: A Language for Agentic Computation'
+url: https://arxiv.org/abs/2603.08755v1
+authors:
+- Muyukani Kizito
+venue: arXiv
+year: 2026
+summary: Turn is a compiled, actor-based programming language for agentic software that provides language-level
+  constructs for cognitive type safety, credential isolation, and typed API bindings to enforce critical
+  invariants for trustworthy agent execution.
+harness_layer:
+- execution-shell
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper introduces a novel programming language and runtime designed specifically to enforce
+    trustworthiness invariants at the execution-shell level for agentic systems.
+status: draft

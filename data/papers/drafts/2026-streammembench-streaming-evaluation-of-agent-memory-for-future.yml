@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-streammembench-streaming-evaluation-of-agent-memory-for-future
+type: papers
+title: 'StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance'
+url: https://arxiv.org/abs/2606.14571v1
+authors:
+- Guanming Liu
+- Yuqi Ren
+- Hansu Gu
+- Peng Zhang
+- Weihang Wang
+- Jiahao Liu
+- Ning Gu
+- Tun Lu
+venue: arXiv
+year: 2026
+summary: Introduces StreamMemBench, a streaming benchmark for evaluating agent memory's ability to carry
+  forward observations and interaction feedback for future-oriented assistance across two-step task sequences.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes a novel streaming evaluation benchmark specifically designed to test
+    the reliability of agent memory in incorporating and reusing information over time, addressing a gap
+    in existing memory evaluation.
+status: draft

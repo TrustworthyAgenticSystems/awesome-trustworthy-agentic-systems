@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cia-inferring-the-communication-topology-from-llm-based
+type: papers
+title: 'CIA: Inferring the Communication Topology from LLM-based Multi-Agent Systems'
+url: https://arxiv.org/abs/2604.12461v1
+authors:
+- Yongxuan Wu
+- Xixun Lin
+- He Zhang
+- Nan Sun
+- Kun Wang
+- Chuan Zhou
+- Shirui Pan
+- Yanan Cao
+venue: arXiv
+year: 2026
+summary: Proposes a Communication Inference Attack (CIA) to infer the internal communication topology
+  of black-box multi-agent systems, revealing a privacy and security risk related to system design.
+harness_layer:
+- red-team
+sprs:
+- privacy
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses a privacy and security risk in multi-agent systems by demonstrating
+    an attack to infer internal communication topology, which is a system-level concern.
+status: draft

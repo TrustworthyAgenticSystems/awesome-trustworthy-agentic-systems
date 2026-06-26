@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-asap-agent-system-co-design-for-wall-clock
+type: papers
+title: 'ASAP: Agent-System Co-Design for Wall-Clock-Centered Auto HPO Research for ML Experiments'
+url: https://arxiv.org/abs/2606.25207v1
+authors:
+- Taicheng Guo
+- Haomin Zhuang
+- Kehan Guo
+- Yujun Zhou
+- Nitesh V. Chawla
+- Olaf Wiest
+- Xiangliang Zhang
+venue: arXiv
+year: 2026
+summary: ASAP is an agent-system co-design for hyperparameter optimization that integrates diverse optimizers
+  via an LLM agent and re-architects the execution loop for wall-clock efficiency using KV-cache reuse,
+  speculation parallelism, and an adaptive self-tuner.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes an agent-system co-design that re-architects the execution loop for efficiency,
+    which is a systems-level contribution to agent reliability.
+status: draft

@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-insurance-of-agentic-ai
+type: papers
+title: Insurance of Agentic AI
+url: https://arxiv.org/abs/2606.05449v1
+authors:
+- Quanyan Zhu
+venue: arXiv
+year: 2026
+summary: This paper develops a framework for understanding the emerging insurance market for agentic AI,
+  characterizing novel risk pathways and proposing an actuarial framework and coordinated insurance architecture
+  for managing these exposures.
+harness_layer:
+- foundations
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides a foundational framework for understanding and managing risks in agentic
+    AI systems, which is crucial for engineering trustworthy systems, even if it's not a direct technical
+    implementation.
+status: draft

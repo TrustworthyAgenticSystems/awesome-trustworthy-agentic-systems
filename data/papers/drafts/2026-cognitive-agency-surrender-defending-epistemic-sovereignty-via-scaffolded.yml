@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cognitive-agency-surrender-defending-epistemic-sovereignty-via-scaffolded
+type: papers
+title: 'Cognitive Agency Surrender: Defending Epistemic Sovereignty via Scaffolded AI Friction'
+url: https://arxiv.org/abs/2603.21735v2
+authors:
+- Kuangzhe Xu
+- Yu Shen
+- Longjie Yan
+- Yinghui Ren
+venue: arXiv
+year: 2026
+summary: Theorizes "Scaffolded Cognitive Friction" using multi-agent systems as cognitive forcing functions
+  to counteract automation bias and cognitive agency surrender in human-AI interaction.
+harness_layer:
+- oversight
+sprs:
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses human oversight and cognitive load in the context of AI agents, proposing a systems-level
+    intervention to improve human-agent collaboration and prevent cognitive agency surrender.
+status: draft

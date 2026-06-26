@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hot-fixing-in-the-wild
+type: papers
+title: Hot Fixing in the Wild
+url: https://arxiv.org/abs/2604.26892v1
+authors:
+- Carol Hanna
+- Karine Even-Mendoza
+- W. B. Langdon
+- Mar Zamorano López
+- Justyna Petke
+- Federica Sarro
+venue: arXiv
+year: 2026
+summary: Empirical analysis of hot fix patterns in over 61,000 GitHub repositories, comparing human and
+  AI-agent behaviors to understand urgent maintenance workflows and inform future human-automation collaboration.
+harness_layer:
+- oversight
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides an empirical analysis of hot-fixing workflows, including AI-agent contributions,
+    which directly informs human oversight and collaboration in urgent maintenance scenarios.
+status: draft

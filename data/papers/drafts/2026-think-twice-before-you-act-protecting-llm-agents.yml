@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-think-twice-before-you-act-protecting-llm-agents
+type: papers
+title: 'Think Twice Before You Act: Protecting LLM Agents Against Tool Description Poisoning via Isolated
+  Planning'
+url: https://arxiv.org/abs/2606.20922v1
+authors:
+- Shanghao Shi
+- Xiao Wang
+- Chaoyu Zhang
+- Hao Li
+- Wenjing Lou
+- Thomas Hou
+- Yevgeniy Vorobeychik
+- Chongjie Zhang
+- Ning Zhang
+venue: arXiv
+year: 2026
+summary: Identifies cross-tool description poisoning as a new attack surface for LLM agents and proposes
+  Tool-Guard, a system-level defense that isolates suspicious tool descriptions in a quarantined list
+  to prevent continuous influence on planning.
+harness_layer:
+- tool-interface
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a novel attack vector on tool interfaces and provides a system-level defense
+    mechanism for agent trustworthiness.
+status: draft

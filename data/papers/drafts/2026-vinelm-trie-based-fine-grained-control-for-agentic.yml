@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-vinelm-trie-based-fine-grained-control-for-agentic
+type: papers
+title: 'VineLM: Trie-Based Fine-Grained Control for Agentic Workflows'
+url: https://arxiv.org/abs/2605.23914v1
+authors:
+- Nikos Pagonas
+- Matthew Lou
+- Tianyi Peng
+- Dan Rubenstein
+- Kostis Kaffes
+venue: arXiv
+year: 2026
+summary: VineLM is a workflow manager that enables dynamic, fine-grained model selection for each stage
+  invocation in agentic workflows, using a trie-based representation and sparse profiling to optimize
+  for request-level objectives like accuracy, cost, and latency.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the execution-shell layer by dynamically controlling model choices
+    within agentic workflows to optimize for reliability and efficiency, rather than static, offline configurations.
+status: draft

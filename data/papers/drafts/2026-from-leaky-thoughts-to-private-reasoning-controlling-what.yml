@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-leaky-thoughts-to-private-reasoning-controlling-what
+type: papers
+title: 'From Leaky Thoughts to Private Reasoning: Controlling What LRMs Say to Themselves'
+url: https://arxiv.org/abs/2602.24210v2
+authors:
+- Haritz Puerto
+- Haonan Li
+- Xudong Han
+- Timothy Baldwin
+- Iryna Gurevych
+venue: arXiv
+year: 2026
+summary: Addresses privacy leaks in reasoning traces by improving instruction-following within the trace
+  generation process, using an SFT dataset and a staged decoding strategy with separate LoRA adapters.
+harness_layer:
+- memory
+sprs:
+- privacy
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly tackles privacy and security risks associated with sensitive information
+    in agent reasoning traces, a critical aspect of memory and context management in agentic systems.
+status: draft

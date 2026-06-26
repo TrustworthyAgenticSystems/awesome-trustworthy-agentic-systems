@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cliopatra-extracting-private-information-from-llm-insights
+type: papers
+title: 'CLIOPATRA: Extracting Private Information from LLM Insights'
+url: https://arxiv.org/abs/2603.09781v2
+authors:
+- Meenatchi Sundaram Muthu Selva Annamalai
+- Emiliano De Cristofaro
+- Peter Kairouz
+venue: arXiv
+year: 2026
+summary: CLIOPATRA is the first attack against privacy-preserving LLM-based insight systems, demonstrating
+  how an adversary can inject malicious chats to bypass multiple heuristic protections and exfiltrate
+  sensitive user data.
+harness_layer:
+- red-team
+sprs:
+- privacy
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper presents a novel red-teaming attack against privacy-preserving LLM systems, directly
+    addressing security and privacy concerns in agentic workflows.
+status: draft

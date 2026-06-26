@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-agent-economy-a-blockchain-based-foundation-for
+type: papers
+title: 'The Agent Economy: A Blockchain-Based Foundation for Autonomous AI Agents'
+url: https://arxiv.org/abs/2602.14219v1
+authors:
+- Minghui Xu
+venue: arXiv
+year: 2026
+summary: Proposes a five-layer blockchain-based architecture for autonomous AI agents to operate as economic
+  peers, addressing identity, financial autonomy, and collective governance for the Internet of Agents.
+harness_layer:
+- architectures
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Presents a foundational architectural framework for agentic systems, addressing critical
+    systems-level concerns like identity, permissions, and economic settlement for autonomous agents.
+status: draft

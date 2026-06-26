@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-injection-paradox-brand-level-suppression-in-safety
+type: papers
+title: 'The Injection Paradox: Brand-Level Suppression in Safety-Trained LLM Recommendations via RAG Context
+  Injection'
+url: https://arxiv.org/abs/2606.09204v1
+authors:
+- Hyunseok Paeng
+venue: arXiv
+year: 2026
+summary: Identifies a novel 'Injection Paradox' where prompt injections in RAG documents paradoxically
+  suppress the target brand in safety-trained LLM recommendations, demonstrating a potential reverse-attack
+  vector.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper describes a novel adversarial attack vector (prompt injection) within a RAG-based
+    agentic system, demonstrating a system-level failure mode and a potential reverse-attack scenario.
+status: draft

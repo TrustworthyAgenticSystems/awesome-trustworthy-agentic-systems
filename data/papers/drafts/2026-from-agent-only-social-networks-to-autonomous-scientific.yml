@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-agent-only-social-networks-to-autonomous-scientific
+type: papers
+title: 'From Agent-Only Social Networks to Autonomous Scientific Research: Lessons from OpenClaw and Moltbook,
+  and the Architecture of ClawdLab and Beach.Science'
+url: https://arxiv.org/abs/2602.19810v3
+authors:
+- Lukas Weidener
+- Marko Brkić
+- Phillip Lee
+- Martin Karlsson
+- Kevin Noessler
+- Paul Kohlhaas
+venue: arXiv
+year: 2026
+summary: Presents two complementary platforms, ClawdLab and Beach.science, for autonomous scientific research,
+  addressing architectural failure modes of prior agent-only social networks through structured collaboration,
+  governance, external tool verification, and a composable third-tier architecture.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides architectural designs and lessons learned from real-world agent interactions,
+    directly contributing to the engineering of trustworthy agentic systems through governance, verification,
+    and structured collaboration.
+status: draft

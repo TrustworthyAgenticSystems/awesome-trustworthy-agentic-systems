@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-an-agentic-llm-based-framework-for-population-scale
+type: papers
+title: An Agentic LLM-Based Framework for Population-Scale Mental Health Screening
+url: https://arxiv.org/abs/2605.13046v1
+authors:
+- Giuliano Lorenzoni
+- Paulo Alencar
+- Donald Cowan
+venue: arXiv
+year: 2026
+summary: Proposes an agentic framework for LLM-based pipelines in mental health screening, featuring policy-governed
+  LangChain agents, incremental locking of stages, and freeze/rollback mechanisms to ensure trustworthiness
+  and reproducibility.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes an agentic framework with specific systems-engineering mechanisms (policies,
+    incremental locking, freeze/rollback) to ensure reliability and safety in a sensitive application
+    domain.
+status: draft

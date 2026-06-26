@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-teambench-evaluating-agent-coordination-under-enforced-role-separation
+type: papers
+title: 'TeamBench: Evaluating Agent Coordination under Enforced Role Separation'
+url: https://arxiv.org/abs/2605.07073v1
+authors:
+- Yubin Kim
+- Chanwoo Park
+- Taehan Kim
+- Eugene Park
+- Samuel Schmidgall
+- Salman Rahman
+- Chunjong Park
+- Cynthia Breazeal
+- Xin Liu
+- Hamid Palangi
+- Hae Won Park
+- Daniel McDuff
+venue: arXiv
+year: 2026
+summary: TeamBench evaluates multi-agent coordination under operating system-enforced role separation,
+  revealing that prompt-only role separation masks actual coordination failures and that human oversight
+  can be detrimental.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the systems-level problem of enforcing role separation in multi-agent
+    coordination, going beyond prompt-only methods to use OS-level controls and evaluating the impact
+    on trustworthiness.
+status: draft

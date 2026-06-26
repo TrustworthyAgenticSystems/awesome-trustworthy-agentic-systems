@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-vadaorchestra-neurosymbolic-orchestration-of-adaptive-reasoning-workflows
+type: papers
+title: 'VADAOrchestra: Neurosymbolic Orchestration of Adaptive Reasoning Workflows'
+url: https://arxiv.org/abs/2606.22485v2
+authors:
+- Teodoro Baldazzi
+- Luigi Bellomarini
+- Andrea Coletta
+- Michela Iezzi
+- Carsten Maple
+- Alessandro Pesare
+- Emanuel Sallinger
+venue: arXiv
+year: 2026
+summary: VADAOrchestra is a neurosymbolic framework that combines LLM-based orchestration with a Datalog+/-
+  symbolic engine to create adaptive, verifiable, and scalable reasoning workflows, addressing the trade-off
+  between flexibility and auditability in agentic systems.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a neurosymbolic framework for orchestrating adaptive reasoning workflows,
+    directly addressing reliability and auditability in agent coordination.
+status: draft

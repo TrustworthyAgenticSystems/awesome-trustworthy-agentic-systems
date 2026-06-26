@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-profit-is-the-red-team-stress-testing-agents
+type: papers
+title: 'Profit is the Red Team: Stress-Testing Agents in Strategic Economic Interactions'
+url: https://arxiv.org/abs/2603.20925v1
+authors:
+- Shouqiao Wang
+- Marcello Politi
+- Samuele Marro
+- Davide Crapis
+venue: arXiv
+year: 2026
+summary: Introduces profit-driven red teaming, a stress-testing protocol using a learned opponent to discover
+  adaptive exploits in agentic systems through scalar outcome feedback, and distills these exploits into
+  prompt rules for improved robustness.
+harness_layer:
+- red-team
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses adversarial testing of agentic systems by proposing a novel,
+    adaptive red-teaming protocol that identifies system-level vulnerabilities in economic interactions.
+status: draft

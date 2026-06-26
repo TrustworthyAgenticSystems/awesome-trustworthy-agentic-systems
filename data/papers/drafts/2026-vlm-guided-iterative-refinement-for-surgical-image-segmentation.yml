@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-vlm-guided-iterative-refinement-for-surgical-image-segmentation
+type: papers
+title: VLM-Guided Iterative Refinement for Surgical Image Segmentation with Foundation Models
+url: https://arxiv.org/abs/2602.09252v1
+authors:
+- Ange Lou
+- Yamin Li
+- Qi Chang
+- Nan Xi
+- Luyuan Xie
+- Zichao Li
+- Tianyu Luan
+venue: arXiv
+year: 2026
+summary: IR-SIS is an iterative refinement system for surgical image segmentation that uses a VLM to assess
+  segmentation quality and an agentic workflow to adaptively select refinement strategies, supporting
+  clinician-in-the-loop interaction via natural language feedback.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes an agentic system with human-in-the-loop interaction for adaptive refinement
+    in a safety-critical domain, directly addressing oversight and reliability in agentic workflows.
+status: draft

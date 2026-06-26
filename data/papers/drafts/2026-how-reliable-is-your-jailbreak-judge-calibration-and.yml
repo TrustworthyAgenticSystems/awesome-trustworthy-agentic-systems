@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-how-reliable-is-your-jailbreak-judge-calibration-and
+type: papers
+title: How Reliable Is Your Jailbreak Judge? Calibration and Adversarial Robustness of Automated ASR Scoring
+url: https://arxiv.org/abs/2606.25487v2
+authors:
+- Yang Gao
+venue: arXiv
+year: 2026
+summary: Evaluates the calibration and adversarial robustness of automated jailbreak judges (safety classifiers
+  and LLM-as-judges) against human labels, revealing significant unreliability and vulnerability to surface
+  and white-box attacks, and proposes reporting and adversarial checking recommendations for ASR.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the reliability and security of evaluation infrastructure for
+    agentic systems, specifically the automated judges used to score jailbreaks and prompt injections.
+status: draft

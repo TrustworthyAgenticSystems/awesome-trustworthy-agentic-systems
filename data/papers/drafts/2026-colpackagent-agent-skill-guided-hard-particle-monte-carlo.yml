@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-colpackagent-agent-skill-guided-hard-particle-monte-carlo
+type: papers
+title: 'ColPackAgent: Agent-Skill-Guided Hard-Particle Monte Carlo Workflows for Colloidal Packing'
+url: https://arxiv.org/abs/2605.15625v1
+authors:
+- Lijie Ding
+- Changwoo Do
+venue: arXiv
+year: 2026
+summary: ColPackAgent is an agent framework that uses a Model Context Protocol (MCP) tool server to expose
+  a domain-specific Python package for colloidal packing simulations, enabling reliable execution of complex
+  scientific workflows by LLM agents.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a system for reliably executing scientific workflows by integrating domain-specific
+    tools via an MCP server and agent skills, addressing a key challenge in agentic systems' tool use.
+status: draft

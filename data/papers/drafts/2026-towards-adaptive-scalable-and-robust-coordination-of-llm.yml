@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-adaptive-scalable-and-robust-coordination-of-llm
+type: papers
+title: 'Towards Adaptive, Scalable, and Robust Coordination of LLM Agents: A Dynamic Ad-Hoc Networking
+  Perspective'
+url: https://arxiv.org/abs/2602.08009v1
+authors:
+- Rui Li
+- Zeyu Zhang
+- Xiaohe Bo
+- Quanyu Dai
+- Chaozhuo Li
+- Feng Wen
+- Xu Chen
+venue: arXiv
+year: 2026
+summary: RAPS is a reputation-aware publish-subscribe paradigm for multi-agent coordination, enabling
+  adaptive and reliable communication through dynamic intent-based messaging, reactive subscriptions,
+  and Bayesian reputation for malicious peer detection.
+harness_layer:
+- coordination
+sprs:
+- security
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a novel coordination mechanism for multi-agent systems, directly addressing
+    scalability, adaptivity, and robustness in agent communication, including security aspects like malicious
+    peer detection.
+status: draft

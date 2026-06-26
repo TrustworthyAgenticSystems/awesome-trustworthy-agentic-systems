@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-cybersecurity-superintelligence-csi-what-s-the-best
+type: papers
+title: 'Towards Cybersecurity SuperIntelligence (CSI): What''s the best harness for cybersecurity?'
+url: https://arxiv.org/abs/2605.28334v2
+authors:
+- Víctor Mayoral-Vilches
+- Francesco Balassone
+- María Sanz-Gómez
+- Paul Zabalegui Landa
+- Daniel Sánchez Prieto
+- Marina Oteiza Álvarez
+- Davide Quarta
+- Martin Pinzger
+venue: arXiv
+year: 2026
+summary: Presents a meta-scaffold for unifying heterogeneous LLM-driven agent harnesses under a common
+  orchestration layer, enabling benchmarking and composition to improve cybersecurity task coverage.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses the challenge of combining diverse agent execution scaffolds for improved reliability
+    and coverage in cybersecurity tasks, a systems-level coordination problem.
+status: draft

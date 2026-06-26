@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-localalign-enabling-generalizable-prompt-injection-defense-via-generation
+type: papers
+title: 'LocalAlign: Enabling Generalizable Prompt Injection Defense via Generation of Near-Target Adversarial
+  Examples for Alignment Training'
+url: https://arxiv.org/abs/2605.01462v1
+authors:
+- Yuyang Gong
+- Zihao Wang
+- Jiawei Liu
+- XiaoFeng Wang
+venue: arXiv
+year: 2026
+summary: LocalAlign is a prompt injection defense that generates near-target adversarial examples to train
+  models to distinguish between trusted commands and untrusted data, even when the malicious command induces
+  a response close to the correct one.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses prompt injection, a system-level attack, and proposes a defense mechanism
+    that improves generalizability by generating more realistic adversarial examples for alignment training.
+status: draft

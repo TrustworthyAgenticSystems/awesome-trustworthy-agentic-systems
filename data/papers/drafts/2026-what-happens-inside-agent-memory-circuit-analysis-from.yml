@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-what-happens-inside-agent-memory-circuit-analysis-from
+type: papers
+title: What Happens Inside Agent Memory? Circuit Analysis from Emergence to Diagnosis
+url: https://arxiv.org/abs/2605.03354v2
+authors:
+- Xutao Mao
+- Jinman Zhao
+- Gerald Penn
+- Cong Wang
+venue: arXiv
+year: 2026
+summary: Analyzes the internal computational circuits of agent memory (write-manage-read loop) in LLMs,
+  identifying control and content circuitry, and develops an unsupervised diagnostic for localizing silent
+  memory failures.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: Provides a mechanistic understanding of agent memory failures and offers a diagnostic tool
+    for improving the reliability of memory components in agentic systems.
+status: draft

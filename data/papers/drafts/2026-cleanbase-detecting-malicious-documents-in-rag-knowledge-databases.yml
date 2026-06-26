@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cleanbase-detecting-malicious-documents-in-rag-knowledge-databases
+type: papers
+title: 'CleanBase: Detecting Malicious Documents in RAG Knowledge Databases'
+url: https://arxiv.org/abs/2605.00460v1
+authors:
+- Weifei Jin
+- Xilong Wang
+- Wei Zou
+- Jinyuan Jia
+- Neil Gong
+venue: arXiv
+year: 2026
+summary: CleanBase detects malicious documents in RAG knowledge bases by identifying semantically similar
+  cliques, which are indicative of prompt injection attacks, thereby safeguarding RAG system integrity.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses a security vulnerability in RAG memory (prompt injection) and
+    proposes a system-level detection mechanism with empirical validation.
+status: draft

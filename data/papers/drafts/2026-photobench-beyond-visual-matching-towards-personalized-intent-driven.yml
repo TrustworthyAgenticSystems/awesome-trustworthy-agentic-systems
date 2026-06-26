@@ -1,0 +1,43 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-photobench-beyond-visual-matching-towards-personalized-intent-driven
+type: papers
+title: 'PhotoBench: Beyond Visual Matching Towards Personalized Intent-Driven Photo Retrieval'
+url: https://arxiv.org/abs/2603.01493v1
+authors:
+- Tianyi Xu
+- Rong Shan
+- Junjie Wu
+- Jiadeng Huang
+- Teng Wang
+- Jiachen Zhu
+- Wenteng Chen
+- Minxin Tu
+- Quantao Dou
+- Zhaoxiang Wang
+- Changwang Zhang
+- Weinan Zhang
+- Jun Wang
+- Jianghao Lin
+venue: arXiv
+year: 2026
+summary: PhotoBench is a new benchmark for personalized photo retrieval that evaluates agentic systems'
+  ability to perform multi-source intent-driven reasoning and tool orchestration, exposing limitations
+  in handling non-visual constraints and source fusion.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a benchmark specifically designed to evaluate agentic systems' reasoning
+    and tool orchestration capabilities for complex, intent-driven tasks, which is relevant to observation
+    and evaluation of agent behavior.
+status: draft

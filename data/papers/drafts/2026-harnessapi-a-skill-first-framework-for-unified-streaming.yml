@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-harnessapi-a-skill-first-framework-for-unified-streaming
+type: papers
+title: 'HarnessAPI: A Skill-First Framework for Unified Streaming APIs and MCP Tools'
+url: https://arxiv.org/abs/2605.22733v1
+authors:
+- Edwin Jose
+venue: arXiv
+year: 2026
+summary: HarnessAPI is a Python framework that unifies streaming HTTP endpoints and MCP tool registrations
+  from a single typed skill folder, reducing boilerplate and ensuring consistency across different client
+  types.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the systems engineering problem of managing and maintaining
+    tool interfaces for LLM agents, focusing on reducing duplication and improving reliability.
+status: draft

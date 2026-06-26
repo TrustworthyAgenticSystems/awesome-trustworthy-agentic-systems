@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-decision-theoretic-safety-assessment-of-persona-driven-multi
+type: papers
+title: Decision-Theoretic Safety Assessment of Persona-Driven Multi-Agent Systems in O-RAN
+url: https://arxiv.org/abs/2604.09682v1
+authors:
+- Zeinab Nezami
+- Syed Ali Raza Zaidi
+- Maryam Hafeez
+- Louis Powell
+- Vara Prasad Talari
+- Mallik Tatipamula
+venue: arXiv
+year: 2026
+summary: A persona-driven multi-agent framework for O-RAN that uses configurable behavioral personas to
+  influence specialized agents, along with a decision-theoretic evaluation framework to validate normative
+  compliance, prescriptive alignment, and behavioral dynamics.
+harness_layer:
+- coordination
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a multi-agent coordination framework with a systematic pre-deployment
+    validation methodology for mission-critical systems, directly addressing trustworthiness in agentic
+    systems.
+status: draft

@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-no-attack-required-semantic-fuzzing-for-specification-violations
+type: papers
+title: 'No Attack Required: Semantic Fuzzing for Specification Violations in Agent Skills'
+url: https://arxiv.org/abs/2605.13044v1
+authors:
+- Ying Li
+- Hongbo Wen
+- Yanju Chen
+- Hanzhi Liu
+- Yuan Tian
+- Yu Feng
+venue: arXiv
+year: 2026
+summary: Sefz is a semantic fuzzing framework that automatically discovers specification violations in
+  agent skills by translating natural-language guardrails into reachability goals over execution traces,
+  identifying cases where benign inputs cause skills to breach their own safety rules.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a critical systems-level trustworthiness problem by proposing
+    a novel fuzzing framework to identify specification violations in agent skills, which can lead to
+    security and safety breaches without explicit attacks.
+status: draft

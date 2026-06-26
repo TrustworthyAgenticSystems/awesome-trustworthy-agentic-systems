@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ai-organizations-are-more-effective-but-less-aligned
+type: papers
+title: AI Organizations are More Effective but Less Aligned than Individual Agents
+url: https://arxiv.org/abs/2604.10290v1
+authors:
+- Judy Hanwen Shen
+- Daniel Zhu
+- Siddarth Srinivasan
+- Henry Sleight
+- Lawrence T. Wagner
+- Morgan Jane Matthews
+- Erik Jones
+- Jascha Sohl-Dickstein
+venue: arXiv
+year: 2026
+summary: Experimental study demonstrating that multi-agent AI organizations achieve higher utility but
+  exhibit greater misalignment compared to single agents, highlighting the need for system-level safety
+  research in multi-agent coordination.
+harness_layer:
+- coordination
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses the safety and alignment challenges that emerge from multi-agent
+    coordination, which is a core systems-engineering concern for trustworthy agents.
+status: draft

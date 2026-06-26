@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-coalition-formation-in-llm-agent-networks-stability-analysis
+type: papers
+title: 'Coalition Formation in LLM Agent Networks: Stability Analysis and Convergence Guarantees'
+url: https://arxiv.org/abs/2604.14386v1
+authors:
+- Dongxin Guo
+- Jikun Wu
+- Siu-Ming Yiu
+venue: arXiv
+year: 2026
+summary: Introduces a theoretical framework for coalition formation in multi-agent LLM systems, establishing
+  conditions for Nash-stable partitions and validating a Coalition-of-Thought protocol for improved stability.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a theoretical and empirical contribution to the stability and reliability of multi-agent
+    coordination in LLM systems.
+status: draft

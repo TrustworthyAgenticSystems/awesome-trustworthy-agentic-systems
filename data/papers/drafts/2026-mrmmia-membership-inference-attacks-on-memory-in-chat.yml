@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mrmmia-membership-inference-attacks-on-memory-in-chat
+type: papers
+title: 'MRMMIA: Membership Inference Attacks on Memory in Chat Agents'
+url: https://arxiv.org/abs/2605.27825v1
+authors:
+- Kai Chen
+- Yan Pang
+- Tianhao Wang
+venue: arXiv
+year: 2026
+summary: Proposes Multi-Recall Memory MIA (MRMMIA), a membership inference attack that uses multiple recall
+  probes to infer whether a memory unit belongs to a chat agent's memory store, exposing privacy risks
+  in agent memory systems.
+harness_layer:
+- memory
+sprs:
+- privacy
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses privacy leakage in agent memory, a critical component of trustworthy agentic
+    systems, with a concrete attack methodology and evaluation framework.
+status: draft

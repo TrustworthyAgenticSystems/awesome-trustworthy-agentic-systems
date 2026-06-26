@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-silo-bench-a-scalable-environment-for-evaluating-distributed
+type: papers
+title: 'Silo-Bench: A Scalable Environment for Evaluating Distributed Coordination in Multi-Agent LLM
+  Systems'
+url: https://arxiv.org/abs/2603.01045v2
+authors:
+- Yuzhe Zhang
+- Feiran Liu
+- Yi Shan
+- Xinyi Huang
+- Xin Yang
+- Yueqi Zhu
+- Xuxin Cheng
+- Cao Liu
+- Ke Zeng
+- Terry Jingchen Zhang
+- Wenyuan Jiang
+venue: arXiv
+year: 2026
+summary: Introduces SILO-BENCH, a benchmark for evaluating distributed coordination in multi-agent LLM
+  systems, revealing a "Communication-Reasoning Gap" where agents fail to synthesize distributed information
+  despite active exchange.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a systematic evaluation environment and analysis of coordination failures in multi-agent
+    systems, directly addressing reliability in distributed agentic workflows.
+status: draft

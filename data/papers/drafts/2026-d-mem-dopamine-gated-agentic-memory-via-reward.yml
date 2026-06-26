@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-d-mem-dopamine-gated-agentic-memory-via-reward
+type: papers
+title: 'D-MEM: Dopamine-Gated Agentic Memory via Reward Prediction Error Routing'
+url: https://arxiv.org/abs/2603.14597v1
+authors:
+- Yuru Song
+- Qi Xin
+venue: arXiv
+year: 2026
+summary: D-MEM introduces a biologically inspired memory architecture that uses Reward Prediction Error
+  to selectively route high-RPE inputs for memory evolution, reducing token costs and improving scalability
+  for long-term agentic memory.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a novel memory architecture that addresses scalability and efficiency
+    issues in long-term agentic memory, directly contributing to the reliability of agent systems.
+status: draft

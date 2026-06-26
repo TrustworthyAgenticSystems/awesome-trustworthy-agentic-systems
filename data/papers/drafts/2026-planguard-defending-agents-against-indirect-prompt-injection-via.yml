@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-planguard-defending-agents-against-indirect-prompt-injection-via
+type: papers
+title: 'PlanGuard: Defending Agents against Indirect Prompt Injection via Planning-based Consistency Verification'
+url: https://arxiv.org/abs/2604.10134v1
+authors:
+- Guangyu Gong
+- Zizhuang Deng
+venue: arXiv
+year: 2026
+summary: PlanGuard is a training-free defense framework that uses an isolated planner to generate a reference
+  set of valid actions from user instructions, then employs a hierarchical verification mechanism to block
+  unauthorized tool invocations and validate parameter deviations, effectively defending against indirect
+  prompt injection.
+harness_layer:
+- coordination
+sprs:
+- security
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses a critical security vulnerability (indirect prompt injection)
+    in agentic systems by introducing a novel planning-based defense mechanism that monitors and verifies
+    agent behavior against user intent.
+status: draft

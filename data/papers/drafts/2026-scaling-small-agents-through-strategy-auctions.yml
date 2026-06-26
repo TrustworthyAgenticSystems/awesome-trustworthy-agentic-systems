@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-scaling-small-agents-through-strategy-auctions
+type: papers
+title: Scaling Small Agents Through Strategy Auctions
+url: https://arxiv.org/abs/2602.02751v3
+authors:
+- Lisa Alazraki
+- William F. Shen
+- Yoram Bachrach
+- Akhil Mathur
+venue: arXiv
+year: 2026
+summary: Introduces Strategy Auctions for Workload Efficiency (SALE), a multi-agent coordination framework
+  that uses strategic plan bidding and shared memory to efficiently route tasks to heterogeneous agents,
+  reducing reliance on large models and improving overall performance.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper proposes a novel coordination mechanism for multi-agent systems, directly addressing
+    the challenge of scaling small agents for complex, long-horizon workloads through a systems-level
+    approach.
+status: draft

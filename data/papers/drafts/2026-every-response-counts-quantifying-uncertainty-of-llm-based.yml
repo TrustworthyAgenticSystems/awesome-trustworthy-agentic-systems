@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-every-response-counts-quantifying-uncertainty-of-llm-based
+type: papers
+title: 'Every Response Counts: Quantifying Uncertainty of LLM-based Multi-Agent Systems through Tensor
+  Decomposition'
+url: https://arxiv.org/abs/2604.08708v1
+authors:
+- Tiejin Chen
+- Huaiyuan Yao
+- Jia Chen
+- Evangelos E. Papalexakis
+- Hua Wei
+venue: arXiv
+year: 2026
+summary: MATU quantifies uncertainty in multi-agent systems by representing reasoning trajectories as
+  tensors and applying tensor decomposition to disentangle and measure distinct sources of uncertainty
+  across multiple execution runs.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a novel framework for quantifying uncertainty in multi-agent systems
+    by analyzing entire reasoning trajectories, directly addressing reliability challenges in complex
+    agent interactions.
+status: draft

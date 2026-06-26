@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-alignsentinel-alignment-aware-detection-of-prompt-injection-attacks
+type: papers
+title: 'AlignSentinel: Alignment-Aware Detection of Prompt Injection Attacks'
+url: https://arxiv.org/abs/2602.13597v2
+authors:
+- Yuqi Jia
+- Ruiqi Wang
+- Xilong Wang
+- Chong Xiang
+- Neil Gong
+venue: arXiv
+year: 2026
+summary: AlignSentinel is a three-class classifier that uses LLM attention map features to distinguish
+  between misaligned, aligned, and non-instruction inputs, thereby accurately detecting prompt injection
+  attacks while avoiding misclassification of benign instructions.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses prompt injection attacks, a core red-teaming concern for agentic
+    systems, by proposing a novel detection mechanism that considers instruction alignment.
+status: draft

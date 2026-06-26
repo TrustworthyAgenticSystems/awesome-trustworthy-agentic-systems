@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-rethinking-scale-deployment-trade-offs-of-small-language
+type: papers
+title: 'Rethinking Scale: Deployment Trade-offs of Small Language Models under Agent Paradigms'
+url: https://arxiv.org/abs/2604.19299v1
+authors:
+- Xinlin Wang
+- Mats Brorsson
+venue: arXiv
+year: 2026
+summary: A large-scale study evaluating the deployment trade-offs of small language models in single-agent
+  and multi-agent configurations, focusing on performance, cost, and privacy implications for real-world
+  applications.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- privacy
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides an architectural study of SLM deployment under agent paradigms, addressing
+    practical concerns like cost and privacy, which are relevant to trustworthy systems.
+status: draft

@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-multi-agent-ai-system-for-deep-learning
+type: papers
+title: A Multi-agent AI System for Deep Learning Model Migration from TensorFlow to JAX
+url: https://arxiv.org/abs/2603.27296v1
+authors:
+- Stoyan Nikolov
+- Bernhard Konrad
+- Moritz Gronbach
+- Niket Kumar
+- Ann Yan
+- Varun Singh
+- Yaning Liang
+- Parthasarathy Ranganathan
+venue: arXiv
+year: 2026
+summary: A multi-agent system with an AI planner, orchestrator, and coders for automated deep learning
+  model migration, using AI-based judges and quality metrics for evaluation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper describes a multi-agent system for a complex software engineering task, including
+    coordination, planning, and AI-based evaluation, which contributes to the reliability of agentic workflows.
+status: draft

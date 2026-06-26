@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-systematic-security-evaluation-of-openclaw-and-its
+type: papers
+title: A Systematic Security Evaluation of OpenClaw and Its Variants
+url: https://arxiv.org/abs/2604.03131v1
+authors:
+- Yuhang Wang
+- Haichang Gao
+- Zhenxing Niu
+- Zhaoxiang Liu
+- Wenjing Zhang
+- Xiang Wang
+- Shiguo Lian
+venue: arXiv
+year: 2026
+summary: A systematic security evaluation of six OpenClaw-series agent frameworks using a benchmark of
+  205 attack cases, revealing lifecycle-wide vulnerabilities amplified by multi-step planning and runtime
+  orchestration.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a systematic security evaluation of agent frameworks, identifying system-level
+    vulnerabilities beyond model-only evaluation, which is a direct contribution to red-teaming agentic
+    systems.
+status: draft

@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-flowbank-query-adaptive-agentic-workflows-optimization-through-precompute
+type: papers
+title: 'FlowBank: Query-Adaptive Agentic Workflows Optimization through Precompute-and-Reuse'
+url: https://arxiv.org/abs/2606.11290v1
+authors:
+- Lingzhi Yuan
+- Chenghao Deng
+- Fangxu Yu
+- Souradip Chakraborty
+- Mohammad Rostami
+- Furong Huang
+venue: arXiv
+year: 2026
+summary: FlowBank optimizes multi-agent system performance by precomputing a diverse bank of complementary
+  workflows and adaptively selecting the most suitable one for each query at inference time, addressing
+  the trade-off between offline and online workflow generation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the coordination layer by optimizing multi-agent workflows through
+    a precompute-and-reuse strategy, directly impacting the reliability and efficiency of agentic systems.
+status: draft

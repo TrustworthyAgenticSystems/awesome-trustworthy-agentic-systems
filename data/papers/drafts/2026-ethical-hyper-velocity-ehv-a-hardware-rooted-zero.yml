@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ethical-hyper-velocity-ehv-a-hardware-rooted-zero
+type: papers
+title: 'Ethical Hyper-Velocity (EHV): A Hardware-Rooted Zero-Trust Runtime Enforcement Architecture for
+  Agentic AI Systems'
+url: https://arxiv.org/abs/2605.17909v2
+authors:
+- Riddhi Mohan Sharma
+venue: arXiv
+year: 2026
+summary: A hardware-rooted zero-trust runtime enforcement architecture for agentic AI systems that integrates
+  grammar-constrained decoding, causal CRDTs for policy synchronization, TEEs for attested execution,
+  and formal verification to reduce policy enforcement latency.
+harness_layer:
+- execution-shell
+sprs:
+- safety
+- security
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper proposes a novel, hardware-rooted runtime enforcement architecture for agentic
+    systems, directly addressing a fundamental safety gap in policy enforcement and traceability.
+status: draft

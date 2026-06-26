@@ -1,0 +1,55 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-position-agentic-ai-orchestration-should-be-bayes-consistent
+type: papers
+title: 'Position: agentic AI orchestration should be Bayes-consistent'
+url: https://arxiv.org/abs/2605.00742v2
+authors:
+- Theodore Papamarkou
+- Pierre Alquier
+- Matthias Bauer
+- Wray Buntine
+- Andrew Davison
+- Gintare Karolina Dziugaite
+- Maurizio Filippone
+- Andrew Y. K. Foong
+- Vincent Fortuin
+- Dimitris Fouskakis
+- Jes Frellsen
+- Eyke Hüllermeier
+- Theofanis Karaletsos
+- Mohammad Emtiyaz Khan
+- Nikita Kotelevskii
+- Salem Lahlou
+- Yingzhen Li
+- Fang Liu
+- Clare Lyle
+- Thomas Möllenhoff
+- Konstantina Palla
+- Maxim Panov
+- Yusuf Sale
+- Kajetan Schweighofer
+- Artem Shelmanov
+- Siddharth Swaroop
+- Martin Trapp
+- Willem Waegeman
+- Andrew Gordon Wilson
+- Alexey Zaytsev
+venue: arXiv
+year: 2026
+summary: Position paper arguing for the application of Bayesian decision theory at the orchestration layer
+  of agentic AI systems to maintain beliefs, update from interactions, and choose actions under uncertainty.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper advocates for a systems-level approach to agent orchestration using Bayesian principles
+    for decision-making under uncertainty, directly addressing the control layer of agentic systems.
+status: draft

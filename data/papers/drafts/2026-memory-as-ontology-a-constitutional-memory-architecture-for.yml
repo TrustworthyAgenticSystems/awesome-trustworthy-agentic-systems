@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memory-as-ontology-a-constitutional-memory-architecture-for
+type: papers
+title: 'Memory as Ontology: A Constitutional Memory Architecture for Persistent Digital Citizens'
+url: https://arxiv.org/abs/2603.04740v1
+authors:
+- Zhenghui Li
+venue: arXiv
+year: 2026
+summary: Proposes a "Memory-as-Ontology" paradigm and a Constitutional Memory Architecture (CMA) with
+  a four-layer governance hierarchy to ensure identity continuity and persistent existence for long-lived
+  digital agents across model transitions.
+harness_layer:
+- memory
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses the fundamental systems problem of memory integrity and identity persistence for
+    long-lived agents, which is crucial for reliability and safety over extended lifecycles.
+status: draft

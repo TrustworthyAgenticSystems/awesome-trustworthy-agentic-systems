@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-coop-2-defining-observing-and-repairing-cooperation-in
+type: papers
+title: 'COOP$^2$: Defining, Observing, and Repairing Cooperation in LLM Multi-Agent Systems'
+url: https://arxiv.org/abs/2603.00349v2
+authors:
+- Hanqing Yang
+- Narjes Nourzad
+- Shiyu Chen
+- Marie Siew
+- Jingdi Chen
+- Carlee Joe-Wong
+venue: arXiv
+year: 2026
+summary: COOP$^2$ is an evaluation framework for LLM multi-agent systems that grounds cooperation dynamics
+  in task progress, defines verifiable cooperative requirements, and identifies breakdowns, leading to
+  COOP$^2$-Repair for predicting and repairing constraint failures.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces an evaluation framework and repair mechanism for multi-agent cooperation,
+    directly addressing reliability and observability in agent coordination.
+status: draft

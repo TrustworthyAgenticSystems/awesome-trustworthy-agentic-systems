@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-voice-benchmarking-full-duplex-voice-agents-on-real
+type: papers
+title: '$τ$-Voice: Benchmarking Full-Duplex Voice Agents on Real-World Domains'
+url: https://arxiv.org/abs/2603.13686v1
+authors:
+- Soham Ray
+- Keshav Dhandhania
+- Victor Barres
+- Karthik Narasimhan
+venue: arXiv
+year: 2026
+summary: Introduces a benchmark for full-duplex voice agents that evaluates grounded task completion,
+  adherence to domain policies, and interaction quality in real-world complex multi-turn conversations
+  with realistic audio and a controllable user simulator.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a concrete evaluation framework for the reliability of agentic systems
+    in a complex, real-world setting, which is a direct contribution to trustworthy agent engineering.
+status: draft

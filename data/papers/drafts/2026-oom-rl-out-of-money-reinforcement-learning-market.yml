@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-oom-rl-out-of-money-reinforcement-learning-market
+type: papers
+title: 'OOM-RL: Out-of-Money Reinforcement Learning Market-Driven Alignment for LLM-Based Multi-Agent
+  Systems'
+url: https://arxiv.org/abs/2604.11477v1
+authors:
+- Kun Liu
+- Liqun Chen
+venue: arXiv
+year: 2026
+summary: Introduces Out-of-Money Reinforcement Learning (OOM-RL) which uses financial market losses as
+  an objective negative gradient to align multi-agent systems, enforcing a strict test-driven workflow
+  with state locks and code coverage constraints.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Proposes a novel, real-world, economic-penalty-driven oversight mechanism for aligning agentic
+    systems, addressing reliability and safety in high-stakes environments.
+status: draft

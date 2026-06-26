@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-adversarial-feeds-steer-llm-agent-decisions-against-their
+type: papers
+title: Adversarial Feeds Steer LLM Agent Decisions Against Their Defaults
+url: https://arxiv.org/abs/2606.00914v1
+authors:
+- Rana Muhammad Usman
+venue: arXiv
+year: 2026
+summary: Demonstrates that adversarial manipulation of upstream information feeds can steer LLM agent
+  decisions, even for security-relevant choices, and proposes feed-level defenses.
+harness_layer:
+- memory
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses a novel attack surface on agent decision-making through memory/retrieval
+    context manipulation, with empirical validation and proposed mitigations.
+status: draft

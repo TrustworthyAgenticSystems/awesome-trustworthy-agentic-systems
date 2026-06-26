@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-human-guided-agentic-ai-for-multimodal-clinical-prediction
+type: papers
+title: 'Human-Guided Agentic AI for Multimodal Clinical Prediction: Lessons from the AgentDS Healthcare
+  Benchmark'
+url: https://arxiv.org/abs/2602.19502v2
+authors:
+- Lalitha Pranathi Pulavarthy
+- Raajitha Muthyala
+- Aravind V Kuruvikkattil
+- Zhenan Yin
+- Rashmita Kudamala
+- Saptarshi Purkayastha
+venue: arXiv
+year: 2026
+summary: Investigates human guidance in agentic AI workflows for multimodal clinical prediction, demonstrating
+  how human intervention at key decision points improves performance and distills lessons for deploying
+  agents in healthcare.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses human oversight in agentic systems, specifically in a high-stakes
+    domain like healthcare, and provides practical lessons for deployment.
+status: draft

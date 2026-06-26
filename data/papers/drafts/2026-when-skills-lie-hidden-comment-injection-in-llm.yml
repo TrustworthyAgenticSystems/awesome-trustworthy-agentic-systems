@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-skills-lie-hidden-comment-injection-in-llm
+type: papers
+title: 'When Skills Lie: Hidden-Comment Injection in LLM Agents'
+url: https://arxiv.org/abs/2602.10498v1
+authors:
+- Qianli Wang
+- Boyang Ma
+- Minghui Xu
+- Yue Zhang
+venue: arXiv
+year: 2026
+summary: Identifies a hidden-comment prompt injection vulnerability in Markdown-rendered tool Skills where
+  invisible instructions can influence LLM agent behavior, and proposes a defensive system prompt to mitigate
+  it.
+harness_layer:
+- tool-interface
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses a novel prompt injection vulnerability at the tool-interface layer with
+    a concrete attack vector and a deployable defense.
+status: draft

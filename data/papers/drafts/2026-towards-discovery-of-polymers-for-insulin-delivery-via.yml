@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-discovery-of-polymers-for-insulin-delivery-via
+type: papers
+title: Towards Discovery of Polymers for Insulin Delivery via Physics-Grounded Agentic Workflows
+url: https://arxiv.org/abs/2605.18831v1
+authors:
+- Martins Otun
+venue: arXiv
+year: 2026
+summary: Presents an agentic workflow architecture for materials discovery, where an LLM orchestrates
+  physics-based tools and updates a persistent 'discovery world' to efficiently search a large design
+  space for insulin-delivery polymers.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Describes an end-to-end agentic system architecture for a scientific discovery task, including
+    tool orchestration, memory management, and physics-based validation steps.
+status: draft

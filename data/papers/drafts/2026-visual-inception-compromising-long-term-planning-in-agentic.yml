@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-visual-inception-compromising-long-term-planning-in-agentic
+type: papers
+title: 'Visual Inception: Compromising Long-term Planning in Agentic Recommenders via Multimodal Memory
+  Poisoning'
+url: https://arxiv.org/abs/2604.16966v1
+authors:
+- Jiachen Qian
+venue: arXiv
+year: 2026
+summary: Identifies "Visual Inception," a multimodal memory poisoning attack on agentic recommenders that
+  injects sleeper-agent triggers into user-uploaded images to hijack long-term planning, and proposes
+  CognitiveGuard, a dual-process defense framework combining perceptual sanitization and reasoning verification.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses a novel memory poisoning attack on agentic systems and proposes a concrete
+    defense mechanism with experimental validation.
+status: draft

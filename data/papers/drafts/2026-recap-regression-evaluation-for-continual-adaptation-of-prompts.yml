@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-recap-regression-evaluation-for-continual-adaptation-of-prompts
+type: papers
+title: 'RECAP: Regression Evaluation for Continual Adaptation of Prompts'
+url: https://arxiv.org/abs/2606.06698v3
+authors:
+- Harsh Deshpande
+- Kushal Chawla
+- Sangwoo Cho
+- William Campbell
+- Sambit Sahu
+venue: arXiv
+year: 2026
+summary: Introduces RECAP, a benchmark for evaluating prompt adaptation methods under continually evolving
+  constraints in a proactive adapt-then-test protocol, highlighting the inadequacy of current methods
+  for production agentic systems.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a critical evaluation gap for the reliability and safety of production agentic
+    systems under evolving constraints, which is a systems-level concern.
+status: draft

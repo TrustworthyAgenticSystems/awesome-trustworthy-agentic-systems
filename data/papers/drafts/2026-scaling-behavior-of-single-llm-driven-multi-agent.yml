@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-scaling-behavior-of-single-llm-driven-multi-agent
+type: papers
+title: Scaling Behavior of Single LLM-Driven Multi-Agent Systems
+url: https://arxiv.org/abs/2606.00655v1
+authors:
+- Jialing Li
+- Zhouhong Gu
+- Yin Cai
+- Hongwei Feng
+venue: arXiv
+year: 2026
+summary: Investigates the scaling behavior of homogeneous multi-agent systems, revealing diminishing returns
+  with increased agent count due to coordination overhead, and provides guidance for efficient collaborative
+  system design.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a foundational understanding of multi-agent system scaling and coordination,
+    which is crucial for designing reliable and efficient agentic systems.
+status: draft

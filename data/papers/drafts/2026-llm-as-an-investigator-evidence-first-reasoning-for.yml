@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-llm-as-an-investigator-evidence-first-reasoning-for
+type: papers
+title: 'LLM-as-an-Investigator: Evidence-First Reasoning for Robust Interactive Problem Diagnosis'
+url: https://arxiv.org/abs/2606.13220v1
+authors:
+- Fabrizio Marozzo
+- Pietro Liò
+venue: arXiv
+year: 2026
+summary: Introduces an evidence-first agentic methodology for problem diagnosis, where a Solution Investigator
+  Agent generates hypotheses, asks clarification questions, and updates probabilities until a strong candidate
+  emerges, reducing user-driven sycophancy.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses a specific failure mode (user-driven sycophancy) in interactive agentic
+    problem-solving and proposes a structured, multi-step agentic approach to improve diagnostic reliability
+    and reduce bias.
+status: draft

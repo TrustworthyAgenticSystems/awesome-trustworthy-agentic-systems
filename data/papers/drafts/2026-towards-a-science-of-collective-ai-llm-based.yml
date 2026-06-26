@@ -1,0 +1,46 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-a-science-of-collective-ai-llm-based
+type: papers
+title: 'Towards a Science of Collective AI: LLM-based Multi-Agent Systems Need a Transition from Blind
+  Trial-and-Error to Rigorous Science'
+url: https://arxiv.org/abs/2602.05289v1
+authors:
+- Jingru Fan
+- Dewen Liu
+- Yufan Dang
+- Huatao Li
+- Yuheng Wang
+- Wei Liu
+- Feiyu Duan
+- Xuanwen Ding
+- Shu Yao
+- Lin Wu
+- Ruijie Shi
+- Wai-Shing Leung
+- Yuan Cheng
+- Zhongyu Wei
+- Cheng Yang
+- Chen Qian
+- Zhiyuan Liu
+- Maosong Sun
+venue: arXiv
+year: 2026
+summary: Proposes a scientific framework for multi-agent systems, including a collaboration gain metric
+  and a factor attribution paradigm, to move beyond empirical trial-and-error in MAS design.
+harness_layer:
+- foundations
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper contributes to the foundational understanding and systematic evaluation of multi-agent
+    systems, addressing the reliability of their design and optimization.
+status: draft

@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-sirens-whisper-inaudible-near-ultrasonic-jailbreaks-of-speech
+type: papers
+title: 'Sirens'' Whisper: Inaudible Near-Ultrasonic Jailbreaks of Speech-Driven LLMs'
+url: https://arxiv.org/abs/2603.13847v1
+authors:
+- Zijian Ling
+- Pingyi Hu
+- Xiuyong Gao
+- Xiaojing Ma
+- Man Zhou
+- Jun Feng
+- Songfeng Lu
+- Dongmei Zhang
+- Bin Benjamin Zhu
+venue: arXiv
+year: 2026
+summary: Presents Sirens' Whisper, a framework for covert, inaudible prompt-based attacks against speech-driven
+  LLMs by encoding malicious prompts into near-ultrasound waveforms, demonstrating jailbreaks and broader
+  prompt injection capabilities.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper describes a novel red-teaming attack vector (inaudible prompt injection) against
+    speech-driven LLM agents, directly contributing to understanding and mitigating system-level security
+    risks.
+status: draft

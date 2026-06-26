@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-verify-before-you-commit-towards-faithful-reasoning-in
+type: papers
+title: 'Verify Before You Commit: Towards Faithful Reasoning in LLM Agents via Self-Auditing'
+url: https://arxiv.org/abs/2604.08401v1
+authors:
+- Wenhao Yuan
+- Chenchen Lin
+- Jian Chen
+- Jinfeng Xu
+- Xuehe Wang
+- Edith Cheuk Han Ngai
+venue: arXiv
+year: 2026
+summary: A framework called SAVeR that enforces verification and adversarial auditing of internal belief
+  states before an LLM agent commits to an action, aiming to prevent systematic behavioral drift from
+  unfaithful reasoning.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses the reliability and safety of agent execution by verifying internal reasoning
+    states before action commitment, which is a systems-level concern for trustworthy agents.
+status: draft

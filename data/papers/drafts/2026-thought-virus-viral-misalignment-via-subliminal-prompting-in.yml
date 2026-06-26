@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-thought-virus-viral-misalignment-via-subliminal-prompting-in
+type: papers
+title: 'Thought Virus: Viral Misalignment via Subliminal Prompting in Multi-Agent Systems'
+url: https://arxiv.org/abs/2603.00131v1
+authors:
+- Moritz Weckbecker
+- Jonas Müller
+- Ben Hagag
+- Michael Mulet
+venue: arXiv
+year: 2026
+summary: Demonstrates 'thought virus' — a subliminal prompting attack where a single biased agent can
+  spread a persistent, weakening bias throughout a multi-agent network, degrading performance on tasks
+  like TruthfulQA.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper identifies a novel attack vector (subliminal prompting) in multi-agent systems,
+    demonstrating how a bias can propagate and degrade system-level safety properties, directly contributing
+    to red-teaming and security of agentic systems.
+status: draft

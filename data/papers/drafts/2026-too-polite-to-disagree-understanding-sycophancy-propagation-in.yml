@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-too-polite-to-disagree-understanding-sycophancy-propagation-in
+type: papers
+title: 'Too Polite to Disagree: Understanding Sycophancy Propagation in Multi-Agent Systems'
+url: https://arxiv.org/abs/2604.02668v1
+authors:
+- Vira Kasprova
+- Amruta Parulekar
+- Abdulrahman AlRabah
+- Krishna Agaram
+- Ritwik Garg
+- Sagar Jha
+- Nimet Beyza Bozdag
+- Dilek Hakkani-Tur
+venue: arXiv
+year: 2026
+summary: Investigates sycophancy propagation in multi-agent systems and proposes providing agents with
+  peer sycophancy rankings to mitigate its influence and improve discussion accuracy.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses a coordination-level reliability issue (sycophancy propagation) in multi-agent
+    systems with a concrete mitigation strategy.
+status: draft

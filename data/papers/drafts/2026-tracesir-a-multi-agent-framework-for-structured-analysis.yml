@@ -1,0 +1,44 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-tracesir-a-multi-agent-framework-for-structured-analysis
+type: papers
+title: 'TraceSIR: A Multi-Agent Framework for Structured Analysis and Reporting of Agentic Execution Traces'
+url: https://arxiv.org/abs/2603.00623v1
+authors:
+- Shu-Xun Yang
+- Cunxiang Wang
+- Haoke Zhang
+- Wenbo Yu
+- Lindong Wu
+- Jiayi Gui
+- Dayong Yang
+- Yukuo Cen
+- Zhuoer Feng
+- Bosi Wen
+- Yidong Wang
+- Lucen Zhong
+- Jiamin Ren
+- Linfeng Zhang
+- Jie Tang
+venue: arXiv
+year: 2026
+summary: TraceSIR is a multi-agent framework for structured analysis and reporting of agentic execution
+  traces, using specialized agents to compress traces, diagnose issues, and generate comprehensive reports
+  for failure diagnosis and root cause analysis.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the systems-engineering challenge of diagnosing failures in
+    complex agentic execution traces through a structured, multi-agent observation and reporting framework.
+status: draft

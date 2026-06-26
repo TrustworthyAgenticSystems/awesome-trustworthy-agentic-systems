@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-promas-proactive-error-forecasting-for-multi-agent-systems
+type: papers
+title: 'ProMAS: Proactive Error Forecasting for Multi-Agent Systems Using Markov Transition Dynamics'
+url: https://arxiv.org/abs/2603.20260v1
+authors:
+- Xinkui Zhao
+- Sai Liu
+- Yifan Zhang
+- Qingyu Ma
+- Guanjie Cheng
+- Naibo Wang
+- Chang Liu
+venue: arXiv
+year: 2026
+summary: ProMAS is a proactive error forecasting framework for multi-agent systems that uses Markov transitions
+  and Causal Delta Features to predict and localize errors in real-time, reducing intervention latency.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a proactive monitoring and error forecasting system for multi-agent workflows,
+    directly addressing real-time observation and reliability in agentic systems.
+status: draft

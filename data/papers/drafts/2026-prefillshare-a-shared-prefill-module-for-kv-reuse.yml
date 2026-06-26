@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-prefillshare-a-shared-prefill-module-for-kv-reuse
+type: papers
+title: 'PrefillShare: A Shared Prefill Module for KV Reuse in Multi-LLM Disaggregated Serving'
+url: https://arxiv.org/abs/2602.12029v1
+authors:
+- Sunghyeon Woo
+- Hoseung Kim
+- Sunghwan Shim
+- Minjung Jo
+- Hyunjoon Jeong
+- Jeongtae Lee
+- Joonghoon Kim
+- Sungjae Lee
+- Baeseong Park
+- Se Jung Kwon
+- Dongsoo Lee
+venue: arXiv
+year: 2026
+summary: PrefillShare is a novel algorithm and system architecture that optimizes multi-LLM agent serving
+  by enabling shared prefill stages and KV cache reuse across specialized models, reducing latency and
+  increasing throughput.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper proposes a system-level architectural optimization for multi-LLM agent serving,
+    directly addressing reliability and performance in the operational stack.
+status: draft

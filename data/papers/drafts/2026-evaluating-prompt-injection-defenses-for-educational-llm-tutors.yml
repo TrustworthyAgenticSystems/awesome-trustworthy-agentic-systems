@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-evaluating-prompt-injection-defenses-for-educational-llm-tutors
+type: papers
+title: 'Evaluating Prompt Injection Defenses for Educational LLM Tutors: Security-Usability-Latency Trade-offs'
+url: https://arxiv.org/abs/2605.06669v2
+authors:
+- Alexandre Cristovão Maiorano
+venue: arXiv
+year: 2026
+summary: Evaluates prompt injection defenses for educational LLM tutors, demonstrating trade-offs between
+  adversarial robustness, benign-task usability, and response latency using a domain-specific multi-layer
+  safeguard pipeline and a reproducible benchmark protocol.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper provides a systematic evaluation methodology for prompt injection defenses in a
+    specific agentic system (LLM tutors), addressing security and safety trade-offs with a concrete pipeline
+    and benchmark.
+status: draft

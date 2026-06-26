@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governed-shared-memory-for-multi-agent-llm-systems
+type: papers
+title: Governed Shared Memory for Multi-Agent LLM Systems
+url: https://arxiv.org/abs/2606.24535v1
+authors:
+- Yanki Margalit
+- Nurit Cohen-Inger
+- Erni Avram
+- Ran Taig
+- Oded Margalit
+venue: arXiv
+year: 2026
+summary: Formalizes the fleet-memory problem for multi-agent LLM systems, identifies failure modes, and
+  proposes systems-level primitives for governed shared memory, implemented and evaluated in a production
+  service.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+- privacy
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses memory integrity, provenance, and access control in multi-agent systems
+    with a production-grade implementation and evaluation.
+status: draft

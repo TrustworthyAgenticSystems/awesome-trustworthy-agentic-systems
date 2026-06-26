@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-reducing-hallucinations-in-complex-question-answering-using-simple
+type: papers
+title: Reducing Hallucinations in Complex Question Answering using Simple Graph-based Retrieval-Augmented
+  Generation (long version)
+url: https://arxiv.org/abs/2606.05901v1
+authors:
+- Christopher J. Wedge
+- Joshua Stutter
+- Danny Dixon
+- Jacek Cała
+venue: arXiv
+year: 2026
+summary: Introduces a graph-based RAG subsystem with dedicated tools to reduce hallucinations and improve
+  factual correctness in complex question answering by providing structured access to information.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to improving the reliability of RAG-backed agents by addressing hallucinations
+    through a structured memory approach, which is a systems-level concern for agent trustworthiness.
+status: draft

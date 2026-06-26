@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mcp-proto-okn-natural-language-access-to-open
+type: papers
+title: 'mcp-proto-okn: Natural-language access to open scientific knowledge graphs through the Model Context
+  Protocol'
+url: https://arxiv.org/abs/2605.30283v1
+authors:
+- Peter W. Rose
+- Benjamin M. Good
+- Amanda M. Saravia-Butler
+- Charlotte A. Nelson
+- James P. Balhoff
+- Yaphet Kebede
+- Patricia L. Whetzel
+- Christopher Bizon
+- Andrew I. Su
+- Sergio E. Baranzini
+venue: arXiv
+year: 2026
+summary: A Model Context Protocol server that enables AI assistants to discover, inspect, query, and integrate
+  scientific knowledge graphs through natural language, providing capabilities like graph routing and
+  SPARQL execution.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper describes a tool interface that allows AI agents to interact with external knowledge
+    graphs, which is a direct contribution to the agentic stack.
+status: draft

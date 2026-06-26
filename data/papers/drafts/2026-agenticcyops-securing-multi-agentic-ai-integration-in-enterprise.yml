@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agenticcyops-securing-multi-agentic-ai-integration-in-enterprise
+type: papers
+title: 'AgenticCyOps: Securing Multi-Agentic AI Integration in Enterprise Cyber Operations'
+url: https://arxiv.org/abs/2603.09134v1
+authors:
+- Shaswata Mitra
+- Raj Patel
+- Sudip Mittal
+- Md Rayhanur Rahman
+- Shahram Rahimi
+venue: arXiv
+year: 2026
+summary: AgenticCyOps is a holistic architectural framework for securing multi-agentic AI integration
+  in enterprise cyber operations, decomposing attack surfaces and defining defensive principles for tool
+  orchestration and memory management.
+harness_layer:
+- architectures
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a holistic architectural model for securing multi-agentic AI integration
+    in enterprise cyber operations, addressing system-level trust boundaries and defensive principles.
+status: draft

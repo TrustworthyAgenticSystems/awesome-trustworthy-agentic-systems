@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-detecting-ai-coding-agents-in-open-source-a
+type: papers
+title: 'Detecting AI Coding Agents in Open Source: A Validated Multi-Method Census of 180 Million Repositories'
+url: https://arxiv.org/abs/2606.24429v1
+authors:
+- Arsham Khosravani
+- Audris Mockus
+venue: arXiv
+year: 2026
+summary: A multi-layered detection framework identifies AI coding agent traces across 180 million Git
+  repositories, revealing significant underestimation by single-method approaches and distinct work profiles
+  based on deployment channels.
+harness_layer:
+- supply-chain
+sprs:
+- security
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly contributes to understanding the prevalence and characteristics of AI
+    coding agents in the open-source supply chain, which is crucial for supply-chain security and reliability.
+status: draft

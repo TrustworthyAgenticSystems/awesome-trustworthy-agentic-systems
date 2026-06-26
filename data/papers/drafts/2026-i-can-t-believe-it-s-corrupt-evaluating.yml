@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-i-can-t-believe-it-s-corrupt-evaluating
+type: papers
+title: 'I Can''t Believe It''s Corrupt: Evaluating Corruption in Multi-Agent Governance Systems'
+url: https://arxiv.org/abs/2603.18894v1
+authors:
+- Vedanta S P
+- Ponnurangam Kumaraguru
+venue: arXiv
+year: 2026
+summary: Empirical evaluation of corruption and rule-breaking in multi-agent governance simulations, demonstrating
+  that institutional design and governance structure are critical drivers of integrity outcomes, and highlighting
+  the need for pre-deployment stress testing with auditable logs and human oversight.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper provides an empirical study of trustworthiness in multi-agent systems, focusing
+    on institutional design, rule-breaking, and the need for pre-deployment stress testing and human oversight,
+    which directly relates to the oversight and reliability of agentic systems.
+status: draft

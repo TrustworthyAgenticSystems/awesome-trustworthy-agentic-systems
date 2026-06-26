@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-skillgenbench-benchmarking-skill-generation-pipelines-for-llm-agents
+type: papers
+title: 'SkillGenBench: Benchmarking Skill Generation Pipelines for LLM Agents'
+url: https://arxiv.org/abs/2605.18693v1
+authors:
+- Yifan Zhou
+- Zhentao Zhang
+- Ziming Cheng
+- Shuo Zhang
+- Qizhen Lan
+- Zhangquan Chen
+- Zhi Yang
+- QianyuXu
+- Ronghao Chen
+- Huacan Wang
+- Sen Hu
+venue: arXiv
+year: 2026
+summary: SkillGenBench is a benchmark for evaluating skill generation pipelines for LLM agents, covering
+  task-conditioned and task-agnostic generation from code repositories and documents, using deterministic
+  execution-based checks.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a benchmark and evaluation protocol for a critical component of agentic
+    systems (skill generation), focusing on reproducibility and execution-based checks, which directly
+    contributes to the reliability of agent development.
+status: draft

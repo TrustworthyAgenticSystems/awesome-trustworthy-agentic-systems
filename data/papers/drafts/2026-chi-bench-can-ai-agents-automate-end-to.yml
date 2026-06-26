@@ -1,0 +1,61 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-chi-bench-can-ai-agents-automate-end-to
+type: papers
+title: 'CHI-Bench: Can AI Agents Automate End-to-End, Long-Horizon, Policy-Rich Healthcare Workflows?'
+url: https://arxiv.org/abs/2605.16679v2
+authors:
+- Haolin Chen
+- Deon Metelski
+- Leon Qi
+- Tao Xia
+- Joonyul Lee
+- Steve Brown
+- Kevin Riley
+- Frank Wang
+- T. Y. Alvin Liu
+- Hank Capps MD
+- Zeyu Tang
+- Xiangchen Song
+- Lingjing Kong
+- Fan Feng
+- Tianyi Zeng
+- Zhiwei Liu
+- Zixian Ma
+- Hang Jiang
+- Fangli Geng
+- Yuan Yuan
+- Chenyu You
+- Qingsong Wen
+- Hua Wei
+- Yanjie Fu
+- Yue Zhao
+- Carl Yang
+- Biwei Huang
+- Kun Zhang
+- Caiming Xiong
+- Sanmi Koyejo
+- Eric P. Xing
+- Philip S. Yu
+- Weiran Yao
+venue: arXiv
+year: 2026
+summary: Introduces a benchmark for long-horizon, policy-rich healthcare workflows that stresses multi-role
+  composition and multilateral interaction, using a high-fidelity simulator with 87 MCP tools and a large
+  operations handbook.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper contributes a system-level benchmark for evaluating agentic systems in complex,
+    policy-dense, and multi-role workflows, directly addressing long-horizon evaluation challenges.
+status: draft

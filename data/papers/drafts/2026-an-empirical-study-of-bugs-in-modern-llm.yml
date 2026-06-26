@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-an-empirical-study-of-bugs-in-modern-llm
+type: papers
+title: An Empirical Study of Bugs in Modern LLM Agent Frameworks
+url: https://arxiv.org/abs/2602.21806v3
+authors:
+- Xinxue Zhu
+- Jiacong Wu
+- Xiaoyu Zhang
+- Tianlin Li
+- Yanzhou Mu
+- Juan Zhai
+- Chao Shen
+- Chunrong Fang
+- Yang Liu
+venue: arXiv
+year: 2026
+summary: Empirical study of 998 bug reports in agent frameworks (CrewAI, LangChain) to identify root causes
+  and symptoms across the agent lifecycle, focusing on framework-level reliability issues.
+harness_layer:
+- foundations
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a foundational empirical study of bugs in agent frameworks, directly
+    contributing to understanding reliability issues in the agentic system stack.
+status: draft

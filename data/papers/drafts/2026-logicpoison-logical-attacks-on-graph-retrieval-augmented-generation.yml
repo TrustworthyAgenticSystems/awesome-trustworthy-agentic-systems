@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-logicpoison-logical-attacks-on-graph-retrieval-augmented-generation
+type: papers
+title: 'LogicPoison: Logical Attacks on Graph Retrieval-Augmented Generation'
+url: https://arxiv.org/abs/2604.02954v1
+authors:
+- Yilin Xiao
+- Jin Chen
+- Qinggang Zhang
+- Yujing Zhang
+- Chuang Zhou
+- Longhao Yang
+- Lingfei Ren
+- Xin Yang
+- Xiao Huang
+venue: arXiv
+year: 2026
+summary: LogicPoison introduces a novel attack framework that targets the topological integrity of knowledge
+  graphs in GraphRAG systems by perturbing logical connections, leading to reasoning failures without
+  altering surface-level text.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses a security vulnerability in the memory component (GraphRAG)
+    of agentic systems, proposing a novel attack and implicitly suggesting the need for defenses against
+    logical corruption.
+status: draft

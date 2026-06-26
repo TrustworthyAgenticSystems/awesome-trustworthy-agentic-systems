@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-measuring-biological-capabilities-and-risks-of-ai-agents
+type: papers
+title: Measuring Biological Capabilities and Risks of AI Agents
+url: https://arxiv.org/abs/2606.19899v1
+authors:
+- Patricia Paskov
+- Jeffrey Lee
+- Kyle Brady
+- Alyssa Worland
+venue: arXiv
+year: 2026
+summary: This paper provides a framework and practical considerations for designing, running, and interpreting
+  evaluations of AI agents' biological capabilities and risks, focusing on the implicit design choices
+  that shape results.
+harness_layer:
+- foundations
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the foundational understanding and evaluation methodology for assessing
+    safety risks in agentic AI systems, particularly in the biological domain.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-untamed-black-box-to-interpretable-pedagogical-orchestration
+type: papers
+title: 'From Untamed Black Box to Interpretable Pedagogical Orchestration: The Ensemble of Specialized
+  LLMs Architecture for Adaptive Tutoring'
+url: https://arxiv.org/abs/2603.23990v1
+authors:
+- Nizam Kadir
+venue: arXiv
+year: 2026
+summary: Introduces the Ensemble of Specialized LLMs (ES-LLMS) architecture, which uses a rules-based
+  orchestrator to coordinate specialized agents for adaptive tutoring, enforcing pedagogical constraints
+  and logging agent traces for reliability and explainability.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper presents a systems-level architecture for multi-agent coordination that explicitly
+    addresses trustworthiness concerns like constraint enforcement, auditability, and reliability in a
+    pedagogical context.
+status: draft

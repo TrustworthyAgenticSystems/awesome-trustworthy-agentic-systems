@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memlineage-lineage-guided-enforcement-for-llm-agent-memory
+type: papers
+title: 'MemLineage: Lineage-Guided Enforcement for LLM Agent Memory'
+url: https://arxiv.org/abs/2605.14421v1
+authors:
+- Ciyan Ouyang
+- Rui Hou
+venue: arXiv
+year: 2026
+summary: MemLineage is a defense for LLM agent memory that uses cryptographic provenance and LLM-mediated
+  derivation lineage to prevent untrusted content from justifying sensitive actions, treating memory integrity
+  as a chain-of-custody problem.
+harness_layer:
+- memory
+sprs:
+- security
+- privacy
+open_problems:
+- observability-attribution
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses memory integrity and trust boundaries in agentic systems with
+    a novel, technically detailed defense mechanism and strong experimental validation.
+status: draft

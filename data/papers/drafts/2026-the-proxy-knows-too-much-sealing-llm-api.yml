@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-proxy-knows-too-much-sealing-llm-api
+type: papers
+title: 'The Proxy Knows Too Much: Sealing LLM API Routers with Attested TEEs'
+url: https://arxiv.org/abs/2606.16358v1
+authors:
+- Sipeng Xie
+- Qianhong Wu
+- Hengrun Lu
+- Ziliang Sun
+- Qi Wu
+- Bo Qin
+- Qin Wang
+venue: arXiv
+year: 2026
+summary: AEGIS is a provider-transparent attested API router that confines plaintext handling to a hardware
+  enclave, preventing malicious routers from rewriting agent tool calls, swapping dependencies, or exfiltrating
+  secrets, while leaving other functions on the untrusted host.
+harness_layer:
+- execution-shell
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a critical security and privacy vulnerability in the agent
+    execution stack by securing the API router with attested TEEs, a systems-level contribution.
+status: draft

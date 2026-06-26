@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memmark-state-evolution-attribution-watermarking-for-agent-long
+type: papers
+title: 'MemMark: State-Evolution Attribution Watermarking for Agent Long-Term Memory Systems'
+url: https://arxiv.org/abs/2605.25002v2
+authors:
+- Haobo Zhang
+- Xutao Mao
+- Guangyuan Dong
+- Ziwei Li
+- Xuanbo Su
+- Kaijie Chen
+- Jing Yang
+- Zheng Lin
+venue: arXiv
+year: 2026
+summary: MemMark introduces a state-evolution attribution watermark for agent long-term memory systems,
+  embedding owner-controlled signals into latent memory-write decisions to provide robust provenance even
+  from leaked or migrated snapshots.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the critical systems problem of memory provenance and attribution
+    for long-term agent memory, providing a novel watermarking mechanism and evaluating its robustness
+    against various attacks.
+status: draft

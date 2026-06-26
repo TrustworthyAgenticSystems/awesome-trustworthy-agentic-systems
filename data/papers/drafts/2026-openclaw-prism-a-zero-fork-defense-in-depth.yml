@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-openclaw-prism-a-zero-fork-defense-in-depth
+type: papers
+title: 'OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents'
+url: https://arxiv.org/abs/2603.11853v1
+authors:
+- Frank Li
+venue: arXiv
+year: 2026
+summary: OpenClaw PRISM is a zero-fork runtime security layer for tool-augmented LLM agent gateways, distributing
+  enforcement across ten lifecycle hooks to mitigate risks like indirect prompt injection, unsafe tool
+  execution, and credential leakage.
+harness_layer:
+- execution-shell
+sprs:
+- security
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses runtime security for agent execution, covering multiple attack
+    surfaces and proposing a defense-in-depth architecture with an evaluation methodology.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ciber-a-comprehensive-benchmark-for-security-evaluation-of
+type: papers
+title: 'CIBER: A Comprehensive Benchmark for Security Evaluation of Code Interpreter Agents'
+url: https://arxiv.org/abs/2602.19547v1
+authors:
+- Lei Ba
+- Qinbin Li
+- Songze Li
+venue: arXiv
+year: 2026
+summary: CIBER is an automated benchmark for evaluating the security of code interpreter agents against
+  dynamic adversarial attacks, including prompt injection and memory poisoning, within isolated sandboxes
+  and across multi-turn contexts.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses adversarial testing of agentic systems, specifically code interpreter
+    agents, by introducing a comprehensive benchmark for security evaluation against system-level attacks.
+status: draft

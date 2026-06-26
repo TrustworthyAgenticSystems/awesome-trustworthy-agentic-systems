@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-prometheus-automating-deep-causal-research-integrating-text-data
+type: papers
+title: 'PROMETHEUS: Automating Deep Causal Research Integrating Text, Data and Models'
+url: https://arxiv.org/abs/2605.12835v1
+authors:
+- Sridhar Mahadevan
+venue: arXiv
+year: 2026
+summary: PROMETHEUS is a framework for organizing diverse research artifacts into persistent, navigable
+  causal atlases, enabling structured claim tables, predictive tests, and provenance tracking to manage
+  and evaluate causal knowledge from text, data, and models.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.75
+  rationale: The framework focuses on organizing and managing persistent causal knowledge from diverse
+    sources, including agent traces, which relates to memory integrity and structured knowledge representation
+    for agents.
+status: draft

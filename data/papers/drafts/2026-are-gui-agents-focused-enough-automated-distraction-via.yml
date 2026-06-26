@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-are-gui-agents-focused-enough-automated-distraction-via
+type: papers
+title: Are GUI Agents Focused Enough? Automated Distraction via Semantic-level UI Element Injection
+url: https://arxiv.org/abs/2604.07831v1
+authors:
+- Wenkui Yang
+- Chao Jin
+- Haisu Zhu
+- Weilin Luo
+- Derek Yuen
+- Kun Shao
+- Huaibo Huang
+- Junxian Duan
+- Jie Cao
+- Ran He
+venue: arXiv
+year: 2026
+summary: Proposes Semantic-level UI Element Injection, a red-teaming method that overlays benign UI elements
+  onto screenshots to misdirect GUI agents, demonstrating persistent, model-agnostic vulnerabilities.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a novel red-teaming methodology for GUI agents, focusing on system-level
+    vulnerabilities through UI element injection rather than model-side alignment.
+status: draft

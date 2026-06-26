@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-property-level-reconstructability-of-agent-decisions-an-anchor
+type: papers
+title: 'Property-Level Reconstructability of Agent Decisions: An Anchor-Level Pilot Across Vendor SDK
+  Adapter Regimes'
+url: https://arxiv.org/abs/2605.12078v1
+authors:
+- Oleg Solozobov
+venue: arXiv
+year: 2026
+summary: Evaluates the post-hoc reconstructability of agent decisions across six vendor SDK regimes using
+  a Decision Event Schema, identifying gaps in observability for governance and debugging.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Directly addresses the observability and attribution of agent decisions for post-hoc analysis,
+    a core systems-engineering problem for trustworthy agents.
+status: draft
