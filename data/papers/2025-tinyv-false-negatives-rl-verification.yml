@@ -1,0 +1,43 @@
+id: 2025-tinyv-false-negatives-rl-verification
+type: papers
+title: "TinyV: Reducing False Negatives in Verification Improves RL for LLM Reasoning"
+url: https://arxiv.org/abs/2505.14625
+code: https://github.com/uw-nsl/TinyV
+authors:
+  - Zhangchen Xu
+  - Yuetai Li
+  - Fengqing Jiang
+  - Bhaskar Ramasubramanian
+  - Luyao Niu
+  - Bill Yuchen Lin
+  - Radha Poovendran
+venue: arXiv
+year: 2025
+
+summary: >
+  Shows that reward verifiers in reinforcement learning with verifiable rewards
+  often reject correct model outputs, and that these false negatives degrade
+  training. It adds a lightweight LLM-based verifier that detects such incorrect
+  rejections at low overhead, improving pass rates. The result is a reminder that
+  the verifier itself is part of the trusted base and must be evaluated, not
+  assumed correct.
+
+harness_layer:
+  - observation-eval
+sprs:
+  - reliability
+disciplines:
+  - ml
+tags:
+  - verification
+  - reward-modeling
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: yuanxue
+  rationale: >
+    Treats the verifier as a fallible component to be measured; relevant to
+    trustworthy evaluation and reward design.
+
+status: published

@@ -1,0 +1,47 @@
+id: 2026-mastrike-shapley-multi-agent-redteam
+type: papers
+title: "MAStrike: Shapley-Guided Collusive Red-Teaming on Multi-Agent Systems"
+url: https://arxiv.org/abs/2606.12918
+authors:
+  - Chejian Xu
+  - Zhaorun Chen
+  - Jingyang Zhang
+  - Freddy Lecue
+  - Avni Kothari
+  - Sarah Tan
+  - Wenbo Guo
+  - Bo Li
+venue: arXiv
+year: 2026
+
+summary: >
+  Targets the distinctive risk surface of hierarchical multi-agent systems, where
+  safety is spread across specialized agents and collusion can bypass per-agent
+  checks. It uses agent-level Shapley analysis to find safety-critical agents,
+  selects synergy-aware coalitions, and generates coordinated role-aware attacks
+  with closed-loop failure diagnosis, evaluated on a dedicated multi-agent
+  benchmark.
+
+harness_layer:
+  - red-team
+  - coordination
+sprs:
+  - security
+risk_phase:
+  - agent
+disciplines:
+  - security
+  - ml
+tags:
+  - multi-agent
+  - red-teaming
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: yuanxue
+  rationale: >
+    Red-teaming that exploits multi-agent coordination and collusion, a gap
+    single-agent attacks miss.
+
+status: published

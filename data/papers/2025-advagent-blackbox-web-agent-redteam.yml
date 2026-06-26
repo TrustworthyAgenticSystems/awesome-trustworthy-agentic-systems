@@ -1,0 +1,46 @@
+id: 2025-advagent-blackbox-web-agent-redteam
+type: papers
+title: "AdvAgent: Controllable Blackbox Red-teaming on Web Agents"
+url: https://arxiv.org/abs/2410.17401
+authors:
+  - Chejian Xu
+  - Mintong Kang
+  - Jiawei Zhang
+  - Zeyi Liao
+  - Lingbo Mo
+  - Mengqi Yuan
+  - Huan Sun
+  - Bo Li
+venue: ICML
+year: 2025
+
+summary: >
+  Trains a reinforcement-learning adversarial prompter that generates stealthy,
+  controllable web-page injections to hijack web agents toward attacker-chosen
+  actions, operating in a black-box setting and adapting across attack goals from
+  agent feedback. It reports high attack success against a strong vision-language
+  web agent and remains effective against prompt-based defenses.
+
+harness_layer:
+  - red-team
+  - tool-interface
+sprs:
+  - security
+risk_phase:
+  - tool
+disciplines:
+  - security
+  - ml
+tags:
+  - web-agents
+  - prompt-injection
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: yuanxue
+  rationale: >
+    Black-box, controllable red-teaming of web agents at the tool/environment
+    boundary.
+
+status: published

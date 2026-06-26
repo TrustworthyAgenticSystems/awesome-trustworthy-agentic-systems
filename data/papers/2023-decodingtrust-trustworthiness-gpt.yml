@@ -1,0 +1,47 @@
+id: 2023-decodingtrust-trustworthiness-gpt
+type: papers
+title: "DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models"
+url: https://arxiv.org/abs/2306.11698
+code: https://github.com/AI-secure/DecodingTrust
+authors:
+  - Boxin Wang
+  - Weixin Chen
+  - Hengzhi Pei
+  - Chulin Xie
+  - Mintong Kang
+  - Dawn Song
+  - Bo Li
+venue: NeurIPS
+year: 2023
+
+summary: >
+  Provides a broad trustworthiness benchmark for large language models across
+  eight perspectives, including toxicity, stereotype bias, adversarial and
+  out-of-distribution robustness, robustness to adversarial demonstrations,
+  privacy, machine ethics, and fairness. It is a widely cited reference for
+  evaluating model-level trust properties that agentic systems build on, and it
+  won an outstanding paper award.
+
+harness_layer:
+  - observation-eval
+  - foundations
+sprs:
+  - security
+  - privacy
+  - safety
+disciplines:
+  - ml
+  - security
+tags:
+  - benchmark
+  - trustworthiness
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: yuanxue
+  rationale: >
+    Foundational multi-perspective trustworthiness benchmark that the agent
+    evaluation work in this list extends.
+
+status: published

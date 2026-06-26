@@ -1,0 +1,47 @@
+id: 2025-shieldagent-verifiable-safety-policy
+type: papers
+title: "ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning"
+url: https://arxiv.org/abs/2503.22738
+authors:
+  - Zhaorun Chen
+  - Mintong Kang
+  - Bo Li
+venue: arXiv
+year: 2025
+
+summary: >
+  Proposes a guardrail agent that enforces explicit safety policies over another
+  agent's action trajectory rather than filtering only inputs and outputs. It
+  extracts verifiable rules from policy documents, compiles them into
+  action-based probabilistic rule circuits, and uses formal and logical reasoning
+  to check trajectories and flag violated rules, reporting higher guardrail
+  accuracy at lower cost than prior baselines.
+
+harness_layer:
+  - permissions
+  - oversight
+sprs:
+  - safety
+  - security
+open_problems:
+  - intent-to-constraints
+architecture:
+  - tcib
+risk_phase:
+  - agent
+disciplines:
+  - security
+  - ml
+tags:
+  - guardrails
+  - policy-reasoning
+
+provenance:
+  added_by: human
+  drafted_by: scaffold
+  reviewed_by: yuanxue
+  rationale: >
+    Guardrail-agent design that turns policy documents into enforceable,
+    verifiable constraints over agent action trajectories.
+
+status: published
