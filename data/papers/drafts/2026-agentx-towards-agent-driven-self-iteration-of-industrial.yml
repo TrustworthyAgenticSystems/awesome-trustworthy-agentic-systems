@@ -1,0 +1,90 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentx-towards-agent-driven-self-iteration-of-industrial
+type: papers
+title: 'AgentX: Towards Agent-Driven Self-Iteration of Industrial Recommender Systems'
+url: https://arxiv.org/abs/2606.26859v1
+authors:
+- Changxin Lao
+- Fei Pan
+- Guozhuang Ma
+- Han Li
+- Huihuang Lin
+- Jijun Shi
+- Kangzhi Zhao
+- Kun Gai
+- Mo Zhou
+- Qinqin Zhou
+- Quan Chen
+- Ruochen Yang
+- Shifu Bie
+- Shuang Yang
+- Shuo Yang
+- Wenhao Li
+- Wentao Xie
+- Xiao Lv
+- Xuming Wang
+- Yijun Wang
+- Yiming Chen
+- Yusheng Huang
+- Zhongyuan Wang
+- Zibo Zhao
+- Zijie Zhuang
+- Baoning Xia
+- Chao Liu
+- Chaoyi Ma
+- Chubo He
+- Dawei Cong
+- Feng Jiang
+- Gang Wang
+- Guilin Xia
+- Hanwen Xu
+- Jiahong Xie
+- Jiahui Qiao
+- Jian Liang
+- Jiangfan Yue
+- Jing Wang
+- Jinghan Yang
+- Jinghui Jia
+- Kan Qin
+- Lei Wang
+- Ming Li
+- Peilin Song
+- Pengbo Xu
+- Qiang Luo
+- Ruiming Tang
+- Shiyang Liu
+- Shuxian Jin
+- Tao Wang
+- Tao Zhang
+- Xiang Gao
+- Xianghan Li
+- Yingsong Luo
+- Yiwen Ning
+- Yongcheng Liu
+- Yuan Guo
+- Zhaojie Liu
+- Zhenkai Cui
+venue: arXiv
+year: 2026
+summary: AgentX is a production-deployed multi-agent system that automates the entire recommender system
+  iteration cycle, from hypothesis generation and code implementation to A/B testing and self-improvement,
+  fundamentally restructuring the development workflow.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper describes a complete, production-deployed agentic system architecture for automating
+    a complex industrial workflow, including self-improvement mechanisms and safety considerations.
+status: draft

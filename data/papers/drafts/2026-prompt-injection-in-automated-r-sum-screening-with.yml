@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-prompt-injection-in-automated-r-sum-screening-with
+type: papers
+title: 'Prompt Injection in Automated Résumé Screening with Large Language Models: Single and Multi-Injection
+  Settings'
+url: https://arxiv.org/abs/2606.27287v1
+authors:
+- Preet Baxi
+- Jiannan Xu
+- Jane Yi Jiang
+- Stefanus Jasin
+venue: arXiv
+year: 2026
+summary: Characterizes prompt injection as a strategic manipulation tactic in LLM-based résumé screening,
+  demonstrating its effectiveness under varying conditions and highlighting fairness concerns.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses adversarial manipulation (prompt injection) within an agentic
+    system (automated résumé screening), which is a core red-teaming concern for trustworthiness.
+status: draft

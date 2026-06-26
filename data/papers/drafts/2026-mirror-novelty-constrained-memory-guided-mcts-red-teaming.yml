@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mirror-novelty-constrained-memory-guided-mcts-red-teaming
+type: papers
+title: 'MIRROR: Novelty-Constrained Memory-Guided MCTS Red-Teaming for Agentic RAG'
+url: https://arxiv.org/abs/2606.26793v1
+authors:
+- Inderjeet Singh
+- Andrés Murillo
+- Motoyoshi Sekiya
+- Yuki Unno
+- Junichi Suga
+venue: arXiv
+year: 2026
+summary: MIRROR is a unified, cross-surface red-teaming framework for multimodal agentic RAG systems that
+  uses novelty-constrained, memory-guided Monte Carlo tree search to discover novel attacks across various
+  surfaces, including text poisoning, image injection, and orchestrator-level tool manipulation.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper presents a novel red-teaming framework for agentic RAG systems, addressing multiple
+    attack surfaces and demonstrating improved attack success rates and novelty compared to existing methods.
+status: draft

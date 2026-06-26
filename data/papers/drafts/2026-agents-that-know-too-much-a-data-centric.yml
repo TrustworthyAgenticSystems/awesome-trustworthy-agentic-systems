@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agents-that-know-too-much-a-data-centric
+type: papers
+title: 'Agents That Know Too Much: A Data-Centric Survey of Privacy in LLM Agents'
+url: https://arxiv.org/abs/2606.26627v1
+authors:
+- Nada Lahjouji
+- Ashwin Gerard Colaco
+venue: arXiv
+year: 2026
+summary: A data-centric survey taxonomizing privacy risks in LLM agents across various data sources, identifying
+  governance mechanisms, and highlighting gaps in information-flow control and comprehensive benchmarking.
+harness_layer:
+- foundations
+sprs:
+- privacy
+- security
+open_problems:
+- least-privilege-reasoning
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a foundational survey and taxonomy of privacy risks in LLM agent systems,
+    directly addressing the systems-level challenges of data handling and governance.
+status: draft
