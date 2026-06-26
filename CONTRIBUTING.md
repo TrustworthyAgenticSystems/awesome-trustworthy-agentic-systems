@@ -79,12 +79,70 @@ Add to [`INCIDENTS.md`](INCIDENTS.md). Required fields:
 
 **Do not** add incidents without a primary source. Unverified reports get rejected.
 
-### Tool / repo
-Add to the relevant section in `README.md`:
+### Tool / repo (OSS) and courses
+Add a `data/oss/<id>.yml` (or `data/courses/<id>.yml`) entry the same way as a
+paper: `type: oss`, `url` pointing at the canonical repo, optional `code`, and
+both facets. The README section and the website pick it up on regeneration.
 
-```markdown
-- **Project name** — one-line description. Why it matters for this layer. [[repo]](url) `[tool]`
+## Reviewing agent drafts and promoting them
+
+The research agent ([`research-agent/`](research-agent/), see its
+[`DESIGN.md`](research-agent/DESIGN.md)) opens pull requests labeled
+`agent-draft` that add candidate papers under `data/papers/drafts/` at
+`status: draft`. The agent **proposes**; a human **disposes**. A draft is saved
+and schema-validated, but it does **not** appear in the README or on the website
+until a human promotes it to `status: published`.
+
+### 1. Review each draft against the bar
+
+For every draft file, confirm:
+
+- the `url` resolves and points to the canonical paper, not an aggregator;
+- `authors`, `venue`, and `year` are correct;
+- both facets fit the contribution — `harness_layer` (where in the stack) and
+  `sprs` (which guarantee). Retag if the agent's pick is off;
+- the `summary` is accurate and in our own words — reword the agent's draft
+  summary if it is clumsy or too close to the abstract;
+- `provenance.confidence` is a triage hint: start with the low-confidence ones.
+
+Apply the [editorial bar](#what-we-accept). When in doubt, skip.
+
+### 2. Promote the keepers
+
+The helper moves the file out of `drafts/`, sets `status: published`, and records
+you as the reviewer of record:
+
+```bash
+python scripts/promote.py --reviewer <your-handle> <id> [<id> ...]
+# or promote everything you have reviewed:
+python scripts/promote.py --reviewer <your-handle> --all
+
+# then refresh the generated views and validate:
+python scripts/generate.py && python scripts/build_site.py && python scripts/validate.py
 ```
+
+By hand instead: move `data/papers/drafts/<id>.yml` to `data/papers/<id>.yml`,
+set `status: published`, add `provenance.reviewed_by: <your-handle>`, and delete
+the draft header comment.
+
+### 3. Reject the rest
+
+Delete the draft files you are not keeping:
+
+```bash
+git rm data/papers/drafts/<id>.yml
+```
+
+### When to promote
+
+- **Inside the agent-draft PR (preferred):** check out the PR branch, run the
+  promote/reject steps, commit, and merge — everything lands published in one PR.
+- **Merge first, promote after:** merging the `agent-draft` PR only *saves* the
+  drafts; it does **not** publish them. Open a follow-up PR that promotes them.
+
+Either way, commit the regenerated `README.md` and `papers.bib` with the entries
+— CI fails if they drift (`scripts/generate.py --check`). Once merged to `main`,
+the site redeploys automatically and the papers go live.
 
 ## Editorial principles
 
