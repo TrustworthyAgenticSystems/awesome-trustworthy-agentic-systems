@@ -1,0 +1,28 @@
+id: 2026-agentriskbom-a-risk-scoping-security-bill-of-materials
+type: papers
+title: 'AgentRiskBOM: A Risk-Scoping Security Bill of Materials for Agentic AI Systems'
+url: https://arxiv.org/abs/2606.21877v1
+authors:
+- Srimonti Dutta
+- Akshata Kishore Moharir
+venue: arXiv
+year: 2026
+summary: Introduces AgentRiskBOM, a security bill of materials (BOM) schema for agentic AI systems that
+  documents runtime authority, including tool permissions, memory, and external action capabilities, and
+  evaluates its effectiveness in risk-scoping and detecting authority drift across various open-source
+  agents.
+harness_layer:
+- supply-chain
+sprs:
+- security
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: Directly addresses the supply-chain security and transparency gap for agentic systems by
+    providing a structured, machine-readable artifact for risk-scoping and detecting authority drift.
+status: published

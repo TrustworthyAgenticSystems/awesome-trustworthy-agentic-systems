@@ -1,0 +1,31 @@
+id: 2026-an-ai-agent-execution-environment-to-safeguard-user
+type: papers
+title: An AI Agent Execution Environment to Safeguard User Data
+url: https://arxiv.org/abs/2604.19657v1
+authors:
+- Robert Stanley
+- Avi Verma
+- Lillian Tsai
+- Konstantinos Kallas
+- Sam Kumar
+venue: arXiv
+year: 2026
+summary: GAAP is an execution environment for AI agents that enforces user-defined permission specifications
+  for private data disclosure, including to the AI model provider, by tracking information flow across
+  execution steps and tasks.
+harness_layer:
+- permissions
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: This paper directly addresses data privacy and security in agentic systems by proposing a
+    novel execution environment for enforcing fine-grained data access permissions, even against model-level
+    attacks.
+status: published

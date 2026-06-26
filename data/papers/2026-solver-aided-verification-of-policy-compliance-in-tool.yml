@@ -1,0 +1,28 @@
+id: 2026-solver-aided-verification-of-policy-compliance-in-tool
+type: papers
+title: Solver-Aided Verification of Policy Compliance in Tool-Augmented LLM Agents
+url: https://arxiv.org/abs/2603.20449v1
+authors:
+- Cailin Winston
+- Claris Winston
+- René Just
+venue: arXiv
+year: 2026
+summary: An SMT solver-aided framework that translates natural-language tool-use policies into formal
+  logic constraints and intercepts planned tool calls at runtime to enforce compliance, blocking policy
+  violations.
+harness_layer:
+- permissions
+sprs:
+- security
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.92
+  rationale: Directly addresses policy enforcement and permissions for tool-augmented agents using formal
+    verification, a core systems-engineering problem for trustworthy agents.
+status: published

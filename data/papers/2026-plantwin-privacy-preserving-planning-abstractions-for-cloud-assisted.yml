@@ -1,0 +1,30 @@
+id: 2026-plantwin-privacy-preserving-planning-abstractions-for-cloud-assisted
+type: papers
+title: 'PlanTwin: Privacy-Preserving Planning Abstractions for Cloud-Assisted LLM Agents'
+url: https://arxiv.org/abs/2603.18377v2
+authors:
+- Guangsheng Yu
+- Qin Wang
+- Rui Lang
+- Shuai Su
+- Xu Wang
+venue: arXiv
+year: 2026
+summary: PlanTwin is a privacy-preserving architecture that projects a private local environment into
+  a de-identified digital twin for cloud-assisted LLM planning, preventing raw context exposure while
+  maintaining planning quality.
+harness_layer:
+- permissions
+sprs:
+- privacy
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: Directly addresses privacy and security concerns in agent planning by controlling what information
+    cloud planners observe, a core problem in trustworthy agentic systems.
+status: published

@@ -1,0 +1,29 @@
+id: 2026-veriport-automated-and-verified-patch-backporting-at-scale
+type: papers
+title: 'VeriPort: Automated and Verified Patch Backporting at Scale'
+url: https://arxiv.org/abs/2606.22704v1
+authors:
+- Jonah Ghebremichael
+- Wenxin Jiang
+- Mikola Lysenko
+- Benjamin Barslev Nielsen
+- William Enck
+- Alexandros Kapravelos
+venue: arXiv
+year: 2026
+summary: VeriPort is an agentic system that automates and verifies the backporting of security patches
+  to all affected versions of open-source dependencies, generating evidence that patches block exploitation
+  and preserve functionality.
+harness_layer:
+- supply-chain
+sprs:
+- security
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: This paper directly addresses supply-chain security by automating the backporting of security
+    patches for open-source dependencies, a critical systems-engineering problem for trustworthy agents.
+status: published

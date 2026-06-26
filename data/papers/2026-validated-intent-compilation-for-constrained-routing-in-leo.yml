@@ -1,0 +1,27 @@
+id: 2026-validated-intent-compilation-for-constrained-routing-in-leo
+type: papers
+title: Validated Intent Compilation for Constrained Routing in LEO Mega-Constellations
+url: https://arxiv.org/abs/2604.07264v1
+authors:
+- Yuanhang Li
+venue: arXiv
+year: 2026
+summary: An end-to-end system for translating natural language operator intents into validated, low-level
+  routing constraints for LEO mega-constellations, featuring an LLM intent compiler with a verifier-feedback
+  repair loop and a deterministic validator for safety guarantees.
+harness_layer:
+- intent
+sprs:
+- safety
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: This paper directly addresses the critical problem of translating natural language intent
+    into machine-checkable constraints for an agentic system, with a strong focus on safety and reliability
+    through validation.
+status: published

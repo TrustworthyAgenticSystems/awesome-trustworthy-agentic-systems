@@ -1,0 +1,28 @@
+id: 2026-governing-dynamic-capabilities-cryptographic-binding-and-reproducibility-verification
+type: papers
+title: 'Governing Dynamic Capabilities: Cryptographic Binding and Reproducibility Verification for AI
+  Agent Tool Use'
+url: https://arxiv.org/abs/2603.14332v2
+authors:
+- Ziling Zhou
+venue: arXiv
+year: 2026
+summary: Proposes a cryptographic framework for agent governance that ensures capability integrity, behavioral
+  verifiability, and interaction auditability by distinguishing tool definitions from user context at
+  the orchestration layer, with two instantiations and an evaluation of overhead and attack detection.
+harness_layer:
+- permissions
+sprs:
+- security
+- reliability
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: Directly addresses fundamental security and reliability problems in agentic systems by proposing
+    a cryptographic framework for governing dynamic capabilities and verifying agent actions.
+status: published

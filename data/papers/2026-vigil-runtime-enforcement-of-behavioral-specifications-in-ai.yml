@@ -1,0 +1,33 @@
+id: 2026-vigil-runtime-enforcement-of-behavioral-specifications-in-ai
+type: papers
+title: 'VIGIL: Runtime Enforcement of Behavioral Specifications in AI Agent Skills'
+url: https://arxiv.org/abs/2606.26524v1
+authors:
+- Ying Li
+- Yanju Chen
+- Hongbo Wen
+- Bosi Zhang
+- Hanzhi Liu
+- Peiran Wang
+- Yu Feng
+- Yuan Tian
+venue: arXiv
+year: 2026
+summary: VIGIL is a runtime enforcement framework that translates natural-language behavioral policies
+  for agent skills into executable SMT constraints over execution traces, enabling detection of violations
+  across multiple actions and contextual dependencies.
+harness_layer:
+- permissions
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: This paper directly addresses runtime enforcement of agent behavior and permissions, a core
+    systems-engineering problem for trustworthy agents, with a concrete technical solution and evaluation.
+status: published

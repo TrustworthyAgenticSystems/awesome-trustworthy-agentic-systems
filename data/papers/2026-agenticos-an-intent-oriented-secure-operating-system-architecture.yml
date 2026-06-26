@@ -1,0 +1,33 @@
+id: 2026-agenticos-an-intent-oriented-secure-operating-system-architecture
+type: papers
+title: 'AgenticOS: An Intent-Oriented Secure Operating System Architecture for Autonomous AI Agents'
+url: https://arxiv.org/abs/2606.21129v1
+authors:
+- Zhen Zhao
+- Yu Zhang
+- Yanpeng Zhu
+- Jia Wang
+- Songqiao Tao
+- Xin Cheng
+- Jiexin Gao
+venue: arXiv
+year: 2026
+summary: Proposes AgenticOS, an intent-oriented secure operating system architecture that reframes OS
+  security from resource management to intent filtering, synthesizing least-privilege environments based
+  on structured agent intent declarations.
+harness_layer:
+- permissions
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: Directly addresses the fundamental problem of least-privilege authorization for autonomous
+    agents by proposing a novel OS architecture centered on intent-based security and capability generation.
+status: published

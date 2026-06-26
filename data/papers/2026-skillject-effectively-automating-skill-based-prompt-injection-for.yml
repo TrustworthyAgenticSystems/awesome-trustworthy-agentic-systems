@@ -1,0 +1,32 @@
+id: 2026-skillject-effectively-automating-skill-based-prompt-injection-for
+type: papers
+title: 'SkillJect: Effectively Automating Skill-Based Prompt Injection for Skill-Enabled Agents'
+url: https://arxiv.org/abs/2602.14211v3
+authors:
+- Xiaojun Jia
+- Jie Liao
+- Simeng Qin
+- Jindong Gu
+- Wenqi Ren
+- Xiaochun Cao
+- Yang Liu
+- Philip Torr
+venue: arXiv
+year: 2026
+summary: SkillJect is an automated framework for generating poisoned skills that hide malicious payloads
+  in auxiliary scripts and use front-loaded inducements in skill instructions to trick agents into executing
+  them, demonstrating a supply-chain attack surface in reusable skill ecosystems.
+harness_layer:
+- supply-chain
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  reviewed_by: yuanxue
+  confidence: 0.95
+  rationale: This paper directly addresses a supply-chain security vulnerability in agentic systems by
+    demonstrating and automating skill-based prompt injection, which is a novel attack vector.
+status: published
