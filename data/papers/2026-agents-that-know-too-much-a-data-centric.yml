@@ -1,8 +1,3 @@
-# Drafted by research-agent. Review before promoting.
-# To accept: move this file to data/papers/<id>.yml, set
-# status: published, and record provenance.reviewed_by.
-# To reject: delete this file.
-
 id: 2026-agents-that-know-too-much-a-data-centric
 type: papers
 title: 'Agents That Know Too Much: A Data-Centric Survey of Privacy in LLM Agents'
@@ -25,7 +20,8 @@ open_problems:
 provenance:
   added_by: agent
   drafted_by: research-agent
+  reviewed_by: yuanxue
   confidence: 0.95
   rationale: This paper provides a foundational survey and taxonomy of privacy risks in LLM agent systems,
     directly addressing the systems-level challenges of data handling and governance.
-status: draft
+status: published
