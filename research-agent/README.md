@@ -23,17 +23,25 @@ GitHub Actions, defined in [`.github/workflows/research-sweep.yml`](../.github/w
 | Secret | Purpose | Required? |
 |---|---|---|
 | `GEMINI_API_KEY` | Google AI Studio API key for classification | **Required** |
+| `AGENT_PAT` | Fine-grained PAT used to open the draft PR | **Required** |
 | `S2_API_KEY` | Semantic Scholar API key for higher rate limits | Optional (only for bootstrap on large seed lists) |
 
 Set these in **Settings → Secrets and variables → Actions**.
 
-### Required repo setting
+### Why a PAT instead of the default token
 
-The workflow uses `peter-evans/create-pull-request` to open a PR with drafts. This requires:
+The workflow opens the draft PR with `peter-evans/create-pull-request` using
+`AGENT_PAT`, not the automatic `GITHUB_TOKEN`. Two reasons:
 
-> **Settings → Actions → General → Workflow permissions → check "Allow GitHub Actions to create and approve pull requests"**
+1. The org policy blocks the `GITHUB_TOKEN` from creating pull requests
+   ("Allow GitHub Actions to create and approve pull requests" is enforced off
+   above the repo), so the token route fails.
+2. A PR created by a PAT *triggers* the Validate entries workflow on the new PR;
+   a PR created by `GITHUB_TOKEN` does not.
 
-Without this, the workflow's sweep step runs successfully but the PR step fails with a permissions error.
+Create a **fine-grained PAT** scoped to this repository only, with
+**Contents: Read and write** and **Pull requests: Read and write**, and store it
+as the `AGENT_PAT` secret. No org-level setting change is needed.
 
 ## Configuration
 
