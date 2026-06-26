@@ -4,6 +4,8 @@ A deep-research agent that bootstraps the publications list from seed researcher
 
 Each draft validates against [`schema/entry.schema.json`](../schema/entry.schema.json) and carries both required facets: a primary `harness_layer` and one or two `sprs` guarantees. The validator gates drafts in CI, so the agent cannot land a malformed or duplicate entry; the human still owns the editorial and publish decision.
 
+> **How and why it is built:** see [`DESIGN.md`](DESIGN.md) for the pipeline, the module responsibilities, and the design properties. This README covers operations (setup, secrets, cost, running).
+
 ## Modes
 
 | Mode | What it does | Triggered by |
