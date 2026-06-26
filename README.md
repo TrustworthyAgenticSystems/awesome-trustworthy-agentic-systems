@@ -34,6 +34,16 @@ If you're looking for "how to build an agent" tutorials, see [`awesome-agent-lea
 
 ---
 
+## How it works
+
+Two tracks feed one taxonomy through one human review gate. A deep-research agent and community contributors propose entries; a validator and a human reviewer verify the source, tags, and deduplication; only then does an entry become a published artifact that renders to this list and the [website](https://trustworthy-agentic-systems.org).
+
+![Architecture: high-velocity inputs (papers, incidents, news) and slow-moving canon (classics, courses, OSS) flow through a deep research agent and community/agent PRs into a human review gate, then into the GitHub source of truth (structured data + taxonomy) and the website.](docs/architecture.png)
+
+The pipeline follows the resource's own thesis: **agents propose, a trusted base validates, and every action is logged and attributable.** See [`research-agent/DESIGN.md`](research-agent/DESIGN.md) for the live-feed agent and [`CONTRIBUTING.md`](CONTRIBUTING.md) for the review gate.
+
+---
+
 ## Contents
 
 **Part I — Foundations**
