@@ -78,6 +78,10 @@ jobs:
         if: steps.sweep.outputs.entries != '0'
         uses: peter-evans/create-pull-request@v6
         with:
+          # A PAT (not the default GITHUB_TOKEN) because the org blocks the
+          # Actions token from opening PRs. The PAT also lets the new PR
+          # trigger the Validate entries workflow, which GITHUB_TOKEN cannot.
+          token: ${{ secrets.AGENT_PAT }}
           branch: research-sweep/${{ steps.mode.outputs.mode }}-${{ github.run_number }}
           labels: agent-draft
           commit-message: "research-agent: drafted candidates from ${{ steps.mode.outputs.mode }} sweep"
