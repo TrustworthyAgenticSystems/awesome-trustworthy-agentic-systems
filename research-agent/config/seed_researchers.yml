@@ -24,7 +24,21 @@
 # - If a name disambiguates poorly (common name, multiple matches), consider
 #   adding an arXiv link to a representative paper as a comment.
 
-researchers: []
+researchers:
+  - name: "Dawn Song"
+    affiliation: "UC Berkeley"
+    focus: "Agent security, red-teaming, trustworthy ML, systems security"
+  - name: "Bo Li"
+    affiliation: "University of Chicago"
+    focus: "Trustworthy ML, agent guardrails and red-teaming (DecodingTrust, ShieldAgent)"
+  - name: "Dongyan Xu"
+    affiliation: "Purdue University"
+    focus: "Systems and cyber-physical security, AI for cyber defense"
+
+# Note: "Bo Li" and "Dongyan Xu" are common names on Semantic Scholar and may
+# resolve to the wrong author. The bootstrap output is human-reviewed (classifier
+# scope filter + the agent-draft PR), so a wrong match mostly wastes a few API
+# calls. If results look off-topic, pin the correct Semantic Scholar authorId.
 
 # Examples (commented out — replace with real entries before running):
 #
