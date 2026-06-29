@@ -1,0 +1,44 @@
+id: 2025-10-chatgpt-atlas-prompt-injection
+type: incidents
+title: ChatGPT Atlas browser agent hijacked by indirect prompt injection
+url: https://www.malwarebytes.com/blog/news/2025/10/openais-atlas-browser-leaves-the-door-wide-open-to-prompt-injection
+org: OpenAI
+date: "2025-10-29"
+
+summary: >
+  Shortly after OpenAI launched the ChatGPT Atlas browser in October 2025,
+  researchers showed its agent mode could be hijacked by indirect prompt injection.
+  NeuralTrust demonstrated an omnibox jailbreak in which a crafted address-bar
+  string is treated as trusted user instruction, and others hid malicious
+  instructions in web pages and documents to redirect the agent. Brave published
+  parallel research warning that AI-powered browsers share this weakness. OpenAI
+  acknowledged the risk, shipped an adversarially trained model with safeguards,
+  and said browser-agent injection may never be fully solved. The exposure sat in
+  the tool interface and execution shell of an agent acting on the open web.
+
+harness_layer:
+  - tool-interface
+  - execution-shell
+sprs:
+  - security
+risk_phase:
+  - tool
+  - agent
+disciplines:
+  - security
+tags:
+  - prompt-injection
+  - browser-agent
+  - agent-hijack
+
+provenance:
+  added_by: agent
+  drafted_by: claude
+  confidence: 0.8
+  rationale: >
+    Autonomous browser agent acting on untrusted web content is hijacked through
+    indirect injection: tool-interface plus execution-shell, security guarantee.
+    Primary source is Malwarebytes reporting the NeuralTrust Omnibox demonstration;
+    OpenAI's own hardening post corroborates but returned 403 to automated fetch
+    and should be confirmed in a browser before citing.
+status: draft

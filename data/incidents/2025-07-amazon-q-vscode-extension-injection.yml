@@ -1,0 +1,46 @@
+id: 2025-07-amazon-q-vscode-extension-injection
+type: incidents
+title: Amazon Q Developer VS Code extension shipped with an attacker-planted wiping prompt
+url: https://www.bleepingcomputer.com/news/security/amazon-ai-coding-agent-hacked-to-inject-data-wiping-commands/
+org: Amazon Web Services
+date: "2025-07-23"
+
+summary: >
+  In July 2025 an attacker submitted an unapproved pull request to the open-source
+  repository behind the Amazon Q Developer extension for Visual Studio Code and
+  gained write access that reached an official build. The injected text instructed
+  the AI coding agent that it had filesystem and shell access and a goal to wipe
+  local files and AWS cloud resources. The payload shipped to the Visual Studio
+  Code Marketplace in version 1.84.0 before being caught; AWS revoked credentials,
+  removed the code, and released a fixed version. The attacker said the wiper was
+  deliberately defective and AWS reported no customer impact. The failure was a
+  supply-chain compromise that weaponized agent tool access.
+
+harness_layer:
+  - supply-chain
+sprs:
+  - security
+risk_phase:
+  - tool
+  - agent
+disciplines:
+  - systems
+  - security
+related:
+  - 2026-03-claude-code-source-map-exposure
+tags:
+  - supply-chain
+  - prompt-injection
+  - coding-agent
+  - release-hygiene
+
+provenance:
+  added_by: agent
+  drafted_by: claude
+  confidence: 0.9
+  rationale: >
+    Build and release pipeline compromise that turned the agent's own tool access
+    into the payload: supply-chain layer, security guarantee. Parallels the Claude
+    Code source-map entry as a harness packaging failure, so linked as related.
+    Primary source is BleepingComputer, with 404 Media as the originating report.
+status: draft
