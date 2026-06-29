@@ -3,52 +3,121 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Trustworthy Agentic Systems — a curated map</title>
-  <meta name="description" content="A curated, filterable map of trustworthy agentic systems engineering, organized by harness layer and by SPRS guarantee." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <title>Trustworthy Agentic Systems — engineering trustworthy agentic AI</title>
+  <meta name="description" content="A living, curated map of the field — research, incidents, canonical works, courses, and open source — classified against the framework from the white paper From Models to Systems: Engineering Trustworthy Agentic AI." />
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-  <header class="site-header">
+  <nav class="site-nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="./index.html"><span class="brand-mark">◇</span> Trustworthy Agentic Systems</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="./index.html" class="active" aria-current="page">Home</a></li>
+        <li><a href="./resources.html">Resources</a></li>
+        <li><a href="./incidents.html">Incidents</a></li>
+        <li><a class="nav-cta" href="https://github.com/TrustworthyAgenticSystems/awesome-trustworthy-agentic-systems/blob/main/CONTRIBUTING.md">Contribute</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
     <div class="wrap">
-      <h1>Trustworthy Agentic Systems</h1>
-      <p class="tagline">A curated map of trustworthy agentic systems engineering. Browse by <strong>harness layer</strong> (where in the stack) and by <strong>SPRS guarantee</strong> (security, privacy, reliability, safety).</p>
-      <p class="repo-link"><a id="repoLink" href="https://github.com/TrustworthyAgenticSystems/awesome-trustworthy-agentic-systems">View the repository &rarr;</a> &middot; entries are generated from the data in <code>data/</code></p>
+      <p class="eyebrow">From Models to Systems</p>
+      <h1>Engineering Trustworthy Agentic AI</h1>
+      <p class="lede">A living, community resource that maps the field — research, incidents, canonical works, courses, and open source — classified against the white paper's own framework: SPRS guarantees across every layer of the agent harness.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="./resources.html">Browse Resources &rarr;</a>
+        <a class="btn btn-ghost" href="./incidents.html">Report an incident</a>
+      </div>
+      <ul class="stats" id="stats">
+        <li><span class="num">&mdash;</span><span class="lbl">Resources</span></li>
+        <li><span class="num">&mdash;</span><span class="lbl">Incidents</span></li>
+        <li><span class="num">4</span><span class="lbl">SPRS axes</span></li>
+        <li><span class="num">&mdash;</span><span class="lbl">Harness layers</span></li>
+      </ul>
     </div>
   </header>
 
-  <main class="wrap layout">
-    <aside class="filters" aria-label="Filters">
-      <div class="search-box">
-        <input type="search" id="search" placeholder="Search title, summary, author&hellip;" autocomplete="off" />
+  <main>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Browse by guarantee</h2>
+          <p>Every entry is tagged against the white paper's framework, not a generic "agent safety" scheme. The top-level axis is SPRS: the property a system has to hold to be trusted.</p>
+        </div>
+        <div class="card-grid" id="sprs-cards">
+          <a class="feature security" href="./resources.html?sprs=security">
+            <span class="dot"></span>
+            <h3>Security</h3>
+            <p>Resisting adversaries: prompt injection, tool abuse, supply-chain and execution-shell attacks.</p>
+            <span class="arrow">Browse &rarr;</span>
+          </a>
+          <a class="feature privacy" href="./resources.html?sprs=privacy">
+            <span class="dot"></span>
+            <h3>Privacy</h3>
+            <p>Protecting data the agent reads, remembers, and emits across context and memory.</p>
+            <span class="arrow">Browse &rarr;</span>
+          </a>
+          <a class="feature reliability" href="./resources.html?sprs=reliability">
+            <span class="dot"></span>
+            <h3>Reliability</h3>
+            <p>Doing the right thing under uncertainty: planning, coordination, evaluation, and recovery.</p>
+            <span class="arrow">Browse &rarr;</span>
+          </a>
+          <a class="feature safety" href="./resources.html?sprs=safety">
+            <span class="dot"></span>
+            <h3>Safety</h3>
+            <p>Bounding consequence: oversight, permissions, intent alignment, and transactional agency.</p>
+            <span class="arrow">Browse &rarr;</span>
+          </a>
+        </div>
       </div>
-      <div id="facets"></div>
-      <button id="clear" class="clear-btn" hidden>Clear all filters</button>
-    </aside>
+    </section>
 
-    <section class="results" aria-live="polite">
-      <div class="results-bar">
-        <span id="count" class="count"></span>
-        <label class="sort">
-          Sort
-          <select id="sort">
-            <option value="year-desc">Newest first</option>
-            <option value="year-asc">Oldest first</option>
-            <option value="title">Title A&ndash;Z</option>
-          </select>
-        </label>
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Two tracks, one taxonomy, one review gate</h2>
+          <p>The resource holds two asset classes with opposite physics. Both write the same schema, carry the same taxonomy tags, and pass the same human review before publishing.</p>
+        </div>
+        <div class="tracks">
+          <div class="track">
+            <span class="kicker">Canon &middot; slow-moving</span>
+            <h3>Resources</h3>
+            <p>Classics, courses, open source, and peer-reviewed research, human-curated and filterable by harness layer and SPRS guarantee.</p>
+            <a class="btn btn-ghost" href="./resources.html">Browse the map &rarr;</a>
+          </div>
+          <div class="track">
+            <span class="kicker">Live feed &middot; high-velocity</span>
+            <h3>Incidents</h3>
+            <p>A primary-source-verified log of what actually goes wrong in deployment, classified by the harness layer the failure exposed. Open to community reports.</p>
+            <a class="btn btn-ghost" href="./incidents.html">See incidents &rarr;</a>
+          </div>
+        </div>
       </div>
-      <ul id="list" class="card-list"></ul>
-      <p id="empty" class="empty" hidden>No entries match these filters.</p>
     </section>
   </main>
 
-  <footer class="site-footer">
+  <section class="principles">
     <div class="wrap">
-      <p>Agents propose, a trusted base validates, every action is logged and attributable. Content is CC BY 4.0; code is MIT.</p>
+      <h2>Agents propose, a trusted base validates</h2>
+      <p>The pipeline obeys the white paper's own principles: agents may only draft, a human reviewer signs off before anything is published, and every action is logged and attributable. No entry goes live without a recorded reviewer, and every link resolves.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap foot-inner">
+      <p>A community resource accompanying <em>From Models to Systems: Engineering Trustworthy Agentic AI</em>. Content is CC&nbsp;BY&nbsp;4.0; code is MIT.</p>
+      <nav>
+        <a href="./resources.html">Resources</a>
+        <a href="./incidents.html">Incidents</a>
+        <a href="https://github.com/TrustworthyAgenticSystems/awesome-trustworthy-agentic-systems">GitHub</a>
+      </nav>
     </div>
   </footer>
 
-  <script src="./app.js"></script>
+  <script src="./nav.js"></script>
+  <script src="./home.js"></script>
 </body>
 </html>

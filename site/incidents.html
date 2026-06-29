@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Incidents — Trustworthy Agentic Systems</title>
+  <meta name="description" content="A primary-source-verified log of documented failures in agentic systems, classified by the harness layer the failure exposed. Open to community reports." />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body data-view="incidents">
+  <nav class="site-nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="./index.html"><span class="brand-mark">◇</span> Trustworthy Agentic Systems</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./resources.html">Resources</a></li>
+        <li><a href="./incidents.html" class="active" aria-current="page">Incidents</a></li>
+        <li><a class="nav-cta" href="https://github.com/TrustworthyAgenticSystems/awesome-trustworthy-agentic-systems/blob/main/CONTRIBUTING.md">Contribute</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Incidents</h1>
+      <p class="tagline">A primary-source-verified log of what actually goes wrong in deployed agentic systems, classified by the <strong>harness layer</strong> the failure exposed and the <strong>SPRS guarantee</strong> it broke.</p>
+      <p class="repo-link">Every entry needs a primary source. Unverified reports do not appear here. See the <a href="https://github.com/TrustworthyAgenticSystems/awesome-trustworthy-agentic-systems/blob/main/CONTRIBUTING.md#incident">editorial bar &rarr;</a></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="report-banner">
+      <div class="rb-text">
+        <h2>Saw something break? Report it.</h2>
+        <p>Community reports are welcome. Submit an incident with a primary source and we will classify it against the taxonomy. A human reviewer signs off before any named incident is published.</p>
+      </div>
+      <a class="btn btn-primary" href="https://github.com/TrustworthyAgenticSystems/awesome-trustworthy-agentic-systems/issues/new?template=incident.yml">Report an incident &rarr;</a>
+    </div>
+
+    <div class="layout no-aside">
+      <section class="results" aria-live="polite">
+        <div class="results-bar">
+          <span id="count" class="count"></span>
+          <label class="sort">
+            <input type="search" id="search" placeholder="Search incidents&hellip;" autocomplete="off" style="padding:7px 11px;border:1px solid var(--line);border-radius:8px;font:inherit;font-size:.85rem;" />
+          </label>
+        </div>
+        <ul id="list" class="card-list"></ul>
+        <p id="empty" class="empty" hidden>No incidents recorded yet. <a href="https://github.com/TrustworthyAgenticSystems/awesome-trustworthy-agentic-systems/issues/new?template=incident.yml">Report the first one &rarr;</a></p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot-inner">
+      <p>Incidents must not name a company or individual while in review; a human signs off before any named incident is published. Content is CC&nbsp;BY&nbsp;4.0; code is MIT.</p>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./resources.html">Resources</a>
+        <a href="https://github.com/TrustworthyAgenticSystems/awesome-trustworthy-agentic-systems">GitHub</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="./nav.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

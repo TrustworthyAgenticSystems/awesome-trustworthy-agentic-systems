@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resources — Trustworthy Agentic Systems</title>
+  <meta name="description" content="A curated, filterable map of trustworthy agentic systems engineering, organized by harness layer and by SPRS guarantee." />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body data-view="resources">
+  <nav class="site-nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="./index.html"><span class="brand-mark">◇</span> Trustworthy Agentic Systems</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./resources.html" class="active" aria-current="page">Resources</a></li>
+        <li><a href="./incidents.html">Incidents</a></li>
+        <li><a class="nav-cta" href="https://github.com/TrustworthyAgenticSystems/awesome-trustworthy-agentic-systems/blob/main/CONTRIBUTING.md">Contribute</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Resources</h1>
+      <p class="tagline">A curated map of trustworthy agentic systems engineering. Browse by <strong>harness layer</strong> (where in the stack) and by <strong>SPRS guarantee</strong> (security, privacy, reliability, safety).</p>
+      <p class="repo-link"><a href="https://github.com/TrustworthyAgenticSystems/awesome-trustworthy-agentic-systems">View the repository &rarr;</a> &middot; entries are generated from the data in <code>data/</code></p>
+    </div>
+  </header>
+
+  <main class="wrap layout">
+    <aside class="filters" aria-label="Filters">
+      <div class="search-box">
+        <input type="search" id="search" placeholder="Search title, summary, author&hellip;" autocomplete="off" />
+      </div>
+      <div id="facets"></div>
+      <button id="clear" class="clear-btn" hidden>Clear all filters</button>
+    </aside>
+
+    <section class="results" aria-live="polite">
+      <div class="results-bar">
+        <span id="count" class="count"></span>
+        <label class="sort">
+          Sort
+          <select id="sort">
+            <option value="year-desc">Newest first</option>
+            <option value="year-asc">Oldest first</option>
+            <option value="title">Title A&ndash;Z</option>
+          </select>
+        </label>
+      </div>
+      <ul id="list" class="card-list"></ul>
+      <p id="empty" class="empty" hidden>No entries match these filters.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot-inner">
+      <p>Agents propose, a trusted base validates, every action is logged and attributable. Content is CC&nbsp;BY&nbsp;4.0; code is MIT.</p>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./incidents.html">Incidents</a>
+        <a href="https://github.com/TrustworthyAgenticSystems/awesome-trustworthy-agentic-systems">GitHub</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="./nav.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
