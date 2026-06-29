@@ -37,10 +37,11 @@ tags:
 provenance:
   added_by: agent
   drafted_by: claude
+  reviewed_by: yuanxue
   confidence: 0.9
   rationale: >
     Build and release pipeline compromise that turned the agent's own tool access
     into the payload: supply-chain layer, security guarantee. Parallels the Claude
     Code source-map entry as a harness packaging failure, so linked as related.
     Primary source is BleepingComputer, with 404 Media as the originating report.
-status: draft
+status: published

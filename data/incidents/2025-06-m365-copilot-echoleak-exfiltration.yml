@@ -37,6 +37,7 @@ tags:
 provenance:
   added_by: agent
   drafted_by: claude
+  reviewed_by: yuanxue
   confidence: 0.9
   rationale: >
     Indirect prompt injection against a deployed, connector-equipped assistant
@@ -45,4 +46,4 @@ provenance:
     secondary. Primary source is the NVD CVE record; SecurityWeek and the Aim Labs
     disclosure corroborate. Severity differs by scorer (Microsoft 9.3, NVD 7.5);
     reviewer should pick which to cite.
-status: draft
+status: published

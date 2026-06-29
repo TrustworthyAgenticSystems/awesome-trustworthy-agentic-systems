@@ -35,6 +35,7 @@ tags:
 provenance:
   added_by: agent
   drafted_by: claude
+  reviewed_by: yuanxue
   confidence: 0.85
   rationale: >
     RAG assistant retrieves untrusted workspace content and acts on it, so the
@@ -43,4 +44,4 @@ provenance:
     analysis, which credits and links the originating PromptArmor disclosure; the
     PromptArmor Substack original blocks automated link checks. Slack is owned by
     Salesforce; org left as Slack to match the product.
-status: draft
+status: published

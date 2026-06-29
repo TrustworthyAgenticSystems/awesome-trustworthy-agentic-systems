@@ -34,6 +34,7 @@ tags:
 provenance:
   added_by: agent
   drafted_by: claude
+  reviewed_by: yuanxue
   confidence: 0.8
   rationale: >
     Autonomous browser agent acting on untrusted web content is hijacked through
@@ -41,4 +42,4 @@ provenance:
     Primary source is Malwarebytes reporting the NeuralTrust Omnibox demonstration;
     OpenAI's own hardening post corroborates but returned 403 to automated fetch
     and should be confirmed in a browser before citing.
-status: draft
+status: published
