@@ -1,7 +1,7 @@
 id: 2024-08-slack-ai-prompt-injection-exfiltration
 type: incidents
 title: Slack AI tricked into leaking private-channel data via indirect prompt injection
-url: https://promptarmor.substack.com/p/data-exfiltration-from-slack-ai-via
+url: https://simonwillison.net/2024/Aug/20/data-exfiltration-from-slack-ai/
 org: Slack
 date: "2024-08-20"
 
@@ -39,7 +39,8 @@ provenance:
   rationale: >
     RAG assistant retrieves untrusted workspace content and acts on it, so the
     injection enters through retrieval: tool-interface plus memory and context
-    integrity, privacy as primary guarantee. Primary source is the PromptArmor
-    disclosure, corroborated by The Register and Simon Willison. Slack is owned by
+    integrity, privacy as primary guarantee. Cited via Simon Willison's technical
+    analysis, which credits and links the originating PromptArmor disclosure; the
+    PromptArmor Substack original blocks automated link checks. Slack is owned by
     Salesforce; org left as Slack to match the product.
 status: draft
