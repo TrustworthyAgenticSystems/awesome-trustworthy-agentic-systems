@@ -1,20 +1,33 @@
 /* Trustworthy Agentic Systems — client-side browse/filter/search.
    Loads entries.json (built from data/ by scripts/build_site.py) and renders a
-   faceted, searchable list. No dependencies, no build step beyond the JSON. */
+   faceted, searchable list. No dependencies, no build step beyond the JSON.
+
+   One script, two views, set by `<body data-view>`:
+     - "resources" : canon (papers/classics/courses/oss), faceted sidebar.
+     - "incidents" : incident log only, search + list, newest first.
+*/
 
 (() => {
   "use strict";
 
+  const VIEW = document.body.dataset.view === "incidents" ? "incidents" : "resources";
+
   // Facets shown in the sidebar, in order. `field` is the entry key.
-  const FACET_DEFS = [
+  // Incidents view has no sidebar, so it uses no facets.
+  const FACET_DEFS = VIEW === "incidents" ? [] : [
     { key: "sprs", field: "sprs", title: "SPRS guarantee" },
     { key: "harness_layer", field: "harness_layer", title: "Harness layer" },
     { key: "type", field: "type", title: "Type" },
     { key: "open_problems", field: "open_problems", title: "Open problem" },
   ];
 
-  const state = { q: "", sort: "year-desc", selected: {} };
+  const state = {
+    q: "",
+    sort: VIEW === "incidents" ? "year-desc" : "year-desc",
+    selected: {},
+  };
   let DATA = null;
+  let BASE = [];  // entries scoped to the current view
 
   const $ = (sel) => document.querySelector(sel);
   const el = (tag, props = {}, kids = []) => {
@@ -22,8 +35,6 @@
     for (const k of [].concat(kids)) n.append(k);
     return n;
   };
-  const esc = (s) => String(s).replace(/[&<>"]/g, (c) =>
-    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
   function asList(v) { return Array.isArray(v) ? v : v == null ? [] : [v]; }
 
@@ -31,6 +42,20 @@
     const m = new Map();
     for (const { id, label } of (DATA.taxonomy[axis] || [])) m.set(id, label);
     return m;
+  }
+
+  // Entries belonging to this view: incidents-only, or everything-but-incidents.
+  function scopeEntries(entries) {
+    return VIEW === "incidents"
+      ? entries.filter((e) => e.type === "incidents")
+      : entries.filter((e) => e.type !== "incidents");
+  }
+
+  // The "type" facet should not advertise incidents on the resources view.
+  function facetOptions(key) {
+    const opts = DATA.taxonomy[key] || [];
+    if (key === "type") return opts.filter((o) => o.id !== "incidents");
+    return opts;
   }
 
   // --- Filtering -----------------------------------------------------------
@@ -53,10 +78,17 @@
     return true;
   }
 
+  // Sort key: incidents carry a date string, canon carries a year.
+  function timeKey(e) {
+    if (e.year) return e.year;
+    if (e.date) return Number(String(e.date).slice(0, 4)) || 0;
+    return 0;
+  }
+
   function sortEntries(list) {
     const by = {
-      "year-desc": (a, b) => (b.year || 0) - (a.year || 0) || a.title.localeCompare(b.title),
-      "year-asc": (a, b) => (a.year || 0) - (b.year || 0) || a.title.localeCompare(b.title),
+      "year-desc": (a, b) => timeKey(b) - timeKey(a) || (b.date || "").localeCompare(a.date || "") || a.title.localeCompare(b.title),
+      "year-asc": (a, b) => timeKey(a) - timeKey(b) || (a.date || "").localeCompare(b.date || "") || a.title.localeCompare(b.title),
       "title": (a, b) => a.title.localeCompare(b.title),
     }[state.sort];
     return [...list].sort(by);
@@ -120,23 +152,26 @@
   function renderList() {
     const layerLabels = labelMap("harness_layer");
     const sprsLabels = labelMap("sprs");
-    const matched = sortEntries(DATA.entries.filter(entryMatches));
+    const matched = sortEntries(BASE.filter(entryMatches));
 
     const list = $("#list");
     list.replaceChildren(...matched.map((e) => card(e, layerLabels, sprsLabels)));
 
     $("#empty").hidden = matched.length > 0;
-    $("#count").replaceChildren(
-      el("strong", { textContent: String(matched.length) }),
-      ` of ${DATA.entries.length} ent${DATA.entries.length === 1 ? "ry" : "ries"}`);
+    const noun = VIEW === "incidents" ? "incident" : "entry";
+    const nounP = VIEW === "incidents" ? "incidents" : "entries";
+    if ($("#count"))
+      $("#count").replaceChildren(
+        el("strong", { textContent: String(matched.length) }),
+        ` of ${BASE.length} ${BASE.length === 1 ? noun : nounP}`);
 
     const anyFilter = state.q || FACET_DEFS.some((d) => state.selected[d.key]?.size);
-    $("#clear").hidden = !anyFilter;
+    if ($("#clear")) $("#clear").hidden = !anyFilter;
   }
 
   // Live per-option counts reflect the OTHER active facets (classic faceted search).
   function optionCount(def, value) {
-    return DATA.entries.filter((e) => {
+    return BASE.filter((e) => {
       for (const other of FACET_DEFS) {
         if (other.key === def.key) continue;
         const chosen = state.selected[other.key];
@@ -155,9 +190,10 @@
 
   function renderFacets() {
     const container = $("#facets");
+    if (!container) return;
     container.replaceChildren();
     for (const def of FACET_DEFS) {
-      const options = DATA.taxonomy[def.key] || [];
+      const options = facetOptions(def.key);
       const ul = el("ul");
       for (const opt of options) {
         const n = optionCount(def, opt.id);
@@ -189,23 +225,47 @@
 
   function render() { renderFacets(); renderList(); }
 
+  // Preselect facets from URL query (e.g. resources.html?sprs=security).
+  function applyUrlFilters() {
+    const params = new URLSearchParams(location.search);
+    for (const def of FACET_DEFS) {
+      const raw = params.get(def.key);
+      if (!raw) continue;
+      const valid = new Set(facetOptions(def.key).map((o) => o.id));
+      for (const v of raw.split(",")) {
+        if (valid.has(v)) (state.selected[def.key] ||= new Set()).add(v);
+      }
+    }
+  }
+
   // --- Wiring --------------------------------------------------------------
 
   function attach() {
-    let t;
-    $("#search").addEventListener("input", (ev) => {
-      clearTimeout(t);
-      t = setTimeout(() => { state.q = ev.target.value.trim().toLowerCase(); render(); }, 120);
-    });
-    $("#sort").addEventListener("change", (ev) => { state.sort = ev.target.value; renderList(); });
-    $("#clear").addEventListener("click", () => {
-      state.q = ""; state.selected = {}; $("#search").value = ""; render();
-    });
+    const search = $("#search");
+    if (search) {
+      let t;
+      search.addEventListener("input", (ev) => {
+        clearTimeout(t);
+        t = setTimeout(() => { state.q = ev.target.value.trim().toLowerCase(); render(); }, 120);
+      });
+    }
+    if ($("#sort"))
+      $("#sort").addEventListener("change", (ev) => { state.sort = ev.target.value; renderList(); });
+    if ($("#clear"))
+      $("#clear").addEventListener("click", () => {
+        state.q = ""; state.selected = {}; if (search) search.value = ""; render();
+      });
   }
 
   fetch("./entries.json")
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then((data) => { DATA = data; attach(); render(); })
+    .then((data) => {
+      DATA = data;
+      BASE = scopeEntries(data.entries || []);
+      applyUrlFilters();
+      attach();
+      render();
+    })
     .catch((err) => {
       $("#list").replaceChildren(el("li", { className: "card" },
         el("p", { textContent:
