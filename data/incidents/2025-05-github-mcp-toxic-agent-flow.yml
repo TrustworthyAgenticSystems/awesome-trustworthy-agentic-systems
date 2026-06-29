@@ -39,6 +39,7 @@ tags:
 provenance:
   added_by: agent
   drafted_by: claude
+  reviewed_by: yuanxue
   confidence: 0.85
   rationale: >
     Cross-repository token reuse driven by an injected instruction is a
@@ -47,4 +48,4 @@ provenance:
     corroborated by DevClass and the upstream GitHub issue. GitHub frames the fix
     as client and token design rather than a single patch; reviewer should note the
     disputed remediation status.
-status: draft
+status: published

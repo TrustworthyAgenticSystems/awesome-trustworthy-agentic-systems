@@ -38,6 +38,7 @@ tags:
 provenance:
   added_by: agent
   drafted_by: claude
+  reviewed_by: yuanxue
   confidence: 0.85
   rationale: >
     Agentic action incident: an autonomous coding agent took a consequential,
@@ -47,4 +48,4 @@ provenance:
     the originating account was the affected user on X, so a reputable outlet is
     cited as the primary. Figures for records deleted and fabricated vary across
     outlets and need reviewer confirmation.
-status: draft
+status: published

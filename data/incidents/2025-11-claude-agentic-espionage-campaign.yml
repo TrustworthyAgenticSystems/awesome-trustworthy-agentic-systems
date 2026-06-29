@@ -36,6 +36,7 @@ tags:
 provenance:
   added_by: agent
   drafted_by: claude
+  reviewed_by: yuanxue
   confidence: 0.6
   rationale: >
     Included as a red-teaming and oversight case: an agent decomposed into benign
@@ -44,4 +45,4 @@ provenance:
     researchers and the report omits indicators of compromise, so confidence is
     low and reviewer judgment on framing matters. Summary is written to reflect the
     dispute.
-status: draft
+status: published

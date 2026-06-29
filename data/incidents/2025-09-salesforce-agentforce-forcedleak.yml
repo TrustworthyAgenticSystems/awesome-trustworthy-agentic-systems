@@ -36,6 +36,7 @@ tags:
 provenance:
   added_by: agent
   drafted_by: claude
+  reviewed_by: yuanxue
   confidence: 0.88
   rationale: >
     CRM agent ingests externally submitted records and acts on them, so untrusted
@@ -43,4 +44,4 @@ provenance:
     security. The stale allowlisted domain is a permissions and trust-boundary
     failure. Primary source is the Noma Security disclosure, corroborated by The
     Hacker News.
-status: draft
+status: published
