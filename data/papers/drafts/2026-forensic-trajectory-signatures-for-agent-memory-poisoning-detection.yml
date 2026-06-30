@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-forensic-trajectory-signatures-for-agent-memory-poisoning-detection
+type: papers
+title: Forensic Trajectory Signatures for Agent Memory Poisoning Detection
+url: https://arxiv.org/abs/2606.30566v1
+authors:
+- Jun Wen Leong
+venue: arXiv
+year: 2026
+summary: Identifies forensic trajectory signatures, specifically a behavioral invariant in tool-call sequences,
+  to detect persistent memory poisoning attacks in LLM agents, enabling real-time blocking and incident
+  response.
+harness_layer:
+- memory
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses memory integrity and security by proposing a novel detection mechanism
+    based on observable agent behavior and tool-call logs.
+status: draft

@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-attractor-states-emerge-in-multi-turn-llm-conversations
+type: papers
+title: Attractor States Emerge in Multi-Turn LLM Conversations
+url: https://arxiv.org/abs/2606.30571v1
+authors:
+- Ting-Wen Ko
+- Jonas Geiping
+venue: arXiv
+year: 2026
+summary: Empirical study of attractor states and asymmetric influence in multi-turn LLM dyadic debates,
+  revealing model-specific behavioral patterns that influence conversation partners.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper studies the long-run dynamics and emergent behaviors of multi-agent LLM interactions,
+    which is relevant to the reliability and predictability of agent coordination.
+status: draft

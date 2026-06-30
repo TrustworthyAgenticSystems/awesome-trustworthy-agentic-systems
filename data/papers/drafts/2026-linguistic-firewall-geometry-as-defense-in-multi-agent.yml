@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-linguistic-firewall-geometry-as-defense-in-multi-agent
+type: papers
+title: 'Linguistic Firewall: Geometry as Defense in Multi-Agent Systems Routing'
+url: https://arxiv.org/abs/2606.30555v1
+authors:
+- Dvir Alsheich
+- Adar Peleg
+- Ben Hagag
+- Rom Himelstein
+- Amit Levi
+- Avi Mendelson
+venue: arXiv
+year: 2026
+summary: ANTAP is an evaluation-driven routing architecture for multi-agent systems that uses active capability
+  testing and non-textual algebraic projection to route tasks, creating a "linguistic firewall" against
+  metadata-based attacks.
+harness_layer:
+- coordination
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses security vulnerabilities in multi-agent system routing by proposing
+    an empirical, non-textual method to determine agent capabilities, which is a systems-level contribution
+    to coordination and security.
+status: draft

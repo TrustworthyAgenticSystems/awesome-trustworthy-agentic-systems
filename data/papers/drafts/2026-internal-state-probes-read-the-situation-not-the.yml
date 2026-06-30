@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-internal-state-probes-read-the-situation-not-the
+type: papers
+title: 'Internal-State Probes Read the Situation, Not the Action: Three Negative Results for Pre-Action
+  Misalignment Monitoring'
+url: https://arxiv.org/abs/2606.30449v1
+authors:
+- Max Fomin
+- Elad David
+- Amit LeVi
+venue: arXiv
+year: 2026
+summary: Investigates the validity of internal model probes for pre-action misalignment monitoring in
+  agentic systems, proposing a methodology for testing such claims and reporting negative results on generalization
+  and specificity.
+harness_layer:
+- observation-eval
+sprs:
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a core problem in observing and evaluating agent behavior for safety by rigorously
+    testing the utility of internal model states for pre-action monitoring.
+status: draft
