@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mcp-server-architecture-patterns-for-llm-integrated-applications
+type: papers
+title: MCP Server Architecture Patterns for LLM-Integrated Applications
+url: https://arxiv.org/abs/2606.30317v1
+authors:
+- Carson Rodrigues
+- Oysturn Vas
+venue: arXiv
+year: 2026
+summary: Catalogs five recurring architectural patterns for Model Context Protocol (MCP) servers, documenting
+  their structure, problems, solutions, and consequences, along with anti-patterns and cross-cutting concerns
+  for tool-interface design.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the systems engineering of tool interfaces for LLM agents by
+    documenting architectural patterns and cross-cutting concerns for MCP servers.
+status: draft
