@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-governance-gaps-in-agent-interoperability-protocols-what-mcp
+type: papers
+title: 'Governance Gaps in Agent Interoperability Protocols: What MCP, A2A, and ACP Cannot Express'
+url: https://arxiv.org/abs/2606.31498v1
+authors:
+- Richard Kang
+- Yudho Diponegoro
+venue: arXiv
+year: 2026
+summary: Systematic gap analysis of agent interoperability protocols against a six-dimension governance
+  taxonomy, revealing missing architectural layers for governed agent communities.
+harness_layer:
+- foundations
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a foundational analysis of governance gaps in agent interoperability
+    protocols, identifying missing architectural layers crucial for trustworthy agentic systems.
+status: draft

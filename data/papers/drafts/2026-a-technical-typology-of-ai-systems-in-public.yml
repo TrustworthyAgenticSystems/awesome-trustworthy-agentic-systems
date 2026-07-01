@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-technical-typology-of-ai-systems-in-public
+type: papers
+title: A Technical Typology of AI Systems in Public Administration
+url: https://arxiv.org/abs/2606.31755v1
+authors:
+- Jonathan Rystrøm
+- Chris Schmitz
+- Nathan Davies
+- Gerhard Hammerschmid
+- Albert Meijer
+- Chris Russell
+venue: arXiv
+year: 2026
+summary: Introduces a typology of AI systems, including agentic systems, calibrated for public administration
+  to highlight distinct implications for public values like accountability and procedural justice.
+harness_layer:
+- foundations
+sprs:
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Provides a foundational typology for understanding different AI systems, including agentic
+    systems, and their impact on public values, which is relevant to trustworthy system design.
+status: draft

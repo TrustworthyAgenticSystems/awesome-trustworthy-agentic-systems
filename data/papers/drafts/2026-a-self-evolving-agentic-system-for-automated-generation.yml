@@ -1,0 +1,44 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-self-evolving-agentic-system-for-automated-generation
+type: papers
+title: A Self-Evolving Agentic System for Automated Generation and Execution of Biological Protocols
+url: https://arxiv.org/abs/2606.31763v1
+authors:
+- Yankai Jiang
+- Weiting Tang
+- Haoran Sun
+- Zhenyu Tang
+- Yuejie Hou
+- Yingnan Han
+- Rubo Wang
+- Yueyuxiao Yang
+- Cheng Liang
+- Lilong Wang
+- Wenjie Lou
+- Xiaosong Wang
+- Lei Bai
+- Meng Yang
+venue: arXiv
+year: 2026
+summary: ProtoPilot is a self-evolving multi-agent system for autonomous wet-lab experimentation that
+  integrates protocol design, code synthesis, and workflow revision based on real experimental feedback,
+  evaluated with a comprehensive expert-grounded benchmark.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper presents an end-to-end agentic system architecture for a complex real-world domain,
+    including multi-agent orchestration, runtime feedback, and a robust evaluation framework for execution-relevant
+    requirements.
+status: draft
