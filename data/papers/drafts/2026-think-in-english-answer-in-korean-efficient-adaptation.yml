@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-think-in-english-answer-in-korean-efficient-adaptation
+type: papers
+title: 'Think in English, Answer in Korean: Efficient Adaptation of Multilingual Tool-Using Agents'
+url: https://arxiv.org/abs/2606.31648v1
+authors:
+- Utsav Garg
+- Sungjin Hong
+- Jason Jung
+- Justin Lee
+- Shaan Desai
+- Joon Hee Kim
+- Anirudh Shrinivason
+- Edmond Wen
+- Susie Park
+venue: arXiv
+year: 2026
+summary: Presents a practical recipe and failure-mode analysis for adapting post-trained multilingual
+  models to verifiable agentic workflows under memory-constrained deployment, focusing on efficient scaling
+  choices like multilingual SFT, RL with verifiable rewards, and quantization.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Provides a practical recipe and failure-mode analysis for adapting multilingual models to
+    agentic workflows under deployment constraints, which is relevant to reference architectures and operational
+    postmortems.
+status: draft

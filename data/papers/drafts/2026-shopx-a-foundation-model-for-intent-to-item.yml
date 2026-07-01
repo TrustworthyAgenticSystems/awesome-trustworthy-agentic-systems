@@ -1,0 +1,55 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-shopx-a-foundation-model-for-intent-to-item
+type: papers
+title: 'ShopX: A Foundation Model for Intent-to-Item Fulfillment in Agentic Shopping'
+url: https://arxiv.org/abs/2606.31693v1
+authors:
+- Jiacheng Chen
+- Tao Zhang
+- Manxi Lin
+- Dunxian Huang
+- Teng Shi
+- Honghao Fu
+- Mengyan Li
+- Xinming Zhang
+- Chenchi Zhang
+- Xuan Lu
+- Xiaoxiong Du
+- Haibin Chen
+- Shaolin Ye
+- Hao Chang
+- Xiaoqi Li
+- Shuwen Xiao
+- Yujin Yuan
+- Jingxuan Feng
+- Shaopan Xiong
+- Huimin Yi
+- Ju Huang
+- Qiu Shen
+- Ying Chen
+- Junjun Zheng
+- Xiangheng Kong
+- Yuning Jiang
+venue: arXiv
+year: 2026
+summary: ShopX proposes a model-native item-fulfillment framework with a serving harness that defines
+  a model-facing action protocol and exposes support surfaces for context access, catalog grounding, and
+  state management, aiming to reduce lossy hand-offs in agentic shopping workflows.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes an end-to-end reference architecture for agentic shopping, focusing on
+    the integration of intent understanding and item-space fulfillment within a single foundation model
+    and its serving harness.
+status: draft
