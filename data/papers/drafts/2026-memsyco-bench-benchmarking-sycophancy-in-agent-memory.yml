@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memsyco-bench-benchmarking-sycophancy-in-agent-memory
+type: papers
+title: 'MemSyco-Bench: Benchmarking Sycophancy in Agent Memory'
+url: https://arxiv.org/abs/2607.01071v1
+authors:
+- Zhishang Xiang
+- Zerui Chen
+- Yunbo Tang
+- Zhimin Wei
+- Ruqin Ning
+- Yujie Lin
+- Qinggang Zhang
+- Jinsong Su
+venue: arXiv
+year: 2026
+summary: MemSyco-Bench is a benchmark for evaluating memory-induced sycophancy in agent systems, assessing
+  how retrieved memories influence downstream reasoning and decision-making across five tasks.
+harness_layer:
+- memory
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a benchmark specifically for evaluating the trustworthiness of agent
+    memory, focusing on how memory influences reasoning and decision-making, which is a systems-level
+    concern.
+status: draft

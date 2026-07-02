@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-reporescue-an-empirical-study-of-llm-agents-on
+type: papers
+title: 'RepoRescue: An Empirical Study of LLM Agents on Whole-Repository Compatibility Rescue'
+url: https://arxiv.org/abs/2607.01213v1
+authors:
+- Zhihao Lin
+- Mingyi Zhou
+- Zhensu Sun
+- Yizhuo Yang
+- Renyu Yang
+- David Lo
+- Li Li
+venue: arXiv
+year: 2026
+summary: An empirical study and benchmark (RepoRescue) for LLM agents performing whole-repository compatibility
+  rescue, including evaluation metrics for source-only repair, runtime enforcement, and practical validation
+  of rescued repositories.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper provides a system-level evaluation and benchmark for agentic systems, focusing
+    on the reliability of their code generation and adaptation capabilities in a complex, long-horizon
+    task.
+status: draft
