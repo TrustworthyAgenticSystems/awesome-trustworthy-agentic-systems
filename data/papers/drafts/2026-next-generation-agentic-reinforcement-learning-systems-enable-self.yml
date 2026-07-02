@@ -1,0 +1,53 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-next-generation-agentic-reinforcement-learning-systems-enable-self
+type: papers
+title: Next-Generation Agentic Reinforcement Learning Systems Enable Self-Evolving Agents
+url: https://arxiv.org/abs/2607.01120v1
+authors:
+- Ran Yan
+- Wei Fu
+- Jiale Li
+- Shusheng Xu
+- Zhiyu Mei
+- Jiaxuan Gao
+- Jiarui Zhang
+- Xujie Shen
+- Hao Dai
+- Chuyi He
+- Zhen Pu
+- Jun Mei
+- Zhiyao Lin
+- Haitao Wang
+- Zhiqiang Ding
+- Jiawei Zhang
+- Huaijie Wang
+- Ruida Xu
+- Youhe Jiang
+- Yi Wu
+- Tongkai Yang
+- Binhang Yuan
+venue: arXiv
+year: 2026
+summary: This paper argues for a co-design of next-generation agentic online RL systems around standardized
+  trajectory data protocols, enterprise-grade data proxies for learning substrates, and unified evolution
+  control planes, sketching concrete architectures and instantiating one branch with AReaL2.0.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper proposes a systems-level architectural vision for self-evolving agents, addressing
+    the operational challenges of online reinforcement learning in enterprise deployments, which is a
+    direct contribution to trustworthy agentic systems.
+status: draft

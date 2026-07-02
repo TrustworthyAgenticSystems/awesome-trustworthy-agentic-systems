@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-adversarial-pragmatics-for-ai-safety-evaluation-a-benchmark
+type: papers
+title: 'Adversarial Pragmatics for AI Safety Evaluation: A Benchmark for Instruction Conflict, Embedded
+  Commands, and Policy Ambiguity'
+url: https://arxiv.org/abs/2607.01153v1
+authors:
+- Brett Reynolds
+venue: arXiv
+year: 2026
+summary: Introduces an adversarial pragmatics benchmark and annotation protocol to diagnose failures in
+  LLM safety evaluations, distinguishing between instruction conflict, embedded commands, and policy ambiguity
+  in agentic tasks.
+harness_layer:
+- observation-eval
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Provides a methodological and empirical contribution to the evaluation of agentic system
+    safety, specifically addressing the diagnostic ambiguity of natural language instructions and policies.
+status: draft
