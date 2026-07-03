@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-reasoning-effort-not-tool-access-buys-first-try
+type: papers
+title: 'Reasoning effort, not tool access, buys first-try reliability in agentic code generation: an observational
+  study'
+url: https://arxiv.org/abs/2607.02436v1
+authors:
+- Achint Mehta
+venue: arXiv
+year: 2026
+summary: Observational study of 90 agentic code generation runs, analyzing the impact of model generation,
+  agent harness, reasoning effort, testing tools, and design prompts on first-try reliability and functional
+  correctness.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides an observational study of agentic code generation, focusing on factors
+    influencing reliability and functional correctness, which is relevant to observation and evaluation
+    of agent behavior.
+status: draft

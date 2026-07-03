@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-pace-a-proxy-for-agentic-capability-evaluation
+type: papers
+title: 'PACE: A Proxy for Agentic Capability Evaluation'
+url: https://arxiv.org/abs/2607.02032v1
+authors:
+- Yueqi Song
+- Lintang Sutawika
+- Jiarui Liu
+- Lindia Tjuatja
+- Jiayi Geng
+- Yunze Xiao
+- Daniel Lee
+- Aditya Bharat Soni
+- Vincent Lo
+- Xiang Yue
+- Graham Neubig
+venue: arXiv
+year: 2026
+summary: PACE is a framework that constructs proxy benchmarks from non-agentic evaluation instances to
+  predict agentic system performance, significantly reducing evaluation cost and time.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper contributes to the observation and evaluation of agentic systems by providing
+    a cost-effective method for predicting agent performance, addressing a key challenge in long-horizon
+    evaluation.
+status: draft

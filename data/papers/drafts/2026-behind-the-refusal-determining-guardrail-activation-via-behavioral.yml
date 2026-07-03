@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-behind-the-refusal-determining-guardrail-activation-via-behavioral
+type: papers
+title: 'Behind the Refusal: Determining Guardrail Activation via Behavioral Monitoring'
+url: https://arxiv.org/abs/2607.02121v1
+authors:
+- William Hackett
+- Peter Garraghan
+venue: arXiv
+year: 2026
+summary: Proposes a black-box guardrail reconnaissance methodology that uses behavioral monitoring of
+  HTTP, lexical, and timing signals to detect guardrail activation and distinguish it from LLM rejections,
+  aiding adversarial testing of agentic systems.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper provides a methodology for black-box adversarial testing of agentic systems by
+    distinguishing guardrail blocks from LLM rejections, which is crucial for effective red-teaming and
+    understanding system-level defenses.
+status: draft

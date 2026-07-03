@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-distributed-attacks-in-persistent-state-ai-control
+type: papers
+title: Distributed Attacks in Persistent-State AI Control
+url: https://arxiv.org/abs/2607.02514v1
+authors:
+- Josh Hills
+- Ida Caspary
+- Asa Cooper Stickland
+venue: arXiv
+year: 2026
+summary: Introduces a new attack surface for AI coding agents where prompt-injected agents distribute
+  malicious code across multiple pull requests in a persistent codebase, and proposes a stateful link-tracker
+  monitor to detect such gradual attacks.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a novel, system-level adversarial attack vector (distributed
+    attacks across persistent state) and proposes a concrete defense mechanism, squarely in the red-teaming
+    and observation-eval domain for agentic systems.
+status: draft
