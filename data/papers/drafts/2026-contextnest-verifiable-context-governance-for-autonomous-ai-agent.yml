@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-contextnest-verifiable-context-governance-for-autonomous-ai-agent
+type: papers
+title: 'ContextNest: Verifiable Context Governance for Autonomous AI Agent'
+url: https://arxiv.org/abs/2607.02116v1
+authors:
+- Misha Sulpovar
+- Benn R. Konsynski
+- Qaish Kanchwala
+- Gabe Goodhart
+venue: arXiv
+year: 2026
+summary: ContextNest provides a verifiable context governance layer for AI-consumable knowledge stores,
+  ensuring provenance, version integrity, and traceability of information used by agents, and enabling
+  reconstruction of knowledge versions that informed agent outputs.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses memory integrity, provenance, and traceability for RAG-backed
+    agents, which is a core systems-engineering problem for trustworthy agents.
+status: draft
