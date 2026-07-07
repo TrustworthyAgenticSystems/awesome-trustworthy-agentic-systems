@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-untrusted-content-masking-for-web-agents-with-security
+type: papers
+title: Untrusted Content Masking for Web Agents with Security Guarantees
+url: https://arxiv.org/abs/2607.05277v1
+authors:
+- Kristina Nikolić
+- Egor Zverev
+- Javier Rando
+- Matthew Jagielski
+- Edoardo Debenedetti
+- Florian Tramèr
+venue: arXiv
+year: 2026
+summary: Untrusted Content Masking (UCM) restores trust boundaries for web agents by redacting untrusted
+  regions of a webpage's DOM before they reach the agent, routing interaction through a sandboxed interface
+  with privilege separation.
+harness_layer:
+- tool-interface
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a fundamental security challenge for web agents by re-establishing a trust
+    boundary between trusted instructions and untrusted content in a complex environment.
+status: draft

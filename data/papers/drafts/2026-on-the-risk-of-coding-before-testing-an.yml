@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-on-the-risk-of-coding-before-testing-an
+type: papers
+title: 'On the risk of coding before testing: An empirical study on LLM-based test generation workflow'
+url: https://arxiv.org/abs/2607.05139v1
+authors:
+- Michael Konstantinou
+- Florian Tambon
+- Mike Papadakis
+venue: arXiv
+year: 2026
+summary: Empirical study demonstrating error propagation from LLM-generated code to subsequent test generation,
+  leading to mutually consistent incorrect implementations and tests, and proposes this as a threat to
+  the reliability of automated testing in agentic workflows.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper identifies a critical reliability and security issue in agentic software engineering
+    workflows where LLM-generated code biases test generation, leading to masked defects, and evaluates
+    this propagation across multi-step workflows.
+status: draft
