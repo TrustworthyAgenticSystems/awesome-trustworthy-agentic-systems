@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-sovereignpa-bench-evaluating-user-owned-personal-agents-under
+type: papers
+title: 'SovereignPA-Bench: Evaluating User-Owned Personal Agents under Evolving Intent, Platform Mediation,
+  and Consent Constraints'
+url: https://arxiv.org/abs/2607.05363v1
+authors:
+- Dylan Zongmin Liu
+venue: arXiv
+year: 2026
+summary: SovereignPA-Bench is an executable benchmark for evaluating user-owned personal agents on sovereignty,
+  privacy, consent, and resistance to manipulation, moving beyond task completion to system-level properties.
+harness_layer:
+- observation-eval
+sprs:
+- privacy
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a system-level benchmark for evaluating trustworthy agentic systems,
+    focusing on user sovereignty, privacy, and consent, which are critical for agent trustworthiness.
+status: draft

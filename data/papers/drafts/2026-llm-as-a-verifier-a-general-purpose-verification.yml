@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-llm-as-a-verifier-a-general-purpose-verification
+type: papers
+title: 'LLM-as-a-Verifier: A General-Purpose Verification Framework'
+url: https://arxiv.org/abs/2607.05391v1
+authors:
+- Jacky Kwok
+- Shulu Li
+- Pranav Atreya
+- Yuejiang Liu
+- Yixing Jiang
+- Chelsea Finn
+- Marco Pavone
+- Ion Stoica
+- Azalia Mirhoseini
+venue: arXiv
+year: 2026
+summary: A general-purpose verification framework, LLM-as-a-Verifier, provides fine-grained, continuous
+  feedback for agentic tasks by computing expectation over scoring token logits, enabling improved verification
+  accuracy and serving as a proxy for task progress in agentic systems.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a verification framework that provides fine-grained feedback for agentic
+    tasks, directly contributing to the observation and evaluation of agent behavior.
+status: draft
