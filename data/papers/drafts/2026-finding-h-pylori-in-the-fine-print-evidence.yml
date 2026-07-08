@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-finding-h-pylori-in-the-fine-print-evidence
+type: papers
+title: 'Finding H. pylori in the Fine Print: Evidence-Linked Multi-Agent Case Finding from Gastric Biopsy
+  Reports'
+url: https://arxiv.org/abs/2607.06435v1
+authors:
+- Yufan Wang
+- Anit Kumar Sahu
+- Yan Fei Ng
+- Daniel Kang
+- Shayan Vassef
+- Soorya Ram Shimgekar
+- Koustuv Saha
+- Piyum Zonooz
+- Navin Kumar
+- Chee Leong Cheng
+- Li Yan Khor
+venue: arXiv
+year: 2026
+summary: A multi-agent system (nMAS) for extracting H. pylori evidence from gastric biopsy reports, demonstrating
+  workflow integration and traceability with source-sentence linking for clinician verification.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper presents a multi-agent system architecture for a real-world clinical task, focusing
+    on workflow integration, traceability, and human oversight efficiency, which are key systems-engineering
+    aspects of trustworthy agents.
+status: draft

@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-doomed-from-the-start-early-abort-of-llm
+type: papers
+title: 'Doomed from the Start: Early Abort of LLM Agent Episodes via a Recall-Controlled Probe Cascade'
+url: https://arxiv.org/abs/2607.06503v1
+authors:
+- Kai Ruan
+- Zihe Huang
+- Ziqi Zhou
+- Qianshan Wei
+- Xuan Wang
+- Hao Sun
+venue: arXiv
+year: 2026
+summary: A recall-controlled probe cascade that uses early internal state signals to abort doomed LLM
+  agent episodes, saving inference compute while meeting user-specified global recall targets.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper contributes a practical system for early failure detection and abortion in multi-step
+    agent workflows, directly addressing reliability and compute efficiency in the execution shell.
+status: draft
