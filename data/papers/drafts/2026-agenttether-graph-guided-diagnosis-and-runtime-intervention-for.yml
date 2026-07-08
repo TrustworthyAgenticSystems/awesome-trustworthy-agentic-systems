@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agenttether-graph-guided-diagnosis-and-runtime-intervention-for
+type: papers
+title: 'AgentTether: Graph-Guided Diagnosis and Runtime Intervention for Reliable LLM Agent Operation'
+url: https://arxiv.org/abs/2607.06273v1
+authors:
+- Chenyu Zhao
+- Shenglin Zhang
+- Wenwei Gu
+- Yongqian Sun
+- Dan Pei
+- Chetan Bansal
+- Saravan Rajmohan
+- Minghua Ma
+venue: arXiv
+year: 2026
+summary: AgentTether is a runtime repair framework that diagnoses failures in multi-step agent trajectories
+  using a Critical Transition Graph and provides behavior-scoped guidance and optional runtime intervention
+  for recovery, improving reliability without modifying the agent or environment.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the systems-engineering problem of diagnosing and recovering
+    from failures in long-running agent workflows, contributing to observation, evaluation, and runtime
+    intervention for reliability.
+status: draft
