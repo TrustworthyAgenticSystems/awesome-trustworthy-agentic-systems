@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-attack-success-rate-action-graded-severity-scale
+type: papers
+title: 'Beyond Attack-Success Rate: Action-Graded Severity Scale for Tool-Using AI Agents'
+url: https://arxiv.org/abs/2607.07474v1
+authors:
+- Harry Owiredu-Ashley
+venue: arXiv
+year: 2026
+summary: Introduces an action-graded harm rubric for tool-call trajectories of AI agents, scoring severity
+  on a seven-level ordinal scale based on action reversibility, scope crossing, and privilege expansion,
+  and demonstrates its utility in uncovering hidden risks in existing red-teaming benchmarks.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly contributes to the adversarial testing and evaluation of agentic systems
+    by providing a more nuanced, action-grounded severity metric for red-teaming, which is crucial for
+    understanding and mitigating real-world risks.
+status: draft

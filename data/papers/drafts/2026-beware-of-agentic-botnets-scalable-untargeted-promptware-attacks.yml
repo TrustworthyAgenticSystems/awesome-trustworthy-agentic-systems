@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beware-of-agentic-botnets-scalable-untargeted-promptware-attacks
+type: papers
+title: 'Beware of Agentic Botnets: Scalable Untargeted Promptware Attacks via Universal and Transferable
+  Adversarial HalluSquatting'
+url: https://arxiv.org/abs/2607.07433v1
+authors:
+- Aya Spira
+- Stav Cohen
+- Elad Feldman
+- Ron Bitton
+- Avishai Wool
+- Ben Nassi
+venue: arXiv
+year: 2026
+summary: Introduces "adversarial hallucination squatting" to exploit LLM tendencies to hallucinate resource
+  identifiers, enabling scalable untargeted promptware attacks and botnet establishment by preemptively
+  registering hallucinated resource names to host adversarial prompts.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper describes a novel, scalable red-teaming attack against agentic systems by exploiting
+    LLM hallucinations to deliver promptware, directly addressing system-level security.
+status: draft
