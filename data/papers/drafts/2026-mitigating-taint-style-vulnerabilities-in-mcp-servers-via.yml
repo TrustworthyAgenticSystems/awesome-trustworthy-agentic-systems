@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mitigating-taint-style-vulnerabilities-in-mcp-servers-via
+type: papers
+title: Mitigating Taint-Style Vulnerabilities in MCP Servers via Security-Aware Tool Descriptions
+url: https://arxiv.org/abs/2607.07461v1
+authors:
+- Yang Shi
+- Jiaheng Fu
+- Yihe Huang
+- Ruixiang Wu
+- Chengyao Sun
+- Kaifeng Huang
+venue: arXiv
+year: 2026
+summary: Analyzes taint-style vulnerabilities in MCP servers and proposes SPELLSMITH, a system that uses
+  security-aware tool descriptions and LLM self-reflection to mitigate these vulnerabilities by strengthening
+  internal decision-making.
+harness_layer:
+- tool-interface
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses security vulnerabilities in the tool-interface layer of agentic systems
+    with a concrete mitigation strategy.
+status: draft
