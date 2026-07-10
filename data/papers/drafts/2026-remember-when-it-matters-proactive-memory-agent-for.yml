@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-remember-when-it-matters-proactive-memory-agent-for
+type: papers
+title: 'Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents'
+url: https://arxiv.org/abs/2607.08716v1
+authors:
+- Yifan Wu
+- Lizhu Zhang
+- Yuhang Zhou
+- Mingyi Wang
+- Bo Peng
+- Serena Li
+- Xiangjun Fan
+- Zhuokai Zhao
+venue: arXiv
+year: 2026
+summary: Introduces a proactive memory agent that actively updates a structured memory bank and selectively
+  injects reminders into an action agent's context to combat "behavioral state decay" in long-horizon
+  tasks.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: Addresses a core reliability problem in agent memory management (behavioral state decay)
+    with a plug-and-play systems-level solution for existing agent harnesses.
+status: draft

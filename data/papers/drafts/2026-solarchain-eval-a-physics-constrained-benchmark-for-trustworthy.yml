@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-solarchain-eval-a-physics-constrained-benchmark-for-trustworthy
+type: papers
+title: 'SolarChain-Eval: A Physics-Constrained Benchmark for Trustworthy Economic Agents in Decentralized
+  Energy Markets'
+url: https://arxiv.org/abs/2607.08681v1
+authors:
+- Shilin Ou
+- Yifan Xu
+- Luyao Zhang
+venue: arXiv
+year: 2026
+summary: SolarChain-Eval is a physics-constrained benchmark for evaluating trustworthy economic agents
+  in decentralized energy markets, assessing policies across market utility, physical safety, slippage,
+  action smoothness, spatial fairness, and auditability, and incorporating an LLM-based Planner/Auditor
+  layer for intervention and logging.
+harness_layer:
+- observation-eval
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a benchmark and an LLM-based Planner/Auditor layer for evaluating trustworthy
+    agentic systems in a cyber-physical environment, directly addressing observation, evaluation, and
+    safety concerns.
+status: draft
