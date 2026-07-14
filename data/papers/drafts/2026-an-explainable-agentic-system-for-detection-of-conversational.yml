@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-an-explainable-agentic-system-for-detection-of-conversational
+type: papers
+title: An Explainable Agentic System for Detection of Conversational Scams with Summary-Based Memory
+url: https://arxiv.org/abs/2607.11707v1
+authors:
+- Ahmed Omar Salim Adnan
+- Yogananda Manjunath
+- Shivanjali Khare
+venue: arXiv
+year: 2026
+summary: An explainable agentic system for detecting multi-turn conversational scams using summary-based
+  memory to track long-horizon deceptive patterns, evaluated on a new benchmark and user studies.
+harness_layer:
+- memory
+sprs:
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes an agentic system that uses memory to detect long-running conversational
+    scams, directly addressing a safety concern in agent interactions.
+status: draft

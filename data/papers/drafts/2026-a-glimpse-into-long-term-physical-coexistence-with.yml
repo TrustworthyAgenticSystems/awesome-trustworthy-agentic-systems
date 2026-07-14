@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-glimpse-into-long-term-physical-coexistence-with
+type: papers
+title: A Glimpse into Long-term Physical Coexistence with Intelligent Robots
+url: https://arxiv.org/abs/2607.11377v1
+authors:
+- Weiqi Jin
+- Peijun Tang
+- Kuncheng Luo
+- Baifu Huang
+- Binyan Sun
+- Haotian Yang
+- Shangjin Xie
+- Jianan Wang
+venue: arXiv
+year: 2026
+summary: Introduces PHILIA, a multi-robot agent architecture with a robot gateway abstraction that decouples
+  high-level agent reasoning from low-level robot execution, enabling compositional user experiences and
+  supporting heterogeneous robot platforms.
+harness_layer:
+- architectures
+sprs:
+- safety
+- reliability
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper presents a reference architecture for trustworthy multi-robot agents, focusing
+    on system design for long-term physical coexistence, intent translation, and human-in-the-loop interaction.
+status: draft
