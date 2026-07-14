@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-skill-optimization-over-lie-algebroids
+type: papers
+title: Agentic Skill Optimization over Lie Algebroids
+url: https://arxiv.org/abs/2607.11493v1
+authors:
+- Sridhar Mahadevan
+venue: arXiv
+year: 2026
+summary: Introduces a Lie algebroid framework (LASKO) to model and optimize agentic skill edits, enabling
+  faster screening of non-commuting edits before expensive LLM validation.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a novel mathematical framework for optimizing agentic skill edits, addressing
+    the reliability and efficiency of agent self-improvement at the execution layer.
+status: draft
