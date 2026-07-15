@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-tracing-agentic-failure-from-the-flow-of-success
+type: papers
+title: Tracing Agentic Failure from the Flow of Success
+url: https://arxiv.org/abs/2607.12747v1
+authors:
+- Samuel Yeh
+- Yiwen Zhu
+- Shaleen Deep
+- Sharon Li
+venue: arXiv
+year: 2026
+summary: Proposes OAT, an unsupervised failure attribution method using neural controlled differential
+  equations to model successful agent trajectories and identify error steps in failed ones, offering a
+  lightweight and efficient debugging solution.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the systems-level problem of failure attribution and debugging in agentic
+    systems with a novel, efficient methodology for observation and evaluation.
+status: draft

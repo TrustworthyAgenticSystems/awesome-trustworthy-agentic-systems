@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-who-grades-the-grader-co-evolving-evaluation-metrics
+type: papers
+title: Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents
+url: https://arxiv.org/abs/2607.12790v1
+authors:
+- Xing Zhang
+- Guanghui Wang
+- Yanwei Cui
+- Ziyuan Li
+- Wei Qiu
+- Bing Zhu
+- Peiyang He
+venue: arXiv
+year: 2026
+summary: Proposes a co-evolutionary system, Double Ratchet, that simultaneously evolves evaluation metrics
+  and agent skills, demonstrating its ability to recover performance gains even when no reliable ground-truth
+  metric exists, and incorporating safety audits.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses the critical systems problem of evaluating and improving self-evolving agents when
+    reliable metrics are absent, with a concrete co-evolutionary architecture and safety considerations.
+status: draft
