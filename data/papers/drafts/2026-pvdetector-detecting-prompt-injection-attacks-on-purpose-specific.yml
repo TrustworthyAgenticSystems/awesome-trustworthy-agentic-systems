@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-pvdetector-detecting-prompt-injection-attacks-on-purpose-specific
+type: papers
+title: 'PVDetector: Detecting Prompt Injection Attacks on Purpose-Specific LLM Agents through Policy-Violation
+  Concept Analysis'
+url: https://arxiv.org/abs/2607.12624v1
+authors:
+- Junhui Wang
+- Hangtao Zhang
+- Zhirun Zheng
+- Li Zeng
+- Jiejun Xiao
+- Xi Luo
+- Lihua Yin
+- Saiqin Long
+venue: arXiv
+year: 2026
+summary: PVDetector is a training-free framework that detects prompt injection attacks on purpose-specific
+  LLM agents by analyzing hidden-state alignment with latent policy-violation concepts derived from contrastive
+  prompts.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses prompt injection attacks on LLM agents by proposing a novel
+    detection mechanism based on hidden-state analysis, which is a core concern for agent security.
+status: draft

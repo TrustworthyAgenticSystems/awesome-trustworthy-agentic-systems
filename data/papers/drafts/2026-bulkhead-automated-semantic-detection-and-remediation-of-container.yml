@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-bulkhead-automated-semantic-detection-and-remediation-of-container
+type: papers
+title: 'Bulkhead: Automated Semantic Detection and Remediation of Container Escape Vulnerabilities'
+url: https://arxiv.org/abs/2607.12723v1
+authors:
+- Qiyuan Fan
+- Zhi Li
+- Junjie Li
+- XiaoFeng Wang
+- Bin Yuan
+- Deqing Zou
+venue: arXiv
+year: 2026
+summary: Bulkhead is an automated framework that uses a multi-agent system to semantically detect and
+  remediate path traversal vulnerabilities in containerized AI workloads by analyzing host-container interactions
+  and generating verified patches.
+harness_layer:
+- tool-interface
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses a critical security vulnerability (path traversal) in containerized
+    AI workloads, which often involve agent tool interfaces, and proposes a multi-agent system for automated
+    detection and remediation.
+status: draft

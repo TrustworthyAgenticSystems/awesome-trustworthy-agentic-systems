@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-software-supply-chains-are-dead-use-case-oriented
+type: papers
+title: 'Software Supply Chains are Dead: Use-Case-Oriented Regeneration'
+url: https://arxiv.org/abs/2607.13021v1
+authors:
+- Tanmay Singla
+- James C. Davis
+venue: arXiv
+year: 2026
+summary: Proposes use-case-oriented regeneration as a new software sourcing paradigm that synthesizes
+  specific dependency functionality using an agentic workflow to reduce external trust and supply chain
+  attack surface.
+harness_layer:
+- supply-chain
+sprs:
+- security
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses software supply chain security and reliability by proposing an agentic
+    system for verifiable, repository-specific code synthesis.
+status: draft
