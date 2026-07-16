@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cava-canonical-action-verification-and-attestation-for-runtime
+type: papers
+title: 'CAVA: Canonical Action Verification and Attestation for Runtime Governance of Agentic AI Systems'
+url: https://arxiv.org/abs/2607.13716v1
+authors:
+- Zexun Wang
+venue: arXiv
+year: 2026
+summary: CAVA provides a runtime-semantics layer to canonicalize heterogeneous agent activities into stable,
+  verifiable action objects, enabling consistent governance and attestation across diverse execution environments.
+harness_layer:
+- oversight
+sprs:
+- security
+- safety
+- reliability
+open_problems:
+- observability-attribution
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: 'This paper directly addresses a core systems-engineering problem for trustworthy agents:
+    standardizing and verifying actions across heterogeneous runtimes for governance and oversight.'
+status: draft
