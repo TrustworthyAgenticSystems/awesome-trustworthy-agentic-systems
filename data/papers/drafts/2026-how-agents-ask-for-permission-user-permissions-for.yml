@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-how-agents-ask-for-permission-user-permissions-for
+type: papers
+title: 'How Agents Ask for Permission: User Permissions for AI Agents, from Interfaces to Enforcement'
+url: https://arxiv.org/abs/2607.13718v1
+authors:
+- Alexandra E. Michael
+- Franziska Roesner
+venue: arXiv
+year: 2026
+summary: A survey and taxonomy of user-level permission systems for AI agents, covering specification,
+  derivation, and enforcement mechanisms, with a comparison to commercial agents and identification of
+  research gaps.
+harness_layer:
+- permissions
+sprs:
+- security
+- privacy
+- safety
+open_problems:
+- least-privilege-reasoning
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses user-level permissions and authorization for AI agents, a core
+    systems-engineering problem for trustworthy agents, by surveying existing approaches and identifying
+    gaps.
+status: draft

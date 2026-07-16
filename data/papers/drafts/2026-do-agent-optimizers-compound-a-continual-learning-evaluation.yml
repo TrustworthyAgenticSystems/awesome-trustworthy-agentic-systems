@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-do-agent-optimizers-compound-a-continual-learning-evaluation
+type: papers
+title: Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0
+url: https://arxiv.org/abs/2607.14004v1
+authors:
+- Wenxiao Wang
+- Priyatham Kattakinda
+- Soheil Feizi
+venue: arXiv
+year: 2026
+summary: Evaluates the compounding effect of agent optimization methods in a continual-learning setting,
+  finding that regression control within the optimization loop is crucial for sustained improvement and
+  positive transfer to new tasks.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses the long-term reliability and evaluation of agent optimization methods in a dynamic,
+    continual-learning environment, which is a systems-level concern for deployed agents.
+status: draft

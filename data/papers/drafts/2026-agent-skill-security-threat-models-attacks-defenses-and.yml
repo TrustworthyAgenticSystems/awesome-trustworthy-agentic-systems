@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agent-skill-security-threat-models-attacks-defenses-and
+type: papers
+title: 'Agent Skill Security: Threat Models, Attacks, Defenses, and Evaluation'
+url: https://arxiv.org/abs/2607.13987v1
+authors:
+- Sanket Badhe
+- Priyanka Tiwari
+venue: arXiv
+year: 2026
+summary: Presents SkillSec-Eval, a lifecycle-aware framework for systematically evaluating the security
+  of reusable agent skills, identifying vulnerabilities across repository admission, semantic retrieval,
+  planner selection, execution, and skill evolution.
+harness_layer:
+- tool-interface
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses security risks in the lifecycle of reusable agent skills, which are critical
+    components of agentic systems, with a systematic evaluation framework.
+status: draft
