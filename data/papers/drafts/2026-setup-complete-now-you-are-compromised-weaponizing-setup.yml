@@ -1,0 +1,28 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-setup-complete-now-you-are-compromised-weaponizing-setup
+type: papers
+title: 'Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents'
+url: https://arxiv.org/abs/2607.15143v1
+authors:
+- Aadesh Bagmar
+- Pushkar Saraf
+venue: arXiv
+year: 2026
+summary: Systematic evaluation of package-install-time supply-chain attacks delivered through project
+  setup documentation against AI coding agents, demonstrating vulnerabilities across different harnesses
+  and proposing pre-install checks as a defense.
+harness_layer:
+- supply-chain
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses supply-chain security for AI coding agents by identifying a novel attack
+    vector and proposing a systems-level defense.
+status: draft

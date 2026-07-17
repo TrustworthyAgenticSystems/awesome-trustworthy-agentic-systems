@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-success-rate-cost-aware-evaluation-of-offensive
+type: papers
+title: 'Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents'
+url: https://arxiv.org/abs/2607.15263v1
+authors:
+- Paul Kassianik
+- Blaine Nelson
+- Yaron Singer
+venue: arXiv
+year: 2026
+summary: Proposes and demonstrates a cost-aware evaluation methodology for security agents, decomposing
+  performance by inference and tool spend, to measure economic efficiency and operational fit beyond just
+  success rate.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a novel evaluation methodology for agentic systems that focuses on operational
+    costs and efficiency, which is crucial for trustworthy deployments.
+status: draft

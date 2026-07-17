@@ -1,0 +1,47 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-brainpilot-automating-brain-discovery-with-agentic-research
+type: papers
+title: 'BrainPilot: Automating Brain Discovery with Agentic Research'
+url: https://arxiv.org/abs/2607.15079v1
+authors:
+- Haoxuan Li
+- Tianci Gao
+- Jianhe Li
+- Yang Fan
+- Runze Shi
+- Weiran Wang
+- Tianxiang Zhao
+- Zezhao Wu
+- Xiaoyang Jiang
+- Qihui Zhang
+- Jia Li
+- Xiao Xiao
+- Kai Du
+- Xiaoxuan Jia
+- Chao Xie
+- Lu Mi
+venue: arXiv
+year: 2026
+summary: BrainPilot is an open-source multi-agent system for brain science research that uses a PI agent
+  to coordinate specialist agents, grounded in curated domain knowledge and a skill library, with an auditable
+  Graph of Trace and an Auditor agent for fabrication checking.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper presents an end-to-end multi-agent architecture for scientific research, focusing
+    on traceability, domain grounding, and fabrication checking to ensure trustworthiness in a high-stakes
+    domain.
+status: draft
