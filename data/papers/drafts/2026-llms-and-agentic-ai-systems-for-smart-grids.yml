@@ -1,0 +1,44 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-llms-and-agentic-ai-systems-for-smart-grids
+type: papers
+title: 'LLMs and Agentic AI Systems for Smart Grids: A Tutorial on Architectures and Applications'
+url: https://arxiv.org/abs/2607.18147v1
+authors:
+- Daniela Rojas
+- Abdulwahab Albassam
+- Aidan G. Leung
+- Jett Ngo
+- Ryan Luo
+- Peter R. Quawas
+- Junpyung Kim
+- Kangkai Liang
+- Mansi Nanavati
+- Jonathan Mai
+- Meng-Chi Tsai
+- Yun-Tong Tsai
+- Yize Chen
+- Yuanyuan Shi
+venue: arXiv
+year: 2026
+summary: Presents a solver-grounded design principle for agentic systems in smart grids, where trusted
+  tools perform numerical computation and a verification gate ensures physical feasibility, instantiated
+  across four case studies.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- intent-to-constraints
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Provides a reference architecture and design principle for trustworthy agentic systems in
+    a critical domain, addressing reliability and safety through explicit verification and tool grounding.
+status: draft
