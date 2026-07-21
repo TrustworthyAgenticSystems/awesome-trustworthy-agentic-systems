@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-etas-an-effect-typed-language-for-agent-systems
+type: papers
+title: 'ETAS: An Effect-Typed Language for Agent Systems'
+url: https://arxiv.org/abs/2607.17780v1
+authors:
+- Huiri Tan
+- Yikun Wang
+- Puyang Zhang
+- Shangyu Li
+- Jiasi Shen
+venue: arXiv
+year: 2026
+summary: ETAS is an effect-typed programming language for agent systems that formalizes agentic nondeterminism,
+  tool calls, memory, and policies as semantic program elements, enabling static and dynamic reasoning
+  about authorization, recovery, and audit traces.
+harness_layer:
+- foundations
+sprs:
+- security
+- reliability
+- safety
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper introduces a foundational programming language for agent systems, directly addressing
+    core trustworthiness concerns like authorization, recovery, and audit through type and effect systems.
+status: draft

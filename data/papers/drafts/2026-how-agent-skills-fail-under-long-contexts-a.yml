@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-how-agent-skills-fail-under-long-contexts-a
+type: papers
+title: 'How Agent Skills Fail under Long Contexts: A White-Box Study in Code Auditing'
+url: https://arxiv.org/abs/2607.17937v1
+authors:
+- Yue Xue
+venue: arXiv
+year: 2026
+summary: Empirical study of how agent skills, specifically procedural instructions and checks, fail under
+  long contexts in a code-auditing workflow, identifying failure modes like lost requirements and editing
+  drift.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: This paper directly addresses how agent memory and context management impact the reliability
+    of long-running agent workflows, providing a white-box study of failure modes.
+status: draft

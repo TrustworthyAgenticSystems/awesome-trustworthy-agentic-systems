@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-over-reliance-on-test-agents-in-ai-assisted
+type: papers
+title: (Over)Reliance on Test Agents in AI-Assisted Software Testing
+url: https://arxiv.org/abs/2607.17927v1
+authors:
+- Eduard Paul Enoiu
+venue: arXiv
+year: 2026
+summary: Analyzes the problem of human overreliance on AI test agents, framing it as an agency and assurance
+  problem, and proposes a framework for data collection on overreliance in test agent workflows.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses human oversight and cognitive load in the context of AI-assisted software testing,
+    which is relevant to trustworthy agentic systems.
+status: draft
