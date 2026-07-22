@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agents-in-the-wild-where-research-meets-deployment
+type: papers
+title: 'Agents in the Wild: Where Research Meets Deployment'
+url: https://arxiv.org/abs/2607.19336v1
+authors:
+- Grace Hui Yang
+- Pranav N. Venkit
+- Hooman Sedghamiz
+- Enrico Santus
+- Victor Dibia
+- Ioana Baldini
+venue: arXiv
+year: 2026
+summary: A tutorial exploring deployment challenges for agentic systems, analyzing common design patterns,
+  mitigation strategies like verification pipelines and human-in-the-loop supervision, and providing practical
+  guidance for safe and reliable deployment.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the systems-level challenges of deploying trustworthy agents,
+    focusing on practical mitigation strategies and architectural patterns from real-world experience.
+status: draft
