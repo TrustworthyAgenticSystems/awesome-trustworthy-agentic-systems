@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-supra-cognitive-modes-a-routed-architecture-for-agent
+type: papers
+title: 'Supra Cognitive Modes: A Routed Architecture for Agent Memory'
+url: https://arxiv.org/abs/2607.19096v1
+authors:
+- Joshua Tobkin
+- David Yang
+venue: arXiv
+year: 2026
+summary: Describes Supra Cognitive Modes (SCM), an architecture for agent memory that routes queries to
+  different retrieval and synthesis modes over a shared ingest substrate, and characterizes its performance
+  on memory benchmarks.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.75
+  rationale: The paper describes a system architecture for agent memory, including routing logic and substrate
+    design, which is relevant to the memory harness layer.
+status: draft

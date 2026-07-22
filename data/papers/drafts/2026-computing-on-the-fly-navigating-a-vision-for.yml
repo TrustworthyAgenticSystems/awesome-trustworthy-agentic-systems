@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-computing-on-the-fly-navigating-a-vision-for
+type: papers
+title: 'Computing on the Fly: Navigating a Vision for the Future of Drone Computing'
+url: https://arxiv.org/abs/2607.19213v1
+authors:
+- Kevin Butler
+- Christopher Stewart
+- Nils Aschenbruck
+- Alina Gerall
+- Weisong Shi
+- Deborah Silver
+- Ufuk Topcu
+venue: arXiv
+year: 2026
+summary: A vision report identifying twelve technical challenges for operating drone fleets safely and
+  reliably at scale, including AI autonomy, agentic systems, and critical infrastructure protection.
+harness_layer:
+- foundations
+sprs:
+- safety
+- reliability
+- security
+open_problems:
+- long-horizon-eval
+- transactional-agency
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a foundational framing of systems-level challenges for trustworthy agentic
+    systems (drones) at scale, directly addressing the 'foundations' layer.
+status: draft
