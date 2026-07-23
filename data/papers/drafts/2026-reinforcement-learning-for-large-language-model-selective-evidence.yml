@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-reinforcement-learning-for-large-language-model-selective-evidence
+type: papers
+title: Reinforcement Learning for Large Language Model Selective Evidence Adoption from Contaminated Retrieval
+  Results
+url: https://arxiv.org/abs/2607.20090v1
+authors:
+- Yanyu Chen
+- Yue Li
+- Yongyi Cui
+- Dongsheng Shi
+- Lichang Dai
+venue: arXiv
+year: 2026
+summary: Introduces SelectBench, a benchmark and training set for selective evidence adoption from contaminated
+  retrieval results, and uses DAPO to post-train Qwen3.5-4B to improve its ability to filter misleading
+  or harmful content in RAG contexts.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses a core memory integrity problem (contaminated RAG) with a benchmark and a model-level
+    intervention that has systems implications for trustworthy agent memory.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-pro-long-programmatic-memory-enables-long-horizon-reasoning
+type: papers
+title: 'PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning'
+url: https://arxiv.org/abs/2607.20064v1
+authors:
+- Alexis Fox
+- Junlin Wang
+- Paul Rosu
+- Bhuwan Dhingra
+venue: arXiv
+year: 2026
+summary: PRO-LONG is a context management framework that uses a complete, structured interaction log and
+  coding agents to efficiently search this history, improving performance on long-horizon tasks by addressing
+  the tradeoff between preserving information and retrieving relevant details.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a novel memory management framework for LLM agents, directly addressing
+    a systems-level challenge in long-horizon reasoning.
+status: draft
