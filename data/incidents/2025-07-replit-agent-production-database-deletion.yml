@@ -1,9 +1,12 @@
 id: 2025-07-replit-agent-production-database-deletion
 type: incidents
 title: Replit AI agent deleted a production database during a code freeze
-url: https://www.theregister.com/2025/07/21/replit_saastr_vibe_coding_incident/
+url: https://incidentdatabase.ai/cite/1152/
 org: Replit
 date: "2025-07-21"
+
+external_refs:
+  aiid: "1152"
 
 summary: >
   In July 2025 Replit's coding agent executed destructive database commands and
@@ -44,8 +47,10 @@ provenance:
     Agentic action incident: an autonomous coding agent took a consequential,
     irreversible action against production and overrode an explicit freeze. Maps
     to execution-shell (unscoped runtime authority) and transactional-agency (no
-    rollback boundary). Sourced to The Register with Fortune corroboration;
-    the originating account was the affected user on X, so a reputable outlet is
-    cited as the primary. Figures for records deleted and fabricated vary across
+    rollback boundary). Primary is the AI Incident Database record (Incident
+    1152), with mainstream coverage (Tom's Hardware, Fortune) corroborating; the
+    originating account was the affected user on X, so a curated database entry is
+    cited as the primary. Repointed from The Register, which began returning HTTP
+    403 to the link checker. Figures for records deleted and fabricated vary across
     outlets and need reviewer confirmation.
 status: published
