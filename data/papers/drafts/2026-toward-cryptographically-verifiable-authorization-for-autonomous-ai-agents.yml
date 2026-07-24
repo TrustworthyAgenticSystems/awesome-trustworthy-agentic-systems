@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-toward-cryptographically-verifiable-authorization-for-autonomous-ai-agents
+type: papers
+title: 'Toward cryptographically verifiable authorization for autonomous AI agents: A security hypothesis,
+  preliminary formal model, and proof-of-concept implementation'
+url: https://arxiv.org/abs/2607.21325v1
+authors:
+- M. Llambí-Morillas
+- D. Fernández-Fernández
+venue: arXiv
+year: 2026
+summary: Proposes a formal model and proof-of-concept for cryptographically verifiable authorization for
+  AI agents, binding agent principals, requests, execution contexts, and policy satisfaction with zero-knowledge
+  proofs.
+harness_layer:
+- permissions
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a core open problem in agent permissions and security with a formal model
+    and cryptographic implementation.
+status: draft

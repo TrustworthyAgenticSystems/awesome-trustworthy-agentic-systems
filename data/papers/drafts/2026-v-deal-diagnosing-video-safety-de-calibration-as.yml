@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-v-deal-diagnosing-video-safety-de-calibration-as
+type: papers
+title: 'V-DEAL: Diagnosing Video Safety De-Calibration as an Understanding-Refusal Coupling Failure'
+url: https://arxiv.org/abs/2607.21151v1
+authors:
+- Zhetong Zhang
+- Honghao Fu
+- Miao Xu
+- Yiwei Wang
+- Yujun Cai
+venue: arXiv
+year: 2026
+summary: V-DEAL is a diagnostic framework that analyzes safety de-calibration in Video LLMs, revealing
+  that harmful videos with benign queries achieve higher attack success rates due to a weaker refusal
+  tendency from visual understanding compared to textual understanding, and proposes a prompt injection
+  intervention.
+harness_layer:
+- red-team
+sprs:
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper diagnoses a specific vulnerability in Video LLMs related to safety de-calibration
+    and proposes a prompt injection intervention, which falls under red-teaming and adversarial testing
+    of agentic systems.
+status: draft

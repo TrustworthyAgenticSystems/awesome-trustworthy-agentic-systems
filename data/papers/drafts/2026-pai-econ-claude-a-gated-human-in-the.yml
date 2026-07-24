@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-pai-econ-claude-a-gated-human-in-the
+type: papers
+title: 'pAI-Econ-claude: A Gated Human-in-the-Loop Multi-Agent Architecture for AI-Assisted Economic Theory
+  Development'
+url: https://arxiv.org/abs/2607.21268v1
+authors:
+- Chen Zhu
+- Xiaolu Wang
+- Weilong Zhang
+venue: arXiv
+year: 2026
+summary: Proposes a gated human-in-the-loop multi-agent architecture for economic theory development,
+  using inspectable intermediate records, specialized gates for failure diagnosis, and human checkpoints
+  for irreversible decisions to improve reliability and auditability.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses human oversight and reliability in multi-agent systems where machine-readable correctness
+    signals are absent, with a concrete architecture and empirical evaluation.
+status: draft
