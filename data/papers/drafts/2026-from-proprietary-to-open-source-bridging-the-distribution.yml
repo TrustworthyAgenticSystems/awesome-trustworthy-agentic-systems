@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-proprietary-to-open-source-bridging-the-distribution
+type: papers
+title: 'From Proprietary to Open-Source: Bridging the Distribution Gap via Multi-Agent Protocol Distillation
+  in Agentic Search'
+url: https://arxiv.org/abs/2607.24280v1
+authors:
+- Junlin Liu
+- Jiangwang Chen
+- Zixin Song
+- Shuaiyu Zhou
+- Chunji Lv
+- Hank Wu
+- Kailin Jiang
+- Jinyang Wu
+- Bohan Yu
+- Chenxi Zhou
+venue: arXiv
+year: 2026
+summary: Multi-Agent Protocol Distillation (MAPD) is a joint distillation and RL framework that uses a
+  structured, style-normalized JSON protocol as an intermediate representation to distill reasoning competence
+  from proprietary models to open-source agentic search systems.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a method for distilling reasoning competence from proprietary models
+    to open-source multi-agent systems using a structured protocol, which is a systems-level contribution
+    to agent coordination and reliability.
+status: draft
