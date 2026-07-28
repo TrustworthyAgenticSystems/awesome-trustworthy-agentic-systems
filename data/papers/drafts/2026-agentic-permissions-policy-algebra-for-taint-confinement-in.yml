@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentic-permissions-policy-algebra-for-taint-confinement-in
+type: papers
+title: Agentic Permissions Policy Algebra for Taint Confinement in LLM Agents
+url: https://arxiv.org/abs/2607.24625v1
+authors:
+- Arseny Kravchenko
+- Vadim Liventsev
+- Innokentii Konstantinov
+- Ildar Iskhakov
+- Matvey Kukuy
+venue: arXiv
+year: 2026
+summary: APPA is an Information Flow Control framework that uses engine-managed context branching and
+  prospective acquisition enforcement to confine taint from unvetted data in LLM agents, preventing exfiltration
+  while preserving utility.
+harness_layer:
+- permissions
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a core problem in agent permissions and privacy (taint confinement)
+    with a novel, formally proven, and empirically validated systems-level solution.
+status: draft

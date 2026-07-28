@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-making-mathematical-knowledge-explainable-accessible-and-interoperable-through
+type: papers
+title: Making Mathematical Knowledge Explainable, Accessible and Interoperable Through Large Language
+  Model Integration
+url: https://arxiv.org/abs/2607.24512v1
+authors:
+- Jan Range
+- Björn Schembera
+- Dominik Göddeke
+venue: arXiv
+year: 2026
+summary: Proposes integrating LLMs with a mathematical knowledge base via a Model Context Protocol (MCP)
+  server that provides vector-indexed schema retrieval and a Steiner-tree-based join planner to enable
+  natural language interaction with curated, epistemically grounded knowledge.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses the challenge of making curated knowledge bases accessible and interoperable for
+    LLM agents through a structured tool interface (MCP server) and query planning, contributing to the
+    reliability and epistemic safety of agent interactions with external data.
+status: draft

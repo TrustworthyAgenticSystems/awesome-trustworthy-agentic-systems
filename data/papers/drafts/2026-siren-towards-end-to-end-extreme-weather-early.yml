@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-siren-towards-end-to-end-extreme-weather-early
+type: papers
+title: 'SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents'
+url: https://arxiv.org/abs/2607.24588v1
+authors:
+- Hang Ni
+- Weijia Zhang
+- Fan Liu
+- Mengqian Lu
+- Hao Liu
+venue: arXiv
+year: 2026
+summary: SIREN is an experience-grounded LLM agent framework for end-to-end extreme-weather early warning,
+  integrating heterogeneous evidence and tools, and leveraging historical cases for improved performance
+  on complex, interdependent warning procedures.
+harness_layer:
+- architectures
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper presents an end-to-end agent architecture for a critical real-world application
+    (extreme weather warning), addressing the full operational chain and demonstrating improved reliability
+    and safety through systems-level design.
+status: draft
