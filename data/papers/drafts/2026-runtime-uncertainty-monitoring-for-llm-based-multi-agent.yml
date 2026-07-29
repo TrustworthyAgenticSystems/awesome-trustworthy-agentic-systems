@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-runtime-uncertainty-monitoring-for-llm-based-multi-agent
+type: papers
+title: Runtime Uncertainty Monitoring for LLM-Based Multi-Agent Systems Using Bayesian Networks
+url: https://arxiv.org/abs/2607.25877v1
+authors:
+- Bart Custers
+- Koorosh Aslansefat
+venue: arXiv
+year: 2026
+summary: Proposes a multi-agent framework for actuarial risk modeling that uses token-level log-probabilities
+  and a Bayesian Network to monitor and propagate runtime uncertainty across agent workflows, providing
+  insights into workflow stability.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses runtime uncertainty monitoring and propagation in multi-agent systems, which is
+    a direct contribution to the observability and reliability of agentic systems in high-stakes environments.
+status: draft

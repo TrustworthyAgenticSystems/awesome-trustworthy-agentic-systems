@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-archer-agentic-rule-and-compliance-harness-for-executable
+type: papers
+title: 'ARCHER: Agentic Rule and Compliance Harness for Executable Regulations'
+url: https://arxiv.org/abs/2607.25566v1
+authors:
+- Chiraag Singh Anand
+- Xue Wen Tan
+- Lionel Teo
+- Eric Tan
+venue: arXiv
+year: 2026
+summary: ARCHER is a test-driven, deterministically orchestrated multi-agent program-synthesis harness
+  that generates auditable verification code for regulatory compliance, enabling transparent and scalable
+  compliance checking.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-agent orchestration system for generating verifiable code, directly
+    addressing reliability and safety in a critical application domain.
+status: draft

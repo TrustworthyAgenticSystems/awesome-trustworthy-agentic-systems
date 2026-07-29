@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-orchbench-evaluating-multi-agent-orchestration-plans-in-isolation
+type: papers
+title: 'OrchBench: Evaluating Multi-Agent Orchestration Plans in Isolation via Deterministic Simulation'
+url: https://arxiv.org/abs/2607.25656v1
+authors:
+- Zhenzhen Ren
+- Jiyan He
+- Xinpeng Zhang
+- Zhenxing Qian
+- Ke Han
+- Shuxin Zheng
+- GuoBiao Li
+- Xiaoqing Zhang
+venue: arXiv
+year: 2026
+summary: OrchBench is a simulation-based benchmark that evaluates multi-agent orchestration plans in isolation
+  by modeling task dependencies as DAGs and deterministically simulating plan execution to measure quality,
+  makespan, and token cost.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a novel simulation-based evaluation method for multi-agent orchestration
+    plans, directly addressing the reliability and evaluation of agent coordination logic.
+status: draft

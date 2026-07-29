@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-vetclaw-an-edge-cloud-multimodal-agentic-system-for
+type: papers
+title: 'VetClaw: An Edge-Cloud Multimodal Agentic System for Veterinary Disease Screening'
+url: https://arxiv.org/abs/2607.26042v1
+authors:
+- Syed Mhamudul Hasan
+- Anas AlSobeh
+- Hussein Zangoti
+- Abdur R. Shahid
+venue: arXiv
+year: 2026
+summary: VetClaw is an edge-cloud multimodal agentic system that separates agent interaction from workflow
+  orchestration to enable safety-aware disease screening, including input validation, safety checks, conditional
+  routing, and failure handling.
+harness_layer:
+- architectures
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper presents an end-to-end reference architecture for a safety-critical agentic system,
+    detailing its operational stack and workflow management.
+status: draft
