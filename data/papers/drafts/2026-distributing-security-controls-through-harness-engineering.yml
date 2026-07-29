@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-distributing-security-controls-through-harness-engineering
+type: papers
+title: Distributing Security Controls Through Harness Engineering
+url: https://arxiv.org/abs/2607.25890v1
+authors:
+- William Robert Gore
+venue: arXiv
+year: 2026
+summary: Investigates the distribution of off-the-shelf security controls for AI coding agents via a custom
+  agent harness, demonstrating that OS sandboxing, skill scanning, and tool restriction can be embedded
+  and distributed effectively.
+harness_layer:
+- architectures
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses the systems-engineering challenge of distributing security controls
+    for agentic systems through a custom harness, with empirical validation.
+status: draft
