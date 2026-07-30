@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-before-agents-speak-pre-hoc-failure-risk-inference
+type: papers
+title: 'Before Agents Speak: Pre-hoc Failure Risk Inference in Multi-Agent Systems'
+url: https://arxiv.org/abs/2607.26836v1
+authors:
+- Shi Lin
+- Chenpei Wang
+- Peng Qian
+- Dezhang Kong
+- Minghao Li
+- Yufeng Li
+- Xun Wang
+venue: arXiv
+year: 2026
+summary: HalluProp is a pre-hoc framework that infers individual agent failures and emergent system-level
+  hallucination risks in multi-agent systems by modeling intrinsic hallucination risks and inter-agent
+  risk propagation, enabling early intervention.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses systemic risk propagation and pre-hoc failure inference in
+    multi-agent systems, contributing to the reliability and safety of agent coordination.
+status: draft

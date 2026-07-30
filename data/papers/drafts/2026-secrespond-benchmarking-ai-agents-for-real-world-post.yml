@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-secrespond-benchmarking-ai-agents-for-real-world-post
+type: papers
+title: 'SecRespond: Benchmarking AI Agents for Real-World Post-Compromise Incident Response'
+url: https://arxiv.org/abs/2607.26791v1
+authors:
+- Lehan Wang
+- Boli Chen
+- Ruixue Ding
+- Pengjun Xie
+- Jinwei Huang
+- Zhendong Liu
+- Shuo Wang
+- Tao Lei
+- Xin Ouyang
+- Xiaomeng Li
+venue: arXiv
+year: 2026
+summary: SecRespond is a benchmark for evaluating LLM agents on post-compromise incident response workflows,
+  requiring forensic reports and remediation plans from compromised host snapshots, revealing agent limitations
+  in proactive investigation and comprehensive remediation.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a benchmark for evaluating agentic systems in a critical security context,
+    focusing on long-horizon, real-world incident response workflows.
+status: draft

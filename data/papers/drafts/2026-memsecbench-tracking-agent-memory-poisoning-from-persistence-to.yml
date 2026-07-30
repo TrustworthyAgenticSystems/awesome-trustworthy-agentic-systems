@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-memsecbench-tracking-agent-memory-poisoning-from-persistence-to
+type: papers
+title: 'MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair'
+url: https://arxiv.org/abs/2607.27080v1
+authors:
+- Xuanze Chen
+- Xukang Xie
+- Wentao Fu
+- Jiajun Zhou
+- Shanqing Yu
+- Qi Xuan
+venue: arXiv
+year: 2026
+summary: MemSecBench is a task-grounded benchmark for evaluating the lifecycle security of agent memory
+  systems, tracking malicious content from persistence to downstream consequences and selective repair
+  across diverse memory backends.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses memory integrity and security by providing a benchmark for
+    memory poisoning attacks and repair mechanisms in agentic systems.
+status: draft
