@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentsnare-learning-to-delay-divert-and-defuse-autonomous
+type: papers
+title: 'AgentSnare: Learning to Delay, Divert, and Defuse Autonomous Penetration Agents'
+url: https://arxiv.org/abs/2607.26998v1
+authors:
+- Ruoyu Wang
+- Heng Zhao
+- Renjie Wu
+- Mengnan Zhao
+- Zhixuan Chu
+- Wanyu Lin
+- Tianhang Zheng
+venue: arXiv
+year: 2026
+summary: AgentSnare is a trajectory-adaptive deception system that dynamically unfolds a decoy environment
+  to steer autonomous penetration agents away from real targets by absorbing tool calls, diverting post-entry
+  trajectories, and inducing false completion reports.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper presents a novel red-teaming defense mechanism that dynamically deceives and diverts
+    autonomous agents, directly addressing system-level security in agentic workflows.
+status: draft

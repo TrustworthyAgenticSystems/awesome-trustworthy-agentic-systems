@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-do-latent-channels-actually-communicate-a-causal-audit
+type: papers
+title: Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM
+url: https://arxiv.org/abs/2607.26773v1
+authors:
+- Huixiang Zhang
+- Mahzabeen Emu
+venue: arXiv
+year: 2026
+summary: Introduces a causal audit method to evaluate the actual information flow and task-relevant utility
+  of latent communication channels in multi-agent LLM systems, decomposing aggregate performance effects
+  into message presence, content, and other-agent contributions.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides a methodological contribution to understanding and evaluating the reliability
+    of information exchange in multi-agent coordination, which is a systems-level concern.
+status: draft
