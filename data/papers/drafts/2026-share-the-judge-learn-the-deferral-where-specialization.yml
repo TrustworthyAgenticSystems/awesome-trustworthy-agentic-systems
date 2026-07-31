@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-share-the-judge-learn-the-deferral-where-specialization
+type: papers
+title: 'Share the Judge, Learn the Deferral: Where Specialization Helps LLM Evaluation'
+url: https://arxiv.org/abs/2607.27984v1
+authors:
+- Weining Zhang
+venue: arXiv
+year: 2026
+summary: Investigates architectural choices for specialized LLM evaluators, comparing specialization in
+  model weights versus deferral rules, and finds that shared judgment learning with domain-specific adaptation
+  in an audited release boundary improves accuracy and auditability.
+harness_layer:
+- oversight
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses a practical architectural question for human oversight and evaluation of agentic
+    system outputs, focusing on specialization and trust boundaries in the review process.
+status: draft

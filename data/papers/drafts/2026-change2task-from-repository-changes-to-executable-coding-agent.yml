@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-change2task-from-repository-changes-to-executable-coding-agent
+type: papers
+title: 'Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments'
+url: https://arxiv.org/abs/2607.28591v1
+authors:
+- Haomin Qi
+- Xingliang Wang
+- Xuanqi Gao
+- Baihui Sang
+- Xin Zhang
+- Minghua Ma
+- Pengfei Gao
+- Yu Kang
+- Qingwei Lin
+- Saravan Rajmohan
+- Dongmei Zhang
+- Qi Zhang
+venue: arXiv
+year: 2026
+summary: Change2Task is a system that converts merged pull requests into verified, executable coding agent
+  tasks and environments for training, benchmarking, and continuous evaluation, addressing the need for
+  scalable and realistic evaluation data.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly contributes to the observation and evaluation of agentic systems by providing
+    a method for generating executable, verifiable tasks from repository history, which is crucial for
+    long-horizon evaluation and continuous integration.
+status: draft

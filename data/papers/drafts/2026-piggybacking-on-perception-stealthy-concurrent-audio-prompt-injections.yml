@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-piggybacking-on-perception-stealthy-concurrent-audio-prompt-injections
+type: papers
+title: 'Piggybacking on Perception: Stealthy Concurrent Audio Prompt Injections against Multimodal LLM
+  Agents'
+url: https://arxiv.org/abs/2607.28165v1
+authors:
+- Mingxiao Liu
+- Yitong Li
+- Haoren Zhao
+- Yaoxiang Bian
+- Jianan Ma
+- Jian Zhang
+- Jialuo Chen
+- Xinhao Deng
+- Zhen Wang
+venue: arXiv
+year: 2026
+summary: Investigates concurrent audio prompt injection attacks against multimodal LLM agents, proposing
+  novel instruction augmentation and concealment techniques, and introduces a defense mechanism based
+  on source separation and consistency analysis.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a novel red-teaming attack surface for multimodal agents and
+    proposes a system-level defense, making a clear contribution to agentic system security.
+status: draft
