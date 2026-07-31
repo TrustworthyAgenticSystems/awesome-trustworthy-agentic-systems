@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-paichecker-uncovering-and-checking-pr-issue-misalignment-in
+type: papers
+title: 'PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks'
+url: https://arxiv.org/abs/2607.28587v1
+authors:
+- Manyi Wang
+- Junjielong Xu
+- Pinjia He
+venue: arXiv
+year: 2026
+summary: Systematically studies PR-Issue misalignment in SWE-bench-like benchmarks and proposes PAIChecker,
+  a multi-agent system for detecting these misalignments to improve benchmark reliability.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses the reliability of evaluation benchmarks for LLM agents by identifying and detecting
+    misalignments in their construction, which is a systems-level concern for trustworthy evaluation.
+status: draft
