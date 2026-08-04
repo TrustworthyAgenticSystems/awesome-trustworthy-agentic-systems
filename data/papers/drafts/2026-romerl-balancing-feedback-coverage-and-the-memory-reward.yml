@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-romerl-balancing-feedback-coverage-and-the-memory-reward
+type: papers
+title: 'RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via
+  Reduced-Order Utility States'
+url: https://arxiv.org/abs/2608.02508v1
+authors:
+- Yi Yang
+- Zhennan Chen
+- Yihong Zhuang
+- Tiehan Fan
+- Yinan Chen
+- Jian Li
+- Jian Yang
+- Ying Tai
+venue: arXiv
+year: 2026
+summary: RoMeRL addresses memory-reward trap and feedback dispersion in self-evolving agent memory by
+  using a fixed-dimensional, reduced-order utility state to concentrate feedback and limit persistent
+  reward contamination.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses a systems-level problem in agent memory (memory-reward trap)
+    and proposes a concrete architectural solution for improving reliability and efficiency.
+status: draft

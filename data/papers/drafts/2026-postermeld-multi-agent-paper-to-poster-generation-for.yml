@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-postermeld-multi-agent-paper-to-poster-generation-for
+type: papers
+title: 'PosterMELD: Multi-Agent Paper-to-Poster Generation for Controllable Design Diversity with Editable
+  Print-Ready Outputs'
+url: https://arxiv.org/abs/2608.02218v1
+authors:
+- Haojie Hu
+- Chenhao Dang
+- Yaojia Liu
+- Hengrui Kang
+- Conghui He
+- Weijia Li
+venue: arXiv
+year: 2026
+summary: PosterMELD is a multi-agent pipeline for scientific poster generation that uses capacity-aware
+  slots, deterministic gates, and VLM review to route failures to bounded repair, improving print-ready
+  rate and output editability.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-agent system with explicit coordination mechanisms (gates, VLM
+    review) to improve reliability and handle failures in a complex generation workflow.
+status: draft
