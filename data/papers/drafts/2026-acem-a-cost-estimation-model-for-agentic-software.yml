@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-acem-a-cost-estimation-model-for-agentic-software
+type: papers
+title: 'ACEM: A Cost Estimation Model for Agentic Software Engineering'
+url: https://arxiv.org/abs/2608.02582v1
+authors:
+- Mohammad El-Ramly
+venue: arXiv
+year: 2026
+summary: Proposes ACEM, a cost estimation model for agentic software engineering that accounts for LLM
+  token consumption, human-in-the-loop oversight, and infrastructure costs, introducing factors for revision,
+  context, and HITL intensity.
+harness_layer:
+- foundations
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a foundational model for understanding and estimating costs in agentic
+    systems, addressing the reliability of project planning and resource allocation.
+status: draft

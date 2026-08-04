@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-parevallayer-when-partial-llm-agent-evaluations-support-a
+type: papers
+title: 'ParEvalLayer: When Partial LLM-Agent Evaluations Support a Decision'
+url: https://arxiv.org/abs/2608.02444v1
+authors:
+- Wei-Jung Huang
+- Bonan Shen
+venue: arXiv
+year: 2026
+summary: ParEvalLayer is a decision layer that provides early stopping criteria for LLM agent evaluations
+  by determining if partial task outcomes are sufficient to support a conclusive judgment, validated by
+  replaying public benchmark data.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the methodology of evaluating agent systems by providing a system
+    for making reliable decisions from partial evaluation data, addressing a key challenge in long-horizon
+    evaluation.
+status: draft
