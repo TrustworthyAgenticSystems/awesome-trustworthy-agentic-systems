@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mafia-query-only-memory-attacks-via-probing-and
+type: papers
+title: 'MAFIA: Query-Only Memory Attacks via Probing and Factual Injection against Audited LLM Agents'
+url: https://arxiv.org/abs/2608.03844v1
+authors:
+- Jiaming Chen
+- Yisen Gao
+- Yanping Li
+- Zifan Liu
+- Yumeng Zhang
+- Jun Zhang
+venue: arXiv
+year: 2026
+summary: MAFIA is a query-only memory attack framework that uses probing and factual injection to bypass
+  audit systems and achieve high retrieval competitiveness, exposing vulnerabilities in memory-augmented
+  LLM agents.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses memory poisoning attacks and defenses in agentic systems, focusing
+    on the integrity and trustworthiness of agent memory under adversarial conditions.
+status: draft

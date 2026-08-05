@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-skilljack-persistent-skill-backdoors-in-self-evolving-agents
+type: papers
+title: 'SkillJack: Persistent Skill Backdoors in Self-Evolving Agents'
+url: https://arxiv.org/abs/2608.03509v1
+authors:
+- Zonghao Ying
+- Xiangfan Wu
+- Huiyu Wu
+- Xing Zheng
+- Huangsheng Cheng
+- Xiaorong Shi
+- Jing Guo
+venue: arXiv
+year: 2026
+summary: Introduces SkillJack, an attack that implants persistent malicious behaviors into an agent's
+  reusable skill repertoire by exploiting the experience-to-skill pipeline, demonstrating reduced detectability
+  and persistence even after original record deletion.
+harness_layer:
+- memory
+sprs:
+- security
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper identifies a novel attack surface in self-evolving agents related to memory and
+    skill evolution, directly contributing to the security and safety of agentic systems by proposing
+    a new threat model and motivating provenance-aware defenses.
+status: draft

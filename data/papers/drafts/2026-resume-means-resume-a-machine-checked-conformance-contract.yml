@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-resume-means-resume-a-machine-checked-conformance-contract
+type: papers
+title: 'Resume Means Resume: A Machine-Checked Conformance Contract for Checkpoint, Interrupt, and Resume
+  Semantics in Workflow Persistence Layers'
+url: https://arxiv.org/abs/2608.03836v1
+authors:
+- Sajjad Khan
+venue: arXiv
+year: 2026
+summary: This paper introduces the RESUME CONTRACT, a machine-checkable conformance contract for checkpoint,
+  interrupt, and resume semantics in agent workflow persistence layers, and empirically evaluates five
+  deployed frameworks against it, revealing critical violations and proposing repairs.
+harness_layer:
+- transactional-agency
+sprs:
+- reliability
+- security
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses transactional semantics and reliability for agent workflows, including
+    crash recovery and exactly-once execution, with a formal contract and empirical validation on real
+    frameworks.
+status: draft

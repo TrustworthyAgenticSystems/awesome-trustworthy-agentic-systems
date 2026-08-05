@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agenticeco-an-agentic-framework-for-eco-on-3d
+type: papers
+title: 'AgenticECO: An Agentic Framework for ECO on 3D Integrated Circuits'
+url: https://arxiv.org/abs/2608.03738v1
+authors:
+- Shuo Ren
+- Yaohui Han
+- Libo Shen
+- Zhiqiang Jia
+- Rongliang Fu
+- Bei Yu
+- Tsung-Yi Ho
+venue: arXiv
+year: 2026
+summary: AgenticECO is an agentic framework for 3D-IC engineering change orders (ECO) that uses an evidence-gated,
+  tool-using agent workflow and a minimal-disturbance routing layer to improve repair success and attribution,
+  validated on natural defect cases.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper presents an end-to-end agentic system for a complex engineering task, focusing
+    on reliability, safety, and attribution of changes, which aligns with the 'architectures' layer and
+    trustworthiness concerns.
+status: draft

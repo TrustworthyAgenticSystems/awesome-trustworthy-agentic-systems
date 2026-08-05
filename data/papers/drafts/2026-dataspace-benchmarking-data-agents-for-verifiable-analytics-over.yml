@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-dataspace-benchmarking-data-agents-for-verifiable-analytics-over
+type: papers
+title: 'DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous Workspaces'
+url: https://arxiv.org/abs/2608.03451v1
+authors:
+- Boyan Li
+- Zhuowen Liang
+- Yupeng Xie
+- Xiaotian Lin
+- Tianqi Luo
+- Xinyu Liu
+- Yizhang Zhu
+- Zhangyang Peng
+- Yuan Li
+- Zhengxuan Zhang
+- Jiayi Zhang
+- Nan Tang
+- Guoliang Li
+- Yuyu Luo
+venue: arXiv
+year: 2026
+summary: DataSpace is a benchmark for data agents that produce verifiable tabular results from heterogeneous
+  workspaces, designed for deterministic evaluation of complex, multi-modal data analysis tasks.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper introduces a benchmark and evaluation framework for agentic systems, directly
+    addressing the challenge of long-horizon evaluation and reliability for data agents operating over
+    diverse data sources.
+status: draft
