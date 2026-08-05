@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-bug-reports-to-browser-executable-procedures-an
+type: papers
+title: 'From Bug Reports to Browser-Executable Procedures: An LLM-Driven Agent for Web GUI Bug Reproduction'
+url: https://arxiv.org/abs/2608.03598v1
+authors:
+- Cunming Zhang
+- Yu Pei
+- Michail Papadakis
+venue: arXiv
+year: 2026
+summary: ReBug is a context-aware agent system that reconstructs, executes, and validates browser-level
+  reproduction procedures from web GUI bug reports by driving a real browser, demonstrating an end-to-end
+  architecture for a complex agentic task.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper presents an end-to-end agentic system architecture for a complex, real-world task
+    (bug reproduction) with detailed stages and evaluation, contributing to the 'architectures' layer.
+status: draft

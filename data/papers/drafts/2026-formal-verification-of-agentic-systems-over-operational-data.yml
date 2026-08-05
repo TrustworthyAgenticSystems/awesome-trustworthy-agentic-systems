@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-formal-verification-of-agentic-systems-over-operational-data
+type: papers
+title: Formal Verification of Agentic Systems over Operational Data
+url: https://arxiv.org/abs/2608.03609v1
+authors:
+- Alejandro J. Mercado
+- Alessio Lomuscio
+venue: arXiv
+year: 2026
+summary: Formalizes agentic systems acting on operational data as Stateful Tool-Enabled Agentic Deployments
+  (STEADs) and investigates their formal verification against FO-CTL specifications, proposing a canonical
+  deployment wrapper to ensure verifiability.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses the formal verification of agentic systems acting on operational
+    data, providing system-level guarantees for trustworthiness.
+status: draft

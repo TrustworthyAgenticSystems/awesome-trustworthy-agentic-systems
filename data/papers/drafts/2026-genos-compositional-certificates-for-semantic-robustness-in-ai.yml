@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-genos-compositional-certificates-for-semantic-robustness-in-ai
+type: papers
+title: 'GenOS: Compositional Certificates for Semantic Robustness in AI Code Generation'
+url: https://arxiv.org/abs/2608.03588v1
+authors:
+- Corrado Priami
+venue: arXiv
+year: 2026
+summary: GenOS introduces a probabilistic operational semantics and compositional certificates for semantic
+  robustness in AI code generation workflows, ensuring that equivalent prompts lead to equivalent downstream
+  outcomes and providing an additive robustness bound for pipeline layers.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper provides foundational theoretical work on compositional robustness for agentic
+    workflows, directly addressing the reliability and safety of AI code generation as a system problem.
+status: draft

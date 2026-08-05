@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-sat-edge-agent-hardware-in-the-loop-edge
+type: papers
+title: 'SAT-Edge-Agent: Hardware-in-the-Loop Edge-Agent Orchestration for Onboard Satellite Intelligence'
+url: https://arxiv.org/abs/2608.03728v1
+authors:
+- Longji He
+- Jeto Xu
+venue: arXiv
+year: 2026
+summary: Presents SAT-Edge-Agent, a hardware-in-the-loop edge-agent system for onboard satellite intelligence,
+  demonstrating its orchestration and exposing execution state under resource constraints.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper describes a concrete, deployed agentic system architecture for a specialized domain,
+    including details on orchestration, tool integration, and performance profiling, which is relevant
+    to trustworthy agentic systems.
+status: draft

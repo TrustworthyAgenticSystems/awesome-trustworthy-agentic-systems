@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-security-oriented-lifecycle-model-for-large-language
+type: papers
+title: A Security-Oriented Lifecycle Model for Large Language Model Systems
+url: https://arxiv.org/abs/2608.03626v1
+authors:
+- Eleftherios Batzolis
+- George Drosatos
+- Vassilis Katsouros
+- Konstantinos Rantos
+venue: arXiv
+year: 2026
+summary: Proposes a security-oriented lifecycle model for LLM systems, structuring development and operations
+  around security-relevant boundaries and identifying gaps in regulatory visibility for critical early-stage
+  decisions.
+harness_layer:
+- foundations
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to the foundational understanding and architectural framing
+    of security for LLM agentic systems by proposing a new lifecycle model and highlighting critical security
+    gaps.
+status: draft

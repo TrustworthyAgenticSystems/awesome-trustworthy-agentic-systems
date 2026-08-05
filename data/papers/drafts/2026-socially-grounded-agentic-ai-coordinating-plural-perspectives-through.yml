@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-socially-grounded-agentic-ai-coordinating-plural-perspectives-through
+type: papers
+title: 'Socially Grounded Agentic AI: Coordinating Plural Perspectives through Social Theory'
+url: https://arxiv.org/abs/2608.03910v1
+authors:
+- Matt Ratto
+- Abhishek Moturu
+- Daniel Silver
+venue: arXiv
+year: 2026
+summary: Proposes a social-theory-informed design space for multi-agent coordination that explicitly models
+  roles, interactions, and power dynamics to achieve pluralistic alignment, moving beyond single-value
+  optimization.
+harness_layer:
+- coordination
+sprs:
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a conceptual framework for multi-agent coordination, focusing on how
+    to design systems that handle diverse perspectives, which is a systems-level concern for trustworthy
+    agents.
+status: draft

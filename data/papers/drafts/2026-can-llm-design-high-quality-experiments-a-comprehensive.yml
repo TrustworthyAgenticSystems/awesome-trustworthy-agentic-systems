@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-can-llm-design-high-quality-experiments-a-comprehensive
+type: papers
+title: Can LLM design high-quality experiments? A Comprehensive and Systematic Benchmark on Autonomous
+  Experimental Design
+url: https://arxiv.org/abs/2608.03501v1
+authors:
+- Zejun Liu
+- Jian Wu
+- Ru Peng
+- Yuliang Ji
+- Dongyuan Li
+- Renhe Jiang
+- Yue Zhang
+venue: arXiv
+year: 2026
+summary: Proposes SCOPE, a benchmark for evaluating LLM-based experimental design, and OptED, an agentic
+  workflow that uses stage isolation, tool augmentation, and rule-based constraints to improve design
+  quality.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces an agentic workflow (OptED) with stage isolation and rule-based constraints
+    to improve the reliability of LLM-based experimental design, addressing a systems-level challenge.
+status: draft
