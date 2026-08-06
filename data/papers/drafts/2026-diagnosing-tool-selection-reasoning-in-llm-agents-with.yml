@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-diagnosing-tool-selection-reasoning-in-llm-agents-with
+type: papers
+title: Diagnosing Tool-Selection Reasoning in LLM Agents with Canary Tools
+url: https://arxiv.org/abs/2608.04719v1
+authors:
+- Atul Anand
+- Sourav Chattaraj
+venue: arXiv
+year: 2026
+summary: Introduces a taxonomy of diagnostic 'canary tools' to probe and profile specific tool-selection
+  reasoning weaknesses in LLM agents, providing a multi-dimensional view beyond simple task failure.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses the diagnosis of tool-selection reasoning failures, which is critical
+    for the reliability and safety of agentic systems, with a concrete methodology and empirical evaluation.
+status: draft

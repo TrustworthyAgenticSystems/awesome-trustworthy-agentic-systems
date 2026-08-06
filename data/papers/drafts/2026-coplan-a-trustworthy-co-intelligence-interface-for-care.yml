@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-coplan-a-trustworthy-co-intelligence-interface-for-care
+type: papers
+title: 'CoPlan: A Trustworthy Co-Intelligence Interface for Care Planning through Role-Based Contestable
+  Argument Graphs'
+url: https://arxiv.org/abs/2608.05107v1
+authors:
+- Hung Truong Thanh Nguyen
+- Hélène Fournier
+- Piper Jackson
+- Makoto Itoh
+- Shannon Freeman
+- Rene Richard
+- Hung Cao
+venue: arXiv
+year: 2026
+summary: CoPlan is a co-intelligent and contestable interface for human-AI care planning that uses a multi-agent
+  workflow for generating and reviewing interventions and arguments, allowing human care planners to inspect,
+  challenge, and revise plans.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses human oversight and accountability in AI-assisted decision-making
+    through a contestable interface and multi-agent workflow, which is relevant to trustworthy agentic
+    systems.
+status: draft

@@ -1,0 +1,57 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-argus-a-general-purpose-agentic-runtime-for-long
+type: papers
+title: 'Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning'
+url: https://arxiv.org/abs/2608.05144v1
+authors:
+- Boxiu Li
+- Zimo Wen
+- Yijia Fan
+- Junxiang Lei
+- Sufeng Guo
+- Jiaao Wu
+- Ruize Tang
+- Mukai Li
+- Yifei Shen
+- Xiaoyu Chen
+- Wanbo Zhang
+- Runjing Gu
+- Yifei Gao
+- Yuheng Wu
+- Xuyao Huang
+- Zelong Zhao
+- Jiachen Zhang
+- Shibo Hu
+- Hangxi Guo
+- Yilin Chen
+- Yuzhe Zhang
+- Fan Yang
+- Chuan Wen
+- Xian Zhang
+- Xuanhe Zhou
+- Zhijie Deng
+venue: arXiv
+year: 2026
+summary: Argus is a persistent, self-evolving agentic runtime that separates user intent from operational
+  objectives, uses role-owned review and task-native verification for state updates, and demonstrates
+  improved performance and recovery on long-horizon tasks like SWE-Bench Pro and AARRI-Bench.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper describes a comprehensive agentic runtime architecture with explicit mechanisms
+    for self-evolution, verification, and recovery, directly addressing systems-level trustworthiness
+    for long-horizon tasks.
+status: draft
