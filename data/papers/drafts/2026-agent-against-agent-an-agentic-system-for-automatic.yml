@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agent-against-agent-an-agentic-system-for-automatic
+type: papers
+title: 'Agent Against Agent: An Agentic System for Automatic Prompt Injection Red Teaming'
+url: https://arxiv.org/abs/2608.05108v1
+authors:
+- Yanting Wang
+- Chenlong Yin
+- Runpeng Geng
+- Jinyuan Jia
+venue: arXiv
+year: 2026
+summary: PIMiner is an agentic system for prompt injection red-teaming that builds a transferable strategy
+  library to efficiently attack unseen target LLM agents with a small number of queries.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to adversarial testing of agentic systems by developing an
+    agent-based red-teaming system for prompt injection, which is a core security concern.
+status: draft

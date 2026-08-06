@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-evolvenet-collaborative-harness-evolution-for-agent-self-improvement
+type: papers
+title: 'EvolveNet: Collaborative Harness Evolution for Agent Self-Improvement'
+url: https://arxiv.org/abs/2608.04968v1
+authors:
+- Jun Nie
+- Yonggang Zhang
+- Qianshu Cai
+- Yiu-ming Cheung
+- Xinmei Tian
+- Bo Han
+venue: arXiv
+year: 2026
+summary: EvolveNet proposes a collaborative harness evolution paradigm where local agent deployments evolve
+  a shared harness on their own workloads, aggregating program adaptations rather than raw experience
+  to improve reliability and efficiency across diverse environments.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the systems-level problem of evolving and distributing agent
+    harnesses, which are critical for agent reliability and performance in real-world deployments.
+status: draft

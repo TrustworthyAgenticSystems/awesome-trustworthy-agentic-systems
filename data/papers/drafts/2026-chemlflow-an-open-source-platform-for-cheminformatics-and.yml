@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-chemlflow-an-open-source-platform-for-cheminformatics-and
+type: papers
+title: 'CheMLFlow: An Open-Source Platform for Cheminformatics and Materials Informatics Applications'
+url: https://arxiv.org/abs/2608.04942v1
+authors:
+- Brendan Smith
+- Susana Lopez-Moreno
+- Eric Dolores-Cuenca
+- Sangil Kim
+- Jose L. Mendoza-Cortes
+- Nijamudheen Abdulrahiman
+venue: arXiv
+year: 2026
+summary: CheMLFlow is an open-source platform for building and executing end-to-end, high-throughput,
+  and agentic scientific workflows, providing modular components and structured outputs to reduce orchestration
+  overhead and support benchmarking.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes an open-source platform for agentic scientific workflows, focusing on
+    system architecture, reproducibility, and structured outputs for agent interaction, which aligns with
+    trustworthy agentic systems architectures.
+status: draft

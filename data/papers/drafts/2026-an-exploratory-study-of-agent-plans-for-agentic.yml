@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-an-exploratory-study-of-agent-plans-for-agentic
+type: papers
+title: An Exploratory Study of Agent Plans for Agentic AI Coding Tools in Open-Source Software
+url: https://arxiv.org/abs/2608.04661v1
+authors:
+- Muhammad Auwal Abubakar
+- Seyedmoein Mohsenimofidi
+- Jai Lal Lulla
+- Jie M. Zhang
+- Christoph Treude
+- Sebastian Baltes
+- Matthias Galster
+venue: arXiv
+year: 2026
+summary: Exploratory study of human-authored Agent Plans in open-source repositories, analyzing their
+  structure and content to understand how they guide agent execution for various software engineering
+  tasks.
+harness_layer:
+- intent
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper directly investigates how human intent is captured and provided to agentic systems
+    through 'Agent Plans', which is relevant to the intent-to-constraints open problem.
+status: draft
