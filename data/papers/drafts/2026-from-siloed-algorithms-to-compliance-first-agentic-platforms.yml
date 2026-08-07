@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-siloed-algorithms-to-compliance-first-agentic-platforms
+type: papers
+title: 'From Siloed Algorithms to Compliance-First Agentic Platforms: A Multi-Layered Architecture for
+  Hospital AI Systems'
+url: https://arxiv.org/abs/2608.06112v1
+authors:
+- Manideep Dhar
+- Ritwik Singh
+- Sharat Chandra Kumar Manikonda
+venue: arXiv
+year: 2026
+summary: Proposes a multi-layered, compliance-first agentic AI architecture for hospitals, featuring agent
+  orchestration, policy-as-code for regulatory compliance, and a privacy-preserving data fabric, demonstrated
+  with a prototype for triage and workflow optimization.
+harness_layer:
+- architectures
+sprs:
+- security
+- privacy
+- safety
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper proposes a concrete, multi-layered architecture for deploying trustworthy agentic
+    systems in a highly regulated domain, addressing governance, compliance, and privacy at a systems
+    level.
+status: draft

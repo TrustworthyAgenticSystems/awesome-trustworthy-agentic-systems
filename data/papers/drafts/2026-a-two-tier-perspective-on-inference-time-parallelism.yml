@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-two-tier-perspective-on-inference-time-parallelism
+type: papers
+title: A Two-Tier Perspective on Inference-Time Parallelism in Multi-Agent LLM Systems
+url: https://arxiv.org/abs/2608.05791v1
+authors:
+- Zihan Xu
+- Haolin Tian
+- Hai Jiang
+venue: arXiv
+year: 2026
+summary: TIPEX is a controllable execution framework that unifies and coordinates two levels of inference-time
+  parallelism (replica and structural) in multi-agent systems to improve accuracy and reduce latency.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a framework for coordinating parallel execution strategies in multi-agent
+    systems, directly addressing the reliability and efficiency of agent orchestration.
+status: draft

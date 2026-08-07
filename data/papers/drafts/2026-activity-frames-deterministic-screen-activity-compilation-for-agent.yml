@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-activity-frames-deterministic-screen-activity-compilation-for-agent
+type: papers
+title: 'Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay'
+url: https://arxiv.org/abs/2608.05784v1
+authors:
+- Nossa Iyamu
+venue: arXiv
+year: 2026
+summary: A deterministic, zero-model pipeline compiles passively captured screen activity into structured
+  activity frames for agent memory, enabling efficient and accurate recall of user routines without model
+  inference, and provides metrics for agent cost modeling.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to agent memory by providing a deterministic, auditable method
+    for compiling user activity into a structured format, improving reliability and efficiency for agents.
+status: draft
