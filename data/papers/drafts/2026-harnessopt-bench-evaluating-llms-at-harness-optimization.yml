@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-harnessopt-bench-evaluating-llms-at-harness-optimization
+type: papers
+title: 'HarnessOpt-Bench: Evaluating LLMs at Harness Optimization'
+url: https://arxiv.org/abs/2608.06301v1
+authors:
+- Varun Ursekar
+- Apaar Shanker
+- Yash Maurya
+- Shehab Yasser
+- Vijay S. Kalmath
+- Veronica Chatrath
+- Yuan Xue
+venue: arXiv
+year: 2026
+summary: Introduces HarnessOpt-Bench, a benchmark for evaluating LLMs' ability to perform automated harness
+  optimization, including a trusted execution environment for enforcing evaluation boundaries and auditing
+  candidate versions.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper provides a benchmark and methodology for evaluating the reliability of agentic
+    systems through automated harness optimization, including systems-level components like a trusted
+    execution environment.
+status: draft

@@ -1,0 +1,43 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-tracing-the-heart-an-evidence-linked-pipeline-for
+type: papers
+title: 'Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering'
+url: https://arxiv.org/abs/2608.06366v1
+authors:
+- Soorya Ram Shimgekar
+- Michelle Hu
+- Dorisa Shehi
+- Daniel Kang
+- Roy Ka-Wei Lee
+- Koustuv Saha
+- Christian Poellabauer
+- Christopher Lee
+- Sajeev Singh
+- Piyum Zonooz
+- Navin Kumar
+- Zeeshan Ahmed
+- Priyadarshini Kachroo
+venue: arXiv
+year: 2026
+summary: Presents Nimblemind Multi-Agent System (nMAS), an evidence-linked, rubric-grounded pipeline for
+  automated heart-failure feature engineering, demonstrating auditable feature generation and improved
+  phenotyping performance.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Describes an end-to-end multi-agent system architecture for a complex, high-stakes domain,
+    focusing on auditable processes and evidence traceability, which are key aspects of trustworthy agentic
+    systems.
+status: draft

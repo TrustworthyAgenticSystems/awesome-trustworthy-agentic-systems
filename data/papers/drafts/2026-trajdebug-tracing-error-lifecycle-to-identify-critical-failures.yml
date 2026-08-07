@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-trajdebug-tracing-error-lifecycle-to-identify-critical-failures
+type: papers
+title: 'TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories'
+url: https://arxiv.org/abs/2608.06346v1
+authors:
+- Yunjia Qi
+- Zehua Yin
+- Xintong Shi
+- Hao Peng
+- Songyuanyi Lu
+- Yixian Liu
+- Richeng Xuan
+- Yuhong Liu
+- Zhichao Hu
+- Xiaozhi Wang
+- Lei Hou
+- Bin Xu
+- Juanzi Li
+venue: arXiv
+year: 2026
+summary: TrajDebug is an error-lifecycle tracing framework that identifies critical failures in long-horizon
+  agent trajectories by compressing multi-granularity history and tracing error resolution status and
+  terminal impact.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: The paper directly addresses the systems-engineering problem of debugging and attributing
+    errors in long-running agent workflows, providing a concrete framework and benchmark.
+status: draft
