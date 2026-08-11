@@ -1,0 +1,45 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-she-trajectory-driven-safety-harness-evolution-for-llm
+type: papers
+title: 'SHE: Trajectory-driven Safety Harness Evolution for LLM Agents'
+url: https://arxiv.org/abs/2608.09885v1
+authors:
+- Wanying Qu
+- Qinghua Mao
+- Yu Li
+- Jiyao Liu
+- Xin Zhang
+- Dadi Guo
+- Yanxu Zhu
+- Qingyu Liu
+- Leitao Yuan
+- Xi Lin
+- Shanfeng Zhu
+- Yanwei Fu
+- Jing Shao
+- Xia Hu
+- Dongrui Liu
+venue: arXiv
+year: 2026
+summary: SHE is a framework for evolving LLM agent safety harnesses by decomposing them into artifacts
+  with explicit safety responsibilities, learning boundary refinements from rollout trajectories, and
+  validating evolved harnesses for safety and utility.
+harness_layer:
+- architectures
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses the evolution and attribution of safety responsibilities within
+    the agentic system's harness, contributing to a more trustworthy architecture.
+status: draft
