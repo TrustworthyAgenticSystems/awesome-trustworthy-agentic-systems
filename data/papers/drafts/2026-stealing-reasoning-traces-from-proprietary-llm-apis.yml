@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-stealing-reasoning-traces-from-proprietary-llm-apis
+type: papers
+title: Stealing Reasoning Traces from Proprietary LLM APIs
+url: https://arxiv.org/abs/2608.09867v1
+authors:
+- Alexander Panfilov
+- David Schmotz
+- Ilia Shumailov
+- Luca Beurer-Kellner
+- Joachim Schaeffer
+- Ameya Prabhu
+- Jonas Geiping
+- Maksym Andriushchenko
+venue: arXiv
+year: 2026
+summary: Identifies an architectural vulnerability in client-side encrypted reasoning traces that allows
+  for cross-model decryption, enabling reasoning extraction, private data leakage, and invisible prompt
+  injection, and proposes system-level mitigations.
+harness_layer:
+- memory
+sprs:
+- security
+- privacy
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper identifies a critical system-level vulnerability in how reasoning traces are handled,
+    leading to significant security and privacy risks for agentic systems, and proposes concrete mitigations.
+status: draft

@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-actbench-self-evolving-benchmark-of-behavioral-safety-in
+type: papers
+title: 'ActBench: Self-Evolving Benchmark of Behavioral Safety in Cowork Agents'
+url: https://arxiv.org/abs/2608.09476v1
+authors:
+- Hongwei Yao
+- Yiming Liu
+- Meihui Chen
+- Jieling Chen
+- Zikun Chen
+- Yiling He
+- Wangze Ni
+- Cong Wang
+- Kui Ren
+venue: arXiv
+year: 2026
+summary: ActBench is a self-evolving benchmark for evaluating behavioral safety risks in cowork agents
+  by analyzing execution trajectories for data disclosure, state manipulation, and unauthorized API invocation,
+  using reward-guided beam search for adversarial payload generation and dual evidence verification for
+  safety assessment.
+harness_layer:
+- red-team
+sprs:
+- security
+- privacy
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses adversarial testing of agentic systems by introducing a benchmark
+    and methodology for evaluating behavioral safety risks through execution trajectories, which is a
+    core concern for trustworthy agents.
+status: draft

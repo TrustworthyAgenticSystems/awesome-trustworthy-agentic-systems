@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-colluskill-adversarial-cross-skill-composition-for-evading-agent
+type: papers
+title: 'ColluSkill: Adversarial Cross-Skill Composition for Evading Agent Skill Scanners'
+url: https://arxiv.org/abs/2608.09732v1
+authors:
+- Puyu Zeng
+- Simeng Qin
+- Jingzhi Li
+- Ju Jia
+- Zheli Liu
+- Xiaojun Jia
+venue: arXiv
+year: 2026
+summary: ColluSkill is an adversarial framework that decomposes malicious intent into interdependent sub-payloads
+  across multiple skills to evade single-skill scanners, and ChainGuard is a context-aware skill-chain
+  scanner that analyzes cross-skill dependencies to detect such workflow-level attacks.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses a system-level adversarial threat (cross-skill composition)
+    and proposes a concrete defense mechanism for agent skill ecosystems.
+status: draft

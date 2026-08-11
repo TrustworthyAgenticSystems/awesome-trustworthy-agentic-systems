@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-multi-agent-ai-safety-as-an-institutional-design
+type: papers
+title: Multi-Agent AI Safety as an Institutional Design Problem
+url: https://arxiv.org/abs/2608.09828v1
+authors:
+- Abdullah X
+venue: arXiv
+year: 2026
+summary: Investigates how institutional design elements like rule formulation, authority states, and post-block
+  pathways influence multi-agent safety, demonstrating the effectiveness of constitutional prompts and
+  provenance-aware guards in preventing violations.
+harness_layer:
+- coordination
+sprs:
+- safety
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses multi-agent safety as a systems problem, focusing on institutional
+    design and operational mechanisms like provenance-aware guards and authority states to prevent violations
+    in agent workflows.
+status: draft

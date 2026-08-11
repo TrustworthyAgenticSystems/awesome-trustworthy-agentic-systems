@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-specpath-testing-coding-agents-across-contract-equivalent-specification
+type: papers
+title: 'SpecPath: Testing Coding Agents Across Contract-Equivalent Specification Histories'
+url: https://arxiv.org/abs/2608.09799v1
+authors:
+- Yangfan Wu
+- Haozhe Wang
+- Huanyu Yang
+- Jianmin Ji
+- Fangzhen Lin
+venue: arXiv
+year: 2026
+summary: Introduces SpecPath, a diagnostic evaluation framework that tests coding agents for specification-path
+  sensitivity by varying the revision history of contract-equivalent requirements to reveal behavioral
+  differences in generated programs.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper proposes a novel evaluation methodology for agent reliability and robustness to
+    specification changes, which is a systems-level concern for trustworthy agent behavior.
+status: draft

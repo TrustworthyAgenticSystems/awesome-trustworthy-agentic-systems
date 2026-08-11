@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-openloopevolve-a-verifiable-self-evolution-framework-for-loop
+type: papers
+title: 'OpenLoopEvolve: A Verifiable Self-Evolution Framework for Loop Policies in Long-Horizon Complex
+  Tasks'
+url: https://arxiv.org/abs/2608.09380v1
+authors:
+- Siqi Wang
+- Xinlin Li
+- Zhenglin Li
+- Li Li
+venue: arXiv
+year: 2026
+summary: OpenLoopEvolve is a self-evolution framework that treats an agent's operational policies (observation,
+  planning, memory, action, verification, recovery, stopping, budget control) as versioned and governable
+  assets, enabling online and offline evolution with rollback capabilities.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- transactional-agency
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper proposes a systems-level framework for managing and evolving agent policies as
+    governable assets, including versioning, evaluation, release, and rollback, directly addressing reliability
+    and safety in long-horizon tasks.
+status: draft
