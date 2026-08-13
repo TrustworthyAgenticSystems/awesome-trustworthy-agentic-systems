@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-exrole-from-team-trajectories-to-executable-roles-in
+type: papers
+title: 'ExRole: From Team Trajectories to Executable Roles in Multi-Agent Language Models'
+url: https://arxiv.org/abs/2608.11949v1
+authors:
+- Zhou Liu
+- Chaoyang Han
+- Zewei Pan
+- Zeli Su
+- Wentao Zhang
+venue: arXiv
+year: 2026
+summary: ExRole learns executable role prototypes from multi-agent team trajectories, translating them
+  into readable instructions and token-aligned markers to guide future interactions and improve performance
+  in multi-agent coordination.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to multi-agent coordination by learning and applying executable roles
+    from team trajectories, which is a systems-level approach to organizing and improving agent behavior.
+status: draft

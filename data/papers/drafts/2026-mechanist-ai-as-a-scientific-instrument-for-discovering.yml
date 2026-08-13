@@ -1,0 +1,49 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mechanist-ai-as-a-scientific-instrument-for-discovering
+type: papers
+title: 'Mechanist: AI as a Scientific Instrument for Discovering the Mechanisms of Intelligence'
+url: https://arxiv.org/abs/2608.12036v1
+authors:
+- Mengru Wang
+- Junfeng Fang
+- Shuofei Qiao
+- Zhenqian Xu
+- Haoming Xu
+- Haoxiong Wang
+- Shumin Deng
+- Linyi Yang
+- Zhixiang Cui
+- Xin Xu
+- Yunzhi Yao
+- Buqiang Xu
+- Fei Shen
+- Haozhe Luo
+- Yunxiang Wei
+- Ningyu Zhang
+- Julian McAuley
+- Tat Seng Chua
+- Huajun Chen
+venue: arXiv
+year: 2026
+summary: Mechanist is an agentic system designed to autonomously discover mechanisms underlying AI intelligence
+  by integrating an interpretability-focused knowledge graph, a multidisciplinary database, and a library
+  of mechanism analysis methods.
+harness_layer:
+- architectures
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes an agentic system architecture for autonomous scientific discovery, focusing
+    on understanding and controlling AI models, which contributes to the foundations of trustworthy AI
+    systems.
+status: draft
