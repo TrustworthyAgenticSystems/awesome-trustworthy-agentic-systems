@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-marc-v1-an-open-source-multi-agent-framework
+type: papers
+title: 'MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination'
+url: https://arxiv.org/abs/2608.13476v1
+authors:
+- Saisha Shetty
+- Satvik Tripathi
+- Austin Lin
+- Colin Zhao
+- Theodore Kim
+- Don Enwerem
+- Jacinta Arnold
+- Shahriar Faghani
+- Tessa S Cook
+venue: arXiv
+year: 2026
+summary: MARC is an open-source multi-agent framework that uses deterministic orchestration and role-specialized
+  agents for clinical reasoning, providing explicit context passing and traceable intermediate outputs
+  for stage-wise failure attribution.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent orchestration framework with explicit context passing and
+    traceable outputs, directly addressing coordination and observability in agentic systems.
+status: draft

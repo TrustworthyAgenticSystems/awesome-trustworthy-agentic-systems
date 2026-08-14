@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-capability-sheaves-for-compositional-agent-harness-repair-controlled
+type: papers
+title: 'Capability Sheaves for Compositional Agent-Harness Repair: Controlled Quotients and a Real-Repository
+  Stress Test'
+url: https://arxiv.org/abs/2608.13228v1
+authors:
+- Saveliy Batruin
+venue: arXiv
+year: 2026
+summary: Models agent harness failures using capability sheaves to diagnose and repair inconsistencies
+  in shared state across locally successful components, reducing candidate search space in a controlled
+  experiment and showing invariance to stale representatives.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.75
+  rationale: Addresses the coordination and state consistency problem in agent harnesses using a novel
+    mathematical framework, with experimental validation on a real-world dataset.
+status: draft

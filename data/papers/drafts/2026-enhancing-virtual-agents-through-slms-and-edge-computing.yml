@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-enhancing-virtual-agents-through-slms-and-edge-computing
+type: papers
+title: 'Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and
+  Memory Processes'
+url: https://arxiv.org/abs/2608.13420v1
+authors:
+- Aimilios Hadjiliasi
+- Louis Nisiotis
+venue: arXiv
+year: 2026
+summary: Explores an edge-based virtual agent gateway system using SLMs to support cognitive orchestration
+  and memory processes for embodied agents in virtual worlds, evaluating routing accuracy, memory-read
+  performance, and latency.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.75
+  rationale: The paper describes an architectural exploration and evaluation of an agent system's components
+    (think, memory) for edge deployment, which is relevant to trustworthy agent architectures.
+status: draft
