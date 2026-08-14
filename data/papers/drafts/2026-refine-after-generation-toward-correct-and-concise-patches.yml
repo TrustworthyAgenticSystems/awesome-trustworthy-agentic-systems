@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-refine-after-generation-toward-correct-and-concise-patches
+type: papers
+title: 'Refine After Generation: Toward Correct and Concise Patches in LLM-based Program Repair'
+url: https://arxiv.org/abs/2608.13292v1
+authors:
+- Wenqiang Luo
+- Jacky Keung
+- Xiaoyu Shi
+- Yicheng Sun
+- Boyang Yang
+- Zhou Yang
+- Haoye Tian
+venue: arXiv
+year: 2026
+summary: Identifies patch verbosity as a problem in LLM-based program repair and proposes RECAP, a post-generation
+  refinement adapter, to produce more concise and correct patches, improving human reviewability.
+harness_layer:
+- oversight
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses the cognitive load on human oversight by making AI-generated code patches more
+    concise and reviewable, a key systems-engineering concern for trustworthy agents.
+status: draft

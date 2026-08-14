@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-boardroomai-dependency-aware-human-steerable-multi-agent-deliberation
+type: papers
+title: 'BoardroomAI: Dependency-Aware Human-Steerable Multi-Agent Deliberation through Evolving Decision
+  Graphs'
+url: https://arxiv.org/abs/2608.13046v1
+authors:
+- Sanjeev Manivannan
+venue: arXiv
+year: 2026
+summary: BoardroomAI enables human-steerable multi-agent deliberation through a typed decision graph,
+  an intervention compiler, and dependency-aware propagation to manage evolving decisions and human input.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses human oversight and intervention in multi-agent systems by
+    providing a structured approach to integrate human feedback and manage its impact on ongoing deliberations.
+status: draft

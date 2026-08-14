@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-atobench-tracing-how-autonomous-penetration-testing-agents-verify
+type: papers
+title: 'ATOBench: Tracing How Autonomous Penetration-Testing Agents Verify Vulnerabilities When Target
+  Evidence Lies'
+url: https://arxiv.org/abs/2608.12996v1
+authors:
+- Qiyang Chen
+- Yixi Li
+- Fengwei Zhang
+- Junlin Liu
+venue: arXiv
+year: 2026
+summary: ATOBench is an evaluation framework that makes the vulnerability verification process of autonomous
+  penetration-testing agents observable by injecting deceptive responses and tracing how agents interpret
+  conflicting evidence, recover, and report.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly contributes to the observation and evaluation of agent behavior under
+    adversarial conditions, focusing on how agents handle untrusted observations and verify vulnerabilities.
+status: draft
