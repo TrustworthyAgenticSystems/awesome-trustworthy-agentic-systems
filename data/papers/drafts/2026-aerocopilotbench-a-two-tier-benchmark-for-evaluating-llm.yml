@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-aerocopilotbench-a-two-tier-benchmark-for-evaluating-llm
+type: papers
+title: 'AeroCopilotBench: A Two-Tier Benchmark for Evaluating LLM Agents as Aviation Copilots in an Interactive
+  Virtual Cockpit Environment'
+url: https://arxiv.org/abs/2608.16349v1
+authors:
+- Yuchen Yuan
+- Zhenghuang Wu
+- Yuangan Li
+- Liang Ma
+- Ke Li
+venue: arXiv
+year: 2026
+summary: AeroCopilotBench is a two-tier benchmark and interactive virtual-cockpit environment (ACOE) for
+  evaluating LLM agents as aviation copilots, focusing on procedural execution and safety compliance through
+  standardized tool interfaces and safety-gated trajectory evaluation.
+harness_layer:
+- observation-eval
+sprs:
+- safety
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper introduces a novel interactive evaluation environment and benchmark specifically
+    designed for assessing the operational safety and reliability of LLM agents in a complex, safety-critical
+    domain, directly addressing long-horizon evaluation and safety compliance.
+status: draft

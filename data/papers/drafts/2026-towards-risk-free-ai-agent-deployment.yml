@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-risk-free-ai-agent-deployment
+type: papers
+title: Towards Risk-free AI Agent Deployment
+url: https://arxiv.org/abs/2608.16411v1
+authors:
+- Yintong Huo
+- Rangeet Pan
+- Abhik Roychoudhury
+venue: arXiv
+year: 2026
+summary: This paper advocates for systematic agent testing and debugging, grounded in trajectory analysis,
+  to address deployment risks related to security, compliance, and functionality, and proposes a deployment-readiness
+  checklist.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: The paper directly addresses the systems-level challenges of testing, debugging, and deploying
+    trustworthy AI agents by focusing on trajectory analysis and proposing a systematic research direction
+    for observation and evaluation.
+status: draft
