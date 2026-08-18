@@ -1,0 +1,49 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-clawgym-ii-exploring-black-box-rl-on-agent
+type: papers
+title: 'ClawGym II: Exploring Black-Box RL on Agent Harness'
+url: https://arxiv.org/abs/2608.16798v1
+authors:
+- Huatong Song
+- Fei Bai
+- Ming Yang
+- Renyuan Li
+- Jia Deng
+- Jujie He
+- Zhange Zhang
+- Daixuan Cheng
+- Yan Xing
+- Qi Yun
+- Xuxing Chen
+- Danyang Li
+- Feng Chang
+- Chuan Hao
+- Ran Tao
+- Jian Yang
+- Bryan Dai
+- Wayne Xin Zhao
+- Mingjie Tang
+- Ji-Rong Wen
+venue: arXiv
+year: 2026
+summary: A black-box RL framework for optimizing agents through complex harnesses, featuring sandbox-based
+  execution, model-call capturing for trajectory reconstruction, and adapted policy optimization for improved
+  stability and scalability.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the observation and evaluation of agent behavior by providing a
+    framework for stable and scalable black-box RL optimization through complex agent harnesses, which
+    is relevant for long-horizon evaluation.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-meld-a-protocol-for-merging-knowledge-across-distributed
+type: papers
+title: 'MELD: A Protocol for Merging Knowledge Across Distributed Agentic Memories'
+url: https://arxiv.org/abs/2608.16357v1
+authors:
+- Lauri Lovén
+- Jaakko Sauvola
+- Jukka Riekki
+- Sasu Tarkoma
+venue: arXiv
+year: 2026
+summary: MELD is a self-managing coherence protocol for federated agent memories, enabling distributed
+  agents to reconcile, merge, and manage knowledge across their individual knowledge graphs without a
+  central coordinator, while preserving contradictions for later adjudication.
+harness_layer:
+- memory
+sprs:
+- reliability
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: 'This paper directly addresses a core systems-engineering problem for multi-agent systems:
+    maintaining integrity and coherence of distributed agent memory, with a concrete protocol and empirical
+    evaluation.'
+status: draft

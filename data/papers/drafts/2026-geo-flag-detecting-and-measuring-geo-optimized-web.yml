@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-geo-flag-detecting-and-measuring-geo-optimized-web
+type: papers
+title: 'GEO-Flag: Detecting and Measuring GEO-Optimized Web Content'
+url: https://arxiv.org/abs/2608.16824v1
+authors:
+- Junjie Chu
+- Ye Leng
+- Mingjie Li
+- Yun Shen
+- Xinyue Shen
+- Yang Zhang
+venue: arXiv
+year: 2026
+summary: Introduces GEOFlagBench, a benchmark for detecting Generative Engine Optimization (GEO) in web
+  content, and proposes Intervention-Paired Training (IPT) to improve detection, along with a GEO-gated
+  Agent system for auditing detected pages.
+harness_layer:
+- red-team
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper addresses a novel adversarial threat (GEO) to the integrity of information consumed
+    by generative agents and proposes a detection and auditing system, which is relevant to red-teaming
+    and reliability of agent inputs.
+status: draft

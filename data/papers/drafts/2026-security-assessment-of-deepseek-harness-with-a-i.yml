@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-security-assessment-of-deepseek-harness-with-a-i
+type: papers
+title: 'Security Assessment of DeepSeek Harness with A.I.G: Evaluating Resistance to Indirect Prompt Injection'
+url: https://arxiv.org/abs/2608.16393v1
+authors:
+- Zonghao Ying
+- Xiangfan Wu
+- Huiyu Wu
+- Xing Zheng
+- Huangsheng Cheng
+- Xiaorong Shi
+- Jing Guo
+venue: arXiv
+year: 2026
+summary: A security assessment of DeepSeek Harness against indirect prompt injection, using a controlled
+  testing framework to evaluate resistance across various content channels, carrier modes, and attack
+  methods, and identifying specific vulnerabilities related to tool results and additional contexts.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly contributes to red-teaming agentic systems by systematically evaluating
+    indirect prompt injection vulnerabilities in a specific agent harness, providing concrete attack success
+    rates and identifying areas for control.
+status: draft

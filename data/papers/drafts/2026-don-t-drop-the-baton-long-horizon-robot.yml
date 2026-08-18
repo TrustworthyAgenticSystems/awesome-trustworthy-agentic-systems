@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-don-t-drop-the-baton-long-horizon-robot
+type: papers
+title: 'Don''t Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware
+  Memory'
+url: https://arxiv.org/abs/2608.16889v1
+authors:
+- Bingxin Xu
+- Yuzhang Shang
+- Emilio Ferrara
+venue: arXiv
+year: 2026
+summary: BATON improves long-horizon robot manipulation by making subtasks the unit of exploration and
+  equipping exploration with transition-aware memory, addressing compounding errors and state mismatches
+  between subtasks.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses reliability in multi-stage agentic systems by improving coordination
+    and memory management for long-horizon tasks, with a clear systems-level contribution.
+status: draft
