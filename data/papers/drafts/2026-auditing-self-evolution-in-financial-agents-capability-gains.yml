@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-auditing-self-evolution-in-financial-agents-capability-gains
+type: papers
+title: 'Auditing Self-Evolution in Financial Agents: Capability Gains, Security Drift, and Execution-Interface
+  Mismatch'
+url: https://arxiv.org/abs/2608.17684v1
+authors:
+- Jialong Li
+- Jialing Zhu
+venue: arXiv
+year: 2026
+summary: Audits the security and reliability of self-evolving financial agents by tracking regressions,
+  attack-surface contact, unauthorized state changes, and artifact-executor compatibility, beyond just
+  accuracy.
+harness_layer:
+- observation-eval
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses the evaluation and auditing of trustworthy agentic systems, specifically
+    focusing on security and reliability drift in self-evolving agents.
+status: draft

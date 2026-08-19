@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-on-the-fragility-of-self-improving-agents-variance
+type: papers
+title: 'On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification'
+url: https://arxiv.org/abs/2608.18066v1
+authors:
+- Qinyuan Ye
+- Yu Li
+- Yada Pruksachatkun
+- Jiaxin Zhang
+- Chien-Sheng Wu
+venue: arXiv
+year: 2026
+summary: Re-evaluates memory-based self-improving agents, exposing fragility due to high variance and
+  task-order dependency, and proposes more rigorous evaluation protocols and better specification through
+  human oversight.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses the reliability and evaluation of long-running agentic systems, specifically focusing
+    on the fragility of self-improvement loops and the need for robust evaluation protocols.
+status: draft

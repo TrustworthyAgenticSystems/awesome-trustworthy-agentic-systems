@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-delegation-asymmetry-in-agentic-recommender-systems-measuring-two
+type: papers
+title: 'Delegation Asymmetry in Agentic Recommender Systems: Measuring Two-Sided Receptivity in Online
+  Dating'
+url: https://arxiv.org/abs/2608.18058v1
+authors:
+- Daria Leshchikova
+- Valentina V. Kuskova
+- Dmitry Zaytsev
+- Valerii Klimov
+venue: arXiv
+year: 2026
+summary: Studies user receptivity to agent-mediated communication in dating platforms, quantifying a delegation
+  asymmetry where users are more willing to deploy agents than to receive agent communication, and explores
+  design levers for agentic recommender systems.
+harness_layer:
+- oversight
+sprs:
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses human oversight and user acceptance in agentic systems, specifically focusing on
+    the social implications and design considerations for agent deployment and interaction.
+status: draft

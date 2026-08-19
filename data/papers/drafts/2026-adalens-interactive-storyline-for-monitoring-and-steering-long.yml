@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-adalens-interactive-storyline-for-monitoring-and-steering-long
+type: papers
+title: 'AdaLens: Interactive Storyline for Monitoring and Steering Long-Running Agentic Data Analysis'
+url: https://arxiv.org/abs/2608.17834v1
+authors:
+- Yangtian Liu
+- Yan Miao
+- Shuhan Liu
+- Yunfan Zhou
+- Dae Hyun Kim
+- Di Weng
+- Yingcai Wu
+venue: arXiv
+year: 2026
+summary: AdaLens is an interactive system that provides a storyline-based representation for monitoring
+  and steering long-running agentic data analysis workflows, unifying plans, execution, findings, and
+  data involvement.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses human oversight and steerability for long-running agentic systems,
+    a critical aspect of trustworthiness, with a concrete interactive system and evaluation.
+status: draft

@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-harnessrisk-a-lifecycle-oriented-benchmark-for-agent-harness
+type: papers
+title: 'HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety'
+url: https://arxiv.org/abs/2608.17597v1
+authors:
+- Yajing Bai
+- Jinhao Duan
+- Jie Peng
+- Xianfeng Wu
+- Sijia Liu
+- Song Wang
+- Tianlong Chen
+venue: arXiv
+year: 2026
+summary: HarnessRisk is a lifecycle-oriented benchmark for agent harness safety, organizing risks into
+  six operational phases and evaluating attack success, persistence, and utility across various configurations.
+harness_layer:
+- red-team
+sprs:
+- security
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses adversarial testing of agentic systems by providing a comprehensive,
+    lifecycle-oriented benchmark for evaluating safety failures across different harness responsibilities.
+status: draft
