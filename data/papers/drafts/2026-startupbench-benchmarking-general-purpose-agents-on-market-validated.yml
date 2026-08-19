@@ -1,0 +1,65 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-startupbench-benchmarking-general-purpose-agents-on-market-validated
+type: papers
+title: 'StartupBench: Benchmarking General-Purpose Agents on Market-Validated End-to-End Workflows'
+url: https://arxiv.org/abs/2608.17800v1
+authors:
+- Liya Zhu
+- Xin Ma
+- Tao Liu
+- Haodong Wang
+- Ge Zhang
+- Jingzhe Ding
+- Qingshui Gu
+- Yongjie Zhong
+- Jinxiang Meng
+- Yuan Gao
+- Yunqiu Zhou
+- Hao Zhu
+- Jifeng He
+- Yongzhi Liao
+- Xinyi Zhang
+- Chaoxin Li
+- Yi Zhu
+- Xi Lin
+- Duju Zeng
+- Xiang Gao
+- Wen Zhang
+- Yunyang Wang
+- Duo Wang
+- Huan Zhou
+- Zuo Wang
+- Jin Chen
+- Kaiyuan Zhang
+- Chuqian Yu
+- Tianhao Yu
+- Longxiang Liu
+- Jianbo Xue
+- Huimin Che
+- Jiahao Wang
+- Yujia Qin
+- Jiaheng Liu
+- Shen Yan
+- Xiaolong Chang
+- Wenhao Huang
+venue: arXiv
+year: 2026
+summary: Introduces StartupBench, an end-to-end agent benchmark derived from market-validated AI startup
+  products to evaluate general-purpose agents on real-world, deliverable-oriented workflows.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper contributes a novel, real-world-grounded benchmark for evaluating the reliability
+    of end-to-end agent workflows, which is crucial for trustworthy agentic systems.
+status: draft

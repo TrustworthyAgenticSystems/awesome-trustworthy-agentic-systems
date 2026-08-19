@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-gadr-gathering-architecture-decision-records-from-meeting-transcriptions
+type: papers
+title: 'GADR: Gathering Architecture Decision Records from Meeting Transcriptions'
+url: https://arxiv.org/abs/2608.17694v1
+authors:
+- Lucas Daniel Costa da Silva
+- Kiev Gama
+venue: arXiv
+year: 2026
+summary: GADR is a multi-agent, self-correcting workflow that extracts architectural decisions from raw
+  meeting transcriptions and generates Nygard-formatted ADR drafts, addressing the challenge of noisy,
+  unstructured input for automated documentation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper presents a multi-agent system for extracting architectural decisions from noisy
+    meeting transcripts, contributing to the reliability of automated documentation workflows and raising
+    questions about content traceability.
+status: draft

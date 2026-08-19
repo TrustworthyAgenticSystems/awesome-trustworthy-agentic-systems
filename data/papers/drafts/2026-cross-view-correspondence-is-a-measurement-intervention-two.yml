@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cross-view-correspondence-is-a-measurement-intervention-two
+type: papers
+title: 'Cross-View Correspondence Is a Measurement Intervention: Two-Sided Validation for Agent Evaluation
+  and Credit Assignment'
+url: https://arxiv.org/abs/2608.17713v1
+authors:
+- Zhen Zhang
+- Ahmad Hafez
+- Amr Alanwar
+venue: arXiv
+year: 2026
+summary: Develops a validity theory and audit for cross-view correspondence in agent evaluation and credit
+  assignment, addressing how measurement interventions can distort sensitivity, invariance, and credit
+  identification.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a fundamental problem in the reliability and validity of agent evaluation and credit
+    assignment, which is crucial for trustworthy agentic systems.
+status: draft

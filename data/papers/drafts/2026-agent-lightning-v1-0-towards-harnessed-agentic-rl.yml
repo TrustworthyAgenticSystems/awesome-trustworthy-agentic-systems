@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agent-lightning-v1-0-towards-harnessed-agentic-rl
+type: papers
+title: 'Agent Lightning v1.0: Towards Harnessed Agentic RL'
+url: https://arxiv.org/abs/2608.17528v1
+authors:
+- Zhiyuan He
+- Siwei Zhang
+- Zhiwen Zhou
+- Yuqing Yang
+- Yu Kang
+- Yuge Zhang
+- Luna K. Qiu
+- Tin Yan Tsui
+- Jiahang Xu
+- Chong Luo
+venue: arXiv
+year: 2026
+summary: Agent Lightning v1.0 is a lightweight framework for harnessed agentic RL that disaggregates the
+  agent harness from the RL training engine, allowing the deploy-time harness to own environment interaction
+  while the trainer observes LLM request-response pairs.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a reference architecture for integrating agent harnesses with RL training,
+    addressing systems-level challenges in this disaggregated paradigm.
+status: draft
