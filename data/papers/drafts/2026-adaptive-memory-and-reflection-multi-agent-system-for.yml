@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-adaptive-memory-and-reflection-multi-agent-system-for
+type: papers
+title: Adaptive Memory and Reflection Multi-Agent System for Medical Question Answering
+url: https://arxiv.org/abs/2608.19029v1
+authors:
+- Pradeep Murugesan
+- Luoxiao Yang
+- Xueli Chen
+- Xinqi Fan
+venue: arXiv
+year: 2026
+summary: A multi-agent framework for medical QA that uses specialized agents with dedicated memory and
+  reflection, routing questions through adaptive workflows (solo, collaborative, escalated) and incorporating
+  consensus and ethical overseer modules for reasoning consolidation and output review.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper contributes to multi-agent coordination and structured decision-making for trustworthy
+    medical QA, including ethical oversight and adaptive workflows.
+status: draft
