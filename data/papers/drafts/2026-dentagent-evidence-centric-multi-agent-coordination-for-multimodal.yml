@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-dentagent-evidence-centric-multi-agent-coordination-for-multimodal
+type: papers
+title: 'DentAgent: Evidence-Centric Multi-Agent Coordination for Multimodal Dental Reasoning'
+url: https://arxiv.org/abs/2608.18878v1
+authors:
+- Zijie Meng
+- Xiwei Dai
+- Yixuan Tang
+- Jin Hao
+- Yang Feng
+- Fudong Zhu
+- Xiaoqiang Liu
+- Shaosheng Cao
+- Zuozhu Liu
+venue: arXiv
+year: 2026
+summary: DentAgent is an evidence-centric multi-agent framework that coordinates specialized agents across
+  modalities, using an Evidence Blackboard to manage structured evidence records for traceable multimodal
+  dental reasoning.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent coordination framework with a focus on managing and tracing
+    evidence, which contributes to the reliability and observability of agentic systems.
+status: draft
