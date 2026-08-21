@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-copa-continual-preference-optimization-for-adaptive-prompt-injection
+type: papers
+title: 'COPA: Continual Preference Optimization for Adaptive Prompt Injection Defense'
+url: https://arxiv.org/abs/2608.19982v1
+authors:
+- Roshan Sood
+- Onat Gungor
+- Tajana Rosing
+venue: arXiv
+year: 2026
+summary: COPA is a continual preference optimization framework that incrementally incorporates feedback
+  from newly observed prompt injection attacks to adapt defenses while mitigating catastrophic forgetting.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses prompt injection defense as a lifelong learning problem, focusing on
+    adaptive adversaries and continuous adaptation, which is relevant to red-teaming and security of agentic
+    systems.
+status: draft
