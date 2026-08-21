@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-task-coevolve-efficient-harness-optimization-via-adaptive-validation
+type: papers
+title: 'Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection'
+url: https://arxiv.org/abs/2608.20169v1
+authors:
+- Atsuyuki Miyai
+- Kiyoharu Aizawa
+- Toshihiko Yamasaki
+venue: arXiv
+year: 2026
+summary: Task-CoEvolve optimizes LLM agent harnesses by adaptively selecting validation tasks based on
+  their informativeness, reducing evaluation costs while maintaining performance gains.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to efficient evaluation and optimization of agent harnesses, directly
+    addressing the reliability of agentic systems through improved testing methodologies.
+status: draft
