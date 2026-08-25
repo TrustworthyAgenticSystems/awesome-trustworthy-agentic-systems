@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-earthverse-benchmarking-scientific-agents-across-dynamic-earth-systems
+type: papers
+title: 'EarthVerse: Benchmarking Scientific Agents Across Dynamic Earth Systems and Natural Hazards'
+url: https://arxiv.org/abs/2608.23525v1
+authors:
+- Zhiqing Cui
+- Xinxiang Yin
+- Yihong Tang
+- Xinglang Zhang
+- Yuanzhe Hu
+- Siru Zhong
+- Weidong Tang
+- Yuxuan Liang
+- Weijia Li
+- Ming Jin
+- Shirui Pan
+- Yuhao Kang
+- Dingyi Zhuang
+- Jinhua Zhao
+venue: arXiv
+year: 2026
+summary: EarthVerse is a benchmark for evaluating scientific agents on dynamic Earth systems and natural
+  hazards, focusing on end-to-end reliability across heterogeneous evidence, tool use, and provenance
+  tracking.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a benchmark specifically designed to evaluate the reliability and consistency
+    of multi-step agent workflows in a complex scientific domain, addressing long-horizon evaluation.
+status: draft
