@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-prime-agent-a-self-improving-rlm-harness
+type: papers
+title: 'Prime Agent: A Self-Improving RLM Harness'
+url: https://arxiv.org/abs/2608.23552v1
+authors:
+- Seth Karten
+- Alex L. Zhang
+- Kevin Thomas
+- Sebastian Müller
+- Elie Bakouch
+- Daniel Auras
+- Mika Senghaas
+- Fares Obeid
+- Konstantin Dunas
+- Johannes Hagemann
+- Sami Jaghouar
+venue: arXiv
+year: 2026
+summary: Prime Agent is an open-source harness that standardizes execution, recovery, verification, and
+  resource accounting for long-horizon agent workflows, using a persistent IPython REPL and continual
+  history/memory preservation.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper describes an end-to-end agent architecture with specific systems-engineering contributions
+    to execution, recovery, and resource accounting, directly addressing reliability in long-horizon agency.
+status: draft

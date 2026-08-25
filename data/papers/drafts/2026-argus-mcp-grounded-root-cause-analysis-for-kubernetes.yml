@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-argus-mcp-grounded-root-cause-analysis-for-kubernetes
+type: papers
+title: 'ARGUS: MCP-Grounded Root Cause Analysis for Kubernetes Incidents'
+url: https://arxiv.org/abs/2608.23084v1
+authors:
+- Ergi Senja
+- Seyed Mohammad Reza Razavi Zadegan
+- Philipp Leitner
+venue: arXiv
+year: 2026
+summary: ARGUS is an MCP-grounded root cause analysis assistant that connects an LLM to live Kubernetes
+  observability data through standardized MCP servers, delivering structured diagnostic summaries for
+  incident triage.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper presents a reference architecture for an agentic system that performs root cause
+    analysis in a production Kubernetes environment, addressing reliability and observability.
+status: draft

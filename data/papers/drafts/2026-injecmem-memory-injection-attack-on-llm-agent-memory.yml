@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-injecmem-memory-injection-attack-on-llm-agent-memory
+type: papers
+title: 'InjecMEM: Memory Injection Attack on LLM Agent Memory Systems'
+url: https://arxiv.org/abs/2608.23471v1
+authors:
+- Hanling Tian
+- Gengyu Zhang
+- Zeyang Sha
+- Jingying Wang
+- Yuhang Liu
+- Zhehao Huang
+- Kun Yang
+- Xiaolin Huang
+venue: arXiv
+year: 2026
+summary: Introduces InjecMEM, a memory injection attack that steers agent responses via a single interaction,
+  and proposes a reproducible framework for studying agent memory vulnerabilities.
+harness_layer:
+- memory
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses a novel memory-system vulnerability (memory injection) and provides a
+    framework for studying agent memory security.
+status: draft

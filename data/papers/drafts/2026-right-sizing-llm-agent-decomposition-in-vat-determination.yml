@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-right-sizing-llm-agent-decomposition-in-vat-determination
+type: papers
+title: 'Right-Sizing LLM-Agent Decomposition in VAT Determination: A Pilot Controlled Sweep'
+url: https://arxiv.org/abs/2608.23395v1
+authors:
+- Pedro Santos
+venue: arXiv
+year: 2026
+summary: A controlled study on LLM-agent decomposition strategies for VAT determination, evaluating the
+  impact of agent granularity on accuracy and robustness under failure injection, and proposing a heuristic
+  for optimal partitioning.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: This paper directly investigates the systems-engineering problem of multi-agent coordination
+    and decomposition, with empirical evaluation and a proposed heuristic.
+status: draft
