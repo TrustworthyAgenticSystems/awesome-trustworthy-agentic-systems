@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-simthesizer-an-agent-driven-simulation-framework-for-llm
+type: papers
+title: 'Simthesizer: An Agent-Driven Simulation Framework for LLM Serving Systems'
+url: https://arxiv.org/abs/2608.24650v1
+authors:
+- Wonung Kim
+- Hyunmin Choi
+- Minsu Kim
+- Jaehong Cho
+- Yeongwook Kim
+- Jongse Park
+venue: arXiv
+year: 2026
+summary: Borg is an agent-driven simulation framework for LLM serving systems that uses a coding agent
+  to evolve a unified dynamic graph simulator from natural-language feature requests, enabling faster
+  and more accurate simulation development.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a novel agent-driven architecture for simulating complex LLM serving
+    systems, addressing the reliability and development speed of such systems.
+status: draft

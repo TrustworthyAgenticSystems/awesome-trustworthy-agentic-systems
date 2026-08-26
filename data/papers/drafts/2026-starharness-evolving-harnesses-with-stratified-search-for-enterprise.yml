@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-starharness-evolving-harnesses-with-stratified-search-for-enterprise
+type: papers
+title: 'StarHarness: Evolving Harnesses with Stratified Search for Enterprise Environments'
+url: https://arxiv.org/abs/2608.24804v1
+authors:
+- Esakkivel Esakkiraja
+- Denis Akhiyarov
+- Vikas Yadav
+- Sai Rajeswar
+- Patrice Bechard
+- Sridhar Nemala
+- Sagar Davasam
+venue: arXiv
+year: 2026
+summary: StarHarness is a framework for evolving environment-specific agent harnesses, including prompt,
+  tool interfaces, and subagent structure, to improve performance and reduce model-environment mismatch
+  in enterprise tasks.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper describes a system for evolving agent harnesses, which directly contributes to
+    the reliability and performance of agentic systems in enterprise environments.
+status: draft

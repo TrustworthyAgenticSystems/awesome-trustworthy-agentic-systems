@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-recursive-experiential-working-memory-evolution-for-long-horizon
+type: papers
+title: Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses
+url: https://arxiv.org/abs/2608.24876v1
+authors:
+- Zhaochen Yu
+- Yingcheng Wu
+- Zhenfei Yin
+- Kaiyuan Chen
+- Zhe Zhao
+- Mengdi Wang
+- Shuicheng Yan
+- Ling Yang
+venue: arXiv
+year: 2026
+summary: Introduces Recuris, a recursive Experiential-Working Memory architecture that tracks task progress
+  and guides skill selection, localizing failures to specific memory components and enabling validation-gated
+  updates for long-horizon tasks.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a novel memory architecture that directly addresses reliability and failure
+    localization in long-running agentic systems, with empirical validation on long-horizon benchmarks.
+status: draft

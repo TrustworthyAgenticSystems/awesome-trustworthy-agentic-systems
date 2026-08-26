@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-benchmarking-llm-judges-for-voice-agent-evaluation-reliability
+type: papers
+title: 'Benchmarking LLM Judges for Voice-Agent Evaluation: Reliability, Calibration, and Human Oversight'
+url: https://arxiv.org/abs/2608.24314v1
+authors:
+- Anupam Purwar
+- Shashank Singh
+- Kritika Srivastava
+venue: arXiv
+year: 2026
+summary: Empirical framework for evaluating conversational voice agents using LLM judges, comparing their
+  reliability and consistency against human judgments across different metrics and configurations to inform
+  hybrid human-LLM oversight pipelines.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the reliability of LLM judges for agent evaluation and the design
+    of hybrid human-LLM oversight pipelines, which is a core systems problem for trustworthy agents.
+status: draft
