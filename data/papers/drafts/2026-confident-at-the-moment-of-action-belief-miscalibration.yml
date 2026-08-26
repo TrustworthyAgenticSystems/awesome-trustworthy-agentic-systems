@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-confident-at-the-moment-of-action-belief-miscalibration
+type: papers
+title: 'Confident at the moment of action: belief miscalibration in LLM play under hidden information'
+url: https://arxiv.org/abs/2608.24691v1
+authors:
+- Bhushan Kashinath Joshi
+venue: arXiv
+year: 2026
+summary: Empirical study demonstrating that LLM agents' stated confidence about hidden information is
+  miscalibrated at the moment of action, even when conventional metrics are good, highlighting a gap in
+  current evaluation methods.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper identifies a critical issue in agent evaluation and observability (belief miscalibration)
+    that affects the reliability of agentic systems, especially when actions are gated on confidence.
+status: draft

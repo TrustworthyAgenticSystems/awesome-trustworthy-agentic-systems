@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-observability-and-fault-injection-for-llm-based-multi
+type: papers
+title: Observability and Fault Injection for LLM-Based Multi-Agent Systems in Software Engineering
+url: https://arxiv.org/abs/2608.24271v1
+authors:
+- Zahra Seyedghorban
+- Egor Klimov
+- Arie van Deursen
+- Annibale Panichella
+- Burcu Kulahcioglu Ozkan
+venue: arXiv
+year: 2026
+summary: A lightweight, framework-agnostic tool for distributed tracing and fault injection in LLM-based
+  multi-agent systems, enabling reproducible comparison of baseline and faulty executions through aligned
+  traces.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses observability and fault injection for multi-agent systems, providing a
+    concrete tool for debugging and evaluation of agent workflows.
+status: draft
