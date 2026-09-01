@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-learning-to-evaluate-before-improving-automatic-rubric-induction
+type: papers
+title: 'Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents'
+url: https://arxiv.org/abs/2608.31076v1
+authors:
+- Xuehai Wang
+- Haowei Qin
+- Tongxin Liu
+- Junkai Li
+- Buqiang Xu
+- Jintian Zhang
+- Yijun Chen
+- Zirui Xue
+- Shumin Deng
+venue: arXiv
+year: 2026
+summary: AutoSciRub is an evaluation-first framework that induces a task-specific executable rubric from
+  underspecified instructions to guide the execution, verification, and iterative revision of autonomous
+  scientific research agents.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes a system-level framework for guiding agent execution and revision through
+    automatically induced rubrics, addressing reliability in open-ended tasks.
+status: draft
