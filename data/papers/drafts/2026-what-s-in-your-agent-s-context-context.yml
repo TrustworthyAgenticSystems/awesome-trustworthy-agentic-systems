@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-what-s-in-your-agent-s-context-context
+type: papers
+title: What's in Your Agent's Context? Context Privilege Escalation Attacks against AI Agent Harness
+url: https://arxiv.org/abs/2609.01222v1
+authors:
+- Zichuan Li
+- Jian Cui
+- Ashley Chen
+- Xiaojing Liao
+- Luyi Xing
+venue: arXiv
+year: 2026
+summary: Systematic analysis of context assembly designs in real-world AI agent harnesses, identifying
+  and demonstrating two novel categories of context privilege escalation attacks (M-CPE and X-CPE) that
+  lead to agent compromise and other severe consequences.
+harness_layer:
+- memory
+sprs:
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses security vulnerabilities in agent memory and context management,
+    which is a core systems-engineering problem for trustworthy agents.
+status: draft

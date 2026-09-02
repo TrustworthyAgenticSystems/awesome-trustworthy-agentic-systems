@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cordisbench-can-language-models-reason-about-component-lifecycles
+type: papers
+title: 'CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?'
+url: https://arxiv.org/abs/2609.01600v1
+authors:
+- Damien Sileo
+- Dimitri Kachler
+venue: arXiv
+year: 2026
+summary: Introduces CordisBench, a benchmark for evaluating language models' ability to reason about component
+  lifecycles, dependencies, and cleanup in dynamic agent harnesses, executed against a runtime that manages
+  these interactions.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses the reliability of dynamic agent harnesses by benchmarking LLM
+    reasoning about component lifecycles and dependencies, which is a systems-level concern.
+status: draft

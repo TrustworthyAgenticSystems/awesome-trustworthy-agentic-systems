@@ -1,0 +1,46 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-harnessdev-can-llms-create-and-evolve-their-own
+type: papers
+title: 'HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?'
+url: https://arxiv.org/abs/2609.01437v1
+authors:
+- Yuhao Wu
+- Jingyuan Zhang
+- Jiajun Shi
+- Xinping Lei
+- Qingshui Gu
+- Yuxuan Zhang
+- Zexuan Wang
+- Chen He
+- Chen Huang
+- Maojia Song
+- Zhiyuan Zeng
+- Shaowen Wang
+- Jinkai Liu
+- Yunfeng Shi
+- Jiaheng Liu
+- Shen Yan
+- Wenhao Huang
+- Ge Zhang
+- Wenxuan Zhang
+venue: arXiv
+year: 2026
+summary: HarnessDev is a benchmark for evaluating LLMs' ability to create and evolve agent execution infrastructure
+  (harnesses), assessing both capability and efficiency on held-out tasks.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a benchmark for evaluating the creation and evolution of agent harnesses,
+    which is a direct contribution to the engineering of agentic systems.
+status: draft

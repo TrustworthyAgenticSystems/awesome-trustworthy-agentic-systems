@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-harness-of-harness-multi-day-autonomous-software-development
+type: papers
+title: 'Harness-of-Harness: Multi-Day Autonomous Software Development with Continual Improvement'
+url: https://arxiv.org/abs/2609.01481v1
+authors:
+- Haoyang Yan
+- Min-le Su
+- Hangfan Zhang
+- Zhanhao Li
+- Chen Zhang
+- Shao Zhang
+- Yang Chen
+- Lei Bai
+- Shuyue Hu
+venue: arXiv
+year: 2026
+summary: A framework for autonomous software development that orchestrates existing coding-agent harnesses
+  into iterative planning-coding-testing loops, focusing on continual improvement and verifiable increments.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a system-level framework for coordinating and improving agentic workflows
+    over long horizons, which is a direct contribution to trustworthy agentic systems.
+status: draft
