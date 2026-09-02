@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mutmem-v2-cryptographically-authorized-mutation-in-persistent-agent
+type: papers
+title: 'MutMem-V2: Cryptographically Authorized Mutation in Persistent Agent Memory Portable Verification
+  and Reproducible Evidence'
+url: https://arxiv.org/abs/2609.01235v1
+authors:
+- Walid Saidi
+venue: arXiv
+year: 2026
+summary: MutMem V2 specifies a cryptographically authorized mutation protocol for persistent agent memory,
+  ensuring portable integrity, authorization, traceability, and reproducibility through canonical byte
+  specifications, object commitments, and recall evidence.
+harness_layer:
+- memory
+sprs:
+- security
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the integrity and authorization of persistent agent memory,
+    a critical component of trustworthy agentic systems, with a detailed protocol and implementation validation.
+status: draft

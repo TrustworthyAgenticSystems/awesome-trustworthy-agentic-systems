@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-bandits-in-prod-hyperparameter-optimization-at-inference-time
+type: papers
+title: 'Bandits in Prod: Hyperparameter Optimization at Inference Time'
+url: https://arxiv.org/abs/2609.01335v1
+authors:
+- Louis Abraham
+- Tuan-Anh Nguyen
+- Nicolas Devatine
+venue: arXiv
+year: 2026
+summary: Introduces IMABO, a framework for online hyperparameter optimization (OHPO) at inference time
+  for agentic systems, combining bandit policies with oracles to tune configurations like prompting strategies
+  and retrieval depth based on live feedback.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses the critical systems problem of evaluating and optimizing agent configurations
+    in production where validation data is absent, directly contributing to agent reliability and long-horizon
+    evaluation.
+status: draft
