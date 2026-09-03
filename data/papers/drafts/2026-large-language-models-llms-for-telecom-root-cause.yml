@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-large-language-models-llms-for-telecom-root-cause
+type: papers
+title: 'Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured Reasoning Framework
+  for Evidence-Grounded Diagnosis'
+url: https://arxiv.org/abs/2609.02805v1
+authors:
+- Hao Zhou
+- Mandar Kulkarni
+- Hao Chen
+- Yan Xin
+- Charlie
+- Zhang
+venue: arXiv
+year: 2026
+summary: A structured reasoning framework for LLM-enabled telecom root cause analysis that organizes heterogeneous
+  telemetry, enforces decision-path reasoning, and generates evidence-grounded explanations to improve
+  diagnostic accuracy and consistency.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a structured reasoning framework for LLM agents that addresses reliability
+    and consistency in a complex domain by enforcing decision paths and grounding explanations in evidence,
+    which is a systems-level contribution to agent trustworthiness.
+status: draft
