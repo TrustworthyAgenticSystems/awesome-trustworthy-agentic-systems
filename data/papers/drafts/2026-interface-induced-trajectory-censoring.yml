@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-interface-induced-trajectory-censoring
+type: papers
+title: Interface-Induced Trajectory Censoring
+url: https://arxiv.org/abs/2609.03966v1
+authors:
+- Wenbo Wang
+venue: arXiv
+year: 2026
+summary: Identifies and quantifies 'interface-induced trajectory censoring,' where mismatches between
+  model output and tool-interface parsing silently prevent tool calls from being registered or executed,
+  and provides a preflight check to detect this issue.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a critical reliability issue in the tool-interface layer of agentic systems,
+    demonstrating how interface mismatches lead to silent failures and offering a concrete detection mechanism.
+status: draft
