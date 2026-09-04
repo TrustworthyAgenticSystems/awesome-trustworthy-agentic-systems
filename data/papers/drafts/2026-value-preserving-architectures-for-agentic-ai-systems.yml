@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-value-preserving-architectures-for-agentic-ai-systems
+type: papers
+title: Value-Preserving Architectures for Agentic AI Systems
+url: https://arxiv.org/abs/2609.03920v1
+authors:
+- Alessandro Pesare
+- Tommaso Dolci
+- Katja Hose
+- Emanuel Sallinger
+venue: arXiv
+year: 2026
+summary: Proposes value-preserving architectural patterns for multi-agent systems, including federated
+  topologies for privacy, distributed designs for pluralism, and guard-agent architectures for fairness
+  mitigation.
+harness_layer:
+- architectures
+sprs:
+- privacy
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper directly addresses architectural design for trustworthy multi-agent systems, linking
+    specific architectural choices to human-centered values like privacy and safety.
+status: draft
