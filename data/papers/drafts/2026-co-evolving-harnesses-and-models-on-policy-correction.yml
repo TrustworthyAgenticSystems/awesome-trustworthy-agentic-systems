@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-co-evolving-harnesses-and-models-on-policy-correction
+type: papers
+title: 'Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation
+  Fails'
+url: https://arxiv.org/abs/2609.09134v1
+authors:
+- Zhou Yu
+- Bin Bi
+- Shiva Kumar Pentyala
+- Shubham Mehrotra
+- Sougata Chaudhuri
+- Shilpa Bhagavath
+- Zeyuan Chen
+- Ran Xu
+- Phil Mui
+- James Zhu
+- Sitaram Asur
+venue: arXiv
+year: 2026
+summary: Investigates the co-evolution of agent harnesses and models, identifying and resolving a conflict
+  where imitation learning disrupts model-harness fit, and proposes an on-policy expert-correction pipeline
+  for economical co-evolution.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses the systems-level problem of co-evolving agent harnesses and models, providing
+    a methodology for improving reliability and performance in agentic systems.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-closing-the-consistency-gap-self-evolving-agents-that
+type: papers
+title: 'Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course'
+url: https://arxiv.org/abs/2609.08832v1
+authors:
+- Evelyn Duesterwald
+- Benjamin Elder
+- Lilian Ngweta
+- Shashanka Ubaru
+- Malgorzata Zimon
+venue: arXiv
+year: 2026
+summary: A self-evolving agent framework that identifies low-consistency steps in trajectories, converts
+  them into episodic memory guidelines, and injects them into future runs to improve reliability.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Addresses agent reliability by improving consistency through a novel memory-based self-correction
+    mechanism, directly relevant to trustworthy agent deployment.
+status: draft

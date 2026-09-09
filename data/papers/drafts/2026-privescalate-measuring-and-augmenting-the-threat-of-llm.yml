@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-privescalate-measuring-and-augmenting-the-threat-of-llm
+type: papers
+title: 'PrivEscalate: Measuring and Augmenting the Threat of LLM-Automated Linux Privilege Escalation'
+url: https://arxiv.org/abs/2609.09087v1
+authors:
+- Yixuan Liu
+- Zilong Zhen
+- Yin Wu
+- Yi Li
+venue: arXiv
+year: 2026
+summary: A large-scale benchmark for Linux privilege escalation, PrivEscalate, is introduced to quantify
+  LLM agent efficacy in complex post-exploitation tasks, revealing heterogeneous model capabilities and
+  sensitivity to environmental perturbations, leading to the development of a specialized agent wrapper.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to red-teaming agentic systems by providing a large-scale
+    benchmark for evaluating LLM agents in complex, multi-step security exploits, and proposes an agent
+    architecture improvement.
+status: draft
