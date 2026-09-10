@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-kernel-managed-shared-memory-for-system-wide-personalization
+type: papers
+title: Kernel-Managed Shared Memory for System-Wide Personalization
+url: https://arxiv.org/abs/2609.10144v1
+authors:
+- Ryan Lum
+- Yongfeng Zhang
+venue: arXiv
+year: 2026
+summary: Proposes a kernel-managed shared memory abstraction for multi-agent systems that centralizes
+  retrieval, privacy enforcement, and prompt injection, demonstrating improved personalization and efficiency
+  compared to agent-managed memory.
+harness_layer:
+- memory
+sprs:
+- privacy
+- reliability
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses memory management, privacy, and context integrity in multi-agent systems
+    with a novel architectural contribution and empirical evaluation.
+status: draft
