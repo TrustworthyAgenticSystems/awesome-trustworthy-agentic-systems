@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-gandr-claim-auditing-for-verifiable-legal-answer-generation
+type: papers
+title: 'GANDR: Claim Auditing for Verifiable Legal Answer Generation'
+url: https://arxiv.org/abs/2609.10293v1
+authors:
+- Chen Qian
+- Yimeng Wang
+- Yu Chen
+- Lingfei Wu
+- Andreas Stathopoulos
+venue: arXiv
+year: 2026
+summary: GANDR is a two-agent system (Drafter and Critic) that performs per-claim auditing of legal answers
+  against cited sources, generating a verifiable audit trace for each claim.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a multi-agent system with a clear coordination mechanism for verifiable
+    claim auditing, directly addressing reliability and safety in high-stakes domains.
+status: draft
