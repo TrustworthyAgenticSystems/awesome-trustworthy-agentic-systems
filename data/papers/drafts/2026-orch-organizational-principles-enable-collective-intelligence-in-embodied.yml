@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-orch-organizational-principles-enable-collective-intelligence-in-embodied
+type: papers
+title: 'ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI'
+url: https://arxiv.org/abs/2609.11737v1
+authors:
+- Zhengran Ji
+- Jonathan Hyun
+- Boyuan Chen
+venue: arXiv
+year: 2026
+summary: Introduces ORCH, a framework for constructing task-specific hierarchical organizations for multi-agent
+  systems based on human organization theory, demonstrating improved mission outcomes and efficiency in
+  embodied wildfire-response scenarios.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the coordination layer by operationalizing organizational principles
+    for multi-agent systems, improving reliability and efficiency in complex, long-horizon tasks.
+status: draft

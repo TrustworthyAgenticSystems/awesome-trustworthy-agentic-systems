@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-churnbench-a-drift-aware-benchmark-demonstrating-that-refresh
+type: papers
+title: 'ChurnBench: A Drift-Aware Benchmark Demonstrating That Refresh Scheduling, Not Cache Age, Governs
+  Staleness in Agentic AI'
+url: https://arxiv.org/abs/2609.11515v1
+authors:
+- Vivek Kumar Singh
+- Preeti Priyam
+venue: arXiv
+year: 2026
+summary: ChurnBench is an open-source benchmark that evaluates agentic systems for data staleness by generating
+  a dynamic enterprise data fabric and comparing agent answers against an append-only ground-truth ledger,
+  distinguishing freshness errors from reasoning errors.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a novel evaluation methodology and benchmark for assessing data freshness
+    and staleness in agentic systems, directly addressing a critical reliability concern in dynamic environments.
+status: draft
