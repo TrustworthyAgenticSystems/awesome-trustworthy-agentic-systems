@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-decomposition-buys-integrity-not-yield
+type: papers
+title: Decomposition Buys Integrity, Not Yield
+url: https://arxiv.org/abs/2609.17464v1
+authors:
+- Rong He
+venue: arXiv
+year: 2026
+summary: Models and empirically measures the information yield and alignment costs of multi-agent decomposition
+  strategies, showing that depth reduces information flow and introduces off-target briefs, but can reduce
+  context exposure and cost.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Analyzes the systems-level trade-offs of multi-agent coordination architectures (decomposition
+    trees) in terms of information integrity and alignment, with empirical validation on production traces.
+status: draft
