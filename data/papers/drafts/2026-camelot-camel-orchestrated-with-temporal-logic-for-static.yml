@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-camelot-camel-orchestrated-with-temporal-logic-for-static
+type: papers
+title: 'CaMeLoT: CaMeL orchestrated with Temporal logic for static verification and liveness'
+url: https://arxiv.org/abs/2609.18674v1
+authors:
+- Elia Nikolaou
+- Magnus Wiik Eckhoff
+- Robert Flood
+- Gudmund Grov
+- Vasileios Mavroeidis
+- David Aspinall
+venue: arXiv
+year: 2026
+summary: CaMeLoT introduces a static verification layer that translates an agent's generated plan into
+  a finite-state transition system and checks it against temporal policies using a model checker before
+  execution, enhancing security and safety.
+harness_layer:
+- intent
+sprs:
+- security
+- safety
+open_problems:
+- intent-to-constraints
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: The paper directly addresses the static verification of agent plans against temporal policies,
+    contributing to the intent-to-constraints problem for trustworthy agentic systems.
+status: draft
