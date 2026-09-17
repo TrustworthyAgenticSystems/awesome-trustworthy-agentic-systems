@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentlsd-evaluating-ai-security-agents-under-adversarial-task
+type: papers
+title: 'AgentLSD: Evaluating AI Security Agents Under Adversarial Task Contamination'
+url: https://arxiv.org/abs/2609.19140v1
+authors:
+- Matteo Golinelli
+- Idilio Drago
+- Matteo Boffa
+- Francesco Bergadano
+- Bruno Crispo
+venue: arXiv
+year: 2026
+summary: Introduces AgentLSD, a controlled framework using CTF challenges to study adversarial task contamination,
+  where deceptive non-instructional artifacts are injected into an agent's operational environment, and
+  evaluates its impact on agent performance.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses adversarial testing of agentic systems by introducing a novel
+    attack vector (task contamination) and a reproducible framework for evaluating its impact.
+status: draft

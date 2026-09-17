@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-social-laws-for-multi-agent-coordination-in-stochastic
+type: papers
+title: Social Laws for Multi-agent Coordination in Stochastic Environments
+url: https://arxiv.org/abs/2609.18929v1
+authors:
+- Rolando Fernandez
+- Caleb Probine
+- Tyler Lee
+- Jeffrey Chen
+- Erez Karpas
+- Muhammad Arrasy Rahman
+- Peter Stone
+- Ufuk Topcu
+venue: arXiv
+year: 2026
+summary: Extends the concept of social laws to stochastic, reward-based multi-agent environments, proposing
+  a formalism for defining and verifying their robustness to prevent interference and ensure individual
+  agent utility.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.8
+  rationale: Addresses multi-agent coordination and interference prevention in stochastic environments,
+    which is a systems-level concern for agent reliability and safety.
+status: draft

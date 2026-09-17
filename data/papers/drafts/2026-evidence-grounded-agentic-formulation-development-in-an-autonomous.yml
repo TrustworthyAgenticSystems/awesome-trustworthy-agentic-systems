@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-evidence-grounded-agentic-formulation-development-in-an-autonomous
+type: papers
+title: Evidence-Grounded Agentic Formulation Development in an Autonomous Laboratory
+url: https://arxiv.org/abs/2609.19099v1
+authors:
+- Michael M. Craig
+- Riley J. Hickman
+- Yingshan Ma
+- Rémi Piché-Taillefer
+- Christine Allen
+- Pauric Bannigan
+venue: arXiv
+year: 2026
+summary: Andromeda 2 is an agentic system that designs and executes drug formulation batches in an autonomous
+  laboratory by reasoning over structured experimental evidence and invoking computational and experimental
+  tools, demonstrating improved performance over prior methods.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper presents a real-world deployment and architectural description of an agentic system
+    for scientific discovery, including its performance against baselines in a physical lab setting.
+status: draft

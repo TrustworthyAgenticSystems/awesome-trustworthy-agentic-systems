@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-outcomes-dual-view-relational-learning-for-efficient
+type: papers
+title: 'Beyond Outcomes: Dual-View Relational Learning for Efficient Agent Benchmarking'
+url: https://arxiv.org/abs/2609.18909v1
+authors:
+- Xinshuai Guo
+- Junjie Wu
+- Dolly Deng
+- Yinghui Li
+- Hai-Tao Zheng
+- Suncong Zheng
+- Maxm Pan
+venue: arXiv
+year: 2026
+summary: Proposes DualViewEval, a benchmark compression method for agentic systems that jointly exploits
+  outcome and process signals from trajectories to create efficient minisets for evaluation, significantly
+  reducing evaluation cost while maintaining accuracy.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses the systems-level problem of efficient and reliable evaluation for agentic systems
+    by compressing benchmarks using process signals from trajectories.
+status: draft

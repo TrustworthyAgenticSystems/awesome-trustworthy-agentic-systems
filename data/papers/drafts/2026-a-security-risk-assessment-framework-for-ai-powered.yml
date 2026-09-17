@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-security-risk-assessment-framework-for-ai-powered
+type: papers
+title: A Security Risk Assessment Framework for AI-Powered Development Tools
+url: https://arxiv.org/abs/2609.18658v1
+authors:
+- Salem AlJanah
+venue: arXiv
+year: 2026
+summary: A Security Risk Assessment Framework (SRF) is proposed to evaluate the security risks of AI-generated
+  code by combining threat modeling, security analysis, and quantitative risk evaluation, applied to code
+  from multiple AI development tools.
+harness_layer:
+- supply-chain
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a framework for assessing security risks in AI-generated code, directly
+    contributing to the supply-chain security of agentic systems that produce code.
+status: draft

@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-flag-game-a-toy-model-for-mechanistic-swarm
+type: papers
+title: 'Flag Game: A Toy Model for Mechanistic Swarm Interpretability'
+url: https://arxiv.org/abs/2609.19124v1
+authors:
+- Elizabeth Pavlova
+- Hidenori Tanaka
+venue: arXiv
+year: 2026
+summary: Introduces the Flag Game, a toy model for studying collective belief formation and polarization
+  in multi-agent systems, and proposes social circuit attribution to mechanistically understand emergent
+  collective behaviors.
+harness_layer:
+- coordination
+sprs:
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses emergent collective behaviors and their safety risks in multi-agent
+    systems, focusing on mechanistic interpretability of coordination dynamics.
+status: draft
