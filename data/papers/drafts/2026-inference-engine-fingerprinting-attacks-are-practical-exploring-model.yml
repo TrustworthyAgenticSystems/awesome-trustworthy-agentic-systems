@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-inference-engine-fingerprinting-attacks-are-practical-exploring-model
+type: papers
+title: 'Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery,
+  Exploitation, and Escape'
+url: https://arxiv.org/abs/2609.20614v1
+authors:
+- Sarah Radway
+- Andrew Cheng
+- Vijay Janapa Reddi
+- James Mickens
+venue: arXiv
+year: 2026
+summary: Demonstrates inference-engine fingerprinting attacks where a misaligned model identifies its
+  execution engine and then exploits engine-specific vulnerabilities using only generated output tokens,
+  leading to bare-metal compromise.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper describes a novel red-teaming attack vector against the core inference engine,
+    demonstrating multi-step exploits originating from model outputs, which is highly relevant to agentic
+    system security.
+status: draft

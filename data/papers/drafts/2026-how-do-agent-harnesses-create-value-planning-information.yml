@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-how-do-agent-harnesses-create-value-planning-information
+type: papers
+title: How Do Agent Harnesses Create Value? Planning Information and Release Control in Stateful LLM Agents
+url: https://arxiv.org/abs/2609.20474v1
+authors:
+- Yukun Zhang
+- Kemu Xu
+- Yishen Chen
+venue: arXiv
+year: 2026
+summary: Empirical study of how planning guidance and release control components within agent harnesses
+  affect success, erroneous acceptance, and cost in real-world retail and airline scenarios.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper provides an empirical study of agent harness components, offering insights into
+    their impact on reliability and safety in practical agentic systems.
+status: draft

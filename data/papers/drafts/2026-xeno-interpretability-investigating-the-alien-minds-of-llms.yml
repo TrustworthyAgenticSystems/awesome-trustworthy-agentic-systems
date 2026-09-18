@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-xeno-interpretability-investigating-the-alien-minds-of-llms
+type: papers
+title: 'Xeno-Interpretability: Investigating the Alien Minds of LLMs'
+url: https://arxiv.org/abs/2609.20408v1
+authors:
+- F. Pierucci
+- M. Bracale Syrnikov
+- M. Prandi
+- M. Galisai
+- F. Giarrusso
+- P. Bisconti
+venue: arXiv
+year: 2026
+summary: Introduces 'xeno-interpretability' to study model-native representations that lack human conceptual
+  counterparts, with implications for understanding and predicting agent behavior in multi-agent systems.
+harness_layer:
+- foundations
+sprs:
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.75
+  rationale: This paper contributes to the foundational understanding of agent behavior and safety by
+    proposing a new interpretability framework relevant to multi-agent systems, even if it's not a direct
+    engineering solution.
+status: draft

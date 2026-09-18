@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-raft-a-stateful-retrieval-augmented-framework-for-troubleshooting
+type: papers
+title: 'RAFT: A Stateful Retrieval-Augmented Framework for Troubleshooting Agents'
+url: https://arxiv.org/abs/2609.20754v1
+authors:
+- Mingxuan Zhang
+- Xiaowen Wang
+- Anupma Sharan
+- Zhengyi Chen
+- Chenyu Diana Zhang
+- Shanshan Yang
+- Chittibabu Pacharu
+venue: arXiv
+year: 2026
+summary: RAFT is a stateful RAG framework that abstracts historical troubleshooting cases into directed
+  chains of timeline entries, enabling retrieval of relevant intermediate states and trajectories for
+  active cases, improving troubleshooting agent reliability.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a novel stateful RAG framework specifically designed for the multi-stage,
+    stateful nature of troubleshooting agents, directly addressing memory management and retrieval for
+    agent reliability.
+status: draft
