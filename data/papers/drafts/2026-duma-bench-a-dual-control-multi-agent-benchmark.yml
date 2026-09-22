@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-duma-bench-a-dual-control-multi-agent-benchmark
+type: papers
+title: 'DUMA-Bench: A Dual-Control Multi-Agent Benchmark for Evaluating LLM Agent Security'
+url: https://arxiv.org/abs/2609.24662v1
+authors:
+- Ivan Aleksandrov
+- German Kochnev
+- Sabrina Sadiekh
+- Yaroslav Rogoza
+venue: arXiv
+year: 2026
+summary: DUMA-Bench is a benchmark and evaluation protocol for measuring agent security under dual-control
+  interaction, where both the agent and the user can influence the shared environment state, covering
+  eight vulnerability classes including RAG poisoning and cross-agent manipulation.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper introduces a benchmark and evaluation protocol for adversarial testing of agentic
+    systems under realistic dual-control interaction, directly addressing agent security in a systems
+    context.
+status: draft
