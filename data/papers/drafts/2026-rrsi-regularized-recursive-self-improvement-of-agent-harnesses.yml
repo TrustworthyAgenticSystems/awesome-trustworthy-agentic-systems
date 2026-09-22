@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-rrsi-regularized-recursive-self-improvement-of-agent-harnesses
+type: papers
+title: 'RRSI: Regularized Recursive Self-Improvement of Agent Harnesses'
+url: https://arxiv.org/abs/2609.24972v1
+authors:
+- Peng Xia
+- Rujun Han
+- Zifeng Wang
+- Yanfei Chen
+- Yufan Zhang
+- Yoonho Lee
+- Chengsong Huang
+- Han Yu
+- Zhongying CuiZhu
+- Yifei Ming
+- Huaxiu Yao
+- Burak Gokturk
+- Tomas Pfister
+- Chen-Yu Lee
+venue: arXiv
+year: 2026
+summary: Introduces Regularized Recursive Self-Improvement (RRSI) for agent harnesses, using regularization
+  principles to constrain the evolution of prompts, control flow, tooling, and memory, leading to more
+  generalizable and efficient agent mechanisms.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses the systematic improvement and generalization of agent harnesses,
+    which are core components of trustworthy agentic systems, with a focus on reliability and efficiency.
+status: draft

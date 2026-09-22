@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ascent-an-agentic-system-over-the-model-context
+type: papers
+title: 'Ascent: An Agentic System over the Model Context Protocol for Real-World Clinical Data Analysis'
+url: https://arxiv.org/abs/2609.24620v1
+authors:
+- Angelo Ziletti
+- Leonardo D'Ambrosi
+- Melanie Tuchardt
+- Tim Kondziella
+venue: arXiv
+year: 2026
+summary: Ascent is an agentic system for clinical data analysis that uses a Model Context Protocol for
+  tool interaction, evaluated against a dataset of pharmacoepidemiological errors to demonstrate improved
+  accuracy over fixed pipelines.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper describes an end-to-end agentic system for a real-world, high-stakes domain, including
+    a novel evaluation dataset for system-level errors.
+status: draft

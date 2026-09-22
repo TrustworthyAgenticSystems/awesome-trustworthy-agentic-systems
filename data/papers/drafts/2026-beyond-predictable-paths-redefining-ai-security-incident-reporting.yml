@@ -1,0 +1,53 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-predictable-paths-redefining-ai-security-incident-reporting
+type: papers
+title: 'Beyond Predictable Paths: Redefining AI Security Incident Reporting for Agents'
+url: https://arxiv.org/abs/2609.24515v1
+authors:
+- Anastasia Pustozerova
+- Eugene Bagdasarian
+- Luca Beurer-Kellner
+- Battista Biggio
+- Nico Ebert
+- David Filip
+- Marc Fischer
+- Heather Frase
+- David Hofer
+- Juliane Hoffmann
+- Daphne Ippolito
+- Somesh Jha
+- Sean McGregor
+- Esfandiar Mohammadi
+- Luca Nannini
+- Cristina Nita-Rotaru
+- Alina Oprea
+- Kevin Paeth
+- Andrew Paverd
+- Jonathan Petit
+- Andreas Rauber
+- Christian Riess
+- John Sotiropoulos
+- Andreas Wespi
+- Kathrin Grosse
+venue: arXiv
+year: 2026
+summary: Identifies critical information required for reporting security incidents in AI agent systems,
+  including agent memory, autonomy levels, and tool usage, based on expert input.
+harness_layer:
+- foundations
+sprs:
+- security
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides foundational insights into incident reporting for AI agents, addressing
+    the unique systems-level characteristics and identifying open research problems for trustworthy deployment.
+status: draft
