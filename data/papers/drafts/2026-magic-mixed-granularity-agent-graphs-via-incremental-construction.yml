@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-magic-mixed-granularity-agent-graphs-via-incremental-construction
+type: papers
+title: 'MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement
+  Learning'
+url: https://arxiv.org/abs/2609.26667v1
+authors:
+- Kairui Yang
+- Ziheng Yi
+- Xunkai Li
+- Minghao An
+- Zhanke Liu
+- Zekai Chen
+- Rong-Hua Li
+venue: arXiv
+year: 2026
+summary: MAGIC proposes a dense-reward reinforcement learning framework for generating mixed-granularity
+  agent collaboration graphs, allowing for local granularity selection and reusable patterns to optimize
+  performance and efficiency in multi-agent systems.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper directly addresses the coordination and composition of multi-agent systems by proposing
+    a novel method for dynamically generating collaboration topologies.
+status: draft
