@@ -1,0 +1,46 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-screen-before-you-serve-simulation-for-production-customer
+type: papers
+title: 'Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale'
+url: https://arxiv.org/abs/2609.30137v1
+authors:
+- Edesio Alcoba
+- Kevin Rossell
+- Aman Gupta
+- Shao Tang
+- Jiwoo Hong
+- Pabel Carrillo-Mendoza
+- Wanderson Conceição Ferreira
+- Alvaro Tedeschi
+- Zayd Simjee
+- Shreya Rajpal
+- Bruno Finardi Hime
+- Christian Sousa
+- Luis Moneda
+- Herbert Fei
+- Daniel Silva
+- Rohan Ramanath
+venue: arXiv
+year: 2026
+summary: A hypothesis-driven simulation workflow for screening customer experience AI agents before deployment,
+  using synthetic customers and simulated tool outputs to enable multi-step agentic workflow testing without
+  production backend invocation.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses the challenge of evaluating and ensuring the reliability and
+    safety of production agentic systems through a robust simulation framework, which is a core systems-engineering
+    problem.
+status: draft

@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-kernelopt-dispatch-aware-agentic-search-for-gpu-kernel
+type: papers
+title: 'KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization'
+url: https://arxiv.org/abs/2609.30059v1
+authors:
+- Aheli Poddar
+- Sanskar Prasad
+- Arindam Samanta
+- Subha Chakraborty
+- Vishal Goyal
+- Rohit Singh Rathaur
+venue: arXiv
+year: 2026
+summary: KernelOPT is a multi-agent system for GPU kernel optimization that treats compiled models as
+  structured artifacts, preserving vendor library calls and targeting generated Triton sub-kernels, with
+  a four-gate verification cascade for end-to-end model correctness and performance.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper describes a multi-agent system architecture for a complex engineering task, including
+    a detailed verification cascade for reliability, which is in scope.
+status: draft

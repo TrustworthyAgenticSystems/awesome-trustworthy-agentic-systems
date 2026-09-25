@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-prefilling-the-reasoning-channel-output-prefix-attacks-on
+type: papers
+title: 'Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs'
+url: https://arxiv.org/abs/2609.29775v1
+authors:
+- Lukáš Brůna
+- Robert Bridges
+- Adam Ek
+venue: arXiv
+year: 2026
+summary: Systematic study of output-prefix attacks on LLM reasoning channels, demonstrating that combining
+  malicious reasoning with a trivial output prefix significantly increases attack success rates on frontier
+  models.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly contributes to red-teaming agentic systems by identifying and analyzing
+    a novel output-prefix attack vector that exploits the reasoning channel of LLMs.
+status: draft

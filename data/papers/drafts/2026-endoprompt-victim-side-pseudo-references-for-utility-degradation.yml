@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-endoprompt-victim-side-pseudo-references-for-utility-degradation
+type: papers
+title: 'ENDOPROMPT: Victim-Side Pseudo-References for Utility Degradation'
+url: https://arxiv.org/abs/2609.29948v1
+authors:
+- Qingyu Wu
+- Zeyu Feng
+- Yongda Yu
+- Yuzhe Luo
+- Hua Cheng
+venue: arXiv
+year: 2026
+summary: ENDOPROMPT is a white-box method that learns utility-degrading prefixes from unlabeled instructions
+  to reduce benign task performance, demonstrating a novel prompt injection attack vector.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper describes a red-teaming method for prompt injection that degrades agent utility,
+    which is a system-level security concern.
+status: draft
