@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-bare-mem-bayesian-reliability-memory-for-robust-and
+type: papers
+title: 'BaRe-Mem: Bayesian Reliability Memory for Robust and Adaptive Agent Consultation'
+url: https://arxiv.org/abs/2609.35551v1
+authors:
+- Peilin Feng
+- Zhengyang Huang
+- Soujanya Poria
+venue: arXiv
+year: 2026
+summary: BaRe-Mem is an online Bayesian reliability memory that estimates advisor reliability in multi-agent
+  systems to modulate consultation influence and guide the choice between consultation and autonomous
+  reasoning, improving robustness to misleading information.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a system-level mechanism for managing reliability in multi-agent coordination
+    by dynamically assessing and adapting to advisor trustworthiness.
+status: draft
