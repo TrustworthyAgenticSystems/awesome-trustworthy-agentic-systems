@@ -1,0 +1,27 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mcp-error-messages-written-for-developers-hurt-the
+type: papers
+title: MCP Error Messages Written for Developers Hurt the Most Capable Agents Most
+url: https://arxiv.org/abs/2609.35381v1
+authors:
+- Xiaonan Xu
+- Wenjing Wu
+venue: arXiv
+year: 2026
+summary: Analyzes how human-oriented error messages from Model Context Protocol (MCP) servers degrade
+  agent performance and proposes remedies for both MCP and agent developers to improve agent reliability.
+harness_layer:
+- tool-interface
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses a systems-level reliability issue at the tool-interface layer, demonstrating
+    how human-centric design choices impact agentic system performance and offering concrete solutions.
+status: draft
