@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-topological-coherence-for-self-evolving-multi-agent-systems
+type: papers
+title: Topological Coherence for Self-evolving Multi-agent Systems
+url: https://arxiv.org/abs/2609.37953v1
+authors:
+- Sen Zhao
+- Ruiqi Kong
+- Zuyu Zhang
+- Lifeng Shen
+- Xinyu He
+- Xu Zhang
+- Qinghua Zhang
+venue: arXiv
+year: 2026
+summary: TOCOMAS introduces the concept of topological coherence to ensure consistency between task dependencies,
+  agent responsibilities, collaboration, and memory access in self-evolving multi-agent systems, deriving
+  boundary-regulated memory visibility and improving task success and memory isolation.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- security
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses the systems-level problem of maintaining structural consistency and memory
+    boundaries in multi-agent coordination, which is crucial for trustworthy agentic systems.
+status: draft
