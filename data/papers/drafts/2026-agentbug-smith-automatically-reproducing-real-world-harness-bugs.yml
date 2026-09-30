@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentbug-smith-automatically-reproducing-real-world-harness-bugs
+type: papers
+title: 'AgentBug-Smith: Automatically Reproducing Real-World Harness Bugs in Agentic Systems'
+url: https://arxiv.org/abs/2609.37864v1
+authors:
+- Yiming Cheng
+- Alfin Wijaya Rahardja
+- Mengshi Zhang
+- Zihao Chen
+- Zhenpeng Chen
+- Yiling Lou
+venue: arXiv
+year: 2026
+summary: AgentBug-Smith automatically discovers and reproduces real-world harness bugs from open-source
+  agentic systems, creating a live benchmark for evaluating and improving agent repair capabilities.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses the challenge of evaluating and improving the reliability of
+    agentic systems by automating the reproduction of real-world harness bugs.
+status: draft
