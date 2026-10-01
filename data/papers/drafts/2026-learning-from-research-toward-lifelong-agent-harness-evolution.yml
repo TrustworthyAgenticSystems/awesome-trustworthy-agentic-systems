@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-learning-from-research-toward-lifelong-agent-harness-evolution
+type: papers
+title: 'Learning from Research: Toward Lifelong Agent Harness Evolution'
+url: https://arxiv.org/abs/2609.40169v1
+authors:
+- Jingbo Yang
+- Kwei-Herng Lai
+- Xiaowen Wang
+- Yaar Harari
+- Evgeniy Gabrilovich
+- Shiyu Chang
+venue: arXiv
+year: 2026
+summary: ScholarEvolve is a framework that automates the evolution of agent harnesses by drawing on state-of-the-art
+  research, organizing evolution directions into functional modules, and implementing strategies to improve
+  task performance.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper proposes a system for continually improving agent harnesses, which directly relates
+    to the operational stack and reliability of agentic systems.
+status: draft

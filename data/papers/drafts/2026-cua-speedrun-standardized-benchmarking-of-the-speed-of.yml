@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cua-speedrun-standardized-benchmarking-of-the-speed-of
+type: papers
+title: 'cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents'
+url: https://arxiv.org/abs/2609.40284v1
+authors:
+- Pranjal Aggarwal
+- Lawrence Keunho Jang
+- Sean Welleck
+- Daniel Fried
+- Ruslan Salakhutdinov
+- Jing Yu Koh
+venue: arXiv
+year: 2026
+summary: Standardized infrastructure and task sets for evaluating the speed and efficiency of computer-use
+  agents, addressing reproducibility issues in CUA benchmarking by controlling machine and container configurations.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a critical systems-level problem of reproducible evaluation and benchmarking for
+    agent speed and efficiency, which is essential for reliability and deployment.
+status: draft
