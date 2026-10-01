@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-better-deck-or-different-judge-evaluating-agentic-harness
+type: papers
+title: Better Deck or Different Judge? Evaluating Agentic Harness Gains in Corporate and Investment Banking
+url: https://arxiv.org/abs/2609.39958v1
+authors:
+- Ludovic Gibert
+- Matis Despujols
+- Andre-Louis Rochet
+venue: arXiv
+year: 2026
+summary: Retrospective study of an agentic harness for corporate banking presentations, evaluating the
+  impact of system components and judge variability on output quality.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper provides a retrospective analysis of an agentic system's development and evaluation
+    in a real-world financial context, contributing to understanding system-level reliability and evaluation
+    challenges.
+status: draft

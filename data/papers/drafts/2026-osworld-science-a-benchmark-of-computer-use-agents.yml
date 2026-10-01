@@ -1,0 +1,60 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-osworld-science-a-benchmark-of-computer-use-agents
+type: papers
+title: 'OSWorld-Science: A Benchmark of Computer Use Agents for Learning and Using Scientific Software'
+url: https://arxiv.org/abs/2609.39903v1
+authors:
+- Dingyuan Dai
+- Heli Qi
+- Lei Liu
+- Yinxi Li
+- Baiding Chen
+- Zijun Dou
+- Qingcheng Zeng
+- Qi Kang
+- Oliver Sun
+- Eric Wang
+- Bo Zhou
+- Haixin Wang
+- Yufan Du
+- Shi Bo
+- Ruihan Lin
+- Mengqi Yuan
+- Dunjie Lu
+- Steven Dillmann
+- Yiming Shi
+- Tina Su
+- Amy Xin
+- Minghao Liu
+- Xi Wang
+- Xu Huang
+- Ge Zhang
+- Pengyu Nie
+- Zhen Yang
+- Jie Tang
+- Juanzi Li
+- Weihao Xuan
+- Tianyu Liu
+venue: arXiv
+year: 2026
+summary: Introduces OSWorld-Science, a benchmark and evaluation environment for computer-using agents
+  in scientific domains, featuring artifact-based evaluation, task-specific execution evaluators, and
+  a specialized agent harness for trajectory logging and comparison.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a benchmark and evaluation environment with a focus on artifact-based
+    evaluation and a specialized agent harness for studying agent behavior in scientific workflows, directly
+    contributing to observation and evaluation of agentic systems.
+status: draft

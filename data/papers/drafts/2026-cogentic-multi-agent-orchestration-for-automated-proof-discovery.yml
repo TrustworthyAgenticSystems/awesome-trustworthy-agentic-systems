@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-cogentic-multi-agent-orchestration-for-automated-proof-discovery
+type: papers
+title: 'Cogentic: Multi-Agent Orchestration for Automated Proof Discovery'
+url: https://arxiv.org/abs/2609.40324v1
+authors:
+- Yang Cai
+- Vineet Gupta
+- Yanchen Jiang
+- Christopher Liaw
+- Aranyak Mehta
+- Grigoris Velegkas
+- Di Wang
+venue: arXiv
+year: 2026
+summary: Cogentic is a multi-agent orchestration harness that uses an iterative prove-verify loop, adversarial
+  verification, and a persistent verified ledger to enable long-horizon proof discovery on open mathematical
+  problems.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a multi-agent orchestration system with specific mechanisms for managing
+    long-horizon tasks, verification, and state persistence, directly addressing systems-level challenges
+    in agentic reliability.
+status: draft
