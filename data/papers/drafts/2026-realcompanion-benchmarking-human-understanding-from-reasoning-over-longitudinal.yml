@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-realcompanion-benchmarking-human-understanding-from-reasoning-over-longitudinal
+type: papers
+title: 'RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations'
+url: https://arxiv.org/abs/2610.01780v1
+authors:
+- Arman Behnam
+- Sunglyoung Kim
+- Liangwei Yang
+venue: arXiv
+year: 2026
+summary: Introduces a benchmark of real-world, longitudinal human-AI conversations to evaluate an agent's
+  ability to understand and recall past interactions, revealing that memory is rarely needed and existing
+  detectors struggle to identify when it is relevant.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a real-world benchmark and empirical findings on memory usage and detection,
+    directly addressing challenges in agent memory and long-horizon evaluation.
+status: draft
