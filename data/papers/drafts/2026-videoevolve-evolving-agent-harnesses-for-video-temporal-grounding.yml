@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-videoevolve-evolving-agent-harnesses-for-video-temporal-grounding
+type: papers
+title: 'VideoEvolve: Evolving Agent Harnesses for Video Temporal Grounding'
+url: https://arxiv.org/abs/2610.01766v1
+authors:
+- Bingjun Luo
+- Yuhuan Fan
+- Jialin Guo
+- Siqi Li
+venue: arXiv
+year: 2026
+summary: VideoEvolve automatically evolves agent harnesses for video temporal grounding by refining workflows
+  and instructions using execution feedback, improving grounding performance.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper focuses on automatically evolving agent harnesses, which are part of the operational
+    stack, to improve reliability and performance in a specific task.
+status: draft

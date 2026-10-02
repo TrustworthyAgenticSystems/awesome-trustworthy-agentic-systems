@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-continuous-process-level-evaluation-for-evolving-enterprise-ai
+type: papers
+title: Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills
+url: https://arxiv.org/abs/2610.01833v1
+authors:
+- Ngoc Phuoc An Vo
+- Aarya Doshi
+- Vadim Sheinin
+venue: arXiv
+year: 2026
+summary: A continuous evaluation framework for enterprise AI agent skills that combines outcome-level
+  and process-level checks to detect behavioral drift in tool selection, arguments, execution order, and
+  database integrity.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper presents a concrete framework for continuous process-level evaluation of agent
+    behavior, addressing reliability and observability in evolving enterprise agent systems.
+status: draft

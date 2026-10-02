@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-innocent-courier-covert-exfiltration-through-legitimate-llm
+type: papers
+title: 'The Innocent Courier: Covert Exfiltration Through Legitimate LLM Web Fetching'
+url: https://arxiv.org/abs/2610.01768v1
+authors:
+- Alessandro Pegoraro
+- Daryan Merx
+- Phillip Rieger
+- Ahmad-Reza Sadeghi
+venue: arXiv
+year: 2026
+summary: Demonstrates a novel covert channel attack, LLMLeak, that exfiltrates data by embedding secrets
+  in URLs and abusing the LLM's legitimate web-fetching tool, evaluated across eleven open-parameter models
+  and real-world chatbots.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- privacy
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses a security and privacy vulnerability in the agent's tool-use interface,
+    specifically web fetching, with a concrete attack vector and evaluation.
+status: draft
