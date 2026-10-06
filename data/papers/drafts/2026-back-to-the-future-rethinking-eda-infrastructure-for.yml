@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-back-to-the-future-rethinking-eda-infrastructure-for
+type: papers
+title: 'Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification'
+url: https://arxiv.org/abs/2610.06790v1
+authors:
+- Je Yang
+- Ivan Lobov
+- Thomas Karpati
+venue: arXiv
+year: 2026
+summary: An end-to-end agentic framework, BTTF, for chip design verification that translates natural-language
+  queries into SQL against normalized simulation data and correlates anomalies with RTL, achieving high
+  execution accuracy on a benchmark.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper presents an end-to-end agentic system architecture for a complex real-world problem
+    (chip design verification), addressing the infrastructural gap in post-simulation verification with
+    a concrete framework and evaluation.
+status: draft

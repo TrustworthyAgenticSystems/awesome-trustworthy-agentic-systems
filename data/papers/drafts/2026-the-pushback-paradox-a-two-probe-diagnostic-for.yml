@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-pushback-paradox-a-two-probe-diagnostic-for
+type: papers
+title: 'The Pushback Paradox: A Two-Probe Diagnostic for Language Model Compliance'
+url: https://arxiv.org/abs/2610.06673v1
+authors:
+- Stefan Bühler
+- David Exler
+- Markus Reischl
+- Mark Schutera
+venue: arXiv
+year: 2026
+summary: A two-probe benchmark for evaluating language model compliance with user instructions, measuring
+  exploitability and stoppability, which is relevant for human operators and multi-agent systems.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper provides a diagnostic benchmark for evaluating LLM compliance, which is crucial
+    for understanding and ensuring the reliability and safety of agentic systems, especially in multi-agent
+    contexts.
+status: draft

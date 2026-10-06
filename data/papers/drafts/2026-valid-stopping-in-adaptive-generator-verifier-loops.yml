@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-valid-stopping-in-adaptive-generator-verifier-loops
+type: papers
+title: Valid Stopping in Adaptive Generator-Verifier Loops
+url: https://arxiv.org/abs/2610.06432v1
+authors:
+- Mahmoud Hegazy
+- Michael I. Jordan
+- Aymeric Dieuleveut
+venue: arXiv
+year: 2026
+summary: A statistical framework for controlling the false discovery rate in generator-verifier loops,
+  addressing the problem of when to stop adaptive search to prevent accumulation of false acceptances
+  from a proxy verifier.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a core reliability and safety problem in agentic execution loops by providing a
+    statistical method for valid stopping criteria.
+status: draft

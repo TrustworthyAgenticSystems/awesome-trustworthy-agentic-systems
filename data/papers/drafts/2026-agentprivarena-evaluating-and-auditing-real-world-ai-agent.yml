@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-agentprivarena-evaluating-and-auditing-real-world-ai-agent
+type: papers
+title: 'AgentPrivArena: Evaluating and Auditing Real-world AI Agent Privacy'
+url: https://arxiv.org/abs/2610.06454v1
+authors:
+- Shouju Wang
+- Haopeng Zhang
+venue: arXiv
+year: 2026
+summary: AgentPrivArena is a framework for evaluating and auditing privacy risks in real-world LLM agent
+  workflows, using authentic tools and self-hosted services, with trajectory-level privacy metrics and
+  a runtime auditing approach.
+harness_layer:
+- observation-eval
+sprs:
+- privacy
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper introduces a framework and methodology for evaluating and auditing privacy risks
+    in multi-step agent execution, focusing on system-level observation and evaluation.
+status: draft
