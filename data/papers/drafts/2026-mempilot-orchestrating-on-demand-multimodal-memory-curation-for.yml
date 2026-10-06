@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mempilot-orchestrating-on-demand-multimodal-memory-curation-for
+type: papers
+title: 'MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents'
+url: https://arxiv.org/abs/2610.06830v1
+authors:
+- Haozhen Zhang
+- Haodong Yue
+- Quanyu Long
+- Jianzhu Bao
+- Qingyuan Liu
+- Tao Feng
+- Bohan Liu
+- Weida Liang
+- Wenya Wang
+venue: arXiv
+year: 2026
+summary: MemPilot is a flexible framework that orchestrates on-demand multimodal memory curation for LLM
+  agents, optimizing for performance, cost, and latency trade-offs by dynamically choosing between pre-processed
+  memory retrieval and query-specific curation.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper addresses a systems-engineering problem in agent memory management by proposing
+    a flexible framework for on-demand memory curation, optimizing for performance and cost.
+status: draft

@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-can-agent-harnesses-and-inference-engines-hear-each
+type: papers
+title: Can Agent Harnesses and Inference Engines Hear Each Other? The HEAR Protocol for Agentic LLM Serving
+url: https://arxiv.org/abs/2610.06597v1
+authors:
+- Jiaqi Zhao
+- Haodong Chen
+- Jitai Hao
+- Wei Zhao
+- Jinghao Pang
+- Qiang Huang
+- Jun Yu
+venue: arXiv
+year: 2026
+summary: HEAR is a bidirectional protocol that standardizes communication between agent harnesses and
+  inference engines to enable workflow-aware execution and optimize agentic LLM serving efficiency.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a protocol for efficient agentic LLM serving by coordinating between the
+    agent harness and inference engine, directly addressing the execution-shell layer for reliability.
+status: draft

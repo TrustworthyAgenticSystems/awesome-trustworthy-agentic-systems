@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hera-harness-environment-co-evolution-for-reliable-agentic
+type: papers
+title: 'HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention'
+url: https://arxiv.org/abs/2610.06563v1
+authors:
+- Han Luo
+- Bingbing Wen
+- Guang Yang
+- Zora Zhiruo Wang
+- Pan Lu
+- Lucy Lu Wang
+venue: arXiv
+year: 2026
+summary: HERA is a framework for co-evolving agent harnesses and task environments to improve agentic
+  abstention reliability by automatically generating verifiable feasible/infeasible task pairs and adapting
+  the harness to address past weaknesses.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a novel framework for improving agent reliability through co-evolution
+    of the agent harness and its environment, directly addressing a systems-level evaluation and adaptation
+    problem.
+status: draft

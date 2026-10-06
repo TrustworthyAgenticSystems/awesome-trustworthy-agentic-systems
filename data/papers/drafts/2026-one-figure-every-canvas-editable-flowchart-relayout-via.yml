@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-one-figure-every-canvas-editable-flowchart-relayout-via
+type: papers
+title: 'One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline'
+url: https://arxiv.org/abs/2610.06852v1
+authors:
+- Shih-Chen Tseng
+- Chih-Hsuan Chen
+- Ryan Yang
+- Hsi-An Chen
+- Chun-Wei Tuan Mu
+- Yu-Lun Liu
+venue: arXiv
+year: 2026
+summary: An agentic pipeline for aspect-ratio-adaptive flowchart relayout, using a main agent and critic
+  for each stage (Parse, Style, Layout) to ensure structural fidelity and prevent broken connections,
+  outputting editable mxGraph XML.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper presents an agentic system with a critic-based coordination mechanism to ensure
+    reliability and structural integrity in a multi-step workflow, addressing a specific systems-engineering
+    problem.
+status: draft
