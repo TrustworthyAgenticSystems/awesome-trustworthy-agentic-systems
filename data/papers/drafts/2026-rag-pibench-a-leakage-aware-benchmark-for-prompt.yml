@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-rag-pibench-a-leakage-aware-benchmark-for-prompt
+type: papers
+title: 'RAG-PIBench: A Leakage-Aware Benchmark for Prompt-Injection Detection in Trustworthy RAG Systems'
+url: https://arxiv.org/abs/2610.08571v1
+authors:
+- Niveen O. Jaffal
+- Ahmet Yuksel
+- David Mohaisen
+venue: arXiv
+year: 2026
+summary: Introduces RAG-PIBench, a leakage-aware benchmark for evaluating prompt-injection detection methods
+  in RAG systems, comparing various detection techniques.
+harness_layer:
+- red-team
+sprs:
+- security
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper provides a benchmark and evaluation of prompt-injection detection, directly addressing
+    a security concern in agentic RAG systems.
+status: draft

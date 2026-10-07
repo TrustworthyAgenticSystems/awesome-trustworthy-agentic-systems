@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-secure-speculative-decoding-for-large-language-models
+type: papers
+title: Secure Speculative Decoding for Large Language Models
+url: https://arxiv.org/abs/2610.08678v1
+authors:
+- Yichi Zhang
+- Zhiqi Wang
+- Neil Gong
+- Yuchen Yang
+venue: arXiv
+year: 2026
+summary: Systematic study of security implications of speculative decoding, revealing a security-utility
+  asymmetry where efficiency gains disproportionately increase attack success rates, and proposing SecureSD
+  to mitigate this by applying stricter verification to early draft-model tokens.
+harness_layer:
+- execution-shell
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a security vulnerability in the LLM execution shell (speculative decoding) and
+    proposes a system-level mitigation.
+status: draft

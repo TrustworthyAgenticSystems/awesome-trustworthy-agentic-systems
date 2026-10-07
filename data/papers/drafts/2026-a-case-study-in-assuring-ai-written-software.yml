@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-case-study-in-assuring-ai-written-software
+type: papers
+title: A Case Study in Assuring AI-Written Software
+url: https://arxiv.org/abs/2610.08651v1
+authors:
+- Lindsey Ferris
+- Sierra Bonilla
+venue: arXiv
+year: 2026
+summary: Case study of a production healthcare platform built with coding agents, highlighting the fallibility
+  of automated supervision (tests, monitors, reviewing agents) and the importance of aligning human intent
+  with agent actions and evidence for effective human control.
+harness_layer:
+- oversight
+sprs:
+- safety
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a real-world case study of human oversight challenges in an agentic system,
+    detailing specific failures of automated supervision and offering insights into effective control
+    mechanisms.
+status: draft

@@ -1,0 +1,42 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-verifine-scaling-verification-for-self-improvement-in-embodied
+type: papers
+title: 'VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning'
+url: https://arxiv.org/abs/2610.08761v1
+authors:
+- Zewei Zhou
+- Rachel Luo
+- Yulong Cao
+- Chaowei Xiao
+- Chensheng Peng
+- Boyi Li
+- Thomas Tian
+- Zheng Lian
+- Yan Wang
+- Jiaqi Ma
+- Boris Ivanovic
+- Marco Pavone
+- Wenhao Ding
+venue: arXiv
+year: 2026
+summary: VeriFine is an agent harness framework that scales verification for self-improving embodied agents
+  by co-evolving the policy, training curriculum, and judge, using human guidance to refine the judge
+  on informative failure cases.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses human oversight and evaluation of evolving agent policies, which is a
+    core systems problem for trustworthy agents.
+status: draft
