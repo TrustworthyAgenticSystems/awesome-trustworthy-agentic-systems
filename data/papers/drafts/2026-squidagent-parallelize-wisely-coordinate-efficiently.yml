@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-squidagent-parallelize-wisely-coordinate-efficiently
+type: papers
+title: 'SquidAgent: Parallelize Wisely, Coordinate Efficiently'
+url: https://arxiv.org/abs/2610.08647v1
+authors:
+- Yexiong Lin
+- Shanshan Ye
+- Yu Yao
+- Zhen Fang
+- Bo Han
+- Tongliang Liu
+venue: arXiv
+year: 2026
+summary: SquidAgent proposes a token-based decision criterion for parallelizing multi-agent workflows,
+  addressing re-exploration and alignment costs through shared context and pre-generated conventions to
+  improve throughput and wall-time speedup.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses efficiency and reliability in multi-agent coordination by proposing
+    a principled parallelization strategy and system design to mitigate overheads.
+status: draft
