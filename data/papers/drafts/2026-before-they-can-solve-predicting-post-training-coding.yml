@@ -1,0 +1,51 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-before-they-can-solve-predicting-post-training-coding
+type: papers
+title: 'Before They Can Solve: Predicting Post-Training Coding-Agent Performance from Base Models'
+url: https://arxiv.org/abs/2610.10478v1
+authors:
+- Tan Yu
+- Alexander Bukharin
+- Khushi Bhardwaj
+- Jennifer Williams
+- Zirui Liu
+- Jonathan Lingjie Li
+- Soumye Singhal
+- Joseph Jennings
+- Sanjeev Satheesh
+- Yash Jain
+- Ashish Vaswani
+- Venkat Krishna Srinivasan
+- Matthew Papakipos
+- Hyunwoo Kim
+- Jian Zhang
+- Oleksii Kuchaiev
+- Markus Kliegl
+- Mostofa Patwary
+- Mohammad Shoeybi
+- Bryan Catanzaro
+- Jonathan Cohen
+- Jiantao Jiao
+venue: arXiv
+year: 2026
+summary: Proposes three base-model evaluation screens (Decisive-Action BPB, Patch MCQ, prefix-conditioned
+  pass@K) that predict post-training agentic coding performance by leveraging successful agent trajectories
+  and verifiers, without requiring the base model to drive the harness from scratch.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.89
+  rationale: Addresses the challenge of evaluating base models for agentic post-training by using successful
+    agent trajectories as a lookahead signal, contributing to long-horizon evaluation and observation
+    of agent behavior.
+status: draft

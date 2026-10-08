@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-a-society-of-researchers-designing-institutions-for-populations
+type: papers
+title: 'A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents'
+url: https://arxiv.org/abs/2610.10468v1
+authors:
+- Ali Asaria
+- Deep Gandhi
+- Tony Salomone
+venue: arXiv
+year: 2026
+summary: Proposes an institutional design for populations of autonomous research agents, where agents
+  compete for compute through a grant-like system and a human governor allocates resources, demonstrating
+  a potential for compute efficiency in language model pretraining.
+harness_layer:
+- coordination
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: This paper directly addresses the coordination and governance of large populations of autonomous
+    agents, which is a core systems-engineering challenge for trustworthy agentic systems.
+status: draft

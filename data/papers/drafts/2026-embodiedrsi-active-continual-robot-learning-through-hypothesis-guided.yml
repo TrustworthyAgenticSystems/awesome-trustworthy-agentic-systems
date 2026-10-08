@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-embodiedrsi-active-continual-robot-learning-through-hypothesis-guided
+type: papers
+title: 'EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution'
+url: https://arxiv.org/abs/2610.10498v1
+authors:
+- Python Song
+- Zhixuan Liang
+- Kelsey Fu
+- Mengdi Wang
+- Junfeng Yang
+- Shilong Liu
+venue: arXiv
+year: 2026
+summary: EmbodiedRSI is a self-evolving agentic harness that uses a dual-system architecture and hypothesis-guided
+  experiment selection to autonomously improve robot code and skills through efficient physical interaction,
+  addressing the challenge of continual learning and adaptation in embodied agents.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a self-evolving agentic harness that improves robot code and skills through
+    a dual-system architecture and hypothesis-guided experiment selection, which is a contribution to
+    the coordination and reliability of agentic systems.
+status: draft
