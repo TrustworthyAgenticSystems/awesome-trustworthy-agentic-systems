@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-stale-misattributed-or-late-where-personal-memory-fails
+type: papers
+title: 'Stale, Misattributed, or Late: Where Personal Memory Fails Before Generation'
+url: https://arxiv.org/abs/2610.10265v1
+authors:
+- Haonan Deng
+- Park Sinchaisri
+venue: arXiv
+year: 2026
+summary: This paper directly measures and categorizes failures in personal memory for language agents,
+  including staleness, misattribution, and late retrieval, arguing for pre-generation evaluation of memory
+  integrity and proposing solutions like active value serving and improved key assignment.
+harness_layer:
+- memory
+sprs:
+- reliability
+- privacy
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses critical systems-level issues in agent memory management, including
+    data integrity, identity resolution, and retrieval latency, with empirical measurements and proposed
+    solutions.
+status: draft
