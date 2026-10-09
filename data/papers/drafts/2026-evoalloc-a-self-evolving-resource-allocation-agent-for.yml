@@ -1,0 +1,34 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-evoalloc-a-self-evolving-resource-allocation-agent-for
+type: papers
+title: 'EvoAlloc: A Self-Evolving Resource Allocation Agent for Efficient Program Evolution'
+url: https://arxiv.org/abs/2610.12086v1
+authors:
+- Yanning Dai
+- Yuhui Wang
+- Nanbo Li
+- Wenyi Wang
+- Jürgen Schmidhuber
+venue: arXiv
+year: 2026
+summary: EvoAlloc is a self-evolving resource allocation agent that learns from search experience to dynamically
+  revise its strategy for allocating computational resources to program evolution candidates, reducing
+  evaluation costs and improving final performance.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to the coordination layer by proposing a dynamic resource allocation
+    strategy for agentic program evolution, directly impacting the reliability and efficiency of long-running
+    agent workflows.
+status: draft

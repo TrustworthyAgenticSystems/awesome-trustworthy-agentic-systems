@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-accurate-but-not-humble-evaluating-epistemic-humility-in
+type: papers
+title: 'Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict'
+url: https://arxiv.org/abs/2610.12360v1
+authors:
+- Kaiser Sun
+- Bernal Jimenez Gutierrez
+- Hongjun Liu
+- Jingyu Zhang
+- Jie Gao
+- Mark Dredze
+- Daniel Khashabi
+venue: arXiv
+year: 2026
+summary: Proposes a trajectory-level evaluation framework for epistemic humility (EH) in LLM agents under
+  knowledge conflict, operationalized through Identify, Solve, and Escalate (ISE) dimensions, revealing
+  that task accuracy does not guarantee EH and that conflicts are often detected but not resolved across
+  execution steps.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper introduces a novel, trajectory-level evaluation methodology for agent behavior
+    under knowledge conflict, directly addressing the reliability and safety of agentic systems in complex
+    scenarios.
+status: draft
