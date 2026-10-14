@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-kairos-transactional-security-enforcement-at-the-system-boundary
+type: papers
+title: 'Kairos: Transactional Security Enforcement at the System Boundary for LLM Agents'
+url: https://arxiv.org/abs/2610.18457v1
+authors:
+- Kristoffer Hempel
+- Nils Loose
+- Lorenzo Cavallaro
+- Thomas Eisenbarth
+venue: arXiv
+year: 2026
+summary: Kairos is a reference monitor at the agent's isolation boundary that enforces transactional security
+  policies by deferring uncertain actions for later release or refusal, outperforming existing defenses
+  in attack success vs. utility trade-off.
+harness_layer:
+- execution-shell
+sprs:
+- security
+- safety
+open_problems:
+- transactional-agency
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper presents a system-level defense mechanism for agent security at the execution boundary,
+    addressing the challenge of distinguishing legitimate actions from malicious ones in multi-step agent
+    traces.
+status: draft

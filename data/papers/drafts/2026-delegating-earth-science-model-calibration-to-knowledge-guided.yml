@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-delegating-earth-science-model-calibration-to-knowledge-guided
+type: papers
+title: Delegating Earth science model calibration to knowledge-guided LLM agents
+url: https://arxiv.org/abs/2610.18378v1
+authors:
+- Zhanliang Zhu
+- Ziwei Li
+- Liujun Zhu
+- Yuchen Liu
+- Junliang Jin
+- Jianyun Zhang
+venue: arXiv
+year: 2026
+summary: A general calibration harness (GCH) for Earth science models enables end-to-end delegation of
+  calibration tasks to LLM agents, ensuring scientific competence and reproducibility through knowledge-guided
+  constraints and a separation of agent judgment from numerical execution.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- intent-to-constraints
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper describes a reference architecture for delegating complex scientific tasks to agents,
+    focusing on reproducibility and inspectable choices, which is a systems-level contribution.
+status: draft

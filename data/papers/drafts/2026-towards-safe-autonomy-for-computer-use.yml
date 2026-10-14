@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-towards-safe-autonomy-for-computer-use
+type: papers
+title: Towards Safe Autonomy for Computer Use
+url: https://arxiv.org/abs/2610.18508v1
+authors:
+- Dominik Seip
+- Bartol Markovinović
+- Matthias Hein
+venue: arXiv
+year: 2026
+summary: SA-CUA is a dual-LLM framework that establishes a reliable trust boundary for Computer Use Agents
+  by using deterministic rules from the accessibility tree to separate trusted and untrusted content on
+  the screen, preventing indirect prompt injection and reducing human confirmation fatigue.
+harness_layer:
+- tool-interface
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses a critical security and safety problem in agentic systems by
+    creating a trust boundary for visual computer use agents, which is a specific type of tool interface.
+status: draft
