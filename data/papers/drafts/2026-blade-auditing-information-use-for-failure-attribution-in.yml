@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-blade-auditing-information-use-for-failure-attribution-in
+type: papers
+title: 'BLADE: Auditing Information Use for Failure Attribution in LLM Multi-Agent Systems'
+url: https://arxiv.org/abs/2610.18780v1
+authors:
+- Xiaoguang Guo
+- Yaohao Long
+- Chuxu Zhang
+venue: arXiv
+year: 2026
+summary: BLADE is a training-free framework for auditing information use in multi-agent systems to attribute
+  failures by distinguishing error introduction, propagation, and repair across execution steps.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses failure attribution and diagnosis in multi-agent systems, contributing
+    to observability and reliability of agent workflows.
+status: draft

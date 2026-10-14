@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-let-the-mind-conceive-let-the-hand-achieve
+type: papers
+title: 'Let the Mind Conceive, Let the Hand Achieve: Following Multimodal Instructions for Long-Horizon
+  Robotic Manipulation'
+url: https://arxiv.org/abs/2610.18352v1
+authors:
+- Youpeng Wen
+- Gang Wang
+- Tianyu Huang
+- Weiwei Zhang
+- Zhijian Huang
+- Wei Chen
+- Xieyuanli Chen
+- Yunhui Liu
+venue: arXiv
+year: 2026
+summary: Orchestra is an agent harness that separates task planning and execution management from action
+  generation, enabling robots to follow multi-step multimodal instructions by decomposing tasks, tracking
+  progress, and updating spatial grounding.
+harness_layer:
+- coordination
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes an agent harness that manages multi-step task execution, progress tracking,
+    and context management, which is a direct contribution to agent coordination and reliability.
+status: draft

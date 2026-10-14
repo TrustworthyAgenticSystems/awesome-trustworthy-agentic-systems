@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-knowing-the-user-is-not-knowing-what-we
+type: papers
+title: 'Knowing the User Is Not Knowing What We Established: Grounding Awareness in Personal Agents'
+url: https://arxiv.org/abs/2610.18684v1
+authors:
+- Jiajun Chen
+- Xinyue Chen
+- Yicheng Jiang
+- Hua Shen
+venue: arXiv
+year: 2026
+summary: Introduces "Grounding Awareness" to distinguish accepted from unacknowledged proposals in agent
+  memory, and proposes "Grounding Layer" as a training-free extension to track grounding status and check
+  consequential actions.
+harness_layer:
+- memory
+sprs:
+- safety
+- reliability
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Addresses a critical memory integrity and trust-boundary problem in agent-user interaction
+    with a concrete attack/defense pair and a deployable system extension.
+status: draft
