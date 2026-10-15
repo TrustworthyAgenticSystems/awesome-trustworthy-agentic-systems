@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hem-med-a-hierarchical-agentic-memory-framework-for
+type: papers
+title: 'HEM-Med: A Hierarchical Agentic Memory Framework for Safe Multi-Center Medication Recommendation'
+url: https://arxiv.org/abs/2610.20191v1
+authors:
+- Min Xiao
+- Jin Li
+- Shoujin Wang
+- Yeguang Zhen
+- Yishuo Li
+- Wenpeng Lu
+venue: arXiv
+year: 2026
+summary: A hierarchical agentic memory framework (HEM-Med) for multi-center medication recommendation
+  that disentangles cross-hospital clinical experience from hospital-specific patterns and integrates
+  safety-aware set decoding to produce safer recommendations.
+harness_layer:
+- memory
+sprs:
+- safety
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses memory management and safety constraints within an agentic system for
+    a critical application, directly contributing to trustworthy agentic systems.
+status: draft
