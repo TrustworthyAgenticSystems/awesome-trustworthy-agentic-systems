@@ -1,0 +1,39 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-weave-weaving-real-world-code-evolution-into-dependency
+type: papers
+title: 'WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and
+  Training Code Agents'
+url: https://arxiv.org/abs/2610.22039v1
+authors:
+- Weihao Li
+- Zihang Xu
+- Zhongqiu Wang
+- Songwei Yu
+- Wenqiang Zhu
+- Yuechen Luo
+- Jingxuan Xu
+- Yanan Wu
+- Haoyang Huang
+- Ken Deng
+venue: arXiv
+year: 2026
+summary: WEAVE is a framework that transforms verified pull request histories into executable, dependency-structured
+  tasks for benchmarking and training long-horizon code agents, introducing Graph Credit for dependency-consistent
+  partial progress measurement.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper contributes to long-horizon evaluation and benchmarking of code agents, which is
+    a critical aspect of ensuring reliability in agentic systems.
+status: draft

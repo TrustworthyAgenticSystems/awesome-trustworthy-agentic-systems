@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-librarian-agents-training-llms-to-curate-long-context
+type: papers
+title: 'Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries'
+url: https://arxiv.org/abs/2610.22273v1
+authors:
+- Anikait Singh
+- Teresa Zhang
+- Yoonho Lee
+- Roshen Sanjay Nair
+- Aviral Kumar
+- Chelsea Finn
+venue: arXiv
+year: 2026
+summary: Librarian Agents enable proactive, anticipatory curation of long-context workspaces by a builder
+  agent, optimizing for downstream answering accuracy and improving efficiency for future queries.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper introduces a novel approach to agent memory management and context organization,
+    directly addressing the challenge of long-context reasoning in agentic systems.
+status: draft

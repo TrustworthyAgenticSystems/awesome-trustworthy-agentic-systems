@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-faops-normal-forms-and-an-algebra-for-ai
+type: papers
+title: 'FAOPs: Normal Forms and an Algebra for AI Agent Workflows'
+url: https://arxiv.org/abs/2610.22061v1
+authors:
+- Ali Mohammadi Shanghooshabad
+venue: arXiv
+year: 2026
+summary: Presents Functional Agent Operating Procedures (FAOP), a formal theory for AI agent workflows
+  that introduces normal forms and an algebra to ensure traceability, auditability, reproducibility, access
+  control, and bounded execution, implemented in the SkillBase management system.
+harness_layer:
+- foundations
+sprs:
+- security
+- reliability
+- safety
+open_problems:
+- least-privilege-reasoning
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper provides a foundational formal theory and an implementation for engineering trustworthy
+    agentic systems, addressing multiple systems-level concerns like access control, traceability, and
+    reproducibility through structured workflows.
+status: draft

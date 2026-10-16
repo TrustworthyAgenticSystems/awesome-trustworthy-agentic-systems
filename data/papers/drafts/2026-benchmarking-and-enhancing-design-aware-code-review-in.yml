@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-benchmarking-and-enhancing-design-aware-code-review-in
+type: papers
+title: Benchmarking and Enhancing Design-Aware Code Review in the Linux Kernel
+url: https://arxiv.org/abs/2610.21925v1
+authors:
+- Zhenhao Zhou
+- Kai Yu
+- Ying Wang
+- Zhiqiang Yuan
+- Junhao Zeng
+- Yijian Wu
+- Chong Wang
+- Xin Peng
+venue: arXiv
+year: 2026
+summary: DesignLore is a knowledge-augmented approach that extracts and reuses historical design decisions
+  from code review discussions to improve design-aware code review, addressing the challenge of human
+  oversight in complex software systems.
+harness_layer:
+- oversight
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper directly addresses enhancing human oversight in code review by leveraging historical
+    design knowledge, which is relevant to the cognitive load and effectiveness of human reviewers in
+    agentic systems.
+status: draft
