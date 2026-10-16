@@ -1,0 +1,46 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-autosft-an-agentic-system-for-automated-data-research
+type: papers
+title: 'AutoSFT: An Agentic System for Automated Data Research in Supervised Fine-Tuning'
+url: https://arxiv.org/abs/2610.22194v1
+authors:
+- Bingxiang He
+- Pengqi Sun
+- Shihao Peng
+- Shaoxuan Li
+- Huiyu Xiao
+- Hongjian Shi
+- Zixuan Fu
+- Ziqing Qiao
+- Yuxin Zuo
+- Cheng Qian
+- Xinqiang Yu
+- Jiayi Li
+- Xiusi Chen
+- Yizhen Song
+- Xiangyang Wang
+- Iofai Lei
+- Yudong Wang
+- Ning Ding
+- Zhiyuan Liu
+- Xiaozhi Wang
+- Chaojun Xiao
+venue: arXiv
+year: 2026
+summary: AutoSFT is a multi-agent system that automates supervised fine-tuning data research by enabling
+  diverse data actions through a meta-agent coordinating execution, analysis, and synthesis subagents.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper describes a multi-agent system for automating data research in SFT, focusing on
+    the coordination of different agent roles and actions, which is a systems-level contribution.
+status: draft

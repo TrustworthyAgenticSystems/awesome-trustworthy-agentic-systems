@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-learning-to-steer-llm-agents-and-multi-agent
+type: papers
+title: Learning to Steer LLM Agents and Multi-Agent Systems
+url: https://arxiv.org/abs/2610.22316v1
+authors:
+- Leyang Shen
+- Yaxin Gong
+- Yang Zhang
+- Chenxiao Fan
+- Jiakai Wang
+- Dong Wang
+- Yang Liu
+- Fuli Feng
+- Chun Kai Ling
+- Tat-Seng Chua
+venue: arXiv
+year: 2026
+summary: Proposes a steering agent that supervises LLM agent execution to detect and correct goal drift,
+  using a reinforcement learning approach to decide when and how to intervene.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses a core problem of agent reliability and safety (goal drift) with a concrete, learnable
+    oversight mechanism for agent workflows.
+status: draft

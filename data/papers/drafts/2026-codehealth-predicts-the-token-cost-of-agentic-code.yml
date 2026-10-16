@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-codehealth-predicts-the-token-cost-of-agentic-code
+type: papers
+title: 'CodeHealth Predicts the Token Cost of Agentic Code Review: A Pre-Registered Study of 465 Agent-Authored
+  Pull Requests'
+url: https://arxiv.org/abs/2610.21914v1
+authors:
+- Lo Gullstrand Heander
+- Markus Borg
+- Emma Söderberg
+- Christofer Rydenfält
+venue: arXiv
+year: 2026
+summary: Observational study demonstrating that code quality metrics predict the token cost of multi-agent
+  code review and fix pipelines, indicating a link between code health and agent operational efficiency.
+harness_layer:
+- oversight
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper investigates the operational cost and efficiency of multi-agent code review pipelines,
+    which is relevant to the oversight and reliability of agentic systems at scale.
+status: draft

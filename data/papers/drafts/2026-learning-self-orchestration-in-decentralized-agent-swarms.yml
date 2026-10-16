@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-learning-self-orchestration-in-decentralized-agent-swarms
+type: papers
+title: Learning Self-Orchestration in Decentralized Agent Swarms
+url: https://arxiv.org/abs/2610.22322v1
+authors:
+- Guowei Xu
+- Zhenting Qi
+- Amani Kiruga
+- Himabindu Lakkaraju
+- Yilun Du
+venue: arXiv
+year: 2026
+summary: Market-based post-training (MPT) enables decentralized agent swarms to jointly learn action policies
+  and self-orchestration through bidding mechanisms, improving robustness and scalability.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the coordination layer by proposing a novel decentralized self-orchestration
+    mechanism for agent swarms, directly impacting reliability and scalability.
+status: draft

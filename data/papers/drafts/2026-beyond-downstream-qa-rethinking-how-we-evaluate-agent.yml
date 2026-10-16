@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-beyond-downstream-qa-rethinking-how-we-evaluate-agent
+type: papers
+title: 'Beyond Downstream QA: Rethinking How We Evaluate Agent Memory'
+url: https://arxiv.org/abs/2610.22209v1
+authors:
+- Sebastian-Antonio Toma
+- Jean de Kernier
+- Mike Ply
+- Oliviu Matei
+venue: arXiv
+year: 2026
+summary: Introduces FEB-30, a benchmark for intrinsically evaluating agent memory systems by directly
+  inspecting memory store evolution against ground truth, revealing failures invisible to traditional
+  downstream QA metrics.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses the evaluation of agent memory integrity and evolution, a critical systems-level
+    concern for trustworthy agents, with a novel intrinsic evaluation methodology.
+status: draft
