@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-vibetraining-bench-data-trainer-harness-co-design-for
+type: papers
+title: 'VibeTraining-Bench: Data-Trainer-Harness Co-Design for Iterative System Improvement'
+url: https://arxiv.org/abs/2610.26342v1
+authors:
+- Ruotian Peng
+- Yuanyi Ren
+- Shuaiqi Liu
+- Xin Guo
+- Fang Zhu
+- Yangyi Huang
+- Yue Wu
+- Zheng Wang
+- Yandong Wen
+- Zhihang Fu
+venue: arXiv
+year: 2026
+summary: VibeTraining-Bench is a benchmark for evaluating recursive self-improvement in agents by measuring
+  their ability to iteratively refine training data, trainers, and inference harnesses, with safeguards
+  against reward hacking.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a benchmark for evaluating iterative system improvement across training
+    and inference components, which is relevant to the observation and evaluation of agentic systems.
+status: draft

@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-when-the-harness-decides-success-state-that-cannot
+type: papers
+title: 'When the harness decides success: state that cannot be re-observed'
+url: https://arxiv.org/abs/2610.26632v1
+authors:
+- Raimondas Lencevicius
+venue: arXiv
+year: 2026
+summary: Investigates how context window management (truncation, summarization, replay) in agent harnesses
+  impacts agent success, particularly when critical information cannot be re-observed, and decomposes
+  performance gaps on a benchmark.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Directly studies the impact of execution-shell decisions (context management) on agent reliability
+    and success, a core systems-engineering concern.
+status: draft

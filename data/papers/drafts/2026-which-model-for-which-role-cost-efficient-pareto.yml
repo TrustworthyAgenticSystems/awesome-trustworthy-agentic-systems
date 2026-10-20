@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-which-model-for-which-role-cost-efficient-pareto
+type: papers
+title: Which Model for Which Role? Cost-Efficient Pareto Recommendation for LLM Agentic Workflows
+url: https://arxiv.org/abs/2610.26676v1
+authors:
+- Qian Xie
+- Wenyue Hua
+- Yueli He
+- Sripad Karne
+- Armaan Agrawal
+- Nikos Pagonas
+- Eugene Wu
+- Kostis Kaffes
+- Tianyi Peng
+- Nairen Cao
+venue: arXiv
+year: 2026
+summary: Introduces Cost-Coupled Gittins (CC-Gittins), a multi-objective search algorithm for cost-efficient
+  model assignment to specialized roles in LLM agentic workflows, balancing task quality, deployment cost,
+  and latency.
+harness_layer:
+- coordination
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Addresses the system-level problem of optimizing model assignments within multi-agent workflows
+    for cost and quality, which impacts reliability and efficiency.
+status: draft
