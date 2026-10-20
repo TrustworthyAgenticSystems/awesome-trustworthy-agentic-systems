@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-same-simulation-different-evidence-where-retrieved-tool-output
+type: papers
+title: 'Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy'
+url: https://arxiv.org/abs/2610.26836v1
+authors:
+- Ke Zhang
+- Sahchit Chundur
+- Jerry Peprah Owusu
+- Mohammad Javad Abdolhosseini Qomi
+- Maziar Raissi
+venue: arXiv
+year: 2026
+summary: Investigates how context-management choices in agent harnesses, specifically retrieving tool
+  outputs from files versus inlining, lead to accuracy losses in LLM agents due to 'evidence substitution'
+  where agents use their own higher-precision output files instead of the authoritative report.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses a systems-level problem in agent memory management and context
+    handling, identifying a specific failure mode ('evidence substitution') and proposing mitigations.
+status: draft

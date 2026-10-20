@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-control-layer-behind-rule-following-agents-trading
+type: papers
+title: The Control Layer Behind Rule-Following Agents Trading Across Market Conditions
+url: https://arxiv.org/abs/2610.26324v1
+authors:
+- Saad Naja
+- Nasser Odtallah
+- Jake Van-Praag
+- Sarah May
+venue: arXiv
+year: 2026
+summary: Evaluates the rule-following discipline of AI trading agents across various market conditions,
+  providing an evaluation toolkit to distinguish adherence from luck before capital allocation.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper focuses on evaluating agent rule-following and risk management in a real-world
+    financial context, which directly relates to human oversight and reliability of agent actions.
+status: draft

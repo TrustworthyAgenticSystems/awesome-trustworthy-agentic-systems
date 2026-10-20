@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-fake-news-real-crashes-information-injection-attacks-on
+type: papers
+title: 'Fake News, Real Crashes: Information Injection Attacks on LLM Financial Trading Agents'
+url: https://arxiv.org/abs/2610.26438v1
+authors:
+- Mengxiao Wang
+- Nitesh Saxena
+venue: arXiv
+year: 2026
+summary: Presents a systematic information injection attack benchmark against LLM financial trading agents,
+  demonstrating high success rates by targeting trusted evidence rather than instructions, and evaluating
+  various injection vectors and defense evasions.
+harness_layer:
+- red-team
+sprs:
+- security
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses adversarial testing of agentic systems by demonstrating information
+    injection attacks on LLM trading agents, which is a system-level threat.
+status: draft
