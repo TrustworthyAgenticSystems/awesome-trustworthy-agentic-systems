@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-tracelite-efficient-trace-reduction-for-swe-agents-via
+type: papers
+title: 'TraceLite: Efficient Trace Reduction for SWE Agents via Optical Compression and Redundancy Removal'
+url: https://arxiv.org/abs/2610.28612v1
+authors:
+- Jingyu Xiao
+- Qianxi Liu
+- Yintong Huo
+- Yuan Jiang
+- Michael R. Lyu
+venue: arXiv
+year: 2026
+summary: TraceLite is a training-free framework that compresses heterogeneous SWE-agent observations by
+  preserving recent observations as text, rendering historical observations as images, and removing redundancies
+  to reduce token consumption and API cost.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper addresses memory management and efficiency for long-running agents, which is a
+    systems-engineering concern for trustworthy agent reliability.
+status: draft

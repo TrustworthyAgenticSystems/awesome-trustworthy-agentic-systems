@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-scenerig-an-agentic-system-for-simulation-ready-3d
+type: papers
+title: 'SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images'
+url: https://arxiv.org/abs/2610.28585v1
+authors:
+- Rundong Luo
+- Yunong Liu
+- Di Cao
+- Matthew Tancik
+- Shyamal Buch
+- Colton Stearns
+- Wenqi Xian
+venue: arXiv
+year: 2026
+summary: SceneRig is an agentic system that reconstructs simulation-ready 3D scenes from single images
+  by combining geometric, visual, and physical tools with an agent-driven edit-and-validate loop in a
+  physics simulator to ensure physical stability.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper describes an end-to-end agentic system architecture for a complex task, focusing
+    on the reliability of the reconstructed scenes for downstream robotics applications.
+status: draft

@@ -1,0 +1,37 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-mas-guard-unified-guardrails-from-individual-agents-to
+type: papers
+title: 'MAS-Guard: Unified Guardrails from Individual Agents to Multi-Agent LLM Systems'
+url: https://arxiv.org/abs/2610.28397v1
+authors:
+- Mohammad Kachuee
+- Phu Mon Htut
+- Sheng Li
+- Nikolaos Pappas
+- Miguel Ballesteros Martinez
+- Yassine Benajiba
+- Sujith Ravi
+- Dan Roth
+venue: arXiv
+year: 2026
+summary: MAS-Guard is a unified framework for safeguarding single- and multi-agent systems by combining
+  local agent guardrails with a system-level control plane for structural and semantic checks, enabling
+  interventions like reflection and blocking.
+harness_layer:
+- coordination
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: The paper directly addresses safeguarding multi-agent systems through a unified framework
+    that includes coordination-level controls and enforcement mechanisms.
+status: draft

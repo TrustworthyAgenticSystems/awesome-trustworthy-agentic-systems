@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-semantic-observability-for-autonomous-systems-diagnostics
+type: papers
+title: Semantic Observability for Autonomous Systems Diagnostics
+url: https://arxiv.org/abs/2610.28611v1
+authors:
+- Jitendra Solanki
+- Anand Todkar
+- Ziran Min
+venue: arXiv
+year: 2026
+summary: A multi-agent framework for semantic observability that unifies disparate log streams into a
+  queryable property graph database to autonomously isolate root causes and generate contextualized remediations
+  for distributed systems failures.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper proposes a system-level solution for autonomous diagnostics and root cause analysis
+    in distributed systems, directly addressing observability and reliability for complex agentic workflows.
+status: draft
