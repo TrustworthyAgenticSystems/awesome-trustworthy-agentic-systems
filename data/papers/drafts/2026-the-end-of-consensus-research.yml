@@ -1,0 +1,35 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-end-of-consensus-research
+type: papers
+title: The End of Consensus Research?
+url: https://arxiv.org/abs/2610.30114v1
+authors:
+- Clément Burgelin
+- Rachid Guerraoui
+- Zicong Hong
+- Yinan Hu
+- Anne-Marie Kermarrec
+- Rafael Pires
+- Rasmus Moorits Veski
+- Martijn de Vos
+venue: arXiv
+year: 2026
+summary: Presents AI-greement, an agent harness for the autonomous discovery, implementation, experimentation,
+  and verification of distributed consensus protocols, demonstrating its utility by discovering a new
+  high-performance protocol.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper describes a novel agent harness (AI-greement) for discovering, implementing, and
+    verifying distributed systems protocols, which is a direct contribution to agentic systems architectures
+    for reliability.
+status: draft

@@ -1,0 +1,38 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-engineering-requirements-for-generative-ai-agents-the-bard
+type: papers
+title: 'Engineering Requirements for Generative AI Agents: The BARD Process Theory'
+url: https://arxiv.org/abs/2610.29741v1
+authors:
+- Alfonso Cannavale
+- Antonio Della Porta
+- Gianmario Voria
+- Gilberto Recupito
+- Maria Teresa Baldassarre
+- Gemma Catolino
+- Fabio Palomba
+- Andrea De Lucia
+- Stefano Lambiase
+venue: arXiv
+year: 2026
+summary: Proposes BARD, a process theory for Requirements Engineering (RE) for Generative AI Agents, emphasizing
+  iterative discovery of requirements through scoping, building, observing, and revising agent behavior
+  due to their non-deterministic nature.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a foundational process theory for engineering requirements for agentic
+    systems, directly addressing the challenges of their non-deterministic behavior from a systems perspective.
+status: draft

@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-compaction-laundering-provenance-destruction-in-context-compacting-coding
+type: papers
+title: 'Compaction Laundering: Provenance Destruction in Context-Compacting Coding Agents'
+url: https://arxiv.org/abs/2610.29869v1
+authors:
+- Arshan Dabirsiaghi
+venue: arXiv
+year: 2026
+summary: Identifies a provenance destruction vulnerability in context-compacting coding agents where flattening
+  conversation history into a plain string allows attackers to launder malicious instructions into agent
+  memory, and proposes a code-level provenance check and serializer fix.
+harness_layer:
+- memory
+sprs:
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses a critical security vulnerability in agent memory management and context
+    handling, with concrete attacks and proposed systems-level defenses.
+status: draft

@@ -1,0 +1,36 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-bridging-foundational-and-agentic-capabilities-of-llms
+type: papers
+title: Bridging Foundational and Agentic Capabilities of LLMs
+url: https://arxiv.org/abs/2610.29751v1
+authors:
+- Wei Guo
+- Yuanjian Xu
+- Jianing Hao
+- Yongyao Duan
+- Ran Chen
+- Zhong Li
+- Guang Zhang
+venue: arXiv
+year: 2026
+summary: A framework for diagnosing agentic system failures by comparing foundational model capabilities
+  with observed operational performance, identifying 'capability realization gaps' at the operation level.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: The paper provides a diagnostic framework for understanding agent failures by analyzing the
+    gap between model capabilities and operational performance, which is relevant to agent evaluation
+    and reliability.
+status: draft
