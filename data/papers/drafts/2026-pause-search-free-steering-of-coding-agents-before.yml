@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-pause-search-free-steering-of-coding-agents-before
+type: papers
+title: 'PAUSE: Search-Free Steering of Coding Agents Before Their First Source-Code Edit'
+url: https://arxiv.org/abs/2610.29870v1
+authors:
+- Viral Patel
+- Boyin Tan
+- Jason Xue
+- Youcheng Sun
+venue: arXiv
+year: 2026
+summary: PAUSE is a framework for single-intervention steering of coding agents by intercepting the first
+  source-code edit request, allowing a separate Planner to provide a repair plan before execution, improving
+  resolution and reducing token usage.
+harness_layer:
+- oversight
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper contributes to human oversight and reliability of agentic systems by introducing
+    a novel, cost-effective steering mechanism for coding agents at a critical decision point.
+status: draft

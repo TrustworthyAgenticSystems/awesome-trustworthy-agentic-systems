@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-prompt-injection-through-forensic-evidence-a-taxonomy-and
+type: papers
+title: 'Prompt Injection Through Forensic Evidence: A Taxonomy and Proof of Concept of Anti-Forensic Attacks
+  on LLM-Assisted Digital Investigations'
+url: https://arxiv.org/abs/2610.29747v1
+authors:
+- Frank Breitinger
+- Jan Gruber
+- Christopher Hargreaves
+- Jan-Niclas Hilgert
+- Gaëtan Michelet
+- Mark Scanlon
+venue: arXiv
+year: 2026
+summary: This paper introduces a taxonomy and proof-of-concept for anti-forensic prompt injection attacks
+  against LLM-assisted digital investigation pipelines, where attacker-controlled evidence manipulates
+  the agent's reasoning and actions.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: The paper directly addresses a novel prompt injection attack surface in agentic systems,
+    specifically in digital forensics, and demonstrates system-level exploits and proposes mitigations.
+status: draft
