@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-reliable-ai-assisted-decisions-via-selective-auditing
+type: papers
+title: Reliable AI-Assisted Decisions via Selective Auditing
+url: https://arxiv.org/abs/2610.31662v1
+authors:
+- Isaac Gibbs
+- Elise L. Han
+- Ryan J. Tibshirani
+- Tijana Zrnic
+venue: arXiv
+year: 2026
+summary: This paper proposes a selective auditing framework for AI-assisted decision systems that minimizes
+  human oversight while guaranteeing a user-defined threshold for un-audited AI errors.
+harness_layer:
+- oversight
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: The paper directly addresses human oversight at scale for agentic systems by optimizing auditing
+    frequency with provable error control.
+status: draft

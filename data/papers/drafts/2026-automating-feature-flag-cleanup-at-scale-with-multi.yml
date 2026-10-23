@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-automating-feature-flag-cleanup-at-scale-with-multi
+type: papers
+title: 'Automating Feature Flag Cleanup at Scale with Multi-Agent LLM Systems: An Industrial Experience
+  at DoorDash'
+url: https://arxiv.org/abs/2610.31351v1
+authors:
+- Atharv Chandratre
+- Jai Datar
+venue: arXiv
+year: 2026
+summary: An end-to-end multi-agent LLM system for automating feature flag cleanup at DoorDash, integrating
+  live data querying, Jira processing, and pull request creation, demonstrating operational viability
+  and providing architectural lessons learned.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper presents a real-world, end-to-end multi-agent system architecture for a practical
+    software engineering problem, including operational details and lessons learned.
+status: draft

@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-muffin-a-shared-memory-buffer-for-asynchronous-ai
+type: papers
+title: Muffin - A Shared Memory Buffer for Asynchronous AI Agents
+url: https://arxiv.org/abs/2610.31355v1
+authors:
+- Ping-Lin Kuo
+- Suman Navaratnarajah
+- Christian Frey
+- Gresa Shala
+- Josif Grabocka
+venue: arXiv
+year: 2026
+summary: Muffin proposes an asynchronous shared memory buffer for multi-agent systems to improve information
+  exchange and coordination, allowing agents to share intermediate findings without full-trace sharing.
+harness_layer:
+- memory
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper introduces a novel inter-agent communication protocol based on a shared memory
+    buffer, directly addressing a systems-level challenge in multi-agent coordination and information
+    exchange.
+status: draft

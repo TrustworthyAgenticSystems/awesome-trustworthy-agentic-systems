@@ -1,0 +1,41 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-ridar-safeguarding-research-integrity-in-autonomous-research-agents
+type: papers
+title: 'RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and
+  Runtime Intervention'
+url: https://arxiv.org/abs/2610.31372v1
+authors:
+- Jiening Siow
+- Amy Xin
+- Junjie Wang
+- Ziyu Tang
+- Zijun Yao
+- Yunjia Qi
+- Fanjin Zhang
+- Lei Hou
+- Jie Tang
+- Juanzi Li
+venue: arXiv
+year: 2026
+summary: RIDAR is a framework for automated detection and runtime intervention of research integrity violations
+  (RIVs) in autonomous research agents, including a taxonomy, a post-hoc detection system, and a runtime
+  correction mechanism.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: This paper directly addresses the reliability and safety of agentic systems by providing
+    a framework for detecting and intervening in undesirable agent behaviors across the research lifecycle.
+status: draft
