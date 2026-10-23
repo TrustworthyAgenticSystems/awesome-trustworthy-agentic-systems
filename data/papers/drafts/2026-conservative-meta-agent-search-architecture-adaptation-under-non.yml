@@ -1,0 +1,30 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-conservative-meta-agent-search-architecture-adaptation-under-non
+type: papers
+title: 'Conservative Meta-Agent Search: Architecture Adaptation under Non-Stationarity'
+url: https://arxiv.org/abs/2610.31436v1
+authors:
+- Ali Atiah Alzahrani
+venue: arXiv
+year: 2026
+summary: Introduces Conservative Meta-Agent Search (CMAS) for adapting agent architectures under non-stationary
+  conditions, using shadow replay, interventional component credit, and a calibrated promotion mechanism
+  with rollback, evaluated on a regime-switching simulator and financial streams.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper addresses the systems-level problem of adapting agent architectures in production
+    under non-stationary conditions, including mechanisms for evaluation, promotion, and rollback.
+status: draft

@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-certified-execution-harness-for-agentic-ai-safe-and
+type: papers
+title: 'Certified Execution Harness for Agentic AI: Safe and Least-Intrusive Petri-Net Supervisory Control
+  Between Reasoning and Action'
+url: https://arxiv.org/abs/2610.31376v1
+authors:
+- Chao Gu
+- Quanyan Zhu
+venue: arXiv
+year: 2026
+summary: Formalizes agent tool execution as a Petri-net supervisory control problem to enforce safe and
+  least-intrusive permissions, preventing prompt injection by requiring capabilities and budgets as preconditions
+  for tool use.
+harness_layer:
+- permissions
+sprs:
+- security
+- safety
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.92
+  rationale: Directly addresses agent permissions and safe tool execution using a formal systems-engineering
+    approach (Petri nets) to mitigate prompt injection.
+status: draft
