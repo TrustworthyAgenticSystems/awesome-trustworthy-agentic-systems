@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-i-hitl-inalienable-human-in-the-loop
+type: papers
+title: 'I-HITL: Inalienable Human-in-the-Loop'
+url: https://arxiv.org/abs/2610.35835v1
+authors:
+- Samuel Breckenridge
+- Dani Vilardell
+- Wenhao Wang
+- Fan Zhang
+- Ari Juels
+venue: arXiv
+year: 2026
+summary: Introduces Inalienable Human-in-the-Loop (I-HITL) protocols to ensure robust human approval for
+  agent actions, even under agent or adversarial human compromise, and prototypes a system using off-the-shelf
+  mobile devices.
+harness_layer:
+- oversight
+sprs:
+- safety
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: Directly addresses the problem of robust human oversight in agentic systems, including adversarial
+    bypasses and a concrete system design.
+status: draft

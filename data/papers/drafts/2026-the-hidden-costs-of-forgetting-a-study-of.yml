@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-hidden-costs-of-forgetting-a-study-of
+type: papers
+title: 'The Hidden Costs of Forgetting: A Study of Trajectory Deletion in Software Engineering Agents'
+url: https://arxiv.org/abs/2610.35496v1
+authors:
+- Fernando Vallecillos-Ruiz
+- Islem Bouzenia
+- Michael Pradel
+- Leon Moonen
+venue: arXiv
+year: 2026
+summary: Empirical study of trajectory reduction techniques for software engineering agents, analyzing
+  their impact on effectiveness, agent behavior (re-fetching), and cost under different pricing models.
+harness_layer:
+- memory
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses memory management and its impact on agent reliability and cost,
+    including how agents compensate for deleted content, which is a systems-level concern.
+status: draft
