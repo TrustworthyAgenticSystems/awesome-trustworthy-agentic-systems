@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-gear-feature-based-configuration-and-code-generation-for
+type: papers
+title: 'GEAR: Feature-Based Configuration and Code Generation for Agentic Systems'
+url: https://arxiv.org/abs/2610.35592v1
+authors:
+- Brell Sanwouo
+- Nada Zine
+- Paul Temple
+- Clément Quinton
+- Romain Rouvoy
+venue: arXiv
+year: 2026
+summary: GEAR is an open-source tool that enables feature-based configuration and code generation for
+  multi-agent systems across ten different agentic frameworks, facilitating prototyping and exploration
+  of MAS configurations.
+harness_layer:
+- architectures
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper contributes to the architectural understanding and engineering of agentic systems
+    by providing a tool for consistent configuration and code generation across diverse frameworks, improving
+    reliability and reproducibility.
+status: draft

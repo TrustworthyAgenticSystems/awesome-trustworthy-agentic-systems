@@ -1,0 +1,43 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-profiling-a-frontier-agent-with-ebench-from-direct
+type: papers
+title: 'Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy'
+url: https://arxiv.org/abs/2610.35832v1
+authors:
+- Yifei Yao
+- Yude Zou
+- Guanbo Jiao
+- Xing Gao
+- Ning Gao
+- Yukai Wang
+- Jiantong Chen
+- Zihou Zhu
+- Xinyu Li
+- Ningyu Yan
+- Shuai Wang
+- Jianming Ma
+- Haoyu Guo
+- Weinan Zhang
+- Chunhua Shen
+venue: arXiv
+year: 2026
+summary: Evaluates a frontier MLLM agent's robot control capabilities in two configurations (direct control
+  and harness with policy) on EBench, characterizing performance boundaries and suggesting improvements
+  for agent harness design.
+harness_layer:
+- architectures
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper evaluates agent configurations and interactions with policies within a robot control
+    harness, directly contributing to understanding and improving agent architecture design for reliability.
+status: draft
