@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-aligning-institutional-power-and-operational-ability
+type: papers
+title: Aligning Institutional Power and Operational Ability
+url: https://arxiv.org/abs/2610.37342v1
+authors:
+- Andrea Marino
+- Giovanni Sileno
+- Thomas van Binsbergen
+- Tom van Engers
+venue: arXiv
+year: 2026
+summary: This paper proposes a formal framework for aligning institutional power and operational ability
+  in multi-agent systems to ensure social sustainability and avoid normative pitfalls like privilege escalation.
+harness_layer:
+- foundations
+sprs:
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: The paper contributes to the foundational understanding and normative design of trustworthy
+    agentic systems by addressing the alignment of responsibilities and capabilities.
+status: draft
