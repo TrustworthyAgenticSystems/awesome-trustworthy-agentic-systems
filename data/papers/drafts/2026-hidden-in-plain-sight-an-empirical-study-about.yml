@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-hidden-in-plain-sight-an-empirical-study-about
+type: papers
+title: 'Hidden in Plain Sight: an Empirical Study about The Instruction Stacks of Coding Agents'
+url: https://arxiv.org/abs/2610.37332v1
+authors:
+- Felipe de Sant'Anna Paixão
+- Dhyego Tavares
+- Eduardo Almeida
+- Iftekhar Ahmed
+venue: arXiv
+year: 2026
+summary: Empirical study of the hidden instruction stacks (system prompts, tool definitions, context)
+  sent to coding agents, revealing their composition, evolution, and impact on agent behavior and attribution.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- security
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides foundational empirical research on a critical, often hidden, component
+    of agentic systems (the instruction stack) and its implications for reliability and security.
+status: draft
