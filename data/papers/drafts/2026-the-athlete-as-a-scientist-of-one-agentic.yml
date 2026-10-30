@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-the-athlete-as-a-scientist-of-one-agentic
+type: papers
+title: 'The Athlete as a Scientist of One: Agentic Bayesian Experimental Design for Individualized Physiology
+  from Consumer Wearables'
+url: https://arxiv.org/abs/2610.40370v1
+authors:
+- Behnam Moradi
+venue: arXiv
+year: 2026
+summary: EpiCoach is an agentic system for personalized athletic training that uses an evidence-gated
+  hypothesis registry to make auditable and falsifiable predictions, prescribing training as a constrained
+  experiment to maximize information gain while adhering to safety limits.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper presents a detailed architecture for an agentic system focused on auditable and
+    falsifiable personalization in digital health, including safety constraints and a transparent registry
+    of predictions and corrections.
+status: draft
