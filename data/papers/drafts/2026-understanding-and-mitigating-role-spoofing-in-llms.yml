@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-understanding-and-mitigating-role-spoofing-in-llms
+type: papers
+title: Understanding and Mitigating Role Spoofing in LLMs
+url: https://arxiv.org/abs/2610.40396v1
+authors:
+- Ezra Edelman
+- Benjamin Edelman
+- Surbhi Goel
+- Eran Malach
+venue: arXiv
+year: 2026
+summary: Characterizes 'role spoofing' attacks where malicious tool outputs impersonate the user by leveraging
+  LLM role confusion, and proposes a detection method using linear probes.
+harness_layer:
+- red-team
+sprs:
+- security
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: Directly addresses a system-level adversarial attack (role spoofing via tool outputs) and
+    proposes a detection mechanism for agentic systems.
+status: draft
