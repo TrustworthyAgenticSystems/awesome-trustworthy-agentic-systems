@@ -1,0 +1,40 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-from-fair-to-ai-fair-metadata-first-infrastructure
+type: papers
+title: From FAIR to AI-FAIR Metadata-First Infrastructure for AI-Enabled Science
+url: https://arxiv.org/abs/2611.03327v1
+authors:
+- Elizabeth G. Campolongo
+- Eric R. Sokol
+- Marty Downs
+- Gina Glenne
+- Gregory E. Maurer
+- Sydne Record
+- Dustin R. Rubenstein
+- Matthew J. Thompson
+- Christine Laney
+- Hilmar Lapp
+- Max Tarjan
+- Tanya Berger-Wolf
+venue: arXiv
+year: 2026
+summary: Proposes AI-FAIR metadata criteria and an agentic evaluation workflow to assess datasets for
+  AI-readiness, traceability, and ethical stewardship, aiming to close the model-data loop in scientific
+  discovery.
+harness_layer:
+- foundations
+sprs:
+- reliability
+- safety
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: This paper introduces a foundational framework (AI-FAIR principles) and an agentic system
+    (evaluation workflow) for ensuring data quality, traceability, and ethical stewardship in AI-enabled
+    science, addressing trustworthiness at a systemic level.
+status: draft
