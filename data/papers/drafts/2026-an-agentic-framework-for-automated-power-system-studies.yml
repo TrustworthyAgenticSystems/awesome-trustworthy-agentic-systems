@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-an-agentic-framework-for-automated-power-system-studies
+type: papers
+title: An Agentic Framework for Automated Power System Studies and Grid Connection Assessment
+url: https://arxiv.org/abs/2611.03534v1
+authors:
+- MaoXun Huang
+- Kshitij Kapoor
+- Eli Louise
+venue: arXiv
+year: 2026
+summary: Presents Grid Agents, an AI system for power system studies and grid connection assessment, integrating
+  a knowledge system (Grid Ontology) and an agent system (Grid Studio) that uses domain tools and established
+  solvers, with a focus on verifiable evidence and replayable tool calls for evaluation.
+harness_layer:
+- architectures
+sprs:
+- reliability
+- safety
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Describes an end-to-end agentic system architecture for a critical domain, including verifiable
+    evidence and replayable tool calls for reliability and safety.
+status: draft

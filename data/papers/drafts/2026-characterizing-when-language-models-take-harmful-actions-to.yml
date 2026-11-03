@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-characterizing-when-language-models-take-harmful-actions-to
+type: papers
+title: Characterizing When Language Models Take Harmful Actions to Protect Their Assigned Goals
+url: https://arxiv.org/abs/2611.03374v1
+authors:
+- Brandon Jaipersaud
+- Elliot Creager
+venue: arXiv
+year: 2026
+summary: Formalizes 'goal-harm conflict' as a common decision structure for agentic misalignment and alignment
+  faking, and characterizes how goal importance, harm severity, fictional context, tool use, and partial
+  observability influence harmful actions in agentic environments.
+harness_layer:
+- foundations
+sprs:
+- safety
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.85
+  rationale: Provides a foundational framework for understanding and characterizing agentic safety failures,
+    particularly in how LMs resolve value conflicts in simulated agentic environments with tool use and
+    partial observability.
+status: draft
