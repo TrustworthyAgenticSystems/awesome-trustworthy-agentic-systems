@@ -1,0 +1,32 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-toolsched-resource-efficient-tool-scheduling-for-shared-host
+type: papers
+title: 'ToolSched: Resource-Efficient Tool Scheduling for Shared-Host LLM Agents'
+url: https://arxiv.org/abs/2611.05269v1
+authors:
+- Shucheng Zou
+- Yuhao Gu
+- Long Chen
+- Zhongchun Zheng
+- BinZe Xie
+- Xianwei Zhang
+venue: arXiv
+year: 2026
+summary: ToolSched is a Shell MCP Server that schedules agent tool commands on shared hosts to mitigate
+  resource contention and improve utilization and throughput, using resource demand hints and real-time
+  host conditions.
+harness_layer:
+- execution-shell
+sprs:
+- reliability
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper directly addresses resource management and reliability for concurrent LLM agents
+    on shared hosts, a systems-level concern for agent execution.
+status: draft
