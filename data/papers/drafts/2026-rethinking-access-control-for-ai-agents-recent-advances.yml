@@ -1,0 +1,31 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-rethinking-access-control-for-ai-agents-recent-advances
+type: papers
+title: 'Rethinking Access Control for AI Agents: Recent Advances and Open Challenges'
+url: https://arxiv.org/abs/2611.06764v1
+authors:
+- Chijin Zhou
+- Quan Zhang
+venue: arXiv
+year: 2026
+summary: A survey and conceptual framework for agent access control, analyzing policy specification, identity,
+  enforcement, and information flow, and identifying open challenges for plan-aware and context-aware
+  authorization.
+harness_layer:
+- permissions
+sprs:
+- security
+- privacy
+open_problems:
+- least-privilege-reasoning
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.95
+  rationale: This paper directly addresses access control and permissions for AI agents as a systems problem,
+    including enforcement boundaries and information flow, which is central to trustworthy agentic systems.
+status: draft

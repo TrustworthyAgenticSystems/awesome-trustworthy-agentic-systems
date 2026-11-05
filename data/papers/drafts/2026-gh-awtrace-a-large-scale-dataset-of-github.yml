@@ -1,0 +1,33 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-gh-awtrace-a-large-scale-dataset-of-github
+type: papers
+title: 'GH-AWTrace: A Large-Scale Dataset of GitHub Agentic Workflow Execution Logs'
+url: https://arxiv.org/abs/2611.06866v1
+authors:
+- Jasem Khelifi
+- Hao Li
+- Ali Ouni
+- Mohammed Sayagh
+- Mohamed Aymen Saied
+venue: arXiv
+year: 2026
+summary: GH-AWTrace is a large-scale dataset of GitHub Agentic Workflow execution logs, linking workflow
+  definitions to run records and execution logs, enabling research into execution failures and tool use.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- observability-attribution
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.9
+  rationale: This paper provides a dataset for observing and evaluating real-world agentic workflow executions,
+    directly supporting research into agent reliability and observability.
+status: draft
