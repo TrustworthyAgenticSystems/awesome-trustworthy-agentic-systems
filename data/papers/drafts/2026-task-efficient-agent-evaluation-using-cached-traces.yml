@@ -1,0 +1,29 @@
+# Drafted by research-agent. Review before promoting.
+# To accept: move this file to data/papers/<id>.yml, set
+# status: published, and record provenance.reviewed_by.
+# To reject: delete this file.
+
+id: 2026-task-efficient-agent-evaluation-using-cached-traces
+type: papers
+title: Task-Efficient Agent Evaluation Using Cached Traces
+url: https://arxiv.org/abs/2611.06803v1
+authors:
+- Ben Johnson
+- Hayden Helm
+venue: arXiv
+year: 2026
+summary: Proposes a method to efficiently evaluate agentic systems by representing execution traces as
+  structured LLM summaries and embeddings, enabling accurate performance prediction from fewer task executions.
+harness_layer:
+- observation-eval
+sprs:
+- reliability
+open_problems:
+- long-horizon-eval
+provenance:
+  added_by: agent
+  drafted_by: research-agent
+  confidence: 0.88
+  rationale: Addresses efficient evaluation of agentic systems by leveraging execution traces, contributing
+    to the observation-eval layer and long-horizon evaluation.
+status: draft
